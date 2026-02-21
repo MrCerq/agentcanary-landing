@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgentCanary â€” Market Intelligence for AI Agents</title>
+<meta name="description" content="Macro regime detection, risk scoring, trading signals, whale alerts, social sentiment, and AI market briefs from 250+ sources. The only financial intelligence skill on ClawHub.">
+<meta property="og:title" content="AgentCanary â€” Market Intelligence for AI Agents">
+<meta property="og:description" content="33 endpoints. 250+ data sources. 1,181 assets. The finance skill on ClawHub that can't steal from you.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://agentcanary.ai">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AgentCanary â€” Market Intelligence for AI Agents">
+<meta name="twitter:description" content="Macro regime detection, trading signals, social sentiment â€” for ClawBot and AI agents. Not raw data. Intelligence.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>AC</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#04070c;--bg2:#080d18;--card:#0b1120;--card-h:#0f1628;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--y-glow:rgba(255,197,61,.10);--y-glow-s:rgba(255,197,61,.22);--y-border:rgba(255,197,61,.20);--g:#34d399;--g-glow:rgba(52,211,153,.10);--r:#f87171;--b:#60a5fa;--p:#a78bfa;--o:#fb923c;--o-glow:rgba(251,146,60,.12);--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--t1);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");pointer-events:none;z-index:9999}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;background:rgba(4,7,12,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
+.nav-left{display:flex;align-items:center;gap:18px}
+.nav-logo{font-family:var(--mono);font-weight:700;font-size:17px;letter-spacing:-.5px}
+.nav-logo span{color:var(--y)}
+.nav-pills{display:flex;gap:8px}
+.nav-pill{font-family:var(--mono);font-size:11px;font-weight:500;padding:5px 12px;border-radius:100px;border:1px solid var(--border);color:var(--t2);letter-spacing:.3px}
+.nav-pill.live{border-color:var(--y-border);color:var(--y);background:var(--y-glow)}
+.nav-pill.live::before{content:'';display:inline-block;width:6px;height:6px;background:var(--y);border-radius:50%;margin-right:6px;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links a{font-size:14px;color:var(--t2);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--t1)}
+.nav-cta{font-family:var(--mono);font-size:12px;font-weight:600;padding:8px 18px;background:var(--y);color:var(--bg);border:none;border-radius:6px;cursor:pointer;text-decoration:none;transition:all .2s}
+.nav-cta:hover{background:var(--y-dim);box-shadow:0 0 20px var(--y-glow-s)}
+
+.hero{padding:170px 40px 80px;max-width:1200px;margin:0 auto;position:relative}
+.hero-grid{position:absolute;top:80px;left:-200px;right:-200px;bottom:-100px;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none}
+.hero-glow{position:absolute;top:40px;left:50%;transform:translateX(-50%);width:900px;height:500px;background:radial-gradient(circle,rgba(255,197,61,.04) 0%,transparent 65%);pointer-events:none}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;color:var(--g);background:var(--g-glow);border:1px solid rgba(52,211,153,.2);padding:6px 14px;border-radius:100px;margin-bottom:24px;animation:fadeUp .6s ease-out}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.hero h1{font-size:clamp(44px,5.8vw,78px);font-weight:700;line-height:1.06;letter-spacing:-2.5px;max-width:820px;animation:fadeUp .6s ease-out .1s both}
+.hero h1 em{font-style:normal;color:var(--y)}
+.hero-sub{font-size:18px;color:var(--t2);max-width:620px;margin-top:22px;line-height:1.7;animation:fadeUp .6s ease-out .2s both}
+.hero-actions{display:flex;gap:14px;margin-top:36px;animation:fadeUp .6s ease-out .3s both;flex-wrap:wrap}
+
+.btn-primary{font-family:var(--mono);font-size:13px;font-weight:600;padding:14px 28px;background:var(--y);color:var(--bg);border:none;border-radius:8px;cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:8px}
+.btn-primary:hover{box-shadow:0 0 28px var(--y-glow-s),0 4px 16px rgba(0,0,0,.3);transform:translateY(-1px)}
+.btn-secondary{font-family:var(--mono);font-size:13px;font-weight:500;padding:14px 28px;background:transparent;color:var(--t1);border:1px solid var(--border-b);border-radius:8px;cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:8px}
+.btn-secondary:hover{border-color:var(--t2);background:rgba(255,255,255,.03)}
+.btn-tg{font-family:var(--mono);font-size:13px;font-weight:500;padding:14px 28px;background:rgba(38,165,220,.08);color:#26a5dc;border:1px solid rgba(38,165,220,.25);border-radius:8px;cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:8px}
+.btn-tg:hover{background:rgba(38,165,220,.14);border-color:rgba(38,165,220,.4)}
+
+.stat-wrap{max-width:1200px;margin:0 auto;padding:0 40px}
+.stat-bar{display:flex;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:12px;overflow:hidden;animation:fadeUp .6s ease-out .4s both}
+.stat-item{flex:1;background:var(--card);padding:24px 16px;text-align:center;transition:background .2s}
+.stat-item:hover{background:var(--card-h)}
+.stat-num{font-family:var(--mono);font-size:24px;font-weight:700;color:var(--y);letter-spacing:-1px}
+.stat-lbl{font-size:11px;color:var(--t3);margin-top:3px}
+
+section{max-width:1200px;margin:0 auto;padding:90px 40px}
+.s-label{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--y);margin-bottom:12px}
+.s-title{font-size:clamp(28px,3.5vw,42px);font-weight:700;letter-spacing:-1.5px;line-height:1.15;max-width:680px}
+.s-desc{font-size:16px;color:var(--t2);max-width:580px;margin-top:12px;line-height:1.7}
+
+.trust{max-width:1200px;margin:50px auto 0;padding:0 40px}
+.trust-inner{background:linear-gradient(135deg,rgba(52,211,153,.04),rgba(52,211,153,.01));border:1px solid rgba(52,211,153,.15);border-radius:14px;padding:32px 36px;display:flex;gap:40px;align-items:center}
+.trust-left{flex:1}
+.trust-left h3{font-size:20px;font-weight:700;letter-spacing:-.5px;margin-bottom:8px}
+.trust-left h3 span{color:var(--g)}
+.trust-left p{font-size:14px;color:var(--t2);line-height:1.7}
+.trust-checks{display:flex;flex-wrap:wrap;gap:8px;flex:1}
+.trust-chk{display:flex;align-items:center;gap:8px;padding:10px 14px;background:rgba(52,211,153,.04);border:1px solid rgba(52,211,153,.1);border-radius:8px;font-size:12px;color:var(--t2);white-space:nowrap}
+.trust-chk .ic{color:var(--g);font-weight:700}
+
+.cap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-top:44px}
+.cap-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px;transition:all .25s}
+.cap-card:hover{border-color:var(--border-b);background:var(--card-h);transform:translateY(-2px)}
+.cap-card h3{font-size:15px;font-weight:600;margin-bottom:6px;letter-spacing:-.2px}
+.cap-card p{font-size:13px;color:var(--t2);line-height:1.6}
+.cap-tag{display:inline-block;font-family:var(--mono);font-size:9px;font-weight:600;padding:3px 7px;border-radius:4px;margin-top:10px;letter-spacing:.5px}
+.tag-exc{background:var(--y-glow);color:var(--y);border:1px solid var(--y-border)}
+.tag-live{background:var(--g-glow);color:var(--g);border:1px solid rgba(52,211,153,.2)}
+
+.code-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:44px}
+.code-blk{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.code-hdr{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--t3)}
+.code-dot{width:8px;height:8px;border-radius:50%}
+.code-body{padding:16px;font-family:var(--mono);font-size:12px;line-height:1.8;color:var(--t2);overflow-x:auto;white-space:pre}
+.code-body .kw{color:var(--p)} .code-body .fn{color:var(--b)} .code-body .str{color:var(--y)} .code-body .cmt{color:var(--t3);font-style:italic} .code-body .key{color:var(--t1)}
+
+.how-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
+.how-step{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:28px 24px}
+.how-num{font-family:var(--mono);font-size:48px;font-weight:700;color:var(--border-b);line-height:1;margin-bottom:12px}
+.how-step h3{font-size:16px;font-weight:600;margin-bottom:6px}
+.how-step p{font-size:13px;color:var(--t2);line-height:1.6}
+.how-tiers{margin-top:32px}
+.how-tiers-title{font-family:var(--mono);font-size:12px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px}
+.tier-row{display:grid;grid-template-columns:100px 90px 1fr 80px;align-items:center;padding:10px 16px;background:var(--card);border:1px solid var(--border);border-radius:6px;margin-bottom:6px;font-size:13px;gap:12px}
+.tier-row:hover{background:var(--card-h);border-color:var(--border-b)}
+.tier-name{font-family:var(--mono);font-weight:600;color:var(--t1);font-size:12px}
+.tier-price{font-family:var(--mono);color:var(--y);font-size:12px}
+.tier-desc{color:var(--t2);font-size:12px}
+.tier-per{font-family:var(--mono);color:var(--t3);font-size:11px;text-align:right}
+.tier-row.featured{border-color:var(--y-border);background:rgba(255,197,61,.03)}
+.tokens-row{display:flex;align-items:center;gap:10px;margin-top:20px;flex-wrap:wrap}
+.tokens-lbl{font-size:11px;color:var(--t3)}
+.tok{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:11px;padding:4px 10px;border:1px solid var(--border);border-radius:100px;color:var(--t2);background:var(--card)}
+.tok-dot{width:6px;height:6px;border-radius:50%}
+
+.tg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
+.tg-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px}
+.tg-time{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--y);margin-bottom:4px}
+.tg-card h3{font-size:15px;font-weight:600;margin-bottom:8px}
+.tg-card p{font-size:13px;color:var(--t2);line-height:1.6}
+.tg-card ul{list-style:none;margin-top:10px;display:flex;flex-direction:column;gap:4px}
+.tg-card li{font-size:11px;color:var(--t3);padding-left:14px;position:relative;font-family:var(--mono)}
+.tg-card li::before{content:'â†’';position:absolute;left:0;color:var(--y)}
+.tg-cta{text-align:center;margin-top:32px}
+
+.cmp{width:100%;margin-top:44px;border-collapse:separate;border-spacing:0;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.cmp th,.cmp td{padding:12px 16px;text-align:left;font-size:13px;border-bottom:1px solid var(--border)}
+.cmp th{background:var(--card);font-family:var(--mono);font-size:11px;font-weight:600;color:var(--t3);letter-spacing:.5px;text-transform:uppercase}
+.cmp th:last-child{color:var(--y);background:rgba(255,197,61,.03)}
+.cmp td{background:var(--bg);color:var(--t2)}
+.cmp td:first-child{font-weight:600;color:var(--t1)}
+.cmp td:last-child{background:rgba(255,197,61,.02);color:var(--y);font-weight:600}
+.cmp tr:last-child td{border-bottom:none}
+.cmp .ck{color:var(--y);font-weight:700}
+.cmp .no{color:var(--t3)}
+
+.proof-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:44px}
+.proof-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px}
+.proof-num{font-family:var(--mono);font-size:28px;font-weight:700;color:var(--y);letter-spacing:-1px}
+.proof-lbl{font-size:13px;color:var(--t2);margin-top:3px}
+.proof-det{font-size:12px;color:var(--t3);margin-top:8px;line-height:1.5}
+.proof-det a{color:var(--y);text-decoration:none}
+.proof-det a:hover{text-decoration:underline}
+
+.proof-card.prox{border-color:var(--y-border);background:rgba(255,197,61,.02)}
+.proof-card.prox .proof-num{font-size:20px;letter-spacing:-.5px}
+
+.notify{max-width:1200px;margin:0 auto;padding:0 40px}
+.notify-inner{background:var(--card);border:1px solid var(--y-border);border-radius:12px;padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:32px}
+.notify-text h3{font-size:18px;font-weight:600;margin-bottom:4px}
+.notify-text p{font-size:14px;color:var(--t2)}
+.notify-form{display:flex;gap:8px}
+.notify-input{font-family:var(--mono);font-size:13px;padding:10px 16px;background:var(--bg);border:1px solid var(--border-b);border-radius:6px;color:var(--t1);outline:none;width:280px}
+.notify-input::placeholder{color:var(--t3)}
+.notify-input:focus{border-color:var(--y-border)}
+.notify-btn{font-family:var(--mono);font-size:12px;font-weight:600;padding:10px 20px;background:var(--y);color:var(--bg);border:none;border-radius:6px;cursor:pointer;white-space:nowrap}
+
+.cta{text-align:center;padding:100px 40px;position:relative;max-width:1200px;margin:0 auto}
+.cta-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:500px;height:350px;background:radial-gradient(circle,rgba(255,197,61,.05),transparent 70%);pointer-events:none}
+.cta h2{font-size:clamp(32px,4vw,48px);font-weight:700;letter-spacing:-2px;position:relative}
+.cta p{font-size:16px;color:var(--t2);margin-top:16px;max-width:480px;margin-left:auto;margin-right:auto;position:relative}
+.cta-btns{display:flex;gap:14px;justify-content:center;margin-top:32px;position:relative;flex-wrap:wrap}
+
+footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+.ft-left{font-family:var(--mono);font-size:12px;color:var(--t3)}
+.ft-disc{display:block;margin-top:6px;font-size:10px;color:var(--t3);opacity:.7;max-width:480px;line-height:1.5}
+.ft-links{display:flex;gap:20px}
+.ft-links a{font-size:12px;color:var(--t3);text-decoration:none;transition:color .2s}
+.ft-links a:hover{color:var(--t2)}
+
+@media(max-width:1024px){.code-grid,.tg-grid,.how-steps{grid-template-columns:1fr}.trust-inner{flex-direction:column}.proof-row{grid-template-columns:repeat(2,1fr)}.tier-row{grid-template-columns:90px 80px 1fr}.tier-per{display:none}.uc-grid{grid-template-columns:repeat(2,1fr)!important}}
+@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:flex;flex-direction:column}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp{font-size:11px}.cmp th,.cmp td{padding:8px 10px}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%}.notify-input{flex:1}footer{flex-direction:column;text-align:center}.uc-grid{grid-template-columns:1fr!important}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <div class="nav-logo">Agent<span>Canary</span></div>
+    <div class="nav-pills">
+      <div class="nav-pill live">API Live</div>
+      <div class="nav-pill">ClawHub Skill</div>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="#capabilities">Capabilities</a>
+    <a href="#how">How It Works</a>
+    <a href="#compare">Compare</a>
+    <a href="#telegram">Telegram</a>
+    <a href="https://docs.agentcanary.ai" target="_blank">Docs</a>
+    <a href="https://t.me/AgentCanary" target="_blank" class="nav-cta">Join Telegram</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-badge">Now on ClawHub â€” install the skill for free</div>
+  <h1>Market <em>intelligence</em> for ClawBot and&nbsp;AI&nbsp;agents</h1>
+  <p class="hero-sub">Macro regime detection, risk scoring, trading signals, whale alerts, social sentiment, and AI market briefs â€” in a single API. Not raw data. Intelligence.</p>
+  <div class="hero-actions">
+    <a href="https://t.me/AgentCanary" class="btn-primary" target="_blank">Join Telegram â€” See It Live</a>
+    <a href="#how" class="btn-secondary">Install on ClawHub</a>
+  </div>
+  <div style="margin-top:20px;animation:fadeUp .6s ease-out .4s both;position:relative;">
+    <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+      <div style="font-family:var(--mono);font-size:12px;background:var(--card);border:1px solid var(--border-b);border-radius:6px;padding:10px 16px;display:inline-flex;align-items:center;gap:12px;cursor:pointer;" onclick="navigator.clipboard.writeText('clawhub install agentcanary');this.querySelector('.copy-label').textContent='Copied'">
+        <span style="color:var(--t2);">$</span><span style="color:var(--y);">clawhub install agentcanary</span>
+        <span class="copy-label" style="color:var(--t3);font-size:10px;border-left:1px solid var(--border);padding-left:10px;">Click to copy</span>
+      </div>
+      <span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Free tier · 50 calls/day · Credits never expire · No KYC</span>
+    </div>
+  </div>
+</div>
+
+<div class="stat-wrap">
+  <div class="stat-bar">
+    <div class="stat-item"><div class="stat-num">250+</div><div class="stat-lbl">Data Sources</div></div>
+    <div class="stat-item"><div class="stat-num">1,181</div><div class="stat-lbl">Assets</div></div>
+    <div class="stat-item"><div class="stat-num">33</div><div class="stat-lbl">API Endpoints</div></div>
+    <div class="stat-item"><div class="stat-num">80+</div><div class="stat-lbl">Endpoints</div></div>
+    <div class="stat-item"><div class="stat-num">6mo</div><div class="stat-lbl">In Production</div></div>
+  </div>
+</div>
+
+<!-- USE CASES -->
+<div style="max-width:1200px;margin:44px auto 0;padding:0 40px;">
+  <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 36px;">
+    <div style="font-family:var(--mono);font-size:11px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;margin-bottom:16px;">What agents use AgentCanary for</div>
+    <div class="uc-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">âœ“</span>Avoid trading in risk-off regimes</div>
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">âœ“</span>Size positions based on macro context</div>
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">âœ“</span>Detect whale-driven fake moves</div>
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">âœ“</span>Summarize markets without hallucinations</div>
+    </div>
+  </div>
+</div>
+
+<div class="trust">
+  <div class="trust-inner">
+    <div class="trust-left">
+      <h3>The finance skill that <span>can't steal from you</span></h3>
+      <p>824 malicious skills on ClawHub. Crypto and finance is the #1 target. AgentCanary is API-only â€” no binaries, no local execution, no secrets in the LLM context.</p>
+    </div>
+    <div class="trust-checks">
+      <div class="trust-chk"><span class="ic">âœ“</span> API-only</div>
+      <div class="trust-chk"><span class="ic">âœ“</span> No keys in LLM context</div>
+      <div class="trust-chk"><span class="ic">âœ“</span> Wallet-based auth</div>
+      <a href="https://www.virustotal.com/gui/file/34a33ff970fd359aa41f37161488b7a016f219cb3971c7b1a0baffcc5c3e604a/detection" target="_blank" class="trust-chk" style="text-decoration:none;"><span class="ic">âœ“</span> VirusTotal verified</a>
+      <div class="trust-chk"><span class="ic">âœ“</span> No filesystem access</div>
+      <div class="trust-chk"><span class="ic">âœ“</span> 6 months in production</div>
+    </div>
+  </div>
+</div>
+
+<section id="capabilities">
+  <div class="s-label">Capabilities</div>
+  <h2 class="s-title">33 endpoints. Zero raw data dumps.</h2>
+  <p class="s-desc">Everything your agent needs to understand the market â€” not just what happened, but what it means.</p>
+
+  <div style="margin-top:44px;">
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">Macro & Regime</div>
+    <div class="cap-grid" style="margin-top:0;">
+      <div class="cap-card"><h3>Macro Regime Detection</h3><p>26 FRED series, regime classification (Risk-On/Off), business cycle phasing, risk gauge 0â€“100, z-scores on every indicator.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3>AI Market Analysis</h3><p>Daily AI-generated reports: sentiment, market phase, narratives, movers, correlations, divergences, alerts with severity scoring.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3>Social Intelligence</h3><p>300+ messages/day from 200+ X and Telegram accounts. FinBERT sentiment scoring. Token highlights, non-consensus insights.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+    </div>
+
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Signals & Analysis</div>
+    <div class="cap-grid" style="margin-top:0;">
+      <div class="cap-card"><h3>29 Technical Indicators</h3><p>RSI, MACD, Bollinger, Ichimoku, VWAP, PSAR, and 23 more per coin. Composite signals. 365 daily data points.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3>Signal States</h3><p>BULL_REGIME / BEAR_REGIME / RISK_OFF classification on 100 coins across daily and 4-hour timeframes.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3>Breaking News + 50 Newsletters</h3><p>Real-time RSS from Bloomberg, Decrypt, CoinDesk. 50 newsletters ingested daily. Auto-categorized, sentiment scored.</p><span class="cap-tag tag-live">LIVE</span></div>
+    </div>
+
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Market Structure</div>
+    <div class="cap-grid" style="margin-top:0;">
+      <div class="cap-card"><h3>Orderbook Analytics</h3><p>8 liquidity bands, top walls, wall skew, spoofing detection, wall persistence. Per-exchange or aggregate.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3>Whale Alerts + Hyperliquid</h3><p>On-chain whale transactions. Hyperliquid positions with entry, liquidation price, leverage, unrealized PnL.</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3>Funding Rate Arbitrage</h3><p>Cross-exchange opportunities ranked by APR: symbol, exchanges, spread, next funding time.</p><span class="cap-tag tag-live">LIVE</span></div>
+    </div>
+
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Data & Events</div>
+    <div class="cap-grid" style="margin-top:0;">
+      <div class="cap-card"><h3>Multi-Asset Prices</h3><p>941 crypto, 195 stocks, 34 FX pairs, 10 commodities, ETFs â€” one endpoint.</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3>Market Structure</h3><p>Composite BTC: funding, liquidations, premium, orderbook. Crowding scores, spike detection.</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3>Calendar, Treasury, Polymarket</h3><p>Economic calendar with impact scoring. Treasury tracking (209 entities). Live FOMC odds.</p><span class="cap-tag tag-live">LIVE</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="s-label">Integration</div>
+  <h2 class="s-title">Three lines to market intelligence.</h2>
+  <p class="s-desc">Install the ClawHub skill or call the API directly. One call, full context.</p>
+  <div class="code-grid">
+    <div class="code-blk">
+      <div class="code-hdr"><div class="code-dot" style="background:var(--y);"></div> request.js â€” macro regime</div>
+      <div class="code-body"><span class="kw">const</span> <span class="key">res</span> = <span class="kw">await</span> <span class="fn">fetch</span>(
+  <span class="str">"https://api.agentcanary.ai/api/macro-snapshot"</span>,
+  { <span class="key">headers</span>: { <span class="str">"x-api-key"</span>: YOUR_KEY } }
+);
+<span class="kw">const</span> { <span class="key">businessCycle</span>, <span class="key">regime</span> } = <span class="kw">await</span> res.<span class="fn">json</span>();
+
+<span class="cmt">// â†’ { phase: "EXPANSION", riskGauge: 35,</span>
+<span class="cmt">//     regime: "Risk-On", growth: "UP",</span>
+<span class="cmt">//     inflation: "DOWN" }</span></div>
+    </div>
+    <div class="code-blk">
+      <div class="code-hdr"><div class="code-dot" style="background:var(--o);"></div> ClawBot agent prompt</div>
+      <div class="code-body"><span class="cmt"># AgentCanary skill installed from ClawHub</span>
+
+<span class="str">"What's the current macro regime and</span>
+<span class="str"> risk environment?"</span>
+
+<span class="cmt"># Agent response:</span>
+<span class="cmt"># "EXPANSION phase. Risk gauge 35/100.</span>
+<span class="cmt">#  Growth trending UP, inflation DOWN.</span>
+<span class="cmt">#  Regime: Risk-On. Historically, risk</span>
+<span class="cmt">#  assets perform well in this regime</span>
+<span class="cmt">#  and stress indicators are low."</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="s-label">How It Works</div>
+  <h2 class="s-title">Install. Evaluate. Deposit when ready.</h2>
+  <div class="how-steps">
+    <div class="how-step"><div class="how-num">1</div><h3>Install the ClawHub skill</h3><p>Free. Your agent gets 50 calls/day â€” real-time prices across 1,181 assets. No deposit, no signup.</p></div>
+    <div class="how-step"><div class="how-num">2</div><h3>See the intelligence live</h3><p>Follow @AgentCanary on Telegram. Macro regime, stock movers, whale alerts, social intelligence â€” 3x/day from the same API.</p></div>
+    <div class="how-step"><div class="how-num">3</div><h3>Deposit USDC when you need more</h3><p>Unlock regime, signals, AI reports, and all 33 endpoints. Credits never expire. No subscriptions. No KYC.</p></div>
+  </div>
+  <div class="how-tiers">
+    <div class="how-tiers-title">Credit tiers</div>
+    <div class="tier-row"><div class="tier-name">Explorer</div><div class="tier-price">Free</div><div class="tier-desc">Prices only · 50 calls/day · No deposit</div><div class="tier-per">â€”</div></div>
+    <div class="tier-row"><div class="tier-name">Builder</div><div class="tier-price">$50 USDC</div><div class="tier-desc">Prices + macro + regime + z-scores + signals + news</div><div class="tier-per">$0.005/call</div></div>
+    <div class="tier-row featured"><div class="tier-name">Signal</div><div class="tier-price">$150 USDC</div><div class="tier-desc">All 33 endpoints · AI reports · orderbook · webhooks</div><div class="tier-per">$0.003/call</div></div>
+    <div class="tier-row"><div class="tier-name">Institutional</div><div class="tier-price">$500 USDC</div><div class="tier-desc">Unlimited · white-label · custom integrations · SLA</div><div class="tier-per">$0.002/call</div></div>
+  </div>
+  <div class="tokens-row">
+    <span class="tokens-lbl">Accepted:</span>
+    <div class="tok"><div class="tok-dot" style="background:#2775ca;"></div> USDC</div>
+    <div class="tok"><div class="tok-dot" style="background:#1b4fcc;"></div> EURC</div>
+    <div class="tok"><div class="tok-dot" style="background:#26a17b;"></div> USDT</div>
+    <div class="tok"><div class="tok-dot" style="background:#9945ff;"></div> SOL</div>
+    <span style="font-size:11px;color:var(--t3);">on Base · Solana · Ethereum</span>
+  </div>
+</section>
+
+<section id="telegram">
+  <div class="s-label">Live Proof</div>
+  <h2 class="s-title">See the API performing. 3x/day. On Telegram.</h2>
+  <p class="s-desc">Every post is auto-generated from live endpoints. Scroll the history. The data speaks.</p>
+  <div class="tg-grid">
+    <div class="tg-card"><div class="tg-time">8 AM UTC</div><h3>Morning Brief</h3><p>Macro and regime â€” what the environment is saying today.</p><ul><li>/macro-snapshot/regime</li><li>Key z-scores (10Y, DXY, HY)</li><li>Overnight: gold, oil, SPY</li><li>Fear & Greed index</li></ul></div>
+    <div class="tg-card"><div class="tg-time">1 PM UTC</div><h3>Midday Markets</h3><p>Stocks and crypto â€” what's moving and why.</p><ul><li>Top stock movers (195 stocks)</li><li>BTC/ETH/SOL signal states</li><li>Whale alerts + liquidations</li><li>Funding rate arb (top 3)</li></ul></div>
+    <div class="tg-card"><div class="tg-time">9 PM UTC</div><h3>Evening Intelligence</h3><p>Social and signals â€” what the smart money is watching.</p><ul><li>X + Telegram (200+ accounts)</li><li>Newsletter trending tickers</li><li>Breaking news + sentiment</li><li>Economic calendar: tomorrow</li></ul></div>
+  </div>
+  <div class="tg-cta"><a href="https://t.me/AgentCanary" class="btn-tg" target="_blank" style="font-size:14px;padding:16px 32px;">Join @AgentCanary on Telegram</a></div>
+</section>
+
+<section id="compare">
+  <div class="s-label">Comparison</div>
+  <h2 class="s-title">They sell data. We sell intelligence.</h2>
+  <table class="cmp">
+    <thead><tr><th>Capability</th><th>AIsa</th><th>Simmer</th><th>CoinGecko</th><th>AgentCanary</th></tr></thead>
+    <tbody>
+      <tr><td>Macro Regime Detection</td><td class="no">â€”</td><td class="no">â€”</td><td class="no">â€”</td><td class="ck">âœ“ Cycle + Risk Gauge</td></tr>
+      <tr><td>AI Market Reports</td><td class="no">â€”</td><td class="no">â€”</td><td class="no">â€”</td><td class="ck">âœ“ 2 daily reports</td></tr>
+      <tr><td>Social Intelligence</td><td class="no">â€”</td><td class="no">â€”</td><td class="no">â€”</td><td class="ck">âœ“ 200+ X/TG accounts</td></tr>
+      <tr><td>Technical Indicators</td><td class="no">â€”</td><td class="no">â€”</td><td class="no">â€”</td><td class="ck">âœ“ 29 per coin</td></tr>
+      <tr><td>Signal Classification</td><td class="no">â€”</td><td>Polymarket only</td><td class="no">â€”</td><td class="ck">âœ“ 100 coins, 2 timeframes</td></tr>
+      <tr><td>Multi-Asset</td><td>Limited</td><td>Limited</td><td>Crypto only</td><td class="ck">âœ“ 1,181 assets</td></tr>
+      <tr><td>Whale + Orderbook</td><td class="no">â€”</td><td class="no">â€”</td><td class="no">â€”</td><td class="ck">âœ“ On-chain + spoofing</td></tr>
+      <tr><td>Crypto Payments</td><td class="no">â€”</td><td class="no">â€”</td><td>Enterprise</td><td class="ck">âœ“ USDC/EURC/USDT/SOL</td></tr>
+      <tr><td>No Secrets in Prompt</td><td class="no">Keys required</td><td class="no">Keys required</td><td class="no">Keys required</td><td class="ck">âœ“ Wallet-based auth</td></tr>
+    </tbody>
+  </table>
+  <div style="font-size:11px;color:var(--t3);margin-top:10px;font-style:italic;">Based on publicly available features, February 2026.</div>
+</section>
+
+<section>
+  <div class="s-label">Proof</div>
+  <h2 class="s-title">This isn't vapor. It's running.</h2>
+  <div class="proof-row">
+    <div class="proof-card"><div class="proof-num">6mo</div><div class="proof-lbl">In Production</div><div class="proof-det">Live infrastructure since mid-2025. Daily active users across 20+ countries.</div></div>
+    <div class="proof-card"><div class="proof-num">250+</div><div class="proof-lbl">Data Sources</div><div class="proof-det">CoinGecko, FRED, Binance, Glassnode, 200+ X/Telegram accounts, 50 newsletters.</div></div>
+    <div class="proof-card"><div class="proof-num">24/7</div><div class="proof-lbl">api.agentcanary.ai</div><div class="proof-det">80+ endpoints. 33 endpoints. Join Telegram to see it live.</div></div>
+    <div class="proof-card prox"><div class="proof-num">Proximity</div><div class="proof-lbl">iOS app â€” same API</div><div class="proof-det">Crypto intelligence app powered by AgentCanary. 6 months daily usage, 20+ countries. <a href="https://apps.apple.com/app/PLACEHOLDER">App Store â†’</a></div></div>
+  </div>
+</section>
+
+<div class="notify" style="margin-bottom:20px;">
+  <div class="notify-inner">
+    <div class="notify-text"><h3>Get notified when paid tiers open</h3><p>Free tier available now. Full access launching soon.</p></div>
+    <div class="notify-form">
+      <input type="email" class="notify-input" placeholder="you@email.com" id="notify-email">
+      <button class="notify-btn" id="notify-btn" onclick="handleNotify()">Notify Me</button>
+    </div>
+  </div>
+</div>
+
+<script>
+function handleNotify(){
+  var e=document.getElementById('notify-email'),b=document.getElementById('notify-btn');
+  if(!e.value||!e.value.includes('@')){e.style.borderColor='var(--r)';return}
+  b.textContent='Subscribed';b.style.background='var(--g)';b.style.cursor='default';
+  e.disabled=true;e.style.opacity='0.5';
+  // TODO: wire to Beehiiv/Buttondown/backend
+  // fetch('/api/notify',{method:'POST',body:JSON.stringify({email:e.value})})
+}
+</script>
+
+<div class="cta">
+  <div class="cta-glow"></div>
+  <h2>Your agent deserves<br>better than raw data.</h2>
+  <p>Join Telegram. See the proof. Build when you're ready.</p>
+  <div class="cta-btns">
+    <a href="https://t.me/AgentCanary" class="btn-primary" target="_blank">Join Telegram</a>
+    <a href="https://docs.agentcanary.ai" class="btn-secondary" target="_blank">Read the Docs</a>
+  </div>
+</div>
+
+<footer>
+  <div class="ft-left">AgentCanary · api.agentcanary.ai · 2026<span class="ft-disc">AgentCanary provides market data and intelligence for informational purposes only. Nothing on this site constitutes financial advice. Do your own research.</span></div>
+  <div class="ft-links"><a href="https://docs.agentcanary.ai" target="_blank">Docs</a><a href="#">ClawHub</a><a href="#">GitHub</a><a href="https://t.me/AgentCanary" target="_blank">Telegram</a><a href="#">X</a></div>
+</footer>
+
+</body>
+</html>
