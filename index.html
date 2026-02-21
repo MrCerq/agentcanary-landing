@@ -401,10 +401,11 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 function handleNotify(){
   var e=document.getElementById('notify-email'),b=document.getElementById('notify-btn');
   if(!e.value||!e.value.includes('@')){e.style.borderColor='var(--r)';return}
-  b.textContent='Subscribed';b.style.background='var(--g)';b.style.cursor='default';
-  e.disabled=true;e.style.opacity='0.5';
-  // TODO: wire to Beehiiv/Buttondown/backend
-  // fetch('/api/notify',{method:'POST',body:JSON.stringify({email:e.value})})
+  b.textContent='Sending...';b.disabled=true;
+  // TODO: Replace FORM_ID with your Formspree form ID from https://formspree.io
+  fetch('https://formspree.io/f/FORM_ID',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({email:e.value,_subject:'AgentCanary - New signup'})})
+  .then(function(r){if(r.ok){b.textContent='Subscribed ✓';b.style.background='var(--g)';e.disabled=true;e.style.opacity='0.5';}else{b.textContent='Error — try again';b.disabled=false;}})
+  .catch(function(){b.textContent='Error — try again';b.disabled=false;});
 }
 </script>
 
