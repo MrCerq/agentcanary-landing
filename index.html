@@ -15,8 +15,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="AgentCanary — Market Intelligence for AI Agents">
 <meta name="twitter:description" content="Macro regime detection, trading signals, social sentiment — for ClawBot and AI agents. Not raw data. Intelligence.">
-<link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
@@ -54,7 +56,7 @@
 <style>
 :root{--bg:#04070c;--bg2:#080d18;--card:#0b1120;--card-h:#0f1628;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--y-glow:rgba(255,197,61,.10);--y-glow-s:rgba(255,197,61,.22);--y-border:rgba(255,197,61,.20);--g:#34d399;--g-glow:rgba(52,211,153,.10);--r:#f87171;--b:#60a5fa;--p:#a78bfa;--o:#fb923c;--o-glow:rgba(251,146,60,.12);--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--t1);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+html{overflow-x:hidden!important;width:100%}body{background:var(--bg);color:var(--t1);font-family:var(--sans);line-height:1.6;overflow-x:hidden;width:100%}
 body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");pointer-events:none;z-index:9999}
 
 nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;background:rgba(4,7,12,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
@@ -72,8 +74,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .nav-cta{font-family:var(--mono);font-size:12px;font-weight:600;padding:8px 18px;background:var(--y);color:var(--bg);border:none;border-radius:6px;cursor:pointer;text-decoration:none;transition:all .2s}
 .nav-cta:hover{background:var(--y-dim);box-shadow:0 0 20px var(--y-glow-s)}
 
-.hero{padding:170px 40px 80px;max-width:1200px;margin:0 auto;position:relative}
-.hero-grid{position:absolute;top:80px;left:-200px;right:-200px;bottom:-100px;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none}
+.hero{padding:170px 40px 80px;max-width:1200px;margin:0 auto;position:relative;overflow:hidden}
+.hero-grid{position:absolute;top:80px;left:-200px;right:-200px;bottom:-100px;overflow:hidden;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none}
 .hero-glow{position:absolute;top:40px;left:50%;transform:translateX(-50%);width:900px;height:500px;background:radial-gradient(circle,rgba(255,197,61,.04) 0%,transparent 65%);pointer-events:none}
 .hero-badge{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;color:var(--g);background:var(--g-glow);border:1px solid rgba(52,211,153,.2);padding:6px 14px;border-radius:100px;margin-bottom:24px;animation:fadeUp .6s ease-out}
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
@@ -124,7 +126,8 @@ section{max-width:1200px;margin:0 auto;padding:90px 40px}
 .code-blk{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden}
 .code-hdr{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--t3)}
 .code-dot{width:8px;height:8px;border-radius:50%}
-.code-body{padding:16px;font-family:var(--mono);font-size:12px;line-height:1.8;color:var(--t2);overflow-x:auto;white-space:pre}
+.code-body{padding:16px;font-family:var(--mono);font-size:12px;line-height:1.8;color:var(--t2);overflow-x:auto;white-space:pre;max-width:100%}
+.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .code-body .kw{color:var(--p)} .code-body .fn{color:var(--b)} .code-body .str{color:var(--y)} .code-body .cmt{color:var(--t3);font-style:italic} .code-body .key{color:var(--t1)}
 
 .how-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
@@ -202,7 +205,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 .ft-links a:hover{color:var(--t2)}
 
 @media(max-width:1024px){.code-grid,.tg-grid,.how-steps{grid-template-columns:1fr}.trust-inner{flex-direction:column}.proof-row{grid-template-columns:repeat(2,1fr)}.tier-row{grid-template-columns:90px 80px 1fr}.tier-per{display:none}.uc-grid{grid-template-columns:repeat(2,1fr)!important}}
-@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:flex;flex-direction:column}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp{font-size:11px}.cmp th,.cmp td{padding:8px 10px}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%}.notify-input{flex:1}footer{flex-direction:column;text-align:center}.uc-grid{grid-template-columns:1fr!important}}
+@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}}
 </style>
 </head>
 <body>
@@ -396,7 +399,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 <section id="compare">
   <div class="s-label">Comparison</div>
   <h2 class="s-title">They sell data. We sell intelligence.</h2>
-  <table class="cmp">
+  <div class="cmp-wrap"><table class="cmp">
     <thead><tr><th>Capability</th><th>AIsa</th><th>Simmer</th><th>CoinGecko</th><th>AgentCanary</th></tr></thead>
     <tbody>
       <tr><td>Macro Regime Detection</td><td class="no">—</td><td class="no">—</td><td class="no">—</td><td class="ck">✓ Cycle + Risk Gauge</td></tr>
@@ -410,7 +413,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
       <tr><td>No Secrets in Prompt</td><td class="no">Keys required</td><td class="no">Keys required</td><td class="no">Keys required</td><td class="ck">✓ Wallet-based auth</td></tr>
     </tbody>
   </table>
-  <div style="font-size:11px;color:var(--t3);margin-top:10px;font-style:italic;">Based on publicly available features, February 2026.</div>
+  </div><div style="font-size:11px;color:var(--t3);margin-top:10px;font-style:italic;">Based on publicly available features, February 2026.</div>
 </section>
 
 <section>
