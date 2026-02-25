@@ -207,7 +207,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 .ft-links a:hover{color:var(--t2)}
 
 @media(max-width:1024px){.code-grid,.tg-grid,.how-steps{grid-template-columns:1fr}.trust-inner{flex-direction:column}.proof-row{grid-template-columns:repeat(2,1fr)}.tier-row{grid-template-columns:90px 80px 1fr}.tier-per{display:none}.uc-grid{grid-template-columns:repeat(2,1fr)!important}}
-@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}}
+@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.uc-wrap{padding:0 20px!important}.stat-wrap{padding:0 20px!important}.trust{padding:0 20px!important}.notify{padding:0 20px!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}}
 </style>
 </head>
 <body>
@@ -227,7 +227,6 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <a href="#telegram">Telegram</a>
     
     <a href="https://t.me/AgentCanary" target="_blank" class="nav-cta">Join Telegram</a>
-  </div>
 </nav>
 
 <div class="hero">
@@ -256,13 +255,13 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <div class="stat-item"><div class="stat-num">250+</div><div class="stat-lbl">Data Sources</div></div>
     <div class="stat-item"><div class="stat-num">1,181</div><div class="stat-lbl">Assets</div></div>
     <div class="stat-item"><div class="stat-num">33</div><div class="stat-lbl">API Endpoints</div></div>
-    <div class="stat-item"><div class="stat-num">80+</div><div class="stat-lbl">Endpoints</div></div>
+    <div class="stat-item"><div class="stat-num">3x/day</div><div class="stat-lbl">Telegram Briefs</div></div>
     <div class="stat-item"><div class="stat-num">6mo</div><div class="stat-lbl">In Production</div></div>
   </div>
 </div>
 
 <!-- USE CASES -->
-<div style="max-width:1200px;margin:44px auto 0;padding:0 40px;">
+<div class="uc-wrap" style="max-width:1200px;margin:44px auto 0;padding:0 40px;">
   <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 36px;">
     <div style="font-family:var(--mono);font-size:11px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;margin-bottom:16px;">What agents use AgentCanary for</div>
     <div class="uc-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
@@ -278,7 +277,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   <div class="trust-inner">
     <div class="trust-left">
       <h3>The finance skill that <span>can't steal from you</span></h3>
-      <p>824 malicious skills on ClawHub. Crypto and finance is the #1 target. AgentCanary is API-only — no binaries, no local execution, no secrets in the LLM context.</p>
+      <p>Crypto and finance skills are the #1 target for prompt injection and key theft. AgentCanary is API-only — no binaries, no local execution, no secrets in the LLM context.</p>
     </div>
     <div class="trust-checks">
       <div class="trust-chk"><span class="ic">✓</span> API-only</div>
@@ -424,7 +423,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   <div class="proof-row">
     <div class="proof-card"><div class="proof-num">6mo</div><div class="proof-lbl">In Production</div><div class="proof-det">Live infrastructure since mid-2025. Daily active users across 20+ countries.</div></div>
     <div class="proof-card"><div class="proof-num">250+</div><div class="proof-lbl">Data Sources</div><div class="proof-det">CoinGecko, FRED, Binance, Glassnode, 200+ X/Telegram accounts, 50 newsletters.</div></div>
-    <div class="proof-card"><div class="proof-num">24/7</div><div class="proof-lbl">api.agentcanary.ai</div><div class="proof-det">80+ endpoints. 33 endpoints. Join Telegram to see it live.</div></div>
+    <div class="proof-card"><div class="proof-num">24/7</div><div class="proof-lbl">api.agentcanary.ai</div><div class="proof-det">33 endpoints. Sub-second response times. Join Telegram to see it live.</div></div>
     <div class="proof-card prox"><div class="proof-num">Proximity</div><div class="proof-lbl">iOS app — same API</div><div class="proof-det">Crypto intelligence app powered by AgentCanary. 6 months daily usage, 20+ countries.</div></div>
   </div>
 </section>
@@ -456,7 +455,7 @@ function handleNotify(){
   <p>Join Telegram. See the proof. Build when you're ready.</p>
   <div class="cta-btns">
     <a href="https://t.me/AgentCanary" class="btn-primary" target="_blank">Join Telegram</a>
-    
+    <a href="#how" class="btn-secondary">See Pricing</a>
   </div>
 </div>
 
