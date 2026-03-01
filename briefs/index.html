@@ -94,12 +94,13 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .brief-time{font-family:var(--mono);font-size:11px;color:var(--t3);margin-left:10px}
 .brief-headline{font-size:24px;font-weight:700;letter-spacing:-.8px;line-height:1.2;margin-bottom:10px}
 .brief-desc{font-size:13px;color:var(--t2);line-height:1.7;margin-bottom:14px}
-.brief-full{width:100%}
-.brief-telegram{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:14px;color:var(--t2);line-height:1.75;white-space:pre-line;word-wrap:break-word}
+.brief-telegram{width:100%}
 .brief-telegram b{color:var(--t1);font-weight:600}
 .brief-telegram i{color:var(--t3);font-size:12px}
 .brief-telegram a{color:var(--b);text-decoration:none}
 .brief-telegram a:hover{text-decoration:underline}
+.tg-section{font-family:var(--sans);font-size:13px;color:var(--t2);line-height:1.7;white-space:pre-line;word-wrap:break-word;padding:10px 14px;margin-bottom:6px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.04);border-radius:8px}
+.tg-section b{font-family:var(--mono);font-size:12px}
 .brief-tags{display:flex;gap:6px;flex-wrap:wrap}
 .tag{font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px}
 .tag-red{border:1px solid rgba(248,113,113,.2);background:rgba(248,113,113,.06);color:var(--r)}
@@ -240,34 +241,60 @@ function renderCard(b){
   var shareText = encodeURIComponent(b.shareText || b.headline.replace('\n',' ')+'\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai');
   var id = b.session+'-'+b.date;
 
-  var panels = b.panels.map(function(p){
-    if(p.gauge){
-      return '<div class="data-panel"><div class="data-label">'+p.label+'</div>'+
-        '<div class="gauge-track"><div class="gauge-fill" style="width:'+p.gauge.value+'%;background:'+p.gauge.gradient+';"></div></div>'+
-        '<div class="gauge-labels"><span>0</span><span class="val" style="color:'+(p.gauge.value>70?'var(--o)':'var(--g)')+'">'+p.gauge.value+'</span><span>100</span></div></div>';
-    }
-    var rows = p.rows.map(function(r){return '<div class="data-row"><span class="k">'+r.k+'</span><span class="v-'+r.c+'">'+r.v+'</span></div>';}).join('');
-    return '<div class="data-panel"><div class="data-label">'+p.label+'</div>'+rows+'</div>';
-  }).join('');
+  var body = '';
 
-  var tags = b.tags.map(function(t){return '<span class="tag tag-'+t.c+'">'+t.t+'</span>';}).join('');
+  if(b.telegramText){
+    // Render Telegram HTML — strip the first header line (e.g. "🟢 MORNING BRIEF — date")
+    var lines = b.telegramText.split('\n');
+    var start = 0;
+    if(lines[0] && (lines[0].includes('MORNING BRIEF') || lines[0].includes('MIDDAY MARKETS') || lines[0].includes('EVENING INTELLIGENCE'))) start = 1;
+    while(start < lines.length && lines[start].trim()==='') start++;
+    var rawBody = lines.slice(start).join('\n').trim();
 
-  var hl = b.headline.split('\n').map(function(line,i){
-    return i===1 ? '<span style="color:'+b.headlineColor+'">'+line+'</span>' : line;
-  }).join('<br>');
+    // Also strip the trailing footer line (agentcanary.ai | Not financial advice)
+    rawBody = rawBody.replace(/\n*agentcanary\.ai[^\n]*/i, '').trim();
+
+    // Split into sections by double newline, wrap each in a styled block
+    var sections = rawBody.split(/\n{2,}/);
+    var sectionsHtml = sections.map(function(sec){
+      var trimmed = sec.trim();
+      if(!trimmed) return '';
+      return '<div class="tg-section">'+trimmed+'</div>';
+    }).join('');
+
+    body = '<div class="brief-telegram">'+sectionsHtml+'</div>';
+  } else {
+    // Fallback: old card layout
+    var panels = b.panels.map(function(p){
+      if(p.gauge){
+        return '<div class="data-panel"><div class="data-label">'+p.label+'</div>'+
+          '<div class="gauge-track"><div class="gauge-fill" style="width:'+p.gauge.value+'%;background:'+(p.gauge.gradient||'linear-gradient(90deg,var(--g),var(--o))')+'"></div></div>'+
+          '<div class="gauge-labels"><span>0</span><span class="val" style="color:'+(p.gauge.value>70?'var(--o)':'var(--g)')+'">'+p.gauge.value+'</span><span>100</span></div></div>';
+      }
+      var rows = p.rows.map(function(r){return '<div class="data-row"><span class="k">'+r.k+'</span><span class="v-'+r.c+'">'+r.v+'</span></div>';}).join('');
+      return '<div class="data-panel"><div class="data-label">'+p.label+'</div>'+rows+'</div>';
+    }).join('');
+
+    var tags = b.tags.map(function(t){return '<span class="tag tag-'+t.c+'">'+t.t+'</span>';}).join('');
+    var hl = b.headline.split('\n').map(function(line,i){
+      return i===1 ? '<span style="color:'+b.headlineColor+'">'+line+'</span>' : line;
+    }).join('<br>');
+
+    body = '<div class="brief-left">'+
+      '<div class="brief-headline">'+hl+'</div>'+
+      '<div class="brief-desc">'+b.desc+'</div>'+
+      '<div class="brief-tags">'+tags+'</div>'+
+    '</div>'+
+    '<div class="brief-right">'+panels+'</div>';
+  }
 
   return '<div class="brief-card" data-session="'+b.session+'" id="'+id+'">'+
     '<div class="brief-inner">'+
       '<div class="brief-grid-bg"></div>'+
       '<div class="brief-glow '+glowClass(b)+'"></div>'+
       '<div class="brief-content">'+
-        '<div class="brief-left">'+
-          '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
-          '<div class="brief-headline">'+hl+'</div>'+
-          '<div class="brief-desc">'+b.desc+'</div>'+
-          '<div class="brief-tags">'+tags+'</div>'+
-        '</div>'+
-        '<div class="brief-right">'+panels+'</div>'+
+        '<div style="margin-bottom:12px"><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.date+' · '+b.time+'</span></div>'+
+        body+
       '</div>'+
       '<div class="brief-footer">'+
         '<span>AGENTCANARY · '+b.date+'</span>'+
