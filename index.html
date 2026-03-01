@@ -277,54 +277,21 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     </div>
   </div>
 
-  <!-- Card preview container -->
-  <a href="/briefs" style="display:block;position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--border-b);background:var(--card);text-decoration:none;color:inherit;transition:border-color .25s;" onmouseover="this.style.borderColor='var(--y-border)'" onmouseout="this.style.borderColor='var(--border-b)'">
-    <!-- Placeholder card — replaced by live endpoint when /api/briefs is built -->
-    <div id="brief-card" style="width:100%;background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer;">
-      <!-- Grid background -->
+  <!-- Card preview container — loaded from /data/latest-brief.json -->
+  <a href="/briefs" id="brief-card-link" style="display:block;position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--border-b);background:var(--card);text-decoration:none;color:inherit;transition:border-color .25s;" onmouseover="this.style.borderColor='var(--y-border)'" onmouseout="this.style.borderColor='var(--border-b)'">
+    <div id="brief-card" style="width:100%;background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 100%);position:relative;overflow:hidden;cursor:pointer;">
       <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none;"></div>
-      <!-- Glow -->
-      <div style="position:absolute;top:20%;right:10%;width:400px;height:300px;background:radial-gradient(circle,rgba(167,139,250,.08) 0%,transparent 65%);pointer-events:none;"></div>
-
+      <div id="brief-glow" style="position:absolute;top:20%;right:10%;width:400px;height:300px;pointer-events:none;"></div>
       <div style="position:relative;padding:32px 36px;width:100%;max-width:1000px;">
-        <div class="brief-card-layout" style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
-          <!-- Left: headline + context -->
+        <div id="brief-body" class="brief-card-layout" style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
           <div style="flex:1;min-width:280px;">
-            <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
-              <div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid var(--p);color:var(--p);background:rgba(167,139,250,.1);display:flex;align-items:center;gap:6px;">
-                <span style="width:6px;height:6px;background:var(--p);border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>
-                EVENING
-              </div>
-              <span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Latest Brief</span>
-            </div>
-            <div style="font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-1px;line-height:1.2;margin-bottom:12px;">4 bullish / 6 bearish signals.<br><span style="color:var(--p);">NFP drops Friday.</span></div>
-            <div style="font-size:13px;color:var(--t2);line-height:1.7;">Newsletter consensus shifting bearish. FinBERT sentiment -0.3 avg across 47 stories. ISM Manufacturing tomorrow 10:00 ET.</div>
-            <div style="display:flex;gap:6px;margin-top:16px;flex-wrap:wrap;">
-              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(248,113,113,.2);background:rgba(248,113,113,.06);color:var(--r);">BEARISH SKEW</span>
-              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(167,139,250,.2);background:rgba(167,139,250,.06);color:var(--p);">NFP FRIDAY</span>
-              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(96,165,250,.2);background:rgba(96,165,250,.06);color:var(--b);">ISM TOMORROW</span>
-            </div>
+            <div id="brief-header" style="display:flex;align-items:center;gap:10px;margin-bottom:20px;"></div>
+            <div id="brief-headline" style="font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-1px;line-height:1.2;margin-bottom:12px;"></div>
+            <div id="brief-desc" style="font-size:13px;color:var(--t2);line-height:1.7;"></div>
+            <div id="brief-tags" style="display:flex;gap:6px;margin-top:16px;flex-wrap:wrap;"></div>
           </div>
-          <!-- Right: data cards -->
-          <div class="brief-panels-right" style="display:flex;flex-direction:column;gap:8px;min-width:240px;">
-            <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;">
-              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">NEWS SENTIMENT</div>
-              <div style="display:flex;flex-direction:column;gap:4px;">
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">Bullish</span><span style="color:var(--g);">4 stories</span></div>
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">Bearish</span><span style="color:var(--r);">6 stories</span></div>
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">Neutral</span><span style="color:var(--y);">37 stories</span></div>
-              </div>
-            </div>
-            <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;">
-              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">CALENDAR</div>
-              <div style="display:flex;flex-direction:column;gap:4px;">
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">🇺🇸 ISM Mfg</span><span style="color:var(--b);">Mar 2</span></div>
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">🇺🇸 NFP</span><span style="color:var(--r);">Mar 7</span></div>
-              </div>
-            </div>
-          </div>
+          <div id="brief-panels" class="brief-panels-right" style="display:flex;flex-direction:column;gap:8px;min-width:240px;"></div>
         </div>
-        <!-- Footer -->
         <div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.04);">
           <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">AGENTCANARY · api.agentcanary.ai · Not financial advice</div>
           <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">Auto-generated from live API</div>
@@ -339,9 +306,36 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
       <a href="/briefs" class="btn-primary" style="font-size:12px;padding:10px 20px;">View All Briefs →</a>
       <a href="https://t.me/AgentCanary" class="btn-tg" style="font-size:12px;padding:10px 20px;" target="_blank">Follow on Telegram</a>
     </div>
-    <a href="https://x.com/intent/tweet?text=BTC%2FETH%2FSOL%20mixed%20signals.%203%20whale%20moves%20totalling%20%2460M.%20POWER%20arb%20at%20127%25%20APR.%0A%0A%40AgentCanaryHQ%0A%23marketintell%20%23AgentCanary%20%23ai&url=https%3A%2F%2Fagentcanary.ai%2Fbriefs" target="_blank" style="font-family:var(--mono);font-size:12px;padding:10px 20px;border-radius:8px;border:1px solid var(--border);color:var(--t3);text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:6px;" onmouseover="this.style.borderColor='rgba(96,165,250,.3)';this.style.color='var(--b)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--t3)'">𝕏 Share this brief</a>
+    <a id="brief-share-x" href="#" target="_blank" style="font-family:var(--mono);font-size:12px;padding:10px 20px;border-radius:8px;border:1px solid var(--border);color:var(--t3);text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:6px;" onmouseover="this.style.borderColor='rgba(96,165,250,.3)';this.style.color='var(--b)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--t3)'">𝕏 Share this brief</a>
     <div style="font-family:var(--mono);font-size:11px;color:var(--t3);">21 briefs · 7 day rolling feed · individually shareable</div>
   </div>
+
+<script>
+(function(){
+  var THEMES={morning:{accent:'var(--o)',border:'var(--o)',bg:'var(--o-glow)',glow:'rgba(251,146,60,.08)',label:'MORNING'},midday:{accent:'var(--y)',border:'var(--y)',bg:'var(--y-glow)',glow:'rgba(255,197,61,.08)',label:'MIDDAY'},evening:{accent:'var(--p)',border:'var(--p)',bg:'rgba(167,139,250,.1)',glow:'rgba(167,139,250,.08)',label:'EVENING'}};
+  var TAG_COLORS={red:{c:'var(--r)',bg:'rgba(248,113,113,.06)',b:'rgba(248,113,113,.2)'},yellow:{c:'var(--y)',bg:'var(--y-glow)',b:'rgba(255,197,61,.2)'},green:{c:'var(--g)',bg:'rgba(52,211,153,.06)',b:'rgba(52,211,153,.2)'},blue:{c:'var(--b)',bg:'rgba(96,165,250,.06)',b:'rgba(96,165,250,.2)'},purple:{c:'var(--p)',bg:'rgba(167,139,250,.06)',b:'rgba(167,139,250,.2)'}};
+  var ROW_COLORS={red:'var(--r)',yellow:'var(--y)',green:'var(--g)',blue:'var(--b)',purple:'var(--p)'};
+
+  fetch('/data/latest-brief.json?v='+Date.now()).then(function(r){return r.json()}).then(function(b){
+    var t=THEMES[b.session]||THEMES.morning;
+    document.getElementById('brief-glow').style.background='radial-gradient(circle,'+t.glow+' 0%,transparent 65%)';
+    document.getElementById('brief-header').innerHTML='<div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid '+t.border+';color:'+t.accent+';background:'+t.bg+';display:flex;align-items:center;gap:6px;"><span style="width:6px;height:6px;background:'+t.accent+';border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>'+t.label+'</div><span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Latest Brief</span>';
+    var hl=b.headline.split('\n');
+    document.getElementById('brief-headline').innerHTML=hl[0]+(hl[1]?'<br><span style="color:'+(b.headlineColor||t.accent)+';">'+hl[1]+'</span>':'');
+    document.getElementById('brief-desc').textContent=b.desc||'';
+    document.getElementById('brief-tags').innerHTML=(b.tags||[]).map(function(tg){var tc=TAG_COLORS[tg.c]||TAG_COLORS.yellow;return '<span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid '+tc.b+';background:'+tc.bg+';color:'+tc.c+';">'+tg.t+'</span>';}).join('');
+    // Panels
+    var ph=(b.panels||[]).map(function(p){
+      var rows=(p.rows||[]).map(function(r){return '<div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">'+r.k+'</span><span style="color:'+(ROW_COLORS[r.c]||'var(--t2)')+';">'+r.v+'</span></div>';}).join('');
+      return '<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;"><div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">'+p.label+'</div><div style="display:flex;flex-direction:column;gap:4px;">'+rows+'</div></div>';
+    }).join('');
+    document.getElementById('brief-panels').innerHTML=ph;
+    // Share
+    var txt=encodeURIComponent(hl.join(' ')+'\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai');
+    document.getElementById('brief-share-x').href='https://x.com/intent/tweet?text='+txt+'&url='+encodeURIComponent('https://agentcanary.ai/briefs');
+  }).catch(function(){});
+})();
+</script>
 </section>
 
 <script>
