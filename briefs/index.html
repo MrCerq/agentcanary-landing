@@ -256,35 +256,18 @@ function renderCard(b){
     return i===1 ? '<span style="color:'+b.headlineColor+'">'+line+'</span>' : line;
   }).join('<br>');
 
-  // Strip the first line (session header like "🟢 MORNING BRIEF — date") from telegramText since we show the pill
-  var tgBody = '';
-  if(b.telegramText){
-    var lines = b.telegramText.split('\n');
-    // Skip first line (header) and any blank line after it
-    var start = 1;
-    while(start < lines.length && lines[start].trim()==='') start++;
-    tgBody = lines.slice(start).join('\n').trim();
-  }
-
   return '<div class="brief-card" data-session="'+b.session+'" id="'+id+'">'+
     '<div class="brief-inner">'+
       '<div class="brief-grid-bg"></div>'+
       '<div class="brief-glow '+glowClass(b)+'"></div>'+
       '<div class="brief-content">'+
-        (tgBody ?
-          '<div class="brief-full">'+
-            '<div style="margin-bottom:16px"><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.date+' · '+b.time+'</span></div>'+
-            '<div class="brief-telegram">'+tgBody+'</div>'+
-          '</div>'
-        :
-          '<div class="brief-left">'+
-            '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
-            '<div class="brief-headline">'+hl+'</div>'+
-            '<div class="brief-desc">'+b.desc+'</div>'+
-            '<div class="brief-tags">'+tags+'</div>'+
-          '</div>'+
-          '<div class="brief-right">'+panels+'</div>'
-        )+
+        '<div class="brief-left">'+
+          '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
+          '<div class="brief-headline">'+hl+'</div>'+
+          '<div class="brief-desc">'+b.desc+'</div>'+
+          '<div class="brief-tags">'+tags+'</div>'+
+        '</div>'+
+        '<div class="brief-right">'+panels+'</div>'+
       '</div>'+
       '<div class="brief-footer">'+
         '<span>AGENTCANARY · '+b.date+'</span>'+
