@@ -221,6 +221,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     </div>
   </div>
   <div class="nav-links">
+    <a href="#briefs">Live Briefs</a>
     <a href="#capabilities">Capabilities</a>
     <a href="#how">How It Works</a>
     <a href="#compare">Compare</a>
@@ -260,6 +261,105 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   </div>
 </div>
 
+<!-- LIVE BRIEFS -->
+<section id="briefs" style="padding-bottom:50px;">
+  <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:24px;">
+    <div>
+      <div class="s-label">Live Intelligence</div>
+      <h2 class="s-title">See it before you buy&nbsp;it.</h2>
+      <p class="s-desc" style="margin-top:8px;">Every card is auto-generated from live API data. 3× daily. No curation, no delay.</p>
+    </div>
+    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;">
+      <div id="brief-countdown" style="font-family:var(--mono);font-size:12px;color:var(--t3);background:var(--card);border:1px solid var(--border);border-radius:100px;padding:7px 14px;display:flex;align-items:center;gap:8px;">
+        <span style="width:6px;height:6px;background:var(--g);border-radius:50%;display:inline-block;animation:pulse 2s ease-in-out infinite;"></span>
+        <span id="countdown-text">Next brief in —</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card preview container -->
+  <div style="position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--border-b);background:var(--card);">
+    <!-- Placeholder card — replaced by live endpoint when /api/briefs is built -->
+    <div id="brief-card" style="width:100%;background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
+      <!-- Grid background -->
+      <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none;"></div>
+      <!-- Glow -->
+      <div style="position:absolute;top:20%;right:10%;width:400px;height:300px;background:radial-gradient(circle,rgba(251,146,60,.08) 0%,transparent 65%);pointer-events:none;"></div>
+
+      <div style="position:relative;padding:32px 36px;width:100%;max-width:1000px;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
+          <!-- Left: headline + context -->
+          <div style="flex:1;min-width:280px;">
+            <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
+              <div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid var(--o);color:var(--o);background:var(--o-glow);display:flex;align-items:center;gap:6px;">
+                <span style="width:6px;height:6px;background:var(--o);border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>
+                MORNING
+              </div>
+              <span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Sample Brief</span>
+            </div>
+            <div style="font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-1px;line-height:1.2;margin-bottom:12px;">STAGFLATION regime.<br><span style="color:var(--o);">Risk gauge at 72.</span></div>
+            <div style="font-size:13px;color:var(--t2);line-height:1.7;">Growth ↓ · Inflation ↑ · DXY rising · 10Y yield +8bp · Gold +1.2% overnight. Macro environment favors defensive positioning.</div>
+            <div style="display:flex;gap:6px;margin-top:16px;flex-wrap:wrap;">
+              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(248,113,113,.2);background:rgba(248,113,113,.06);color:var(--r);">RISK_OFF</span>
+              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(255,197,61,.2);background:var(--y-glow);color:var(--y);">LATE CYCLE</span>
+              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(96,165,250,.2);background:rgba(96,165,250,.06);color:var(--b);">VIX 24.3</span>
+            </div>
+          </div>
+          <!-- Right: data cards -->
+          <div style="display:flex;flex-direction:column;gap:8px;min-width:240px;">
+            <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;">
+              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">Z-SCORES</div>
+              <div style="display:flex;flex-direction:column;gap:4px;">
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">10Y Yield</span><span style="color:var(--r);">+1.8σ</span></div>
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">DXY</span><span style="color:var(--r);">+1.2σ</span></div>
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">HY Spread</span><span style="color:var(--y);">+0.6σ</span></div>
+              </div>
+            </div>
+            <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;">
+              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">RISK GAUGE</div>
+              <div style="height:8px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden;">
+                <div style="height:100%;width:72%;background:linear-gradient(90deg,var(--y),var(--o),var(--r));border-radius:4px;"></div>
+              </div>
+              <div style="display:flex;justify-content:space-between;margin-top:4px;font-family:var(--mono);font-size:10px;color:var(--t3);"><span>0</span><span style="color:var(--o);font-weight:600;">72</span><span>100</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.04);">
+          <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">AGENTCANARY · api.agentcanary.ai · Not financial advice</div>
+          <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">Auto-generated from live API</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Actions below card -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px;flex-wrap:wrap;gap:12px;">
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <a href="/briefs" class="btn-primary" style="font-size:12px;padding:10px 20px;">View All Briefs →</a>
+      <a href="https://t.me/AgentCanary" class="btn-tg" style="font-size:12px;padding:10px 20px;" target="_blank">Follow on Telegram</a>
+    </div>
+    <div style="font-family:var(--mono);font-size:11px;color:var(--t3);">21 briefs · 7 day rolling feed · individually shareable</div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var times=[8,13,21],el=document.getElementById('countdown-text');
+  var names=['Morning','Midday','Evening'];
+  function upd(){
+    var n=new Date(),u=n.getUTCHours()*60+n.getUTCMinutes();
+    var mins=[times[0]*60,times[1]*60,times[2]*60];
+    var next=-1,ni=0;
+    for(var i=0;i<3;i++){if(mins[i]>u){next=mins[i]-u;ni=i;break;}}
+    if(next<0){next=1440-u+mins[0];ni=0;}
+    var h=Math.floor(next/60),m=next%60;
+    el.textContent='Next '+names[ni]+' brief in '+h+'h '+m+'m';
+  }
+  upd();setInterval(upd,60000);
+})();
+</script>
+
 <!-- USE CASES -->
 <div class="uc-wrap" style="max-width:1200px;margin:44px auto 0;padding:0 40px;">
   <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 36px;">
@@ -268,6 +368,10 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
       <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Avoid trading in risk-off regimes</div>
       <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Size positions based on macro context</div>
       <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Detect whale-driven fake moves</div>
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Power trading bots with regime awareness</div>
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Build custom indicators from 250+ sources</div>
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Run narrative engines that track market themes</div>
+      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Generate auto-updating news and intel pages</div>
       <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Summarize markets without hallucinations</div>
     </div>
   </div>

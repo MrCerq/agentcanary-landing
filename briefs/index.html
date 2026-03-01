@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgentCanary — Live Market Briefs</title>
+<meta name="description" content="Auto-generated market intelligence briefs, 3× daily. Macro regime, trading signals, whale alerts, and news sentiment — all from live API data.">
+<meta name="keywords" content="market briefs, daily market brief, crypto morning brief, macro regime, trading signals, whale alerts, AI market intelligence">
+<meta property="og:title" content="AgentCanary — Live Market Briefs">
+<meta property="og:description" content="3× daily market intelligence cards. Macro regime, signals, whales, news. Auto-generated from 250+ data sources.">
+<meta property="og:image" content="https://agentcanary.ai/og-image.png">
+<meta property="og:url" content="https://agentcanary.ai/briefs">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AgentCanary — Live Market Briefs">
+<meta name="twitter:image" content="https://agentcanary.ai/og-image.png">
+<link rel="canonical" href="https://agentcanary.ai/briefs">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#04070c;--bg2:#080d18;--card:#0b1120;--card-h:#0f1628;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--y-glow:rgba(255,197,61,.10);--y-glow-s:rgba(255,197,61,.22);--y-border:rgba(255,197,61,.20);--g:#34d399;--g-glow:rgba(52,211,153,.10);--r:#f87171;--b:#60a5fa;--p:#a78bfa;--o:#fb923c;--o-glow:rgba(251,146,60,.12);--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html{overflow-x:hidden;width:100%}
+body{background:var(--bg);color:var(--t1);font-family:var(--sans);line-height:1.6;overflow-x:hidden;width:100%}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");pointer-events:none;z-index:9999}
+
+/* Nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;background:rgba(4,7,12,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
+.nav-left{display:flex;align-items:center;gap:18px}
+.nav-logo{font-family:var(--mono);font-weight:700;font-size:17px;letter-spacing:-.5px;text-decoration:none;color:var(--t1)}
+.nav-logo span{color:var(--y)}
+.nav-pills{display:flex;gap:8px}
+.nav-pill{font-family:var(--mono);font-size:11px;font-weight:500;padding:5px 12px;border-radius:100px;border:1px solid var(--border);color:var(--t2);letter-spacing:.3px}
+.nav-pill.live{border-color:var(--y-border);color:var(--y);background:var(--y-glow)}
+.nav-pill.live::before{content:'';display:inline-block;width:6px;height:6px;background:var(--y);border-radius:50%;margin-right:6px;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links a{font-size:14px;color:var(--t2);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--t1)}
+.nav-links a.active{color:var(--y)}
+.nav-cta{font-family:var(--mono);font-size:12px;font-weight:600;padding:8px 18px;background:var(--y);color:var(--bg);border:none;border-radius:6px;cursor:pointer;text-decoration:none;transition:all .2s}
+.nav-cta:hover{background:var(--y-dim);box-shadow:0 0 20px var(--y-glow-s)}
+
+/* Layout */
+.page{max-width:900px;margin:0 auto;padding:100px 24px 80px}
+
+/* Countdown bar */
+.countdown-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:32px;flex-wrap:wrap;gap:12px}
+.countdown-left h1{font-size:28px;font-weight:700;letter-spacing:-1px}
+.countdown-left p{font-size:14px;color:var(--t2);margin-top:2px}
+.countdown-pill{font-family:var(--mono);font-size:12px;color:var(--t3);background:var(--card);border:1px solid var(--border);border-radius:100px;padding:7px 14px;display:flex;align-items:center;gap:8px}
+.countdown-dot{width:6px;height:6px;background:var(--g);border-radius:50%;animation:pulse 2s ease-in-out infinite}
+
+/* Filter tabs */
+.filter-tabs{display:flex;gap:6px;margin-bottom:28px}
+.filter-tab{font-family:var(--mono);font-size:11px;font-weight:500;padding:6px 14px;border-radius:100px;border:1px solid var(--border);color:var(--t3);cursor:pointer;transition:all .2s;background:transparent}
+.filter-tab:hover{border-color:var(--border-b);color:var(--t2)}
+.filter-tab.active{border-color:var(--y-border);color:var(--y);background:var(--y-glow)}
+
+/* Date separator */
+.date-sep{display:flex;align-items:center;gap:12px;margin:28px 0 16px}
+.date-sep-line{flex:1;height:1px;background:var(--border)}
+.date-sep-text{font-family:var(--mono);font-size:11px;color:var(--t3);letter-spacing:1px;white-space:nowrap}
+
+/* Card */
+.brief-card{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin-bottom:16px;transition:border-color .2s}
+.brief-card:hover{border-color:var(--border-b)}
+.brief-inner{position:relative;padding:28px 32px;overflow:hidden}
+.brief-grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,197,61,.015) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.015) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 70% at 70% 40%,black,transparent);pointer-events:none}
+.brief-glow{position:absolute;top:10%;width:350px;height:250px;pointer-events:none}
+.glow-morning{right:5%;background:radial-gradient(circle,rgba(251,146,60,.07) 0%,transparent 65%)}
+.glow-midday-green{right:5%;background:radial-gradient(circle,rgba(52,211,153,.07) 0%,transparent 65%)}
+.glow-midday-red{right:5%;background:radial-gradient(circle,rgba(248,113,113,.07) 0%,transparent 65%)}
+.glow-evening{right:5%;background:radial-gradient(circle,rgba(167,139,250,.07) 0%,transparent 65%)}
+.glow-danger{left:50%;top:20%;transform:translateX(-50%);background:radial-gradient(circle,rgba(248,113,113,.1) 0%,transparent 60%)}
+
+/* Card layout */
+.brief-content{position:relative;display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap}
+.brief-left{flex:1;min-width:280px}
+.brief-right{display:flex;flex-direction:column;gap:8px;min-width:220px;max-width:280px}
+
+/* Session pill */
+.session-pill{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;margin-bottom:16px}
+.session-pill .dot{width:6px;height:6px;border-radius:50%;animation:pulse 2s ease-in-out infinite}
+.pill-morning{border:1px solid var(--o);color:var(--o);background:var(--o-glow)}
+.pill-morning .dot{background:var(--o)}
+.pill-midday{border:1px solid var(--y);color:var(--y);background:var(--y-glow)}
+.pill-midday .dot{background:var(--y)}
+.pill-evening{border:1px solid var(--p);color:var(--p);background:rgba(167,139,250,.1)}
+.pill-evening .dot{background:var(--p)}
+
+.brief-time{font-family:var(--mono);font-size:11px;color:var(--t3);margin-left:10px}
+.brief-headline{font-size:24px;font-weight:700;letter-spacing:-.8px;line-height:1.2;margin-bottom:10px}
+.brief-desc{font-size:13px;color:var(--t2);line-height:1.7;margin-bottom:14px}
+.brief-tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px}
+.tag-red{border:1px solid rgba(248,113,113,.2);background:rgba(248,113,113,.06);color:var(--r)}
+.tag-yellow{border:1px solid var(--y-border);background:var(--y-glow);color:var(--y)}
+.tag-green{border:1px solid rgba(52,211,153,.2);background:var(--g-glow);color:var(--g)}
+.tag-blue{border:1px solid rgba(96,165,250,.2);background:rgba(96,165,250,.06);color:var(--b)}
+.tag-purple{border:1px solid rgba(167,139,250,.2);background:rgba(167,139,250,.06);color:var(--p)}
+
+/* Data panels */
+.data-panel{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:12px 14px}
+.data-label{font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;letter-spacing:.5px}
+.data-row{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;padding:2px 0}
+.data-row .k{color:var(--t2)}
+.data-row .v-red{color:var(--r)}
+.data-row .v-green{color:var(--g)}
+.data-row .v-yellow{color:var(--y)}
+.data-row .v-blue{color:var(--b)}
+
+/* Gauge bar */
+.gauge-track{height:8px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden;margin-top:4px}
+.gauge-fill{height:100%;border-radius:4px}
+.gauge-labels{display:flex;justify-content:space-between;margin-top:3px;font-family:var(--mono);font-size:10px;color:var(--t3)}
+.gauge-labels .val{font-weight:600}
+
+/* Card footer */
+.brief-footer{position:relative;display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:14px;border-top:1px solid rgba(255,255,255,.04);font-family:var(--mono);font-size:10px;color:var(--t3)}
+
+/* Card actions */
+.card-actions{display:flex;gap:8px;position:relative}
+.card-actions .act{font-family:var(--mono);font-size:11px;padding:6px 12px;border-radius:6px;border:1px solid var(--border);color:var(--t3);cursor:pointer;transition:all .2s;background:transparent;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.card-actions .act:hover{border-color:var(--border-b);color:var(--t2);background:rgba(255,255,255,.02)}
+.card-actions .act-x:hover{border-color:rgba(96,165,250,.3);color:var(--b)}
+.card-actions .copied{color:var(--g)!important;border-color:rgba(52,211,153,.3)!important}
+
+/* Archive link */
+.archive-link{text-align:center;margin-top:40px;padding:24px;background:var(--card);border:1px solid var(--border);border-radius:10px}
+.archive-link a{font-family:var(--mono);font-size:13px;color:var(--y);text-decoration:none}
+.archive-link a:hover{text-decoration:underline}
+.archive-link p{font-size:12px;color:var(--t3);margin-top:4px}
+
+/* Footer */
+footer{max-width:900px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+.ft-left{font-family:var(--mono);font-size:12px;color:var(--t3)}
+.ft-disc{display:block;margin-top:6px;font-size:10px;color:var(--t3);opacity:.7;max-width:480px;line-height:1.5}
+.ft-links{display:flex;gap:20px}
+.ft-links a{font-size:12px;color:var(--t3);text-decoration:none;transition:color .2s}
+.ft-links a:hover{color:var(--t2)}
+
+@media(max-width:768px){
+  nav{padding:12px 16px}
+  .nav-links,.nav-pills{display:none}
+  .page{padding:90px 16px 60px}
+  .brief-inner{padding:20px}
+  .brief-right{max-width:100%}
+  .countdown-left h1{font-size:22px}
+  .brief-headline{font-size:20px}
+  .filter-tabs{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  footer{flex-direction:column;text-align:center;gap:16px}
+  .ft-links{justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="/" class="nav-logo">Agent<span>Canary</span></a>
+    <div class="nav-pills">
+      <div class="nav-pill live">API Live</div>
+    </div>
+  </div>
+  <div class="nav-links">
+    <a href="/briefs" class="active">Live Briefs</a>
+    <a href="/#capabilities">Capabilities</a>
+    <a href="/#how">How It Works</a>
+    <a href="https://t.me/AgentCanary" target="_blank">Telegram</a>
+    <a href="https://t.me/AgentCanary" target="_blank" class="nav-cta">Join Telegram</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- Countdown bar -->
+  <div class="countdown-bar">
+    <div class="countdown-left">
+      <h1>Live Market Briefs</h1>
+      <p>Auto-generated from 250+ sources · 3× daily · individually shareable</p>
+    </div>
+    <div class="countdown-pill">
+      <span class="countdown-dot"></span>
+      <span id="countdown-text">Next brief in —</span>
+    </div>
+  </div>
+
+  <!-- Filter tabs -->
+  <div class="filter-tabs">
+    <button class="filter-tab active" data-filter="all">All</button>
+    <button class="filter-tab" data-filter="morning">Morning</button>
+    <button class="filter-tab" data-filter="midday">Midday</button>
+    <button class="filter-tab" data-filter="evening">Evening</button>
+  </div>
+
+  <!-- Feed -->
+  <div id="feed"></div>
+
+  <!-- Archive link -->
+  <div class="archive-link">
+    <a href="/briefs/archive">Browse Full Archive →</a>
+    <p>Every brief ever published, permanently indexed.</p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="ft-left">AgentCanary · api.agentcanary.ai · 2026<span class="ft-disc">AgentCanary provides market data and intelligence for informational purposes only. Nothing on this site constitutes financial advice. Do your own research.</span></div>
+  <div class="ft-links"><a href="https://clawhub.ai/MrCerq/agentcanary" target="_blank">ClawHub</a><a href="https://t.me/AgentCanary" target="_blank">Telegram</a><a href="https://x.com/agentcanaryHQ" target="_blank">X</a></div>
+</footer>
+
+<script>
+// ── Sample data (replaced by GET /api/briefs when backend is live) ──
+var BRIEFS = [
+  // Mar 1
+  {session:"morning",date:"2026-03-01",time:"08:00 UTC",
+   headline:"STAGFLATION regime.\nRisk gauge at 72.",headlineColor:"var(--o)",
+   desc:"Growth ↓ · Inflation ↑ · DXY rising · 10Y yield +8bp · Gold +1.2% overnight. Macro environment favors defensive positioning.",
+   tags:[{t:"RISK_OFF",c:"red"},{t:"LATE CYCLE",c:"yellow"},{t:"VIX 24.3",c:"blue"}],
+   panels:[
+     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"+1.8σ",c:"red"},{k:"DXY",v:"+1.2σ",c:"red"},{k:"HY Spread",v:"+0.6σ",c:"yellow"}]},
+     {label:"RISK GAUGE",gauge:{value:72,gradient:"linear-gradient(90deg,var(--y),var(--o),var(--r))"}}
+   ]},
+  {session:"midday",date:"2026-03-01",time:"13:00 UTC",
+   headline:"BTC BEAR 1D / ACCUM 4H.\n3 whale moves overnight.",headlineColor:"var(--y)",
+   desc:"ETH ignition on 4h. SOL risk-off both frames. $42M USDC moved to Coinbase. Funding arb: POWER at 127% APR.",
+   tags:[{t:"TENSION",c:"yellow"},{t:"WHALE ALERT",c:"blue"},{t:"POWER 127% APR",c:"green"}],
+   panels:[
+     {label:"SIGNAL STATES",rows:[{k:"BTC 1D",v:"BEAR",c:"red"},{k:"BTC 4H",v:"ACCUM",c:"yellow"},{k:"ETH 4H",v:"IGNITION",c:"green"},{k:"SOL 1D",v:"RISK_OFF",c:"red"}]},
+     {label:"TOP WHALE",rows:[{k:"$42M USDC",v:"→ Coinbase",c:"blue"},{k:"$18M BTC",v:"→ Cold wallet",c:"green"}]}
+   ]},
+  {session:"evening",date:"2026-03-01",time:"21:00 UTC",
+   headline:"4 bullish / 6 bearish signals.\nNFP drops Friday.",headlineColor:"var(--p)",
+   desc:"Newsletter consensus shifting bearish. FinBERT sentiment -0.3 avg across 47 stories. ISM Manufacturing tomorrow 10:00 ET.",
+   tags:[{t:"BEARISH SKEW",c:"red"},{t:"NFP FRIDAY",c:"purple"},{t:"ISM TOMORROW",c:"blue"}],
+   panels:[
+     {label:"NEWS SENTIMENT",rows:[{k:"Bullish",v:"4 stories",c:"green"},{k:"Bearish",v:"6 stories",c:"red"},{k:"Neutral",v:"37 stories",c:"yellow"}]},
+     {label:"CALENDAR",rows:[{k:"🇺🇸 ISM Mfg",v:"Mar 2 10:00",c:"blue"},{k:"🇺🇸 NFP",v:"Mar 7 08:30",c:"red"},{k:"🇪🇺 CPI Flash",v:"Mar 3 10:00",c:"yellow"}]}
+   ]},
+  // Feb 28
+  {session:"morning",date:"2026-02-28",time:"08:00 UTC",
+   headline:"RISK-ON regime holds.\nGauge drops to 38.",headlineColor:"var(--g)",
+   desc:"Growth ↑ · Inflation ↓ · 10Y yield stable · DXY -0.3% · Oil +2.1% on supply cut rumors. Environment supports risk assets.",
+   tags:[{t:"RISK_ON",c:"green"},{t:"EXPANSION",c:"green"},{t:"VIX 16.8",c:"blue"}],
+   panels:[
+     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"-0.2σ",c:"green"},{k:"DXY",v:"-0.8σ",c:"green"},{k:"HY Spread",v:"-0.3σ",c:"green"}]},
+     {label:"RISK GAUGE",gauge:{value:38,gradient:"linear-gradient(90deg,var(--g),var(--y))"}}
+   ]},
+  {session:"midday",date:"2026-02-28",time:"13:00 UTC",
+   headline:"Full IGNITION sweep.\nAll 3 majors green.",headlineColor:"var(--g)",
+   desc:"BTC, ETH, SOL all IGNITION on daily + 4h. Funding rates elevated but not extreme. $28M ETH moved to staking.",
+   tags:[{t:"IGNITION",c:"green"},{t:"FULL SWEEP",c:"green"},{t:"FUNDING OK",c:"yellow"}],
+   panels:[
+     {label:"SIGNAL STATES",rows:[{k:"BTC 1D",v:"IGNITION",c:"green"},{k:"ETH 1D",v:"IGNITION",c:"green"},{k:"SOL 1D",v:"IGNITION",c:"green"}]},
+     {label:"FUNDING",rows:[{k:"BTC",v:"0.012%",c:"yellow"},{k:"ETH",v:"0.008%",c:"green"},{k:"SOL",v:"0.015%",c:"yellow"}]}
+   ]},
+  {session:"evening",date:"2026-02-28",time:"21:00 UTC",
+   headline:"7 bullish / 2 bearish.\nPCE data in-line.",headlineColor:"var(--g)",
+   desc:"Newsletter consensus bullish. PCE came in at expectations — no surprises. Chicago PMI slight beat. Weekend risk: low.",
+   tags:[{t:"BULLISH SKEW",c:"green"},{t:"PCE IN-LINE",c:"yellow"},{t:"LOW RISK",c:"green"}],
+   panels:[
+     {label:"NEWS SENTIMENT",rows:[{k:"Bullish",v:"7 stories",c:"green"},{k:"Bearish",v:"2 stories",c:"red"},{k:"Neutral",v:"41 stories",c:"yellow"}]},
+     {label:"CALENDAR",rows:[{k:"🇺🇸 ISM Mfg",v:"Mar 1 10:00",c:"blue"},{k:"🇨🇳 PMI",v:"Mar 1 01:30",c:"yellow"}]}
+   ]},
+  // Feb 27
+  {session:"morning",date:"2026-02-27",time:"08:00 UTC",
+   headline:"Regime flip: RISK-OFF.\nGauge spikes to 81.",headlineColor:"var(--r)",
+   desc:"Growth ↓ · Inflation ↑ · 10Y yield +14bp overnight · VIX 28.4 · Credit spreads widening. PCE today — positioning defensive.",
+   tags:[{t:"RISK_OFF",c:"red"},{t:"CONTRACTION",c:"red"},{t:"VIX 28.4",c:"red"}],
+   panels:[
+     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"+2.1σ",c:"red"},{k:"DXY",v:"+1.6σ",c:"red"},{k:"HY Spread",v:"+1.4σ",c:"red"}]},
+     {label:"RISK GAUGE",gauge:{value:81,gradient:"linear-gradient(90deg,var(--o),var(--r),#dc2626)"}}
+   ]},
+  {session:"midday",date:"2026-02-27",time:"13:00 UTC",
+   headline:"BTC -4.2% · SOL -7.1%.\n$89M liquidated.",headlineColor:"var(--r)",
+   desc:"All 3 majors RISK_OFF on daily. Massive long liquidation cascade. Whale selling into the drop — $31M BTC to exchanges.",
+   tags:[{t:"RISK_OFF",c:"red"},{t:"LIQUIDATIONS",c:"red"},{t:"WHALE SELL",c:"red"}],
+   panels:[
+     {label:"SIGNAL STATES",rows:[{k:"BTC 1D",v:"RISK_OFF",c:"red"},{k:"ETH 1D",v:"RISK_OFF",c:"red"},{k:"SOL 1D",v:"RISK_OFF",c:"red"}]},
+     {label:"LIQUIDATIONS",rows:[{k:"Longs",v:"$78M",c:"red"},{k:"Shorts",v:"$11M",c:"green"},{k:"Largest",v:"BTC $4.2M",c:"red"}]}
+   ]},
+  {session:"evening",date:"2026-02-27",time:"21:00 UTC",
+   headline:"9 bearish / 1 bullish.\nPCE hot — rate fears.",headlineColor:"var(--r)",
+   desc:"PCE core came in +0.4% vs +0.3% expected. Rate cut odds collapsed. Newsletter consensus: avoid risk. GDP revision tomorrow.",
+   tags:[{t:"PCE HOT",c:"red"},{t:"RATE FEARS",c:"red"},{t:"GDP TOMORROW",c:"blue"}],
+   panels:[
+     {label:"NEWS SENTIMENT",rows:[{k:"Bullish",v:"1 story",c:"green"},{k:"Bearish",v:"9 stories",c:"red"},{k:"Neutral",v:"38 stories",c:"yellow"}]},
+     {label:"CALENDAR",rows:[{k:"🇺🇸 GDP Rev",v:"Feb 28 08:30",c:"blue"},{k:"🇺🇸 Pending Home",v:"Feb 28 10:00",c:"yellow"}]}
+   ]}
+];
+
+// ── Rendering ──
+var SESSIONS = {morning:{pill:'pill-morning',glow:'glow-morning'},midday:{pill:'pill-midday',glow:'glow-midday-green'},evening:{pill:'pill-evening',glow:'glow-evening'}};
+
+function glowClass(b){
+  if(b.session==='morning') return 'glow-morning';
+  if(b.session==='evening') return 'glow-evening';
+  var hasRed = b.tags.some(function(t){return t.c==='red';});
+  return hasRed ? 'glow-midday-red' : 'glow-midday-green';
+}
+
+function renderCard(b){
+  var s = SESSIONS[b.session];
+  var permalink = '/briefs/'+b.session+'/'+b.date;
+  var shareText = encodeURIComponent(b.headline.replace('\n',' ')+' — agentcanary.ai'+permalink);
+  var id = b.session+'-'+b.date;
+
+  var panels = b.panels.map(function(p){
+    if(p.gauge){
+      return '<div class="data-panel"><div class="data-label">'+p.label+'</div>'+
+        '<div class="gauge-track"><div class="gauge-fill" style="width:'+p.gauge.value+'%;background:'+p.gauge.gradient+';"></div></div>'+
+        '<div class="gauge-labels"><span>0</span><span class="val" style="color:'+(p.gauge.value>70?'var(--o)':'var(--g)')+'">'+p.gauge.value+'</span><span>100</span></div></div>';
+    }
+    var rows = p.rows.map(function(r){return '<div class="data-row"><span class="k">'+r.k+'</span><span class="v-'+r.c+'">'+r.v+'</span></div>';}).join('');
+    return '<div class="data-panel"><div class="data-label">'+p.label+'</div>'+rows+'</div>';
+  }).join('');
+
+  var tags = b.tags.map(function(t){return '<span class="tag tag-'+t.c+'">'+t.t+'</span>';}).join('');
+
+  var hl = b.headline.split('\n').map(function(line,i){
+    return i===1 ? '<span style="color:'+b.headlineColor+'">'+line+'</span>' : line;
+  }).join('<br>');
+
+  return '<div class="brief-card" data-session="'+b.session+'" id="'+id+'">'+
+    '<div class="brief-inner">'+
+      '<div class="brief-grid-bg"></div>'+
+      '<div class="brief-glow '+glowClass(b)+'"></div>'+
+      '<div class="brief-content">'+
+        '<div class="brief-left">'+
+          '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
+          '<div class="brief-headline">'+hl+'</div>'+
+          '<div class="brief-desc">'+b.desc+'</div>'+
+          '<div class="brief-tags">'+tags+'</div>'+
+        '</div>'+
+        '<div class="brief-right">'+panels+'</div>'+
+      '</div>'+
+      '<div class="brief-footer">'+
+        '<span>AGENTCANARY · '+b.date+'</span>'+
+        '<div class="card-actions">'+
+          '<a class="act act-x" href="https://x.com/intent/tweet?text='+shareText+'" target="_blank" title="Share to X">𝕏 Share</a>'+
+          '<button class="act act-copy" onclick="copyLink(\''+permalink+'\',this)" title="Copy permalink">Copy link</button>'+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+  '</div>';
+}
+
+function renderFeed(filter){
+  var feed = document.getElementById('feed');
+  var html = '';
+  var lastDate = '';
+  var filtered = filter==='all' ? BRIEFS : BRIEFS.filter(function(b){return b.session===filter;});
+
+  filtered.forEach(function(b){
+    if(b.date !== lastDate){
+      var d = new Date(b.date+'T12:00:00Z');
+      var label = d.toLocaleDateString('en-US',{weekday:'long',month:'short',day:'numeric',year:'numeric'});
+      html += '<div class="date-sep"><div class="date-sep-line"></div><div class="date-sep-text">'+label+'</div><div class="date-sep-line"></div></div>';
+      lastDate = b.date;
+    }
+    html += renderCard(b);
+  });
+  feed.innerHTML = html;
+}
+
+// ── Copy link ──
+function copyLink(path,btn){
+  navigator.clipboard.writeText('https://agentcanary.ai'+path);
+  btn.classList.add('copied');
+  btn.textContent = 'Copied ✓';
+  setTimeout(function(){btn.classList.remove('copied');btn.textContent='Copy link';},2000);
+}
+
+// ── Filter tabs ──
+document.querySelectorAll('.filter-tab').forEach(function(tab){
+  tab.addEventListener('click',function(){
+    document.querySelectorAll('.filter-tab').forEach(function(t){t.classList.remove('active');});
+    tab.classList.add('active');
+    renderFeed(tab.dataset.filter);
+  });
+});
+
+// ── Countdown ──
+(function(){
+  var times=[8,13,21],el=document.getElementById('countdown-text');
+  var names=['Morning','Midday','Evening'];
+  function upd(){
+    var n=new Date(),u=n.getUTCHours()*60+n.getUTCMinutes();
+    var mins=[times[0]*60,times[1]*60,times[2]*60];
+    var next=-1,ni=0;
+    for(var i=0;i<3;i++){if(mins[i]>u){next=mins[i]-u;ni=i;break;}}
+    if(next<0){next=1440-u+mins[0];ni=0;}
+    var h=Math.floor(next/60),m=next%60;
+    el.textContent='Next '+names[ni]+' brief in '+h+'h '+m+'m';
+  }
+  upd();setInterval(upd,60000);
+})();
+
+// ── Init ──
+renderFeed('all');
+
+// ── Handle permalink routing (e.g. /briefs/morning/2026-03-01) ──
+(function(){
+  var path = window.location.pathname.replace(/\/$/,'');
+  var parts = path.split('/');
+  if(parts.length===4 && parts[1]==='briefs'){
+    var session = parts[2], date = parts[3];
+    var id = session+'-'+date;
+    setTimeout(function(){
+      var el = document.getElementById(id);
+      if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+    },100);
+  }
+})();
+</script>
+
+</body>
+</html>
