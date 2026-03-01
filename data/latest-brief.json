@@ -1,17 +1,17 @@
 {
   "session": "evening",
   "date": "2026-03-01",
-  "time": "21:00 UTC",
-  "headline": "2 bullish / 2 bearish signals.\n🌍 Producer Price Index",
+  "time": "20:53 UTC",
+  "headline": "2 bullish / 2 bearish signals.\n🇺🇸 Core Consumer Price ",
   "headlineColor": "#A78BFA",
-  "desc": "The death of Iran’s Supreme Leader triggered US‑Israel strikes, sparking a sharp Bitcoin rally, oil price spikes, and a risk‑off mood in equities.. Bitcoin surged to $68k after the war, with high funding rates and massive liquidations, driving extreme volatility across major tokens.",
+  "desc": "Crypto rally amid geopolitical tension and oil price uncertainty, with risk‑off sentiment for equities and risk‑on for crypto assets\n\n🧠 KEY THEMES\n🔴 Geopolitical conflict (Iran strike) 🔥\nThe death ",
   "tags": [
     {
       "t": "MIXED",
       "c": "yellow"
     },
     {
-      "t": "🌍 Producer Price ",
+      "t": "🇺🇸 Core Consumer",
       "c": "blue"
     }
   ],
@@ -40,21 +40,22 @@
       "label": "CALENDAR",
       "rows": [
         {
-          "k": "🌍 Producer Price Index",
-          "v": "Mar 13",
+          "k": "🇺🇸 Core Consumer Price ",
+          "v": "Mar 11",
           "c": "blue"
         },
         {
-          "k": "🌍 Seasonally adjusted ",
-          "v": "Mar 12",
+          "k": "🇺🇸 Unseasonally Adjuste",
+          "v": "Mar 11",
           "c": "blue"
         },
         {
-          "k": "🌍 manufacturing purcha",
-          "v": "Mar 12",
+          "k": "🇺🇸 NAR seasonally adjus",
+          "v": "Mar 10",
           "c": "blue"
         }
       ]
     }
-  ]
+  ],
+  "telegramText": "🌙 <b>EVENING INTELLIGENCE</b> — Mar 1, 2026\n\n\n<i>Crypto rally amid geopolitical tension and oil price uncertainty, with risk‑off sentiment for equities and risk‑on for crypto assets</i>\n\n<b>🧠 KEY THEMES</b>\n🔴 <b>Geopolitical conflict (Iran strike)</b> 🔥\nThe death of Iran’s Supreme Leader triggered US‑Israel strikes, sparking a sharp Bitcoin rally, oil price spikes, and a risk‑off mood in equities.\nAssets: BTC, ETH, OIL, SPY, TLT\n\n🟢 <b>Crypto market volatility</b> 🔥\nBitcoin surged to $68k after the war, with high funding rates and massive liquidations, driving extreme volatility across major tokens.\nAssets: BTC, ETH, SOL\n\n🟢 <b>Oil price spike potential</b> 📊\nOil above $80 could be inflationary; the conflict may push prices toward $100+, fueling inflation concerns.\nAssets: OIL\n\n🔴 <b>Equities risk‑off due to conflict</b> 📊\nUS and Israel strikes caused a risk‑off sentiment, with SPY declining and TLT rising as investors seek safety.\nAssets: SPY, TLT\n\n<b>📐 SCENARIO SHIFTS</b>\n↓ Recession: Geopolitical tension and oil price rise dampen growth prospects.\n↑ Stagflation: Oil price spike and inflationary pressures push commodity prices higher.\n↑ Hegemony: US asserts military dominance, boosting risk‑on sentiment for US assets.\n\n<b>⚡ WATCHLIST</b>\n🟢 BTC: Strong rally after geopolitical shock and high funding rates.\n🟢 ETH: Recovery to $2,000 and positive sentiment post‑strike.\n👀 OIL: Potential price spike due to conflict‑driven supply concerns.\n👀 GOLD: Inflationary pressure from oil could lift gold.\n\n<b>🤔 CONTRARIAN</b>\n• Bitcoin will continue to rally as war ends, defying risk‑off consensus.\n• Oil will fall due to supply disruptions, contradicting inflation fears.\n\n⚡ <b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.6/100\n\n<b>📅 UPCOMING — HIGH IMPACT</b>\n🇺🇸 Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Feb) — Mar 11, 12:30 PM UTC (prev: 2.5%)\n🇺🇸 Unseasonally Adjusted Consumer Price Index (YoY)(Feb) — Mar 11, 12:30 PM UTC (prev: 2.4%)\n🇺🇸 NAR seasonally adjusted existing home sales (AAMR)(Feb) — Mar 10, 02:00 PM UTC (prev: -8.4%)\n🌍 Real GDP(billion yen) (Revised) (Q4) — Mar 9, 11:50 PM UTC (prev: 589727.6)\n🌍 Real GDP(QoQ) (Revised) (Q4) — Mar 9, 11:50 PM UTC (prev: 0.1%)\n\n\nagentcanary.ai | <i>Not financial advice</i>"
 }
