@@ -3,9 +3,9 @@
     "session": "evening",
     "date": "2026-03-01",
     "time": "21:07 UTC",
-    "headline": "2 bullish / 2 bearish signals.\n🇺🇸 Core Consumer Price ",
+    "headline": "Crypto rally amid geopolitical tension and oil price uncer…",
     "headlineColor": "#A78BFA",
-    "desc": "Crypto rally amid geopolitical tension and oil price uncertainty, with risk‑off sentiment for equities and risk‑on for crypto assets\n\n🧠 KEY THEMES\n🔴 Geopolitical conflict (Iran strike) 🔥\nThe death ",
+    "desc": "🔴 Geopolitical conflict (Iran strike) · 🟢 Crypto market volatility · 🟢 Oil price spike potential",
     "tags": [
       {
         "t": "MIXED",
@@ -64,9 +64,9 @@
     "session": "midday",
     "date": "2026-03-01",
     "time": "21:07 UTC",
-    "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+    "headline": "BTC $65,318 — ACCUMULATION\n4 whale moves detected",
     "headlineColor": "#F87171",
-    "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:ACCUMULATION 4h:DISTRIBUTION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
+    "desc": "BTC: $65,318 — 1d: ACCUMULATION | 4h: DISTRIBUTION · ETH: $1,914 — 1d: ACCUMULATION | 4h: DISTRIBUTION · SOL: $82.02 — 1d: ACCUMULATION | 4h: DISTRIBUTION",
     "tags": [
       {
         "t": "WHALE ALERT",
@@ -120,9 +120,9 @@
     "session": "morning",
     "date": "2026-03-01",
     "time": "21:07 UTC",
-    "headline": "RISK-OFF · STAGFLATION.\nGauge 91.6/100.",
+    "headline": "Risk-Off · Neutral · STAGFLATION\nGauge 91.6/100",
     "headlineColor": "#FB923C",
-    "desc": "Growth ↓ · Inflation ↑. moderate risk-off conditions: investors are defensive with a preference for safety and liquidity. Policy stance is on hold: no clear tighten.",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $65,318 · ETH: $1,914 · SOL: $82.02 · GOLD: $5,263",
     "tags": [
       {
         "t": "RISK_OFF",
