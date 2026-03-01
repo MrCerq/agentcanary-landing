@@ -73,14 +73,14 @@ var ARCHIVE = [];
 var pillClass = {morning:'pill-m',midday:'pill-d',evening:'pill-e'};
 var pillLabel = {morning:'Morning',midday:'Midday',evening:'Evening'};
 
-fetch('/data/briefs-feed.json?v='+Date.now()).then(function(r){return r.json()}).then(function(briefs){
+fetch('/data/briefs-archive.json?v='+Date.now()).then(function(r){return r.json()}).then(function(briefs){
   // Group by month
   var months = {};
   briefs.forEach(function(b){
     var d = new Date(b.date+'T12:00:00Z');
     var m = d.toLocaleDateString('en-US',{month:'long',year:'numeric'});
     if(!months[m]) months[m] = [];
-    months[m].push({session:b.session,date:b.date,label:pillLabel[b.session]+' Brief',headline:b.headline.replace('\n',' ')});
+    months[m].push({session:b.session,date:b.date,label:pillLabel[b.session]+' Brief',headline:b.headline.replace('\n',' '),telegramMessageId:b.telegramMessageId});
   });
   ARCHIVE = Object.keys(months).map(function(m){return {month:m,entries:months[m]};});
   renderArchive();
@@ -100,6 +100,7 @@ ARCHIVE.forEach(function(g){
       '<span class="entry-pill '+pillClass[e.session]+'">'+pillLabel[e.session]+'</span>'+
       '<span class="entry-date">'+dateStr+'</span>'+
       '<span class="entry-headline">'+e.headline+'</span>'+
+      (e.telegramMessageId ? '<a href="https://t.me/agentcanary/'+e.telegramMessageId+'" target="_blank" style="font-family:var(--mono);font-size:10px;color:#26a5dc;text-decoration:none;padding:2px 6px;border:1px solid rgba(38,165,220,.2);border-radius:4px;" onclick="event.stopPropagation()">TG</a>' : '')+
       '<span class="entry-arrow">→</span></a>';
   });
   html += '</div>';

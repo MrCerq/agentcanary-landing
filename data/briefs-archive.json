@@ -1,0 +1,1197 @@
+[
+  {
+    "session": "evening",
+    "date": "2026-03-01",
+    "time": "21:07 UTC",
+    "headline": "Crypto rally amid geopolitical tension and oil price uncer…",
+    "headlineColor": "#A78BFA",
+    "desc": "🔴 Geopolitical conflict (Iran strike) · 🟢 Crypto market volatility · 🟢 Oil price spike potential",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "🇺🇸 Core Consumer",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "2 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "2 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "1 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🇺🇸 Core Consumer Price ",
+            "v": "Mar 11",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Unseasonally Adjuste",
+            "v": "Mar 11",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 NAR seasonally adjus",
+            "v": "Mar 10",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-03-01",
+    "time": "21:07 UTC",
+    "headline": "BTC $65,318 — ACCUMULATION\n4 whale moves detected",
+    "headlineColor": "#F87171",
+    "desc": "BTC: $65,318 — 1d: ACCUMULATION | 4h: DISTRIBUTION · ETH: $1,914 — 1d: ACCUMULATION | 4h: DISTRIBUTION · SOL: $82.02 — 1d: ACCUMULATION | 4h: DISTRIBUTION",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "ALICE 2336% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "ACCUMULATION",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "ACCUMULATION",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "ACCUMULATION",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$138M USDT",
+            "v": "transferred from unk",
+            "c": "blue"
+          },
+          {
+            "k": "$300M USDC",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "morning",
+    "date": "2026-03-01",
+    "time": "21:07 UTC",
+    "headline": "Risk-Off · Neutral · STAGFLATION\nGauge 91.6/100",
+    "headlineColor": "#FB923C",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $65,318 · ETH: $1,914 · SOL: $82.02 · GOLD: $5,263",
+    "tags": [
+      {
+        "t": "RISK_OFF",
+        "c": "red"
+      },
+      {
+        "t": "LIQUIDITY_CONTRACTION",
+        "c": "blue"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "PRICES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "$65,318",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH",
+            "v": "$1,914",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL",
+            "v": "$82.02",
+            "c": "yellow"
+          },
+          {
+            "k": "GOLD",
+            "v": "$5,263",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 91.6
+        }
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "evening",
+    "date": "2026-02-28",
+    "time": "21:00 UTC",
+    "headline": "23 bullish / 27 bearish signals.\n🌍 Producer Price Index",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "🌍 Producer Price ",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "23 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "27 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "0 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🌍 Producer Price Index",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🌍 Changes in multiclas",
+            "v": "Mar 12",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Net long-term capita",
+            "v": "Mar 11",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-02-28",
+    "time": "13:00 UTC",
+    "headline": "BTC BEAR_REGIME 1D / ACCUMULATION 4H.\n100 whale moves detected.",
+    "headlineColor": "#FFC53D",
+    "desc": "BTC 1d:BEAR_REGIME 4h:ACCUMULATION · ETH 1d:BEAR_REGIME 4h:ACCUMULATION · SOL 1d:BEAR_REGIME 4h:ACCUMULATION",
+    "tags": [
+      {
+        "t": "TENSION",
+        "c": "yellow"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "BEAR_REGIME",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BEAR_REGIME",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "BEAR_REGIME",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "WHALE MOVES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          },
+          {
+            "k": "ENA",
+            "v": "?",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "morning",
+    "date": "2026-02-28",
+    "time": "08:00 UTC",
+    "headline": "RISK-OFF regime.\nRisk gauge at 73.",
+    "headlineColor": "#FB923C",
+    "desc": "Risk-Off · Neutral. moderate risk-off conditions: investors are defensive with a preference for safety and liquidity. Policy stance is on hold: no clear tighten.",
+    "tags": [
+      {
+        "t": "RISK_OFF",
+        "c": "red"
+      },
+      {
+        "t": "LIQUIDITY_CONTRACTION",
+        "c": "blue"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 73
+        }
+      },
+      {
+        "label": "DRIVERS",
+        "rows": [
+          {
+            "k": "Financial conditions flo",
+            "v": "+3.0",
+            "c": "green"
+          },
+          {
+            "k": "Liquidity contracting",
+            "v": "-2.6",
+            "c": "red"
+          },
+          {
+            "k": "Real yields falling (ris",
+            "v": "+2.4",
+            "c": "green"
+          },
+          {
+            "k": "HY spread widening (risk",
+            "v": "-2.1",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "evening",
+    "date": "2026-02-27",
+    "time": "21:00 UTC",
+    "headline": "7 bullish / 4 bearish signals.\n🌍 Producer Price Index",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "🌍 Producer Price ",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "7 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "4 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "0 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🌍 Producer Price Index",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🌍 Changes in multiclas",
+            "v": "Mar 12",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Net long-term capita",
+            "v": "Mar 11",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-02-27",
+    "time": "13:00 UTC",
+    "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:DISTRIBUTION 4h:ACCUMULATION · ETH 1d:DISTRIBUTION 4h:ACCUMULATION · SOL 1d:DISTRIBUTION 4h:ACCUMULATION",
+    "tags": [
+      {
+        "t": "DISTRIBUTION",
+        "c": "yellow"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "WHALE MOVES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          },
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "morning",
+    "date": "2026-02-27",
+    "time": "08:00 UTC",
+    "headline": "RISK-ON regime.\nRisk gauge at 47.",
+    "headlineColor": "#34D399",
+    "desc": "Neutral · Neutral. Risk appetite is balanced. Policy stance is on hold: no clear tightening or easing impulse is dominating. Stress is low: credit markets look.",
+    "tags": [
+      {
+        "t": "NEUTRAL",
+        "c": "yellow"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 47
+        }
+      },
+      {
+        "label": "DRIVERS",
+        "rows": [
+          {
+            "k": "Financial conditions flo",
+            "v": "+3.0",
+            "c": "green"
+          },
+          {
+            "k": "Real yields falling (ris",
+            "v": "+1.9",
+            "c": "green"
+          },
+          {
+            "k": "HY spread widening (risk",
+            "v": "-1.3",
+            "c": "red"
+          },
+          {
+            "k": "Policy flow (DFF + 2Y)",
+            "v": "-1.0",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "evening",
+    "date": "2026-02-26",
+    "time": "21:00 UTC",
+    "headline": "2 bullish / 3 bearish signals.\n🌍 Changes in multiclas",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "🌍 Changes in mult",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "2 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "3 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "0 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🌍 Changes in multiclas",
+            "v": "Mar 12",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Net long-term capita",
+            "v": "Mar 11",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Imports (US $100 mil",
+            "v": "Mar 8",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-02-26",
+    "time": "13:00 UTC",
+    "headline": "BTC IGNITION on daily.\n100 whale moves detected.",
+    "headlineColor": "#34D399",
+    "desc": "BTC 1d:IGNITION 4h:IGNITION · ETH 1d:BULL_REGIME 4h:DISTRIBUTION · SOL 1d:BULL_REGIME 4h:DISTRIBUTION",
+    "tags": [
+      {
+        "t": "IGNITION",
+        "c": "green"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "IGNITION",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "WHALE MOVES",
+        "rows": [
+          {
+            "k": "BCH",
+            "v": "?",
+            "c": "red"
+          },
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "morning",
+    "date": "2026-02-26",
+    "time": "08:00 UTC",
+    "headline": "RISK-ON regime.\nRisk gauge at 44.",
+    "headlineColor": "#34D399",
+    "desc": "Neutral · Neutral. Risk appetite is balanced. Policy stance is on hold: no clear tightening or easing impulse is dominating. Liquidity is mildly supportive, bu.",
+    "tags": [
+      {
+        "t": "NEUTRAL",
+        "c": "yellow"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 44
+        }
+      },
+      {
+        "label": "DRIVERS",
+        "rows": [
+          {
+            "k": "Financial conditions flo",
+            "v": "+3.0",
+            "c": "green"
+          },
+          {
+            "k": "HY spread widening (risk",
+            "v": "-2.0",
+            "c": "red"
+          },
+          {
+            "k": "Real yields falling (ris",
+            "v": "+1.9",
+            "c": "green"
+          },
+          {
+            "k": "Inflation expectations f",
+            "v": "-1.1",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "evening",
+    "date": "2026-02-25",
+    "time": "21:00 UTC",
+    "headline": "9 bullish / 1 bearish signals.\n🌍 Changes in multiclas",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "🌍 Changes in mult",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "9 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "1 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "0 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🌍 Changes in multiclas",
+            "v": "Mar 12",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Net long-term capita",
+            "v": "Mar 11",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Imports (US $100 mil",
+            "v": "Mar 8",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-02-25",
+    "time": "13:00 UTC",
+    "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:ACCUMULATION 4h:IGNITION · ETH 1d:ACCUMULATION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:IGNITION",
+    "tags": [
+      {
+        "t": "ACCUMULATION",
+        "c": "yellow"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "ACCUMULATION",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "ACCUMULATION",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "ACCUMULATION",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "WHALE MOVES",
+        "rows": [
+          {
+            "k": "BCH",
+            "v": "?",
+            "c": "red"
+          },
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "morning",
+    "date": "2026-02-25",
+    "time": "08:00 UTC",
+    "headline": "RISK-ON regime.\nRisk gauge at 21.",
+    "headlineColor": "#34D399",
+    "desc": "Risk-On · Neutral. moderate risk-on conditions: investors are favoring risk assets and credit conditions are supportive. Policy stance is on hold: no clear tig.",
+    "tags": [
+      {
+        "t": "RISK_ON",
+        "c": "green"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 21
+        }
+      },
+      {
+        "label": "DRIVERS",
+        "rows": [
+          {
+            "k": "Financial conditions flo",
+            "v": "+3.0",
+            "c": "green"
+          },
+          {
+            "k": "Real yields falling (ris",
+            "v": "+2.4",
+            "c": "green"
+          },
+          {
+            "k": "Inflation expectations f",
+            "v": "-1.8",
+            "c": "red"
+          },
+          {
+            "k": "HY spread widening (risk",
+            "v": "-1.7",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "evening",
+    "date": "2026-02-24",
+    "time": "21:00 UTC",
+    "headline": "1 bullish / 5 bearish signals.\n🇺🇸 Imports (US $100 mil",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "🇺🇸 Imports (US $",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "1 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "5 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "0 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🇺🇸 Imports (US $100 mil",
+            "v": "Mar 8",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 University of Michig",
+            "v": "Mar 6",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Last week EIA Cushin",
+            "v": "Mar 6",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-02-24",
+    "time": "13:00 UTC",
+    "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:BEAR_REGIME 4h:ACCUMULATION",
+    "tags": [
+      {
+        "t": "RISK_OFF",
+        "c": "red"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "BEAR_REGIME",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "WHALE MOVES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          },
+          {
+            "k": "SOL",
+            "v": "?",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "morning",
+    "date": "2026-02-24",
+    "time": "08:00 UTC",
+    "headline": "RISK-ON regime.\nRisk gauge at 9.",
+    "headlineColor": "#34D399",
+    "desc": "Risk-On · Neutral. clear risk-on conditions: investors are favoring risk assets and credit conditions are supportive. Policy stance is on hold: no clear tighte.",
+    "tags": [
+      {
+        "t": "RISK_ON",
+        "c": "green"
+      },
+      {
+        "t": "DISINFLATION",
+        "c": "blue"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 9
+        }
+      },
+      {
+        "label": "DRIVERS",
+        "rows": [
+          {
+            "k": "Inflation expectations f",
+            "v": "-2.1",
+            "c": "red"
+          },
+          {
+            "k": "Real yields falling (ris",
+            "v": "+1.8",
+            "c": "green"
+          },
+          {
+            "k": "Gold rising + real yield",
+            "v": "+1.5",
+            "c": "green"
+          },
+          {
+            "k": "Policy flow (DFF + 2Y)",
+            "v": "-1.0",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "evening",
+    "date": "2026-02-23",
+    "time": "21:00 UTC",
+    "headline": "5 bullish / 6 bearish signals.\n🇺🇸 University of Michig",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "🇺🇸 University of",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "5 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "6 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "0 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🇺🇸 University of Michig",
+            "v": "Mar 6",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Non-agricultural pro",
+            "v": "Mar 5",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Non-agricultural uni",
+            "v": "Mar 5",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-02-23",
+    "time": "13:00 UTC",
+    "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:ACCUMULATION 4h:ACCUMULATION · ETH 1d:ACCUMULATION 4h:ACCUMULATION · SOL 1d:BEAR_REGIME 4h:ACCUMULATION",
+    "tags": [
+      {
+        "t": "ACCUMULATION",
+        "c": "yellow"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "ACCUMULATION",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "ACCUMULATION",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "BEAR_REGIME",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "WHALE MOVES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          },
+          {
+            "k": "BTC",
+            "v": "?",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  },
+  {
+    "session": "morning",
+    "date": "2026-02-23",
+    "time": "08:00 UTC",
+    "headline": "RISK-ON regime.\nRisk gauge at 0.",
+    "headlineColor": "#34D399",
+    "desc": "Risk-On · Neutral. clear risk-on conditions: investors are favoring risk assets and credit conditions are supportive. Policy stance is on hold: no clear tighte.",
+    "tags": [
+      {
+        "t": "RISK_ON",
+        "c": "green"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "DRIVERS",
+        "rows": [
+          {
+            "k": "Real yields falling (ris",
+            "v": "+2.3",
+            "c": "green"
+          },
+          {
+            "k": "Gold rising + real yield",
+            "v": "+1.5",
+            "c": "green"
+          },
+          {
+            "k": "USD weakening (risk-on)",
+            "v": "+1.0",
+            "c": "green"
+          },
+          {
+            "k": "Policy flow (DFF + 2Y)",
+            "v": "-1.0",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": null
+  }
+]
