@@ -217,15 +217,6 @@ footer{max-width:900px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid
 // ── Sample data (replaced by GET /api/briefs when backend is live) ──
 var BRIEFS = [
   // Mar 1
-  {session:"morning",date:"2026-03-01",time:"08:00 UTC",
-   headline:"STAGFLATION regime.\nRisk gauge at 72.",headlineColor:"var(--o)",
-   shareText:"Risk gauge at 72. Growth ↓ Inflation ↑. STAGFLATION regime — day 3.\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai",
-   desc:"Growth ↓ · Inflation ↑ · DXY rising · 10Y yield +8bp · Gold +1.2% overnight. Macro environment favors defensive positioning.",
-   tags:[{t:"RISK_OFF",c:"red"},{t:"LATE CYCLE",c:"yellow"},{t:"VIX 24.3",c:"blue"}],
-   panels:[
-     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"+1.8σ",c:"red"},{k:"DXY",v:"+1.2σ",c:"red"},{k:"HY Spread",v:"+0.6σ",c:"yellow"}]},
-     {label:"RISK GAUGE",gauge:{value:72,gradient:"linear-gradient(90deg,var(--y),var(--o),var(--r))"}}
-   ]},
   {session:"midday",date:"2026-03-01",time:"13:00 UTC",
    headline:"BTC BEAR 1D / ACCUM 4H.\n3 whale moves overnight.",headlineColor:"var(--y)",
    shareText:"BTC/ETH/SOL mixed signals. 3 whale moves totalling $60M. POWER arb at 127% APR.\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai",
@@ -234,6 +225,15 @@ var BRIEFS = [
    panels:[
      {label:"SIGNAL STATES",rows:[{k:"BTC 1D",v:"BEAR",c:"red"},{k:"BTC 4H",v:"ACCUM",c:"yellow"},{k:"ETH 4H",v:"IGNITION",c:"green"},{k:"SOL 1D",v:"RISK_OFF",c:"red"}]},
      {label:"TOP WHALE",rows:[{k:"$42M USDC",v:"→ Coinbase",c:"blue"},{k:"$18M BTC",v:"→ Cold wallet",c:"green"}]}
+   ]},
+  {session:"morning",date:"2026-03-01",time:"08:00 UTC",
+   headline:"STAGFLATION regime.\nRisk gauge at 72.",headlineColor:"var(--o)",
+   shareText:"Risk gauge at 72. Growth ↓ Inflation ↑. STAGFLATION regime — day 3.\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai",
+   desc:"Growth ↓ · Inflation ↑ · DXY rising · 10Y yield +8bp · Gold +1.2% overnight. Macro environment favors defensive positioning.",
+   tags:[{t:"RISK_OFF",c:"red"},{t:"LATE CYCLE",c:"yellow"},{t:"VIX 24.3",c:"blue"}],
+   panels:[
+     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"+1.8σ",c:"red"},{k:"DXY",v:"+1.2σ",c:"red"},{k:"HY Spread",v:"+0.6σ",c:"yellow"}]},
+     {label:"RISK GAUGE",gauge:{value:72,gradient:"linear-gradient(90deg,var(--y),var(--o),var(--r))"}}
    ]},
 
   // Feb 28
