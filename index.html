@@ -278,9 +278,9 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   </div>
 
   <!-- Card preview container -->
-  <div style="position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--border-b);background:var(--card);">
+  <a href="/briefs" style="display:block;position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--border-b);background:var(--card);text-decoration:none;color:inherit;transition:border-color .25s;" onmouseover="this.style.borderColor='var(--y-border)'" onmouseout="this.style.borderColor='var(--border-b)'">
     <!-- Placeholder card — replaced by live endpoint when /api/briefs is built -->
-    <div id="brief-card" style="width:100%;background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
+    <div id="brief-card" style="width:100%;background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 100%);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;cursor:pointer;">
       <!-- Grid background -->
       <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none;"></div>
       <!-- Glow -->
@@ -331,7 +331,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
         </div>
       </div>
     </div>
-  </div>
+  </a>
 
   <!-- Actions below card -->
   <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px;flex-wrap:wrap;gap:12px;">
