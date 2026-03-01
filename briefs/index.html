@@ -261,20 +261,13 @@ function renderCard(b){
       '<div class="brief-grid-bg"></div>'+
       '<div class="brief-glow '+glowClass(b)+'"></div>'+
       '<div class="brief-content">'+
-        (b.telegramText ?
-          '<div class="brief-full">'+
-            '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
-            '<div class="brief-telegram">'+b.telegramText+'</div>'+
-          '</div>'
-        :
-          '<div class="brief-left">'+
-            '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
-            '<div class="brief-headline">'+hl+'</div>'+
-            '<div class="brief-desc">'+b.desc+'</div>'+
-            '<div class="brief-tags">'+tags+'</div>'+
-          '</div>'+
-          '<div class="brief-right">'+panels+'</div>'
-        )+
+        '<div class="brief-left">'+
+          '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
+          '<div class="brief-headline">'+hl+'</div>'+
+          '<div class="brief-desc">'+b.desc+'</div>'+
+          '<div class="brief-tags">'+tags+'</div>'+
+        '</div>'+
+        '<div class="brief-right">'+panels+'</div>'+
       '</div>'+
       '<div class="brief-footer">'+
         '<span>AGENTCANARY · '+b.date+'</span>'+
