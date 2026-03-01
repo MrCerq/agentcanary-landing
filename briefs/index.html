@@ -95,9 +95,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .brief-headline{font-size:24px;font-weight:700;letter-spacing:-.8px;line-height:1.2;margin-bottom:10px}
 .brief-desc{font-size:13px;color:var(--t2);line-height:1.7;margin-bottom:14px}
 .brief-full{width:100%}
-.brief-telegram{font-size:13px;color:var(--t1);line-height:1.7;margin-top:14px;white-space:pre-line;word-wrap:break-word}
-.brief-telegram b{color:#E4E9F2;font-weight:600}
-.brief-telegram i{color:var(--t2)}
+.brief-telegram{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:14px;color:var(--t2);line-height:1.75;white-space:pre-line;word-wrap:break-word}
+.brief-telegram b{color:var(--t1);font-weight:600}
+.brief-telegram i{color:var(--t3);font-size:12px}
 .brief-telegram a{color:var(--b);text-decoration:none}
 .brief-telegram a:hover{text-decoration:underline}
 .brief-tags{display:flex;gap:6px;flex-wrap:wrap}
@@ -256,18 +256,35 @@ function renderCard(b){
     return i===1 ? '<span style="color:'+b.headlineColor+'">'+line+'</span>' : line;
   }).join('<br>');
 
+  // Strip the first line (session header like "🟢 MORNING BRIEF — date") from telegramText since we show the pill
+  var tgBody = '';
+  if(b.telegramText){
+    var lines = b.telegramText.split('\n');
+    // Skip first line (header) and any blank line after it
+    var start = 1;
+    while(start < lines.length && lines[start].trim()==='') start++;
+    tgBody = lines.slice(start).join('\n').trim();
+  }
+
   return '<div class="brief-card" data-session="'+b.session+'" id="'+id+'">'+
     '<div class="brief-inner">'+
       '<div class="brief-grid-bg"></div>'+
       '<div class="brief-glow '+glowClass(b)+'"></div>'+
       '<div class="brief-content">'+
-        '<div class="brief-left">'+
-          '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
-          '<div class="brief-headline">'+hl+'</div>'+
-          '<div class="brief-desc">'+b.desc+'</div>'+
-          '<div class="brief-tags">'+tags+'</div>'+
-        '</div>'+
-        '<div class="brief-right">'+panels+'</div>'+
+        (tgBody ?
+          '<div class="brief-full">'+
+            '<div style="margin-bottom:16px"><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.date+' · '+b.time+'</span></div>'+
+            '<div class="brief-telegram">'+tgBody+'</div>'+
+          '</div>'
+        :
+          '<div class="brief-left">'+
+            '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
+            '<div class="brief-headline">'+hl+'</div>'+
+            '<div class="brief-desc">'+b.desc+'</div>'+
+            '<div class="brief-tags">'+tags+'</div>'+
+          '</div>'+
+          '<div class="brief-right">'+panels+'</div>'
+        )+
       '</div>'+
       '<div class="brief-footer">'+
         '<span>AGENTCANARY · '+b.date+'</span>'+
