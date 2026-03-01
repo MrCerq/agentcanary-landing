@@ -218,6 +218,7 @@ var BRIEFS = [
   // Mar 1
   {session:"morning",date:"2026-03-01",time:"08:00 UTC",
    headline:"STAGFLATION regime.\nRisk gauge at 72.",headlineColor:"var(--o)",
+   shareText:"Risk gauge at 72. Growth ↓ Inflation ↑. STAGFLATION regime — day 3.\n\n@AgentCanaryHQ",
    desc:"Growth ↓ · Inflation ↑ · DXY rising · 10Y yield +8bp · Gold +1.2% overnight. Macro environment favors defensive positioning.",
    tags:[{t:"RISK_OFF",c:"red"},{t:"LATE CYCLE",c:"yellow"},{t:"VIX 24.3",c:"blue"}],
    panels:[
@@ -226,6 +227,7 @@ var BRIEFS = [
    ]},
   {session:"midday",date:"2026-03-01",time:"13:00 UTC",
    headline:"BTC BEAR 1D / ACCUM 4H.\n3 whale moves overnight.",headlineColor:"var(--y)",
+   shareText:"BTC/ETH/SOL mixed signals. 3 whale moves totalling $60M. POWER arb at 127% APR.\n\n@AgentCanaryHQ on Telegram.",
    desc:"ETH ignition on 4h. SOL risk-off both frames. $42M USDC moved to Coinbase. Funding arb: POWER at 127% APR.",
    tags:[{t:"TENSION",c:"yellow"},{t:"WHALE ALERT",c:"blue"},{t:"POWER 127% APR",c:"green"}],
    panels:[
@@ -234,6 +236,7 @@ var BRIEFS = [
    ]},
   {session:"evening",date:"2026-03-01",time:"21:00 UTC",
    headline:"4 bullish / 6 bearish signals.\nNFP drops Friday.",headlineColor:"var(--p)",
+   shareText:"4 bullish / 6 bearish signals tonight. NFP drops Friday. ISM Manufacturing tomorrow.\n\n@AgentCanaryHQ",
    desc:"Newsletter consensus shifting bearish. FinBERT sentiment -0.3 avg across 47 stories. ISM Manufacturing tomorrow 10:00 ET.",
    tags:[{t:"BEARISH SKEW",c:"red"},{t:"NFP FRIDAY",c:"purple"},{t:"ISM TOMORROW",c:"blue"}],
    panels:[
@@ -305,7 +308,8 @@ function glowClass(b){
 function renderCard(b){
   var s = SESSIONS[b.session];
   var permalink = '/briefs/'+b.session+'/'+b.date;
-  var shareText = encodeURIComponent(b.headline.replace('\n',' ')+' — agentcanary.ai'+permalink);
+  var shareUrl = 'https://agentcanary.ai'+permalink;
+  var shareText = encodeURIComponent(b.shareText || b.headline.replace('\n',' ')+'\n\nFull brief: agentcanary.ai'+permalink);
   var id = b.session+'-'+b.date;
 
   var panels = b.panels.map(function(p){
@@ -340,7 +344,7 @@ function renderCard(b){
       '<div class="brief-footer">'+
         '<span>AGENTCANARY · '+b.date+'</span>'+
         '<div class="card-actions">'+
-          '<a class="act act-x" href="https://x.com/intent/tweet?text='+shareText+'" target="_blank" title="Share to X">𝕏 Share</a>'+
+          '<a class="act act-x" href="https://x.com/intent/tweet?text='+shareText+'&url='+encodeURIComponent(shareUrl)+'" target="_blank" title="Share to X">𝕏 Share</a>'+
           '<button class="act act-copy" onclick="copyLink(\''+permalink+'\',this)" title="Copy permalink">Copy link</button>'+
         '</div>'+
       '</div>'+
