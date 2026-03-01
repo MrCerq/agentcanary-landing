@@ -1,61 +1,56 @@
 {
-  "session": "evening",
+  "session": "midday",
   "date": "2026-03-01",
   "time": "20:53 UTC",
-  "headline": "2 bullish / 2 bearish signals.\n🇺🇸 Core Consumer Price ",
-  "headlineColor": "#A78BFA",
-  "desc": "Crypto rally amid geopolitical tension and oil price uncertainty, with risk‑off sentiment for equities and risk‑on for crypto assets\n\n🧠 KEY THEMES\n🔴 Geopolitical conflict (Iran strike) 🔥\nThe death ",
+  "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:ACCUMULATION 4h:DISTRIBUTION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
   "tags": [
     {
-      "t": "MIXED",
-      "c": "yellow"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "🇺🇸 Core Consumer",
-      "c": "blue"
+      "t": "ACE 1579% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "NEWS SENTIMENT",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "Bullish",
-          "v": "2 stories",
+          "k": "BTC 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "Bearish",
-          "v": "2 stories",
-          "c": "red"
+          "k": "ETH 1D",
+          "v": "ACCUMULATION",
+          "c": "green"
         },
         {
-          "k": "Neutral",
-          "v": "1 stories",
-          "c": "yellow"
+          "k": "SOL 1D",
+          "v": "ACCUMULATION",
+          "c": "green"
         }
       ]
     },
     {
-      "label": "CALENDAR",
+      "label": "TOP WHALE",
       "rows": [
         {
-          "k": "🇺🇸 Core Consumer Price ",
-          "v": "Mar 11",
+          "k": "$138M USDT",
+          "v": "transferred from unk",
           "c": "blue"
         },
         {
-          "k": "🇺🇸 Unseasonally Adjuste",
-          "v": "Mar 11",
-          "c": "blue"
-        },
-        {
-          "k": "🇺🇸 NAR seasonally adjus",
-          "v": "Mar 10",
+          "k": "$300M USDC",
+          "v": "transferred from unk",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "🌙 <b>EVENING INTELLIGENCE</b> — Mar 1, 2026\n\n\n<i>Crypto rally amid geopolitical tension and oil price uncertainty, with risk‑off sentiment for equities and risk‑on for crypto assets</i>\n\n<b>🧠 KEY THEMES</b>\n🔴 <b>Geopolitical conflict (Iran strike)</b> 🔥\nThe death of Iran’s Supreme Leader triggered US‑Israel strikes, sparking a sharp Bitcoin rally, oil price spikes, and a risk‑off mood in equities.\nAssets: BTC, ETH, OIL, SPY, TLT\n\n🟢 <b>Crypto market volatility</b> 🔥\nBitcoin surged to $68k after the war, with high funding rates and massive liquidations, driving extreme volatility across major tokens.\nAssets: BTC, ETH, SOL\n\n🟢 <b>Oil price spike potential</b> 📊\nOil above $80 could be inflationary; the conflict may push prices toward $100+, fueling inflation concerns.\nAssets: OIL\n\n🔴 <b>Equities risk‑off due to conflict</b> 📊\nUS and Israel strikes caused a risk‑off sentiment, with SPY declining and TLT rising as investors seek safety.\nAssets: SPY, TLT\n\n<b>📐 SCENARIO SHIFTS</b>\n↓ Recession: Geopolitical tension and oil price rise dampen growth prospects.\n↑ Stagflation: Oil price spike and inflationary pressures push commodity prices higher.\n↑ Hegemony: US asserts military dominance, boosting risk‑on sentiment for US assets.\n\n<b>⚡ WATCHLIST</b>\n🟢 BTC: Strong rally after geopolitical shock and high funding rates.\n🟢 ETH: Recovery to $2,000 and positive sentiment post‑strike.\n👀 OIL: Potential price spike due to conflict‑driven supply concerns.\n👀 GOLD: Inflationary pressure from oil could lift gold.\n\n<b>🤔 CONTRARIAN</b>\n• Bitcoin will continue to rally as war ends, defying risk‑off consensus.\n• Oil will fall due to supply disruptions, contradicting inflation fears.\n\n⚡ <b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.6/100\n\n<b>📅 UPCOMING — HIGH IMPACT</b>\n🇺🇸 Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Feb) — Mar 11, 12:30 PM UTC (prev: 2.5%)\n🇺🇸 Unseasonally Adjusted Consumer Price Index (YoY)(Feb) — Mar 11, 12:30 PM UTC (prev: 2.4%)\n🇺🇸 NAR seasonally adjusted existing home sales (AAMR)(Feb) — Mar 10, 02:00 PM UTC (prev: -8.4%)\n🌍 Real GDP(billion yen) (Revised) (Q4) — Mar 9, 11:50 PM UTC (prev: 589727.6)\n🌍 Real GDP(QoQ) (Revised) (Q4) — Mar 9, 11:50 PM UTC (prev: 0.1%)\n\n\nagentcanary.ai | <i>Not financial advice</i>"
+  "telegramText": "📊 <b>MIDDAY MARKETS</b> — Mar 1, 2026\n\n<b>🪙 CRYPTO</b>\n• BTC: <b>$65,334</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• ETH: <b>$1,916</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• SOL: <b>$81.96</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n\n\n<b>🐋 WHALE ALERTS</b>\n• 137,928,326 USDT ($137,999,359)\n  <i>transferred from unknown wallet to #Okex</i>\n• 300,000,000 USDC ($299,971,800)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 403,665,474 USDC ($403,645,291)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>💰 FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>POWER</b>: 1242% net APR (0.0847% rate)\n  Long MEXC / Short Bybit | OI: $7.5M | Spread: -1.41%\n\n<b>📐 SCENARIO</b>\n↓ Recession · ↑ Stagflation · ↑ Hegemony\n\n\nagentcanary.ai | <i>Not financial advice</i>"
 }
