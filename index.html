@@ -207,7 +207,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 .ft-links a:hover{color:var(--t2)}
 
 @media(max-width:1024px){.code-grid,.tg-grid,.how-steps{grid-template-columns:1fr}.trust-inner{flex-direction:column}.proof-row{grid-template-columns:repeat(2,1fr)}.tier-row{grid-template-columns:90px 80px 1fr}.tier-per{display:none}.uc-grid{grid-template-columns:repeat(2,1fr)!important}}
-@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.uc-wrap{padding:0 20px!important}.stat-wrap{padding:0 20px!important}.trust{padding:0 20px!important}.notify{padding:0 20px!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}}
+@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.uc-wrap{padding:0 20px!important}.stat-wrap{padding:0 20px!important}.trust{padding:0 20px!important}.notify{padding:0 20px!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}[class~="brief-panels-right"]{display:none!important}#briefs .s-title{font-size:24px}#briefs .s-desc{font-size:13px}}
 </style>
 </head>
 <body>
@@ -287,7 +287,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
       <div style="position:absolute;top:20%;right:10%;width:400px;height:300px;background:radial-gradient(circle,rgba(255,197,61,.08) 0%,transparent 65%);pointer-events:none;"></div>
 
       <div style="position:relative;padding:32px 36px;width:100%;max-width:1000px;">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
+        <div class="brief-card-layout" style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
           <!-- Left: headline + context -->
           <div style="flex:1;min-width:280px;">
             <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
@@ -306,7 +306,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
             </div>
           </div>
           <!-- Right: data cards -->
-          <div style="display:flex;flex-direction:column;gap:8px;min-width:240px;">
+          <div class="brief-panels-right" style="display:flex;flex-direction:column;gap:8px;min-width:240px;">
             <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;">
               <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">SIGNAL STATES</div>
               <div style="display:flex;flex-direction:column;gap:4px;">
