@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgentCanary — Brief Archive</title>
+<meta name="description" content="Complete archive of AgentCanary market intelligence briefs. Every morning, midday, and evening brief ever published.">
+<link rel="canonical" href="https://agentcanary.ai/briefs/archive">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#04070c;--card:#0b1120;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-border:rgba(255,197,61,.20);--y-glow:rgba(255,197,61,.10);--o:#fb923c;--p:#a78bfa;--g:#34d399;--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--t1);font-family:var(--sans);line-height:1.6}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");pointer-events:none;z-index:9999}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;background:rgba(4,7,12,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
+.nav-left{display:flex;align-items:center;gap:18px}
+.nav-logo{font-family:var(--mono);font-weight:700;font-size:17px;letter-spacing:-.5px;text-decoration:none;color:var(--t1)}
+.nav-logo span{color:var(--y)}
+.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links a{font-size:14px;color:var(--t2);text-decoration:none;transition:color .2s}
+.nav-links a:hover{color:var(--t1)}
+.nav-links a.active{color:var(--y)}
+.nav-cta{font-family:var(--mono);font-size:12px;font-weight:600;padding:8px 18px;background:var(--y);color:var(--bg);border:none;border-radius:6px;text-decoration:none}
+.page{max-width:900px;margin:0 auto;padding:100px 24px 80px}
+.page h1{font-size:28px;font-weight:700;letter-spacing:-1px;margin-bottom:4px}
+.page>p{font-size:14px;color:var(--t2);margin-bottom:32px}
+.back{font-family:var(--mono);font-size:12px;color:var(--y);text-decoration:none;display:inline-flex;align-items:center;gap:6px;margin-bottom:20px}
+.back:hover{text-decoration:underline}
+.month-group{margin-bottom:28px}
+.month-label{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--t1);letter-spacing:.5px;margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+.entry{display:flex;align-items:center;gap:12px;padding:8px 12px;border-radius:6px;transition:background .15s;text-decoration:none;color:var(--t2);font-size:13px}
+.entry:hover{background:rgba(255,255,255,.03)}
+.entry-pill{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 8px;border-radius:100px;min-width:68px;text-align:center}
+.pill-m{border:1px solid var(--o);color:var(--o);background:rgba(251,146,60,.08)}
+.pill-d{border:1px solid var(--y);color:var(--y);background:var(--y-glow)}
+.pill-e{border:1px solid var(--p);color:var(--p);background:rgba(167,139,250,.08)}
+.entry-date{font-family:var(--mono);font-size:12px;color:var(--t3);min-width:70px}
+.entry-headline{color:var(--t2);flex:1}
+.entry-arrow{color:var(--t3);font-size:12px}
+footer{max-width:900px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid var(--border);font-family:var(--mono);font-size:12px;color:var(--t3)}
+@media(max-width:768px){nav{padding:12px 16px}.nav-links{display:none}.page{padding:90px 16px 60px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="/" class="nav-logo">Agent<span>Canary</span></a>
+  </div>
+  <div class="nav-links">
+    <a href="/briefs" class="active">Live Briefs</a>
+    <a href="/#capabilities">Capabilities</a>
+    <a href="https://t.me/AgentCanary" target="_blank">Telegram</a>
+    <a href="https://t.me/AgentCanary" target="_blank" class="nav-cta">Join Telegram</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="/briefs" class="back">← Back to Live Briefs</a>
+  <h1>Brief Archive</h1>
+  <p>Every brief ever published. Permanently indexed, individually shareable.</p>
+
+  <div id="archive"></div>
+</div>
+
+<footer>AgentCanary · api.agentcanary.ai · 2026 · Not financial advice</footer>
+
+<script>
+// Sample archive data — replaced by API when backend is live
+var ARCHIVE = [
+  {month:"March 2026",entries:[
+    {session:"morning",date:"2026-03-01",label:"Morning Brief",headline:"STAGFLATION regime. Risk gauge at 72."},
+    {session:"midday",date:"2026-03-01",label:"Midday Markets",headline:"BTC BEAR 1D / ACCUM 4H. 3 whale moves."},
+    {session:"evening",date:"2026-03-01",label:"Evening Intel",headline:"4 bullish / 6 bearish. NFP Friday."}
+  ]},
+  {month:"February 2026",entries:[
+    {session:"morning",date:"2026-02-28",label:"Morning Brief",headline:"RISK-ON regime holds. Gauge drops to 38."},
+    {session:"midday",date:"2026-02-28",label:"Midday Markets",headline:"Full IGNITION sweep. All 3 majors green."},
+    {session:"evening",date:"2026-02-28",label:"Evening Intel",headline:"7 bullish / 2 bearish. PCE in-line."},
+    {session:"morning",date:"2026-02-27",label:"Morning Brief",headline:"Regime flip: RISK-OFF. Gauge spikes to 81."},
+    {session:"midday",date:"2026-02-27",label:"Midday Markets",headline:"BTC -4.2% · SOL -7.1%. $89M liquidated."},
+    {session:"evening",date:"2026-02-27",label:"Evening Intel",headline:"9 bearish / 1 bullish. PCE hot."}
+  ]}
+];
+
+var pillClass = {morning:'pill-m',midday:'pill-d',evening:'pill-e'};
+var pillLabel = {morning:'Morning',midday:'Midday',evening:'Evening'};
+
+var html = '';
+ARCHIVE.forEach(function(g){
+  html += '<div class="month-group"><div class="month-label">'+g.month+'</div>';
+  g.entries.forEach(function(e){
+    var href = '/briefs#'+e.session+'-'+e.date;
+    var d = new Date(e.date+'T12:00:00Z');
+    var dateStr = d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+    html += '<a class="entry" href="'+href+'">'+
+      '<span class="entry-pill '+pillClass[e.session]+'">'+pillLabel[e.session]+'</span>'+
+      '<span class="entry-date">'+dateStr+'</span>'+
+      '<span class="entry-headline">'+e.headline+'</span>'+
+      '<span class="entry-arrow">→</span></a>';
+  });
+  html += '</div>';
+});
+document.getElementById('archive').innerHTML = html;
+</script>
+
+</body>
+</html>

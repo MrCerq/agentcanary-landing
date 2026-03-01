@@ -307,7 +307,7 @@ function glowClass(b){
 
 function renderCard(b){
   var s = SESSIONS[b.session];
-  var permalink = '/briefs/'+b.session+'/'+b.date;
+  var permalink = '/briefs#'+b.session+'-'+b.date;
   var shareUrl = 'https://agentcanary.ai'+permalink;
   var shareText = encodeURIComponent(b.shareText || b.headline.replace('\n',' ')+'\n\nFull brief: agentcanary.ai'+permalink);
   var id = b.session+'-'+b.date;
@@ -406,17 +406,14 @@ document.querySelectorAll('.filter-tab').forEach(function(tab){
 // ── Init ──
 renderFeed('all');
 
-// ── Handle permalink routing (e.g. /briefs/morning/2026-03-01) ──
+// ── Handle hash permalink routing (e.g. /briefs#morning-2026-03-01) ──
 (function(){
-  var path = window.location.pathname.replace(/\/$/,'');
-  var parts = path.split('/');
-  if(parts.length===4 && parts[1]==='briefs'){
-    var session = parts[2], date = parts[3];
-    var id = session+'-'+date;
+  if(window.location.hash){
+    var id = window.location.hash.slice(1);
     setTimeout(function(){
       var el = document.getElementById(id);
-      if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
-    },100);
+      if(el){el.scrollIntoView({behavior:'smooth',block:'start'});el.style.borderColor='var(--y-border)';setTimeout(function(){el.style.borderColor='';},3000);}
+    },200);
   }
 })();
 </script>
