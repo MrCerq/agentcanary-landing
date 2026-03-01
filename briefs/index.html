@@ -257,8 +257,9 @@ function renderCard(b){
     return i===1 ? '<span style="color:'+b.headlineColor+'">'+line+'</span>' : line;
   }).join('<br>');
 
+  var hlLink = b.telegramMessageId ? 'https://t.me/agentcanary/'+b.telegramMessageId : '';
   var body = '<div class="brief-left">'+
-    '<div class="brief-headline">'+hl+'</div>'+
+    (hlLink ? '<a href="'+hlLink+'" target="_blank" style="text-decoration:none;color:inherit;"><div class="brief-headline" style="cursor:pointer;transition:color .2s;" onmouseover="this.style.color=\'var(--y)\'" onmouseout="this.style.color=\'\'">'+hl+'</div></a>' : '<div class="brief-headline">'+hl+'</div>')+
     '<div class="brief-desc">'+b.desc+'</div>'+
     '<div class="brief-tags">'+tags+'</div>'+
   '</div>'+

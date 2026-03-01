@@ -334,7 +334,10 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     }).join('');
     document.getElementById('brief-panels').innerHTML=ph;
     // Telegram direct link
-    if(b.telegramMessageId){var tgLink=document.getElementById('brief-tg-link');tgLink.href='https://t.me/agentcanary/'+b.telegramMessageId;tgLink.style.display='inline-flex';}
+    if(b.telegramMessageId){
+      var tgLink=document.getElementById('brief-tg-link');tgLink.href='https://t.me/agentcanary/'+b.telegramMessageId;tgLink.style.display='inline-flex';
+      var hlEl=document.getElementById('brief-headline');hlEl.style.cursor='pointer';hlEl.onclick=function(){window.open('https://t.me/agentcanary/'+b.telegramMessageId,'_blank');};hlEl.onmouseover=function(){this.style.color='var(--y)'};hlEl.onmouseout=function(){this.style.color=''};
+    }
     // Share
     var hl2=b.headline.split('\n');
     var txt=encodeURIComponent(hl2.join(' ')+'\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai');
