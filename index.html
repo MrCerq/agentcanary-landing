@@ -305,6 +305,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <div style="display:flex;gap:10px;flex-wrap:wrap;">
       <a href="/briefs" class="btn-primary" style="font-size:12px;padding:10px 20px;">View All Briefs →</a>
       <a href="https://t.me/AgentCanary" class="btn-tg" style="font-size:12px;padding:10px 20px;" target="_blank">Follow on Telegram</a>
+      <a id="brief-tg-link" href="#" target="_blank" style="font-family:var(--mono);font-size:12px;padding:10px 20px;border-radius:8px;border:1px solid rgba(38,165,220,.25);color:#26a5dc;text-decoration:none;transition:all .2s;display:none;align-items:center;gap:6px;" onmouseover="this.style.borderColor='rgba(38,165,220,.4)'" onmouseout="this.style.borderColor='rgba(38,165,220,.25)'">View on Telegram ↗</a>
     </div>
     <a id="brief-share-x" href="#" target="_blank" style="font-family:var(--mono);font-size:12px;padding:10px 20px;border-radius:8px;border:1px solid var(--border);color:var(--t3);text-decoration:none;transition:all .2s;display:inline-flex;align-items:center;gap:6px;" onmouseover="this.style.borderColor='rgba(96,165,250,.3)';this.style.color='var(--b)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--t3)'">𝕏 Share this brief</a>
     <div style="font-family:var(--mono);font-size:11px;color:var(--t3);">21 briefs · 7 day rolling feed · individually shareable</div>
@@ -332,6 +333,8 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
       return '<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;"><div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">'+p.label+'</div><div style="display:flex;flex-direction:column;gap:4px;">'+rows+'</div></div>';
     }).join('');
     document.getElementById('brief-panels').innerHTML=ph;
+    // Telegram direct link
+    if(b.telegramMessageId){var tgLink=document.getElementById('brief-tg-link');tgLink.href='https://t.me/agentcanary/'+b.telegramMessageId;tgLink.style.display='inline-flex';}
     // Share
     var hl2=b.headline.split('\n');
     var txt=encodeURIComponent(hl2.join(' ')+'\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai');

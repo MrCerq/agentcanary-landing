@@ -275,6 +275,7 @@ function renderCard(b){
       '<div class="brief-footer">'+
         '<span>AGENTCANARY · '+b.date+'</span>'+
         '<div class="card-actions">'+
+          (b.telegramMessageId ? '<a class="act" href="https://t.me/agentcanary/'+b.telegramMessageId+'" target="_blank" title="View on Telegram">Telegram ↗</a>' : '')+
           '<a class="act act-x" href="https://x.com/intent/tweet?text='+shareText+'&url='+encodeURIComponent(shareUrl)+'" target="_blank" title="Share to X">𝕏 Share</a>'+
           '<button class="act act-copy" onclick="copyLink(\''+permalink+'\',this)" title="Copy permalink">Copy link</button>'+
         '</div>'+
