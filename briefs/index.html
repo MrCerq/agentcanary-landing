@@ -94,6 +94,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .brief-time{font-family:var(--mono);font-size:11px;color:var(--t3);margin-left:10px}
 .brief-headline{font-size:24px;font-weight:700;letter-spacing:-.8px;line-height:1.2;margin-bottom:10px}
 .brief-desc{font-size:13px;color:var(--t2);line-height:1.7;margin-bottom:14px}
+.brief-full{width:100%}
+.brief-telegram{font-size:13px;color:var(--t1);line-height:1.7;margin-top:14px;white-space:pre-line;word-wrap:break-word}
+.brief-telegram b{color:#E4E9F2;font-weight:600}
+.brief-telegram i{color:var(--t2)}
+.brief-telegram a{color:var(--b);text-decoration:none}
+.brief-telegram a:hover{text-decoration:underline}
 .brief-tags{display:flex;gap:6px;flex-wrap:wrap}
 .tag{font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px}
 .tag-red{border:1px solid rgba(248,113,113,.2);background:rgba(248,113,113,.06);color:var(--r)}
@@ -255,13 +261,20 @@ function renderCard(b){
       '<div class="brief-grid-bg"></div>'+
       '<div class="brief-glow '+glowClass(b)+'"></div>'+
       '<div class="brief-content">'+
-        '<div class="brief-left">'+
-          '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
-          '<div class="brief-headline">'+hl+'</div>'+
-          '<div class="brief-desc">'+b.desc+'</div>'+
-          '<div class="brief-tags">'+tags+'</div>'+
-        '</div>'+
-        '<div class="brief-right">'+panels+'</div>'+
+        (b.telegramText ?
+          '<div class="brief-full">'+
+            '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
+            '<div class="brief-telegram">'+b.telegramText+'</div>'+
+          '</div>'
+        :
+          '<div class="brief-left">'+
+            '<div><span class="session-pill '+s.pill+'"><span class="dot"></span>'+b.session.toUpperCase()+'</span><span class="brief-time">'+b.time+'</span></div>'+
+            '<div class="brief-headline">'+hl+'</div>'+
+            '<div class="brief-desc">'+b.desc+'</div>'+
+            '<div class="brief-tags">'+tags+'</div>'+
+          '</div>'+
+          '<div class="brief-right">'+panels+'</div>'
+        )+
       '</div>'+
       '<div class="brief-footer">'+
         '<span>AGENTCANARY · '+b.date+'</span>'+
