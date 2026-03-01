@@ -214,79 +214,8 @@ footer{max-width:900px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid
 </footer>
 
 <script>
-// ── Sample data (replaced by GET /api/briefs when backend is live) ──
-var BRIEFS = [
-  // Mar 1
-  {session:"midday",date:"2026-03-01",time:"13:00 UTC",
-   headline:"BTC BEAR 1D / ACCUM 4H.\n3 whale moves overnight.",headlineColor:"var(--y)",
-   shareText:"BTC/ETH/SOL mixed signals. 3 whale moves totalling $60M. POWER arb at 127% APR.\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai",
-   desc:"ETH ignition on 4h. SOL risk-off both frames. $42M USDC moved to Coinbase. Funding arb: POWER at 127% APR.",
-   tags:[{t:"TENSION",c:"yellow"},{t:"WHALE ALERT",c:"blue"},{t:"POWER 127% APR",c:"green"}],
-   panels:[
-     {label:"SIGNAL STATES",rows:[{k:"BTC 1D",v:"BEAR",c:"red"},{k:"BTC 4H",v:"ACCUM",c:"yellow"},{k:"ETH 4H",v:"IGNITION",c:"green"},{k:"SOL 1D",v:"RISK_OFF",c:"red"}]},
-     {label:"TOP WHALE",rows:[{k:"$42M USDC",v:"→ Coinbase",c:"blue"},{k:"$18M BTC",v:"→ Cold wallet",c:"green"}]}
-   ]},
-  {session:"morning",date:"2026-03-01",time:"08:00 UTC",
-   headline:"STAGFLATION regime.\nRisk gauge at 72.",headlineColor:"var(--o)",
-   shareText:"Risk gauge at 72. Growth ↓ Inflation ↑. STAGFLATION regime — day 3.\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai",
-   desc:"Growth ↓ · Inflation ↑ · DXY rising · 10Y yield +8bp · Gold +1.2% overnight. Macro environment favors defensive positioning.",
-   tags:[{t:"RISK_OFF",c:"red"},{t:"LATE CYCLE",c:"yellow"},{t:"VIX 24.3",c:"blue"}],
-   panels:[
-     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"+1.8σ",c:"red"},{k:"DXY",v:"+1.2σ",c:"red"},{k:"HY Spread",v:"+0.6σ",c:"yellow"}]},
-     {label:"RISK GAUGE",gauge:{value:72,gradient:"linear-gradient(90deg,var(--y),var(--o),var(--r))"}}
-   ]},
-
-  // Feb 28
-  {session:"morning",date:"2026-02-28",time:"08:00 UTC",
-   headline:"RISK-ON regime holds.\nGauge drops to 38.",headlineColor:"var(--g)",
-   desc:"Growth ↑ · Inflation ↓ · 10Y yield stable · DXY -0.3% · Oil +2.1% on supply cut rumors. Environment supports risk assets.",
-   tags:[{t:"RISK_ON",c:"green"},{t:"EXPANSION",c:"green"},{t:"VIX 16.8",c:"blue"}],
-   panels:[
-     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"-0.2σ",c:"green"},{k:"DXY",v:"-0.8σ",c:"green"},{k:"HY Spread",v:"-0.3σ",c:"green"}]},
-     {label:"RISK GAUGE",gauge:{value:38,gradient:"linear-gradient(90deg,var(--g),var(--y))"}}
-   ]},
-  {session:"midday",date:"2026-02-28",time:"13:00 UTC",
-   headline:"Full IGNITION sweep.\nAll 3 majors green.",headlineColor:"var(--g)",
-   desc:"BTC, ETH, SOL all IGNITION on daily + 4h. Funding rates elevated but not extreme. $28M ETH moved to staking.",
-   tags:[{t:"IGNITION",c:"green"},{t:"FULL SWEEP",c:"green"},{t:"FUNDING OK",c:"yellow"}],
-   panels:[
-     {label:"SIGNAL STATES",rows:[{k:"BTC 1D",v:"IGNITION",c:"green"},{k:"ETH 1D",v:"IGNITION",c:"green"},{k:"SOL 1D",v:"IGNITION",c:"green"}]},
-     {label:"FUNDING",rows:[{k:"BTC",v:"0.012%",c:"yellow"},{k:"ETH",v:"0.008%",c:"green"},{k:"SOL",v:"0.015%",c:"yellow"}]}
-   ]},
-  {session:"evening",date:"2026-02-28",time:"21:00 UTC",
-   headline:"7 bullish / 2 bearish.\nPCE data in-line.",headlineColor:"var(--g)",
-   desc:"Newsletter consensus bullish. PCE came in at expectations — no surprises. Chicago PMI slight beat. Weekend risk: low.",
-   tags:[{t:"BULLISH SKEW",c:"green"},{t:"PCE IN-LINE",c:"yellow"},{t:"LOW RISK",c:"green"}],
-   panels:[
-     {label:"NEWS SENTIMENT",rows:[{k:"Bullish",v:"7 stories",c:"green"},{k:"Bearish",v:"2 stories",c:"red"},{k:"Neutral",v:"41 stories",c:"yellow"}]},
-     {label:"CALENDAR",rows:[{k:"🇺🇸 ISM Mfg",v:"Mar 1 10:00",c:"blue"},{k:"🇨🇳 PMI",v:"Mar 1 01:30",c:"yellow"}]}
-   ]},
-  // Feb 27
-  {session:"morning",date:"2026-02-27",time:"08:00 UTC",
-   headline:"Regime flip: RISK-OFF.\nGauge spikes to 81.",headlineColor:"var(--r)",
-   desc:"Growth ↓ · Inflation ↑ · 10Y yield +14bp overnight · VIX 28.4 · Credit spreads widening. PCE today — positioning defensive.",
-   tags:[{t:"RISK_OFF",c:"red"},{t:"CONTRACTION",c:"red"},{t:"VIX 28.4",c:"red"}],
-   panels:[
-     {label:"Z-SCORES",rows:[{k:"10Y Yield",v:"+2.1σ",c:"red"},{k:"DXY",v:"+1.6σ",c:"red"},{k:"HY Spread",v:"+1.4σ",c:"red"}]},
-     {label:"RISK GAUGE",gauge:{value:81,gradient:"linear-gradient(90deg,var(--o),var(--r),#dc2626)"}}
-   ]},
-  {session:"midday",date:"2026-02-27",time:"13:00 UTC",
-   headline:"BTC -4.2% · SOL -7.1%.\n$89M liquidated.",headlineColor:"var(--r)",
-   desc:"All 3 majors RISK_OFF on daily. Massive long liquidation cascade. Whale selling into the drop — $31M BTC to exchanges.",
-   tags:[{t:"RISK_OFF",c:"red"},{t:"LIQUIDATIONS",c:"red"},{t:"WHALE SELL",c:"red"}],
-   panels:[
-     {label:"SIGNAL STATES",rows:[{k:"BTC 1D",v:"RISK_OFF",c:"red"},{k:"ETH 1D",v:"RISK_OFF",c:"red"},{k:"SOL 1D",v:"RISK_OFF",c:"red"}]},
-     {label:"LIQUIDATIONS",rows:[{k:"Longs",v:"$78M",c:"red"},{k:"Shorts",v:"$11M",c:"green"},{k:"Largest",v:"BTC $4.2M",c:"red"}]}
-   ]},
-  {session:"evening",date:"2026-02-27",time:"21:00 UTC",
-   headline:"9 bearish / 1 bullish.\nPCE hot — rate fears.",headlineColor:"var(--r)",
-   desc:"PCE core came in +0.4% vs +0.3% expected. Rate cut odds collapsed. Newsletter consensus: avoid risk. GDP revision tomorrow.",
-   tags:[{t:"PCE HOT",c:"red"},{t:"RATE FEARS",c:"red"},{t:"GDP TOMORROW",c:"blue"}],
-   panels:[
-     {label:"NEWS SENTIMENT",rows:[{k:"Bullish",v:"1 story",c:"green"},{k:"Bearish",v:"9 stories",c:"red"},{k:"Neutral",v:"38 stories",c:"yellow"}]},
-     {label:"CALENDAR",rows:[{k:"🇺🇸 GDP Rev",v:"Feb 28 08:30",c:"blue"},{k:"🇺🇸 Pending Home",v:"Feb 28 10:00",c:"yellow"}]}
-   ]}
-];
+// ── Load briefs from JSON feed ──
+var BRIEFS = [];
 
 // ── Rendering ──
 var SESSIONS = {morning:{pill:'pill-morning',glow:'glow-morning'},midday:{pill:'pill-midday',glow:'glow-midday-green'},evening:{pill:'pill-evening',glow:'glow-evening'}};
@@ -396,8 +325,14 @@ document.querySelectorAll('.filter-tab').forEach(function(tab){
   upd();setInterval(upd,60000);
 })();
 
-// ── Init ──
-renderFeed('all');
+// ── Init: fetch feed ──
+fetch('/data/briefs-feed.json?v='+Date.now()).then(function(r){return r.json()}).then(function(data){
+  BRIEFS = data;
+  renderFeed('all');
+  if(!BRIEFS.length) document.getElementById('feed').innerHTML='<div style="text-align:center;padding:60px 20px;color:var(--t3);font-family:var(--mono);font-size:13px;">No briefs yet. First brief posts at 08:00 UTC.</div>';
+}).catch(function(){
+  document.getElementById('feed').innerHTML='<div style="text-align:center;padding:60px 20px;color:var(--t3);font-family:var(--mono);font-size:13px;">No briefs yet. First brief posts at 08:00 UTC.</div>';
+});
 
 // ── Handle hash permalink routing (e.g. /briefs#morning-2026-03-01) ──
 (function(){

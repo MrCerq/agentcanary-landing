@@ -68,25 +68,27 @@ footer{max-width:900px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid
 <footer>AgentCanary · api.agentcanary.ai · 2026 · Not financial advice</footer>
 
 <script>
-// Sample archive data — replaced by API when backend is live
-var ARCHIVE = [
-  {month:"March 2026",entries:[
-    {session:"morning",date:"2026-03-01",label:"Morning Brief",headline:"STAGFLATION regime. Risk gauge at 72."},
-    {session:"midday",date:"2026-03-01",label:"Midday Markets",headline:"BTC BEAR 1D / ACCUM 4H. 3 whale moves."},
-  ]},
-  {month:"February 2026",entries:[
-    {session:"morning",date:"2026-02-28",label:"Morning Brief",headline:"RISK-ON regime holds. Gauge drops to 38."},
-    {session:"midday",date:"2026-02-28",label:"Midday Markets",headline:"Full IGNITION sweep. All 3 majors green."},
-    {session:"evening",date:"2026-02-28",label:"Evening Intel",headline:"7 bullish / 2 bearish. PCE in-line."},
-    {session:"morning",date:"2026-02-27",label:"Morning Brief",headline:"Regime flip: RISK-OFF. Gauge spikes to 81."},
-    {session:"midday",date:"2026-02-27",label:"Midday Markets",headline:"BTC -4.2% · SOL -7.1%. $89M liquidated."},
-    {session:"evening",date:"2026-02-27",label:"Evening Intel",headline:"9 bearish / 1 bullish. PCE hot."}
-  ]}
-];
+var ARCHIVE = [];
 
 var pillClass = {morning:'pill-m',midday:'pill-d',evening:'pill-e'};
 var pillLabel = {morning:'Morning',midday:'Midday',evening:'Evening'};
 
+fetch('/data/briefs-feed.json?v='+Date.now()).then(function(r){return r.json()}).then(function(briefs){
+  // Group by month
+  var months = {};
+  briefs.forEach(function(b){
+    var d = new Date(b.date+'T12:00:00Z');
+    var m = d.toLocaleDateString('en-US',{month:'long',year:'numeric'});
+    if(!months[m]) months[m] = [];
+    months[m].push({session:b.session,date:b.date,label:pillLabel[b.session]+' Brief',headline:b.headline.replace('\n',' ')});
+  });
+  ARCHIVE = Object.keys(months).map(function(m){return {month:m,entries:months[m]};});
+  renderArchive();
+}).catch(function(){
+  document.getElementById('archive').innerHTML='<div style="text-align:center;padding:40px;color:var(--t3);font-family:var(--mono);font-size:13px;">No briefs yet.</div>';
+});
+
+function renderArchive(){
 var html = '';
 ARCHIVE.forEach(function(g){
   html += '<div class="month-group"><div class="month-label">'+g.month+'</div>';
@@ -103,6 +105,7 @@ ARCHIVE.forEach(function(g){
   html += '</div>';
 });
 document.getElementById('archive').innerHTML = html;
+}
 </script>
 
 </body>
