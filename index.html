@@ -284,43 +284,42 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
       <!-- Grid background -->
       <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none;"></div>
       <!-- Glow -->
-      <div style="position:absolute;top:20%;right:10%;width:400px;height:300px;background:radial-gradient(circle,rgba(255,197,61,.08) 0%,transparent 65%);pointer-events:none;"></div>
+      <div style="position:absolute;top:20%;right:10%;width:400px;height:300px;background:radial-gradient(circle,rgba(167,139,250,.08) 0%,transparent 65%);pointer-events:none;"></div>
 
       <div style="position:relative;padding:32px 36px;width:100%;max-width:1000px;">
         <div class="brief-card-layout" style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
           <!-- Left: headline + context -->
           <div style="flex:1;min-width:280px;">
             <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
-              <div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid var(--y);color:var(--y);background:var(--y-glow);display:flex;align-items:center;gap:6px;">
-                <span style="width:6px;height:6px;background:var(--y);border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>
-                MIDDAY
+              <div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid var(--p);color:var(--p);background:rgba(167,139,250,.1);display:flex;align-items:center;gap:6px;">
+                <span style="width:6px;height:6px;background:var(--p);border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>
+                EVENING
               </div>
               <span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Latest Brief</span>
             </div>
-            <div style="font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-1px;line-height:1.2;margin-bottom:12px;">BTC BEAR 1D / ACCUM 4H.<br><span style="color:var(--y);">3 whale moves overnight.</span></div>
-            <div style="font-size:13px;color:var(--t2);line-height:1.7;">ETH ignition on 4h. SOL risk-off both frames. $42M USDC moved to Coinbase. Funding arb: POWER at 127% APR.</div>
+            <div style="font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-1px;line-height:1.2;margin-bottom:12px;">4 bullish / 6 bearish signals.<br><span style="color:var(--p);">NFP drops Friday.</span></div>
+            <div style="font-size:13px;color:var(--t2);line-height:1.7;">Newsletter consensus shifting bearish. FinBERT sentiment -0.3 avg across 47 stories. ISM Manufacturing tomorrow 10:00 ET.</div>
             <div style="display:flex;gap:6px;margin-top:16px;flex-wrap:wrap;">
-              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(255,197,61,.2);background:var(--y-glow);color:var(--y);">TENSION</span>
-              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(96,165,250,.2);background:rgba(96,165,250,.06);color:var(--b);">WHALE ALERT</span>
-              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(52,211,153,.2);background:rgba(52,211,153,.06);color:var(--g);">POWER 127% APR</span>
+              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(248,113,113,.2);background:rgba(248,113,113,.06);color:var(--r);">BEARISH SKEW</span>
+              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(167,139,250,.2);background:rgba(167,139,250,.06);color:var(--p);">NFP FRIDAY</span>
+              <span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid rgba(96,165,250,.2);background:rgba(96,165,250,.06);color:var(--b);">ISM TOMORROW</span>
             </div>
           </div>
           <!-- Right: data cards -->
           <div class="brief-panels-right" style="display:flex;flex-direction:column;gap:8px;min-width:240px;">
             <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;">
-              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">SIGNAL STATES</div>
+              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">NEWS SENTIMENT</div>
               <div style="display:flex;flex-direction:column;gap:4px;">
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">BTC 1D</span><span style="color:var(--r);">BEAR</span></div>
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">BTC 4H</span><span style="color:var(--y);">ACCUM</span></div>
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">ETH 4H</span><span style="color:var(--g);">IGNITION</span></div>
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">SOL 1D</span><span style="color:var(--r);">RISK_OFF</span></div>
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">Bullish</span><span style="color:var(--g);">4 stories</span></div>
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">Bearish</span><span style="color:var(--r);">6 stories</span></div>
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">Neutral</span><span style="color:var(--y);">37 stories</span></div>
               </div>
             </div>
             <div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;">
-              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">TOP WHALE MOVES</div>
+              <div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">CALENDAR</div>
               <div style="display:flex;flex-direction:column;gap:4px;">
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">$42M USDC</span><span style="color:var(--b);">→ Coinbase</span></div>
-                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">$18M BTC</span><span style="color:var(--g);">→ Cold wallet</span></div>
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">🇺🇸 ISM Mfg</span><span style="color:var(--b);">Mar 2</span></div>
+                <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">🇺🇸 NFP</span><span style="color:var(--r);">Mar 7</span></div>
               </div>
             </div>
           </div>
