@@ -1,5 +1,61 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-01",
+    "time": "21:07 UTC",
+    "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:ACCUMULATION 4h:DISTRIBUTION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "ALICE 2336% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "ACCUMULATION",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "ACCUMULATION",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "ACCUMULATION",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$138M USDT",
+            "v": "transferred from unk",
+            "c": "blue"
+          },
+          {
+            "k": "$300M USDC",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "📊 <b>MIDDAY MARKETS</b> — Mar 1, 2026\n\n<b>🪙 CRYPTO</b>\n• BTC: <b>$65,318</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• ETH: <b>$1,914</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• SOL: <b>$82.02</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n\n\n<b>🐋 WHALE ALERTS</b>\n• 137,928,326 USDT ($137,999,359)\n  <i>transferred from unknown wallet to #Okex</i>\n• 300,000,000 USDC ($299,971,800)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 403,665,474 USDC ($403,645,291)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>💰 FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>POWER</b>: 1834% net APR (0.1668% rate)\n  Long MEXC / Short Bybit | OI: $7.5M | Spread: -1.06%\n\n<b>📐 SCENARIO</b>\n↓ Recession · ↑ Stagflation · ↑ Hegemony\n\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-03-01",
     "time": "21:07 UTC",
@@ -54,62 +110,6 @@
       }
     ],
     "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 1, 2026\n\n<b>MACRO REGIME</b>\n🔴 Regime: <b>Risk-Off · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ██████████████████░░ 91.6/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$65,318</b>\n• ETH: <b>$1,914</b>\n• SOL: <b>$82.02</b>\n• GOLD: <b>$5,263</b>\n\n📊 USDT Dom: <b>8.14%</b> — Risk-Off\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 RRPONTSYD: +3.25σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAG/USD: +1.99σ\n🔴 BAMLC0A0CM: +1.90σ\n🔴 XAU/USD: +1.68σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.9917 (&gt;110)\n🟡 2Y Yield: 3.42% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>"
-  },
-  {
-    "session": "midday",
-    "date": "2026-03-01",
-    "time": "21:02 UTC",
-    "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:ACCUMULATION 4h:DISTRIBUTION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "ACE 1240% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$138M USDT",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$300M USDC",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "📊 <b>MIDDAY MARKETS</b> — Mar 1, 2026\n\n<b>🪙 CRYPTO</b>\n• BTC: <b>$65,325</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• ETH: <b>$1,915</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• SOL: <b>$82</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n\n\n<b>🐋 WHALE ALERTS</b>\n• 137,928,326 USDT ($137,999,359)\n  <i>transferred from unknown wallet to #Okex</i>\n• 300,000,000 USDC ($299,971,800)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 403,665,474 USDC ($403,645,291)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>💰 FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>POWER</b>: 1296% net APR (0.1075% rate)\n  Long Binance / Short Bybit | OI: $18.6M | Spread: -1.03%\n• <b>ENSO</b>: 883% net APR (0.0787% rate)\n  Long Binance / Short Bybit | OI: $9.2M | Spread: -0.59%\n\n<b>📐 SCENARIO</b>\n↓ Recession · ↑ Stagflation · ↑ Hegemony\n\n\nagentcanary.ai | <i>Not financial advice</i>"
   },
   {
     "session": "evening",
