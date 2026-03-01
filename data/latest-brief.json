@@ -1,1 +1,60 @@
-{}
+{
+  "session": "evening",
+  "date": "2026-03-01",
+  "time": "21:00 UTC",
+  "headline": "2 bullish / 2 bearish signals.\n🌍 Producer Price Index",
+  "headlineColor": "#A78BFA",
+  "desc": "The death of Iran’s Supreme Leader triggered US‑Israel strikes, sparking a sharp Bitcoin rally, oil price spikes, and a risk‑off mood in equities.. Bitcoin surged to $68k after the war, with high funding rates and massive liquidations, driving extreme volatility across major tokens.",
+  "tags": [
+    {
+      "t": "MIXED",
+      "c": "yellow"
+    },
+    {
+      "t": "🌍 Producer Price ",
+      "c": "blue"
+    }
+  ],
+  "panels": [
+    {
+      "label": "NEWS SENTIMENT",
+      "rows": [
+        {
+          "k": "Bullish",
+          "v": "2 stories",
+          "c": "green"
+        },
+        {
+          "k": "Bearish",
+          "v": "2 stories",
+          "c": "red"
+        },
+        {
+          "k": "Neutral",
+          "v": "1 stories",
+          "c": "yellow"
+        }
+      ]
+    },
+    {
+      "label": "CALENDAR",
+      "rows": [
+        {
+          "k": "🌍 Producer Price Index",
+          "v": "Mar 13",
+          "c": "blue"
+        },
+        {
+          "k": "🌍 Seasonally adjusted ",
+          "v": "Mar 12",
+          "c": "blue"
+        },
+        {
+          "k": "🌍 manufacturing purcha",
+          "v": "Mar 12",
+          "c": "blue"
+        }
+      ]
+    }
+  ]
+}
