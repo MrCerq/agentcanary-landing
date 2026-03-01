@@ -1,17 +1,1 @@
-{
-  "session": "evening",
-  "date": "2026-03-01",
-  "time": "21:00 UTC",
-  "headline": "4 bullish / 6 bearish signals.\nNFP drops Friday.",
-  "headlineColor": "var(--p)",
-  "desc": "Newsletter consensus shifting bearish. FinBERT sentiment -0.3 avg across 47 stories. ISM Manufacturing tomorrow 10:00 ET.",
-  "tags": [
-    {"t": "BEARISH SKEW", "c": "red"},
-    {"t": "NFP FRIDAY", "c": "purple"},
-    {"t": "ISM TOMORROW", "c": "blue"}
-  ],
-  "panels": [
-    {"label": "NEWS SENTIMENT", "rows": [{"k": "Bullish", "v": "4 stories", "c": "green"}, {"k": "Bearish", "v": "6 stories", "c": "red"}, {"k": "Neutral", "v": "37 stories", "c": "yellow"}]},
-    {"label": "CALENDAR", "rows": [{"k": "🇺🇸 ISM Mfg", "v": "Mar 2", "c": "blue"}, {"k": "🇺🇸 NFP", "v": "Mar 7", "c": "red"}]}
-  ]
-}
+{}

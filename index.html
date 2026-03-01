@@ -317,6 +317,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   var ROW_COLORS={red:'var(--r)',yellow:'var(--y)',green:'var(--g)',blue:'var(--b)',purple:'var(--p)'};
 
   fetch('/data/latest-brief.json?v='+Date.now()).then(function(r){return r.json()}).then(function(b){
+    if(!b.session){document.getElementById('brief-card').innerHTML='<div style="padding:60px 36px;text-align:center;font-family:var(--mono);font-size:13px;color:var(--t3);">First brief posts at 08:00 UTC tomorrow.</div>';return;}
     var t=THEMES[b.session]||THEMES.morning;
     document.getElementById('brief-glow').style.background='radial-gradient(circle,'+t.glow+' 0%,transparent 65%)';
     document.getElementById('brief-header').innerHTML='<div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid '+t.border+';color:'+t.accent+';background:'+t.bg+';display:flex;align-items:center;gap:6px;"><span style="width:6px;height:6px;background:'+t.accent+';border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>'+t.label+'</div><span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Latest Brief</span>';
