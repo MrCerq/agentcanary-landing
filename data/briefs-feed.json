@@ -2,7 +2,7 @@
   {
     "session": "morning",
     "date": "2026-03-01",
-    "time": "21:02 UTC",
+    "time": "21:07 UTC",
     "headline": "RISK-OFF · STAGFLATION.\nGauge 91.6/100.",
     "headlineColor": "#FB923C",
     "desc": "Growth ↓ · Inflation ↑. moderate risk-off conditions: investors are defensive with a preference for safety and liquidity. Policy stance is on hold: no clear tighten.",
@@ -26,17 +26,17 @@
         "rows": [
           {
             "k": "BTC",
-            "v": "$65,325",
+            "v": "$65,318",
             "c": "yellow"
           },
           {
             "k": "ETH",
-            "v": "$1,915",
+            "v": "$1,914",
             "c": "yellow"
           },
           {
             "k": "SOL",
-            "v": "$82",
+            "v": "$82.02",
             "c": "yellow"
           },
           {
@@ -53,7 +53,7 @@
         }
       }
     ],
-    "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 1, 2026\n\n<b>MACRO REGIME</b>\n🔴 Regime: <b>Risk-Off · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ██████████████████░░ 91.6/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$65,325</b>\n• ETH: <b>$1,915</b>\n• SOL: <b>$82</b>\n• GOLD: <b>$5,263</b>\n\n📊 USDT Dom: <b>8.15%</b> — Risk-Off\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 RRPONTSYD: +3.25σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAG/USD: +1.99σ\n🔴 BAMLC0A0CM: +1.90σ\n🔴 XAU/USD: +1.68σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.9917 (&gt;110)\n🟡 2Y Yield: 3.42% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>"
+    "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 1, 2026\n\n<b>MACRO REGIME</b>\n🔴 Regime: <b>Risk-Off · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ██████████████████░░ 91.6/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$65,318</b>\n• ETH: <b>$1,914</b>\n• SOL: <b>$82.02</b>\n• GOLD: <b>$5,263</b>\n\n📊 USDT Dom: <b>8.14%</b> — Risk-Off\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 RRPONTSYD: +3.25σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAG/USD: +1.99σ\n🔴 BAMLC0A0CM: +1.90σ\n🔴 XAU/USD: +1.68σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.9917 (&gt;110)\n🟡 2Y Yield: 3.42% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>"
   },
   {
     "session": "midday",
