@@ -1,5 +1,61 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-02",
+    "time": "20:20 UTC",
+    "headline": "Neutral · Neutral · STAGFLATION\nGauge 91.6/100",
+    "headlineColor": "#FB923C",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,885 · ETH: $2,038 · SOL: $87.39 · GOLD: $5,337",
+    "tags": [
+      {
+        "t": "NEUTRAL",
+        "c": "yellow"
+      },
+      {
+        "t": "LIQUIDITY_CONTRACTION",
+        "c": "blue"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "PRICES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "$68,885",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH",
+            "v": "$2,038",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL",
+            "v": "$87.39",
+            "c": "yellow"
+          },
+          {
+            "k": "GOLD",
+            "v": "$5,337",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 91.6
+        }
+      }
+    ],
+    "telegramMessageId": 82
+  },
+  {
     "session": "evening",
     "date": "2026-03-02",
     "time": "20:00 UTC",
@@ -119,62 +175,6 @@
       }
     ],
     "telegramMessageId": 79
-  },
-  {
-    "session": "morning",
-    "date": "2026-03-02",
-    "time": "07:13 UTC",
-    "headline": "Risk-Off · Neutral · STAGFLATION\nGauge 91.6/100",
-    "headlineColor": "#FB923C",
-    "desc": "Growth: ↓ | Inflation: ↑. BTC: $65,684 · ETH: $1,928 · SOL: $82.73 · GOLD: $5,263",
-    "tags": [
-      {
-        "t": "RISK_OFF",
-        "c": "red"
-      },
-      {
-        "t": "LIQUIDITY_CONTRACTION",
-        "c": "blue"
-      },
-      {
-        "t": "LOW_STRESS",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "PRICES",
-        "rows": [
-          {
-            "k": "BTC",
-            "v": "$65,684",
-            "c": "yellow"
-          },
-          {
-            "k": "ETH",
-            "v": "$1,928",
-            "c": "yellow"
-          },
-          {
-            "k": "SOL",
-            "v": "$82.73",
-            "c": "yellow"
-          },
-          {
-            "k": "GOLD",
-            "v": "$5,263",
-            "c": "yellow"
-          }
-        ]
-      },
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 91.6
-        }
-      }
-    ],
-    "telegramMessageId": 77
   },
   {
     "session": "evening",
