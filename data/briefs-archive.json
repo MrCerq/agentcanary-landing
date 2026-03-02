@@ -1,5 +1,66 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-02",
+    "time": "20:00 UTC",
+    "headline": "Risk‑off sentiment dominates as crypto outflows surge and …",
+    "headlineColor": "#A78BFA",
+    "desc": "🔴 Crypto Institutional Outflows &amp; Regulatory Uncertainty · 🟢 Oil Price Surge from Iran Escalation · 🔴 Bitcoin ETF Inflow Reversal",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "🌍 Caixin Services",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "1 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "3 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "1 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🌍 Caixin Services Purc",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Trade Balance (billi",
+            "v": "Mar 12",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Producer Price Index",
+            "v": "Mar 12",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 81
+  },
+  {
     "session": "midday",
     "date": "2026-03-02",
     "time": "15:43 UTC",

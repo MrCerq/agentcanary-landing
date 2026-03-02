@@ -1,61 +1,62 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-03-02",
-  "time": "15:43 UTC",
-  "headline": "BTC $69,334 — BEAR_REGIME\n3 whale moves detected",
-  "headlineColor": "#F87171",
-  "desc": "BTC: $69,334 — 1d: BEAR_REGIME | 4h: BULL_REGIME · ETH: $2,050 — 1d: BEAR_REGIME | 4h: ACCUMULATION · SOL: $88.06 — 1d: IGNITION | 4h: IGNITION",
+  "time": "20:00 UTC",
+  "headline": "Risk‑off sentiment dominates as crypto outflows surge and …",
+  "headlineColor": "#A78BFA",
+  "desc": "🔴 Crypto Institutional Outflows &amp; Regulatory Uncertainty · 🟢 Oil Price Surge from Iran Escalation · 🔴 Bitcoin ETF Inflow Reversal",
   "tags": [
     {
-      "t": "BEAR_REGIME",
+      "t": "BEARISH SKEW",
       "c": "red"
     },
     {
-      "t": "WHALE ALERT",
+      "t": "🌍 Caixin Services",
       "c": "blue"
-    },
-    {
-      "t": "ENSO 748% APR",
-      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
+      "label": "NEWS SENTIMENT",
       "rows": [
         {
-          "k": "BTC 1D",
-          "v": "BEAR_REGIME",
-          "c": "red"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "BEAR_REGIME",
-          "c": "red"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "IGNITION",
+          "k": "Bullish",
+          "v": "1 stories",
           "c": "green"
+        },
+        {
+          "k": "Bearish",
+          "v": "3 stories",
+          "c": "red"
+        },
+        {
+          "k": "Neutral",
+          "v": "1 stories",
+          "c": "yellow"
         }
       ]
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$50M USDC",
-          "v": "minted at USDC Treas",
+          "k": "🌍 Caixin Services Purc",
+          "v": "Mar 13",
           "c": "blue"
         },
         {
-          "k": "$62M USDC",
-          "v": "burned at USDC Treas",
+          "k": "🇺🇸 Trade Balance (billi",
+          "v": "Mar 12",
+          "c": "blue"
+        },
+        {
+          "k": "🇺🇸 Producer Price Index",
+          "v": "Mar 12",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "📊 <b>MIDDAY MARKETS</b> — Mar 2, 2026\n\n<b>🪙 CRYPTO</b>\n• BTC: <b>$69,334</b> — 1d: BEAR_REGIME | 4h: BULL_REGIME\n• ETH: <b>$2,050</b> — 1d: BEAR_REGIME | 4h: ACCUMULATION\n• SOL: <b>$88.06</b> — 1d: IGNITION | 4h: IGNITION\n\n\n<b>🐋 WHALE ALERTS</b>\n• 50,000,000 USDC ($50,017,500)\n  <i>minted at USDC Treasury</i>\n• 61,499,996 USDC ($61,509,220)\n  <i>burned at USDC Treasury</i>\n• 99,999,999 TRX ($28,313,015)\n  <i>transferred from #Htx to unknown wallet</i>\n\n<b>💰 FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ESP</b>: 882% net APR (0.0753% rate)\n  Long Binance / Short Bybit | OI: $9.0M | Spread: -0.67%\n• <b>SAHARA</b>: 557% net APR (0.0436% rate)\n  Long Binance / Short OKX | OI: $5.1M | Spread: -0.56%\n• <b>MYX</b>: 204% net APR (0.0948% rate)\n  Long Binance / Short Bybit | OI: $6.1M | Spread: -0.05%\n\n<b>📐 SCENARIO</b>\n↓ Recession · ↑ Stagflation · ↑ Hegemony\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 79
+  "telegramText": "🌙 <b>EVENING INTELLIGENCE</b> — Mar 2, 2026\n\n\n<i>Risk‑off sentiment dominates as crypto outflows surge and geopolitical tensions push oil higher</i>\n\n<b>🧠 KEY THEMES</b>\n🔴 <b>Crypto Institutional Outflows &amp; Regulatory Uncertainty</b> 🔥\nRecord outflows from Bitcoin and Ether ETFs, Senate bill pending, CLARITY Act expected, institutional appetite collapsed.\nAssets: BTC, ETH, MSTR\n\n🟢 <b>Oil Price Surge from Iran Escalation</b> 🔥\nBrent jumps 6% as U.S.-Iran conflict escalates, driving oil and gold higher, risk‑off shift in broader markets.\nAssets: OIL, GOLD\n\n🔴 <b>Bitcoin ETF Inflow Reversal</b> 📊\nAfter five weeks of outflows, one week of $787m inflow, but overall sentiment remains weak.\nAssets: BTC, ETH\n\n🟡 <b>Senate Crypto Bill Pending</b> 📊\nSenate review could unlock $1.5T, potential catalyst for digital assets.\nAssets: BTC, ETH, MSTR\n\n<b>📐 SCENARIO SHIFTS</b>\n↓ Recession: Crypto outflows and geopolitical tensions raise recession risk.\n↑ Stagflation: Oil spike and inflation expectations push stagflation.\n↑ Hegemony: US‑Iran conflict increases hegemony risk.\n\n<b>⚡ WATCHLIST</b>\n👀 BTC: Institutional outflows and regulatory uncertainty keep price volatile.\n👀 ETH: Similar outflows and ETF pressure keep price uncertain.\n🟢 OIL: Geopolitical risk driving price up, short‑term support.\n🟢 GOLD: Safe‑haven demand amid conflict.\n\n<b>🤔 CONTRARIAN</b>\n• Crypto could rebound if the Senate bill passes, so consider buying BTC.\n• Oil could fall if the conflict de‑escalates, so consider shorting OIL.\n\n⚡ <b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 91.6/100\n\n<b>📅 UPCOMING — HIGH IMPACT</b>\n🇨🇳 Caixin Services Purchasing Managers Index(Feb) — Mar 13, 02:06 AM UTC (prev: 52.3)\n🇺🇸 Trade Balance (billion USD)(Jan) — Mar 12, 12:30 PM UTC (prev: -70.3)\n🇺🇸 Producer Price Index (YoY)(Feb) — Mar 12, 12:30 PM UTC (prev: 2.9%)\n🇺🇸 Unseasonally Adjusted Consumer Price Index (YoY)(Feb) — Mar 11, 12:30 PM UTC (prev: 2.4%)\n🇺🇸 Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Feb) — Mar 11, 12:30 PM UTC (prev: 2.5%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 81
 }
