@@ -1,57 +1,61 @@
 {
-  "session": "morning",
+  "session": "midday",
   "date": "2026-03-02",
-  "time": "07:13 UTC",
-  "headline": "Risk-Off · Neutral · STAGFLATION\nGauge 91.6/100",
-  "headlineColor": "#FB923C",
-  "desc": "Growth: ↓ | Inflation: ↑. BTC: $65,684 · ETH: $1,928 · SOL: $82.73 · GOLD: $5,263",
+  "time": "15:43 UTC",
+  "headline": "BTC $69,334 — BEAR_REGIME\n3 whale moves detected",
+  "headlineColor": "#F87171",
+  "desc": "BTC: $69,334 — 1d: BEAR_REGIME | 4h: BULL_REGIME · ETH: $2,050 — 1d: BEAR_REGIME | 4h: ACCUMULATION · SOL: $88.06 — 1d: IGNITION | 4h: IGNITION",
   "tags": [
     {
-      "t": "RISK_OFF",
+      "t": "BEAR_REGIME",
       "c": "red"
     },
     {
-      "t": "LIQUIDITY_CONTRACTION",
+      "t": "WHALE ALERT",
       "c": "blue"
     },
     {
-      "t": "LOW_STRESS",
-      "c": "blue"
+      "t": "ENSO 748% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "PRICES",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "BTC",
-          "v": "$65,684",
-          "c": "yellow"
+          "k": "BTC 1D",
+          "v": "BEAR_REGIME",
+          "c": "red"
         },
         {
-          "k": "ETH",
-          "v": "$1,928",
-          "c": "yellow"
+          "k": "ETH 1D",
+          "v": "BEAR_REGIME",
+          "c": "red"
         },
         {
-          "k": "SOL",
-          "v": "$82.73",
-          "c": "yellow"
-        },
-        {
-          "k": "GOLD",
-          "v": "$5,263",
-          "c": "yellow"
+          "k": "SOL 1D",
+          "v": "IGNITION",
+          "c": "green"
         }
       ]
     },
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 91.6
-      }
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$50M USDC",
+          "v": "minted at USDC Treas",
+          "c": "blue"
+        },
+        {
+          "k": "$62M USDC",
+          "v": "burned at USDC Treas",
+          "c": "blue"
+        }
+      ]
     }
   ],
-  "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 2, 2026\n\n<b>MACRO REGIME</b>\n🔴 Regime: <b>Risk-Off · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ██████████████████░░ 91.6/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$65,684</b>\n• ETH: <b>$1,928</b>\n• SOL: <b>$82.73</b>\n• GOLD: <b>$5,263</b>\n\n📊 USDT Dom: <b>8.10%</b> — Risk-Off\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 RRPONTSYD: +3.25σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAG/USD: +1.99σ\n🔴 BAMLC0A0CM: +1.90σ\n🔴 XAU/USD: +1.68σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.9917 (&gt;110)\n🟡 2Y Yield: 3.42% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 77
+  "telegramText": "📊 <b>MIDDAY MARKETS</b> — Mar 2, 2026\n\n<b>🪙 CRYPTO</b>\n• BTC: <b>$69,334</b> — 1d: BEAR_REGIME | 4h: BULL_REGIME\n• ETH: <b>$2,050</b> — 1d: BEAR_REGIME | 4h: ACCUMULATION\n• SOL: <b>$88.06</b> — 1d: IGNITION | 4h: IGNITION\n\n\n<b>🐋 WHALE ALERTS</b>\n• 50,000,000 USDC ($50,017,500)\n  <i>minted at USDC Treasury</i>\n• 61,499,996 USDC ($61,509,220)\n  <i>burned at USDC Treasury</i>\n• 99,999,999 TRX ($28,313,015)\n  <i>transferred from #Htx to unknown wallet</i>\n\n<b>💰 FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ESP</b>: 882% net APR (0.0753% rate)\n  Long Binance / Short Bybit | OI: $9.0M | Spread: -0.67%\n• <b>SAHARA</b>: 557% net APR (0.0436% rate)\n  Long Binance / Short OKX | OI: $5.1M | Spread: -0.56%\n• <b>MYX</b>: 204% net APR (0.0948% rate)\n  Long Binance / Short Bybit | OI: $6.1M | Spread: -0.05%\n\n<b>📐 SCENARIO</b>\n↓ Recession · ↑ Stagflation · ↑ Hegemony\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 79
 }

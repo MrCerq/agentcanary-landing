@@ -1,5 +1,65 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-02",
+    "time": "15:43 UTC",
+    "headline": "BTC $69,334 — BEAR_REGIME\n3 whale moves detected",
+    "headlineColor": "#F87171",
+    "desc": "BTC: $69,334 — 1d: BEAR_REGIME | 4h: BULL_REGIME · ETH: $2,050 — 1d: BEAR_REGIME | 4h: ACCUMULATION · SOL: $88.06 — 1d: IGNITION | 4h: IGNITION",
+    "tags": [
+      {
+        "t": "BEAR_REGIME",
+        "c": "red"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "ENSO 748% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "BEAR_REGIME",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BEAR_REGIME",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "IGNITION",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$50M USDC",
+            "v": "minted at USDC Treas",
+            "c": "blue"
+          },
+          {
+            "k": "$62M USDC",
+            "v": "burned at USDC Treas",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 79
+  },
+  {
     "session": "morning",
     "date": "2026-03-02",
     "time": "07:13 UTC",
