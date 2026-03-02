@@ -1,10 +1,10 @@
 {
   "session": "morning",
   "date": "2026-03-02",
-  "time": "07:02 UTC",
+  "time": "07:13 UTC",
   "headline": "Risk-Off · Neutral · STAGFLATION\nGauge 91.6/100",
   "headlineColor": "#FB923C",
-  "desc": "Growth: ↓ | Inflation: ↑. BTC: $66,170 · ETH: $1,943 · SOL: $83.23 · GOLD: $5,263",
+  "desc": "Growth: ↓ | Inflation: ↑. BTC: $65,684 · ETH: $1,928 · SOL: $82.73 · GOLD: $5,263",
   "tags": [
     {
       "t": "RISK_OFF",
@@ -25,17 +25,17 @@
       "rows": [
         {
           "k": "BTC",
-          "v": "$66,170",
+          "v": "$65,684",
           "c": "yellow"
         },
         {
           "k": "ETH",
-          "v": "$1,943",
+          "v": "$1,928",
           "c": "yellow"
         },
         {
           "k": "SOL",
-          "v": "$83.23",
+          "v": "$82.73",
           "c": "yellow"
         },
         {
@@ -52,6 +52,6 @@
       }
     }
   ],
-  "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 2, 2026\n\n<b>MACRO REGIME</b>\n🔴 Regime: <b>Risk-Off · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ██████████████████░░ 91.6/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$66,170</b>\n• ETH: <b>$1,943</b>\n• SOL: <b>$83.23</b>\n• GOLD: <b>$5,263</b>\n\n📊 USDT Dom: <b>8.05%</b> — Risk-Off\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 RRPONTSYD: +3.25σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAG/USD: +1.99σ\n🔴 BAMLC0A0CM: +1.90σ\n🔴 XAU/USD: +1.68σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.9917 (&gt;110)\n🟡 2Y Yield: 3.42% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 76
+  "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 2, 2026\n\n<b>MACRO REGIME</b>\n🔴 Regime: <b>Risk-Off · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ██████████████████░░ 91.6/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$65,684</b>\n• ETH: <b>$1,928</b>\n• SOL: <b>$82.73</b>\n• GOLD: <b>$5,263</b>\n\n📊 USDT Dom: <b>8.10%</b> — Risk-Off\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 RRPONTSYD: +3.25σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAG/USD: +1.99σ\n🔴 BAMLC0A0CM: +1.90σ\n🔴 XAU/USD: +1.68σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.9917 (&gt;110)\n🟡 2Y Yield: 3.42% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 77
 }
