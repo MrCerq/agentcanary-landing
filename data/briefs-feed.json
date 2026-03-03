@@ -1,6 +1,55 @@
 [
   {
     "session": "morning",
+    "date": "2026-03-03",
+    "time": "06:20 UTC",
+    "headline": "Neutral · Neutral · STAGFLATION\nGauge 62.4/100",
+    "headlineColor": "#FFC53D",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $67,931 · ETH: $1,993 · SOL: $85.71 · GOLD: $5,339",
+    "tags": [
+      {
+        "t": "NEUTRAL",
+        "c": "yellow"
+      }
+    ],
+    "panels": [
+      {
+        "label": "PRICES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "$67,931",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH",
+            "v": "$1,993",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL",
+            "v": "$85.71",
+            "c": "yellow"
+          },
+          {
+            "k": "GOLD",
+            "v": "$5,339",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 62.4
+        }
+      }
+    ],
+    "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 3, 2026\n\n<b>MACRO REGIME</b>\n🟡 Regime: <b>Neutral · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ████████████░░░░░░░░ 62.4/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$67,931</b>\n• ETH: <b>$1,993</b>\n• SOL: <b>$85.71</b>\n• GOLD: <b>$5,339</b>\nSPY: <b>$686.38</b> (-0.4%)\nQQQ: <b>$608.09</b> (-0.2%)\nVIX: <b>21.4</b> (+8.0%)\nTLT: <b>$89.61</b> (-0.7%)\nDXY: <b>98.7</b> (+0.4%)\nOIL: <b>$72.5</b> (+1.8%)\n\n📊 USDT Dom: <b>7.89%</b> — Normal\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 BAMLH0A0HYM2: +2.52σ\n🔴 BAMLC0A0CM: +2.41σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAU/USD: +1.89σ\n🟢 DGS2: -1.76σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.38% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 83
+  },
+  {
+    "session": "morning",
     "date": "2026-03-02",
     "time": "20:20 UTC",
     "headline": "Neutral · Neutral · STAGFLATION\nGauge 91.6/100",
@@ -1129,61 +1178,6 @@
           {
             "k": "SOL",
             "v": "?",
-            "c": "red"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "session": "morning",
-    "date": "2026-02-24",
-    "time": "08:00 UTC",
-    "headline": "RISK-ON regime.\nRisk gauge at 9.",
-    "headlineColor": "#34D399",
-    "desc": "Risk-On · Neutral. clear risk-on conditions: investors are favoring risk assets and credit conditions are supportive. Policy stance is on hold: no clear tighte.",
-    "tags": [
-      {
-        "t": "RISK_ON",
-        "c": "green"
-      },
-      {
-        "t": "DISINFLATION",
-        "c": "blue"
-      },
-      {
-        "t": "LOW_STRESS",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 9
-        }
-      },
-      {
-        "label": "DRIVERS",
-        "rows": [
-          {
-            "k": "Inflation expectations f",
-            "v": "-2.1",
-            "c": "red"
-          },
-          {
-            "k": "Real yields falling (ris",
-            "v": "+1.8",
-            "c": "green"
-          },
-          {
-            "k": "Gold rising + real yield",
-            "v": "+1.5",
-            "c": "green"
-          },
-          {
-            "k": "Policy flow (DFF + 2Y)",
-            "v": "-1.0",
             "c": "red"
           }
         ]

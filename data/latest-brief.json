@@ -1,22 +1,14 @@
 {
   "session": "morning",
-  "date": "2026-03-02",
-  "time": "20:20 UTC",
-  "headline": "Neutral · Neutral · STAGFLATION\nGauge 91.6/100",
-  "headlineColor": "#FB923C",
-  "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,885 · ETH: $2,038 · SOL: $87.39 · GOLD: $5,337",
+  "date": "2026-03-03",
+  "time": "06:20 UTC",
+  "headline": "Neutral · Neutral · STAGFLATION\nGauge 62.4/100",
+  "headlineColor": "#FFC53D",
+  "desc": "Growth: ↓ | Inflation: ↑. BTC: $67,931 · ETH: $1,993 · SOL: $85.71 · GOLD: $5,339",
   "tags": [
     {
       "t": "NEUTRAL",
       "c": "yellow"
-    },
-    {
-      "t": "LIQUIDITY_CONTRACTION",
-      "c": "blue"
-    },
-    {
-      "t": "LOW_STRESS",
-      "c": "blue"
     }
   ],
   "panels": [
@@ -25,22 +17,22 @@
       "rows": [
         {
           "k": "BTC",
-          "v": "$68,885",
+          "v": "$67,931",
           "c": "yellow"
         },
         {
           "k": "ETH",
-          "v": "$2,038",
+          "v": "$1,993",
           "c": "yellow"
         },
         {
           "k": "SOL",
-          "v": "$87.39",
+          "v": "$85.71",
           "c": "yellow"
         },
         {
           "k": "GOLD",
-          "v": "$5,337",
+          "v": "$5,339",
           "c": "yellow"
         }
       ]
@@ -48,10 +40,10 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 91.6
+        "value": 62.4
       }
     }
   ],
-  "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 2, 2026\n\n<b>MACRO REGIME</b>\n🟡 Regime: <b>Neutral · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ██████████████████░░ 91.6/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$68,885</b>\n• ETH: <b>$2,038</b>\n• SOL: <b>$87.39</b>\n• GOLD: <b>$5,337</b>\n\n📊 USDT Dom: <b>7.80%</b> — Normal\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 RRPONTSYD: +3.25σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 BAMLC0A0CM: +1.90σ\n🔴 XAU/USD: +1.90σ\n🔴 BAMLH0A0HYM2: +1.59σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.9917 (&gt;110)\n🟡 2Y Yield: 3.42% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 82
+  "telegramText": "🟢 <b>MORNING BRIEF</b> — Mar 3, 2026\n\n<b>MACRO REGIME</b>\n🟡 Regime: <b>Neutral · Neutral</b>\n📊 Cycle: <b>STAGFLATION</b>\n🎯 Risk Gauge: ████████████░░░░░░░░ 62.4/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>💰 Overnight Prices</b>\n• BTC: <b>$67,931</b>\n• ETH: <b>$1,993</b>\n• SOL: <b>$85.71</b>\n• GOLD: <b>$5,339</b>\nSPY: <b>$686.38</b> (-0.4%)\nQQQ: <b>$608.09</b> (-0.2%)\nVIX: <b>21.4</b> (+8.0%)\nTLT: <b>$89.61</b> (-0.7%)\nDXY: <b>98.7</b> (+0.4%)\nOIL: <b>$72.5</b> (+1.8%)\n\n📊 USDT Dom: <b>7.89%</b> — Normal\n\n\n<b>📐 Notable Z-Scores</b>\n🔴 BAMLH0A0HYM2: +2.52σ\n🔴 BAMLC0A0CM: +2.41σ\n🟢 MORTGAGE30US: -2.07σ\n🔴 XAU/USD: +1.89σ\n🟢 DGS2: -1.76σ\n\n<b>👀 HEGEMONY SNAPBACK</b>: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.38% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 83
 }
