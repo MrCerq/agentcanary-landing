@@ -2,7 +2,7 @@
   {
     "session": "evening",
     "date": "2026-03-03",
-    "time": "15:54 UTC",
+    "time": "20:00 UTC",
     "headline": "EVENING WRAP — Mar 3, 2026",
     "headlineColor": "#A78BFA",
     "desc": "Newsletter and news intelligence digest.",
@@ -58,7 +58,7 @@
         ]
       }
     ],
-    "telegramMessageId": 88
+    "telegramMessageId": 89
   },
   {
     "session": "midday",
