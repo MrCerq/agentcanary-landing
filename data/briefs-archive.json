@@ -2,10 +2,10 @@
   {
     "session": "morning",
     "date": "2026-03-03",
-    "time": "06:20 UTC",
+    "time": "07:02 UTC",
     "headline": "Neutral · Neutral · STAGFLATION\nGauge 62.4/100",
     "headlineColor": "#FFC53D",
-    "desc": "Growth: ↓ | Inflation: ↑. BTC: $67,931 · ETH: $1,993 · SOL: $85.71 · GOLD: $5,339",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,085 · ETH: $1,998 · SOL: $85.79 · GOLD: $5,339",
     "tags": [
       {
         "t": "NEUTRAL",
@@ -18,17 +18,17 @@
         "rows": [
           {
             "k": "BTC",
-            "v": "$67,931",
+            "v": "$68,085",
             "c": "yellow"
           },
           {
             "k": "ETH",
-            "v": "$1,993",
+            "v": "$1,998",
             "c": "yellow"
           },
           {
             "k": "SOL",
-            "v": "$85.71",
+            "v": "$85.79",
             "c": "yellow"
           },
           {
@@ -45,7 +45,7 @@
         }
       }
     ],
-    "telegramMessageId": 83
+    "telegramMessageId": 84
   },
   {
     "session": "morning",
