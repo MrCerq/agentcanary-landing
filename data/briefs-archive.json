@@ -1,5 +1,61 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-03",
+    "time": "15:54 UTC",
+    "headline": "BTC $67,673 — BULL_REGIME\n3 whale moves detected",
+    "headlineColor": "#F87171",
+    "desc": "BTC: $67,673 — 1d: BULL_REGIME | 4h: DISTRIBUTION · ETH: $1,965 — 1d: BULL_REGIME | 4h: BEAR_REGIME · SOL: $84.87 — 1d: BULL_REGIME | 4h: BEAR_REGIME",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "POWER 1571% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$105M BTC",
+            "v": "transferred from #Ce",
+            "c": "blue"
+          },
+          {
+            "k": "$162M ETH",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 87
+  },
+  {
     "session": "morning",
     "date": "2026-03-03",
     "time": "15:54 UTC",
@@ -46,62 +102,6 @@
       }
     ],
     "telegramMessageId": 86
-  },
-  {
-    "session": "midday",
-    "date": "2026-03-03",
-    "time": "12:00 UTC",
-    "headline": "BTC $67,037 — BULL_REGIME\n3 whale moves detected",
-    "headlineColor": "#F87171",
-    "desc": "BTC: $67,037 — 1d: BULL_REGIME | 4h: DISTRIBUTION · ETH: $1,962 — 1d: BULL_REGIME | 4h: DISTRIBUTION · SOL: $84.21 — 1d: IGNITION | 4h: IGNITION",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "PHA 717% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "IGNITION",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$105M BTC",
-            "v": "transferred from #Ce",
-            "c": "blue"
-          },
-          {
-            "k": "$162M ETH",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramMessageId": 85
   },
   {
     "session": "morning",
