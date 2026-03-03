@@ -1,5 +1,53 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-03",
+    "time": "15:54 UTC",
+    "headline": "Neutral · Neutral · STAGFLATION\nGauge 62.4/100",
+    "headlineColor": "#FFC53D",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $67,673 · ETH: $1,965 · SOL: $84.87 · GOLD: $5,070",
+    "tags": [
+      {
+        "t": "NEUTRAL",
+        "c": "yellow"
+      }
+    ],
+    "panels": [
+      {
+        "label": "PRICES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "$67,673",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH",
+            "v": "$1,965",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL",
+            "v": "$84.87",
+            "c": "yellow"
+          },
+          {
+            "k": "GOLD",
+            "v": "$5,070",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 62.4
+        }
+      }
+    ],
+    "telegramMessageId": 86
+  },
+  {
     "session": "midday",
     "date": "2026-03-03",
     "time": "12:00 UTC",
@@ -54,54 +102,6 @@
       }
     ],
     "telegramMessageId": 85
-  },
-  {
-    "session": "morning",
-    "date": "2026-03-03",
-    "time": "07:02 UTC",
-    "headline": "Neutral · Neutral · STAGFLATION\nGauge 62.4/100",
-    "headlineColor": "#FFC53D",
-    "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,085 · ETH: $1,998 · SOL: $85.79 · GOLD: $5,339",
-    "tags": [
-      {
-        "t": "NEUTRAL",
-        "c": "yellow"
-      }
-    ],
-    "panels": [
-      {
-        "label": "PRICES",
-        "rows": [
-          {
-            "k": "BTC",
-            "v": "$68,085",
-            "c": "yellow"
-          },
-          {
-            "k": "ETH",
-            "v": "$1,998",
-            "c": "yellow"
-          },
-          {
-            "k": "SOL",
-            "v": "$85.79",
-            "c": "yellow"
-          },
-          {
-            "k": "GOLD",
-            "v": "$5,339",
-            "c": "yellow"
-          }
-        ]
-      },
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 62.4
-        }
-      }
-    ],
-    "telegramMessageId": 84
   },
   {
     "session": "morning",
