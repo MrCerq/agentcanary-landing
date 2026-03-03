@@ -1,5 +1,67 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-03",
+    "time": "15:54 UTC",
+    "headline": "EVENING WRAP — Mar 3, 2026",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "🇺🇸 University of",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "2 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "2 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "2 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🇺🇸 University of Michig",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Personal consumption",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Personal income (MoM",
+            "v": "Mar 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>EVENING WRAP</b> — Mar 3, 2026\n\n\n<i>Crypto markets are surging on institutional inflows and ETF momentum while oil prices spike amid geopolitical tensions, creating a mixed risk‑on for crypto and risk‑off for equities.</i>\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle: BTC bottom forming signals the end of the four‑year cycle.\n↑ Stagflation: Oil spike combined with inflationary risk.\n↑ Displacement: Iran conflict drives displacement and geopolitical risk.\n\n<b>CONTRARIAN</b>\n• Sell BTC anticipating a correction due to ETF saturation and short‑term volatility.\n• Buy SPY expecting an equity rally if the Fed eases policy amid inflation concerns.\n\n<b>TOMORROW WATCH</b>\n🟢 BTC: Institutional ETF inflows and short liquidation wave support a bullish stance.\n🛡️ OIL: Geopolitical risk and price spike warrant protective exposure.\n\n<b>NEWS FLAGS</b>\n⚠️ <b>AMKR</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>KLIC</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>BTC-USD</b> [watch]: Sell BTC anticipating a correction due to ETF saturation and short‑term volatility.\n⚠️ <b>SPY</b>: Buy SPY expecting an equity rally if the Fed eases policy amid inflation concerns.\n\n<b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 62.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n🇺🇸 University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 13, 02:00 PM UTC (prev: 56.6)\n🇺🇸 Personal consumption expenditure price index (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇺🇸 Personal income (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.3%)\n🇺🇸 Personal consumption expenditure (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇨🇳 Caixin Services Purchasing Managers Index(Feb) — Mar 13, 02:06 AM UTC (prev: 52.3)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 88
+  },
+  {
     "session": "midday",
     "date": "2026-03-03",
     "time": "15:54 UTC",
@@ -1121,66 +1183,6 @@
             "k": "HY spread widening (risk",
             "v": "-1.7",
             "c": "red"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "session": "evening",
-    "date": "2026-02-24",
-    "time": "21:00 UTC",
-    "headline": "1 bullish / 5 bearish signals.\n🇺🇸 Imports (US $100 mil",
-    "headlineColor": "#A78BFA",
-    "desc": "Newsletter and news intelligence digest.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "🇺🇸 Imports (US $",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "NEWS SENTIMENT",
-        "rows": [
-          {
-            "k": "Bullish",
-            "v": "1 stories",
-            "c": "green"
-          },
-          {
-            "k": "Bearish",
-            "v": "5 stories",
-            "c": "red"
-          },
-          {
-            "k": "Neutral",
-            "v": "0 stories",
-            "c": "yellow"
-          }
-        ]
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "🇺🇸 Imports (US $100 mil",
-            "v": "Mar 8",
-            "c": "blue"
-          },
-          {
-            "k": "🇺🇸 University of Michig",
-            "v": "Mar 6",
-            "c": "blue"
-          },
-          {
-            "k": "🇺🇸 Last week EIA Cushin",
-            "v": "Mar 6",
-            "c": "blue"
           }
         ]
       }

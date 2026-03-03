@@ -1,57 +1,62 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-03-03",
   "time": "15:54 UTC",
-  "headline": "BTC $67,673 — BULL_REGIME\n3 whale moves detected",
-  "headlineColor": "#F87171",
-  "desc": "BTC: $67,673 — 1d: BULL_REGIME | 4h: DISTRIBUTION · ETH: $1,965 — 1d: BULL_REGIME | 4h: BEAR_REGIME · SOL: $84.87 — 1d: BULL_REGIME | 4h: BEAR_REGIME",
+  "headline": "EVENING WRAP — Mar 3, 2026",
+  "headlineColor": "#A78BFA",
+  "desc": "Newsletter and news intelligence digest.",
   "tags": [
     {
-      "t": "WHALE ALERT",
-      "c": "blue"
+      "t": "MIXED",
+      "c": "yellow"
     },
     {
-      "t": "POWER 1571% APR",
-      "c": "green"
+      "t": "🇺🇸 University of",
+      "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
+      "label": "NEWS SENTIMENT",
       "rows": [
         {
-          "k": "BTC 1D",
-          "v": "BULL_REGIME",
+          "k": "Bullish",
+          "v": "2 stories",
           "c": "green"
         },
         {
-          "k": "ETH 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
+          "k": "Bearish",
+          "v": "2 stories",
+          "c": "red"
         },
         {
-          "k": "SOL 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
+          "k": "Neutral",
+          "v": "2 stories",
+          "c": "yellow"
         }
       ]
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$105M BTC",
-          "v": "transferred from #Ce",
+          "k": "🇺🇸 University of Michig",
+          "v": "Mar 13",
           "c": "blue"
         },
         {
-          "k": "$162M ETH",
-          "v": "transferred from unk",
+          "k": "🇺🇸 Personal consumption",
+          "v": "Mar 13",
+          "c": "blue"
+        },
+        {
+          "k": "🇺🇸 Personal income (MoM",
+          "v": "Mar 13",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MIDDAY MARKETS</b> — Mar 3, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$67,673</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n• ETH: <b>$1,965</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$84.87</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 1,567 BTC ($105,137,312)\n  <i>transferred from #Ceffu to #Binance</i>\n• 82,000 ETH ($162,241,621)\n  <i>transferred from unknown wallet to #Binance</i>\n• 758 BTC ($51,904,231)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>SAHARA</b>: 719% net APR (0.0629% rate)\n  Long Bitget / Short OKX | OI: $6.6M | Spread: -0.54%\n• <b>ESP</b>: 562% net APR (0.0475% rate)\n  Long Binance / Short Bybit | OI: $8.9M | Spread: -0.46%\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n🟢 Crypto Rally [BTC, ETH, SOL]\n🟢 Institutional Crypto Inflows [BTC, ETH]\n\n<b>NEWS FLAGS</b>\n⚠️ <b>AMKR</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>KLIC</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>BTC-USD</b> [watch]: Sell BTC anticipating a correction due to ETF saturation and short‑term volatility.\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 87
+  "telegramText": "<b>EVENING WRAP</b> — Mar 3, 2026\n\n\n<i>Crypto markets are surging on institutional inflows and ETF momentum while oil prices spike amid geopolitical tensions, creating a mixed risk‑on for crypto and risk‑off for equities.</i>\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle: BTC bottom forming signals the end of the four‑year cycle.\n↑ Stagflation: Oil spike combined with inflationary risk.\n↑ Displacement: Iran conflict drives displacement and geopolitical risk.\n\n<b>CONTRARIAN</b>\n• Sell BTC anticipating a correction due to ETF saturation and short‑term volatility.\n• Buy SPY expecting an equity rally if the Fed eases policy amid inflation concerns.\n\n<b>TOMORROW WATCH</b>\n🟢 BTC: Institutional ETF inflows and short liquidation wave support a bullish stance.\n🛡️ OIL: Geopolitical risk and price spike warrant protective exposure.\n\n<b>NEWS FLAGS</b>\n⚠️ <b>AMKR</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>KLIC</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>BTC-USD</b> [watch]: Sell BTC anticipating a correction due to ETF saturation and short‑term volatility.\n⚠️ <b>SPY</b>: Buy SPY expecting an equity rally if the Fed eases policy amid inflation concerns.\n\n<b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 62.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n🇺🇸 University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 13, 02:00 PM UTC (prev: 56.6)\n🇺🇸 Personal consumption expenditure price index (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇺🇸 Personal income (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.3%)\n🇺🇸 Personal consumption expenditure (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇨🇳 Caixin Services Purchasing Managers Index(Feb) — Mar 13, 02:06 AM UTC (prev: 52.3)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 88
 }

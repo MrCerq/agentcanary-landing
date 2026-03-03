@@ -1,5 +1,66 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-03",
+    "time": "15:54 UTC",
+    "headline": "EVENING WRAP — Mar 3, 2026",
+    "headlineColor": "#A78BFA",
+    "desc": "Newsletter and news intelligence digest.",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "🇺🇸 University of",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "NEWS SENTIMENT",
+        "rows": [
+          {
+            "k": "Bullish",
+            "v": "2 stories",
+            "c": "green"
+          },
+          {
+            "k": "Bearish",
+            "v": "2 stories",
+            "c": "red"
+          },
+          {
+            "k": "Neutral",
+            "v": "2 stories",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🇺🇸 University of Michig",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Personal consumption",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Personal income (MoM",
+            "v": "Mar 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 88
+  },
+  {
     "session": "midday",
     "date": "2026-03-03",
     "time": "15:54 UTC",
