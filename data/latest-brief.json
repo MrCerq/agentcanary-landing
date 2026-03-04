@@ -1,53 +1,21 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-04",
-  "time": "07:15 UTC",
-  "headline": "Risk-On · Neutral · STAGFLATION\nGauge 52.5/100",
-  "headlineColor": "#FFC53D",
-  "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,408 · ETH: $1,976 · SOL: $85.63 · GOLD: $5,100",
+  "time": "08:52 UTC",
+  "headline": "INTELLIGENCE BRIEF — Mar 4, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 52.5/100 · 8 movers",
   "tags": [
     {
-      "t": "RISK_ON",
-      "c": "green"
+      "t": "MEDIUM",
+      "c": "yellow"
     },
     {
-      "t": "LOW_STRESS",
+      "t": "STAGFLATION",
       "c": "blue"
     }
   ],
-  "panels": [
-    {
-      "label": "PRICES",
-      "rows": [
-        {
-          "k": "BTC",
-          "v": "$68,408",
-          "c": "yellow"
-        },
-        {
-          "k": "ETH",
-          "v": "$1,976",
-          "c": "yellow"
-        },
-        {
-          "k": "SOL",
-          "v": "$85.63",
-          "c": "yellow"
-        },
-        {
-          "k": "GOLD",
-          "v": "$5,100",
-          "c": "yellow"
-        }
-      ]
-    },
-    {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 52.5
-      }
-    }
-  ],
-  "telegramText": "<b>MORNING BRIEF</b> — Mar 4, 2026\n\n<b>MACRO REGIME</b>\n🟢 Regime: <b>Risk-On · Neutral</b>\nCycle: <b>STAGFLATION</b>\nRisk Gauge: ███████████░░░░░░░░░ 52.5/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>PRICES</b>\n• BTC: <b>$68,408</b>\n• ETH: <b>$1,976</b>\n• SOL: <b>$85.63</b>\n• GOLD: <b>$5,100</b>\nSPY: <b>$680.33</b> (-0.8%)\nQQQ: <b>$601.58</b> (-0.9%)\nVIX: <b>23.6</b> (+9.9%)\nTLT: <b>$89.43</b> (-1.5%)\nDXY: <b>99.0</b> (-0.0%)\nOIL: <b>$76.92</b> (+3.2%)\n\nUSDT Dom: <b>7.87%</b> — Normal\n\n\n<b>NOTABLE Z-SCORES</b>\n🟢 30Y Mortgage Rate: -2.07σ\n🔴 IG Credit Spread: +1.84σ\n🔴 WTI Crude Oil: +1.52σ\n🟡 VIX: +1.42σ\n🟡 2s10s Curve: -1.26σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 MU: -8.0%\n🔴 URA: -7.9%\n🔴 COPX: -7.6%\n🔴 AAVE: -6.7%\n🔴 GOLD: -4.5%\n🔴 ASML: -4.4%\n🟢 OIL: +3.8%\n🔴 VST: -2.7%\n🔴 NVDA: -2.3%\n🟢 PLTR: +1.4%\n\n<b>INTEL DIGEST</b>\n<i>Mixed sentiment with a prevailing risk‑off tilt driven by Middle East tensions, but institutional inflows are supporting Bitcoin’s recovery.</i>\n🔴 <b>Middle East Conflict &amp; Oil Price Inflation</b> [OIL, GOLD, SPY, FXI]\n   <i>Escalating Middle East tensions are tightening oil supply expectations and stoking inflation fears, pushing energy price</i>\n🟡 <b>Crypto Institutional Inflows vs ETF Sell Pressure</b> [BTC, ETH, MSTR]\n   <i>Bitcoin and Ethereum are receiving significant institutional buying, yet ETF sell pressure remains strong, creating a tu</i>\n🔴 <b>Asian Equities Slump</b> [FXI]\n   <i>South Korean and broader Asian markets are in a sharp decline amid geopolitical jitters, dragging regional indices lower</i>\n🟡 <b>BitMine Large ETH Purchase</b> [ETH]\n   <i>BitMine’s acquisition of over 50,000 ETH signals confidence in Ethereum’s long‑term value and may support the token’s pr</i>\n\n🟢 OIL: <b>BUY</b> — Supply disruption fears from Middle East tensions are driving oil prices higher.\n🟢 GOLD: <b>BUY</b> — Inflationary pressures and geopolitical risk are pushing investors toward gold a\n\n🔄 <b>Contrarian</b>\n   <i>Bitcoin will rally to $80k as institutional inflows continue to outweigh ETF sell pressure.</i>\n   <i>Oil will decline as supply disruptions resolve and geopolitical tensions ease.</i>\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.47% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 91
+  "panels": [],
+  "telegramText": "<b>AC INTELLIGENCE BRIEF</b> — March 4, 2026\n\n<b>SNAPSHOT</b>\nMixed risk sentiment with stagflation crosscurrents as Middle East tensions drive oil +3.3% while equities sell off. Bitcoin recovering to $68k on institutional inflows despite ETF outflows, while Asian markets crater on Korea's -11% two-day crash. Cross-asset regime transition underway.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 52.5/100 (Elevated)\nRegime: STAGFLATION — oil supply shock meets falling real yields\nKey prices: SPY -0.8% | QQQ -0.9% | VIX +4.3% | TLT -1.5% | DXY +0.1% | OIL +3.3%\nICSA: 212k (trending down, -0.24 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $650-665 (-5%)\nOIL: $85-90 (+15%)\nBTC: $62-66k (-8%)\n\n<b>SCENARIO B</b> — Middle East De-escalation\nSPY: $690-705 (+3%)\nOIL: $70-74 (-7%)\nBTC: $75-80k (+12%)\n\n<b>SCENARIO C</b> — Asian Contagion Spreads\nSPY: $630-650 (-8%)\nVIX: $35-40 (+50%)\nTLT: $95-98 (+8%)\n\n<b>BIG MOVES + DRIVERS</b>\nMDB -22.9% — earnings miss on cloud deceleration\nEWY -12.6% — Korea political crisis deepening\nSLV -12.1% — industrial demand fears amid recession risk\nOIL +3.3% — Middle East supply disruption premium\nVIX +4.3% — geopolitical hedging demand spike\nGLD -3.2% — real yield rise offsetting safe-haven bid\n\n<i>Energy repricing inflation risk while metals diverge on industrial vs monetary demand splits.</i>\n\n<b>POSITIONING</b>\nWhale flows: BTC shorts $90.3M (5 positions, max 40x leverage) vs SOL longs $13.3M. ETH shorts $40.6M single position. Contrarian setup if geopolitical premium fades. Bitcoin ETF outflows $8.9B yet institutional accumulation accelerating per Cathie Wood $16M+ Coinbase/Robinhood buys.\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if Middle East tensions peak. Stagflation regime shift favors commodities over duration but whale positioning suggests crypto oversold. Consider VIX fade if Korean contagion contained.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 92
 }

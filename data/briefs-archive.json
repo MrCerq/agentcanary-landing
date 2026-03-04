@@ -1,5 +1,25 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-04",
+    "time": "08:52 UTC",
+    "headline": "INTELLIGENCE BRIEF — Mar 4, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 52.5/100 · 8 movers",
+    "tags": [
+      {
+        "t": "MEDIUM",
+        "c": "yellow"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [],
+    "telegramMessageId": 92
+  },
+  {
     "session": "morning",
     "date": "2026-03-04",
     "time": "07:15 UTC",
