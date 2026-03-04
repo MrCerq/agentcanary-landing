@@ -16,7 +16,39 @@
         "c": "blue"
       }
     ],
-    "panels": [],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 53
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "MDB",
+            "v": "-22.9%",
+            "c": "red"
+          },
+          {
+            "k": "EWY",
+            "v": "-12.6%",
+            "c": "red"
+          },
+          {
+            "k": "SLV",
+            "v": "-12.1%",
+            "c": "red"
+          },
+          {
+            "k": "WPP",
+            "v": "-11.9%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
     "telegramText": "<b>AC INTELLIGENCE BRIEF</b> — March 4, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with stagflationary undertones as Middle East tensions drive oil +3.4% while equities retreat. Korean crash (-11% in two days) and precious metals dump (-12% silver) signal risk-off, yet Bitcoin holds near $68k on institutional flows. Cross-asset divergence widening.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 52.5/100 (Elevated)\nRegime: TRANSITIONAL STAGFLATION — oil inflation fears meet equity weakness\nSPY: -0.8% | QQQ: -0.9% | VIX: +3.8% | TLT: -1.5% | DXY: +0.03% | OIL: +3.4%\nICSA: 212k (down, -0.24 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>GEOPOLITICAL ESCALATION</b> — Middle East conflict spreads\nOIL: $85-92 (+10-19%)\nSPY: $650-670 (-4 to -1%)\nBTC: $60-65k (-12 to -5%)\n\n<b>INSTITUTIONAL CRYPTO MOMENTUM</b> — ETF flows turn positive\nBTC: $75-82k (+10-21%)\nETH: $4200-4800 (+15-31%)\nSPY: $675-690 (-1 to +1%)\n\n<b>BIG MOVES + DRIVERS</b>\nMDB -22.9% — earnings miss on database growth slowdown\nEWY -12.6% — Korean equity rout on geopolitical proximity fears\nSLV -12.1% — precious metals liquidation amid dollar stability\nOIL +3.4% — Middle East supply disruption premium\nAAVE -6.8% — DeFi rotation into Bitcoin majors\n<i>Risk-off in traditional assets while crypto shows institutional bid divergence.</i>\n\n<b>POSITIONING</b>\nWhale positioning shows heavy crypto shorts: $71.6M BTC short, $101.6M ETH short with -$2.7M PnL. Contrarian signal as institutions accumulate spot. ETF flows mixed with $8.9B Bitcoin ETF outflows offsetting institutional inflows.\n\n<b>IMPLICATION</b>\nTactical opportunity in energy vs equity spread if geopolitical premium sustains. Consider reducing Asia exposure and adding oil inflation hedges. Bitcoin's institutional bid creates asymmetric upside if ETF selling exhausts.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 93
   },
