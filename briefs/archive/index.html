@@ -36,6 +36,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .pill-m{border:1px solid var(--o);color:var(--o);background:rgba(251,146,60,.08)}
 .pill-d{border:1px solid var(--y);color:var(--y);background:var(--y-glow)}
 .pill-e{border:1px solid var(--p);color:var(--p);background:rgba(167,139,250,.08)}
+.pill-i{border:1px solid #60A5FA;color:#60A5FA;background:rgba(96,165,250,.08)}
 .entry-date{font-family:var(--mono);font-size:12px;color:var(--t3);min-width:70px}
 .entry-headline{color:var(--t2);flex:1}
 .entry-arrow{color:var(--t3);font-size:12px}
@@ -70,8 +71,8 @@ footer{max-width:900px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid
 <script>
 var ARCHIVE = [];
 
-var pillClass = {morning:'pill-m',midday:'pill-d',evening:'pill-e'};
-var pillLabel = {morning:'Morning',midday:'Midday',evening:'Evening'};
+var pillClass = {morning:'pill-m',intelligence:'pill-i',midday:'pill-d',evening:'pill-e'};
+var pillLabel = {morning:'Morning',intelligence:'Intelligence',midday:'Midday',evening:'Evening'};
 
 fetch('/data/briefs-archive.json?v='+Date.now()).then(function(r){return r.json()}).then(function(briefs){
   // Group by month
