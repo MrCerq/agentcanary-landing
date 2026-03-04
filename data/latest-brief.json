@@ -1,61 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-03-04",
-  "time": "12:00 UTC",
-  "headline": "BTC $71,130 — IGNITION\n3 whale moves detected",
-  "headlineColor": "#34D399",
-  "desc": "BTC: $71,130 — 1d: IGNITION | 4h: IGNITION · ETH: $2,056 — 1d: DISTRIBUTION | 4h: BULL_REGIME · SOL: $89.78 — 1d: DISTRIBUTION | 4h: BULL_REGIME",
+  "time": "20:00 UTC",
+  "headline": "Markets reflected a tug-of-war between geopolitical risk-off sentiment and ins…",
+  "headlineColor": "#A78BFA",
+  "desc": "MSTR, COIN Rally as Bitcoin Price Climbs Above $73,000 · Freedom Is Paying Off for This Indie ETF · SSR Mining double upgraded to Buy at BofA after Copler mine sale",
   "tags": [
     {
-      "t": "IGNITION",
-      "c": "green"
+      "t": "BEARISH SKEW",
+      "c": "red"
     },
     {
-      "t": "WHALE ALERT",
+      "t": "🇺🇸 University of",
       "c": "blue"
-    },
-    {
-      "t": "ENSO 479% APR",
-      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "IGNITION",
-          "c": "green"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "DISTRIBUTION",
-          "c": "red"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "DISTRIBUTION",
-          "c": "red"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 53
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$57M BTC",
-          "v": "transferred from #Ce",
+          "k": "🇺🇸 University of Michig",
+          "v": "Mar 13",
           "c": "blue"
         },
         {
-          "k": "$139M BTC",
-          "v": "transferred from unk",
+          "k": "🇺🇸 Personal consumption",
+          "v": "Mar 13",
+          "c": "blue"
+        },
+        {
+          "k": "🇺🇸 Personal consumption",
+          "v": "Mar 13",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MIDDAY MARKETS</b> — Mar 4, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$71,130</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,056</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n• SOL: <b>$89.78</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 828 BTC ($56,723,597)\n  <i>transferred from #Ceffu to #Binance</i>\n• 2,060 BTC ($139,481,889)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 77,000 ETH ($152,621,215)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>SCENARIO</b>\n↑ Stagflation\n\n<b>INTEL</b>\n🟡 Crypto Institutional Inflows vs ETF Sell Pressure [BTC, ETH, MSTR]\n🟡 BitMine Large ETH Purchase [ETH]\n🟢 Trump Crypto Legislation Push [BTC, ETH]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 94
+  "telegramText": "<b>EVENING WRAP</b> — Mar 4, 2026\n\n<i>Markets reflected a tug-of-war between geopolitical risk-off sentiment and institutional capital flows, with Middle East tensions supporting oil and gold while crypto saw institutional buying overcome ETF outflows. The stagflation narrative strengthened as energy prices threatened to reignite inflation concerns despite mixed equity performance.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$73,726</b> · ETH: <b>$2,181</b> · SOL: <b>$93.5</b> · GOLD: <b>$5,139</b> · SPY: <b>$686.86</b> (+0.1%) · QQQ: <b>$612.25</b> (+0.7%) · VIX: <b>$20.56</b> (-12.8%) · TLT: <b>$89.29</b> (-0.4%) · DXY: <b>$98.83</b> (-0.2%) · OIL: <b>$74.58</b> (+0.0%)\n\n<b>EVENING NEWS</b>\n🟢 MSTR, COIN Rally as Bitcoin Price Climbs Above $73,000\n🟢 Freedom Is Paying Off for This Indie ETF\n🟢 SSR Mining double upgraded to Buy at BofA after Copler mine sale\n🟢 Dogecoin Pumps as Bitcoin Pops, Reversing Recent DOGE Losing Streak\n🔴 Owner of collapsed Brazilian bank arrested for second time\n🟢 Fed’s Beige Book Shows Weaker Consumer Is Weighing on Sales\n\n<b>SCENARIO SHIFTS</b>\n↑ Stagflation: Oil price rise and inflation fears from Middle East conflict are fueling stagflation.\n\n<b>REGIME CHECK</b>\n🟢 <b>Risk-On · Neutral</b> · STAGFLATION · Gauge: 52.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n🇺🇸 University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 13, 02:00 PM UTC (prev: 56.6)\n🇺🇸 Personal consumption expenditure (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇺🇸 Personal consumption expenditure price index (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇺🇸 Personal income (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.3%)\n🌍 Caixin Services Purchasing Managers Index(Feb) — Mar 13, 02:06 AM UTC (prev: 52.3)\n🇺🇸 Producer Price Index (YoY)(Feb) — Mar 12, 12:30 PM UTC (prev: 2.9%)\n\n<b>CONTRARIAN</b>\n• Bitcoin will rally to $80k as institutional inflows continue to outweigh ETF sell pressure.\n• Oil will decline as supply disruptions resolve and geopolitical tensions ease.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 95
 }

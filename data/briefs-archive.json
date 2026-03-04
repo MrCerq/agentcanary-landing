@@ -1,5 +1,52 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-04",
+    "time": "20:00 UTC",
+    "headline": "Markets reflected a tug-of-war between geopolitical risk-off sentiment and ins…",
+    "headlineColor": "#A78BFA",
+    "desc": "MSTR, COIN Rally as Bitcoin Price Climbs Above $73,000 · Freedom Is Paying Off for This Indie ETF · SSR Mining double upgraded to Buy at BofA after Copler mine sale",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "🇺🇸 University of",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 53
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🇺🇸 University of Michig",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Personal consumption",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Personal consumption",
+            "v": "Mar 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 95
+  },
+  {
     "session": "midday",
     "date": "2026-03-04",
     "time": "12:00 UTC",
