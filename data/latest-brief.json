@@ -1,62 +1,53 @@
 {
-  "session": "evening",
-  "date": "2026-03-03",
-  "time": "20:00 UTC",
-  "headline": "EVENING WRAP — Mar 3, 2026",
-  "headlineColor": "#A78BFA",
-  "desc": "Newsletter and news intelligence digest.",
+  "session": "morning",
+  "date": "2026-03-04",
+  "time": "07:02 UTC",
+  "headline": "Risk-On · Neutral · STAGFLATION\nGauge 52.5/100",
+  "headlineColor": "#FFC53D",
+  "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,514 · ETH: $1,981 · SOL: $85.52 · GOLD: $5,100",
   "tags": [
     {
-      "t": "MIXED",
-      "c": "yellow"
+      "t": "RISK_ON",
+      "c": "green"
     },
     {
-      "t": "🇺🇸 University of",
+      "t": "LOW_STRESS",
       "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "NEWS SENTIMENT",
+      "label": "PRICES",
       "rows": [
         {
-          "k": "Bullish",
-          "v": "2 stories",
-          "c": "green"
+          "k": "BTC",
+          "v": "$68,514",
+          "c": "yellow"
         },
         {
-          "k": "Bearish",
-          "v": "2 stories",
-          "c": "red"
+          "k": "ETH",
+          "v": "$1,981",
+          "c": "yellow"
         },
         {
-          "k": "Neutral",
-          "v": "2 stories",
+          "k": "SOL",
+          "v": "$85.52",
+          "c": "yellow"
+        },
+        {
+          "k": "GOLD",
+          "v": "$5,100",
           "c": "yellow"
         }
       ]
     },
     {
-      "label": "CALENDAR",
-      "rows": [
-        {
-          "k": "🇺🇸 University of Michig",
-          "v": "Mar 13",
-          "c": "blue"
-        },
-        {
-          "k": "🇺🇸 Personal consumption",
-          "v": "Mar 13",
-          "c": "blue"
-        },
-        {
-          "k": "🇺🇸 Personal income (MoM",
-          "v": "Mar 13",
-          "c": "blue"
-        }
-      ]
+      "label": "RISK GAUGE",
+      "gauge": {
+        "value": 52.5
+      }
     }
   ],
-  "telegramText": "<b>EVENING WRAP</b> — Mar 3, 2026\n\n\n<i>Crypto markets are surging on institutional inflows and ETF momentum while oil prices spike amid geopolitical tensions, creating a mixed risk‑on for crypto and risk‑off for equities.</i>\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle: BTC bottom forming signals the end of the four‑year cycle.\n↑ Stagflation: Oil spike combined with inflationary risk.\n↑ Displacement: Iran conflict drives displacement and geopolitical risk.\n\n<b>CONTRARIAN</b>\n• Sell BTC anticipating a correction due to ETF saturation and short‑term volatility.\n• Buy SPY expecting an equity rally if the Fed eases policy amid inflation concerns.\n\n<b>TOMORROW WATCH</b>\n🟢 BTC: Institutional ETF inflows and short liquidation wave support a bullish stance.\n🛡️ OIL: Geopolitical risk and price spike warrant protective exposure.\n\n<b>NEWS FLAGS</b>\n⚠️ <b>FSLR</b> [watch]: ETFs in Focus Post First Solar's Q4 Earnings Miss, Weak Sales View\n⚠️ <b>AMKR</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>KLIC</b> [watch]: FormFactor, Amkor, Kulicke and Soffa, and Entegris Shares Plummet, What You Need To Know\n⚠️ <b>BTC-USD</b> [watch]: Bitcoin is forming a bottom as the 4-year cycle ends: VanEck CEO\n⚠️ <b>BTCUSD</b>: Bitcoin climbs as BTC ETFs post one of the quarter’s biggest inflow days amid Iran volatil\n\n<b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 62.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n🇺🇸 University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 13, 02:00 PM UTC (prev: 56.6)\n🇺🇸 Personal consumption expenditure price index (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇺🇸 Personal income (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.3%)\n🇺🇸 Personal consumption expenditure (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇨🇳 Caixin Services Purchasing Managers Index(Feb) — Mar 13, 02:06 AM UTC (prev: 52.3)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 89
+  "telegramText": "<b>MORNING BRIEF</b> — Mar 4, 2026\n\n<b>MACRO REGIME</b>\n🟢 Regime: <b>Risk-On · Neutral</b>\nCycle: <b>STAGFLATION</b>\nRisk Gauge: ███████████░░░░░░░░░ 52.5/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>PRICES</b>\n• BTC: <b>$68,514</b>\n• ETH: <b>$1,981</b>\n• SOL: <b>$85.52</b>\n• GOLD: <b>$5,100</b>\nSPY: <b>$680.33</b> (-0.8%)\nQQQ: <b>$601.58</b> (-0.9%)\nVIX: <b>23.6</b> (+9.9%)\nTLT: <b>$89.43</b> (-1.5%)\nDXY: <b>99.0</b> (-0.0%)\nOIL: <b>$76.5</b> (+2.6%)\n\nUSDT Dom: <b>7.86%</b> — Normal\n\n\n<b>NOTABLE Z-SCORES</b>\n🟢 30Y Mortgage Rate: -2.07σ\n🔴 IG Credit Spread: +1.84σ\n🔴 WTI Crude Oil: +1.52σ\n🟡 VIX: +1.42σ\n🟡 2s10s Curve: -1.26σ\n\n<b>INTEL DIGEST</b>\n<i>Mixed sentiment with a prevailing risk‑off tilt driven by Middle East tensions, but institutional inflows are supporting Bitcoin’s recovery.</i>\n🔴 <b>Middle East Conflict &amp; Oil Price Inflation</b> [OIL, GOLD, SPY, FXI]\n   <i>Escalating Middle East tensions are tightening oil supply expectations and stoking inflation fears, pushing energy price</i>\n🟡 <b>Crypto Institutional Inflows vs ETF Sell Pressure</b> [BTC, ETH, MSTR]\n   <i>Bitcoin and Ethereum are receiving significant institutional buying, yet ETF sell pressure remains strong, creating a tu</i>\n🔴 <b>Asian Equities Slump</b> [FXI]\n   <i>South Korean and broader Asian markets are in a sharp decline amid geopolitical jitters, dragging regional indices lower</i>\n🟡 <b>BitMine Large ETH Purchase</b> [ETH]\n   <i>BitMine’s acquisition of over 50,000 ETH signals confidence in Ethereum’s long‑term value and may support the token’s pr</i>\n\n🟢 OIL: <b>BUY</b> — Supply disruption fears from Middle East tensions are driving oil prices higher.\n🟢 GOLD: <b>BUY</b> — Inflationary pressures and geopolitical risk are pushing investors toward gold a\n\n🔄 <b>Contrarian</b>\n   <i>Bitcoin will rally to $80k as institutional inflows continue to outweigh ETF sell pressure.</i>\n   <i>Oil will decline as supply disruptions resolve and geopolitical tensions ease.</i>\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.47% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 90
 }
