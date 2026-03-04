@@ -2,10 +2,10 @@
   {
     "session": "morning",
     "date": "2026-03-04",
-    "time": "07:02 UTC",
+    "time": "07:15 UTC",
     "headline": "Risk-On · Neutral · STAGFLATION\nGauge 52.5/100",
     "headlineColor": "#FFC53D",
-    "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,514 · ETH: $1,981 · SOL: $85.52 · GOLD: $5,100",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $68,408 · ETH: $1,976 · SOL: $85.63 · GOLD: $5,100",
     "tags": [
       {
         "t": "RISK_ON",
@@ -22,17 +22,17 @@
         "rows": [
           {
             "k": "BTC",
-            "v": "$68,514",
+            "v": "$68,408",
             "c": "yellow"
           },
           {
             "k": "ETH",
-            "v": "$1,981",
+            "v": "$1,976",
             "c": "yellow"
           },
           {
             "k": "SOL",
-            "v": "$85.52",
+            "v": "$85.63",
             "c": "yellow"
           },
           {
@@ -49,8 +49,8 @@
         }
       }
     ],
-    "telegramText": "<b>MORNING BRIEF</b> — Mar 4, 2026\n\n<b>MACRO REGIME</b>\n🟢 Regime: <b>Risk-On · Neutral</b>\nCycle: <b>STAGFLATION</b>\nRisk Gauge: ███████████░░░░░░░░░ 52.5/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>PRICES</b>\n• BTC: <b>$68,514</b>\n• ETH: <b>$1,981</b>\n• SOL: <b>$85.52</b>\n• GOLD: <b>$5,100</b>\nSPY: <b>$680.33</b> (-0.8%)\nQQQ: <b>$601.58</b> (-0.9%)\nVIX: <b>23.6</b> (+9.9%)\nTLT: <b>$89.43</b> (-1.5%)\nDXY: <b>99.0</b> (-0.0%)\nOIL: <b>$76.5</b> (+2.6%)\n\nUSDT Dom: <b>7.86%</b> — Normal\n\n\n<b>NOTABLE Z-SCORES</b>\n🟢 30Y Mortgage Rate: -2.07σ\n🔴 IG Credit Spread: +1.84σ\n🔴 WTI Crude Oil: +1.52σ\n🟡 VIX: +1.42σ\n🟡 2s10s Curve: -1.26σ\n\n<b>INTEL DIGEST</b>\n<i>Mixed sentiment with a prevailing risk‑off tilt driven by Middle East tensions, but institutional inflows are supporting Bitcoin’s recovery.</i>\n🔴 <b>Middle East Conflict &amp; Oil Price Inflation</b> [OIL, GOLD, SPY, FXI]\n   <i>Escalating Middle East tensions are tightening oil supply expectations and stoking inflation fears, pushing energy price</i>\n🟡 <b>Crypto Institutional Inflows vs ETF Sell Pressure</b> [BTC, ETH, MSTR]\n   <i>Bitcoin and Ethereum are receiving significant institutional buying, yet ETF sell pressure remains strong, creating a tu</i>\n🔴 <b>Asian Equities Slump</b> [FXI]\n   <i>South Korean and broader Asian markets are in a sharp decline amid geopolitical jitters, dragging regional indices lower</i>\n🟡 <b>BitMine Large ETH Purchase</b> [ETH]\n   <i>BitMine’s acquisition of over 50,000 ETH signals confidence in Ethereum’s long‑term value and may support the token’s pr</i>\n\n🟢 OIL: <b>BUY</b> — Supply disruption fears from Middle East tensions are driving oil prices higher.\n🟢 GOLD: <b>BUY</b> — Inflationary pressures and geopolitical risk are pushing investors toward gold a\n\n🔄 <b>Contrarian</b>\n   <i>Bitcoin will rally to $80k as institutional inflows continue to outweigh ETF sell pressure.</i>\n   <i>Oil will decline as supply disruptions resolve and geopolitical tensions ease.</i>\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.47% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 90
+    "telegramText": "<b>MORNING BRIEF</b> — Mar 4, 2026\n\n<b>MACRO REGIME</b>\n🟢 Regime: <b>Risk-On · Neutral</b>\nCycle: <b>STAGFLATION</b>\nRisk Gauge: ███████████░░░░░░░░░ 52.5/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>PRICES</b>\n• BTC: <b>$68,408</b>\n• ETH: <b>$1,976</b>\n• SOL: <b>$85.63</b>\n• GOLD: <b>$5,100</b>\nSPY: <b>$680.33</b> (-0.8%)\nQQQ: <b>$601.58</b> (-0.9%)\nVIX: <b>23.6</b> (+9.9%)\nTLT: <b>$89.43</b> (-1.5%)\nDXY: <b>99.0</b> (-0.0%)\nOIL: <b>$76.92</b> (+3.2%)\n\nUSDT Dom: <b>7.87%</b> — Normal\n\n\n<b>NOTABLE Z-SCORES</b>\n🟢 30Y Mortgage Rate: -2.07σ\n🔴 IG Credit Spread: +1.84σ\n🔴 WTI Crude Oil: +1.52σ\n🟡 VIX: +1.42σ\n🟡 2s10s Curve: -1.26σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 MU: -8.0%\n🔴 URA: -7.9%\n🔴 COPX: -7.6%\n🔴 AAVE: -6.7%\n🔴 GOLD: -4.5%\n🔴 ASML: -4.4%\n🟢 OIL: +3.8%\n🔴 VST: -2.7%\n🔴 NVDA: -2.3%\n🟢 PLTR: +1.4%\n\n<b>INTEL DIGEST</b>\n<i>Mixed sentiment with a prevailing risk‑off tilt driven by Middle East tensions, but institutional inflows are supporting Bitcoin’s recovery.</i>\n🔴 <b>Middle East Conflict &amp; Oil Price Inflation</b> [OIL, GOLD, SPY, FXI]\n   <i>Escalating Middle East tensions are tightening oil supply expectations and stoking inflation fears, pushing energy price</i>\n🟡 <b>Crypto Institutional Inflows vs ETF Sell Pressure</b> [BTC, ETH, MSTR]\n   <i>Bitcoin and Ethereum are receiving significant institutional buying, yet ETF sell pressure remains strong, creating a tu</i>\n🔴 <b>Asian Equities Slump</b> [FXI]\n   <i>South Korean and broader Asian markets are in a sharp decline amid geopolitical jitters, dragging regional indices lower</i>\n🟡 <b>BitMine Large ETH Purchase</b> [ETH]\n   <i>BitMine’s acquisition of over 50,000 ETH signals confidence in Ethereum’s long‑term value and may support the token’s pr</i>\n\n🟢 OIL: <b>BUY</b> — Supply disruption fears from Middle East tensions are driving oil prices higher.\n🟢 GOLD: <b>BUY</b> — Inflationary pressures and geopolitical risk are pushing investors toward gold a\n\n🔄 <b>Contrarian</b>\n   <i>Bitcoin will rally to $80k as institutional inflows continue to outweigh ETF sell pressure.</i>\n   <i>Oil will decline as supply disruptions resolve and geopolitical tensions ease.</i>\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.47% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 91
   },
   {
     "session": "evening",
