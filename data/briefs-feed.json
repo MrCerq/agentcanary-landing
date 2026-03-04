@@ -1,5 +1,66 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-04",
+    "time": "12:00 UTC",
+    "headline": "BTC $71,130 — IGNITION\n3 whale moves detected",
+    "headlineColor": "#34D399",
+    "desc": "BTC: $71,130 — 1d: IGNITION | 4h: IGNITION · ETH: $2,056 — 1d: DISTRIBUTION | 4h: BULL_REGIME · SOL: $89.78 — 1d: DISTRIBUTION | 4h: BULL_REGIME",
+    "tags": [
+      {
+        "t": "IGNITION",
+        "c": "green"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "ENSO 479% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "IGNITION",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$57M BTC",
+            "v": "transferred from #Ce",
+            "c": "blue"
+          },
+          {
+            "k": "$139M BTC",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MIDDAY MARKETS</b> — Mar 4, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$71,130</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,056</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n• SOL: <b>$89.78</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 828 BTC ($56,723,597)\n  <i>transferred from #Ceffu to #Binance</i>\n• 2,060 BTC ($139,481,889)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 77,000 ETH ($152,621,215)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>SCENARIO</b>\n↑ Stagflation\n\n<b>INTEL</b>\n🟡 Crypto Institutional Inflows vs ETF Sell Pressure [BTC, ETH, MSTR]\n🟡 BitMine Large ETH Purchase [ETH]\n🟢 Trump Crypto Legislation Push [BTC, ETH]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 94
+  },
+  {
     "session": "intelligence",
     "date": "2026-03-04",
     "time": "09:00 UTC",

@@ -1,53 +1,61 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-03-04",
-  "time": "09:00 UTC",
-  "headline": "INTELLIGENCE BRIEF — Mar 4, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 52.5/100 · 8 movers",
+  "time": "12:00 UTC",
+  "headline": "BTC $71,130 — IGNITION\n3 whale moves detected",
+  "headlineColor": "#34D399",
+  "desc": "BTC: $71,130 — 1d: IGNITION | 4h: IGNITION · ETH: $2,056 — 1d: DISTRIBUTION | 4h: BULL_REGIME · SOL: $89.78 — 1d: DISTRIBUTION | 4h: BULL_REGIME",
   "tags": [
     {
-      "t": "MEDIUM",
-      "c": "yellow"
+      "t": "IGNITION",
+      "c": "green"
     },
     {
-      "t": "STAGFLATION",
+      "t": "WHALE ALERT",
       "c": "blue"
+    },
+    {
+      "t": "ENSO 479% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 53
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "MDB",
-          "v": "-22.9%",
+          "k": "BTC 1D",
+          "v": "IGNITION",
+          "c": "green"
+        },
+        {
+          "k": "ETH 1D",
+          "v": "DISTRIBUTION",
           "c": "red"
         },
         {
-          "k": "EWY",
-          "v": "-12.6%",
+          "k": "SOL 1D",
+          "v": "DISTRIBUTION",
           "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$57M BTC",
+          "v": "transferred from #Ce",
+          "c": "blue"
         },
         {
-          "k": "SLV",
-          "v": "-12.1%",
-          "c": "red"
-        },
-        {
-          "k": "WPP",
-          "v": "-11.9%",
-          "c": "red"
+          "k": "$139M BTC",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>AC INTELLIGENCE BRIEF</b> — March 4, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with stagflationary undertones as Middle East tensions drive oil +3.4% while equities retreat. Korean crash (-11% in two days) and precious metals dump (-12% silver) signal risk-off, yet Bitcoin holds near $68k on institutional flows. Cross-asset divergence widening.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 52.5/100 (Elevated)\nRegime: TRANSITIONAL STAGFLATION — oil inflation fears meet equity weakness\nSPY: -0.8% | QQQ: -0.9% | VIX: +3.8% | TLT: -1.5% | DXY: +0.03% | OIL: +3.4%\nICSA: 212k (down, -0.24 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>GEOPOLITICAL ESCALATION</b> — Middle East conflict spreads\nOIL: $85-92 (+10-19%)\nSPY: $650-670 (-4 to -1%)\nBTC: $60-65k (-12 to -5%)\n\n<b>INSTITUTIONAL CRYPTO MOMENTUM</b> — ETF flows turn positive\nBTC: $75-82k (+10-21%)\nETH: $4200-4800 (+15-31%)\nSPY: $675-690 (-1 to +1%)\n\n<b>BIG MOVES + DRIVERS</b>\nMDB -22.9% — earnings miss on database growth slowdown\nEWY -12.6% — Korean equity rout on geopolitical proximity fears\nSLV -12.1% — precious metals liquidation amid dollar stability\nOIL +3.4% — Middle East supply disruption premium\nAAVE -6.8% — DeFi rotation into Bitcoin majors\n<i>Risk-off in traditional assets while crypto shows institutional bid divergence.</i>\n\n<b>POSITIONING</b>\nWhale positioning shows heavy crypto shorts: $71.6M BTC short, $101.6M ETH short with -$2.7M PnL. Contrarian signal as institutions accumulate spot. ETF flows mixed with $8.9B Bitcoin ETF outflows offsetting institutional inflows.\n\n<b>IMPLICATION</b>\nTactical opportunity in energy vs equity spread if geopolitical premium sustains. Consider reducing Asia exposure and adding oil inflation hedges. Bitcoin's institutional bid creates asymmetric upside if ETF selling exhausts.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 93
+  "telegramText": "<b>MIDDAY MARKETS</b> — Mar 4, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$71,130</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,056</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n• SOL: <b>$89.78</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 828 BTC ($56,723,597)\n  <i>transferred from #Ceffu to #Binance</i>\n• 2,060 BTC ($139,481,889)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 77,000 ETH ($152,621,215)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>SCENARIO</b>\n↑ Stagflation\n\n<b>INTEL</b>\n🟡 Crypto Institutional Inflows vs ETF Sell Pressure [BTC, ETH, MSTR]\n🟡 BitMine Large ETH Purchase [ETH]\n🟢 Trump Crypto Legislation Push [BTC, ETH]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 94
 }

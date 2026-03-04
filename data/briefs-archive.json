@@ -1,5 +1,65 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-04",
+    "time": "12:00 UTC",
+    "headline": "BTC $71,130 — IGNITION\n3 whale moves detected",
+    "headlineColor": "#34D399",
+    "desc": "BTC: $71,130 — 1d: IGNITION | 4h: IGNITION · ETH: $2,056 — 1d: DISTRIBUTION | 4h: BULL_REGIME · SOL: $89.78 — 1d: DISTRIBUTION | 4h: BULL_REGIME",
+    "tags": [
+      {
+        "t": "IGNITION",
+        "c": "green"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "ENSO 479% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "IGNITION",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$57M BTC",
+            "v": "transferred from #Ce",
+            "c": "blue"
+          },
+          {
+            "k": "$139M BTC",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 94
+  },
+  {
     "session": "intelligence",
     "date": "2026-03-04",
     "time": "09:00 UTC",
