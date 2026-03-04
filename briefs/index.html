@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AgentCanary — Live Market Briefs</title>
-<meta name="description" content="Auto-generated market intelligence briefs, 3× daily. Macro regime, trading signals, whale alerts, and news sentiment — all from live API data.">
+<meta name="description" content="Auto-generated market intelligence briefs, 4× daily. Macro regime, trading signals, whale alerts, and news sentiment — all from live API data.">
 <meta name="keywords" content="market briefs, daily market brief, crypto morning brief, macro regime, trading signals, whale alerts, AI market intelligence">
 <meta property="og:title" content="AgentCanary — Live Market Briefs">
-<meta property="og:description" content="3× daily market intelligence cards. Macro regime, signals, whales, news. Auto-generated from 250+ data sources.">
+<meta property="og:description" content="4× daily market intelligence cards. Macro regime, signals, whales, news. Auto-generated from 250+ data sources.">
 <meta property="og:image" content="https://agentcanary.ai/og-image.png">
 <meta property="og:url" content="https://agentcanary.ai/briefs">
 <meta property="og:type" content="website">
@@ -90,6 +90,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .pill-midday .dot{background:var(--y)}
 .pill-evening{border:1px solid var(--p);color:var(--p);background:rgba(167,139,250,.1)}
 .pill-evening .dot{background:var(--p)}
+.pill-intelligence{border:1px solid #60A5FA;color:#60A5FA;background:rgba(96,165,250,.1)}
+.pill-intelligence .dot{background:#60A5FA}
+.glow-intelligence{right:5%;background:radial-gradient(circle,rgba(96,165,250,.07) 0%,transparent 65%)}
 
 .brief-time{font-family:var(--mono);font-size:11px;color:var(--t3);margin-left:10px}
 .brief-headline{font-size:24px;font-weight:700;letter-spacing:-.8px;line-height:1.2;margin-bottom:10px}
@@ -188,7 +191,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
   <div class="countdown-bar">
     <div class="countdown-left">
       <h1>Live Market Briefs</h1>
-      <p>Auto-generated from 250+ sources · 3× daily · individually shareable</p>
+      <p>Auto-generated from 250+ sources · 4× daily · individually shareable</p>
     </div>
     <div class="countdown-pill">
       <span class="countdown-dot"></span>
@@ -200,6 +203,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
   <div class="filter-tabs">
     <button class="filter-tab active" data-filter="all">All</button>
     <button class="filter-tab" data-filter="morning">Morning</button>
+    <button class="filter-tab" data-filter="intelligence">Intelligence</button>
     <button class="filter-tab" data-filter="midday">Midday</button>
     <button class="filter-tab" data-filter="evening">Evening</button>
   </div>
@@ -225,10 +229,11 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
 var BRIEFS = [];
 
 // ── Rendering ──
-var SESSIONS = {morning:{pill:'pill-morning',glow:'glow-morning'},midday:{pill:'pill-midday',glow:'glow-midday-green'},evening:{pill:'pill-evening',glow:'glow-evening'}};
+var SESSIONS = {morning:{pill:'pill-morning',glow:'glow-morning'},intelligence:{pill:'pill-intelligence',glow:'glow-intelligence'},midday:{pill:'pill-midday',glow:'glow-midday-green'},evening:{pill:'pill-evening',glow:'glow-evening'}};
 
 function glowClass(b){
   if(b.session==='morning') return 'glow-morning';
+  if(b.session==='intelligence') return 'glow-intelligence';
   if(b.session==='evening') return 'glow-evening';
   var hasRed = b.tags.some(function(t){return t.c==='red';});
   return hasRed ? 'glow-midday-red' : 'glow-midday-green';
