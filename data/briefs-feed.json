@@ -1,5 +1,81 @@
 [
   {
+    "session": "cycle",
+    "date": "2026-03-05",
+    "time": "07:31 UTC",
+    "headline": "Cycle: EXPANSION · Metric 971,693 ↓",
+    "headlineColor": "#34d399",
+    "desc": "Credit: LOW (0 flags). IGV $85.65 DOWN. ICSA 212K. (-0.0% WoW)",
+    "tags": [
+      {
+        "t": "EXPANSION",
+        "c": "green"
+      },
+      {
+        "t": "CREDIT LOW",
+        "c": "green"
+      },
+      {
+        "t": "IGV DOWN",
+        "c": "yellow"
+      }
+    ],
+    "panels": [
+      {
+        "label": "CYCLE METRIC",
+        "rows": [
+          {
+            "k": "Composite",
+            "v": "971,693",
+            "c": "green"
+          },
+          {
+            "k": "Unemployment",
+            "v": "4.3%",
+            "c": "green"
+          },
+          {
+            "k": "Fed Funds",
+            "v": "3.64%",
+            "c": "blue"
+          },
+          {
+            "k": "ICSA",
+            "v": "212K",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "CREDIT STRESS",
+        "rows": [
+          {
+            "k": "Level",
+            "v": "LOW",
+            "c": "green"
+          },
+          {
+            "k": "Card delinq.",
+            "v": "2.94%",
+            "c": "green"
+          },
+          {
+            "k": "All loans",
+            "v": "1.48%",
+            "c": "green"
+          },
+          {
+            "k": "IGV",
+            "v": "$86 DOWN",
+            "c": "yellow"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>🟢 WEEKLY BUSINESS CYCLE</b> — Mar 5, 2026\n\n<b>CYCLE METRIC:</b> 971,693 ↓ (-0.0% WoW)\nPhase: <b>EXPANSION</b>\n\n<b>MACRO INPUTS</b>\n• S&P 500: $6,851\n• Unemployment: 4.3%\n• Fed Funds: 3.64%\n• CPI YoY: 2.35%\n• Initial Claims: 212K\n\n<b>CREDIT STRESS: LOW</b>\n✅ No flags\n• Card delinquency: 2.94%\n• Consumer loans: 2.62%\n• All loans: 1.48%\n\n<b>SPECULATIVE APPETITE (IGV)</b>\n$85.65 · +47.7% from golden pocket · Trend: DOWN\n↘️ Growth still out of favor\n\n<b>AI DISPLACEMENT</b>\nInfo sector: 2834K (-9% from peak) · MODERATE\n\nagentcanary.ai | <i>Weekly macro cycle analysis</i>",
+    "telegramMessageId": 97
+  },
+  {
     "session": "morning",
     "date": "2026-03-05",
     "time": "07:03 UTC",

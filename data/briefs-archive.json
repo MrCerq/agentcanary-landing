@@ -1,5 +1,80 @@
 [
   {
+    "session": "cycle",
+    "date": "2026-03-05",
+    "time": "07:31 UTC",
+    "headline": "Cycle: EXPANSION · Metric 971,693 ↓",
+    "headlineColor": "#34d399",
+    "desc": "Credit: LOW (0 flags). IGV $85.65 DOWN. ICSA 212K. (-0.0% WoW)",
+    "tags": [
+      {
+        "t": "EXPANSION",
+        "c": "green"
+      },
+      {
+        "t": "CREDIT LOW",
+        "c": "green"
+      },
+      {
+        "t": "IGV DOWN",
+        "c": "yellow"
+      }
+    ],
+    "panels": [
+      {
+        "label": "CYCLE METRIC",
+        "rows": [
+          {
+            "k": "Composite",
+            "v": "971,693",
+            "c": "green"
+          },
+          {
+            "k": "Unemployment",
+            "v": "4.3%",
+            "c": "green"
+          },
+          {
+            "k": "Fed Funds",
+            "v": "3.64%",
+            "c": "blue"
+          },
+          {
+            "k": "ICSA",
+            "v": "212K",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "CREDIT STRESS",
+        "rows": [
+          {
+            "k": "Level",
+            "v": "LOW",
+            "c": "green"
+          },
+          {
+            "k": "Card delinq.",
+            "v": "2.94%",
+            "c": "green"
+          },
+          {
+            "k": "All loans",
+            "v": "1.48%",
+            "c": "green"
+          },
+          {
+            "k": "IGV",
+            "v": "$86 DOWN",
+            "c": "yellow"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 97
+  },
+  {
     "session": "morning",
     "date": "2026-03-05",
     "time": "07:03 UTC",

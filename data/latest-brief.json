@@ -1,53 +1,76 @@
 {
-  "session": "morning",
+  "session": "cycle",
   "date": "2026-03-05",
-  "time": "07:03 UTC",
-  "headline": "Neutral · Neutral · STAGFLATION\nGauge 59.4/100",
-  "headlineColor": "#FFC53D",
-  "desc": "Growth: ↓ | Inflation: ↑. BTC: $72,561 · ETH: $2,129 · SOL: $90.84 · GOLD: $5,135",
+  "time": "07:31 UTC",
+  "headline": "Cycle: EXPANSION · Metric 971,693 ↓",
+  "headlineColor": "#34d399",
+  "desc": "Credit: LOW (0 flags). IGV $85.65 DOWN. ICSA 212K. (-0.0% WoW)",
   "tags": [
     {
-      "t": "NEUTRAL",
-      "c": "yellow"
+      "t": "EXPANSION",
+      "c": "green"
     },
     {
-      "t": "LOW_STRESS",
-      "c": "blue"
+      "t": "CREDIT LOW",
+      "c": "green"
+    },
+    {
+      "t": "IGV DOWN",
+      "c": "yellow"
     }
   ],
   "panels": [
     {
-      "label": "PRICES",
+      "label": "CYCLE METRIC",
       "rows": [
         {
-          "k": "BTC",
-          "v": "$72,561",
-          "c": "yellow"
+          "k": "Composite",
+          "v": "971,693",
+          "c": "green"
         },
         {
-          "k": "ETH",
-          "v": "$2,129",
-          "c": "yellow"
+          "k": "Unemployment",
+          "v": "4.3%",
+          "c": "green"
         },
         {
-          "k": "SOL",
-          "v": "$90.84",
-          "c": "yellow"
+          "k": "Fed Funds",
+          "v": "3.64%",
+          "c": "blue"
         },
         {
-          "k": "GOLD",
-          "v": "$5,135",
-          "c": "yellow"
+          "k": "ICSA",
+          "v": "212K",
+          "c": "green"
         }
       ]
     },
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 59.4
-      }
+      "label": "CREDIT STRESS",
+      "rows": [
+        {
+          "k": "Level",
+          "v": "LOW",
+          "c": "green"
+        },
+        {
+          "k": "Card delinq.",
+          "v": "2.94%",
+          "c": "green"
+        },
+        {
+          "k": "All loans",
+          "v": "1.48%",
+          "c": "green"
+        },
+        {
+          "k": "IGV",
+          "v": "$86 DOWN",
+          "c": "yellow"
+        }
+      ]
     }
   ],
-  "telegramText": "<b>MORNING BRIEF</b> — Mar 5, 2026\n\n<b>MACRO REGIME</b>\n🟡 Regime: <b>Neutral · Neutral</b>\nCycle: <b>STAGFLATION</b>\nRisk Gauge: ████████████░░░░░░░░ 59.4/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>PRICES</b>\n• BTC: <b>$72,561</b>\n• ETH: <b>$2,129</b>\n• SOL: <b>$90.84</b>\n• GOLD: <b>$5,135</b>\nSPY: <b>$685.13</b> (-0.2%)\nQQQ: <b>$610.75</b> (+0.4%)\nVIX: <b>21.1</b> (-10.3%)\nTLT: <b>$89.15</b> (-0.5%)\nDXY: <b>99.0</b> (+0.3%)\nOIL: <b>$76.66</b> (+2.7%)\n\nUSDT Dom: <b>7.50%</b> — Normal\n\n\n<b>NOTABLE Z-SCORES</b>\n🔴 WTI Crude Oil: +3.02σ\n🔴 VIX: +2.38σ\n🟢 30Y Mortgage Rate: -2.07σ\n🔴 HY Credit Spread: +1.63σ\n🟢 2s10s Curve: -1.60σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🟢 ETH: +7.6%\n🟢 SOL: +6.3%\n🟢 BTC: +6.0%\n🟢 AMZN: +3.9%\n🟢 TSLA: +3.2%\n🟢 GOLD: +0.7%\n🟢 VIX: +0.7%\n🔴 NVDA: -0.7%\n🟢 SILVER: +0.6%\n\n<b>INTEL DIGEST</b>\n<i>Risk‑on sentiment dominates as institutional crypto inflows surge amid geopolitical tensions, but oil supply shocks and a potential Chinese slowdown inject volatility.</i>\n🟢 <b>Bitcoin ETF Inflows &amp; Rally</b> [BTC, ETH, SOL]\n   <i>Bitcoin tops $72,000 as spot ETF inflows hit $155 M, matching gold’s 15‑year cumulative flows in under two years, signal</i>\n🔴 <b>Oil Supply Disruption from Iran Conflict</b> [OIL, GOLD]\n   <i>Iran’s escalation forces diesel and gasoline export suspensions, pushing oil prices higher and creating a supply shock t</i>\n🔴 <b>Crypto Regulatory Pushback</b> [BTC, ETH, SOL]\n   <i>Kraken’s Fed master account sparks bank backlash, raising regulatory uncertainty and potential volatility for crypto ass</i>\n🟢 <b>AI Big Tech Energy Pledge</b> [NVDA, PLTR]\n   <i>Amazon, Google, Meta, Microsoft, OpenAI, Oracle, and xAI commit to fund electricity supply and grid upgrades to meet AI </i>\n\n🟢 BTC: <b>BUY</b> — Strong institutional inflows and ETF momentum support a bullish stance.\n🔴 OIL: <b>SELL</b> — Supply shock and price volatility suggest a short‑term downside.\n🟢 NVDA: <b>BUY</b> — AI energy pledge and positive tech sentiment boost valuation.\n\n🔄 <b>Contrarian</b>\n   <i>Sell BTC now despite the rally, anticipating a pullback due to fragile demand and potential regulato</i>\n   <i>Buy OIL, betting on long‑term supply constraints from the Iran conflict.</i>\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.51% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 96
+  "telegramText": "<b>🟢 WEEKLY BUSINESS CYCLE</b> — Mar 5, 2026\n\n<b>CYCLE METRIC:</b> 971,693 ↓ (-0.0% WoW)\nPhase: <b>EXPANSION</b>\n\n<b>MACRO INPUTS</b>\n• S&P 500: $6,851\n• Unemployment: 4.3%\n• Fed Funds: 3.64%\n• CPI YoY: 2.35%\n• Initial Claims: 212K\n\n<b>CREDIT STRESS: LOW</b>\n✅ No flags\n• Card delinquency: 2.94%\n• Consumer loans: 2.62%\n• All loans: 1.48%\n\n<b>SPECULATIVE APPETITE (IGV)</b>\n$85.65 · +47.7% from golden pocket · Trend: DOWN\n↘️ Growth still out of favor\n\n<b>AI DISPLACEMENT</b>\nInfo sector: 2834K (-9% from peak) · MODERATE\n\nagentcanary.ai | <i>Weekly macro cycle analysis</i>",
+  "telegramMessageId": 97
 }
