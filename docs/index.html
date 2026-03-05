@@ -19,13 +19,17 @@
     min-height: 100vh;
   }
   .nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     display: flex; align-items: center; justify-content: space-between;
-    padding: 1.2rem 2rem; border-bottom: 1px solid #1a1a1a;
+    padding: 14px 40px; background: rgba(10,10,10,.88);
+    backdrop-filter: blur(24px); border-bottom: 1px solid #1a1a1a;
   }
-  .nav a { color: #e0e0e0; text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+  .nav a { color: #e0e0e0; text-decoration: none; font-size: 14px; transition: color .2s; }
+  .nav a:first-child { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 17px; letter-spacing: -.5px; }
   .nav a:hover { color: #f5c518; }
+  .nav div { display: flex; gap: 24px; align-items: center; }
   .container {
-    max-width: 900px; margin: 0 auto; padding: 3rem 2rem;
+    max-width: 900px; margin: 0 auto; padding: 100px 2rem 3rem;
   }
   h1 {
     font-family: 'JetBrains Mono', monospace;
