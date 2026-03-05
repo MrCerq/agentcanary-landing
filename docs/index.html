@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>API Documentation — AgentCanary</title>
+<meta name="description" content="AgentCanary API documentation. 130+ endpoints across 4 layers: raw data, signals, composites, and AI-powered intelligence.">
+<meta property="og:title" content="AgentCanary API Documentation">
+<meta property="og:description" content="130+ endpoints. Macro regime, DeFi P/E ratios, whale alerts, narrative crowding, and more.">
+<meta property="og:image" content="https://agentcanary.ai/og-image.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Instrument Sans', -apple-system, sans-serif;
+    background: #0a0a0a; color: #e0e0e0;
+    min-height: 100vh;
+  }
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.2rem 2rem; border-bottom: 1px solid #1a1a1a;
+  }
+  .nav a { color: #e0e0e0; text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+  .nav a:hover { color: #f5c518; }
+  .container {
+    max-width: 900px; margin: 0 auto; padding: 3rem 2rem;
+  }
+  h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2.2rem; margin-bottom: 0.5rem; color: #fff;
+  }
+  .subtitle { color: #888; font-size: 1.1rem; margin-bottom: 3rem; }
+  .section { margin-bottom: 3rem; }
+  h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.3rem; color: #f5c518; margin-bottom: 1rem;
+    padding-bottom: 0.5rem; border-bottom: 1px solid #222;
+  }
+  .endpoint-grid {
+    display: grid; gap: 0.8rem;
+  }
+  .endpoint {
+    background: #111; border: 1px solid #1a1a1a; border-radius: 8px;
+    padding: 1rem 1.2rem; display: flex; align-items: center; gap: 1rem;
+  }
+  .endpoint:hover { border-color: #333; }
+  .method {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.75rem;
+    font-weight: 700; padding: 0.25rem 0.5rem; border-radius: 4px;
+    min-width: 40px; text-align: center;
+  }
+  .method.get { background: #1a3a2a; color: #4ade80; }
+  .method.post { background: #3a2a1a; color: #fbbf24; }
+  .path {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.9rem; color: #ccc;
+  }
+  .desc { color: #777; font-size: 0.85rem; margin-left: auto; }
+  .auth-note {
+    background: #1a1a0a; border: 1px solid #333; border-radius: 8px;
+    padding: 1.2rem; margin-bottom: 2rem; font-size: 0.95rem;
+  }
+  .auth-note code {
+    font-family: 'JetBrains Mono', monospace; background: #222;
+    padding: 0.15rem 0.4rem; border-radius: 3px; font-size: 0.85rem;
+  }
+  .quick-start {
+    background: #0d1117; border: 1px solid #1a1a1a; border-radius: 8px;
+    padding: 1.5rem; margin-bottom: 2rem;
+  }
+  .quick-start pre {
+    font-family: 'JetBrains Mono', monospace; font-size: 0.85rem;
+    color: #4ade80; overflow-x: auto; line-height: 1.6;
+  }
+  .tier-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }
+  .tier {
+    background: #111; border: 1px solid #1a1a1a; border-radius: 8px;
+    padding: 1.2rem; text-align: center;
+  }
+  .tier h3 { font-size: 1rem; color: #fff; margin-bottom: 0.3rem; }
+  .tier .price { font-family: 'JetBrains Mono', monospace; font-size: 1.5rem; color: #f5c518; margin-bottom: 0.5rem; }
+  .tier .features { color: #888; font-size: 0.85rem; line-height: 1.6; }
+  .coming-soon {
+    background: #1a1a0a; border: 1px dashed #f5c518; border-radius: 8px;
+    padding: 2rem; text-align: center; margin: 2rem 0;
+  }
+  .coming-soon h3 { color: #f5c518; margin-bottom: 0.5rem; }
+  .coming-soon p { color: #888; }
+  .badge {
+    display: inline-block; font-size: 0.7rem; font-weight: 600;
+    padding: 0.15rem 0.4rem; border-radius: 3px; margin-left: 0.5rem;
+  }
+  .badge.free { background: #1a3a2a; color: #4ade80; }
+  .badge.pro { background: #1a2a3a; color: #60a5fa; }
+  .badge.enterprise { background: #3a1a2a; color: #f472b6; }
+  .footer { text-align: center; padding: 3rem; color: #555; font-size: 0.85rem; }
+  .footer a { color: #f5c518; text-decoration: none; }
+  @media (max-width: 768px) {
+    .tier-grid { grid-template-columns: 1fr; }
+    .desc { display: none; }
+    h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/">🐤 AgentCanary</a>
+  <div style="display:flex;gap:1.5rem;">
+    <a href="/briefs">Briefs</a>
+    <a href="/docs" style="color:#f5c518;">Docs</a>
+    <a href="https://t.me/agentcanary" target="_blank">Telegram</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>API Documentation</h1>
+  <p class="subtitle">130+ endpoints · 4 layers · Real-time market intelligence</p>
+
+  <div class="auth-note">
+    <strong>Authentication:</strong> All paid endpoints require an <code>X-API-Key</code> header.
+    Create a key via <code>POST /api/keys/create</code> with your wallet address.
+    Briefs are free — no key required on the Telegram channel.
+  </div>
+
+  <div class="quick-start">
+    <pre># Get your API key
+curl -X POST https://api.agentcanary.ai/api/keys/create \
+  -H "Content-Type: application/json" \
+  -d '{"walletAddress": "0xYOUR_WALLET"}'
+
+# Check macro regime
+curl -H "X-API-Key: YOUR_KEY" \
+  https://api.agentcanary.ai/api/macro/regime
+
+# DeFi P/E ratios (unique to AgentCanary)
+curl -H "X-API-Key: YOUR_KEY" \
+  https://api.agentcanary.ai/api/defi/pe-ratios</pre>
+  </div>
+
+  <div class="tier-grid">
+    <div class="tier">
+      <h3>Free</h3>
+      <div class="price">$0</div>
+      <div class="features">Telegram briefs<br>3x daily<br>No signup</div>
+    </div>
+    <div class="tier">
+      <h3>Pro</h3>
+      <div class="price">$49/mo</div>
+      <div class="features">Indicators · Scenarios<br>Macro · DeFi · Signals<br>All Layer 1-3 data</div>
+    </div>
+    <div class="tier">
+      <h3>Enterprise</h3>
+      <div class="price">$199/mo</div>
+      <div class="features">Everything in Pro<br>Narratives · MR Scanner<br>Ticker-matched news</div>
+    </div>
+  </div>
+
+  <!-- LAYER 3: MACRO -->
+  <div class="section">
+    <h2>Macro & Regime</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/regime</span><span class="desc">Current regime + risk gauge</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/snapshot</span><span class="desc">Full macro snapshot</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/risk-score</span><span class="desc">Composite risk score (0-100)</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/business-cycle</span><span class="desc">Business cycle + ICSA + credit</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/signals</span><span class="desc">Active macro signals</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/global-liquidity</span><span class="desc">Fed + ECB + BOJ balance sheets</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/us-m2</span><span class="desc">US M2 money supply + YoY</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/central-banks</span><span class="desc">Policy rates + implied cuts</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/supply-chain</span><span class="desc">Supply chain stress composite</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/macro/calendar-high-impact</span><span class="desc">High-impact economic events</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <!-- SCENARIOS -->
+  <div class="section">
+    <h2>Scenarios</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/scenarios/current</span><span class="desc">6 scenario probabilities</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/scenarios/{id}</span><span class="desc">Single scenario detail</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/scenarios/history</span><span class="desc">Probability history</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/scenarios/signals</span><span class="desc">Scenario shift alerts</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <!-- DEFI -->
+  <div class="section">
+    <h2>DeFi Intelligence</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/pe-ratios</span><span class="desc">Protocol P/E ratios (unique)</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/pe-ratios/{tier}</span><span class="desc">Filter: undervalued/fair/growth</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/yields</span><span class="desc">Filtered yield opportunities</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/yields/stable</span><span class="desc">Best stablecoin yields</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/perps</span><span class="desc">Funding rates + sentiment</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/stablecoins</span><span class="desc">Stablecoin supply tracker</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/chains</span><span class="desc">Chain TVL (11 chains)</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/unlocks</span><span class="desc">Token unlock calendar (30d)</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/signals</span><span class="desc">Composite DeFi alerts</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/defi/intelligence</span><span class="desc">Full daily DeFi snapshot</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <!-- INDICATORS -->
+  <div class="section">
+    <h2>Indicators</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/indicators</span><span class="desc">All 35 indicators</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/indicators/summary</span><span class="desc">Summary with signals</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/indicators/{name}</span><span class="desc">Single indicator</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/indicators/{name}/history</span><span class="desc">Historical values</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <!-- SIGNALS -->
+  <div class="section">
+    <h2>Signals</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/attention</span><span class="desc">Wikipedia attention spikes</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/attention/{ticker}</span><span class="desc">Per-ticker attention</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/correlations</span><span class="desc">Cross-asset correlation breaks</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/insider-trades</span><span class="desc">SEC Form 4 filings</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/btc-orderbook</span><span class="desc">BTC walls + liquidity</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/market-structure</span><span class="desc">BTC market structure</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/treasury-rankings</span><span class="desc">Corporate BTC holdings</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/signal-stats</span><span class="desc">Signal distribution</span><span class="badge pro">PRO</span></div>
+    </div>
+    <p style="color:#555;font-size:0.85rem;margin-top:0.8rem;">+ 20 more signal endpoints (VIX, DXY, yield curve, fear/greed, whale positions, funding rates, CAPE, etc.)</p>
+  </div>
+
+  <!-- NEWS -->
+  <div class="section">
+    <h2>News & Intelligence</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/trending</span><span class="desc">Trending news articles</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/stats</span><span class="desc">Sentiment breakdown</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/market-analysis</span><span class="desc">AI market analysis</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/predictions/markets</span><span class="desc">Polymarket financial bets</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <!-- NARRATIVES -->
+  <div class="section">
+    <h2>Narratives & MR Scanner</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/narratives</span><span class="desc">18 narrative crowding scores</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/narratives/{name}</span><span class="desc">Single narrative detail</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/trades</span><span class="desc">Mean reversion signals</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/stats</span><span class="desc">MR scanner statistics</span><span class="badge enterprise">ENT</span></div>
+    </div>
+  </div>
+
+  <!-- DATA -->
+  <div class="section">
+    <h2>Raw Data</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data</span><span class="desc">List all cached datasets</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/{name}</span><span class="desc">Specific dataset</span><span class="badge pro">PRO</span></div>
+    </div>
+    <p style="color:#555;font-size:0.85rem;margin-top:0.8rem;">28 raw datasets including Yahoo quotes, crypto prices, macro snapshots, Google Trends, and more.</p>
+  </div>
+
+  <!-- DASHBOARD COMING SOON -->
+  <div class="coming-soon">
+    <h3>📊 Interactive Dashboard — Coming Soon</h3>
+    <p>Visual explorer for all endpoints. Charts, scenario tracking, regime heatmaps.<br>
+    Join the <a href="https://t.me/agentcanary" style="color:#f5c518;">Telegram channel</a> for launch updates.</p>
+  </div>
+
+  <!-- OPENAPI -->
+  <div class="section">
+    <h2>Full Specification</h2>
+    <p style="color:#888;line-height:1.8;">
+      Complete OpenAPI 3.1 spec with all 81 proprietary endpoints + 50 proxy endpoints:<br>
+      <a href="https://github.com/MrCerq/agentcanary-backend/blob/main/docs/openapi.yaml" target="_blank" style="color:#f5c518;">
+        📄 openapi.yaml on GitHub
+      </a><br>
+      <a href="https://github.com/MrCerq/agentcanary-backend/blob/main/docs/API.md" target="_blank" style="color:#f5c518;">
+        📖 Full API.md documentation
+      </a><br>
+      <a href="https://github.com/MrCerq/agentcanary-backend/blob/main/docs/ARCHITECTURE.md" target="_blank" style="color:#f5c518;">
+        🏗️ Architecture overview
+      </a>
+    </p>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="/">AgentCanary</a> · <a href="/briefs">Briefs</a> · <a href="https://t.me/agentcanary">Telegram</a> · <a href="https://x.com/agentcanaryHQ">X</a>
+</div>
+
+</body>
+</html>
