@@ -93,6 +93,9 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .pill-intelligence{border:1px solid #60A5FA;color:#60A5FA;background:rgba(96,165,250,.1)}
 .pill-intelligence .dot{background:#60A5FA}
 .glow-intelligence{right:5%;background:radial-gradient(circle,rgba(96,165,250,.07) 0%,transparent 65%)}
+.pill-cycle{border:1px solid #34d399;color:#34d399;background:rgba(52,211,153,.1)}
+.pill-cycle .dot{background:#34d399}
+.glow-cycle{right:5%;background:radial-gradient(circle,rgba(52,211,153,.07) 0%,transparent 65%)}
 
 .brief-time{font-family:var(--mono);font-size:11px;color:var(--t3);margin-left:10px}
 .brief-headline{font-size:24px;font-weight:700;letter-spacing:-.8px;line-height:1.2;margin-bottom:10px}
@@ -206,6 +209,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
     <button class="filter-tab" data-filter="intelligence">Intelligence</button>
     <button class="filter-tab" data-filter="midday">Midday</button>
     <button class="filter-tab" data-filter="evening">Evening</button>
+    <button class="filter-tab" data-filter="cycle">Cycle</button>
   </div>
 
   <!-- Feed -->
@@ -229,12 +233,13 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
 var BRIEFS = [];
 
 // ── Rendering ──
-var SESSIONS = {morning:{pill:'pill-morning',glow:'glow-morning'},intelligence:{pill:'pill-intelligence',glow:'glow-intelligence'},midday:{pill:'pill-midday',glow:'glow-midday-green'},evening:{pill:'pill-evening',glow:'glow-evening'}};
+var SESSIONS = {morning:{pill:'pill-morning',glow:'glow-morning'},intelligence:{pill:'pill-intelligence',glow:'glow-intelligence'},midday:{pill:'pill-midday',glow:'glow-midday-green'},evening:{pill:'pill-evening',glow:'glow-evening'},cycle:{pill:'pill-cycle',glow:'glow-cycle'}};
 
 function glowClass(b){
   if(b.session==='morning') return 'glow-morning';
   if(b.session==='intelligence') return 'glow-intelligence';
   if(b.session==='evening') return 'glow-evening';
+  if(b.session==='cycle') return 'glow-cycle';
   var hasRed = b.tags.some(function(t){return t.c==='red';});
   return hasRed ? 'glow-midday-red' : 'glow-midday-green';
 }
