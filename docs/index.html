@@ -157,6 +157,17 @@ curl -H "X-API-Key: YOUR_KEY" \
     </div>
   </div>
 
+  <!-- BRIEFS (FREE) -->
+  <div class="section">
+    <h2>Briefs <span class="badge free">FREE</span></h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/briefs/latest</span><span class="desc">Latest intelligence brief</span><span class="badge free">FREE</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/briefs/{type}</span><span class="desc">Brief by type (morning/midday/evening)</span><span class="badge free">FREE</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/briefs/feed</span><span class="desc">Rolling 7-day brief feed</span><span class="badge free">FREE</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/briefs/archive</span><span class="desc">Full brief archive</span><span class="badge free">FREE</span></div>
+    </div>
+  </div>
+
   <!-- LAYER 3: MACRO -->
   <div class="section">
     <h2>Macro & Regime</h2>
@@ -226,7 +237,29 @@ curl -H "X-API-Key: YOUR_KEY" \
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/treasury-rankings</span><span class="desc">Corporate BTC holdings</span><span class="badge pro">PRO</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/signal-stats</span><span class="desc">Signal distribution</span><span class="badge pro">PRO</span></div>
     </div>
-    <p style="color:#555;font-size:0.85rem;margin-top:0.8rem;">+ 20 more signal endpoints (VIX, DXY, yield curve, fear/greed, whale positions, funding rates, CAPE, etc.)</p>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/vix</span><span class="desc">VIX level + z-score</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/dxy</span><span class="desc">Dollar index</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/oil</span><span class="desc">Oil price + regime</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/yield-curve</span><span class="desc">Yield curve spread</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/fear-greed</span><span class="desc">Crypto Fear &amp; Greed</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/funding-rates</span><span class="desc">CEX perpetual funding</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/whale-positions</span><span class="desc">Hyperliquid whale tracker</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/btc-etf-flows</span><span class="desc">BTC ETF flow streaks</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/cape-ratio</span><span class="desc">Shiller CAPE ratio</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/hindenburg-omen</span><span class="desc">Hindenburg Omen detector</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/icsa</span><span class="desc">Initial jobless claims</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/credit-stress</span><span class="desc">Credit spread stress</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/dispersion</span><span class="desc">Market dispersion regime</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/sector-rotation</span><span class="desc">Sector rotation signals</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/sector/{ticker}</span><span class="desc">Single sector detail</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/stablecoin-dominance</span><span class="desc">USDT dominance signal</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/bofa-fms</span><span class="desc">BofA Fund Manager Survey</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/bofa-crowded</span><span class="desc">Most crowded trades</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/cftc-cot</span><span class="desc">CFTC positioning data</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/geopolitical-risk</span><span class="desc">Geopolitical risk index</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/insider-activity</span><span class="desc">Insider buy/sell ratio</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/treasury-concentration</span><span class="desc">Treasury concentration</span><span class="badge pro">PRO</span></div>
+    </div>
   </div>
 
   <!-- NEWS -->
@@ -236,6 +269,9 @@ curl -H "X-API-Key: YOUR_KEY" \
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/trending</span><span class="desc">Trending news articles</span><span class="badge enterprise">ENT</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/stats</span><span class="desc">Sentiment breakdown</span><span class="badge enterprise">ENT</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/market-analysis</span><span class="desc">AI market analysis</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/xtg-analysis</span><span class="desc">Telegram channel intel</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news</span><span class="desc">Ticker-matched news</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/movers</span><span class="desc">News driving price moves</span><span class="badge enterprise">ENT</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/predictions/markets</span><span class="desc">Polymarket financial bets</span><span class="badge pro">PRO</span></div>
     </div>
   </div>
@@ -247,6 +283,7 @@ curl -H "X-API-Key: YOUR_KEY" \
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/narratives</span><span class="desc">18 narrative crowding scores</span><span class="badge enterprise">ENT</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/narratives/{name}</span><span class="desc">Single narrative detail</span><span class="badge enterprise">ENT</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/trades</span><span class="desc">Mean reversion signals</span><span class="badge enterprise">ENT</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/signals</span><span class="desc">MR active signals</span><span class="badge enterprise">ENT</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/stats</span><span class="desc">MR scanner statistics</span><span class="badge enterprise">ENT</span></div>
     </div>
   </div>
@@ -259,6 +296,32 @@ curl -H "X-API-Key: YOUR_KEY" \
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/{name}</span><span class="desc">Specific dataset</span><span class="badge pro">PRO</span></div>
     </div>
     <p style="color:#555;font-size:0.85rem;margin-top:0.8rem;">28 raw datasets including Yahoo quotes, crypto prices, macro snapshots, Google Trends, and more.</p>
+  </div>
+
+  <!-- CRYPTO -->
+  <div class="section">
+    <h2>Crypto</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/crypto/reentry</span><span class="desc">9-factor crypto re-entry score</span><span class="badge enterprise">ENT</span></div>
+    </div>
+  </div>
+
+  <!-- KEYS -->
+  <div class="section">
+    <h2>API Keys</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method post">POST</span><span class="path">/api/keys/create</span><span class="desc">Create API key (wallet required)</span></div>
+      <div class="endpoint"><span class="method post">POST</span><span class="path">/api/keys/rotate</span><span class="desc">Rotate existing key</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/keys/info</span><span class="desc">Key tier, credits, deposit address</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/keys/balance</span><span class="desc">Credit balance</span></div>
+    </div>
+  </div>
+
+  <!-- QL PROXY -->
+  <div class="section">
+    <h2>Market Data (QL Proxy)</h2>
+    <p style="color:#888;font-size:0.9rem;margin-bottom:1rem;">50 real-time endpoints proxied from QuantumLabs — prices, whale alerts, funding arbitrage, order book depth, newsletters, economic calendar, and more.</p>
+    <p style="color:#555;font-size:0.85rem;">Full list available in the OpenAPI spec. Email <a href="mailto:friedel@agentcanary.ai" style="color:#f5c518;">friedel@agentcanary.ai</a> for access.</p>
   </div>
 
   <!-- DASHBOARD COMING SOON -->
