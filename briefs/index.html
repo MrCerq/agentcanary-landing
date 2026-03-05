@@ -245,7 +245,7 @@ function glowClass(b){
 }
 
 function renderCard(b){
-  var s = SESSIONS[b.session];
+  var s = SESSIONS[b.session] || {pill:'pill-morning',glow:'glow-morning'};
   var permalink = '/briefs#'+b.session+'-'+b.date;
   var shareUrl = 'https://agentcanary.ai'+permalink;
   var shareText = encodeURIComponent(b.shareText || b.headline.replace('\n',' ')+'\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai');
