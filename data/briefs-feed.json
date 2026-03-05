@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-05",
+    "time": "09:00 UTC",
+    "headline": "INTELLIGENCE BRIEF — Mar 5, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 59.4/100 · 8 movers",
+    "tags": [
+      {
+        "t": "MEDIUM",
+        "c": "yellow"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 59
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "GEMI",
+            "v": "+32.8%",
+            "c": "green"
+          },
+          {
+            "k": "GLXY",
+            "v": "+17.9%",
+            "c": "green"
+          },
+          {
+            "k": "MRNA",
+            "v": "+16.1%",
+            "c": "green"
+          },
+          {
+            "k": "COIN",
+            "v": "+14.5%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>INTELLIGENCE BRIEF</b> — March 5, 2026\n\n<b>SNAPSHOT</b>\nRisk-on sentiment dominates despite stagflationary pressures as Bitcoin hits $72K on massive ETF inflows while Iran conflict drives oil supply shock. Cross-asset divergence widening — crypto/equities bid, commodities mixed, bonds selling off on duration risk.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 59.4/100 (Elevated)\nRegime: STAGFLATION — oil supply disruption meets persistent inflation\nSPY: -0.2% | QQQ: +0.4% | VIX: +4.6% | TLT: -0.5% | DXY: +0.3% | OIL: +3.3%\nICSA: 212K (trending down, labor market stable)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Late Cycle Rally\nBTC: $75-80K (+3-10%)\nETH: $2.3-2.5K (+8-17%)\nSPY: $700-730 (+2-7%)\n\n<b>SCENARIO B</b> — Supply Shock Stagflation\nOIL: $85-95 (+10-23%)\nBTC: $65-70K (-10-4%)\nTLT: $85-87 (-5-2%)\n\n<b>SCENARIO C</b> — China Slowdown Contagion\nSPY: $620-650 (-9-5%)\nBTC: $62-68K (-15-6%)\nDXY: $102-105 (+3-6%)\n\n<b>SECTOR STRENGTH</b>\n1. Consumer Disc (XLY +0.8%) — strong\n2. Comm Services (XLC +0.8%) — bid  \n3. Financials (XLF +0.4%) — rotating\n4. Materials (XLB -2.5%) — dump\n5. Uranium (URA -6.5%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nGEMI $8.64 (+32.8%) — Rosenblatt maintains Buy despite lowered PT to $11.50\nGLXY $24.33 (+17.9%) — Canada delisting announcement plus Bitcoin surge\nCOIN $208.76 (+14.5%) — Trump family 11K-miner expansion, crypto policy tailwinds\nETH $2129 (+7.6%) — completed -64% ABC correction, $169M ETF inflows\nDOGE $0.096 (+8.0%) — Bitcoin rally spillover lifting altcoin ecosystem\n<i>Crypto leadership broadening as institutional flows validate digital asset allocation thesis amid traditional commodity rotation.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$125M (8-day inflow streak) — institutional FOMO accelerating\nWhale positioning: ETH heavily shorted ($100M short vs no longs), BTC mixed ($98M long/$40M short)\nContrarian fade: Large ETH short squeeze setup if rally sustains\n\n<b>IMPLICATION</b>\nTactical long crypto vs energy beta if geopolitical premium fades — BTC/oil spread attractive with 8-day ETF streak vs supply-driven oil spike. Hedge duration risk in fixed income as stagflation regime confirms.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 98
+  },
+  {
     "session": "cycle",
     "date": "2026-03-05",
     "time": "07:31 UTC",

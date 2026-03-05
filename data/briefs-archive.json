@@ -1,5 +1,57 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-05",
+    "time": "09:00 UTC",
+    "headline": "INTELLIGENCE BRIEF — Mar 5, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 59.4/100 · 8 movers",
+    "tags": [
+      {
+        "t": "MEDIUM",
+        "c": "yellow"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 59
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "GEMI",
+            "v": "+32.8%",
+            "c": "green"
+          },
+          {
+            "k": "GLXY",
+            "v": "+17.9%",
+            "c": "green"
+          },
+          {
+            "k": "MRNA",
+            "v": "+16.1%",
+            "c": "green"
+          },
+          {
+            "k": "COIN",
+            "v": "+14.5%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 98
+  },
+  {
     "session": "cycle",
     "date": "2026-03-05",
     "time": "07:31 UTC",
