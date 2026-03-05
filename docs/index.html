@@ -317,11 +317,68 @@ curl -H "X-API-Key: YOUR_KEY" \
     </div>
   </div>
 
-  <!-- REAL-TIME DATA -->
+  <!-- REAL-TIME MARKET DATA -->
   <div class="section">
     <h2>Real-Time Market Data</h2>
-    <p style="color:#888;font-size:0.9rem;margin-bottom:1rem;">50 additional endpoints for live prices across 1,181 assets, whale alerts, funding arbitrage, order book depth, exchange volumes, newsletters, and economic calendar.</p>
-    <p style="color:#555;font-size:0.85rem;">Full endpoint list available on request. Email <a href="mailto:friedel@agentcanary.ai" style="color:#f5c518;">friedel@agentcanary.ai</a></p>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/prices/realtime</span><span class="desc">Live prices — 1,181 assets</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/prices/macro-snapshot</span><span class="desc">Full macro snapshot (rates, yields, commodities)</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/breaking</span><span class="desc">Breaking news with FinBERT sentiment</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/newsletters</span><span class="desc">Aggregated newsletter summaries</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/news/xtg-messages</span><span class="desc">Telegram channel intelligence</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/calendar</span><span class="desc">Economic calendar (all events)</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/treasury/stats</span><span class="desc">US Treasury statistics</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Crypto Technical</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/coin-rsi/statistics</span><span class="desc">RSI distribution across all coins</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/coin-rsi?coinid={id}</span><span class="desc">RSI for specific coin</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/cointa?id={id}</span><span class="desc">Technical indicators per coin</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signal-state</span><span class="desc">Signal state (IGNITION/ACCUMULATION/DISTRIBUTION/CAPITULATION)</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/roc/{id}/multi</span><span class="desc">Multi-timeframe rate of change</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/roc/{id}</span><span class="desc">Single ROC data</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Funding &amp; Volumes</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/fundingrate/arbitrage/latest</span><span class="desc">Funding rate arbitrage opportunities</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/exchange-volumes</span><span class="desc">Exchange volume breakdown</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>On-Chain &amp; Whale Tracking</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/whale-alerts?symbol={symbol}</span><span class="desc">Large transfer alerts</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/hyperliquid-whale-alerts</span><span class="desc">Hyperliquid whale movements</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/hyperliquid-whale-positions</span><span class="desc">Whale position tracker</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/exchange-assets?symbol={symbol}</span><span class="desc">Exchange wallet balances</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/usdc-dominance?symbol={symbol}</span><span class="desc">Stablecoin dominance per asset</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Order Book Intelligence</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/orderbook/depth</span><span class="desc">Real-time order book depth</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/orderbook/depth/history</span><span class="desc">Historical depth snapshots</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/orderbook/wall-persistence</span><span class="desc">Wall persistence analysis</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/orderbook/liquidity-change</span><span class="desc">Liquidity shift detection</span><span class="badge pro">PRO</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Market Structure &amp; Predictions</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/market-structure</span><span class="desc">BTC market structure regime</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/market-analysis/latest</span><span class="desc">AI-generated market analysis</span><span class="badge pro">PRO</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/polymarket/events/current</span><span class="desc">Polymarket prediction events</span><span class="badge pro">PRO</span></div>
+    </div>
   </div>
 
   <!-- DASHBOARD COMING SOON -->
