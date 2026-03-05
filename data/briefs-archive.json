@@ -1,5 +1,57 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-05",
+    "time": "07:03 UTC",
+    "headline": "Neutral · Neutral · STAGFLATION\nGauge 59.4/100",
+    "headlineColor": "#FFC53D",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $72,561 · ETH: $2,129 · SOL: $90.84 · GOLD: $5,135",
+    "tags": [
+      {
+        "t": "NEUTRAL",
+        "c": "yellow"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "PRICES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "$72,561",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH",
+            "v": "$2,129",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL",
+            "v": "$90.84",
+            "c": "yellow"
+          },
+          {
+            "k": "GOLD",
+            "v": "$5,135",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 59.4
+        }
+      }
+    ],
+    "telegramMessageId": 96
+  },
+  {
     "session": "evening",
     "date": "2026-03-04",
     "time": "20:00 UTC",
