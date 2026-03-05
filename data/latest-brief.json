@@ -1,57 +1,53 @@
 {
-  "session": "midday",
+  "session": "intelligence",
   "date": "2026-03-05",
-  "time": "14:15 UTC",
-  "headline": "BTC $72,544 — BULL_REGIME\n2 whale moves detected",
-  "headlineColor": "#F87171",
-  "desc": "BTC: $72,544 — 1d: BULL_REGIME | 4h: DISTRIBUTION · ETH: $2,121 — 1d: DISTRIBUTION | 4h: BULL_REGIME · SOL: $90.96 — 1d: DISTRIBUTION | 4h: BULL_REGIME",
+  "time": "14:18 UTC",
+  "headline": "INTELLIGENCE BRIEF — Mar 5, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 59.4/100 · 8 movers",
   "tags": [
     {
-      "t": "WHALE ALERT",
-      "c": "blue"
+      "t": "MEDIUM",
+      "c": "yellow"
     },
     {
-      "t": "AIN 743% APR",
-      "c": "green"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
+      "label": "RISK GAUGE",
+      "gauge": {
+        "value": 59
+      }
+    },
+    {
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "BTC 1D",
-          "v": "BULL_REGIME",
+          "k": "GEMI",
+          "v": "+32.8%",
           "c": "green"
         },
         {
-          "k": "ETH 1D",
-          "v": "DISTRIBUTION",
-          "c": "red"
+          "k": "GLXY",
+          "v": "+17.9%",
+          "c": "green"
         },
         {
-          "k": "SOL 1D",
-          "v": "DISTRIBUTION",
-          "c": "red"
-        }
-      ]
-    },
-    {
-      "label": "TOP WHALE",
-      "rows": [
-        {
-          "k": "$69M BTC",
-          "v": "transferred from unk",
-          "c": "blue"
+          "k": "MRNA",
+          "v": "+16.1%",
+          "c": "green"
         },
         {
-          "k": "$127M SOL",
-          "v": "unlocked at unknown ",
-          "c": "blue"
+          "k": "COIN",
+          "v": "+14.5%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MIDDAY MARKETS</b> — Mar 5, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$72,544</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n• ETH: <b>$2,121</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n• SOL: <b>$90.96</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 949 BTC ($68,920,810)\n  <i>transferred from unknown wallet to #Kraken</i>\n• 1,402,039 SOL ($127,212,516)\n  <i>unlocked at unknown wallet</i>\n• 2,625,767 SOL ($238,246,118)\n  <i>unlocked at unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Recession · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n🟢 Bitcoin ETF Inflows &amp; Rally [BTC, ETH, SOL]\n🔴 Crypto Regulatory Pushback [BTC, ETH, SOL]\n🟢 Crypto Stocks Rally [MSTR, NVDA, PLTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 102
+  "telegramText": "<b>INTELLIGENCE BRIEF</b> — March 5, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with crypto risk-on surge colliding against stagflationary oil shock. Bitcoin ETF inflows hit $125M (8-day streak) driving BTC past $73K, while China's diesel export ban sends oil +3.7%. Cross-asset dislocation as growth assets rally amid supply-side inflation pressures.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 59.4/100 (Elevated)\nRegime: STAGFLATION — Oil supply shock meets monetary tightening as HY spreads widen\nKey prices: SPY -0.18% | QQQ +0.44% | VIX +5.9% | TLT -0.51% | DXY +0.29% | OIL +3.66%\nICSA: 212K (down, -0.24 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Oil Supply Crisis Deepens\nBTC: $65K-69K (-10%)\nOIL: $85-95 (+23%)\nSPY: $615-650 (-10%)\n\n<b>SCENARIO B</b> — Crypto Institutional Adoption\nBTC: $78K-85K (+15%)\nETH: $2450-2650 (+22%)\nQQQ: $640-670 (+8%)\n\n<b>SCENARIO C</b> — Stagflation Pivot\nTLT: $82-86 (-7%)\nDXY: $103-107 (+6%)\nGold: $5400-5600 (+8%)\n\n<b>SECTOR STRENGTH</b>\n1. Consumer Disc (XLY +0.84%) — strong\n2. Comm Services (XLC +0.78%) — bid\n3. Financials (XLF +0.39%) — rotating\n4. Materials (XLB -2.5%) — dump\n5. Copper Miners (COPX -5.81%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nGEMI $8.64 (+32.8%) — Rosenblatt maintains buy rating despite Mega IPO headwinds\nGLXY $24.33 (+17.9%) — Toronto delisting announcement amid Bitcoin surge\nCOIN $208.76 (+14.5%) — BTC crossing $73K drives exchange volume spike\nETH $2127 (+7.5%) — $169.4M ETF inflows and short squeeze above $2200\nDOGE $0.096 (+7.7%) — BTC momentum spillover as crypto euphoria spreads\nOIL $77.39 (+3.7%) — China orders refiners to halt diesel/gas exports amid Iran conflict\n\n<i>Crypto institutional adoption accelerating while energy markets reprice geopolitical supply risk.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$125M net inflow (8-day streak) — institutional FOMO intensifying\nWhale activity: BTC longs $84M vs shorts $40M (+$960K PnL). ETH shorts dominate at $105M (-$3.7M PnL), suggesting contrarian setup if momentum sustains.\n\n<b>IMPLICATION</b>\nTactical long crypto/short commodities spread if geopolitical premium fades, but hedge oil exposure given supply shock fundamentals. Cross-asset volatility suggests position sizing down until regime clarity emerges.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 103
 }
