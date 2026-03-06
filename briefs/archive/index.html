@@ -75,7 +75,8 @@ var ARCHIVE = [];
 var pillClass = {radar:'pill-m',signal:'pill-i',pulse:'pill-d',wrap:'pill-e',cycle:'pill-c',morning:'pill-m',intelligence:'pill-i',intel:'pill-i',midday:'pill-d',evening:'pill-e'};
 var pillLabel = {radar:'Macro Radar',signal:'Signal Scan',pulse:'Market Pulse',wrap:'Market Wrap',cycle:'Cycle Report',morning:'Morning',intelligence:'Intelligence',intel:'Intelligence',midday:'Midday',evening:'Evening'};
 
-fetch('https://api.agentcanary.ai/api/briefs/archive?v='+Date.now()).then(function(r){return r.json()}).then(function(briefs){
+fetch('https://api.agentcanary.ai/api/briefs/archive?v='+Date.now()).then(function(r){return r.json()}).then(function(data){
+  var briefs = Array.isArray(data) ? data : (data.briefs || []);
   // Group by month
   var months = {};
   briefs.forEach(function(b){
