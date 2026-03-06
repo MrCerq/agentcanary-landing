@@ -314,13 +314,13 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 
 <script>
 (function(){
-  var THEMES={morning:{accent:'var(--o)',border:'var(--o)',bg:'var(--o-glow)',glow:'rgba(251,146,60,.08)',label:'MORNING'},intelligence:{accent:'var(--b)',border:'var(--b)',bg:'rgba(96,165,250,.1)',glow:'rgba(96,165,250,.08)',label:'INTELLIGENCE'},midday:{accent:'var(--y)',border:'var(--y)',bg:'var(--y-glow)',glow:'rgba(255,197,61,.08)',label:'MIDDAY'},evening:{accent:'var(--p)',border:'var(--p)',bg:'rgba(167,139,250,.1)',glow:'rgba(167,139,250,.08)',label:'EVENING'},cycle:{accent:'var(--g)',border:'var(--g)',bg:'var(--g-glow)',glow:'rgba(52,211,153,.08)',label:'CYCLE'}};
+  var THEMES={radar:{accent:'var(--o)',border:'var(--o)',bg:'var(--o-glow)',glow:'rgba(251,146,60,.08)',label:'MACRO RADAR'},signal:{accent:'var(--b)',border:'var(--b)',bg:'rgba(96,165,250,.1)',glow:'rgba(96,165,250,.08)',label:'SIGNAL SCAN'},pulse:{accent:'var(--y)',border:'var(--y)',bg:'var(--y-glow)',glow:'rgba(255,197,61,.08)',label:'MARKET PULSE'},wrap:{accent:'var(--p)',border:'var(--p)',bg:'rgba(167,139,250,.1)',glow:'rgba(167,139,250,.08)',label:'MARKET WRAP'},cycle:{accent:'var(--g)',border:'var(--g)',bg:'var(--g-glow)',glow:'rgba(52,211,153,.08)',label:'CYCLE REPORT'}};
   var TAG_COLORS={red:{c:'var(--r)',bg:'rgba(248,113,113,.06)',b:'rgba(248,113,113,.2)'},yellow:{c:'var(--y)',bg:'var(--y-glow)',b:'rgba(255,197,61,.2)'},green:{c:'var(--g)',bg:'rgba(52,211,153,.06)',b:'rgba(52,211,153,.2)'},blue:{c:'var(--b)',bg:'rgba(96,165,250,.06)',b:'rgba(96,165,250,.2)'},purple:{c:'var(--p)',bg:'rgba(167,139,250,.06)',b:'rgba(167,139,250,.2)'}};
   var ROW_COLORS={red:'var(--r)',yellow:'var(--y)',green:'var(--g)',blue:'var(--b)',purple:'var(--p)'};
 
-  fetch('/data/latest-brief.json?v='+Date.now()).then(function(r){return r.json()}).then(function(b){
+  fetch('https://api.agentcanary.ai/api/briefs/latest?v='+Date.now()).then(function(r){return r.json()}).then(function(b){
     if(!b.session){document.getElementById('brief-card').innerHTML='<div style="padding:60px 36px;text-align:center;font-family:var(--mono);font-size:13px;color:var(--t3);">First brief posts at 08:00 UTC tomorrow.</div>';return;}
-    var t=THEMES[b.session]||THEMES.morning;
+    var t=THEMES[b.session]||THEMES.radar;
     document.getElementById('brief-glow').style.background='radial-gradient(circle,'+t.glow+' 0%,transparent 65%)';
     document.getElementById('brief-header').innerHTML='<div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid '+t.border+';color:'+t.accent+';background:'+t.bg+';display:flex;align-items:center;gap:6px;"><span style="width:6px;height:6px;background:'+t.accent+';border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>'+t.label+'</div><span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Latest Brief</span>';
 
@@ -351,7 +351,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 <script>
 (function(){
   var times=[4.5,10.5,16.5,22.5],el=document.getElementById('countdown-text');
-  var names=['Morning','Intelligence','Midday','Evening'];
+  var names=['Macro Radar','Signal Scan','Market Pulse','Market Wrap'];
   function upd(){
     var n=new Date(),u=n.getUTCHours()*60+n.getUTCMinutes();
     var mins=[times[0]*60,times[1]*60,times[2]*60,times[3]*60];
@@ -499,10 +499,10 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   <h2 class="s-title">See the API performing. 4x/day. On Telegram.</h2>
   <p class="s-desc">Every post is auto-generated from live endpoints. Scroll the history. The data speaks.</p>
   <div class="tg-grid">
-    <div class="tg-card"><div class="tg-time">4:30 AM UTC</div><h3>Morning Brief</h3><p>Macro and regime — overnight moves, Asia session.</p><ul><li>Macro regime + risk gauge</li><li>Key z-scores (10Y, DXY, HY)</li><li>Overnight: gold, oil, SPY</li><li>Fear & Greed index</li></ul></div>
-    <div class="tg-card"><div class="tg-time">10:30 AM UTC</div><h3>Intelligence Brief</h3><p>AI market analysis — themes, drivers, scenarios.</p><ul><li>Forward scenarios (if X → Y)</li><li>Per-ticker news drivers</li><li>Narrative crowding signals</li><li>Positioning + implications</li></ul></div>
-    <div class="tg-card"><div class="tg-time">4:30 PM UTC</div><h3>Midday Markets</h3><p>US session — what's moving and why.</p><ul><li>BTC/ETH/SOL signal states</li><li>Whale alerts + liquidations</li><li>Funding rate arb (top 3)</li><li>Scenario shifts</li></ul></div>
-    <div class="tg-card"><div class="tg-time">10:30 PM UTC</div><h3>Evening Wrap</h3><p>US close data + overnight setup.</p><ul><li>US close movers + summary</li><li>Social intel (200+ accounts)</li><li>Breaking news + sentiment</li><li>Economic calendar: tomorrow</li></ul></div>
+    <div class="tg-card"><div class="tg-time">4:15 AM UTC</div><h3>Macro Radar</h3><p>Macro and regime — overnight moves, Asia session.</p><ul><li>Macro regime + risk gauge</li><li>Key z-scores (10Y, DXY, HY)</li><li>Overnight: gold, oil, SPY</li><li>Fear & Greed index</li></ul></div>
+    <div class="tg-card"><div class="tg-time">10:15 AM UTC</div><h3>Signal Scan</h3><p>AI market analysis — themes, drivers, scenarios.</p><ul><li>Forward scenarios (if X → Y)</li><li>Per-ticker news drivers</li><li>Narrative crowding signals</li><li>Positioning + implications</li></ul></div>
+    <div class="tg-card"><div class="tg-time">4:15 PM UTC</div><h3>Market Pulse</h3><p>US session — what's moving and why.</p><ul><li>BTC/ETH/SOL signal states</li><li>Whale alerts + liquidations</li><li>Funding rate arb (top 3)</li><li>Scenario shifts</li></ul></div>
+    <div class="tg-card"><div class="tg-time">10:15 PM UTC</div><h3>Market Wrap</h3><p>US close data + overnight setup.</p><ul><li>US close movers + summary</li><li>Social intel (200+ accounts)</li><li>Breaking news + sentiment</li><li>Economic calendar: tomorrow</li></ul></div>
   </div>
   <div class="tg-cta"><a href="https://t.me/AgentCanary" class="btn-tg" target="_blank" style="font-size:14px;padding:16px 32px;">Join @AgentCanary on Telegram</a></div>
 </section>

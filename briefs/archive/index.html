@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AgentCanary — Brief Archive</title>
-<meta name="description" content="Complete archive of AgentCanary market intelligence briefs. Every morning, midday, and evening brief ever published.">
+<meta name="description" content="Complete archive of AgentCanary market intelligence briefs. Every macro radar, signal scan, market pulse, and market wrap brief ever published.">
 <link rel="canonical" href="https://agentcanary.ai/briefs/archive">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -72,10 +72,10 @@ footer{max-width:900px;margin:0 auto;padding:32px 24px 48px;border-top:1px solid
 <script>
 var ARCHIVE = [];
 
-var pillClass = {morning:'pill-m',intelligence:'pill-i',midday:'pill-d',evening:'pill-e',cycle:'pill-c'};
-var pillLabel = {morning:'Morning',intelligence:'Intelligence',midday:'Midday',evening:'Evening',cycle:'Cycle'};
+var pillClass = {radar:'pill-m',signal:'pill-i',pulse:'pill-d',wrap:'pill-e',cycle:'pill-c',morning:'pill-m',intelligence:'pill-i',intel:'pill-i',midday:'pill-d',evening:'pill-e'};
+var pillLabel = {radar:'Macro Radar',signal:'Signal Scan',pulse:'Market Pulse',wrap:'Market Wrap',cycle:'Cycle Report',morning:'Morning',intelligence:'Intelligence',intel:'Intelligence',midday:'Midday',evening:'Evening'};
 
-fetch('/data/briefs-archive.json?v='+Date.now()).then(function(r){return r.json()}).then(function(briefs){
+fetch('https://api.agentcanary.ai/api/briefs/archive?v='+Date.now()).then(function(r){return r.json()}).then(function(briefs){
   // Group by month
   var months = {};
   briefs.forEach(function(b){
