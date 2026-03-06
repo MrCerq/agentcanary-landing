@@ -256,7 +256,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   <div class="stat-bar">
     <div class="stat-item"><div class="stat-num">250+</div><div class="stat-lbl">Data Sources</div></div>
     <div class="stat-item"><div class="stat-num">1,181</div><div class="stat-lbl">Assets</div></div>
-    <div class="stat-item"><div class="stat-num">131</div><div class="stat-lbl">API Endpoints</div></div>
+    <div class="stat-item"><div class="stat-num">50+</div><div class="stat-lbl">API Endpoints</div></div>
     <div class="stat-item"><div class="stat-num">4x/day</div><div class="stat-lbl">Telegram Briefs</div></div>
     <div class="stat-item"><div class="stat-num">6mo</div><div class="stat-lbl">In Production</div></div>
   </div>
@@ -405,32 +405,39 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   <p class="s-desc">Everything your agent needs to understand the market — not just what happened, but what it means.</p>
 
   <div style="margin-top:44px;">
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">Macro & Regime</div>
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">Market Intelligence</div>
     <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3>Macro Regime Detection</h3><p>26 FRED series, regime classification (Risk-On/Off), business cycle phasing, risk gauge 0–100, z-scores on every indicator.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3>AI Market Analysis</h3><p>Daily AI-generated reports: sentiment, market phase, narratives, movers, correlations, divergences, alerts with severity scoring.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3>Social Intelligence</h3><p>300+ messages/day from 200+ X and Telegram accounts. FinBERT sentiment scoring. Token highlights, non-consensus insights.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3><code>GET /api/macro/regime</code></h3><p>Current macro regime + risk gauge</p><span class="cap-tag tag-exc">ENHANCED</span></div>
+      <div class="cap-card"><h3><code>GET /api/regime</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Enhanced regime with positioning matrix</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3><code>GET /api/regime/matrix</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Regime-to-asset positioning matrix</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
     </div>
 
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Signals & Analysis</div>
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Expectations & Narratives</div>
     <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3>29 Technical Indicators</h3><p>RSI, MACD, Bollinger, Ichimoku, VWAP, PSAR, and 23 more per coin. Composite signals. 365 daily data points.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3>Signal States</h3><p>BULL_REGIME / BEAR_REGIME / RISK_OFF classification on 100 coins across daily and 4-hour timeframes.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3>Breaking News + 50 Newsletters</h3><p>Real-time RSS from Bloomberg, Decrypt, CoinDesk. 50 newsletters ingested daily. Auto-categorized, sentiment scored.</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3><code>GET /api/expectations</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>19 narrative scores (1-5 scale)</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3><code>GET /api/expectations/crowded</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Crowded narratives only (4-5)</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3><code>GET /api/expectations/early</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Early/contrarian opportunities (1-2)</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
     </div>
 
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Market Structure</div>
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Crypto Intelligence</div>
     <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3>Orderbook Analytics</h3><p>8 liquidity bands, top walls, wall skew, spoofing detection, wall persistence. Per-exchange or aggregate.</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3>Whale Alerts + Hyperliquid</h3><p>On-chain whale transactions. Hyperliquid positions with entry, liquidation price, leverage, unrealized PnL.</p><span class="cap-tag tag-live">LIVE</span></div>
-      <div class="cap-card"><h3>Funding Rate Arbitrage</h3><p>Cross-exchange opportunities ranked by APR: symbol, exchanges, spread, next funding time.</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3><code>GET /api/crypto-reentry</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>9-condition crypto timing score</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3><code>GET /api/premiums</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Coinbase + Kimchi premium</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3><code>GET /api/defi/intelligence</code></h3><p>Full DeFi snapshot: yields, perps, chains, unlocks</p><span class="cap-tag tag-live">LIVE</span></div>
     </div>
 
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Data & Events</div>
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Thesis & Risk</div>
     <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3>Multi-Asset Prices</h3><p>941 crypto, 195 stocks, 34 FX pairs, 10 commodities, ETFs — one endpoint.</p><span class="cap-tag tag-live">LIVE</span></div>
-      <div class="cap-card"><h3>Market Structure</h3><p>Composite BTC: funding, liquidations, premium, orderbook. Crowding scores, spike detection.</p><span class="cap-tag tag-live">LIVE</span></div>
-      <div class="cap-card"><h3>Calendar, Treasury, Polymarket</h3><p>Economic calendar with impact scoring. Treasury tracking (209 entities). Live FOMC odds.</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3><code>GET /api/kill-conditions</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>6 thesis invalidation monitors</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
+      <div class="cap-card"><h3><code>GET /api/scenarios/current</code></h3><p>6 macro scenarios with probabilities</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3><code>GET /api/scenarios/signals</code></h3><p>Active signals driving probabilities</p><span class="cap-tag tag-live">LIVE</span></div>
+    </div>
+
+    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">News & Analysis</div>
+    <div class="cap-grid" style="margin-top:0;">
+      <div class="cap-card"><h3><code>GET /api/news/trending</code></h3><p>Trending financial news</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3><code>GET /api/news/market-analysis</code></h3><p>AI market analysis</p><span class="cap-tag tag-live">LIVE</span></div>
+      <div class="cap-card"><h3><code>GET /api/ql/*</code></h3><p>Market Data proxy (1,197+ assets)</p><span class="cap-tag tag-live">LIVE</span></div>
     </div>
   </div>
 </section>
@@ -478,11 +485,9 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <div class="how-step"><div class="how-num">3</div><h3>Deposit USDC when you need more</h3><p>Unlock regime, signals, AI reports, and all 131 endpoints. Credits never expire. No subscriptions. No KYC.</p></div>
   </div>
   <div class="how-tiers">
-    <div class="how-tiers-title">Credit tiers</div>
-    <div class="tier-row"><div class="tier-name">Explorer</div><div class="tier-price">Free</div><div class="tier-desc">Prices only · 50 calls/day · No deposit</div><div class="tier-per">—</div></div>
-    <div class="tier-row"><div class="tier-name">Builder</div><div class="tier-price">$50 USDC</div><div class="tier-desc">Prices + macro + regime + z-scores + signals + news</div><div class="tier-per">$0.005/call</div></div>
-    <div class="tier-row featured"><div class="tier-name">Signal</div><div class="tier-price">$150 USDC</div><div class="tier-desc">All 131 endpoints · AI reports · orderbook · webhooks</div><div class="tier-per">$0.003/call</div></div>
-    <div class="tier-row"><div class="tier-name">Institutional</div><div class="tier-price">$500 USDC</div><div class="tier-desc">Unlimited · white-label · custom integrations · SLA</div><div class="tier-per">$0.002/call</div></div>
+    <div class="how-tiers-title">Simple pay-per-call pricing</div>
+    <div class="tier-row featured"><div class="tier-name">All Endpoints</div><div class="tier-price">$0.02/call</div><div class="tier-desc">Deposit credits upfront, deduct per call · No monthly fees · No tiers</div><div class="tier-per">Credits never expire</div></div>
+    <div class="tier-row"><div class="tier-name">Briefs</div><div class="tier-price">Free</div><div class="tier-desc">Public access via Telegram · No auth required</div><div class="tier-per">—</div></div>
   </div>
   <div class="tokens-row">
     <span class="tokens-lbl">Accepted:</span>
