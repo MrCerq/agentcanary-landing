@@ -283,12 +283,39 @@ curl -H "X-API-Key: YOUR_KEY" \
 
   <!-- DATA + PREDICTIONS -->
   <div class="section">
-    <h2>Data & Predictions (4)</h2>
+    <h2>Data & Predictions (3)</h2>
     <div class="endpoint-grid">
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data</span><span class="desc">Available data feeds</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/:name</span><span class="desc">Specific data feed</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/predictions/markets</span><span class="desc">Polymarket prediction data</span></div>
-      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/ql/*</span><span class="desc">Real-time market data proxy (1,197+ assets, ~50 endpoints)</span></div>
+    </div>
+  </div>
+
+  <!-- REAL-TIME MARKET DATA -->
+  <div class="section">
+    <h2>Real-Time Market Data (21)</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/macro-snapshot</span><span class="desc">Full macro snapshot (regime, cycle, risk gauge)</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/realtime-prices</span><span class="desc">Live prices for 1,197+ assets</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/financial-calendar</span><span class="desc">Economic calendar events</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/treasury-stats</span><span class="desc">US Treasury statistics</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/signal-state</span><span class="desc">ROC-based signal states</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/coin-rsi</span><span class="desc">RSI statistics for all tracked coins</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/funding-rates</span><span class="desc">CEX funding rate arbitrage</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/exchange-volumes</span><span class="desc">Exchange volume breakdown</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/exchange-assets</span><span class="desc">Exchange wallet balances per asset</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/usdc-dominance</span><span class="desc">USDC dominance per asset</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/whale-alerts</span><span class="desc">Large transaction alerts</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/hyperliquid-whale-alerts</span><span class="desc">Hyperliquid whale movements</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/hyperliquid-whale-positions</span><span class="desc">Hyperliquid whale open positions</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/orderbook-depth</span><span class="desc">Order book depth snapshots</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/orderbook-liquidity</span><span class="desc">Order book liquidity changes</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/market-structure</span><span class="desc">Market microstructure analysis</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/market-analysis</span><span class="desc">AI-powered market analysis</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/polymarket</span><span class="desc">Prediction market events</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/breaking-news</span><span class="desc">Breaking financial news with sentiment</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/newsletters</span><span class="desc">Financial newsletter digests</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/data/social-intel</span><span class="desc">Social/Telegram intelligence feed</span></div>
     </div>
   </div>
 
