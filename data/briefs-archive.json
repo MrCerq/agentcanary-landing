@@ -1,5 +1,106 @@
 [
   {
+    "session": "radar",
+    "date": "2026-03-06",
+    "time": "10:08 UTC",
+    "headline": "Risk-On · Neutral · STAGFLATION\nGauge 43.2/100",
+    "headlineColor": "#34D399",
+    "desc": "Growth: ↓ | Inflation: ↑. BTC: $70,656 · ETH: $2,062 · SOL: $87.53 · GOLD: $5,080",
+    "tags": [
+      {
+        "t": "RISK_ON",
+        "c": "green"
+      },
+      {
+        "t": "LOW_STRESS",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "PRICES",
+        "rows": [
+          {
+            "k": "BTC",
+            "v": "$70,656",
+            "c": "yellow"
+          },
+          {
+            "k": "ETH",
+            "v": "$2,062",
+            "c": "yellow"
+          },
+          {
+            "k": "SOL",
+            "v": "$87.53",
+            "c": "yellow"
+          },
+          {
+            "k": "GOLD",
+            "v": "$5,080",
+            "c": "yellow"
+          }
+        ]
+      },
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 43.2
+        }
+      }
+    ],
+    "telegramMessageId": 105,
+    "telegramText": "<b>MACRO RADAR</b> — Mar 6, 2026\n\n<b>MACRO REGIME</b>\n🟢 Regime: <b>Risk-On · Neutral</b>\nCycle: <b>STAGFLATION</b>\nRisk Gauge: █████████░░░░░░░░░░░ 43.2/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>PRICES</b>\n• BTC: <b>$70,656</b>\n• ETH: <b>$2,062</b>\n• SOL: <b>$87.53</b>\n• GOLD: <b>$5,080</b>\nSPY: <b>$681.31</b> (+0.1%)\nQQQ: <b>$608.91</b> (+1.2%)\nVIX: <b>24.8</b> (+4.3%)\nTLT: <b>$88.79</b> (-0.7%)\nDXY: <b>99.3</b> (-0.1%)\nOIL: <b>$84.73</b> (+4.6%)\n\nUSDT Dom: <b>7.68%</b> — Normal\n\n\n<b>NOTABLE Z-SCORES</b>\n🔴 WTI Crude Oil: +3.02σ\n🔴 2Y Treasury: +1.61σ\n🟢 30Y Mortgage Rate: -1.57σ\n🟡 2s10s Curve: -1.43σ\n🟡 Fed Balance Sheet: +1.42σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🟢 VIX: +4.3%\n🔴 SOL: -1.8%\n🔴 ETH: -0.9%\n🔴 BTC: -0.7%\n🔴 NVDA: -0.6%\n\n<b>INTEL DIGEST</b>\n<i>Risk‑on sentiment dominates as institutional crypto inflows surge amid geopolitical tensions, but oil supply shocks and a potential Chinese slowdown inject volatility.</i>\n🟢 <b>Bitcoin ETF Inflows &amp; Rally</b> [BTC, ETH, SOL]\n   <i>Bitcoin tops $72,000 as spot ETF inflows hit $155 M, matching gold’s 15‑year cumulative flows in under two years, signal</i>\n🔴 <b>Oil Supply Disruption from Iran Conflict</b> [OIL, GOLD]\n   <i>Iran’s escalation forces diesel and gasoline export suspensions, pushing oil prices higher and creating a supply shock t</i>\n🔴 <b>Crypto Regulatory Pushback</b> [BTC, ETH, SOL]\n   <i>Kraken’s Fed master account sparks bank backlash, raising regulatory uncertainty and potential volatility for crypto ass</i>\n🟢 <b>AI Big Tech Energy Pledge</b> [NVDA, PLTR]\n   <i>Amazon, Google, Meta, Microsoft, OpenAI, Oracle, and xAI commit to fund electricity supply and grid upgrades to meet AI </i>\n\n🟢 BTC: <b>BUY</b> — Strong institutional inflows and ETF momentum support a bullish stance.\n🔴 OIL: <b>SELL</b> — Supply shock and price volatility suggest a short‑term downside.\n🟢 NVDA: <b>BUY</b> — AI energy pledge and positive tech sentiment boost valuation.\n\n🔄 <b>Contrarian</b>\n   <i>Sell BTC now despite the rally, anticipating a pullback due to fragile demand and potential regulato</i>\n   <i>Buy OIL, betting on long‑term supply constraints from the Iran conflict.</i>\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.54% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
+    "session": "evening",
+    "date": "2026-03-05",
+    "time": "22:15 UTC",
+    "headline": "Markets reflected a late-cycle risk-on push driven by massive Bitcoin ETF infl…",
+    "headlineColor": "#A78BFA",
+    "desc": "Why Cryptocurrency OKB Skyrocketed More than 18% Higher Today · Dogecoin Down Bad as Bitcoin Gives Up Latest Gains · Bitcoin miners offload 15K BTC since October, with more sales expected",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "🇺🇸 University of",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 59
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "🇺🇸 University of Michig",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Real GDP(AQR) (Revis",
+            "v": "Mar 13",
+            "c": "blue"
+          },
+          {
+            "k": "🇺🇸 Personal income (MoM",
+            "v": "Mar 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 104,
+    "telegramText": "<b>EVENING WRAP</b> — Mar 5, 2026\n\n<i>Markets reflected a late-cycle risk-on push driven by massive Bitcoin ETF inflows hitting new highs, while oil's surge on Iran supply concerns reinforced stagflationary pressures already building from Chinese growth worries. The combination of crypto euphoria and energy shocks suggests investors are positioning for persistent inflation rather than traditional safe havens.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$71,139</b> · ETH: <b>$2,080</b> · SOL: <b>$89.1</b> · GOLD: <b>$5,080</b> · SPY: <b>$681.31</b> (+0.1%) · QQQ: <b>$608.91</b> (+1.2%) · VIX: <b>$23.75</b> (+12.3%) · TLT: <b>$88.79</b> (-0.7%) · DXY: <b>$99.06</b> (+0.3%) · OIL: <b>$78.87</b> (+5.6%)\n\n<b>EVENING NEWS</b>\n🟢 Why Cryptocurrency OKB Skyrocketed More than 18% Higher Today\n🔴 Dogecoin Down Bad as Bitcoin Gives Up Latest Gains\n🔴 Bitcoin miners offload 15K BTC since October, with more sales expected\n🟢 USD/MXN jumps above 17.70 as Middle East war spurs risk-off\n🔴 Geopolitical tensions drag crypto lower as Middle East conflict escalates\n🟡 Trump says he fired Anthropic ‘like dogs’ as negotiations with Pentagon reportedly restart\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle: Institutional inflows into crypto ETFs signal late‑cycle rally.\n↓ Recession: China’s low GDP target indicates potential slowdown.\n↑ Stagflation: Oil supply shock and inflationary pressure.\n↑ Displacement: Iran conflict causes supply chain and energy market displacement.\n\n<b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 59.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n🇺🇸 University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 13, 02:00 PM UTC (prev: 56.6)\n🇺🇸 Real GDP(AQR) (Revised) (Q4) — Mar 13, 12:30 PM UTC (prev: 1.4%)\n🇺🇸 Personal income (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.3%)\n🇺🇸 Personal consumption expenditure price index (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇺🇸 Personal consumption expenditure (MoM)(Jan) — Mar 13, 12:30 PM UTC (prev: 0.4%)\n🇺🇸 Personal consumption expenditure price index (AQR) (Revised) (Q4) — Mar 13, 12:30 PM UTC (prev: 2.8%)\n\n<b>CONTRARIAN</b>\n• Sell BTC now despite the rally, anticipating a pullback due to fragile demand and potential regulato\n• Buy OIL, betting on long‑term supply constraints from the Iran conflict.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "intelligence",
     "date": "2026-03-05",
     "time": "14:18 UTC",

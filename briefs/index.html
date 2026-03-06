@@ -97,6 +97,23 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:fl
 .pill-cycle .dot{background:#34d399}
 .glow-cycle{right:5%;background:radial-gradient(circle,rgba(52,211,153,.07) 0%,transparent 65%)}
 
+/* New pill classes */
+.pill-radar{border:1px solid var(--o);color:var(--o);background:var(--o-glow)}
+.pill-radar .dot{background:var(--o)}
+.glow-radar{right:5%;background:radial-gradient(circle,rgba(251,146,60,.07) 0%,transparent 65%)}
+
+.pill-signal{border:1px solid #60A5FA;color:#60A5FA;background:rgba(96,165,250,.1)}
+.pill-signal .dot{background:#60A5FA}
+.glow-signal{right:5%;background:radial-gradient(circle,rgba(96,165,250,.07) 0%,transparent 65%)}
+
+.pill-pulse{border:1px solid var(--y);color:var(--y);background:var(--y-glow)}
+.pill-pulse .dot{background:var(--y)}
+.glow-pulse{right:5%;background:radial-gradient(circle,rgba(255,197,61,.07) 0%,transparent 65%)}
+
+.pill-wrap{border:1px solid var(--p);color:var(--p);background:rgba(167,139,250,.1)}
+.pill-wrap .dot{background:var(--p)}
+.glow-wrap{right:5%;background:radial-gradient(circle,rgba(167,139,250,.07) 0%,transparent 65%)}
+
 .brief-time{font-family:var(--mono);font-size:11px;color:var(--t3);margin-left:10px}
 .brief-headline{font-size:24px;font-weight:700;letter-spacing:-.8px;line-height:1.2;margin-bottom:10px}
 .brief-desc{font-size:13px;color:var(--t2);line-height:1.7;margin-bottom:14px}
@@ -205,11 +222,11 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
   <!-- Filter tabs -->
   <div class="filter-tabs">
     <button class="filter-tab active" data-filter="all">All</button>
-    <button class="filter-tab" data-filter="morning">Morning</button>
-    <button class="filter-tab" data-filter="intelligence">Intelligence</button>
-    <button class="filter-tab" data-filter="midday">Midday</button>
-    <button class="filter-tab" data-filter="evening">Evening</button>
-    <button class="filter-tab" data-filter="cycle">Cycle</button>
+    <button class="filter-tab" data-filter="radar">Macro Radar</button>
+    <button class="filter-tab" data-filter="signal">Signal Scan</button>
+    <button class="filter-tab" data-filter="pulse">Market Pulse</button>
+    <button class="filter-tab" data-filter="wrap">Market Wrap</button>
+    <button class="filter-tab" data-filter="cycle">Cycle Report</button>
   </div>
 
   <!-- Feed -->
@@ -233,7 +250,13 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
 var BRIEFS = [];
 
 // ── Rendering ──
-var SESSIONS = {morning:{pill:'pill-morning',glow:'glow-morning'},intelligence:{pill:'pill-intelligence',glow:'glow-intelligence'},midday:{pill:'pill-midday',glow:'glow-midday-green'},evening:{pill:'pill-evening',glow:'glow-evening'},cycle:{pill:'pill-cycle',glow:'glow-cycle'}};
+var SESSIONS = {radar:{pill:'pill-radar',glow:'glow-radar'},signal:{pill:'pill-signal',glow:'glow-signal'},pulse:{pill:'pill-pulse',glow:'glow-pulse'},wrap:{pill:'pill-wrap',glow:'glow-wrap'},cycle:{pill:'pill-cycle',glow:'glow-cycle'}};
+
+// Normalize old session names to new
+function normalizeSession(s) {
+  var map = {morning:'radar',intelligence:'signal',intel:'signal',midday:'pulse',evening:'wrap'};
+  return map[s] || s;
+}
 
 function glowClass(b){
   if(b.session==='morning') return 'glow-morning';
@@ -245,7 +268,7 @@ function glowClass(b){
 }
 
 function renderCard(b){
-  var s = SESSIONS[b.session] || {pill:'pill-morning',glow:'glow-morning'};
+  var s = SESSIONS[b.session] || {pill:'pill-radar',glow:'glow-radar'};
   var permalink = '/briefs#'+b.session+'-'+b.date;
   var shareUrl = 'https://agentcanary.ai'+permalink;
   var shareText = encodeURIComponent(b.shareText || b.headline.replace('\n',' ')+'\n\n@AgentCanaryHQ\n#marketintell #AgentCanary #ai');
@@ -332,13 +355,13 @@ document.querySelectorAll('.filter-tab').forEach(function(tab){
 
 // ── Countdown ──
 (function(){
-  var times=[8,13,21],el=document.getElementById('countdown-text');
-  var names=['Morning','Midday','Evening'];
+  var times=[4.25,10.25,16.25,22.25],el=document.getElementById('countdown-text');
+  var names=['Macro Radar','Signal Scan','Market Pulse','Market Wrap'];
   function upd(){
     var n=new Date(),u=n.getUTCHours()*60+n.getUTCMinutes();
-    var mins=[times[0]*60,times[1]*60,times[2]*60];
+    var mins=[times[0]*60,times[1]*60,times[2]*60,times[3]*60];
     var next=-1,ni=0;
-    for(var i=0;i<3;i++){if(mins[i]>u){next=mins[i]-u;ni=i;break;}}
+    for(var i=0;i<4;i++){if(mins[i]>u){next=mins[i]-u;ni=i;break;}}
     if(next<0){next=1440-u+mins[0];ni=0;}
     var h=Math.floor(next/60),m=next%60;
     el.textContent='Next '+names[ni]+' brief in '+h+'h '+m+'m';
@@ -347,8 +370,11 @@ document.querySelectorAll('.filter-tab').forEach(function(tab){
 })();
 
 // ── Init: fetch feed ──
-fetch('/data/briefs-feed.json?v='+Date.now()).then(function(r){return r.json()}).then(function(data){
-  BRIEFS = data;
+fetch('https://api.agentcanary.ai/api/briefs/feed?v='+Date.now()).then(function(r){return r.json()}).then(function(data){
+  BRIEFS = data.map(function(b){
+    b.session = normalizeSession(b.session);
+    return b;
+  });
   renderFeed('all');
   if(!BRIEFS.length) document.getElementById('feed').innerHTML='<div style="text-align:center;padding:60px 20px;color:var(--t3);font-family:var(--mono);font-size:13px;">No briefs yet. First brief posts at 08:00 UTC.</div>';
 }).catch(function(){
