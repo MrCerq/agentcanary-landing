@@ -1,53 +1,28 @@
 {
-  "session": "radar",
+  "session": "signal",
   "date": "2026-03-06",
-  "time": "10:08 UTC",
-  "headline": "Risk-On · Neutral · STAGFLATION\nGauge 43.2/100",
-  "headlineColor": "#34D399",
-  "desc": "Growth: ↓ | Inflation: ↑. BTC: $70,656 · ETH: $2,062 · SOL: $87.53 · GOLD: $5,080",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 6, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 43.2/100 · 0 movers",
   "tags": [
     {
-      "t": "RISK_ON",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "LOW_STRESS",
+      "t": "STAGFLATION",
       "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "PRICES",
-      "rows": [
-        {
-          "k": "BTC",
-          "v": "$70,656",
-          "c": "yellow"
-        },
-        {
-          "k": "ETH",
-          "v": "$2,062",
-          "c": "yellow"
-        },
-        {
-          "k": "SOL",
-          "v": "$87.53",
-          "c": "yellow"
-        },
-        {
-          "k": "GOLD",
-          "v": "$5,080",
-          "c": "yellow"
-        }
-      ]
-    },
-    {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 43.2
+        "value": 43
       }
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 6, 2026\n\n<b>MACRO REGIME</b>\n🟢 Regime: <b>Risk-On · Neutral</b>\nCycle: <b>STAGFLATION</b>\nRisk Gauge: █████████░░░░░░░░░░░ 43.2/100\nGrowth: <b>↓</b> | Inflation: <b>↑</b>\n\n<b>PRICES</b>\n• BTC: <b>$70,656</b>\n• ETH: <b>$2,062</b>\n• SOL: <b>$87.53</b>\n• GOLD: <b>$5,080</b>\nSPY: <b>$681.31</b> (+0.1%)\nQQQ: <b>$608.91</b> (+1.2%)\nVIX: <b>24.8</b> (+4.3%)\nTLT: <b>$88.79</b> (-0.7%)\nDXY: <b>99.3</b> (-0.1%)\nOIL: <b>$84.73</b> (+4.6%)\n\nUSDT Dom: <b>7.68%</b> — Normal\n\n\n<b>NOTABLE Z-SCORES</b>\n🔴 WTI Crude Oil: +3.02σ\n🔴 2Y Treasury: +1.61σ\n🟢 30Y Mortgage Rate: -1.57σ\n🟡 2s10s Curve: -1.43σ\n🟡 Fed Balance Sheet: +1.42σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🟢 VIX: +4.3%\n🔴 SOL: -1.8%\n🔴 ETH: -0.9%\n🔴 BTC: -0.7%\n🔴 NVDA: -0.6%\n\n<b>INTEL DIGEST</b>\n<i>Risk‑on sentiment dominates as institutional crypto inflows surge amid geopolitical tensions, but oil supply shocks and a potential Chinese slowdown inject volatility.</i>\n🟢 <b>Bitcoin ETF Inflows &amp; Rally</b> [BTC, ETH, SOL]\n   <i>Bitcoin tops $72,000 as spot ETF inflows hit $155 M, matching gold’s 15‑year cumulative flows in under two years, signal</i>\n🔴 <b>Oil Supply Disruption from Iran Conflict</b> [OIL, GOLD]\n   <i>Iran’s escalation forces diesel and gasoline export suspensions, pushing oil prices higher and creating a supply shock t</i>\n🔴 <b>Crypto Regulatory Pushback</b> [BTC, ETH, SOL]\n   <i>Kraken’s Fed master account sparks bank backlash, raising regulatory uncertainty and potential volatility for crypto ass</i>\n🟢 <b>AI Big Tech Energy Pledge</b> [NVDA, PLTR]\n   <i>Amazon, Google, Meta, Microsoft, OpenAI, Oracle, and xAI commit to fund electricity supply and grid upgrades to meet AI </i>\n\n🟢 BTC: <b>BUY</b> — Strong institutional inflows and ETF momentum support a bullish stance.\n🔴 OIL: <b>SELL</b> — Supply shock and price volatility suggest a short‑term downside.\n🟢 NVDA: <b>BUY</b> — AI energy pledge and positive tech sentiment boost valuation.\n\n🔄 <b>Contrarian</b>\n   <i>Sell BTC now despite the rally, anticipating a pullback due to fragile demand and potential regulato</i>\n   <i>Buy OIL, betting on long‑term supply constraints from the Iran conflict.</i>\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.54% (&lt;3.6%)\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 105
+  "telegramText": "<b>SIGNAL SCAN</b> — March 6, 2026\n\n<b>SNAPSHOT</b>\nStagflationary regime emerging as oil supply shocks (+4.0%) collide with sustained crypto inflows ($125M BTC ETF streak). Risk-on in equities (QQQ +1.2%) despite VIX spike (+4.0%) signals cross-asset dislocation. Iran conflict creating energy displacement while late-cycle liquidity chases digital assets.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 43.2/100 (Elevated)\nRegime: Transitional Stagflation — oil shock driving inflation while growth signals mixed\nSPY: +0.14% | QQQ: +1.22% | VIX: +3.96% | TLT: -0.72% | DXY: -0.07% | OIL: +3.97%\nICSA: 213K (down, labor market tightening)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Escalation\nOIL: $88-95 (+5-13%)\nBTC: $67-72K (-5 to +2%)\nSPY: $650-670 (-5 to -2%)\n\n<b>SCENARIO B</b> — Crypto Momentum Extension  \nBTC: $74-80K (+5-13%)\nETH: $2200-2400 (+7-16%)\nQQQ: $640-660 (+5-8%)\n\n<b>SCENARIO C</b — Supply Shock Fade\nOIL: $78-82 (-7 to -3%)\nTLT: $92-95 (+4-7%)\nDXY: $101-103 (+2-4%)\n\n<b>BIG MOVES + DRIVERS</b>\nOIL $84.23 (+4.0%) — Iran diesel/gasoline export suspension creates supply shock\nVIX $24.69 (+4.0%) — Geopolitical premium + cross-asset volatility spike\nQQQ $608.91 (+1.2%) — Tech energy pledge (Amazon, Google, Meta, MSFT) for AI grid investment\nTLT $88.79 (-0.7%) — Real yields rising on stagflation positioning\n\n<i>Energy displacement driving macro regime shift while crypto absorbs late-cycle institutional flows despite rising volatility.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$125M (8-day inflow streak) — institutional FOMO matching gold's 15-year flows\nWhale activity: Heavy BTC shorts $75.4M vs $9.4M longs, ETH shorts $48.1M — contrarian setup\nGold shorts $19.5M despite oil shock suggests inflation hedge rotation incomplete\n\n<b>IMPLICATION</b>\nTactical long energy/short duration trade emerges on supply shock fundamentals. Crypto momentum vulnerable to regulatory pushback but ETF flows provide institutional floor around $67K BTC.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 106
 }
