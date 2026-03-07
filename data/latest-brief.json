@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-07",
-  "time": "03:08 UTC",
-  "headline": "🟢 Risk-On · Neutral · Gauge 49.4/100",
-  "headlineColor": "#FFC53D",
-  "desc": "STAGFLATION. F&G: —. WATCH.",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 7, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 49.4/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
-      "c": "yellow"
+      "t": "LOW",
+      "c": "green"
     },
     {
-      "t": "GAUGE 49.4",
-      "c": "yellow"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1.5/6 WATCH",
+          "k": "VIX",
+          "v": "+24.2%",
+          "c": "green"
+        },
+        {
+          "k": "MRVL",
+          "v": "+19.0%",
+          "c": "green"
+        },
+        {
+          "k": "BE",
+          "v": "-14.4%",
+          "c": "red"
+        },
+        {
+          "k": "WTI",
+          "v": "+12.7%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 7, 2026\n\n🟢 <b>Risk-On · Neutral</b> · STAGFLATION · Gauge: 49.4/100\n\n• BTC: <b>$68,185</b>\n• ETH: <b>$1,977</b>\n• SOL: <b>$84.44</b>\n• GOLD: <b>$5,153</b>\nSPY: <b>$672.38</b> (-1.9%)\nQQQ: <b>$599.75</b> (-1.8%)\nVIX: <b>29.5</b> (+24.2%)\nTLT: <b>$88.46</b> (-0.8%)\nDXY: <b>98.9</b> (-0.5%)\nOIL: <b>$91.27</b> (+12.7%)\n\n\n<b>NOTABLE Z-SCORES</b>\n🔴 WTI Crude Oil: +3.02σ\n🔴 2Y Treasury: +2.27σ\n🔴 VIX: +2.12σ\n🔴 10Y Breakeven Inflation: +1.96σ\n🟢 30Y Mortgage Rate: -1.57σ\n\n<b>TOP MOVERS</b>\n🟢 VIX $29.49 (+24.2%)\n🟢 MRVL $89.66 (+19.0%)\n🔴 BE $136 (-14.4%) — Ethereum Defies Bearish Short Report as $1.2B Daily Burn Con\n🟢 OIL $91.27 (+12.7%) — Bitcoin Drops Under $68,000 as Oil Tops $90\n🟢 WTI $91.27 (+12.7%)\n🔴 MORPHO $1.79 (-8.2%)\n🔴 AAVE $111 (-5.8%) — Bitcoin recovery meets DeFi tensions as Aave rift deepens: F\n🔴 SUI $0.8989 (-5.6%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.57% (&lt;3.6%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 109
+  "telegramText": "<b>SIGNAL SCAN</b> — March 7, 2026\n\n<b>SNAPSHOT</b>\nRisk-off selloff driven by oil surge above $90 amid geopolitical tensions and inflation repricing. Energy only green sector while growth assets crater on stagflation fears. Cross-asset divergence as dollar weakens despite macro stress signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 49.4/100 (Elevated)\nRegime: Transitional stagflation with energy shock — oil +12% forcing inflation repricing\nKey prices: SPY -1.9%, QQQ -1.8%, VIX +24.2%, TLT -0.8%, DXY -0.5%, OIL +12.2%\nICSA: 213K (trending down, -0.15 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Energy Premium Sustains\nSPY: $640-660 (-2% to -5%)\nOIL: $95-105 (+5% to +15%)\nVIX: $32-38 (+8% to +29%)\n\n<b>SCENARIO B</b> — Geopolitical Fade\nSPY: $685-695 (+2% to +3%)\nOIL: $78-85 (-14% to -7%)\nVIX: $22-26 (-25% to -12%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +0.7%) — bid\n2. Utilities (XLU -1.1%) — weak\n3. Comm Services (XLC -1.1%) — dump\n4. Consumer Staples (XLP -1.6%) — rotating\n5. Consumer Disc (XLY -1.7%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 29.49 (+24.2%) — macro uncertainty spike on energy supply concerns\nMRVL $89.66 (+19.0%) — billion-dollar profitability milestone hit\nWTI $91.27 (+12.7%) — energy supply disruption fears amid geopolitical tensions\nBE $136.14 (-14.4%) — Canadian market selloff as investors avoid risk\nAAVE $110.31 (-6.1%) — DeFi weakness as CoinDesk 20 constituents broadly lower\n<i>Stagflation repricing underway as energy shock forces growth derating while crypto absorbs institutional deleveraging.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$106.4M inflow (10-day streak) — institutional accumulation on weakness\nWhale positioning: BTC $47.4M long vs $29.7M short (+$10.4M PnL), ETH $50.2M short only\n\n<b>IMPLICATION</b>\nEnergy shock creating tactical opportunity in defensive rotation while maintaining crypto exposure via institutional flow support. Monitor oil $95 breakout for sustained stagflation regime confirmation requiring TLT/growth hedges.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 110
 }
