@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>API Documentation — AgentCanary</title>
-<meta name="description" content="AgentCanary API documentation. 125+ intelligence endpoints: market intelligence, expectations, crypto intelligence, thesis monitoring. $0.02 per call.">
+<meta name="description" content="AgentCanary API documentation. 130+ intelligence endpoints: market intelligence, expectations, crypto intelligence, thesis monitoring. $0.02 per call.">
 <meta property="og:title" content="AgentCanary API Documentation">
-<meta property="og:description" content="125+ endpoints. Market intelligence, expectations, crypto timing, thesis monitoring, and more. $0.02 per call.">
+<meta property="og:description" content="130+ endpoints. Market intelligence, expectations, crypto timing, thesis monitoring, and more. $0.02 per call.">
 <meta property="og:image" content="https://agentcanary.ai/og-image.png">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -64,7 +64,7 @@
 
 <div class="container">
   <h1>API Documentation</h1>
-  <p class="subtitle">125+ endpoints · Real-time market intelligence · $0.02 per call</p>
+  <p class="subtitle">130+ endpoints · Real-time market intelligence · $0.02 per call</p>
 
   <div class="auth-note">
     <strong>Authentication:</strong> All paid endpoints require an <code>X-API-Key</code> header.
@@ -211,7 +211,7 @@ curl -H "X-API-Key: YOUR_KEY" \
 
   <!-- SIGNALS -->
   <div class="section">
-    <h2>Atomic Signals (30)</h2>
+    <h2>Atomic Signals (32)</h2>
     <div class="endpoint-grid">
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/vix</span><span class="desc">VIX volatility index</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/dxy</span><span class="desc">Dollar index</span></div>
@@ -243,6 +243,8 @@ curl -H "X-API-Key: YOUR_KEY" \
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/signal-stats</span><span class="desc">Signal state statistics</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/treasury-rankings</span><span class="desc">Treasury concentration rankings</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/treasury-concentration</span><span class="desc">Treasury holder concentration</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/whale-alerts</span><span class="desc">Large BTC on-chain movements</span><span class="new">NEW</span></div>
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/signals/decision-engine</span><span class="desc">Composite buy/sell/hold signals per theme</span><span class="new">NEW</span></div>
     </div>
   </div>
 
@@ -278,6 +280,22 @@ curl -H "X-API-Key: YOUR_KEY" \
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/signals</span><span class="desc">Current MR buy/sell signals</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/trades</span><span class="desc">Paper trade history</span></div>
       <div class="endpoint"><span class="method get">GET</span><span class="path">/api/mr/stats</span><span class="desc">Performance statistics</span></div>
+    </div>
+  </div>
+
+  <!-- SENTIMENT -->
+  <div class="section">
+    <h2>Sentiment Analysis (1)</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/sentiment/reddit</span><span class="desc">Reddit retail crowd sentiment from 14 subreddits</span><span class="new">NEW</span></div>
+    </div>
+  </div>
+
+  <!-- INSTITUTIONAL -->
+  <div class="section">
+    <h2>Institutional Data (1)</h2>
+    <div class="endpoint-grid">
+      <div class="endpoint"><span class="method get">GET</span><span class="path">/api/institutional/13f</span><span class="desc">SEC EDGAR 13F institutional holdings (quarterly)</span><span class="new">NEW</span></div>
     </div>
   </div>
 
