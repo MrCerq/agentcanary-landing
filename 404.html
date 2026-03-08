@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — AgentCanary</title>
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#04070c;--card:#0b1120;--border:#162040;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--t1);font-family:var(--sans);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");pointer-events:none;z-index:9999}
+.glow{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:400px;background:radial-gradient(circle,rgba(255,197,61,.04) 0%,transparent 65%);pointer-events:none}
+.wrap{text-align:center;position:relative;z-index:1}
+.code{font-family:var(--mono);font-size:120px;font-weight:700;color:var(--y);line-height:1;letter-spacing:-4px;opacity:.9}
+.msg{font-size:18px;color:var(--t2);margin-top:12px;max-width:400px}
+.terminal{font-family:var(--mono);font-size:13px;color:var(--t3);margin-top:32px;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px 24px;text-align:left;max-width:440px}
+.terminal .prompt{color:var(--y)}
+.terminal .output{color:var(--t2);margin-top:8px}
+.links{margin-top:32px;display:flex;gap:16px}
+.links a{font-family:var(--mono);font-size:13px;color:var(--t2);text-decoration:none;padding:10px 20px;border:1px solid var(--border);border-radius:6px;transition:all .2s}
+.links a:hover{color:var(--y);border-color:var(--y)}
+.links a.primary{background:var(--y);color:var(--bg);border-color:var(--y);font-weight:600}
+.links a.primary:hover{background:var(--y-dim)}
+</style>
+</head>
+<body>
+<div class="glow"></div>
+<div class="wrap">
+  <div class="code">404</div>
+  <div class="msg">This endpoint doesn't exist. Maybe the market moved it.</div>
+  <div class="terminal">
+    <div><span class="prompt">$</span> curl agentcanary.ai<span id="path"></span></div>
+    <div class="output">{"error": "not_found", "message": "No data here. Try /briefs or /docs."}</div>
+  </div>
+  <div class="links">
+    <a class="primary" href="/">Home</a>
+    <a href="/briefs">Briefs</a>
+    <a href="/docs">API Docs</a>
+    <a href="https://t.me/agentcanary">Telegram</a>
+  </div>
+</div>
+<script>
+document.getElementById('path').textContent = window.location.pathname;
+</script>
+</body>
+</html>
