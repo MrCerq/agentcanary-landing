@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-08",
-  "time": "04:15 UTC",
-  "headline": "🟢 Risk-On · Neutral · Gauge 49.4/100",
-  "headlineColor": "#FFC53D",
-  "desc": "STAGFLATION. F&G: —. WATCH.",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 8, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 49.4/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
-      "c": "yellow"
+      "t": "LOW",
+      "c": "green"
     },
     {
-      "t": "GAUGE 49.4",
-      "c": "yellow"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1.5/6 WATCH",
+          "k": "VIX",
+          "v": "+24.2%",
           "c": "green"
+        },
+        {
+          "k": "WTI",
+          "v": "+12.2%",
+          "c": "green"
+        },
+        {
+          "k": "BRENT",
+          "v": "+8.5%",
+          "c": "green"
+        },
+        {
+          "k": "EWY",
+          "v": "-5.7%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 8, 2026\n\n🟢 <b>Risk-On · Neutral</b> · STAGFLATION · Gauge: 49.4/100\n\n• BTC: <b>$67,041</b>\n• ETH: <b>$1,948</b>\n• SOL: <b>$82.39</b>\n• GOLD: <b>$5,153</b>\nSPY: <b>$672.38</b> (-1.9%)\nQQQ: <b>$599.75</b> (-1.8%)\nVIX: <b>29.5</b> (+24.2%)\nTLT: <b>$88.46</b> (-0.8%)\nDXY: <b>98.9</b> (-0.5%)\nOIL: <b>$90.9</b> (+12.2%)\n\n\n<b>NOTABLE Z-SCORES</b>\n🔴 WTI Crude Oil: +3.02σ\n🔴 2Y Treasury: +2.27σ\n🔴 VIX: +2.12σ\n🔴 10Y Breakeven Inflation: +1.96σ\n🟢 30Y Mortgage Rate: -1.57σ\n\n<b>TOP MOVERS</b>\n🟢 VIX $29.49 (+24.2%)\n🟢 OIL $90.90 (+12.2%)\n🟢 WTI $90.90 (+12.2%)\n🟢 BRENT $92.69 (+8.5%)\n🔴 EWY $127 (-5.7%)\n🔴 PEPE $0.000003210 (-5.0%)\n🔴 PENDLE $1.18 (-4.1%)\n🔴 DOT $1.44 (-4.0%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.57% (&lt;3.6%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 113
+  "telegramText": "<b>SIGNAL SCAN</b> — March 8, 2026\n\n<b>SNAPSHOT</b>\nRisk-off acceleration as stagflation pressures intensify. VIX spiking to 11-month highs while oil surges 12% amid geopolitical escalation. Tech bleeding heavy with semis down 5% as growth trades reprice higher rates environment.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 49.4/100 (Elevated)\nRegime: STAGFLATION — Oil surge +12% driving inflation expectations higher amid growth deceleration\nKey prices: SPY -1.9% | QQQ -1.8% | VIX +24.2% | TLT -0.8% | DXY -0.1% | OIL +12.2%\nICSA: 213K (-0.08 z-score, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Premium Fade\nSPY: $685-695 (+2-3%)\nVIX: $22-25 (-15-25%)\nOIL: $82-86 (-5-10%)\n\n<b>SCENARIO B</b> — Stagflation Deepens  \nSPY: $640-655 (-3-5%)\nTLT: $92-95 (+4-7%)\nGLD: $490-510 (+4-8%)\n\n<b>SCENARIO C</b> — Fed Pivot Signal\nQQQ: $620-640 (+3-7%)\nDXY: $96-97 (-2-3%)\nVIX: $20-24 (-20-32%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +0.7%) — bid\n2. Utilities (XLU -1.1%) — rotating  \n3. Comm Services (XLC -1.1%) — weak\n4. Consumer Staples (XLP -1.6%) — dump\n5. Technology (XLK -1.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 29.49 (+24.2%) — Fear index hits 11-month high amid cross-asset volatility spike\nWTI 90.9 (+12.2%) — Iran regional escalation threats driving energy premium surge\nSOXX 323.51 (-5.3%) — Semiconductor complex crushed on stagflation growth concerns  \nEWY 126.73 (-5.7%) — South Korea exposure amid regional geopolitical tensions\nPENDLE 1.18 (-4.1%) — DeFi yield protocols repricing rate environment shift\n<i>Commodities diverging sharply from risk assets as markets reprice stagflation probability with geopolitical catalyst.</i>\n\n<b>POSITIONING</b>\nBTC whales: $59.7M long vs $40.1M short (+$6.4M PnL, max 40x leverage)\nETH whales: $34.3M short positioning (-$817K PnL, max 20x leverage)  \nBTC ETF flows: +$106.4M inflow (10-day consecutive streak, medium significance)\n\n<b>IMPLICATION</b>\nTactical energy overweight justified while growth trades remain vulnerable to stagflation repricing. Consider defensive positioning in utilities/staples with VIX above 25 signaling further equity downside risk unless geopolitical premium fades.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 114
 }

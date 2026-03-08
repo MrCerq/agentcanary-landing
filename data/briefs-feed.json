@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-08",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 8, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 49.4/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 49
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "VIX",
+            "v": "+24.2%",
+            "c": "green"
+          },
+          {
+            "k": "WTI",
+            "v": "+12.2%",
+            "c": "green"
+          },
+          {
+            "k": "BRENT",
+            "v": "+8.5%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "-5.7%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — March 8, 2026\n\n<b>SNAPSHOT</b>\nRisk-off acceleration as stagflation pressures intensify. VIX spiking to 11-month highs while oil surges 12% amid geopolitical escalation. Tech bleeding heavy with semis down 5% as growth trades reprice higher rates environment.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 49.4/100 (Elevated)\nRegime: STAGFLATION — Oil surge +12% driving inflation expectations higher amid growth deceleration\nKey prices: SPY -1.9% | QQQ -1.8% | VIX +24.2% | TLT -0.8% | DXY -0.1% | OIL +12.2%\nICSA: 213K (-0.08 z-score, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Premium Fade\nSPY: $685-695 (+2-3%)\nVIX: $22-25 (-15-25%)\nOIL: $82-86 (-5-10%)\n\n<b>SCENARIO B</b> — Stagflation Deepens  \nSPY: $640-655 (-3-5%)\nTLT: $92-95 (+4-7%)\nGLD: $490-510 (+4-8%)\n\n<b>SCENARIO C</b> — Fed Pivot Signal\nQQQ: $620-640 (+3-7%)\nDXY: $96-97 (-2-3%)\nVIX: $20-24 (-20-32%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +0.7%) — bid\n2. Utilities (XLU -1.1%) — rotating  \n3. Comm Services (XLC -1.1%) — weak\n4. Consumer Staples (XLP -1.6%) — dump\n5. Technology (XLK -1.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 29.49 (+24.2%) — Fear index hits 11-month high amid cross-asset volatility spike\nWTI 90.9 (+12.2%) — Iran regional escalation threats driving energy premium surge\nSOXX 323.51 (-5.3%) — Semiconductor complex crushed on stagflation growth concerns  \nEWY 126.73 (-5.7%) — South Korea exposure amid regional geopolitical tensions\nPENDLE 1.18 (-4.1%) — DeFi yield protocols repricing rate environment shift\n<i>Commodities diverging sharply from risk assets as markets reprice stagflation probability with geopolitical catalyst.</i>\n\n<b>POSITIONING</b>\nBTC whales: $59.7M long vs $40.1M short (+$6.4M PnL, max 40x leverage)\nETH whales: $34.3M short positioning (-$817K PnL, max 20x leverage)  \nBTC ETF flows: +$106.4M inflow (10-day consecutive streak, medium significance)\n\n<b>IMPLICATION</b>\nTactical energy overweight justified while growth trades remain vulnerable to stagflation repricing. Consider defensive positioning in utilities/staples with VIX above 25 signaling further equity downside risk unless geopolitical premium fades.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 114
+  },
+  {
     "session": "morning",
     "date": "2026-03-08",
     "time": "04:15 UTC",
@@ -1543,61 +1596,6 @@
             "k": "🇺🇸 Net long-term capita",
             "v": "Mar 11",
             "c": "blue"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "session": "midday",
-    "date": "2026-02-27",
-    "time": "13:00 UTC",
-    "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:DISTRIBUTION 4h:ACCUMULATION · ETH 1d:DISTRIBUTION 4h:ACCUMULATION · SOL 1d:DISTRIBUTION 4h:ACCUMULATION",
-    "tags": [
-      {
-        "t": "DISTRIBUTION",
-        "c": "yellow"
-      },
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          }
-        ]
-      },
-      {
-        "label": "WHALE MOVES",
-        "rows": [
-          {
-            "k": "BTC",
-            "v": "?",
-            "c": "red"
-          },
-          {
-            "k": "BTC",
-            "v": "?",
-            "c": "red"
           }
         ]
       }
