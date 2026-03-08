@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uranium Sector Monitor — AgentCanary</title>
+<meta name="description" content="Real-time uranium market intelligence: spot prices, 16 mining stocks, ETF tracking, supply/demand analysis, and macro regime context. Free sector dashboard by AgentCanary.">
+<meta name="keywords" content="uranium price,uranium stocks,uranium ETF,nuclear energy,CCJ,UEC,UUUU,DNN,NXE,URA,URNM,uranium spot price,uranium investment,nuclear power,U3O8">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Uranium Sector Monitor — AgentCanary">
+<meta property="og:description" content="Real-time uranium market intelligence. Spot prices, mining stocks, ETFs, supply/demand, and macro regime context.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://agentcanary.ai/uranium/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Uranium Sector Monitor — AgentCanary">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#04070c;--bg2:#080d18;--card:#0b1120;--card-h:#0f1628;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--y-glow:rgba(255,197,61,.10);--y-glow-s:rgba(255,197,61,.22);--y-border:rgba(255,197,61,.20);--g:#34d399;--g-glow:rgba(52,211,153,.10);--r:#f87171;--b:#60a5fa;--p:#a78bfa;--o:#fb923c;--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif;--u-green:#22c55e;--u-green-glow:rgba(34,197,94,.10)}
+*{margin:0;padding:0;box-sizing:border-box}
+html{overflow-x:hidden!important;width:100%}
+body{background:var(--bg);color:var(--t1);font-family:var(--sans);line-height:1.6;overflow-x:hidden;width:100%}
+
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;background:rgba(4,7,12,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:var(--mono);font-weight:700;font-size:17px;letter-spacing:-.5px;text-decoration:none;color:var(--t1)}
+.nav-logo span{color:var(--y)}
+.nav-links{display:flex;gap:24px;align-items:center}
+.nav-links a{font-size:14px;color:var(--t2);text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--t1)}
+.nav-pill{font-family:var(--mono);font-size:11px;font-weight:500;padding:5px 12px;border-radius:100px;border:1px solid var(--u-green);color:var(--u-green);background:var(--u-green-glow);letter-spacing:.3px}
+
+.container{max-width:1400px;margin:0 auto;padding:80px 24px 40px}
+
+.page-header{margin-bottom:32px;padding:32px 0}
+.page-header h1{font-size:36px;font-weight:700;letter-spacing:-1px;display:flex;align-items:center;gap:12px}
+.page-header h1 .icon{color:var(--u-green)}
+.page-header .subtitle{color:var(--t2);font-size:15px;margin-top:8px;max-width:600px}
+.header-row{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:16px}
+.header-meta{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.meta-badge{font-family:var(--mono);font-size:11px;padding:4px 10px;border-radius:6px;border:1px solid var(--border)}
+.meta-badge.regime{border-color:var(--r);color:var(--r)}
+.meta-badge.narrative{border-color:var(--u-green);color:var(--u-green)}
+.meta-badge.updated{color:var(--t3);border-color:var(--border)}
+
+/* Stat Cards */
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;transition:background .2s}
+.stat-card:hover{background:var(--card-h)}
+.stat-label{font-size:12px;color:var(--t3);font-family:var(--mono);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.stat-value{font-size:28px;font-weight:700;font-family:var(--mono)}
+.stat-change{font-size:13px;font-family:var(--mono);margin-top:4px}
+.stat-change.up{color:var(--g)}
+.stat-change.down{color:var(--r)}
+.stat-note{font-size:11px;color:var(--t3);margin-top:4px}
+
+/* Grid Layout */
+.grid-2{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-bottom:24px}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:24px}
+.grid-equal{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px}
+.full-width{margin-bottom:24px}
+
+/* Cards */
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.card-header{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.card-title{font-size:14px;font-weight:600;display:flex;align-items:center;gap:8px}
+.card-title .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.card-title .dot.green{background:var(--u-green)}
+.card-title .dot.yellow{background:var(--y)}
+.card-title .dot.blue{background:var(--b)}
+.card-body{padding:16px 20px}
+
+/* Stock Table */
+.stock-table{width:100%;border-collapse:collapse}
+.stock-table th{font-family:var(--mono);font-size:11px;color:var(--t3);text-transform:uppercase;letter-spacing:.5px;text-align:left;padding:8px 12px;border-bottom:1px solid var(--border)}
+.stock-table th.right,.stock-table td.right{text-align:right}
+.stock-table td{font-family:var(--mono);font-size:13px;padding:10px 12px;border-bottom:1px solid rgba(22,32,64,.5)}
+.stock-table tr:hover{background:var(--card-h)}
+.stock-table .ticker{font-weight:600;color:var(--t1)}
+.stock-table .name{color:var(--t2);font-size:11px;font-family:var(--sans)}
+.stock-table .up{color:var(--g)}
+.stock-table .down{color:var(--r)}
+.stock-table .neutral{color:var(--t2)}
+.stock-table .vol{color:var(--t3)}
+
+/* ETF Cards */
+.etf-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.etf-card{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:16px;transition:all .2s}
+.etf-card:hover{border-color:var(--border-b)}
+.etf-ticker{font-family:var(--mono);font-weight:700;font-size:18px;color:var(--t1)}
+.etf-name{font-size:12px;color:var(--t2);margin-top:2px}
+.etf-row{display:flex;justify-content:space-between;margin-top:12px;padding-top:8px;border-top:1px solid var(--border)}
+.etf-metric{text-align:center}
+.etf-metric .label{font-size:10px;color:var(--t3);font-family:var(--mono);text-transform:uppercase}
+.etf-metric .value{font-size:14px;font-family:var(--mono);font-weight:500;margin-top:2px}
+.etf-badge{display:inline-block;font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:4px;margin-top:4px}
+.etf-badge.physical{background:rgba(251,146,60,.1);color:var(--o);border:1px solid rgba(251,146,60,.2)}
+.etf-badge.equity{background:rgba(96,165,250,.1);color:var(--b);border:1px solid rgba(96,165,250,.2)}
+.etf-badge.junior{background:rgba(167,139,250,.1);color:var(--p);border:1px solid rgba(167,139,250,.2)}
+
+/* Catalyst List */
+.catalyst{padding:14px 0;border-bottom:1px solid rgba(22,32,64,.5);display:flex;gap:12px}
+.catalyst:last-child{border-bottom:none}
+.catalyst-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.catalyst-icon.policy{background:rgba(96,165,250,.1)}
+.catalyst-icon.supply{background:rgba(251,146,60,.1)}
+.catalyst-icon.demand{background:rgba(34,197,94,.1)}
+.catalyst-icon.company{background:rgba(167,139,250,.1)}
+.catalyst-title{font-size:13px;font-weight:500}
+.catalyst-meta{font-size:11px;color:var(--t3);display:flex;gap:8px;margin-top:4px}
+.catalyst-tag{font-family:var(--mono);font-size:10px;padding:1px 6px;border-radius:3px}
+.catalyst-tag.bullish{color:var(--g);background:rgba(34,197,94,.1)}
+.catalyst-tag.bearish{color:var(--r);background:rgba(248,113,113,.1)}
+.catalyst-tag.neutral{color:var(--t2);background:rgba(120,136,168,.1)}
+.catalyst-desc{font-size:12px;color:var(--t2);margin-top:4px;line-height:1.5}
+
+/* Supply/Demand Bar */
+.sd-bar{height:8px;border-radius:4px;background:var(--bg2);overflow:hidden;margin:8px 0}
+.sd-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--u-green),var(--y))}
+.sd-row{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;margin-bottom:16px}
+.sd-label{color:var(--t2)}
+.sd-value{color:var(--t1);font-weight:500}
+
+/* Thesis Box */
+.thesis-box{background:linear-gradient(135deg,rgba(34,197,94,.05),rgba(255,197,61,.05));border:1px solid rgba(34,197,94,.15);border-radius:10px;padding:24px;margin-bottom:24px}
+.thesis-box h3{font-size:15px;font-weight:600;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.thesis-box p{font-size:13px;color:var(--t2);line-height:1.7}
+.thesis-points{list-style:none;padding:0;margin-top:12px}
+.thesis-points li{font-size:13px;color:var(--t2);padding:6px 0;padding-left:20px;position:relative;line-height:1.5}
+.thesis-points li::before{content:'';position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:50%;background:var(--u-green)}
+
+/* Footer */
+.page-footer{margin-top:40px;padding:24px 0;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.page-footer .source{font-size:11px;color:var(--t3)}
+.page-footer a{color:var(--y);text-decoration:none;font-family:var(--mono);font-size:12px}
+
+/* Regime Banner */
+.regime-banner{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 20px;margin-bottom:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.regime-item{text-align:center}
+.regime-item .label{font-size:10px;color:var(--t3);font-family:var(--mono);text-transform:uppercase;letter-spacing:.5px}
+.regime-item .value{font-size:15px;font-family:var(--mono);font-weight:600;margin-top:4px}
+
+/* Loading */
+.loading{font-family:var(--mono);font-size:12px;color:var(--t3);text-align:center;padding:40px}
+.loading::after{content:'';display:inline-block;width:6px;height:6px;background:var(--u-green);border-radius:50%;margin-left:8px;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+
+/* Responsive */
+@media(max-width:1024px){.grid-2{grid-template-columns:1fr}.grid-3{grid-template-columns:1fr 1fr}.stats-row{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){nav{padding:14px 16px}.container{padding:70px 16px 24px}.nav-links{display:none}.stats-row{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:1fr}.etf-grid{grid-template-columns:1fr}.grid-equal{grid-template-columns:1fr}.regime-banner{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Agent<span>Canary</span></a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/briefs">Briefs</a>
+    <a href="/docs">API Docs</a>
+    <a class="active" href="/uranium/">Uranium</a>
+    <span class="nav-pill">Sector Monitor</span>
+  </div>
+</nav>
+
+<div class="container">
+
+  <div class="page-header">
+    <div class="header-row">
+      <div>
+        <h1><span class="icon">&#x2622;</span> Uranium Sector Monitor</h1>
+        <p class="subtitle">Real-time uranium market intelligence with macro regime context. Prices, miners, ETFs, supply/demand, and catalysts.</p>
+      </div>
+      <div class="header-meta">
+        <span class="meta-badge regime" id="regime-badge">Loading...</span>
+        <span class="meta-badge narrative" id="narrative-badge">Loading...</span>
+        <span class="meta-badge updated" id="updated-badge">--</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Regime Context Banner -->
+  <div class="regime-banner" id="regime-banner">
+    <div class="regime-item"><div class="label">Macro Regime</div><div class="value" id="rb-regime">--</div></div>
+    <div class="regime-item"><div class="label">Risk Gauge</div><div class="value" id="rb-risk">--</div></div>
+    <div class="regime-item"><div class="label">Business Cycle</div><div class="value" id="rb-cycle">--</div></div>
+    <div class="regime-item"><div class="label">Uranium Narrative</div><div class="value" id="rb-narrative">--</div></div>
+    <div class="regime-item"><div class="label">Narrative Momentum</div><div class="value" id="rb-momentum">--</div></div>
+    <div class="regime-item"><div class="label">DXY</div><div class="value" id="rb-dxy">--</div></div>
+  </div>
+
+  <!-- Top Stats -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">U3O8 Spot (Est.)</div>
+      <div class="stat-value" id="spot-price">--</div>
+      <div class="stat-change" id="spot-change">--</div>
+      <div class="stat-note">via SRUUF x4.2</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">URA ETF</div>
+      <div class="stat-value" id="ura-price">--</div>
+      <div class="stat-change" id="ura-change">--</div>
+      <div class="stat-note">Global X Uranium</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">CCJ (Cameco)</div>
+      <div class="stat-value" id="ccj-price">--</div>
+      <div class="stat-change" id="ccj-change">--</div>
+      <div class="stat-note">Largest producer</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Sector Avg Change</div>
+      <div class="stat-value" id="sector-avg">--</div>
+      <div class="stat-change" id="sector-vs-spy">-- vs SPY</div>
+      <div class="stat-note">16 miners</div>
+    </div>
+  </div>
+
+  <!-- Main Grid -->
+  <div class="grid-2">
+    <!-- Miners Table -->
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="dot green"></span>Uranium Miners</div>
+        <span style="font-family:var(--mono);font-size:11px;color:var(--t3)" id="miner-count">16 stocks</span>
+      </div>
+      <div class="card-body" style="padding:0">
+        <table class="stock-table">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th class="right">Price</th>
+              <th class="right">Change</th>
+              <th class="right">Mkt Cap</th>
+              <th class="right">Volume</th>
+            </tr>
+          </thead>
+          <tbody id="miners-tbody">
+            <tr><td colspan="5" class="loading">Loading miners...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div>
+      <!-- ETFs -->
+      <div class="card" style="margin-bottom:16px">
+        <div class="card-header">
+          <div class="card-title"><span class="dot yellow"></span>ETFs &amp; Funds</div>
+        </div>
+        <div class="card-body">
+          <div class="etf-grid" id="etf-grid">
+            <div class="loading">Loading ETFs...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Supply/Demand -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title"><span class="dot blue"></span>Supply / Demand</div>
+        </div>
+        <div class="card-body">
+          <div class="sd-row"><span class="sd-label">Global Production</span><span class="sd-value">130M lbs/yr</span></div>
+          <div class="sd-row"><span class="sd-label">Reactor Demand</span><span class="sd-value">180M lbs/yr</span></div>
+          <div class="sd-row"><span class="sd-label">Supply Deficit</span><span class="sd-value" style="color:var(--r)">-50M lbs/yr</span></div>
+          <div class="sd-bar"><div class="sd-fill" style="width:72%"></div></div>
+          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--t3);font-family:var(--mono)">
+            <span>Supply covers 72% of demand</span>
+            <span>WNA 2026 est.</span>
+          </div>
+          <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
+            <div class="sd-row"><span class="sd-label">Operating Reactors</span><span class="sd-value">440</span></div>
+            <div class="sd-row"><span class="sd-label">Under Construction</span><span class="sd-value" style="color:var(--g)">62</span></div>
+            <div class="sd-row"><span class="sd-label">Planned</span><span class="sd-value">110+</span></div>
+            <div style="font-size:11px;color:var(--t3);margin-top:8px">Sources: WNA, IAEA PRIS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thesis -->
+  <div class="thesis-box">
+    <h3>&#x2622; Bull Thesis — Structural Deficit Through 2030s</h3>
+    <p>The uranium market faces a persistent structural supply deficit. Primary production covers only ~72% of reactor demand. Secondary supply sources (stockpiles, recycling, underfeeding) are depleting. New mine development takes 10-15 years from discovery to production.</p>
+    <ul class="thesis-points">
+      <li>BofA, Goldman, and WNA all confirm structural deficit through 2030s</li>
+      <li>62 reactors under construction globally (China, India leading) with 110+ planned</li>
+      <li>US Strategic Reserve purchases authorized ($2.72B over 10 years)</li>
+      <li>Kazatomprom (43% global supply) faces production challenges — sulfuric acid shortages</li>
+      <li>Japan reactor restarts adding 400-500 tonnes/year demand per restart</li>
+      <li>AI datacenter power demand accelerating nuclear renaissance narrative</li>
+    </ul>
+  </div>
+
+  <!-- Catalysts -->
+  <div class="grid-equal">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="dot green"></span>Key Catalysts</div>
+      </div>
+      <div class="card-body" style="padding:12px 20px">
+        <div class="catalyst">
+          <div class="catalyst-icon policy">&#127463;</div>
+          <div>
+            <div class="catalyst-title">US Strategic Uranium Reserve Purchases</div>
+            <div class="catalyst-meta">
+              <span>Q1 2026</span>
+              <span class="catalyst-tag bullish">bullish</span>
+            </div>
+            <div class="catalyst-desc">DOE purchasing domestically-produced uranium. $2.72B authorized over 10 years under Nuclear Fuel Security Act.</div>
+          </div>
+        </div>
+        <div class="catalyst">
+          <div class="catalyst-icon supply">&#9874;</div>
+          <div>
+            <div class="catalyst-title">Kazatomprom Production Guidance</div>
+            <div class="catalyst-meta">
+              <span>Q1 2026</span>
+              <span class="catalyst-tag bullish">bullish</span>
+            </div>
+            <div class="catalyst-desc">Any shortfall from world's largest producer (43% global supply) tightens the market further.</div>
+          </div>
+        </div>
+        <div class="catalyst">
+          <div class="catalyst-icon demand">&#9889;</div>
+          <div>
+            <div class="catalyst-title">Japanese Reactor Restarts</div>
+            <div class="catalyst-meta">
+              <span>Ongoing</span>
+              <span class="catalyst-tag bullish">bullish</span>
+            </div>
+            <div class="catalyst-desc">Each restart adds ~400-500 tonnes/year of uranium demand. Fleet restoration accelerating.</div>
+          </div>
+        </div>
+        <div class="catalyst">
+          <div class="catalyst-icon company">&#128200;</div>
+          <div>
+            <div class="catalyst-title">NexGen Rook I Permitting</div>
+            <div class="catalyst-meta">
+              <span>Q2 2026</span>
+              <span class="catalyst-tag neutral">neutral</span>
+            </div>
+            <div class="catalyst-desc">Federal environmental assessment for Arrow deposit — one of world's largest undeveloped high-grade deposits.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="dot yellow"></span>Bear Risks</div>
+      </div>
+      <div class="card-body" style="padding:12px 20px">
+        <div class="catalyst">
+          <div class="catalyst-icon supply">&#128683;</div>
+          <div>
+            <div class="catalyst-title">Kazakhstan Production Recovery</div>
+            <div class="catalyst-meta">
+              <span>2026-2027</span>
+              <span class="catalyst-tag bearish">bearish</span>
+            </div>
+            <div class="catalyst-desc">If Kazatomprom resolves sulfuric acid issues and ramps production above guidance, spot could correct.</div>
+          </div>
+        </div>
+        <div class="catalyst">
+          <div class="catalyst-icon policy">&#127988;</div>
+          <div>
+            <div class="catalyst-title">Nuclear Sentiment Reversal</div>
+            <div class="catalyst-meta">
+              <span>Tail Risk</span>
+              <span class="catalyst-tag bearish">bearish</span>
+            </div>
+            <div class="catalyst-desc">Any nuclear incident globally could reverse political momentum toward nuclear power.</div>
+          </div>
+        </div>
+        <div class="catalyst">
+          <div class="catalyst-icon demand">&#128200;</div>
+          <div>
+            <div class="catalyst-title">Recession Demand Destruction</div>
+            <div class="catalyst-meta">
+              <span>If recession materializes</span>
+              <span class="catalyst-tag bearish">bearish</span>
+            </div>
+            <div class="catalyst-desc">Industrial slowdown reduces electricity demand. Utilities delay fuel purchases, pressuring spot.</div>
+          </div>
+        </div>
+        <div class="catalyst">
+          <div class="catalyst-icon policy">&#127760;</div>
+          <div>
+            <div class="catalyst-title">Russian Supply Normalization</div>
+            <div class="catalyst-meta">
+              <span>Post-conflict</span>
+              <span class="catalyst-tag bearish">bearish</span>
+            </div>
+            <div class="catalyst-desc">Russia/TENEX supplies ~25% of US enrichment. Normalization of trade could ease supply fears.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-footer">
+    <div class="source">
+      Prices: Yahoo Finance API | Spot: SRUUF proxy (95% UxC accuracy) | Supply/Demand: WNA, IAEA | Regime: AgentCanary API<br>
+      Data refreshes every 2 minutes during market hours. Not investment advice.
+    </div>
+    <div>
+      <a href="/">AgentCanary</a> &middot; <a href="/briefs">Briefs</a> &middot; <a href="/docs">API</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ============================================================
+// Uranium Sector Monitor — Live Data
+// ============================================================
+
+const MINERS = [
+  { t: 'CCJ', name: 'Cameco Corporation', cat: 'major' },
+  { t: 'UEC', name: 'Uranium Energy Corp', cat: 'producer' },
+  { t: 'UUUU', name: 'Energy Fuels', cat: 'producer' },
+  { t: 'DNN', name: 'Denison Mines', cat: 'developer' },
+  { t: 'NXE', name: 'NexGen Energy', cat: 'developer' },
+  { t: 'URG', name: 'Ur-Energy', cat: 'producer' },
+  { t: 'LEU', name: 'Centrus Energy', cat: 'enrichment' },
+  { t: 'BWXT', name: 'BWX Technologies', cat: 'nuclear' },
+  { t: 'LTBR', name: 'Lightbridge Corp', cat: 'technology' },
+  { t: 'SMR', name: 'NuScale Power', cat: 'smr' },
+  { t: 'OKLO', name: 'Oklo Inc', cat: 'smr' },
+  { t: 'NANO', name: 'NANO Nuclear Energy', cat: 'smr' },
+  { t: 'EU', name: 'enCore Energy', cat: 'producer' },
+  { t: 'URA', name: 'Global X Uranium ETF', cat: 'etf', hide: true },
+  { t: 'URNM', name: 'Sprott Uranium Miners', cat: 'etf', hide: true },
+  { t: 'SRUUF', name: 'Sprott Physical Uranium', cat: 'etf', hide: true },
+  { t: 'URNJ', name: 'Sprott Junior Uranium', cat: 'etf', hide: true },
+  { t: 'SPY', name: 'S&P 500', cat: 'bench', hide: true },
+];
+
+const ETFS = [
+  { t: 'SRUUF', name: 'Sprott Physical Uranium', type: 'physical', aum: '$6.5B', expense: '0.45%', holds: 'Physical U3O8' },
+  { t: 'URA', name: 'Global X Uranium ETF', type: 'equity', aum: '$3.8B', expense: '0.69%', holds: '50+ companies' },
+  { t: 'URNM', name: 'Sprott Uranium Miners', type: 'equity', aum: '$1.5B', expense: '0.75%', holds: '30+ miners' },
+  { t: 'URNJ', name: 'Sprott Junior Uranium', type: 'junior', aum: '$400M', expense: '0.80%', holds: '30+ juniors' },
+];
+
+const API = 'https://api.agentcanary.ai';
+const allTickers = MINERS.map(m => m.t).join(',');
+let prices = {};
+
+function fmt(n, d=2) { return n != null ? n.toFixed(d) : '--'; }
+function fmtPct(n) { return n != null ? (n >= 0 ? '+' : '') + n.toFixed(2) + '%' : '--'; }
+function fmtMcap(n) {
+  if (!n) return '--';
+  if (n >= 1e12) return '$' + (n/1e12).toFixed(1) + 'T';
+  if (n >= 1e9) return '$' + (n/1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return '$' + (n/1e6).toFixed(0) + 'M';
+  return '$' + n.toFixed(0);
+}
+function fmtVol(n) {
+  if (!n) return '--';
+  if (n >= 1e6) return (n/1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n/1e3).toFixed(0) + 'K';
+  return n.toString();
+}
+
+async function fetchPrices() {
+  try {
+    // Use Yahoo Finance v8 API via proxy or direct
+    const tickers = MINERS.map(m => m.t);
+    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${tickers.join(',')}`;
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error('Yahoo API error');
+    const data = await resp.json();
+    const quotes = data.quoteResponse?.result || [];
+    quotes.forEach(q => {
+      prices[q.symbol] = {
+        price: q.regularMarketPrice,
+        change: q.regularMarketChangePercent,
+        mcap: q.marketCap,
+        volume: q.regularMarketVolume,
+        prevClose: q.regularMarketPreviousClose,
+      };
+    });
+  } catch (e) {
+    console.warn('Yahoo direct failed, trying AC proxy...', e);
+    try {
+      // Fallback: try AC API yahoo-quotes endpoint
+      const resp = await fetch(`${API}/api/data/yahoo-quotes`);
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.data) {
+          Object.entries(data.data).forEach(([sym, d]) => {
+            prices[sym] = { price: d.price, change: d.changePct, mcap: d.marketCap, volume: d.volume };
+          });
+        }
+      }
+    } catch (e2) {
+      console.warn('AC API also failed', e2);
+    }
+  }
+}
+
+function renderMiners() {
+  const tbody = document.getElementById('miners-tbody');
+  const miners = MINERS.filter(m => !m.hide);
+  
+  if (Object.keys(prices).length === 0) {
+    tbody.innerHTML = '<tr><td colspan="5" class="loading">Connecting to market data...</td></tr>';
+    return;
+  }
+
+  let html = '';
+  let changes = [];
+  
+  miners.forEach(m => {
+    const p = prices[m.t] || {};
+    const chg = p.change;
+    const chgClass = chg > 0 ? 'up' : chg < 0 ? 'down' : 'neutral';
+    if (chg != null) changes.push(chg);
+    
+    html += `<tr>
+      <td><span class="ticker">${m.t}</span><br><span class="name">${m.name}</span></td>
+      <td class="right">$${fmt(p.price)}</td>
+      <td class="right ${chgClass}">${fmtPct(chg)}</td>
+      <td class="right">${fmtMcap(p.mcap)}</td>
+      <td class="right vol">${fmtVol(p.volume)}</td>
+    </tr>`;
+  });
+  
+  tbody.innerHTML = html;
+
+  // Update top stats
+  const sruuf = prices['SRUUF'];
+  if (sruuf) {
+    const spotEst = sruuf.price * 4.2;
+    document.getElementById('spot-price').textContent = '$' + fmt(spotEst, 1) + '/lb';
+    const spotChg = sruuf.change;
+    const el = document.getElementById('spot-change');
+    el.textContent = fmtPct(spotChg);
+    el.className = 'stat-change ' + (spotChg >= 0 ? 'up' : 'down');
+  }
+
+  const ura = prices['URA'];
+  if (ura) {
+    document.getElementById('ura-price').textContent = '$' + fmt(ura.price);
+    const el = document.getElementById('ura-change');
+    el.textContent = fmtPct(ura.change);
+    el.className = 'stat-change ' + (ura.change >= 0 ? 'up' : 'down');
+  }
+
+  const ccj = prices['CCJ'];
+  if (ccj) {
+    document.getElementById('ccj-price').textContent = '$' + fmt(ccj.price);
+    const el = document.getElementById('ccj-change');
+    el.textContent = fmtPct(ccj.change);
+    el.className = 'stat-change ' + (ccj.change >= 0 ? 'up' : 'down');
+  }
+
+  if (changes.length > 0) {
+    const avg = changes.reduce((a, b) => a + b, 0) / changes.length;
+    const el = document.getElementById('sector-avg');
+    el.textContent = fmtPct(avg);
+    el.style.color = avg >= 0 ? 'var(--g)' : 'var(--r)';
+    
+    const spy = prices['SPY'];
+    if (spy && spy.change != null) {
+      const vs = avg - spy.change;
+      const vsEl = document.getElementById('sector-vs-spy');
+      vsEl.textContent = (vs >= 0 ? '+' : '') + vs.toFixed(2) + '% vs SPY';
+      vsEl.className = 'stat-change ' + (vs >= 0 ? 'up' : 'down');
+    }
+  }
+}
+
+function renderETFs() {
+  const grid = document.getElementById('etf-grid');
+  let html = '';
+  
+  ETFS.forEach(etf => {
+    const p = prices[etf.t] || {};
+    const chgClass = (p.change || 0) >= 0 ? 'up' : 'down';
+    
+    html += `<div class="etf-card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start">
+        <div>
+          <div class="etf-ticker">${etf.t}</div>
+          <div class="etf-name">${etf.name}</div>
+          <span class="etf-badge ${etf.type}">${etf.type}</span>
+        </div>
+        <div style="text-align:right">
+          <div style="font-family:var(--mono);font-size:18px;font-weight:600">$${fmt(p.price)}</div>
+          <div style="font-family:var(--mono);font-size:12px" class="${chgClass}">${fmtPct(p.change)}</div>
+        </div>
+      </div>
+      <div class="etf-row">
+        <div class="etf-metric"><div class="label">Expense</div><div class="value">${etf.expense}</div></div>
+        <div class="etf-metric"><div class="label">AUM</div><div class="value">${etf.aum}</div></div>
+        <div class="etf-metric"><div class="label">Holdings</div><div class="value">${etf.holds}</div></div>
+      </div>
+    </div>`;
+  });
+  
+  grid.innerHTML = html;
+}
+
+async function fetchRegime() {
+  try {
+    const resp = await fetch(`${API}/api/macro-snapshot/regime`);
+    if (!resp.ok) return;
+    const data = await resp.json();
+    
+    document.getElementById('rb-regime').textContent = data.regime || data.label || '--';
+    document.getElementById('rb-regime').style.color = 
+      (data.regime || '').includes('Off') ? 'var(--r)' : 
+      (data.regime || '').includes('On') ? 'var(--g)' : 'var(--y)';
+    
+    document.getElementById('rb-risk').textContent = (data.riskGauge || data.gauge || '--') + '/100';
+    document.getElementById('rb-cycle').textContent = data.businessCycle || data.cycle || '--';
+    
+    const badge = document.getElementById('regime-badge');
+    badge.textContent = data.regime || data.label || 'Loading...';
+  } catch (e) {
+    console.warn('Regime fetch failed', e);
+  }
+}
+
+async function fetchNarrative() {
+  try {
+    const resp = await fetch(`${API}/api/narratives`);
+    if (!resp.ok) return;
+    const data = await resp.json();
+    
+    // Find uranium/nuclear narrative
+    const narratives = data.narratives || data.data?.narratives || [];
+    const uranium = narratives.find(n => 
+      n.id?.includes('uranium') || n.id?.includes('nuclear') || 
+      n.name?.toLowerCase().includes('uranium') || n.name?.toLowerCase().includes('nuclear')
+    );
+    
+    if (uranium) {
+      document.getElementById('rb-narrative').textContent = uranium.score + '/100';
+      document.getElementById('rb-narrative').style.color = uranium.score > 60 ? 'var(--g)' : uranium.score > 40 ? 'var(--y)' : 'var(--r)';
+      document.getElementById('rb-momentum').textContent = uranium.momentum || '--';
+      document.getElementById('narrative-badge').textContent = 'Narrative: ' + uranium.score + '/100';
+    }
+  } catch (e) {
+    console.warn('Narrative fetch failed', e);
+  }
+}
+
+async function init() {
+  document.getElementById('updated-badge').textContent = 'Updated: ' + new Date().toLocaleTimeString();
+  
+  await fetchPrices();
+  renderMiners();
+  renderETFs();
+  fetchRegime();
+  fetchNarrative();
+  
+  // Refresh every 2 minutes
+  setInterval(async () => {
+    await fetchPrices();
+    renderMiners();
+    renderETFs();
+    document.getElementById('updated-badge').textContent = 'Updated: ' + new Date().toLocaleTimeString();
+  }, 120000);
+}
+
+init();
+</script>
+
+</body>
+</html>
