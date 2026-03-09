@@ -1,53 +1,76 @@
 {
-  "session": "intelligence",
-  "date": "2026-03-08",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 8, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 49.4/100 · 8 movers",
+  "session": "cycle",
+  "date": "2026-03-09",
+  "time": "06:37 UTC",
+  "headline": "Cycle: EXPANSION · Metric 910,756 ↓",
+  "headlineColor": "#34d399",
+  "desc": "Credit: LOW (0 flags). IGV $87.97 DOWN. ICSA 213K. (-6.3% WoW)",
   "tags": [
     {
-      "t": "LOW",
+      "t": "EXPANSION",
       "c": "green"
     },
     {
-      "t": "STAGFLATION",
-      "c": "blue"
+      "t": "CREDIT LOW",
+      "c": "green"
+    },
+    {
+      "t": "IGV DOWN",
+      "c": "yellow"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 49
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "CYCLE METRIC",
       "rows": [
         {
-          "k": "VIX",
-          "v": "+24.2%",
+          "k": "Composite",
+          "v": "910,756",
           "c": "green"
         },
         {
-          "k": "WTI",
-          "v": "+12.2%",
+          "k": "Unemployment",
+          "v": "4.4%",
           "c": "green"
         },
         {
-          "k": "BRENT",
-          "v": "+8.5%",
+          "k": "Fed Funds",
+          "v": "3.64%",
+          "c": "blue"
+        },
+        {
+          "k": "ICSA",
+          "v": "213K",
+          "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "CREDIT STRESS",
+      "rows": [
+        {
+          "k": "Level",
+          "v": "LOW",
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "-5.7%",
-          "c": "red"
+          "k": "Card delinq.",
+          "v": "2.94%",
+          "c": "green"
+        },
+        {
+          "k": "All loans",
+          "v": "1.48%",
+          "c": "green"
+        },
+        {
+          "k": "IGV",
+          "v": "$88 DOWN",
+          "c": "yellow"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 8, 2026\n\n<b>SNAPSHOT</b>\nRisk-off acceleration as stagflation pressures intensify. VIX spiking to 11-month highs while oil surges 12% amid geopolitical escalation. Tech bleeding heavy with semis down 5% as growth trades reprice higher rates environment.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 49.4/100 (Elevated)\nRegime: STAGFLATION — Oil surge +12% driving inflation expectations higher amid growth deceleration\nKey prices: SPY -1.9% | QQQ -1.8% | VIX +24.2% | TLT -0.8% | DXY -0.1% | OIL +12.2%\nICSA: 213K (-0.08 z-score, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Premium Fade\nSPY: $685-695 (+2-3%)\nVIX: $22-25 (-15-25%)\nOIL: $82-86 (-5-10%)\n\n<b>SCENARIO B</b> — Stagflation Deepens  \nSPY: $640-655 (-3-5%)\nTLT: $92-95 (+4-7%)\nGLD: $490-510 (+4-8%)\n\n<b>SCENARIO C</b> — Fed Pivot Signal\nQQQ: $620-640 (+3-7%)\nDXY: $96-97 (-2-3%)\nVIX: $20-24 (-20-32%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +0.7%) — bid\n2. Utilities (XLU -1.1%) — rotating  \n3. Comm Services (XLC -1.1%) — weak\n4. Consumer Staples (XLP -1.6%) — dump\n5. Technology (XLK -1.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 29.49 (+24.2%) — Fear index hits 11-month high amid cross-asset volatility spike\nWTI 90.9 (+12.2%) — Iran regional escalation threats driving energy premium surge\nSOXX 323.51 (-5.3%) — Semiconductor complex crushed on stagflation growth concerns  \nEWY 126.73 (-5.7%) — South Korea exposure amid regional geopolitical tensions\nPENDLE 1.18 (-4.1%) — DeFi yield protocols repricing rate environment shift\n<i>Commodities diverging sharply from risk assets as markets reprice stagflation probability with geopolitical catalyst.</i>\n\n<b>POSITIONING</b>\nBTC whales: $59.7M long vs $40.1M short (+$6.4M PnL, max 40x leverage)\nETH whales: $34.3M short positioning (-$817K PnL, max 20x leverage)  \nBTC ETF flows: +$106.4M inflow (10-day consecutive streak, medium significance)\n\n<b>IMPLICATION</b>\nTactical energy overweight justified while growth trades remain vulnerable to stagflation repricing. Consider defensive positioning in utilities/staples with VIX above 25 signaling further equity downside risk unless geopolitical premium fades.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 114
+  "telegramText": "<b>[+] WEEKLY BUSINESS CYCLE</b> — Mar 9, 2026\n\n<b>CYCLE METRIC:</b> 910,756 ↓ (-6.3% WoW)\nPhase: <b>EXPANSION</b>\n\n<b>MACRO INPUTS</b>\n• S&P 500: $6,724\n• Unemployment: 4.4%\n• Fed Funds: 3.64%\n• CPI YoY: 2.35%\n• Initial Claims: 213K\n\n<b>CREDIT STRESS: LOW</b>\n[OK] No flags\n• Card delinquency: 2.94%\n• Consumer loans: 2.62%\n• All loans: 1.48%\n\n<b>SPECULATIVE APPETITE (IGV)</b>\n$87.97 · +51.7% from golden pocket · Trend: DOWN\n[DOWN] Growth still out of favor\n\nagentcanary.ai | <i>Weekly macro cycle analysis</i>",
+  "telegramMessageId": 116
 }
