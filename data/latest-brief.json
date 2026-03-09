@@ -1,76 +1,57 @@
 {
-  "session": "cycle",
+  "session": "midday",
   "date": "2026-03-09",
-  "time": "06:37 UTC",
-  "headline": "Cycle: EXPANSION · Metric 910,756 ↓",
-  "headlineColor": "#34d399",
-  "desc": "Credit: LOW (0 flags). IGV $87.97 DOWN. ICSA 213K. (-6.3% WoW)",
+  "time": "16:15 UTC",
+  "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:DISTRIBUTION 4h:BULL_REGIME · ETH 1d:BEAR_REGIME 4h:BULL_REGIME · SOL 1d:BEAR_REGIME 4h:BULL_REGIME",
   "tags": [
     {
-      "t": "EXPANSION",
-      "c": "green"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "CREDIT LOW",
+      "t": "DOGS 1474% APR",
       "c": "green"
-    },
-    {
-      "t": "IGV DOWN",
-      "c": "yellow"
     }
   ],
   "panels": [
     {
-      "label": "CYCLE METRIC",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "Composite",
-          "v": "910,756",
-          "c": "green"
+          "k": "BTC 1D",
+          "v": "DISTRIBUTION",
+          "c": "red"
         },
         {
-          "k": "Unemployment",
-          "v": "4.4%",
-          "c": "green"
+          "k": "ETH 1D",
+          "v": "BEAR_REGIME",
+          "c": "red"
         },
         {
-          "k": "Fed Funds",
-          "v": "3.64%",
-          "c": "blue"
-        },
-        {
-          "k": "ICSA",
-          "v": "213K",
-          "c": "green"
+          "k": "SOL 1D",
+          "v": "BEAR_REGIME",
+          "c": "red"
         }
       ]
     },
     {
-      "label": "CREDIT STRESS",
+      "label": "TOP WHALE",
       "rows": [
         {
-          "k": "Level",
-          "v": "LOW",
-          "c": "green"
+          "k": "$51M BTC",
+          "v": "transferred from #Co",
+          "c": "blue"
         },
         {
-          "k": "Card delinq.",
-          "v": "2.94%",
-          "c": "green"
-        },
-        {
-          "k": "All loans",
-          "v": "1.48%",
-          "c": "green"
-        },
-        {
-          "k": "IGV",
-          "v": "$88 DOWN",
-          "c": "yellow"
+          "k": "$250M USDC",
+          "v": "minted at USDC Treas",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>[+] WEEKLY BUSINESS CYCLE</b> — Mar 9, 2026\n\n<b>CYCLE METRIC:</b> 910,756 ↓ (-6.3% WoW)\nPhase: <b>EXPANSION</b>\n\n<b>MACRO INPUTS</b>\n• S&P 500: $6,724\n• Unemployment: 4.4%\n• Fed Funds: 3.64%\n• CPI YoY: 2.35%\n• Initial Claims: 213K\n\n<b>CREDIT STRESS: LOW</b>\n[OK] No flags\n• Card delinquency: 2.94%\n• Consumer loans: 2.62%\n• All loans: 1.48%\n\n<b>SPECULATIVE APPETITE (IGV)</b>\n$87.97 · +51.7% from golden pocket · Trend: DOWN\n[DOWN] Growth still out of favor\n\nagentcanary.ai | <i>Weekly macro cycle analysis</i>",
-  "telegramMessageId": 116
+  "telegramText": "<b>MARKET PULSE</b> — Mar 9, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$68,802</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n• ETH: <b>$2,025</b> — 1d: BEAR_REGIME | 4h: BULL_REGIME\n• SOL: <b>$85.04</b> — 1d: BEAR_REGIME | 4h: BULL_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 733 BTC ($50,641,348)\n  <i>transferred from #Coinbase to unknown wallet</i>\n• 250,000,000 USDC ($250,000,249)\n  <i>minted at USDC Treasury</i>\n• 100,000,000 USDC ($100,000,000)\n  <i>transferred from USDC Treasury to #Coinbase</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 119
 }
