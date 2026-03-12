@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-12",
+    "time": "04:15 UTC",
+    "headline": "🟡 Neutral · Neutral · Gauge 78/100",
+    "headlineColor": "#F87171",
+    "desc": "STAGFLATION. F&G: —. WATCH.",
+    "tags": [
+      {
+        "t": "Neutral · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 78",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 78
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1.5/6 WATCH",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 129,
+    "telegramText": "<b>MACRO RADAR</b> — Mar 12, 2026\n\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100\n\n• BTC: <b>$69,555</b>\n• ETH: <b>$2,025</b>\n• SOL: <b>$85.12</b>\n• GOLD: <b>$5,183</b>\nSPY: <b>$676.33</b> (-0.3%)\nQQQ: <b>$607.69</b> (-0.0%)\nVIX: <b>24.2</b> (-5.0%)\nTLT: <b>$87.14</b> (-2.3%)\nDXY: <b>99.5</b> (+0.2%)\nOIL: <b>$94.15</b> (+7.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n[-] Global CB Liquidity: <b>$18.13T</b> (YoY -3.5%)\n   US M2: $22.44T (YoY +4.29%)\n[+] HY Credit Spreads: <b>306bps</b> CALM (5d: -2bps)\n\n<b>NOTABLE Z-SCORES</b>\n[-] WTI Crude Oil: +2.80σ\n[-] 10Y Breakeven Inflation: +2.15σ\n[-] DTWEXBGS: +1.96σ\n[-] 2Y Treasury: +1.60σ\n[+] 30Y Mortgage Rate: -1.57σ\n\n<b>TOP MOVERS</b>\n[+] IREN $41.94 (+10.2%)\n[+] ORCL $163 (+9.1%)\n[+] WTI $94.46 (+8.3%)\n[+] OIL $94.15 (+7.9%) — February CPI Holds at 2.4% as Oil Shock Complicates Fed Rate\n[+] ICP $2.57 (+7.5%)\n[-] GEMI $8.60 (-7.4%)\n[+] HYPE $35.96 (+3.9%)\n[+] FET $0.1592 (+2.8%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n[-] USD Index: 119.491 (&gt;110)\n[~] 2Y Yield: 3.57% (&lt;3.6%)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-03-11",
     "time": "22:15 UTC",

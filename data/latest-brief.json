@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-03-11",
-  "time": "22:15 UTC",
-  "headline": "0 bullish / 0 bearish signals.",
-  "headlineColor": "#A78BFA",
-  "desc": "MARKET WRAP — Mar 11, 2026\n\nMarkets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 24.23 while both equities and crypto sold off in tandem. The dollar's str",
+  "session": "morning",
+  "date": "2026-03-12",
+  "time": "04:15 UTC",
+  "headline": "🟡 Neutral · Neutral · Gauge 78/100",
+  "headlineColor": "#F87171",
+  "desc": "STAGFLATION. F&G: —. WATCH.",
   "tags": [
     {
-      "t": "MIXED",
-      "c": "yellow"
+      "t": "Neutral · Neutral",
+      "c": "red"
     },
     {
-      "t": "US New home sales ",
-      "c": "blue"
+      "t": "GAUGE 78",
+      "c": "red"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 85
+        "value": 78
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US New home sales (AAMR",
-          "v": "Mar 19",
-          "c": "blue"
-        },
-        {
-          "k": " Seasonally adjusted ",
-          "v": "Mar 19",
-          "c": "blue"
-        },
-        {
-          "k": "US Producer Price Index",
-          "v": "Mar 18",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1.5/6 WATCH",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 11, 2026\n\n<i>Markets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 24.23 while both equities and crypto sold off in tandem. The dollar's strength near 99.25 pressured commodities including oil, reflecting growing unease about persistent inflation amid slowing growth. Flight-to-quality flows into bonds provided little relief as TLT remained subdued.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,744</b> · ETH: <b>$2,073</b> · SOL: <b>$87.51</b> · GOLD: <b>$5,183</b> · SPY: <b>$676.33</b> (-0.3%) · QQQ: <b>$607.69</b> (-0.0%) · VIX: <b>$24.23</b> (-5.0%) · TLT: <b>$87.14</b> (-2.3%) · DXY: <b>$99.25</b> (+0.4%) · OIL: <b>$89.61</b> (+7.4%)\n\n<b>EVENING NEWS</b>\n🟢 Dollar Mildly Higher as T-note Yield Rises\n🟢 Precious metals pull back as traders eye war-related inflation concerns\n🟢 Cliffwater caps payouts at credit fund as redemption requests surge\n🟢 BOJ Watchers Set Sights on April Rate Hike After Hold Next Week\n🟢 Blackstone readies £250mn Canary Wharf office sale\n🟢 Astoria Surpasses $500 Million in ETF Assets\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 85/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Durable goods orders (MoM)(Final)(Jan) — Mar 18, 02:00 PM UTC (prev: -1.4%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 12:30 PM UTC (prev: 2.9%)\nEU Consumer Price Index (MoM)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 0.7%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 128
+  "telegramText": "<b>MACRO RADAR</b> — Mar 12, 2026\n\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100\n\n• BTC: <b>$69,555</b>\n• ETH: <b>$2,025</b>\n• SOL: <b>$85.12</b>\n• GOLD: <b>$5,183</b>\nSPY: <b>$676.33</b> (-0.3%)\nQQQ: <b>$607.69</b> (-0.0%)\nVIX: <b>24.2</b> (-5.0%)\nTLT: <b>$87.14</b> (-2.3%)\nDXY: <b>99.5</b> (+0.2%)\nOIL: <b>$94.15</b> (+7.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n[-] Global CB Liquidity: <b>$18.13T</b> (YoY -3.5%)\n   US M2: $22.44T (YoY +4.29%)\n[+] HY Credit Spreads: <b>306bps</b> CALM (5d: -2bps)\n\n<b>NOTABLE Z-SCORES</b>\n[-] WTI Crude Oil: +2.80σ\n[-] 10Y Breakeven Inflation: +2.15σ\n[-] DTWEXBGS: +1.96σ\n[-] 2Y Treasury: +1.60σ\n[+] 30Y Mortgage Rate: -1.57σ\n\n<b>TOP MOVERS</b>\n[+] IREN $41.94 (+10.2%)\n[+] ORCL $163 (+9.1%)\n[+] WTI $94.46 (+8.3%)\n[+] OIL $94.15 (+7.9%) — February CPI Holds at 2.4% as Oil Shock Complicates Fed Rate\n[+] ICP $2.57 (+7.5%)\n[-] GEMI $8.60 (-7.4%)\n[+] HYPE $35.96 (+3.9%)\n[+] FET $0.1592 (+2.8%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n[-] USD Index: 119.491 (&gt;110)\n[~] 2Y Yield: 3.57% (&lt;3.6%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 129
 }
