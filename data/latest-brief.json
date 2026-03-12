@@ -1,17 +1,17 @@
 {
   "session": "evening",
-  "date": "2026-03-10",
+  "date": "2026-03-11",
   "time": "22:15 UTC",
   "headline": "0 bullish / 0 bearish signals.",
   "headlineColor": "#A78BFA",
-  "desc": "MARKET WRAP — Mar 10, 2026\n\nMarkets entered risk-off mode as Middle East tensions sparked an oil shock above $87, feeding stagflation fears already stoked by China's inflation surge. While traditional",
+  "desc": "MARKET WRAP — Mar 11, 2026\n\nMarkets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 24.23 while both equities and crypto sold off in tandem. The dollar's str",
   "tags": [
     {
       "t": "MIXED",
       "c": "yellow"
     },
     {
-      "t": " Seasonally adjust",
+      "t": "US New home sales ",
       "c": "blue"
     }
   ],
@@ -26,6 +26,11 @@
       "label": "CALENDAR",
       "rows": [
         {
+          "k": "US New home sales (AAMR",
+          "v": "Mar 19",
+          "c": "blue"
+        },
+        {
           "k": " Seasonally adjusted ",
           "v": "Mar 19",
           "c": "blue"
@@ -34,15 +39,10 @@
           "k": "US Producer Price Index",
           "v": "Mar 18",
           "c": "blue"
-        },
-        {
-          "k": "EU Consumer Price Index",
-          "v": "Mar 18",
-          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 10, 2026\n\n<i>Markets entered risk-off mode as Middle East tensions sparked an oil shock above $87, feeding stagflation fears already stoked by China's inflation surge. While traditional havens like gold and bonds found support, crypto's surprising resilience amid the broader risk aversion suggests institutional adoption is providing new portfolio dynamics.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$69,798</b> · ETH: <b>$2,029</b> · SOL: <b>$85.62</b> · GOLD: <b>$5,197</b> · SPY: <b>$677.18</b> (+0.7%) · QQQ: <b>$607.77</b> (+1.3%) · VIX: <b>$24.93</b> (-15.5%) · TLT: <b>$88.28</b> (-0.2%) · DXY: <b>$98.91</b> (-0.3%) · OIL: <b>$87.7</b> (-7.5%)\n\n<b>EVENING NEWS</b>\n🟢 Gold rebounds above $5,200 on weaker dollar, reduced inflation fears\n🔴 Crypto hacks fall to $49M in February as attackers shift to phishing scams\n🔴 Shocking Crypto Crime: Fake Cops Steal $1M in Bitcoin From French Couple At Knifepoint\n🔴 Indonesia: Higher oil risks delay BI easing – Standard Chartered\n🟢 Bitcoin orderbook shows imbalance: Will $70K hold?\n🟢 Here's Why Shares in Hecla Mining Popped Higher Today\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle: Oil shock and China inflation suggest economy heating up late in cycle\n↓ Goldilocks: Rising inflation and geopolitical tensions breaking benign environment\n↑ Stagflation: Oil shock plus China CPI surge creating classic stagflationary pressures\n↑ Hegemony: Critical minerals competition and Middle East tensions heightening bloc tensions\n↑ Displacement: Bitcoin ETF flows and minerals reshoring showing alternative system building\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 85/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 12:30 PM UTC\nEU Consumer Price Index (MoM)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 0.7%)\nEU Consumer Price Index (YoY)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 1.9%)\nUS New home sales (AAMR)(Jan) — Mar 16, 02:00 PM UTC (prev: -1.7%)\n Total retail sales of consumer goods (YoY)(Feb) — Mar 16, 02:00 AM UTC (prev: 0.9%)\n\n<b>CONTRARIAN</b>\n• Bitcoin ETF inflows during risk-off periods suggest crypto is becoming a genuine portfolio diversifi\n• China's inflation surge might be temporary demand catch-up rather than persistent pricing power, mak\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 124
+  "telegramText": "<b>MARKET WRAP</b> — Mar 11, 2026\n\n<i>Markets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 24.23 while both equities and crypto sold off in tandem. The dollar's strength near 99.25 pressured commodities including oil, reflecting growing unease about persistent inflation amid slowing growth. Flight-to-quality flows into bonds provided little relief as TLT remained subdued.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,744</b> · ETH: <b>$2,073</b> · SOL: <b>$87.51</b> · GOLD: <b>$5,183</b> · SPY: <b>$676.33</b> (-0.3%) · QQQ: <b>$607.69</b> (-0.0%) · VIX: <b>$24.23</b> (-5.0%) · TLT: <b>$87.14</b> (-2.3%) · DXY: <b>$99.25</b> (+0.4%) · OIL: <b>$89.61</b> (+7.4%)\n\n<b>EVENING NEWS</b>\n🟢 Dollar Mildly Higher as T-note Yield Rises\n🟢 Precious metals pull back as traders eye war-related inflation concerns\n🟢 Cliffwater caps payouts at credit fund as redemption requests surge\n🟢 BOJ Watchers Set Sights on April Rate Hike After Hold Next Week\n🟢 Blackstone readies £250mn Canary Wharf office sale\n🟢 Astoria Surpasses $500 Million in ETF Assets\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 85/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Durable goods orders (MoM)(Final)(Jan) — Mar 18, 02:00 PM UTC (prev: -1.4%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 12:30 PM UTC (prev: 2.9%)\nEU Consumer Price Index (MoM)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 0.7%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 128
 }
