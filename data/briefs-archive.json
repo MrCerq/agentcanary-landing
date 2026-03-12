@@ -1,5 +1,119 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-12",
+    "time": "16:15 UTC",
+    "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:RISK_OFF 4h:DISTRIBUTION · ETH 1d:RISK_OFF 4h:DISTRIBUTION · SOL 1d:RISK_OFF 4h:DISTRIBUTION",
+    "tags": [
+      {
+        "t": "RISK_OFF",
+        "c": "red"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "LYN 963% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$90M USDC",
+            "v": "burned at USDC Treas",
+            "c": "blue"
+          },
+          {
+            "k": "$90M USDC",
+            "v": "minted at USDC Treas",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 131,
+    "telegramText": "<b>MARKET PULSE</b> — Mar 12, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,044</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n• ETH: <b>$2,062</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n• SOL: <b>$86.27</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 90,000,000 USDC ($89,995,365)\n  <i>burned at USDC Treasury</i>\n• 90,000,000 USDC ($89,993,899)\n  <i>minted at USDC Treasury</i>\n• 719 BTC ($50,023,679)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>PIPPIN</b>: 458% net APR (0.2275% rate)\n  Long Bybit / Short OKX | OI: $8.3M | Spread: 0.05%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $60,752,199 | Longs: 52% | L/S: 1.1:1\n\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
+    "session": "intelligence",
+    "date": "2026-03-12",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 12, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 78/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 78
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "IREN",
+            "v": "+10.2%",
+            "c": "green"
+          },
+          {
+            "k": "ORCL",
+            "v": "+9.1%",
+            "c": "green"
+          },
+          {
+            "k": "WTI",
+            "v": "+8.3%",
+            "c": "green"
+          },
+          {
+            "k": "ICP",
+            "v": "+7.5%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 130,
+    "telegramText": "<b>SIGNAL SCAN</b> — March 12, 2026\n\n<b>SNAPSHOT</b>\nStagflationary backdrop with cross-asset tension. Energy rips on Iran-Strait tensions while bonds dump on sticky inflation expectations. Semis lead despite crypto/equity mixed signals as AI infrastructure spending accelerates.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 78.0/100 (High)\nRegime: STAGFLATION — inflation expectations rising while USD strengthens on geopolitical risk\nSPY: $676.33 (-0.29%)\nQQQ: $607.69 (-0.01%)\nVIX: $24.96 (-2.12%)\nTLT: $87.14 (-2.34%)\nDXY: $99.30 (+0.07%)\nOIL: $91.20 (+4.53%)\nICSA: 213K (trend down, -0.08 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $64K-66K (-6% to -9%)\nOIL: $98-105 (+7% to +15%)\nSPY: $645-660 (-2% to -5%)\nTLT: $90-93 (+3% to +7%)\n\n<b>SCENARIO B</b> — Iran Tensions Fade\nOIL: $82-87 (-10% to -5%)\nSPY: $690-710 (+2% to +5%)\nBTC: $72K-76K (+3% to +9%)\nTLT: $82-85 (-6% to -3%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +1.69%) — strong\n2. Energy (XLE +1.17%) — bid\n3. Uranium (URA +0.57%) — rotating\n4. Technology (XLK +0.48%) — steady\n5. Financials (XLF -1.37%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nIREN $41.94 (+10.2%) — NVIDIA AI infrastructure investments boosting bitcoin mining exposure\nORCL $163.33 (+9.1%) — earnings beat as enterprise AI spending accelerates\nWTI $94.46 (+8.3%) — Iran threatens Strait of Hormuz after striking Thai vessel\nICP $2.57 (+7.5%) — AI infrastructure narrative spillover\nHYPE $35.96 (+3.9%) — Hyperliquid derivatives ATH open interest\n<i>AI infrastructure spend driving energy-intensive sectors while geopolitical premium reprices commodity curves.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: -$375.3M outflow (high significance)\nWhale positioning: BTC longs $31.9M vs shorts $36.8M (+$14.4M PnL), ETH heavily short-skewed $72M vs $14.4M longs (-$1.1M PnL), HYPE long-biased $51.9M vs $12.4M shorts but underwater -$2.8M\n\n<b>IMPLICATION</b>\nTactical long energy/semis vs bonds captures stagflationary regime shift. BTC weakness despite whale profits suggests institutional rotation into AI infrastructure plays over store-of-value positioning.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-03-12",
     "time": "04:15 UTC",
