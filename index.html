@@ -392,7 +392,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
       <div class="trust-chk"><span class="ic">✓</span> API-only</div>
       <div class="trust-chk"><span class="ic">✓</span> No keys in LLM context</div>
       <div class="trust-chk"><span class="ic">✓</span> Wallet-based auth</div>
-      <a href="https://www.virustotal.com/gui/file/34a33ff970fd359aa41f37161488b7a016f219cb3971c7b1a0baffcc5c3e604a/detection" target="_blank" class="trust-chk" style="text-decoration:none;"><span class="ic">✓</span> VirusTotal verified</a>
+      <a href="https://www.virustotal.com/gui/file/b49864fd48bcb9545985c9f4235d50d64e783428f109048b323e246826b197e5/detection" target="_blank" class="trust-chk" style="text-decoration:none;"><span class="ic">✓</span> VirusTotal verified</a>
       <div class="trust-chk"><span class="ic">✓</span> No filesystem access</div>
       <div class="trust-chk"><span class="ic">✓</span> 6 months in production</div>
     </div>
@@ -545,24 +545,12 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 
 <div class="notify" style="margin-bottom:20px;">
   <div class="notify-inner">
-    <div class="notify-text"><h3>Get notified when paid tiers open</h3><p>Free tier available now. Full access launching soon.</p></div>
+    <div class="notify-text"><h3>API is live. All tiers open.</h3><p>Deposit USDC or USDT on Base. $5 minimum. Credits never expire.</p></div>
     <div class="notify-form">
-      <input type="email" class="notify-input" placeholder="you@email.com" id="notify-email">
-      <button class="notify-btn" id="notify-btn" onclick="handleNotify()">Notify Me</button>
+      <a href="https://api.agentcanary.ai/app/" class="notify-btn" style="text-decoration:none;text-align:center;">Get Started</a>
     </div>
   </div>
 </div>
-
-<script>
-function handleNotify(){
-  var e=document.getElementById('notify-email'),b=document.getElementById('notify-btn');
-  if(!e.value||!e.value.includes('@')){e.style.borderColor='var(--r)';return}
-  b.textContent='Sending...';b.disabled=true;
-  fetch('https://formspree.io/f/mykdnyrb',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({email:e.value,_subject:'AgentCanary - New signup'})})
-  .then(function(r){if(r.ok){b.textContent='Subscribed ✓';b.style.background='var(--g)';e.disabled=true;e.style.opacity='0.5';}else{b.textContent='Error — try again';b.disabled=false;}})
-  .catch(function(){b.textContent='Error — try again';b.disabled=false;});
-}
-</script>
 
 <div class="cta">
   <div class="cta-glow"></div>

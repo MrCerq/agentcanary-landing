@@ -67,9 +67,9 @@
   <p class="subtitle">130+ endpoints · Real-time market intelligence · $0.02 per call</p>
 
   <div class="auth-note">
-    <strong>Authentication:</strong> All paid endpoints require an <code>X-API-Key</code> header.
+    <strong>Authentication:</strong> All endpoints require an API key via <code>?apikey=YOUR_KEY</code> query param.
     Create a key via <code>POST /api/keys/create</code> with your wallet address.
-    Briefs are free — no key required on the Telegram channel.
+    Deposit USDC/USDT on Base ($5 minimum). Credits never expire. No KYC.
   </div>
 
   <div class="quick-start">
@@ -88,9 +88,9 @@ curl -H "X-API-Key: YOUR_KEY" \
   </div>
 
   <div class="tier-grid">
-    <div class="tier"><h3>Briefs</h3><div class="price">$0</div><div class="features">Telegram briefs<br>4x daily<br>No auth required</div></div>
-    <div class="tier"><h3>All Endpoints</h3><div class="price">$0.02/call</div><div class="features">Pay per call<br>Deposit credits upfront<br>No monthly fees</div></div>
-    <div class="tier"><h3>Credits</h3><div class="price">Never expire</div><div class="features">No tiers<br>No KYC<br>Wallet-based auth</div></div>
+    <div class="tier"><h3>Explorer</h3><div class="price">Free</div><div class="features">Prices, news, whale alerts<br>Fear & Greed, regime<br>50 calls/day</div></div>
+    <div class="tier"><h3>Builder</h3><div class="price">$50+</div><div class="features">+ macro, signals, calendar<br>volumes, newsletters<br>$0.02/call · 5K/day</div></div>
+    <div class="tier"><h3>Signal</h3><div class="price">$150+</div><div class="features">All 130+ endpoints<br>DeFi, options, institutional<br>$0.015/call · 20K/day</div></div>
   </div>
 
   <!-- BRIEFS -->
@@ -340,11 +340,11 @@ curl -H "X-API-Key: YOUR_KEY" \
   <!-- OPENAPI -->
   <div class="section">
     <h2>Full Specification</h2>
-    <div class="coming-soon">
-      <h3>OpenAPI Spec & Interactive Docs — Coming Soon</h3>
-      <p>Swagger UI, downloadable OpenAPI 3.1 spec, and code examples in Python, JavaScript, and cURL.<br>
-      All endpoints documented with request/response schemas and $0.02/call pricing.<br><br>
-      <a href="https://t.me/agentcanary" style="color:#f5c518;">Join Telegram</a> for launch updates · <a href="mailto:friedel@agentcanary.ai" style="color:#f5c518;">friedel@agentcanary.ai</a> for early access.</p>
+    <div style="background:#111;border:1px solid #1a1a1a;border-radius:8px;padding:2rem;text-align:center;margin:2rem 0;">
+      <h3 style="color:#fff;margin-bottom:0.5rem;">OpenAPI Spec & Interactive Docs</h3>
+      <p style="color:#888;">Swagger UI and downloadable OpenAPI 3.1 spec in progress.<br>
+      130+ endpoints. Pricing from $0.01–$0.02/call. $5 minimum deposit.<br><br>
+      <a href="https://api.agentcanary.ai/app/" style="color:#f5c518;">Get Started</a> · <a href="https://t.me/agentcanary" style="color:#f5c518;">Telegram</a> · <a href="mailto:friedel@agentcanary.ai" style="color:#f5c518;">friedel@agentcanary.ai</a></p>
     </div>
   </div>
 </div>
