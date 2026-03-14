@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-14",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 14, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 93.6/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 94
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "GLXY",
+            "v": "+8.4%",
+            "c": "green"
+          },
+          {
+            "k": "ADBE",
+            "v": "-7.5%",
+            "c": "red"
+          },
+          {
+            "k": "MIR",
+            "v": "-7.1%",
+            "c": "red"
+          },
+          {
+            "k": "WPP",
+            "v": "-6.8%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 137,
+    "telegramText": "<b>SIGNAL SCAN</b> — March 14, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime with cross-asset dislocation as equities sell off while oil rips 3.1%. USD strength (-2.3% risk-off driver) pressuring metals despite expanding liquidity. VIX oddly calm at 27.19 given equity damage.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 93.6/100 (Critical)\nRegime: STAGFLATION — Real yields rising while oil surges on Iran war escalation\nSPY: -2.08% | QQQ: -2.30% | VIX: -0.37% | TLT: -0.69% | DXY: +0.76% | OIL: +3.11%\nICSA: 213K (trend DOWN, -0.08 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Conflict Escalation\nBTC: $65,000-68,000 (-7% to -4%)\nSPY: $620-640 (-6% to -3%)\nOIL: $105-115 (+6% to +16%)\n\n<b>SCENARIO B</b> — Stagflation Peak\nBTC: $72,000-76,000 (+2% to +8%)\nTLT: $90-94 (+4% to +9%)\nDXY: $98-99 (-2% to -1%)\n\n<b>SCENARIO C</b> — Risk Asset Capitulation  \nSPY: $600-630 (-9% to -5%)\nQQQ: $550-570 (-7% to -4%)\nVIX: $35-42 (+29% to +55%)\n\n<b>SECTOR STRENGTH</b>\n1. Utilities (XLU +1.71%) — defensive\n2. Energy (XLE +1.26%) — war premium\n3. Materials (XLB -1.30%) — rotating\n4. Financials (XLF -1.51%) — weak\n5. Technology (XLK -2.58%) — dumping\n\n<b>BIG MOVES + DRIVERS</b>\nGLXY $22.35 (+8.4%) — US shift ahead of Canada delisting\nADBE $249.69 (-7.5%) — DOJ settlement pressures subscription model\nMIR $18.69 (-7.1%) — Oil supply chain exposure\nSLV $72.69 (-6.7%) — USD strength crushing metals\nRENDER $1.80 (+5.3%) — AI token rally on specific altcoin rotation\nMORPHO $1.86 (-6.1%) — DeFi deleveraging\n\n<i>Cross-asset divergence widening as energy reprices geopolitical risk while tech faces regulatory overhang and metals collapse on dollar strength.</i>\n\n<b>POSITIONING</b>\nBTC whales: $94M long vs $70.5M short, net positive but modest scale\nETH whales: Heavy short bias $85.4M vs $23M long, -$3.7M PnL bleeding\nBTC ETF flows: +$125M inflow (2-day streak, medium significance) — institutional demand persisting\n\n<b>IMPLICATION</b>\nTactical energy overweight vs tech underweight while stagflation regime persists. BTC ETF inflows suggest institutional rotation from equities continues despite whale positioning mixed. Defensive positioning warranted unless Iran premium fades.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-03-13",
     "time": "22:15 UTC",
