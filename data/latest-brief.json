@@ -1,57 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-03-13",
-  "time": "16:15 UTC",
-  "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:IGNITION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
+  "time": "22:15 UTC",
+  "headline": "0 bullish / 0 bearish signals.",
+  "headlineColor": "#A78BFA",
+  "desc": "MARKET WRAP — Mar 13, 2026\n\nMarkets traded defensively with elevated VIX at 27 signaling broad risk-off sentiment despite crypto resilience. The stagflationary backdrop kept bonds weak while a firm do",
   "tags": [
     {
-      "t": "WHALE ALERT",
-      "c": "blue"
+      "t": "MIXED",
+      "c": "yellow"
     },
     {
-      "t": "BB 1463% APR",
-      "c": "green"
+      "t": "US New home sales ",
+      "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "ACCUMULATION",
-          "c": "green"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "IGNITION",
-          "c": "green"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "ACCUMULATION",
-          "c": "green"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 78
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$73M BTC",
-          "v": "transferred from unk",
+          "k": "US New home sales (AAMR",
+          "v": "Mar 19",
           "c": "blue"
         },
         {
-          "k": "$73M BTC",
-          "v": "transferred from unk",
+          "k": " Seasonally adjusted ",
+          "v": "Mar 19",
+          "c": "blue"
+        },
+        {
+          "k": "US Producer Price Index",
+          "v": "Mar 18",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Mar 13, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$71,787</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• ETH: <b>$2,131</b> — 1d: IGNITION | 4h: IGNITION\n• SOL: <b>$89.63</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 1,000 BTC ($72,608,510)\n  <i>transferred from unknown wallet to #Bybit</i>\n• 1,000 BTC ($72,608,510)\n  <i>transferred from unknown wallet to #Bybit</i>\n• 1,000 BTC ($72,546,834)\n  <i>transferred from unknown wallet to #Bybit</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>PIXEL</b>: 563% net APR (0.2388% rate)\n  Long Binance / Short Bybit | OI: $8.7M | Spread: -0.17%\n• <b>PIPPIN</b>: 335% net APR (0.1748% rate)\n  Long Bybit / Short OKX | OI: $7.7M | Spread: 0.07%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $171,601,157 | Longs: 22% | L/S: 0.3:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 135
+  "telegramText": "<b>MARKET WRAP</b> — Mar 13, 2026\n\n<i>Markets traded defensively with elevated VIX at 27 signaling broad risk-off sentiment despite crypto resilience. The stagflationary backdrop kept bonds weak while a firm dollar pressured risk assets, creating a bifurcated environment where traditional hedges like gold held up better than growth-sensitive sectors.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$71,147</b> · ETH: <b>$2,105</b> · SOL: <b>$88.68</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (+12.2%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.52</b> (+0.8%) · OIL: <b>$99.31</b> (+3.7%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +1.7% · XLU (Utilities) -0.8% · URA (Uranium) +4.1%\n▼ COPX (Copper Miners) -0.3% · XLF (Financials) -3.4% · XLY (Consumer Disc) -4.3%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH\n🟡 Defense / Geopolitics (intensity 60) — ITA, LMT, RTX\n🟢 AI / Tech (intensity 58) — NVDA, MSFT, GOOGL\n\n<b>EVENING NEWS</b>\n🟢 Dollar Rallies as Surging Oil Prices Spark Inflation Fears\n🟢 BPI targets August for BTC tax relief, but warns time is running out\n🟢 DeepSnitch AI Presale Launch Date Set For March 31:  Could This Be 2026’s Biggest Crypto E\n🔴 Miss this warning and you too could lose 99.9% in one swap while Ethereum bots walk away w\n🔴 US judge throws out justice department subpoenas to Fed citing ‘thin’ evidence\n🟢 Solana Price Prediction 2026: SOL Could Look Better &amp; Here’s Why DeepSnitch AI’s Live Agen\n\n<b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Federal Funds Benchmark Rate — Mar 18, 06:00 PM UTC (prev: 3.50% - 3.75%)\nUS EIA crude oil inventory transmutation last week (10,000 barrels)(to 0313) — Mar 18, 02:30 PM UTC (prev: 382.4)\nUS Durable goods orders (MoM)(Final)(Jan) — Mar 18, 02:00 PM UTC\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 136
 }
