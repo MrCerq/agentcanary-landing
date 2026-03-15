@@ -1,53 +1,48 @@
 {
-  "session": "intelligence",
+  "session": "evening",
   "date": "2026-03-14",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 14, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 93.6/100 · 8 movers",
+  "time": "22:15 UTC",
+  "headline": "0 bullish / 0 bearish signals.",
+  "headlineColor": "#A78BFA",
+  "desc": "MARKET WRAP — Mar 14, 2026\n\nMarkets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction",
   "tags": [
     {
-      "t": "HIGH",
-      "c": "red"
+      "t": "MIXED",
+      "c": "yellow"
     },
     {
-      "t": "STAGFLATION",
+      "t": "EU Markit Manufact",
       "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
+      "label": "REGIME",
       "gauge": {
         "value": 94
       }
     },
     {
-      "label": "TOP MOVERS",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "GLXY",
-          "v": "+8.4%",
-          "c": "green"
+          "k": "EU Markit Manufacturing",
+          "v": "Mar 24",
+          "c": "blue"
         },
         {
-          "k": "ADBE",
-          "v": "-7.5%",
-          "c": "red"
+          "k": " National Consumer Pr",
+          "v": "Mar 23",
+          "c": "blue"
         },
         {
-          "k": "MIR",
-          "v": "-7.1%",
-          "c": "red"
-        },
-        {
-          "k": "WPP",
-          "v": "-6.8%",
-          "c": "red"
+          "k": "US New home sales (AAMR",
+          "v": "Mar 19",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 14, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime with cross-asset dislocation as equities sell off while oil rips 3.1%. USD strength (-2.3% risk-off driver) pressuring metals despite expanding liquidity. VIX oddly calm at 27.19 given equity damage.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 93.6/100 (Critical)\nRegime: STAGFLATION — Real yields rising while oil surges on Iran war escalation\nSPY: -2.08% | QQQ: -2.30% | VIX: -0.37% | TLT: -0.69% | DXY: +0.76% | OIL: +3.11%\nICSA: 213K (trend DOWN, -0.08 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Conflict Escalation\nBTC: $65,000-68,000 (-7% to -4%)\nSPY: $620-640 (-6% to -3%)\nOIL: $105-115 (+6% to +16%)\n\n<b>SCENARIO B</b> — Stagflation Peak\nBTC: $72,000-76,000 (+2% to +8%)\nTLT: $90-94 (+4% to +9%)\nDXY: $98-99 (-2% to -1%)\n\n<b>SCENARIO C</b> — Risk Asset Capitulation  \nSPY: $600-630 (-9% to -5%)\nQQQ: $550-570 (-7% to -4%)\nVIX: $35-42 (+29% to +55%)\n\n<b>SECTOR STRENGTH</b>\n1. Utilities (XLU +1.71%) — defensive\n2. Energy (XLE +1.26%) — war premium\n3. Materials (XLB -1.30%) — rotating\n4. Financials (XLF -1.51%) — weak\n5. Technology (XLK -2.58%) — dumping\n\n<b>BIG MOVES + DRIVERS</b>\nGLXY $22.35 (+8.4%) — US shift ahead of Canada delisting\nADBE $249.69 (-7.5%) — DOJ settlement pressures subscription model\nMIR $18.69 (-7.1%) — Oil supply chain exposure\nSLV $72.69 (-6.7%) — USD strength crushing metals\nRENDER $1.80 (+5.3%) — AI token rally on specific altcoin rotation\nMORPHO $1.86 (-6.1%) — DeFi deleveraging\n\n<i>Cross-asset divergence widening as energy reprices geopolitical risk while tech faces regulatory overhang and metals collapse on dollar strength.</i>\n\n<b>POSITIONING</b>\nBTC whales: $94M long vs $70.5M short, net positive but modest scale\nETH whales: Heavy short bias $85.4M vs $23M long, -$3.7M PnL bleeding\nBTC ETF flows: +$125M inflow (2-day streak, medium significance) — institutional demand persisting\n\n<b>IMPLICATION</b>\nTactical energy overweight vs tech underweight while stagflation regime persists. BTC ETF inflows suggest institutional rotation from equities continues despite whale positioning mixed. Defensive positioning warranted unless Iran premium fades.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 137
+  "telegramText": "<b>MARKET WRAP</b> — Mar 14, 2026\n\n<i>Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction as Bitcoin held near $71K while traditional hedges like gold pushed higher, reflecting investors' struggle to position for an environment where neither aggressive risk-on nor defensive plays offer clear refuge.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,757</b> · ETH: <b>$2,086</b> · SOL: <b>$87.36</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (-0.4%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.5</b> (+0.8%) · OIL: <b>$98.71</b> (+3.1%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +2.5% · XLU (Utilities) +0.2% · XLC (Communication) -2.6%\n▼ COPX (Copper Miners) -7.1% · XLB (Materials) -1.6% · XLI (Industrials) -3.7%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH\n🟡 AI / Tech (intensity 93) — NVDA, MSFT, GOOGL\n🟡 Defense / Geopolitics (intensity 63) — ITA, LMT, RTX\n\n<b>EVENING NEWS</b>\n🟢 $100K Bitcoin? Prediction Market Odds Climb To 40%\n🟢 Trump’s war jolts global central banks from Fed to ECB to BOJ\n🔴 Report: Crypto Losses Drop 87% in February, But Hackers Are Now Targeting People, Not Code\n🟢 The latest US inflation report looked like good news — next week may change that\n🟢 Top and bottom quant-rated materials stocks over $10B: Coeur Mining leads 'Strong Buys'\n🟢 Strategy’s Bitcoin Bet Now $3.35 Billion In The Red As Saylor Tells Investors To Wait\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Federal Funds Benchmark Rate — Mar 18, 06:00 PM UTC (prev: 3.50% - 3.75%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 139
 }

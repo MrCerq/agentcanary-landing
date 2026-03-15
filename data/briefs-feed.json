@@ -1,5 +1,110 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-14",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 14, 2026\n\nMarkets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "EU Markit Manufact",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 94
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "EU Markit Manufacturing",
+            "v": "Mar 24",
+            "c": "blue"
+          },
+          {
+            "k": " National Consumer Pr",
+            "v": "Mar 23",
+            "c": "blue"
+          },
+          {
+            "k": "US New home sales (AAMR",
+            "v": "Mar 19",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Mar 14, 2026\n\n<i>Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction as Bitcoin held near $71K while traditional hedges like gold pushed higher, reflecting investors' struggle to position for an environment where neither aggressive risk-on nor defensive plays offer clear refuge.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,757</b> · ETH: <b>$2,086</b> · SOL: <b>$87.36</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (-0.4%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.5</b> (+0.8%) · OIL: <b>$98.71</b> (+3.1%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +2.5% · XLU (Utilities) +0.2% · XLC (Communication) -2.6%\n▼ COPX (Copper Miners) -7.1% · XLB (Materials) -1.6% · XLI (Industrials) -3.7%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH\n🟡 AI / Tech (intensity 93) — NVDA, MSFT, GOOGL\n🟡 Defense / Geopolitics (intensity 63) — ITA, LMT, RTX\n\n<b>EVENING NEWS</b>\n🟢 $100K Bitcoin? Prediction Market Odds Climb To 40%\n🟢 Trump’s war jolts global central banks from Fed to ECB to BOJ\n🔴 Report: Crypto Losses Drop 87% in February, But Hackers Are Now Targeting People, Not Code\n🟢 The latest US inflation report looked like good news — next week may change that\n🟢 Top and bottom quant-rated materials stocks over $10B: Coeur Mining leads 'Strong Buys'\n🟢 Strategy’s Bitcoin Bet Now $3.35 Billion In The Red As Saylor Tells Investors To Wait\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Federal Funds Benchmark Rate — Mar 18, 06:00 PM UTC (prev: 3.50% - 3.75%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 139
+  },
+  {
+    "session": "midday",
+    "date": "2026-03-14",
+    "time": "16:15 UTC",
+    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:BEAR_REGIME",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "LA 1436% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$53M BTC",
+            "v": "transferred from unk",
+            "c": "blue"
+          },
+          {
+            "k": "$12M USDT",
+            "v": "has just been frozen",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — Mar 14, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,611</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,073</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$86.75</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 745 BTC ($52,754,272)\n  <i>transferred from unknown wallet to #Kraken</i>\n• 11,960,680 USDT ($11,962,534)\n  <i>has just been frozen</i>\n• 1,249,999 LTC ($68,212,837)\n  <i>transferred from #Okex to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>LYN</b>: 2230% net APR (0.1462% rate)\n  Long Binance / Short Bybit | OI: $6.9M | Spread: -2.66%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $48,968,317 | Longs: 88% | L/S: 7.1:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 138
+  },
+  {
     "session": "intelligence",
     "date": "2026-03-14",
     "time": "10:15 UTC",
@@ -1406,90 +1511,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Mar 7, 2026\n\n🟢 <b>Risk-On · Neutral</b> · STAGFLATION · Gauge: 49.4/100\n\n• BTC: <b>$68,185</b>\n• ETH: <b>$1,977</b>\n• SOL: <b>$84.44</b>\n• GOLD: <b>$5,153</b>\nSPY: <b>$672.38</b> (-1.9%)\nQQQ: <b>$599.75</b> (-1.8%)\nVIX: <b>29.5</b> (+24.2%)\nTLT: <b>$88.46</b> (-0.8%)\nDXY: <b>98.9</b> (-0.5%)\nOIL: <b>$91.27</b> (+12.7%)\n\n\n<b>NOTABLE Z-SCORES</b>\n🔴 WTI Crude Oil: +3.02σ\n🔴 2Y Treasury: +2.27σ\n🔴 VIX: +2.12σ\n🔴 10Y Breakeven Inflation: +1.96σ\n🟢 30Y Mortgage Rate: -1.57σ\n\n<b>TOP MOVERS</b>\n🟢 VIX $29.49 (+24.2%)\n🟢 MRVL $89.66 (+19.0%)\n🔴 BE $136 (-14.4%) — Ethereum Defies Bearish Short Report as $1.2B Daily Burn Con\n🟢 OIL $91.27 (+12.7%) — Bitcoin Drops Under $68,000 as Oil Tops $90\n🟢 WTI $91.27 (+12.7%)\n🔴 MORPHO $1.79 (-8.2%)\n🔴 AAVE $111 (-5.8%) — Bitcoin recovery meets DeFi tensions as Aave rift deepens: F\n🔴 SUI $0.8989 (-5.6%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 117.8223 (&gt;110)\n🟡 2Y Yield: 3.57% (&lt;3.6%)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 109
-  },
-  {
-    "session": "midday",
-    "date": "2026-03-06",
-    "time": "16:10 UTC",
-    "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:DISTRIBUTION 4h:RISK_OFF · ETH 1d:DISTRIBUTION 4h:RISK_OFF · SOL 1d:DISTRIBUTION 4h:RISK_OFF",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "SENT 1176% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$77M BTC",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$116M BTC",
-            "v": "transferred from Coi",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — Mar 6, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$68,557</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n• ETH: <b>$1,976</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n• SOL: <b>$84.67</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 1,126 BTC ($77,347,876)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 1,700 BTC ($116,469,017)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n• 1,660 BTC ($114,261,102)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>H</b>: 412% net APR (0.1447% rate)\n  Long Bybit / Short Bitget | OI: $10.4M | Spread: -0.32%\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Recession · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n🟢 Bitcoin ETF Inflows &amp; Rally [BTC, ETH, SOL]\n🔴 Crypto Regulatory Pushback [BTC, ETH, SOL]\n🟢 Crypto Stocks Rally [MSTR, NVDA, PLTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 107
-  },
-  {
-    "session": "signal",
-    "date": "2026-03-06",
-    "time": "10:15 UTC",
-    "headline": "SIGNAL SCAN — Mar 6, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 43.2/100 · 0 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "STAGFLATION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 43
-        }
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — March 6, 2026\n\n<b>SNAPSHOT</b>\nStagflationary regime emerging as oil supply shocks (+4.0%) collide with sustained crypto inflows ($125M BTC ETF streak). Risk-on in equities (QQQ +1.2%) despite VIX spike (+4.0%) signals cross-asset dislocation. Iran conflict creating energy displacement while late-cycle liquidity chases digital assets.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 43.2/100 (Elevated)\nRegime: Transitional Stagflation — oil shock driving inflation while growth signals mixed\nSPY: +0.14% | QQQ: +1.22% | VIX: +3.96% | TLT: -0.72% | DXY: -0.07% | OIL: +3.97%\nICSA: 213K (down, labor market tightening)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Escalation\nOIL: $88-95 (+5-13%)\nBTC: $67-72K (-5 to +2%)\nSPY: $650-670 (-5 to -2%)\n\n<b>SCENARIO B</b> — Crypto Momentum Extension  \nBTC: $74-80K (+5-13%)\nETH: $2200-2400 (+7-16%)\nQQQ: $640-660 (+5-8%)\n\n<b>SCENARIO C</b — Supply Shock Fade\nOIL: $78-82 (-7 to -3%)\nTLT: $92-95 (+4-7%)\nDXY: $101-103 (+2-4%)\n\n<b>BIG MOVES + DRIVERS</b>\nOIL $84.23 (+4.0%) — Iran diesel/gasoline export suspension creates supply shock\nVIX $24.69 (+4.0%) — Geopolitical premium + cross-asset volatility spike\nQQQ $608.91 (+1.2%) — Tech energy pledge (Amazon, Google, Meta, MSFT) for AI grid investment\nTLT $88.79 (-0.7%) — Real yields rising on stagflation positioning\n\n<i>Energy displacement driving macro regime shift while crypto absorbs late-cycle institutional flows despite rising volatility.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$125M (8-day inflow streak) — institutional FOMO matching gold's 15-year flows\nWhale activity: Heavy BTC shorts $75.4M vs $9.4M longs, ETH shorts $48.1M — contrarian setup\nGold shorts $19.5M despite oil shock suggests inflation hedge rotation incomplete\n\n<b>IMPLICATION</b>\nTactical long energy/short duration trade emerges on supply shock fundamentals. Crypto momentum vulnerable to regulatory pushback but ETF flows provide institutional floor around $67K BTC.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 106
   }
 ]
