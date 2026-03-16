@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Record — AgentCanary</title>
+  <meta name="description" content="Market intelligence with receipts. Every call scored against reality. Daily macro briefs with regime tracking, whale alerts, and narrative scores.">
+  <meta property="og:title" content="The Record — AgentCanary">
+  <meta property="og:description" content="Market intelligence with receipts. Every call scored against reality.">
+  <meta property="og:url" content="https://agentcanary.ai/record/">
+  <meta property="og:site_name" content="AgentCanary">
+  <link rel="canonical" href="https://agentcanary.ai/record/">
+  <link rel="ai-info" href="/llms.txt">
+  <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
+  <link rel="icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600;700;800&display=swap');
+    @keyframes fadeSlideIn { from { opacity:0; transform:translateY(12px) } to { opacity:1; transform:translateY(0) } }
+    @keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
+    @keyframes pulseGlow { 0%,100% { opacity:0.07 } 50% { opacity:0.12 } }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    ::-webkit-scrollbar { width:6px }
+    ::-webkit-scrollbar-track { background:transparent }
+    ::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:3px }
+    html { scroll-behavior:smooth }
+    body {
+      min-height:100vh;
+      background:#04070c;
+      font-family:'Instrument Sans',sans-serif;
+      color:#e4e9f2;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    a { color:#ffc53d; text-decoration:none; transition:opacity 0.2s }
+    a:hover { opacity:0.8 }
+    .mono { font-family:'JetBrains Mono',monospace }
+    .container { max-width:1200px; margin:0 auto; padding:0 32px; position:relative; z-index:1 }
+
+    .bg-grid {
+      position:fixed; inset:0; z-index:0;
+      background-image:
+        linear-gradient(rgba(167,139,250,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(167,139,250,0.02) 1px, transparent 1px);
+      background-size:48px 48px;
+    }
+    .glow-tl {
+      position:fixed; width:900px; height:900px; top:-400px; left:-200px; z-index:0;
+      background:radial-gradient(circle,rgba(255,197,61,0.06),transparent 60%);
+      animation:pulseGlow 8s ease-in-out infinite;
+    }
+    .glow-br {
+      position:fixed; width:700px; height:700px; bottom:-300px; right:-100px; z-index:0;
+      background:radial-gradient(circle,rgba(167,139,250,0.04),transparent 60%);
+    }
+
+    /* Top Bar */
+    .topbar {
+      display:flex; align-items:center; justify-content:space-between;
+      padding:24px 0; border-bottom:1px solid rgba(255,255,255,0.06);
+      animation:fadeIn 0.6s ease 0.1s both;
+    }
+    .logo { display:flex; align-items:center; gap:10px }
+    .logo-dot { width:10px; height:10px; background:#ffc53d; border-radius:50%; box-shadow:0 0 12px #ffc53d40 }
+    .logo-text { font-size:13px; font-weight:700; letter-spacing:2px }
+    .nav-links { display:flex; align-items:center; gap:24px; font-size:11px; color:#4a5a7a; letter-spacing:1px }
+
+    /* Session Card */
+    .card {
+      background:#080d16;
+      border:1px solid rgba(255,255,255,0.06);
+      border-radius:16px;
+      padding:28px 32px;
+      transition:all 0.3s ease;
+      position:relative;
+      overflow:hidden;
+    }
+    .card:hover {
+      border-color:rgba(255,255,255,0.10);
+      transform:translateY(-2px);
+    }
+    .card-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; flex-wrap:wrap; gap:8px }
+    .session-badge {
+      font-size:11px; font-weight:700; letter-spacing:1.5px;
+      padding:7px 16px; border-radius:100px;
+      display:inline-flex; align-items:center; gap:8px;
+    }
+    .card-time { font-size:11px; color:#4a5a7a }
+    .card-headline {
+      font-family:'Instrument Sans',sans-serif;
+      font-weight:800; font-size:24px; line-height:1.2;
+      letter-spacing:-0.5px; margin-bottom:16px;
+    }
+    .card-desc {
+      font-size:14px; line-height:1.6; color:#8a9abc; margin-bottom:16px;
+    }
+    .card-tags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px }
+    .tag {
+      font-size:10px; font-weight:600; letter-spacing:0.5px;
+      padding:5px 12px; border-radius:100px;
+    }
+    .card-content {
+      font-size:13px; line-height:1.7; color:#8a9abc;
+      border-top:1px solid rgba(255,255,255,0.06); padding-top:16px;
+      display:none;
+    }
+    .card-content.open { display:block }
+    .card-content b, .card-content strong { color:#e4e9f2; font-weight:600 }
+    .card-expand {
+      font-size:11px; color:#4a5a7a; cursor:pointer;
+      padding:8px 0; letter-spacing:0.5px;
+      border:none; background:none; font-family:'JetBrains Mono',monospace;
+    }
+    .card-expand:hover { color:#e4e9f2 }
+
+    /* Panels */
+    .panels { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px }
+    .panel {
+      background:rgba(255,255,255,0.02);
+      border:1px solid rgba(255,255,255,0.06);
+      border-radius:12px; padding:16px;
+    }
+    .panel-label { font-size:9px; font-weight:700; letter-spacing:1.5px; color:#4a5a7a; margin-bottom:10px }
+    .panel-row { display:flex; justify-content:space-between; padding:4px 0; font-size:12px }
+    .panel-key { color:#8a9abc }
+    .panel-val { font-weight:600 }
+    .gauge-bar {
+      width:100%; height:6px; background:rgba(255,255,255,0.06);
+      border-radius:3px; overflow:hidden; margin-top:8px;
+    }
+    .gauge-fill { height:100%; border-radius:3px; transition:width 1s ease }
+
+    /* Timeline Rail */
+    .timeline {
+      display:flex; align-items:center; margin-bottom:40px;
+      padding:0 0 32px; border-bottom:1px solid rgba(255,255,255,0.06);
+      animation:fadeSlideIn 0.5s ease 0.3s both;
+      overflow-x:auto;
+    }
+    .timeline-node { display:flex; align-items:center; flex:1; min-width:0 }
+    .timeline-dot-wrap {
+      display:flex; flex-direction:column; align-items:center; gap:8px;
+      cursor:pointer; flex-shrink:0;
+    }
+    .timeline-dot {
+      width:10px; height:10px; border-radius:50%;
+      background:#4a5a7a; transition:all 0.3s ease;
+    }
+    .timeline-dot.active { width:14px; height:14px }
+    .timeline-label { font-size:9px; font-weight:500; letter-spacing:1px; color:#4a5a7a; white-space:nowrap }
+    .timeline-label.active { font-weight:700 }
+    .timeline-line { flex:1; height:1px; background:linear-gradient(90deg,#4a5a7a40,#4a5a7a20); margin-top:-16px }
+
+    /* Footer */
+    .footer {
+      border-top:1px solid rgba(255,255,255,0.06);
+      padding:24px 0; display:flex; justify-content:space-between;
+      align-items:center; flex-wrap:wrap; gap:12px;
+      animation:fadeIn 0.5s ease 0.8s both;
+    }
+    .footer span { font-size:12px; color:#4a5a7a; letter-spacing:1px }
+
+    /* Responsive */
+    @media (max-width:768px) {
+      .container { padding:0 16px }
+      .card { padding:20px }
+      .card-headline { font-size:20px }
+      .hero-title { font-size:36px !important }
+      .main-grid { grid-template-columns:1fr !important }
+      .topbar { flex-wrap:wrap; gap:12px }
+      .hero-top { flex-direction:column !important; gap:24px !important }
+      .timeline { overflow-x:auto; padding-bottom:16px }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="glow-tl"></div>
+  <div class="glow-br"></div>
+
+  <div class="container">
+    <div class="topbar">
+      <a href="/" class="logo">
+        <div class="logo-dot"></div>
+        <span class="logo-text mono">AGENT<span style="color:#ffc53d">CANARY</span></span>
+      </a>
+      <div class="nav-links mono">
+        <a href="/record/archive/" style="color:#4a5a7a">Archive</a>
+        <span style="color:#4a5a7a">|</span>
+        <a href="/record/feed.json" style="color:#4a5a7a">Feed</a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <div style="padding:80px 0 60px;animation:fadeSlideIn 0.6s ease 0.2s both;text-align:center;max-width:720px;margin:0 auto">
+      <div class="mono" style="font-size:11px;color:#ffc53d;letter-spacing:3px;margin-bottom:20px">THE RECORD</div>
+      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:24px">
+        <span style="color:#e4e9f2">Every call.</span><br>
+        <span style="color:#e4e9f2">Every day.</span><br>
+        <span style="color:#ffc53d">Scored.</span>
+      </h1>
+      <p style="font-size:17px;color:#8a9abc;line-height:1.6;margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto">
+        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
+      </p>
+      <a href="/record/2026/03/16/" style="display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:#ffc53d;color:#04070c;font-weight:700;font-size:14px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+        Latest: March 16, 2026 &rarr;
+      </a>
+    </div>
+
+    <!-- Recent Days -->
+    <div style="max-width:600px;margin:0 auto;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.4s both">
+      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:#4a5a7a;margin-bottom:16px">RECENT DAYS</div>
+      <div class="card" style="padding:4px 24px">
+        <a href="/record/2026/03/16/" style="display:block;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.06);color:#e4e9f2;text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='#ffc53d'" onmouseout="this.style.color='#e4e9f2'">March 16, 2026 &rarr;</a><a href="/record/2026/03/15/" style="display:block;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.06);color:#e4e9f2;text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='#ffc53d'" onmouseout="this.style.color='#e4e9f2'">March 15, 2026 &rarr;</a><a href="/record/2026/03/14/" style="display:block;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.06);color:#e4e9f2;text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='#ffc53d'" onmouseout="this.style.color='#e4e9f2'">March 14, 2026 &rarr;</a><a href="/record/2026/03/13/" style="display:block;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.06);color:#e4e9f2;text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='#ffc53d'" onmouseout="this.style.color='#e4e9f2'">March 13, 2026 &rarr;</a><a href="/record/2026/03/12/" style="display:block;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.06);color:#e4e9f2;text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='#ffc53d'" onmouseout="this.style.color='#e4e9f2'">March 12, 2026 &rarr;</a><a href="/record/2026/03/11/" style="display:block;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.06);color:#e4e9f2;text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='#ffc53d'" onmouseout="this.style.color='#e4e9f2'">March 11, 2026 &rarr;</a><a href="/record/2026/03/10/" style="display:block;padding:12px 0;border-bottom:1px solid rgba(255,255,255,0.06);color:#e4e9f2;text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='#ffc53d'" onmouseout="this.style.color='#e4e9f2'">March 10, 2026 &rarr;</a>
+      </div>
+      <div style="text-align:center;margin-top:24px">
+        <a href="/record/archive/" class="mono" style="font-size:12px;color:#4a5a7a;letter-spacing:1px">View full archive &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.5s both">
+      
+        <div class="card">
+          <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:#fb923c;margin-bottom:12px">REGIME TRACKING</div>
+          <p style="font-size:14px;color:#8a9abc;line-height:1.6">Continuous macro regime classification — stagflation, late-cycle, recession, expansion, displacement, neutral.</p>
+        </div>
+      
+        <div class="card">
+          <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:#34d399;margin-bottom:12px">SCORED CALLS</div>
+          <p style="font-size:14px;color:#8a9abc;line-height:1.6">Every prediction tracked and evaluated against actual market outcomes 48-72 hours later.</p>
+        </div>
+      
+        <div class="card">
+          <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:#a78bfa;margin-bottom:12px">MACHINE-READABLE</div>
+          <p style="font-size:14px;color:#8a9abc;line-height:1.6">JSON Feed 1.1, JSON-LD structured data, and llms.txt for AI-native consumption.</p>
+        </div>
+      
+    </div>
+
+    <div class="footer">
+      <span class="mono"><a href="/" style="color:#4a5a7a">agentcanary.ai</a></span>
+      <span class="mono"><a href="https://t.me/agentcanary" style="color:#4a5a7a">Telegram</a></span>
+    </div>
+  </div>
+</body>
+</html>

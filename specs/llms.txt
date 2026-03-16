@@ -1,0 +1,70 @@
+# AgentCanary — The Record
+# https://agentcanary.ai
+
+## What This Site Is
+AgentCanary is a macro market intelligence platform that publishes
+4 daily briefs tracking regime states, whale alerts, narrative scores,
+and macro signals across crypto, equities, commodities, and forex.
+"The Record" is our scored daily archive — every call is tracked
+and evaluated against actual market outcomes.
+
+## Data Available
+- Daily market intelligence briefs (4 per day: morning, midday, signal, evening)
+- Regime state tracking (stagflation, late-cycle, recession, expansion, displacement, neutral)
+- Regime gauge score (0–100 continuous)
+- Whale alert signals (on-chain large transactions)
+- Narrative lifecycle scores (birth → peak → fade, scored 0.0–1.0)
+- Scorecard accuracy data (hindsight evaluation of all calls, 48–72hr delay)
+- Key asset prices (BTC, SPX, WTI, VIX, DXY, Gold)
+
+## Structured Data Locations
+- Homepage: JSON-LD with Organization, WebSite, DataCatalog schemas
+- Daily pages: JSON-LD with Article + MarketIntelligence custom schema
+- JSON Feed: https://agentcanary.ai/record/feed.json (JSON Feed 1.1)
+- Sitemap: https://agentcanary.ai/sitemap.xml
+
+## URL Patterns
+- Daily intel: /record/YYYY/MM/DD (e.g., /record/2026/03/14)
+- Monthly rollup: /record/YYYY/MM/ (e.g., /record/2026/03/)
+- Archive: /record/archive
+- API docs: /api/docs
+
+## API Access
+- Base URL: https://api.agentcanary.ai/v1
+- OpenAPI spec: https://agentcanary.ai/api/openapi.json
+- Authentication: API key via header (X-API-Key)
+- Free tier: 7-day lookback, 10 calls/day
+- Pro tier ($49/mo): Full history, 1000 calls/day
+- Team tier ($199/mo): Bulk export, custom alerts, chat layer
+
+## Key Endpoints
+- GET /v1/record/{date} — Full day payload (all briefs, regime, signals, scores)
+- GET /v1/regime/history?range=30d — Regime state time series
+- GET /v1/signals?type=whale&range=7d — Signal query with filters
+- GET /v1/scorecard/{date} — Accuracy data for a specific day
+- GET /v1/narratives?active=true — Currently active narrative scores
+
+## Data Schema (Brief Object)
+Each daily page and API response contains structured brief objects:
+- date: ISO 8601 date string
+- session: morning | midday | signal | evening
+- regime: {state: string, score: float, previous: string, shift_date: date}
+- signals: [{type: string, asset: string, direction: string, magnitude: string, source: string}]
+- narratives: [{name: string, score: float, lifecycle: string}]
+- calls: [{claim: string, timeframe: string, resolved: bool, outcome: string, actual: string}]
+- scorecard: {accuracy: float, scored_at: datetime} (null if not yet scored)
+
+## Update Cadence
+- Briefs: 4x daily (06:30, 13:00, 17:00, 21:00 UTC)
+- Scorecard: Updated nightly for briefs 48–72 hours old
+- JSON Feed: Updated after each brief publication
+- Sitemap: Regenerated daily at 00:00 UTC
+
+## Historical Coverage
+- Archive begins: February 23, 2026
+- Growing daily — currently 68+ days of continuous coverage
+
+## Contact
+- Telegram: t.me/agentcanary
+- API support: api@agentcanary.ai
+- Site: https://agentcanary.ai

@@ -17,6 +17,8 @@
 <meta name="twitter:title" content="AgentCanary — Cross-Asset Intelligence for Traders and AI Agents">
 <meta name="twitter:image" content="https://agentcanary.ai/og-image.png">
 <meta name="twitter:description" content="Cross-asset intelligence. Regime, risk, narratives — 130+ API endpoints. 4× daily verdicts. Built for traders and AI agents.">
+<link rel="ai-info" href="/llms.txt">
+<link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
@@ -25,34 +27,116 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "AgentCanary",
-  "description": "Cross-asset intelligence API for traders and AI agents. Regime, risk, narratives — 130+ endpoints. 4× daily verdicts.",
-  "url": "https://agentcanary.ai",
-  "applicationCategory": "FinanceApplication",
-  "operatingSystem": "All",
-  "offers": [
+  "@graph": [
     {
-      "@type": "Offer",
-      "name": "Free Tier",
-      "price": "0",
-      "priceCurrency": "USD",
-      "description": "Basic access via Telegram bot"
+      "@type": "Organization",
+      "@id": "https://agentcanary.ai/#org",
+      "name": "AgentCanary",
+      "url": "https://agentcanary.ai",
+      "logo": "https://agentcanary.ai/logo.png",
+      "description": "Macro market intelligence with receipts. 4 daily briefs, regime tracking, and scored calls across crypto, equities, commodities, and forex.",
+      "foundingDate": "2026",
+      "sameAs": [
+        "https://t.me/agentcanary",
+        "https://x.com/agentcanary"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "api@agentcanary.ai",
+        "contactType": "technical support"
+      }
     },
     {
-      "@type": "Offer", 
-      "name": "Builder Tier",
-      "price": "50",
-      "priceCurrency": "USD",
-      "description": "Full API access with $0.005 per call"
+      "@type": "WebSite",
+      "@id": "https://agentcanary.ai/#website",
+      "name": "AgentCanary — The Record",
+      "alternateName": "The Record",
+      "url": "https://agentcanary.ai",
+      "description": "Market intelligence with receipts. Every call. Every day. Scored.",
+      "publisher": { "@id": "https://agentcanary.ai/#org" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://agentcanary.ai/record/search?q={query}"
+        },
+        "query-input": "required name=query"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": "https://agentcanary.ai/#datacatalog",
+      "name": "The Record — Market Intelligence Archive",
+      "description": "Daily scored market intelligence archive. Regime states, whale alerts, narrative lifecycle scores, macro signals, and hindsight-scored calls.",
+      "url": "https://agentcanary.ai/record/archive",
+      "provider": { "@id": "https://agentcanary.ai/#org" },
+      "temporalCoverage": "2026-02-23/..",
+      "license": "https://agentcanary.ai/terms",
+      "dataset": [
+        {
+          "@type": "Dataset",
+          "name": "Daily Briefs",
+          "description": "4 macro market intelligence briefs per day (morning, midday, signal, evening) with regime state, signals, and narrative scores.",
+          "temporalCoverage": "2026-02-23/..",
+          "variableMeasured": ["regime_state", "regime_score", "signals", "narratives", "asset_prices"],
+          "distribution": [
+            {
+              "@type": "DataDownload",
+              "encodingFormat": "application/json",
+              "contentUrl": "https://agentcanary.ai/record/feed.json",
+              "description": "JSON Feed 1.1 with full brief payloads"
+            },
+            {
+              "@type": "DataDownload",
+              "encodingFormat": "application/json",
+              "contentUrl": "https://api.agentcanary.ai/v1/record/{date}",
+              "description": "REST API (requires API key)"
+            }
+          ]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Regime History",
+          "description": "Continuous macro regime state classification and gauge score (0–100). States: stagflation, late-cycle, recession, expansion, displacement, neutral.",
+          "variableMeasured": ["regime_state", "regime_score", "shift_date"]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Scorecard",
+          "description": "Hindsight accuracy scoring of all market calls. Evaluated 48–72 hours after publication against actual market outcomes.",
+          "variableMeasured": ["accuracy", "calls_correct", "calls_total", "scored_at"]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Whale Alerts",
+          "description": "On-chain large transaction signals for BTC and major crypto assets. Direction, magnitude, and source attribution.",
+          "variableMeasured": ["asset", "direction", "magnitude", "source"]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Narrative Scores",
+          "description": "Market narrative lifecycle tracking. Scores (0.0–1.0) and lifecycle phase (birth, rising, peak, fading, dead) for active macro narratives.",
+          "variableMeasured": ["narrative_name", "score", "lifecycle"]
+        }
+      ]
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://agentcanary.ai/#api",
+      "name": "AgentCanary API",
+      "description": "Programmatic access to The Record — daily briefs, regime history, signals, and scorecards.",
+      "url": "https://agentcanary.ai/api/docs",
+      "documentation": "https://agentcanary.ai/api/openapi.json",
+      "provider": { "@id": "https://agentcanary.ai/#org" },
+      "termsOfService": "https://agentcanary.ai/terms",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://api.agentcanary.ai/v1",
+        "serviceType": "REST API"
+      }
     }
-  ],
-  "provider": {
-    "@type": "Organization",
-    "name": "AgentCanary",
-    "url": "https://agentcanary.ai"
-  },
-  "keywords": "cross-asset intelligence, AI agents, trading signals, macro regime, financial data API, traders"
+  ]
 }
 </script>
 <style>
@@ -227,6 +311,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <a href="#how">How It Works</a>
     <a href="#compare">Compare</a>
     <a href="#telegram">Telegram</a>
+    <a href="/record/archive" style="color:var(--y);opacity:.85;">The Record</a>
     
     <a href="https://app.agentcanary.ai" target="_blank" class="nav-cta">Log in</a>
 </nav>

@@ -1,17 +1,17 @@
 {
   "session": "evening",
-  "date": "2026-03-12",
+  "date": "2026-03-14",
   "time": "22:15 UTC",
   "headline": "0 bullish / 0 bearish signals.",
   "headlineColor": "#A78BFA",
-  "desc": "MARKET WRAP — Mar 12, 2026\n\nMarkets drifted in neutral territory as stagflationary pressures kept risk assets range-bound, with crypto showing resilience while traditional equities remained cautious. ",
+  "desc": "MARKET WRAP — Mar 14, 2026\n\nMarkets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction",
   "tags": [
     {
       "t": "MIXED",
       "c": "yellow"
     },
     {
-      "t": "US New home sales ",
+      "t": "EU Markit Manufact",
       "c": "blue"
     }
   ],
@@ -19,30 +19,30 @@
     {
       "label": "REGIME",
       "gauge": {
-        "value": 78
+        "value": 94
       }
     },
     {
       "label": "CALENDAR",
       "rows": [
         {
+          "k": "EU Markit Manufacturing",
+          "v": "Mar 24",
+          "c": "blue"
+        },
+        {
+          "k": " National Consumer Pr",
+          "v": "Mar 23",
+          "c": "blue"
+        },
+        {
           "k": "US New home sales (AAMR",
           "v": "Mar 19",
-          "c": "blue"
-        },
-        {
-          "k": " Seasonally adjusted ",
-          "v": "Mar 19",
-          "c": "blue"
-        },
-        {
-          "k": "US Producer Price Index",
-          "v": "Mar 18",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 12, 2026\n\n<i>Markets drifted in neutral territory as stagflationary pressures kept risk assets range-bound, with crypto showing resilience while traditional equities remained cautious. The elevated VIX at 27+ reflects underlying uncertainty as investors navigate persistent inflation concerns amid economic growth questions. Dollar strength near parity continues weighing on sentiment across asset classes.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,328</b> · ETH: <b>$2,064</b> · SOL: <b>$86.45</b> · GOLD: <b>$5,088</b> · SPY: <b>$666.06</b> (-1.6%) · QQQ: <b>$597.26</b> (-1.7%) · VIX: <b>$27.29</b> (+9.5%) · TLT: <b>$86.97</b> (-1.5%) · DXY: <b>$99.74</b> (+0.5%) · OIL: <b>$97.19</b> (+11.4%)\n\n<b>EVENING NEWS</b>\n🔴 Investors slash Fed rate-cut bets as Iran war sends petrol prices surging\n🔴 Hope Not Lost For ‘$1 Cardano’ Even As Hoskinson Acknowledges Worst Crypto Sentiment Ever\n🟢 RIVER rallies 22% – Analyzing if traders should bet on $20 next\n🟢 Bitcoin ETF Holders Stay Steady Through Q4 Price Decline\n🟢 Futu targets 800,000 new funded accounts in 2026 while expanding AI and crypto capabilitie\n🟡 Could oil prices really reach $200 a barrel as claimed by Iran?\n\n<b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Durable goods orders (MoM)(Final)(Jan) — Mar 18, 02:00 PM UTC\nUS Producer Price Index (YoY)(Feb) — Mar 18, 12:30 PM UTC (prev: 2.9%)\nEU Consumer Price Index (MoM)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 0.7%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 132
+  "telegramText": "<b>MARKET WRAP</b> — Mar 14, 2026\n\n<i>Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction as Bitcoin held near $71K while traditional hedges like gold pushed higher, reflecting investors' struggle to position for an environment where neither aggressive risk-on nor defensive plays offer clear refuge.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,757</b> · ETH: <b>$2,086</b> · SOL: <b>$87.36</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (-0.4%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.5</b> (+0.8%) · OIL: <b>$98.71</b> (+3.1%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +2.5% · XLU (Utilities) +0.2% · XLC (Communication) -2.6%\n▼ COPX (Copper Miners) -7.1% · XLB (Materials) -1.6% · XLI (Industrials) -3.7%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH\n🟡 AI / Tech (intensity 93) — NVDA, MSFT, GOOGL\n🟡 Defense / Geopolitics (intensity 63) — ITA, LMT, RTX\n\n<b>EVENING NEWS</b>\n🟢 $100K Bitcoin? Prediction Market Odds Climb To 40%\n🟢 Trump’s war jolts global central banks from Fed to ECB to BOJ\n🔴 Report: Crypto Losses Drop 87% in February, But Hackers Are Now Targeting People, Not Code\n🟢 The latest US inflation report looked like good news — next week may change that\n🟢 Top and bottom quant-rated materials stocks over $10B: Coeur Mining leads 'Strong Buys'\n🟢 Strategy’s Bitcoin Bet Now $3.35 Billion In The Red As Saylor Tells Investors To Wait\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Federal Funds Benchmark Rate — Mar 18, 06:00 PM UTC (prev: 3.50% - 3.75%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 139
 }

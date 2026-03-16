@@ -1,0 +1,121 @@
+<!--
+  AgentCanary — Homepage JSON-LD
+  Place in <head> of agentcanary.ai/index.html
+  Also add: <link rel="ai-info" href="/llms.txt">
+  Also add: <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://agentcanary.ai/#org",
+      "name": "AgentCanary",
+      "url": "https://agentcanary.ai",
+      "logo": "https://agentcanary.ai/logo.png",
+      "description": "Macro market intelligence with receipts. 4 daily briefs, regime tracking, and scored calls across crypto, equities, commodities, and forex.",
+      "foundingDate": "2026",
+      "sameAs": [
+        "https://t.me/agentcanary",
+        "https://x.com/agentcanary"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "api@agentcanary.ai",
+        "contactType": "technical support"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://agentcanary.ai/#website",
+      "name": "AgentCanary — The Record",
+      "alternateName": "The Record",
+      "url": "https://agentcanary.ai",
+      "description": "Market intelligence with receipts. Every call. Every day. Scored.",
+      "publisher": { "@id": "https://agentcanary.ai/#org" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://agentcanary.ai/record/search?q={query}"
+        },
+        "query-input": "required name=query"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "DataCatalog",
+      "@id": "https://agentcanary.ai/#datacatalog",
+      "name": "The Record — Market Intelligence Archive",
+      "description": "Daily scored market intelligence archive. Regime states, whale alerts, narrative lifecycle scores, macro signals, and hindsight-scored calls.",
+      "url": "https://agentcanary.ai/record/archive",
+      "provider": { "@id": "https://agentcanary.ai/#org" },
+      "temporalCoverage": "2026-02-23/..",
+      "license": "https://agentcanary.ai/terms",
+      "dataset": [
+        {
+          "@type": "Dataset",
+          "name": "Daily Briefs",
+          "description": "4 macro market intelligence briefs per day (morning, midday, signal, evening) with regime state, signals, and narrative scores.",
+          "temporalCoverage": "2026-02-23/..",
+          "variableMeasured": ["regime_state", "regime_score", "signals", "narratives", "asset_prices"],
+          "distribution": [
+            {
+              "@type": "DataDownload",
+              "encodingFormat": "application/json",
+              "contentUrl": "https://agentcanary.ai/record/feed.json",
+              "description": "JSON Feed 1.1 with full brief payloads"
+            },
+            {
+              "@type": "DataDownload",
+              "encodingFormat": "application/json",
+              "contentUrl": "https://api.agentcanary.ai/v1/record/{date}",
+              "description": "REST API (requires API key)"
+            }
+          ]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Regime History",
+          "description": "Continuous macro regime state classification and gauge score (0–100). States: stagflation, late-cycle, recession, expansion, displacement, neutral.",
+          "variableMeasured": ["regime_state", "regime_score", "shift_date"]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Scorecard",
+          "description": "Hindsight accuracy scoring of all market calls. Evaluated 48–72 hours after publication against actual market outcomes.",
+          "variableMeasured": ["accuracy", "calls_correct", "calls_total", "scored_at"]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Whale Alerts",
+          "description": "On-chain large transaction signals for BTC and major crypto assets. Direction, magnitude, and source attribution.",
+          "variableMeasured": ["asset", "direction", "magnitude", "source"]
+        },
+        {
+          "@type": "Dataset",
+          "name": "Narrative Scores",
+          "description": "Market narrative lifecycle tracking. Scores (0.0–1.0) and lifecycle phase (birth, rising, peak, fading, dead) for active macro narratives.",
+          "variableMeasured": ["narrative_name", "score", "lifecycle"]
+        }
+      ]
+    },
+    {
+      "@type": "WebAPI",
+      "@id": "https://agentcanary.ai/#api",
+      "name": "AgentCanary API",
+      "description": "Programmatic access to The Record — daily briefs, regime history, signals, and scorecards.",
+      "url": "https://agentcanary.ai/api/docs",
+      "documentation": "https://agentcanary.ai/api/openapi.json",
+      "provider": { "@id": "https://agentcanary.ai/#org" },
+      "termsOfService": "https://agentcanary.ai/terms",
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://api.agentcanary.ai/v1",
+        "serviceType": "REST API"
+      }
+    }
+  ]
+}
+</script>
