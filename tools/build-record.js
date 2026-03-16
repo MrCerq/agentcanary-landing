@@ -4,8 +4,7 @@
  *
  * Fetches briefs from the AC API and generates static HTML pages:
  *   record/YYYY/MM/DD/index.html  — daily pages
- *   record/archive/index.html     — archive listing
- *   record/index.html             — landing page
+ *   record/index.html             — archive listing (also written to record/archive/)
  *   record/feed.json              — JSON Feed 1.1
  *   sitemap.xml                   — updated with /record/ pages
  *
@@ -217,7 +216,7 @@ function generateJsonLd(briefs, dateStr) {
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'The Record', item: `${SITE_URL}/record/archive` },
+        { '@type': 'ListItem', position: 1, name: 'The Record', item: `${SITE_URL}/record/` },
         { '@type': 'ListItem', position: 2, name: yyyy, item: `${SITE_URL}/record/${yyyy}/` },
         { '@type': 'ListItem', position: 3, name: mName, item: `${SITE_URL}/record/${yyyy}/${mm}/` },
         { '@type': 'ListItem', position: 4, name: formatted, item: `${SITE_URL}/record/${yyyy}/${mm}/${dd}` },
@@ -391,7 +390,7 @@ function topBar(prevDate, nextDate) {
       <div class="nav-links mono">
         ${prevLink}
         <span style="color:${COLORS.t3}">|</span>
-        <a href="/record/archive/" style="color:${COLORS.t3}">Archive</a>
+        <a href="/record/" style="color:${COLORS.t3}">Archive</a>
         <span style="color:${COLORS.t3}">|</span>
         ${nextLink}
       </div>
@@ -534,7 +533,7 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
     <!-- Footer -->
     <div class="footer">
       <span class="mono"><a href="/" style="color:${COLORS.t3}">agentcanary.ai</a></span>
-      <span class="mono"><a href="/record/archive/" style="color:${COLORS.t3}">Archive</a> &middot; <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a></span>
+      <span class="mono"><a href="/record/" style="color:${COLORS.t3}">Archive</a> &middot; <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a></span>
     </div>
   </div>
 </body>
@@ -591,11 +590,11 @@ function buildArchivePage(dateMap) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Archive — The Record | AgentCanary</title>
-  <meta name="description" content="Browse every day of market intelligence from AgentCanary. ${dates.length} days of briefs with regime tracking and scored calls.">
-  <meta property="og:title" content="Archive — The Record | AgentCanary">
-  <meta property="og:url" content="${SITE_URL}/record/archive/">
-  <link rel="canonical" href="${SITE_URL}/record/archive/">
+  <title>The Record — AgentCanary</title>
+  <meta name="description" content="Market intelligence with receipts. ${dates.length} days of daily macro briefs with regime tracking and scored predictions.">
+  <meta property="og:title" content="The Record — AgentCanary">
+  <meta property="og:url" content="${SITE_URL}/record/">
+  <link rel="canonical" href="${SITE_URL}/record/">
   <link rel="ai-info" href="/llms.txt">
   <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
   <link rel="icon" href="/favicon.png">
@@ -618,13 +617,13 @@ function buildArchivePage(dateMap) {
       </div>
     </div>
 
-    <div style="padding:48px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
-      <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:12px">THE RECORD</div>
-      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:48px;font-weight:800;letter-spacing:-2px;line-height:1.1;margin-bottom:16px">
-        <span style="color:${COLORS.t1}">Archive</span>
+    <div style="padding:60px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
+      <div class="mono" style="font-size:11px;color:${COLORS.y};letter-spacing:3px;margin-bottom:16px">THE RECORD</div>
+      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:48px;font-weight:800;letter-spacing:-2px;line-height:1.1;margin-bottom:20px">
+        <span style="color:${COLORS.t1}">Every call.</span> <span style="color:${COLORS.y}">Scored.</span>
       </h1>
-      <p style="font-size:15px;color:${COLORS.t2};max-width:600px;line-height:1.6">
-        Every brief. Every call. Every day. Browse ${dates.length} days of market intelligence with regime tracking and scored predictions.
+      <p style="font-size:16px;color:${COLORS.t2};line-height:1.6;margin-bottom:8px">
+        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions. ${dates.length} days and counting.
       </p>
     </div>
 
@@ -639,103 +638,6 @@ function buildArchivePage(dateMap) {
 </html>`;
 }
 
-// ─── Landing Page ────────────────────────────────────────────────
-
-function buildLandingPage(dates) {
-  const sortedDates = dates.sort().reverse();
-  const latest = sortedDates[0];
-  const { yyyy, mm, dd } = dateParts(latest);
-
-  const recentLinks = sortedDates.slice(0, 7).map(d => {
-    const { yyyy: y, mm: m, dd: day } = dateParts(d);
-    return `<a href="/record/${y}/${m}/${day}/" style="display:block;padding:12px 0;border-bottom:1px solid ${COLORS.border};color:${COLORS.t1};text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='${COLORS.y}'" onmouseout="this.style.color='${COLORS.t1}'">${formatDate(d)} &rarr;</a>`;
-  }).join('');
-
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>The Record — AgentCanary</title>
-  <meta name="description" content="Market intelligence with receipts. Every call scored against reality. Daily macro briefs with regime tracking, whale alerts, and narrative scores.">
-  <meta property="og:title" content="The Record — AgentCanary">
-  <meta property="og:description" content="Market intelligence with receipts. Every call scored against reality.">
-  <meta property="og:url" content="${SITE_URL}/record/">
-  <meta property="og:site_name" content="AgentCanary">
-  <link rel="canonical" href="${SITE_URL}/record/">
-  <link rel="ai-info" href="/llms.txt">
-  <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
-  <link rel="icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <style>${baseStyles()}</style>
-</head>
-<body>
-  <div class="bg-grid"></div>
-  <div class="glow-tl"></div>
-  <div class="glow-br"></div>
-
-  <div class="container">
-    <div class="topbar">
-      <a href="/" class="logo">
-        <div class="logo-dot"></div>
-        <span class="logo-text mono">AGENT<span style="color:${COLORS.y}">CANARY</span></span>
-      </a>
-      <div class="nav-links mono">
-        <a href="/record/archive/" style="color:${COLORS.t3}">Archive</a>
-        <span style="color:${COLORS.t3}">|</span>
-        <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a>
-      </div>
-    </div>
-
-    <!-- Hero -->
-    <div style="padding:80px 0 60px;animation:fadeSlideIn 0.6s ease 0.2s both;text-align:center;max-width:720px;margin:0 auto">
-      <div class="mono" style="font-size:11px;color:${COLORS.y};letter-spacing:3px;margin-bottom:20px">THE RECORD</div>
-      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:24px">
-        <span style="color:${COLORS.t1}">Every call.</span><br>
-        <span style="color:${COLORS.t1}">Every day.</span><br>
-        <span style="color:${COLORS.y}">Scored.</span>
-      </h1>
-      <p style="font-size:17px;color:${COLORS.t2};line-height:1.6;margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto">
-        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
-      </p>
-      <a href="/record/${yyyy}/${mm}/${dd}/" style="display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:${COLORS.y};color:${COLORS.bg};font-weight:700;font-size:14px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
-        Latest: ${formatDate(latest)} &rarr;
-      </a>
-    </div>
-
-    <!-- Recent Days -->
-    <div style="max-width:600px;margin:0 auto;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.4s both">
-      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:${COLORS.t3};margin-bottom:16px">RECENT DAYS</div>
-      <div class="card" style="padding:4px 24px">
-        ${recentLinks}
-      </div>
-      <div style="text-align:center;margin-top:24px">
-        <a href="/record/archive/" class="mono" style="font-size:12px;color:${COLORS.t3};letter-spacing:1px">View full archive &rarr;</a>
-      </div>
-    </div>
-
-    <!-- Features -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.5s both">
-      ${[
-        { title: 'Regime Tracking', desc: 'Continuous macro regime classification — stagflation, late-cycle, recession, expansion, displacement, neutral.', color: COLORS.o },
-        { title: 'Scored Calls', desc: 'Every prediction tracked and evaluated against actual market outcomes 48-72 hours later.', color: COLORS.g },
-        { title: 'Machine-Readable', desc: 'JSON Feed 1.1, JSON-LD structured data, and llms.txt for AI-native consumption.', color: COLORS.p },
-      ].map(f => `
-        <div class="card">
-          <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:${f.color};margin-bottom:12px">${f.title.toUpperCase()}</div>
-          <p style="font-size:14px;color:${COLORS.t2};line-height:1.6">${f.desc}</p>
-        </div>
-      `).join('')}
-    </div>
-
-    <div class="footer">
-      <span class="mono"><a href="/" style="color:${COLORS.t3}">agentcanary.ai</a></span>
-      <span class="mono"><a href="https://t.me/agentcanary" style="color:${COLORS.t3}">Telegram</a></span>
-    </div>
-  </div>
-</body>
-</html>`;
-}
 
 // ─── Feed (JSON Feed 1.1) ────────────────────────────────────────
 
@@ -877,15 +779,13 @@ async function main() {
     writeFile(path.join(ROOT, 'record', yyyy, mm, dd, 'index.html'), html);
   }
 
-  // 4. Archive page
+  // 4. Archive page (serves as both /record/ and /record/archive/)
   console.log('\n  Building archive page...');
-  writeFile(path.join(ROOT, 'record', 'archive', 'index.html'), buildArchivePage(dateMap));
+  const archiveHtml = buildArchivePage(dateMap);
+  writeFile(path.join(ROOT, 'record', 'index.html'), archiveHtml);
+  writeFile(path.join(ROOT, 'record', 'archive', 'index.html'), archiveHtml);
 
-  // 5. Landing page
-  console.log('  Building landing page...');
-  writeFile(path.join(ROOT, 'record', 'index.html'), buildLandingPage(sortedDates));
-
-  // 6. Feed
+  // 5. Feed
   console.log('  Building feed.json...');
   writeFile(path.join(ROOT, 'record', 'feed.json'), JSON.stringify(buildFeed(dateMap), null, 2));
 
@@ -893,7 +793,7 @@ async function main() {
   console.log('  Building sitemap.xml...');
   writeFile(path.join(ROOT, 'sitemap.xml'), buildSitemap(dateMap));
 
-  console.log(`\n  Done! ${sortedDates.length} daily pages + archive + landing + feed + sitemap\n`);
+  console.log(`\n  Done! ${sortedDates.length} daily pages + archive + feed + sitemap\n`);
 }
 
 main().catch(err => {
