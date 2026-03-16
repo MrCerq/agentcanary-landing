@@ -353,27 +353,6 @@ function baseStyles() {
     }
     .gauge-fill { height:100%; border-radius:3px; transition:width 1s ease }
 
-    /* Timeline Rail */
-    .timeline {
-      display:flex; align-items:center; margin-bottom:40px;
-      padding:0 0 32px; border-bottom:1px solid ${COLORS.border};
-      animation:fadeSlideIn 0.5s ease 0.3s both;
-      overflow-x:auto;
-    }
-    .timeline-node { display:flex; align-items:center; flex:1; min-width:0 }
-    .timeline-dot-wrap {
-      display:flex; flex-direction:column; align-items:center; gap:8px;
-      cursor:pointer; flex-shrink:0;
-    }
-    .timeline-dot {
-      width:10px; height:10px; border-radius:50%;
-      background:${COLORS.t3}; transition:all 0.3s ease;
-    }
-    .timeline-dot.active { width:14px; height:14px }
-    .timeline-label { font-size:9px; font-weight:500; letter-spacing:1px; color:${COLORS.t3}; white-space:nowrap }
-    .timeline-label.active { font-weight:700 }
-    .timeline-line { flex:1; height:1px; background:linear-gradient(90deg,${COLORS.t3}40,${COLORS.t3}20); margin-top:-16px }
-
     /* Footer */
     .footer {
       border-top:1px solid ${COLORS.border};
@@ -392,7 +371,6 @@ function baseStyles() {
       .main-grid { grid-template-columns:1fr !important }
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
-      .timeline { overflow-x:auto; padding-bottom:16px }
     }
   `;
 }
@@ -486,25 +464,6 @@ function renderSessionCard(brief, index) {
     </div>`;
 }
 
-function renderTimeline(briefs) {
-  if (briefs.length <= 1) return '';
-  return `
-    <div class="timeline">
-      ${briefs.map((b, i) => {
-        const meta = SESSION_META[b.session] || SESSION_META.morning;
-        const isLast = i === briefs.length - 1;
-        return `
-          <div class="timeline-node">
-            <a href="#${b.session}" class="timeline-dot-wrap" style="text-decoration:none">
-              <div class="timeline-dot${i === 0 ? ' active' : ''}" style="background:${meta.color}${i === 0 ? `;box-shadow:0 0 16px ${meta.color}50` : ''}"></div>
-              <span class="timeline-label mono${i === 0 ? ' active' : ''}" style="color:${meta.color}">${escapeHtml(b.time)}</span>
-            </a>
-            ${!isLast ? '<div class="timeline-line"></div>' : ''}
-          </div>`;
-      }).join('')}
-    </div>`;
-}
-
 // ─── Daily Page ─────────────────────────────────────────────────
 
 function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
@@ -524,7 +483,6 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
   });
 
   const cardsHtml = sorted.map((b, i) => renderSessionCard(b, i)).join('');
-  const timelineHtml = renderTimeline(sorted);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -559,19 +517,14 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
     <div style="padding:48px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
       <div class="hero-top" style="display:flex;align-items:flex-start;justify-content:space-between;gap:40px">
         <div>
-          <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:12px;text-transform:uppercase">${dow} &middot; Daily Intel</div>
+          <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:12px">THE RECORD</div>
           <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:16px">
-            <span style="color:${COLORS.t1}">${mName} </span><span style="color:${COLORS.y}">${dayNum}</span><span style="color:${COLORS.t3}">, ${yyyy}</span>
+            <span style="color:${COLORS.t1}">${dow}, ${mName} </span><span style="color:${COLORS.y}">${dayNum}</span><span style="color:${COLORS.t3}">, ${yyyy}</span>
           </h1>
-          <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
-            <span class="mono" style="font-size:11px;color:${COLORS.t3}">${sorted.length} brief${sorted.length !== 1 ? 's' : ''} published</span>
-          </div>
-          ${summary ? `<p style="font-family:'Instrument Sans',sans-serif;font-size:16px;line-height:1.7;color:${COLORS.t2};margin-top:20px;max-width:720px">${escapeHtml(summary)}</p>` : ''}
+          ${summary ? `<p style="font-family:'Instrument Sans',sans-serif;font-size:16px;line-height:1.7;color:${COLORS.t2};margin-top:20px">${escapeHtml(summary)}</p>` : ''}
         </div>
       </div>
     </div>
-
-    ${timelineHtml}
 
     <!-- Cards -->
     <div style="display:flex;flex-direction:column;gap:20px;padding-bottom:60px">

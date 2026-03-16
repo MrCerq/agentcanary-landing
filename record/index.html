@@ -130,27 +130,6 @@
     }
     .gauge-fill { height:100%; border-radius:3px; transition:width 1s ease }
 
-    /* Timeline Rail */
-    .timeline {
-      display:flex; align-items:center; margin-bottom:40px;
-      padding:0 0 32px; border-bottom:1px solid rgba(255,255,255,0.06);
-      animation:fadeSlideIn 0.5s ease 0.3s both;
-      overflow-x:auto;
-    }
-    .timeline-node { display:flex; align-items:center; flex:1; min-width:0 }
-    .timeline-dot-wrap {
-      display:flex; flex-direction:column; align-items:center; gap:8px;
-      cursor:pointer; flex-shrink:0;
-    }
-    .timeline-dot {
-      width:10px; height:10px; border-radius:50%;
-      background:#4a5a7a; transition:all 0.3s ease;
-    }
-    .timeline-dot.active { width:14px; height:14px }
-    .timeline-label { font-size:9px; font-weight:500; letter-spacing:1px; color:#4a5a7a; white-space:nowrap }
-    .timeline-label.active { font-weight:700 }
-    .timeline-line { flex:1; height:1px; background:linear-gradient(90deg,#4a5a7a40,#4a5a7a20); margin-top:-16px }
-
     /* Footer */
     .footer {
       border-top:1px solid rgba(255,255,255,0.06);
@@ -169,7 +148,6 @@
       .main-grid { grid-template-columns:1fr !important }
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
-      .timeline { overflow-x:auto; padding-bottom:16px }
     }
   </style>
 </head>

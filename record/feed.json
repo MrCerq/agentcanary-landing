@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-16-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/16#intelligence",
+      "title": "Signal Scan — Mar 16, 2026",
+      "content_text": "SIGNAL SCAN — Mar 16, 2026 Risk 93.6/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 16, 2026",
+      "date_published": "2026-03-16T10:15:21.596Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-03-16-cycle",
       "url": "https://agentcanary.ai/record/2026/03/16#cycle",
       "title": "Cycle Check — Mar 16, 2026",

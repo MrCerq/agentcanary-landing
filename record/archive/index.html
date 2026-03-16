@@ -128,27 +128,6 @@
     }
     .gauge-fill { height:100%; border-radius:3px; transition:width 1s ease }
 
-    /* Timeline Rail */
-    .timeline {
-      display:flex; align-items:center; margin-bottom:40px;
-      padding:0 0 32px; border-bottom:1px solid rgba(255,255,255,0.06);
-      animation:fadeSlideIn 0.5s ease 0.3s both;
-      overflow-x:auto;
-    }
-    .timeline-node { display:flex; align-items:center; flex:1; min-width:0 }
-    .timeline-dot-wrap {
-      display:flex; flex-direction:column; align-items:center; gap:8px;
-      cursor:pointer; flex-shrink:0;
-    }
-    .timeline-dot {
-      width:10px; height:10px; border-radius:50%;
-      background:#4a5a7a; transition:all 0.3s ease;
-    }
-    .timeline-dot.active { width:14px; height:14px }
-    .timeline-label { font-size:9px; font-weight:500; letter-spacing:1px; color:#4a5a7a; white-space:nowrap }
-    .timeline-label.active { font-weight:700 }
-    .timeline-line { flex:1; height:1px; background:linear-gradient(90deg,#4a5a7a40,#4a5a7a20); margin-top:-16px }
-
     /* Footer */
     .footer {
       border-top:1px solid rgba(255,255,255,0.06);
@@ -167,7 +146,6 @@
       .main-grid { grid-template-columns:1fr !important }
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
-      .timeline { overflow-x:auto; padding-bottom:16px }
     }
   </style>
 </head>
@@ -205,9 +183,9 @@
           <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
             <span class="mono" style="font-size:13px;color:#e4e9f2;font-weight:700;min-width:44px">16</span>
             <span style="font-size:13px;color:#8a9abc">Monday</span>
-            <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="mono" style="font-size:9px;color:#ffc53d;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.2);padding:3px 8px;border-radius:100px">CYCLE CHECK</span> <span class="mono" style="font-size:9px;color:#fb923c;background:rgba(251,146,60,0.08);border:1px solid rgba(251,146,60,0.2);padding:3px 8px;border-radius:100px">MORNING BRIEF</span></div>
+            <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="mono" style="font-size:9px;color:#34d399;background:rgba(52,211,153,0.08);border:1px solid rgba(52,211,153,0.2);padding:3px 8px;border-radius:100px">SIGNAL SCAN</span> <span class="mono" style="font-size:9px;color:#ffc53d;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.2);padding:3px 8px;border-radius:100px">CYCLE CHECK</span> <span class="mono" style="font-size:9px;color:#fb923c;background:rgba(251,146,60,0.08);border:1px solid rgba(251,146,60,0.2);padding:3px 8px;border-radius:100px">MORNING BRIEF</span></div>
           </div>
-          <span class="mono" style="font-size:11px;color:#4a5a7a">2 briefs &rarr;</span>
+          <span class="mono" style="font-size:11px;color:#4a5a7a">3 briefs &rarr;</span>
         </a>
         <a href="/record/2026/03/15/" style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid rgba(255,255,255,0.06);text-decoration:none;transition:background 0.2s;gap:12px" onmouseover="this.style.background='#0c1220'" onmouseout="this.style.background='transparent'">
           <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
