@@ -66,6 +66,63 @@ function fetch(url) {
   });
 }
 
+// ─── Ollama (Local Qwen) Summary Generator ──────────────────────
+
+const OLLAMA_URL = 'http://localhost:11434/api/generate';
+const OLLAMA_MODEL = 'qwen3:8b';
+
+function ollamaGenerate(prompt) {
+  return new Promise((resolve, reject) => {
+    const http = require('http');
+    const payload = JSON.stringify({
+      model: OLLAMA_MODEL,
+      prompt: `/no_think\n${prompt}`,
+      stream: false,
+      options: { temperature: 0.3 }
+    });
+    const req = http.request(OLLAMA_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(payload) }
+    }, res => {
+      let body = '';
+      res.on('data', c => body += c);
+      res.on('end', () => {
+        try {
+          const r = JSON.parse(body);
+          resolve(r.response || '');
+        } catch { resolve(''); }
+      });
+    });
+    req.on('error', () => resolve('')); // fail silently — page still builds without summary
+    req.setTimeout(30000, () => { req.destroy(); resolve(''); });
+    req.write(payload);
+    req.end();
+  });
+}
+
+async function generateDailySummary(briefs, dateStr) {
+  if (!briefs || briefs.length === 0) return '';
+  
+  // Build brief summaries for the prompt
+  const briefTexts = briefs.map(b => {
+    const session = (b.session || b.type || '').toUpperCase();
+    const headline = b.headline || '';
+    const desc = (b.desc || '').slice(0, 300);
+    const tags = (b.tags || []).map(t => t.t).join(', ');
+    return `${session}: ${headline}. ${desc}${tags ? ' [' + tags + ']' : ''}`;
+  }).join('\n');
+
+  const prompt = `You are a financial editor for AgentCanary, a macro market intelligence platform. Write a 3-sentence daily summary for ${formatDate(dateStr)} that connects these briefs into one narrative arc. Be specific with numbers. No fluff, no hedging, no preamble.
+
+${briefTexts}
+
+3 sentences only:`;
+
+  const summary = await ollamaGenerate(prompt);
+  // Clean up any thinking tags or extra whitespace
+  return summary.replace(/<think>[\s\S]*?<\/think>/g, '').replace(/^\s+|\s+$/g, '');
+}
+
 function ensureDir(dir) {
   if (DRY) return;
   fs.mkdirSync(dir, { recursive: true });
@@ -450,7 +507,7 @@ function renderTimeline(briefs) {
 
 // ─── Daily Page ─────────────────────────────────────────────────
 
-function buildDailyPage(dateStr, briefs, prevDate, nextDate) {
+function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
   const { yyyy, mm, dd } = dateParts(dateStr);
   const formatted = formatDate(dateStr);
   const dow = dayOfWeek(dateStr);
@@ -509,6 +566,7 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate) {
           <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
             <span class="mono" style="font-size:11px;color:${COLORS.t3}">${sorted.length} brief${sorted.length !== 1 ? 's' : ''} published</span>
           </div>
+          ${summary ? `<p style="font-family:'Instrument Sans',sans-serif;font-size:16px;line-height:1.7;color:${COLORS.t2};margin-top:20px;max-width:720px">${escapeHtml(summary)}</p>` : ''}
         </div>
       </div>
     </div>
@@ -844,7 +902,7 @@ async function main() {
   const sortedDates = Object.keys(dateMap).sort();
   console.log(`  ${sortedDates.length} unique dates: ${sortedDates[0]} → ${sortedDates[sortedDates.length - 1]}\n`);
 
-  // 3. Generate daily pages
+  // 3. Generate daily pages (with Qwen summaries)
   console.log('  Building daily pages...');
   for (let i = 0; i < sortedDates.length; i++) {
     const dateStr = sortedDates[i];
@@ -852,7 +910,17 @@ async function main() {
     const nextDate = i < sortedDates.length - 1 ? sortedDates[i + 1] : null;
     const dayBriefs = dateMap[dateStr];
     const { yyyy, mm, dd } = dateParts(dateStr);
-    const html = buildDailyPage(dateStr, dayBriefs, prevDate, nextDate);
+    
+    // Generate AI summary via local Qwen (fails silently if Ollama is down)
+    let summary = '';
+    if (!DRY) {
+      try {
+        summary = await generateDailySummary(dayBriefs, dateStr);
+        if (summary) console.log(`    ✓ Summary for ${dateStr} (${summary.length} chars)`);
+      } catch { /* page builds without summary */ }
+    }
+    
+    const html = buildDailyPage(dateStr, dayBriefs, prevDate, nextDate, summary);
     writeFile(path.join(ROOT, 'record', yyyy, mm, dd, 'index.html'), html);
   }
 
