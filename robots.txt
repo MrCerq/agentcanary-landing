@@ -4,3 +4,7 @@ Allow: /record/
 Allow: /llms.txt
 
 Sitemap: https://agentcanary.ai/sitemap.xml
+
+# Feeds
+# JSON Feed: https://agentcanary.ai/record/feed.json
+# RSS: https://agentcanary.ai/record/rss.xml

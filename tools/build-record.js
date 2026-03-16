@@ -216,12 +216,12 @@ function generateJsonLd(briefs, dateStr) {
 
   return {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'NewsArticle',
     headline: `${formatted} — Market Intelligence | The Record`,
     datePublished: dateStr,
-    dateModified: lastBrief.postedAt || `${dateStr}T23:59:59Z`,
+    dateModified: dateStr,
     author: { '@id': `${SITE_URL}/#org` },
-    publisher: { '@id': `${SITE_URL}/#org` },
+    publisher: { '@type': 'Organization', name: 'AgentCanary', url: SITE_URL },
     url: `${SITE_URL}/record/${yyyy}/${mm}/${dd}`,
     mainEntityOfPage: `${SITE_URL}/record/${yyyy}/${mm}/${dd}`,
     description: seoDesc,
@@ -478,6 +478,88 @@ function renderSessionCard(brief, index) {
     </div>`;
 }
 
+// ─── Ticker Sidebar ─────────────────────────────────────────────
+
+const REGIME_TAGS = /^(STAGFLATION|EXPANSION|LATE_CYCLE|RECESSION|DISPLACEMENT|NEUTRAL|EARLY_CYCLE|OVERHEATING|REFLATION|GOLDILOCKS|RISK_OFF|RISK_ON)/i;
+
+function renderSidebar(briefs) {
+  // 1. Risk gauge — find first RISK GAUGE panel
+  let riskValue = null;
+  for (const b of briefs) {
+    if (!b.panels) continue;
+    const rp = b.panels.find(p => p.label === 'RISK GAUGE');
+    if (rp && rp.gauge) { riskValue = rp.gauge.value; break; }
+  }
+
+  // 2. Regime tag — find from tags arrays
+  let regimeTag = null;
+  for (const b of briefs) {
+    if (!b.tags) continue;
+    const rt = b.tags.find(t => REGIME_TAGS.test(t.t));
+    if (rt) { regimeTag = rt; break; }
+  }
+
+  // 3. Top movers — collect from TOP MOVERS panels, dedupe by k
+  const moversMap = new Map();
+  for (const b of briefs) {
+    if (!b.panels) continue;
+    for (const p of b.panels) {
+      if (p.label !== 'TOP MOVERS' || !p.rows) continue;
+      for (const r of p.rows) {
+        if (!moversMap.has(r.k)) moversMap.set(r.k, r);
+      }
+    }
+  }
+  const movers = [...moversMap.values()];
+
+  const SIDEBAR_COLORS = { green: '#34d399', red: '#f87171', yellow: '#ffc53d', blue: '#60a5fa' };
+  const sectionHeader = (text) =>
+    `<div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:${COLORS.t3};text-transform:uppercase;margin-bottom:10px">${escapeHtml(text)}</div>`;
+
+  let html = '';
+
+  // Risk gauge section
+  if (riskValue !== null) {
+    const riskColor = riskValue >= 70 ? '#f87171' : riskValue >= 40 ? '#ffc53d' : '#34d399';
+    html += `<div style="margin-bottom:24px">
+      ${sectionHeader('RISK GAUGE')}
+      <div style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:${riskColor};line-height:1">${riskValue}</div>
+      <div class="gauge-bar" style="margin-top:8px"><div class="gauge-fill" style="width:${riskValue}%;background:linear-gradient(90deg,${riskColor}60,${riskColor})"></div></div>
+    </div>`;
+  }
+
+  // Regime tag section
+  if (regimeTag) {
+    const tc = TAG_COLOR_MAP[regimeTag.c] || COLORS.y;
+    const rgb = TAG_RGB_MAP[regimeTag.c] || '255,197,61';
+    html += `<div style="margin-bottom:24px">
+      ${sectionHeader('REGIME')}
+      <span class="mono" style="font-size:13px;font-weight:700;color:${tc};background:rgba(${rgb},0.08);border:1px solid rgba(${rgb},0.25);padding:5px 12px;border-radius:100px">${escapeHtml(regimeTag.t)}</span>
+    </div>`;
+  }
+
+  // Top movers section
+  if (movers.length > 0) {
+    const moverRows = movers.map(r => {
+      const vc = SIDEBAR_COLORS[r.c] || COLORS.t1;
+      return `<div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:${COLORS.t2}">${escapeHtml(r.k)}</span>
+        <span style="font-weight:600;color:${vc}">${escapeHtml(r.v)}</span>
+      </div>`;
+    }).join('');
+    html += `<div>
+      ${sectionHeader('TOP MOVERS')}
+      ${moverRows}
+    </div>`;
+  }
+
+  if (!html) return '';
+
+  return `<aside class="ticker-sidebar" style="background:${COLORS.bgCard};border-left:1px solid rgba(255,255,255,0.06);padding:16px;border-radius:12px;position:sticky;top:80px;align-self:flex-start">
+    ${html}
+  </aside>`;
+}
+
 // ─── Daily Page ─────────────────────────────────────────────────
 
 function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
@@ -514,6 +596,7 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
   <link rel="canonical" href="${SITE_URL}/record/${yyyy}/${mm}/${dd}">
   <link rel="ai-info" href="/llms.txt">
   <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
+  <link rel="alternate" type="application/rss+xml" href="/record/rss.xml" title="The Record">
   <link rel="icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
@@ -626,6 +709,7 @@ function buildArchivePage(dateMap) {
   <link rel="canonical" href="${SITE_URL}/record/">
   <link rel="ai-info" href="/llms.txt">
   <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
+  <link rel="alternate" type="application/rss+xml" href="/record/rss.xml" title="The Record">
   <link rel="icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <style>${baseStyles()}</style>
@@ -733,6 +817,46 @@ function buildFeed(dateMap) {
   };
 }
 
+// ─── RSS Feed (RSS 2.0) ──────────────────────────────────────────
+
+function buildRssFeed(dateMap) {
+  const allBriefs = Object.entries(dateMap)
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .flatMap(([dateStr, briefs]) => briefs.map(b => ({ ...b, _date: dateStr })));
+
+  const recent = allBriefs.slice(0, 50);
+
+  const items = recent.map(b => {
+    const { yyyy, mm, dd } = dateParts(b._date);
+    const meta = SESSION_META[b.session] || SESSION_META.morning;
+    const sessionLabel = meta.label.split(' ').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ');
+    const title = `${sessionLabel} — ${formatDateShort(b._date)}, ${yyyy}`;
+    const link = `${SITE_URL}/record/${yyyy}/${mm}/${dd}#${b.session}`;
+    const desc = [b.headline, b.desc].filter(Boolean).join(' — ');
+    const pubDate = new Date(b.postedAt || `${b._date}T12:00:00Z`).toUTCString();
+
+    return `    <item>
+      <title>${escapeHtml(title)}</title>
+      <link>${link}</link>
+      <description>${escapeHtml(desc)}</description>
+      <pubDate>${pubDate}</pubDate>
+      <guid>${link}</guid>
+    </item>`;
+  }).join('\n');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Record — AgentCanary</title>
+    <link>${SITE_URL}/record/</link>
+    <description>Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored calls.</description>
+    <language>en</language>
+    <atom:link href="${SITE_URL}/record/rss.xml" rel="self" type="application/rss+xml"/>
+${items}
+  </channel>
+</rss>`;
+}
+
 // ─── Sitemap ─────────────────────────────────────────────────────
 
 function buildSitemap(dateMap) {
@@ -833,6 +957,10 @@ async function main() {
   // 5. Feed
   console.log('  Building feed.json...');
   writeFile(path.join(ROOT, 'record', 'feed.json'), JSON.stringify(buildFeed(dateMap), null, 2));
+
+  // 6. RSS Feed
+  console.log('  Building rss.xml...');
+  writeFile(path.join(ROOT, 'record', 'rss.xml'), buildRssFeed(dateMap));
 
   // 7. Sitemap
   console.log('  Building sitemap.xml...');
