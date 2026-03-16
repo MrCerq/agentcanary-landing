@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.friedel.record-rebuild</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/g2/.openclaw/workspace-uno/agentcanary/landing/tools/rebuild-and-push.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>23</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/g2/.nvm/versions/node/v22.18.0/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/tmp/friedel-record-rebuild.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/friedel-record-rebuild.log</string>
+    <key>WorkingDirectory</key>
+    <string>/Users/g2/.openclaw/workspace-uno/agentcanary/landing</string>
+</dict>
+</plist>
