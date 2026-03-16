@@ -291,7 +291,8 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 .ft-links a:hover{color:var(--t2)}
 
 @media(max-width:1024px){.code-grid,.tg-grid,.how-steps{grid-template-columns:1fr}.trust-inner{flex-direction:column}.proof-row{grid-template-columns:repeat(2,1fr)}.tier-row{grid-template-columns:90px 80px 1fr}.tier-per{display:none}.uc-grid{grid-template-columns:repeat(2,1fr)!important}}
-@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.uc-wrap{padding:0 20px!important}.stat-wrap{padding:0 20px!important}.trust{padding:0 20px!important}.notify{padding:0 20px!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}[class~="brief-panels-right"]{display:none!important}#briefs .s-title{font-size:24px}#briefs .s-desc{font-size:13px}}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;z-index:200}.hamburger span{display:block;width:22px;height:2px;background:var(--t1);border-radius:2px;transition:all .3s}.hamburger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}.hamburger.open span:nth-child(2){opacity:0}.hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}.nav-mobile{display:none;position:fixed;top:56px;left:0;right:0;background:rgba(4,7,12,.96);backdrop-filter:blur(24px);border-bottom:1px solid var(--border);padding:20px;flex-direction:column;gap:16px;z-index:99}.nav-mobile.open{display:flex}.nav-mobile a{font-size:15px;color:var(--t2);text-decoration:none;padding:8px 0;border-bottom:1px solid var(--border)}.nav-mobile a:last-child{border-bottom:none}.nav-mobile a:hover{color:var(--t1)}.nav-mobile .nav-cta{text-align:center;margin-top:8px}
+@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hamburger{display:flex}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.uc-wrap{padding:0 20px!important}.stat-wrap{padding:0 20px!important}.trust{padding:0 20px!important}.notify{padding:0 20px!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}[class~="brief-panels-right"]{display:none!important}#briefs .s-title{font-size:24px}#briefs .s-desc{font-size:13px}}
 </style>
 </head>
 <body>
@@ -314,7 +315,21 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <a href="/record/archive" style="color:var(--y);opacity:.85;">The Record</a>
     
     <a href="https://app.agentcanary.ai" target="_blank" class="nav-cta">Log in</a>
+  </div>
+  <div class="hamburger" onclick="this.classList.toggle('open');document.getElementById('nav-mobile').classList.toggle('open')">
+    <span></span><span></span><span></span>
+  </div>
 </nav>
+<div id="nav-mobile" class="nav-mobile">
+  <a href="/record/archive" style="color:var(--y)">The Record</a>
+  <a href="/docs">API Docs</a>
+  <a href="#briefs" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Live Briefs</a>
+  <a href="#capabilities" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Capabilities</a>
+  <a href="#how" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">How It Works</a>
+  <a href="#compare" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Compare</a>
+  <a href="#telegram" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Telegram</a>
+  <a href="https://app.agentcanary.ai" target="_blank" class="nav-cta">Log in</a>
+</div>
 
 <div class="hero">
   <div class="hero-grid"></div>
