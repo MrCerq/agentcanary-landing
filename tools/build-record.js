@@ -146,6 +146,21 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;');
 }
 
+function escapeXml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+function toRfc822(dateStr, timeHint) {
+  if (timeHint) return new Date(timeHint).toUTCString();
+  return new Date(dateStr + 'T12:00:00Z').toUTCString();
+}
+
 function formatDate(dateStr) {
   const d = new Date(dateStr + 'T12:00:00Z');
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
