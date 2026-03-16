@@ -21,6 +21,7 @@ and evaluated against actual market outcomes.
 - Homepage: JSON-LD with Organization, WebSite, DataCatalog schemas
 - Daily pages: JSON-LD with Article + MarketIntelligence custom schema
 - JSON Feed: https://agentcanary.ai/record/feed.json (JSON Feed 1.1)
+- RSS Feed: https://agentcanary.ai/record/rss.xml (RSS 2.0)
 - Sitemap: https://agentcanary.ai/sitemap.xml
 
 ## URL Patterns
