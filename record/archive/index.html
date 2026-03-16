@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Archive — The Record | AgentCanary</title>
-  <meta name="description" content="Browse every day of market intelligence from AgentCanary. 8 days of briefs with regime tracking and scored calls.">
-  <meta property="og:title" content="Archive — The Record | AgentCanary">
-  <meta property="og:url" content="https://agentcanary.ai/record/archive/">
-  <link rel="canonical" href="https://agentcanary.ai/record/archive/">
+  <title>The Record — AgentCanary</title>
+  <meta name="description" content="Market intelligence with receipts. 8 days of daily macro briefs with regime tracking and scored predictions.">
+  <meta property="og:title" content="The Record — AgentCanary">
+  <meta property="og:url" content="https://agentcanary.ai/record/">
+  <link rel="canonical" href="https://agentcanary.ai/record/">
   <link rel="ai-info" href="/llms.txt">
   <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
   <link rel="icon" href="/favicon.png">
@@ -128,27 +128,6 @@
     }
     .gauge-fill { height:100%; border-radius:3px; transition:width 1s ease }
 
-    /* Timeline Rail */
-    .timeline {
-      display:flex; align-items:center; margin-bottom:40px;
-      padding:0 0 32px; border-bottom:1px solid rgba(255,255,255,0.06);
-      animation:fadeSlideIn 0.5s ease 0.3s both;
-      overflow-x:auto;
-    }
-    .timeline-node { display:flex; align-items:center; flex:1; min-width:0 }
-    .timeline-dot-wrap {
-      display:flex; flex-direction:column; align-items:center; gap:8px;
-      cursor:pointer; flex-shrink:0;
-    }
-    .timeline-dot {
-      width:10px; height:10px; border-radius:50%;
-      background:#4a5a7a; transition:all 0.3s ease;
-    }
-    .timeline-dot.active { width:14px; height:14px }
-    .timeline-label { font-size:9px; font-weight:500; letter-spacing:1px; color:#4a5a7a; white-space:nowrap }
-    .timeline-label.active { font-weight:700 }
-    .timeline-line { flex:1; height:1px; background:linear-gradient(90deg,#4a5a7a40,#4a5a7a20); margin-top:-16px }
-
     /* Footer */
     .footer {
       border-top:1px solid rgba(255,255,255,0.06);
@@ -167,7 +146,6 @@
       .main-grid { grid-template-columns:1fr !important }
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
-      .timeline { overflow-x:auto; padding-bottom:16px }
     }
   </style>
 </head>
@@ -187,14 +165,39 @@
       </div>
     </div>
 
-    <div style="padding:48px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
-      <div class="mono" style="font-size:11px;color:#4a5a7a;letter-spacing:2px;margin-bottom:12px">THE RECORD</div>
-      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:48px;font-weight:800;letter-spacing:-2px;line-height:1.1;margin-bottom:16px">
-        <span style="color:#e4e9f2">Archive</span>
+    <!-- Hero -->
+    <div style="padding:80px 0 60px;animation:fadeSlideIn 0.6s ease 0.2s both;text-align:center;max-width:720px;margin:0 auto">
+      <div class="mono" style="font-size:11px;color:#ffc53d;letter-spacing:3px;margin-bottom:20px">THE RECORD</div>
+      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:24px">
+        <span style="color:#e4e9f2">Every call.</span><br>
+        <span style="color:#e4e9f2">Every day.</span><br>
+        <span style="color:#ffc53d">Scored.</span>
       </h1>
-      <p style="font-size:15px;color:#8a9abc;max-width:600px;line-height:1.6">
-        Every brief. Every call. Every day. Browse 8 days of market intelligence with regime tracking and scored predictions.
+      <p style="font-size:17px;color:#8a9abc;line-height:1.6;margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto">
+        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
       </p>
+      <a href="/record/2026/03/16/" style="display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:#ffc53d;color:#04070c;font-weight:700;font-size:14px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+        Latest: March 16, 2026 &rarr;
+      </a>
+    </div>
+
+    <!-- Feature cards -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.5s both">
+      <div class="card">
+      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:#fb923c;margin-bottom:12px">REGIME TRACKING</div>
+      <p style="font-size:14px;color:#8a9abc;line-height:1.6">Continuous macro regime classification — stagflation, late-cycle, recession, expansion, displacement, neutral.</p>
+    </div><div class="card">
+      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:#34d399;margin-bottom:12px">SCORED CALLS</div>
+      <p style="font-size:14px;color:#8a9abc;line-height:1.6">Every prediction tracked and evaluated against actual market outcomes 48-72 hours later.</p>
+    </div><div class="card">
+      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:#a78bfa;margin-bottom:12px">MACHINE-READABLE</div>
+      <p style="font-size:14px;color:#8a9abc;line-height:1.6">JSON Feed 1.1, JSON-LD structured data, and llms.txt for AI-native consumption.</p>
+    </div>
+    </div>
+
+    <!-- Archive -->
+    <div style="animation:fadeSlideIn 0.6s ease 0.6s both">
+      <div class="mono" style="font-size:11px;color:#4a5a7a;letter-spacing:2px;margin-bottom:24px">8 DAYS OF INTELLIGENCE</div>
     </div>
 
     
@@ -205,9 +208,9 @@
           <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
             <span class="mono" style="font-size:13px;color:#e4e9f2;font-weight:700;min-width:44px">16</span>
             <span style="font-size:13px;color:#8a9abc">Monday</span>
-            <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="mono" style="font-size:9px;color:#ffc53d;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.2);padding:3px 8px;border-radius:100px">CYCLE CHECK</span> <span class="mono" style="font-size:9px;color:#fb923c;background:rgba(251,146,60,0.08);border:1px solid rgba(251,146,60,0.2);padding:3px 8px;border-radius:100px">MORNING BRIEF</span></div>
+            <div style="display:flex;gap:6px;flex-wrap:wrap"><span class="mono" style="font-size:9px;color:#34d399;background:rgba(52,211,153,0.08);border:1px solid rgba(52,211,153,0.2);padding:3px 8px;border-radius:100px">SIGNAL SCAN</span> <span class="mono" style="font-size:9px;color:#ffc53d;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.2);padding:3px 8px;border-radius:100px">CYCLE CHECK</span> <span class="mono" style="font-size:9px;color:#fb923c;background:rgba(251,146,60,0.08);border:1px solid rgba(251,146,60,0.2);padding:3px 8px;border-radius:100px">MORNING BRIEF</span></div>
           </div>
-          <span class="mono" style="font-size:11px;color:#4a5a7a">2 briefs &rarr;</span>
+          <span class="mono" style="font-size:11px;color:#4a5a7a">3 briefs &rarr;</span>
         </a>
         <a href="/record/2026/03/15/" style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid rgba(255,255,255,0.06);text-decoration:none;transition:background 0.2s;gap:12px" onmouseover="this.style.background='#0c1220'" onmouseout="this.style.background='transparent'">
           <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">

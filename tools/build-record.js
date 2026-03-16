@@ -4,8 +4,7 @@
  *
  * Fetches briefs from the AC API and generates static HTML pages:
  *   record/YYYY/MM/DD/index.html  — daily pages
- *   record/archive/index.html     — archive listing
- *   record/index.html             — landing page
+ *   record/index.html             — archive listing (also written to record/archive/)
  *   record/feed.json              — JSON Feed 1.1
  *   sitemap.xml                   — updated with /record/ pages
  *
@@ -217,7 +216,7 @@ function generateJsonLd(briefs, dateStr) {
     breadcrumb: {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'The Record', item: `${SITE_URL}/record/archive` },
+        { '@type': 'ListItem', position: 1, name: 'The Record', item: `${SITE_URL}/record/` },
         { '@type': 'ListItem', position: 2, name: yyyy, item: `${SITE_URL}/record/${yyyy}/` },
         { '@type': 'ListItem', position: 3, name: mName, item: `${SITE_URL}/record/${yyyy}/${mm}/` },
         { '@type': 'ListItem', position: 4, name: formatted, item: `${SITE_URL}/record/${yyyy}/${mm}/${dd}` },
@@ -353,27 +352,6 @@ function baseStyles() {
     }
     .gauge-fill { height:100%; border-radius:3px; transition:width 1s ease }
 
-    /* Timeline Rail */
-    .timeline {
-      display:flex; align-items:center; margin-bottom:40px;
-      padding:0 0 32px; border-bottom:1px solid ${COLORS.border};
-      animation:fadeSlideIn 0.5s ease 0.3s both;
-      overflow-x:auto;
-    }
-    .timeline-node { display:flex; align-items:center; flex:1; min-width:0 }
-    .timeline-dot-wrap {
-      display:flex; flex-direction:column; align-items:center; gap:8px;
-      cursor:pointer; flex-shrink:0;
-    }
-    .timeline-dot {
-      width:10px; height:10px; border-radius:50%;
-      background:${COLORS.t3}; transition:all 0.3s ease;
-    }
-    .timeline-dot.active { width:14px; height:14px }
-    .timeline-label { font-size:9px; font-weight:500; letter-spacing:1px; color:${COLORS.t3}; white-space:nowrap }
-    .timeline-label.active { font-weight:700 }
-    .timeline-line { flex:1; height:1px; background:linear-gradient(90deg,${COLORS.t3}40,${COLORS.t3}20); margin-top:-16px }
-
     /* Footer */
     .footer {
       border-top:1px solid ${COLORS.border};
@@ -392,7 +370,6 @@ function baseStyles() {
       .main-grid { grid-template-columns:1fr !important }
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
-      .timeline { overflow-x:auto; padding-bottom:16px }
     }
   `;
 }
@@ -413,7 +390,7 @@ function topBar(prevDate, nextDate) {
       <div class="nav-links mono">
         ${prevLink}
         <span style="color:${COLORS.t3}">|</span>
-        <a href="/record/archive/" style="color:${COLORS.t3}">Archive</a>
+        <a href="/record/" style="color:${COLORS.t3}">Archive</a>
         <span style="color:${COLORS.t3}">|</span>
         ${nextLink}
       </div>
@@ -486,25 +463,6 @@ function renderSessionCard(brief, index) {
     </div>`;
 }
 
-function renderTimeline(briefs) {
-  if (briefs.length <= 1) return '';
-  return `
-    <div class="timeline">
-      ${briefs.map((b, i) => {
-        const meta = SESSION_META[b.session] || SESSION_META.morning;
-        const isLast = i === briefs.length - 1;
-        return `
-          <div class="timeline-node">
-            <a href="#${b.session}" class="timeline-dot-wrap" style="text-decoration:none">
-              <div class="timeline-dot${i === 0 ? ' active' : ''}" style="background:${meta.color}${i === 0 ? `;box-shadow:0 0 16px ${meta.color}50` : ''}"></div>
-              <span class="timeline-label mono${i === 0 ? ' active' : ''}" style="color:${meta.color}">${escapeHtml(b.time)}</span>
-            </a>
-            ${!isLast ? '<div class="timeline-line"></div>' : ''}
-          </div>`;
-      }).join('')}
-    </div>`;
-}
-
 // ─── Daily Page ─────────────────────────────────────────────────
 
 function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
@@ -524,7 +482,6 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
   });
 
   const cardsHtml = sorted.map((b, i) => renderSessionCard(b, i)).join('');
-  const timelineHtml = renderTimeline(sorted);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -559,19 +516,14 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
     <div style="padding:48px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
       <div class="hero-top" style="display:flex;align-items:flex-start;justify-content:space-between;gap:40px">
         <div>
-          <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:12px;text-transform:uppercase">${dow} &middot; Daily Intel</div>
+          <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:12px">THE RECORD</div>
           <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:16px">
-            <span style="color:${COLORS.t1}">${mName} </span><span style="color:${COLORS.y}">${dayNum}</span><span style="color:${COLORS.t3}">, ${yyyy}</span>
+            <span style="color:${COLORS.t1}">${dow}, ${mName} </span><span style="color:${COLORS.y}">${dayNum}</span><span style="color:${COLORS.t3}">, ${yyyy}</span>
           </h1>
-          <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
-            <span class="mono" style="font-size:11px;color:${COLORS.t3}">${sorted.length} brief${sorted.length !== 1 ? 's' : ''} published</span>
-          </div>
-          ${summary ? `<p style="font-family:'Instrument Sans',sans-serif;font-size:16px;line-height:1.7;color:${COLORS.t2};margin-top:20px;max-width:720px">${escapeHtml(summary)}</p>` : ''}
+          ${summary ? `<p style="font-family:'Instrument Sans',sans-serif;font-size:16px;line-height:1.7;color:${COLORS.t2};margin-top:20px">${escapeHtml(summary)}</p>` : ''}
         </div>
       </div>
     </div>
-
-    ${timelineHtml}
 
     <!-- Cards -->
     <div style="display:flex;flex-direction:column;gap:20px;padding-bottom:60px">
@@ -581,7 +533,7 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
     <!-- Footer -->
     <div class="footer">
       <span class="mono"><a href="/" style="color:${COLORS.t3}">agentcanary.ai</a></span>
-      <span class="mono"><a href="/record/archive/" style="color:${COLORS.t3}">Archive</a> &middot; <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a></span>
+      <span class="mono"><a href="/record/" style="color:${COLORS.t3}">Archive</a> &middot; <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a></span>
     </div>
   </div>
 </body>
@@ -589,6 +541,20 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
 }
 
 // ─── Archive Page ────────────────────────────────────────────────
+
+function renderFeatureCards() {
+  const features = [
+    { title: 'Regime Tracking', desc: 'Continuous macro regime classification — stagflation, late-cycle, recession, expansion, displacement, neutral.', color: COLORS.o },
+    { title: 'Scored Calls', desc: 'Every prediction tracked and evaluated against actual market outcomes 48-72 hours later.', color: COLORS.g },
+    { title: 'Machine-Readable', desc: 'JSON Feed 1.1, JSON-LD structured data, and llms.txt for AI-native consumption.', color: COLORS.p },
+  ];
+  return features.map(f =>
+    `<div class="card">
+      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:${f.color};margin-bottom:12px">${f.title.toUpperCase()}</div>
+      <p style="font-size:14px;color:${COLORS.t2};line-height:1.6">${f.desc}</p>
+    </div>`
+  ).join('');
+}
 
 function buildArchivePage(dateMap) {
   const dates = Object.keys(dateMap).sort().reverse();
@@ -638,11 +604,11 @@ function buildArchivePage(dateMap) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Archive — The Record | AgentCanary</title>
-  <meta name="description" content="Browse every day of market intelligence from AgentCanary. ${dates.length} days of briefs with regime tracking and scored calls.">
-  <meta property="og:title" content="Archive — The Record | AgentCanary">
-  <meta property="og:url" content="${SITE_URL}/record/archive/">
-  <link rel="canonical" href="${SITE_URL}/record/archive/">
+  <title>The Record — AgentCanary</title>
+  <meta name="description" content="Market intelligence with receipts. ${dates.length} days of daily macro briefs with regime tracking and scored predictions.">
+  <meta property="og:title" content="The Record — AgentCanary">
+  <meta property="og:url" content="${SITE_URL}/record/">
+  <link rel="canonical" href="${SITE_URL}/record/">
   <link rel="ai-info" href="/llms.txt">
   <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
   <link rel="icon" href="/favicon.png">
@@ -665,14 +631,30 @@ function buildArchivePage(dateMap) {
       </div>
     </div>
 
-    <div style="padding:48px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
-      <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:12px">THE RECORD</div>
-      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:48px;font-weight:800;letter-spacing:-2px;line-height:1.1;margin-bottom:16px">
-        <span style="color:${COLORS.t1}">Archive</span>
+    <!-- Hero -->
+    <div style="padding:80px 0 60px;animation:fadeSlideIn 0.6s ease 0.2s both;text-align:center;max-width:720px;margin:0 auto">
+      <div class="mono" style="font-size:11px;color:${COLORS.y};letter-spacing:3px;margin-bottom:20px">THE RECORD</div>
+      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:24px">
+        <span style="color:${COLORS.t1}">Every call.</span><br>
+        <span style="color:${COLORS.t1}">Every day.</span><br>
+        <span style="color:${COLORS.y}">Scored.</span>
       </h1>
-      <p style="font-size:15px;color:${COLORS.t2};max-width:600px;line-height:1.6">
-        Every brief. Every call. Every day. Browse ${dates.length} days of market intelligence with regime tracking and scored predictions.
+      <p style="font-size:17px;color:${COLORS.t2};line-height:1.6;margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto">
+        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
       </p>
+      <a href="/record/${dateParts(dates[0]).yyyy}/${dateParts(dates[0]).mm}/${dateParts(dates[0]).dd}/" style="display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:${COLORS.y};color:${COLORS.bg};font-weight:700;font-size:14px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+        Latest: ${formatDate(dates[0])} &rarr;
+      </a>
+    </div>
+
+    <!-- Feature cards -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.5s both">
+      ${renderFeatureCards()}
+    </div>
+
+    <!-- Archive -->
+    <div style="animation:fadeSlideIn 0.6s ease 0.6s both">
+      <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:24px">${dates.length} DAYS OF INTELLIGENCE</div>
     </div>
 
     ${monthsHtml}
@@ -686,103 +668,6 @@ function buildArchivePage(dateMap) {
 </html>`;
 }
 
-// ─── Landing Page ────────────────────────────────────────────────
-
-function buildLandingPage(dates) {
-  const sortedDates = dates.sort().reverse();
-  const latest = sortedDates[0];
-  const { yyyy, mm, dd } = dateParts(latest);
-
-  const recentLinks = sortedDates.slice(0, 7).map(d => {
-    const { yyyy: y, mm: m, dd: day } = dateParts(d);
-    return `<a href="/record/${y}/${m}/${day}/" style="display:block;padding:12px 0;border-bottom:1px solid ${COLORS.border};color:${COLORS.t1};text-decoration:none;font-size:14px;transition:color 0.2s" onmouseover="this.style.color='${COLORS.y}'" onmouseout="this.style.color='${COLORS.t1}'">${formatDate(d)} &rarr;</a>`;
-  }).join('');
-
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>The Record — AgentCanary</title>
-  <meta name="description" content="Market intelligence with receipts. Every call scored against reality. Daily macro briefs with regime tracking, whale alerts, and narrative scores.">
-  <meta property="og:title" content="The Record — AgentCanary">
-  <meta property="og:description" content="Market intelligence with receipts. Every call scored against reality.">
-  <meta property="og:url" content="${SITE_URL}/record/">
-  <meta property="og:site_name" content="AgentCanary">
-  <link rel="canonical" href="${SITE_URL}/record/">
-  <link rel="ai-info" href="/llms.txt">
-  <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
-  <link rel="icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <style>${baseStyles()}</style>
-</head>
-<body>
-  <div class="bg-grid"></div>
-  <div class="glow-tl"></div>
-  <div class="glow-br"></div>
-
-  <div class="container">
-    <div class="topbar">
-      <a href="/" class="logo">
-        <div class="logo-dot"></div>
-        <span class="logo-text mono">AGENT<span style="color:${COLORS.y}">CANARY</span></span>
-      </a>
-      <div class="nav-links mono">
-        <a href="/record/archive/" style="color:${COLORS.t3}">Archive</a>
-        <span style="color:${COLORS.t3}">|</span>
-        <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a>
-      </div>
-    </div>
-
-    <!-- Hero -->
-    <div style="padding:80px 0 60px;animation:fadeSlideIn 0.6s ease 0.2s both;text-align:center;max-width:720px;margin:0 auto">
-      <div class="mono" style="font-size:11px;color:${COLORS.y};letter-spacing:3px;margin-bottom:20px">THE RECORD</div>
-      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:24px">
-        <span style="color:${COLORS.t1}">Every call.</span><br>
-        <span style="color:${COLORS.t1}">Every day.</span><br>
-        <span style="color:${COLORS.y}">Scored.</span>
-      </h1>
-      <p style="font-size:17px;color:${COLORS.t2};line-height:1.6;margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto">
-        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
-      </p>
-      <a href="/record/${yyyy}/${mm}/${dd}/" style="display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:${COLORS.y};color:${COLORS.bg};font-weight:700;font-size:14px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
-        Latest: ${formatDate(latest)} &rarr;
-      </a>
-    </div>
-
-    <!-- Recent Days -->
-    <div style="max-width:600px;margin:0 auto;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.4s both">
-      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:${COLORS.t3};margin-bottom:16px">RECENT DAYS</div>
-      <div class="card" style="padding:4px 24px">
-        ${recentLinks}
-      </div>
-      <div style="text-align:center;margin-top:24px">
-        <a href="/record/archive/" class="mono" style="font-size:12px;color:${COLORS.t3};letter-spacing:1px">View full archive &rarr;</a>
-      </div>
-    </div>
-
-    <!-- Features -->
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.5s both">
-      ${[
-        { title: 'Regime Tracking', desc: 'Continuous macro regime classification — stagflation, late-cycle, recession, expansion, displacement, neutral.', color: COLORS.o },
-        { title: 'Scored Calls', desc: 'Every prediction tracked and evaluated against actual market outcomes 48-72 hours later.', color: COLORS.g },
-        { title: 'Machine-Readable', desc: 'JSON Feed 1.1, JSON-LD structured data, and llms.txt for AI-native consumption.', color: COLORS.p },
-      ].map(f => `
-        <div class="card">
-          <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:${f.color};margin-bottom:12px">${f.title.toUpperCase()}</div>
-          <p style="font-size:14px;color:${COLORS.t2};line-height:1.6">${f.desc}</p>
-        </div>
-      `).join('')}
-    </div>
-
-    <div class="footer">
-      <span class="mono"><a href="/" style="color:${COLORS.t3}">agentcanary.ai</a></span>
-      <span class="mono"><a href="https://t.me/agentcanary" style="color:${COLORS.t3}">Telegram</a></span>
-    </div>
-  </div>
-</body>
-</html>`;
-}
 
 // ─── Feed (JSON Feed 1.1) ────────────────────────────────────────
 
@@ -924,15 +809,13 @@ async function main() {
     writeFile(path.join(ROOT, 'record', yyyy, mm, dd, 'index.html'), html);
   }
 
-  // 4. Archive page
+  // 4. Archive page (serves as both /record/ and /record/archive/)
   console.log('\n  Building archive page...');
-  writeFile(path.join(ROOT, 'record', 'archive', 'index.html'), buildArchivePage(dateMap));
+  const archiveHtml = buildArchivePage(dateMap);
+  writeFile(path.join(ROOT, 'record', 'index.html'), archiveHtml);
+  writeFile(path.join(ROOT, 'record', 'archive', 'index.html'), archiveHtml);
 
-  // 5. Landing page
-  console.log('  Building landing page...');
-  writeFile(path.join(ROOT, 'record', 'index.html'), buildLandingPage(sortedDates));
-
-  // 6. Feed
+  // 5. Feed
   console.log('  Building feed.json...');
   writeFile(path.join(ROOT, 'record', 'feed.json'), JSON.stringify(buildFeed(dateMap), null, 2));
 
@@ -940,7 +823,7 @@ async function main() {
   console.log('  Building sitemap.xml...');
   writeFile(path.join(ROOT, 'sitemap.xml'), buildSitemap(dateMap));
 
-  console.log(`\n  Done! ${sortedDates.length} daily pages + archive + landing + feed + sitemap\n`);
+  console.log(`\n  Done! ${sortedDates.length} daily pages + archive + feed + sitemap\n`);
 }
 
 main().catch(err => {
