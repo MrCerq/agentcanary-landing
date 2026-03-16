@@ -153,6 +153,15 @@
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
     }
+  
+    .daily-layout { display:flex; gap:24px; padding-bottom:60px }
+    .daily-cards { flex:0 0 65%; min-width:0; display:flex; flex-direction:column; gap:20px }
+    .ticker-sidebar { flex:0 0 calc(35% - 24px) }
+    @media (max-width:768px) {
+      .daily-layout { flex-direction:column-reverse }
+      .daily-cards { flex:1 1 auto }
+      .ticker-sidebar { position:static !important; flex:1 1 auto; border-left:none !important; border-bottom:1px solid rgba(255,255,255,0.06) }
+    }
   </style>
 </head>
 <body>
@@ -185,13 +194,15 @@
             <span style="color:#e4e9f2">Monday, March </span><span style="color:#ffc53d">16</span><span style="color:#4a5a7a">, 2026</span>
           </h1>
           
+          <p style="font-size:14px;color:#4a5a7a;margin-top:20px;line-height:1.6">3 briefs published · Regime: STAGFLATION · Risk gauge: 94/100</p>
         </div>
       </div>
     </div>
 
-    <!-- Cards -->
-    <div style="display:flex;flex-direction:column;gap:20px;padding-bottom:60px">
-      
+    <!-- Cards + Sidebar -->
+    <div class="daily-layout">
+      <div class="daily-cards">
+        
     <div class="card" id="morning" style="animation:fadeSlideIn 0.5s ease 0.2s both">
       <div class="card-header">
         <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
@@ -265,6 +276,32 @@
         <div class="card-content" id="card-cycle-2"><b>[+] WEEKLY BUSINESS CYCLE</b> — Mar 16, 2026<br><br><b>CYCLE METRIC:</b> 877,618 ↓ (-9.7% WoW)<br>Phase: <b>EXPANSION</b><br><br><b>MACRO INPUTS</b><br>• S&P 500: $6,623<br>• Unemployment: 4.4%<br>• Fed Funds: 3.64%<br>• CPI YoY: 2.4%<br>• Initial Claims: 213K<br><br><b>CREDIT STRESS: LOW</b><br>[OK] No flags<br>• Card delinquency: 2.94%<br>• Consumer loans: 2.62%<br>• All loans: 1.48%<br><br><b>SPECULATIVE APPETITE (IGV)</b><br>$84.19 · +45.2% from golden pocket · Trend: DOWN<br>[DOWN] Growth still out of favor<br><br>agentcanary.ai | <i>Weekly macro cycle analysis</i></div>
       
     </div>
+      </div>
+      <aside class="ticker-sidebar" style="background:#080d16;border-left:1px solid rgba(255,255,255,0.06);padding:16px;border-radius:12px;position:sticky;top:80px;align-self:flex-start">
+    <div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">RISK GAUGE</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:#f87171;line-height:1">94</div>
+      <div class="gauge-bar" style="margin-top:8px"><div class="gauge-fill" style="width:94%;background:linear-gradient(90deg,#f8717160,#f87171)"></div></div>
+    </div><div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">REGIME</div>
+      <span class="mono" style="font-size:13px;font-weight:700;color:#60a5fa;background:rgba(96,165,250,0.08);border:1px solid rgba(96,165,250,0.25);padding:5px 12px;border-radius:100px">STAGFLATION</span>
+    </div><div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">TOP MOVERS</div>
+      <div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">WPP</span>
+        <span style="font-weight:600;color:#f87171">-6.8%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">ETH</span>
+        <span style="font-weight:600;color:#34d399">+6.8%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">PEPE</span>
+        <span style="font-weight:600;color:#34d399">+6.8%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">SLV</span>
+        <span style="font-weight:600;color:#f87171">-6.7%</span>
+      </div>
+    </div>
+  </aside>
     </div>
 
     <!-- Footer -->

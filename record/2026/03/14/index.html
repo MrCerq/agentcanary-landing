@@ -153,6 +153,15 @@
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
     }
+  
+    .daily-layout { display:flex; gap:24px; padding-bottom:60px }
+    .daily-cards { flex:0 0 65%; min-width:0; display:flex; flex-direction:column; gap:20px }
+    .ticker-sidebar { flex:0 0 calc(35% - 24px) }
+    @media (max-width:768px) {
+      .daily-layout { flex-direction:column-reverse }
+      .daily-cards { flex:1 1 auto }
+      .ticker-sidebar { position:static !important; flex:1 1 auto; border-left:none !important; border-bottom:1px solid rgba(255,255,255,0.06) }
+    }
   </style>
 </head>
 <body>
@@ -185,13 +194,15 @@
             <span style="color:#e4e9f2">Saturday, March </span><span style="color:#ffc53d">14</span><span style="color:#4a5a7a">, 2026</span>
           </h1>
           
+          <p style="font-size:14px;color:#4a5a7a;margin-top:20px;line-height:1.6">3 briefs published · Regime: STAGFLATION · Risk gauge: 94/100</p>
         </div>
       </div>
     </div>
 
-    <!-- Cards -->
-    <div style="display:flex;flex-direction:column;gap:20px;padding-bottom:60px">
-      
+    <!-- Cards + Sidebar -->
+    <div class="daily-layout">
+      <div class="daily-cards">
+        
     <div class="card" id="midday" style="animation:fadeSlideIn 0.5s ease 0.2s both">
       <div class="card-header">
         <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
@@ -268,6 +279,32 @@ Markets traded in classic stagflation mode with elevated VIX at <strong style="c
         <div class="card-content" id="card-evening-2"><b>MARKET WRAP</b> — Mar 14, 2026<br><br><i>Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction as Bitcoin held near $71K while traditional hedges like gold pushed higher, reflecting investors' struggle to position for an environment where neither aggressive risk-on nor defensive plays offer clear refuge.</i><br><br><br><b>CLOSING PRICES</b><br>BTC: <b>$70,757</b> · ETH: <b>$2,086</b> · SOL: <b>$87.36</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (-0.4%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.5</b> (+0.8%) · OIL: <b>$98.71</b> (+3.1%)<br><br><b>SECTOR CLOSE</b><br>▲ XLE (Energy) +2.5% · XLU (Utilities) +0.2% · XLC (Communication) -2.6%<br>▼ COPX (Copper Miners) -7.1% · XLB (Materials) -1.6% · XLI (Industrials) -3.7%<br><br><b>SIGNALS</b><br>🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH<br>🟡 AI / Tech (intensity 93) — NVDA, MSFT, GOOGL<br>🟡 Defense / Geopolitics (intensity 63) — ITA, LMT, RTX<br><br><b>EVENING NEWS</b><br>🟢 $100K Bitcoin? Prediction Market Odds Climb To 40%<br>🟢 Trump’s war jolts global central banks from Fed to ECB to BOJ<br>🔴 Report: Crypto Losses Drop 87% in February, But Hackers Are Now Targeting People, Not Code<br>🟢 The latest US inflation report looked like good news — next week may change that<br>🟢 Top and bottom quant-rated materials stocks over $10B: Coeur Mining leads 'Strong Buys'<br>🟢 Strategy’s Bitcoin Bet Now $3.35 Billion In The Red As Saylor Tells Investors To Wait<br><br><b>REGIME CHECK</b><br>🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100<br><br><b>UPCOMING — HIGH IMPACT</b><br>EU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)<br> National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)<br>US New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)<br> Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)<br>US Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC<br>US Federal Funds Benchmark Rate — Mar 18, 06:00 PM UTC (prev: 3.50% - 3.75%)<br><br>agentcanary.ai | <i>Not financial advice</i></div>
       
     </div>
+      </div>
+      <aside class="ticker-sidebar" style="background:#080d16;border-left:1px solid rgba(255,255,255,0.06);padding:16px;border-radius:12px;position:sticky;top:80px;align-self:flex-start">
+    <div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">RISK GAUGE</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:#f87171;line-height:1">94</div>
+      <div class="gauge-bar" style="margin-top:8px"><div class="gauge-fill" style="width:94%;background:linear-gradient(90deg,#f8717160,#f87171)"></div></div>
+    </div><div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">REGIME</div>
+      <span class="mono" style="font-size:13px;font-weight:700;color:#60a5fa;background:rgba(96,165,250,0.08);border:1px solid rgba(96,165,250,0.25);padding:5px 12px;border-radius:100px">STAGFLATION</span>
+    </div><div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">TOP MOVERS</div>
+      <div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">GLXY</span>
+        <span style="font-weight:600;color:#34d399">+8.4%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">ADBE</span>
+        <span style="font-weight:600;color:#f87171">-7.5%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">MIR</span>
+        <span style="font-weight:600;color:#f87171">-7.1%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">WPP</span>
+        <span style="font-weight:600;color:#f87171">-6.8%</span>
+      </div>
+    </div>
+  </aside>
     </div>
 
     <!-- Footer -->

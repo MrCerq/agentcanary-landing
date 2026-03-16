@@ -153,6 +153,15 @@
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
     }
+  
+    .daily-layout { display:flex; gap:24px; padding-bottom:60px }
+    .daily-cards { flex:0 0 65%; min-width:0; display:flex; flex-direction:column; gap:20px }
+    .ticker-sidebar { flex:0 0 calc(35% - 24px) }
+    @media (max-width:768px) {
+      .daily-layout { flex-direction:column-reverse }
+      .daily-cards { flex:1 1 auto }
+      .ticker-sidebar { position:static !important; flex:1 1 auto; border-left:none !important; border-bottom:1px solid rgba(255,255,255,0.06) }
+    }
   </style>
 </head>
 <body>
@@ -185,13 +194,15 @@
             <span style="color:#e4e9f2">Thursday, March </span><span style="color:#ffc53d">12</span><span style="color:#4a5a7a">, 2026</span>
           </h1>
           
+          <p style="font-size:14px;color:#4a5a7a;margin-top:20px;line-height:1.6">4 briefs published · Regime: STAGFLATION · Risk gauge: 78/100</p>
         </div>
       </div>
     </div>
 
-    <!-- Cards -->
-    <div style="display:flex;flex-direction:column;gap:20px;padding-bottom:60px">
-      
+    <!-- Cards + Sidebar -->
+    <div class="daily-layout">
+      <div class="daily-cards">
+        
     <div class="card" id="morning" style="animation:fadeSlideIn 0.5s ease 0.2s both">
       <div class="card-header">
         <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
@@ -293,6 +304,32 @@ Markets drifted in neutral territory as stagflationary pressures kept risk asset
         <div class="card-content" id="card-evening-3"><b>MARKET WRAP</b> — Mar 12, 2026<br><br><i>Markets drifted in neutral territory as stagflationary pressures kept risk assets range-bound, with crypto showing resilience while traditional equities remained cautious. The elevated VIX at 27+ reflects underlying uncertainty as investors navigate persistent inflation concerns amid economic growth questions. Dollar strength near parity continues weighing on sentiment across asset classes.</i><br><br><br><b>CLOSING PRICES</b><br>BTC: <b>$70,328</b> · ETH: <b>$2,064</b> · SOL: <b>$86.45</b> · GOLD: <b>$5,088</b> · SPY: <b>$666.06</b> (-1.6%) · QQQ: <b>$597.26</b> (-1.7%) · VIX: <b>$27.29</b> (+9.5%) · TLT: <b>$86.97</b> (-1.5%) · DXY: <b>$99.74</b> (+0.5%) · OIL: <b>$97.19</b> (+11.4%)<br><br><b>EVENING NEWS</b><br>🔴 Investors slash Fed rate-cut bets as Iran war sends petrol prices surging<br>🔴 Hope Not Lost For ‘$1 Cardano’ Even As Hoskinson Acknowledges Worst Crypto Sentiment Ever<br>🟢 RIVER rallies 22% – Analyzing if traders should bet on $20 next<br>🟢 Bitcoin ETF Holders Stay Steady Through Q4 Price Decline<br>🟢 Futu targets 800,000 new funded accounts in 2026 while expanding AI and crypto capabilitie<br>🟡 Could oil prices really reach $200 a barrel as claimed by Iran?<br><br><b>REGIME CHECK</b><br>🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100<br><br><b>UPCOMING — HIGH IMPACT</b><br>US New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)<br> Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)<br>US Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC<br>US Durable goods orders (MoM)(Final)(Jan) — Mar 18, 02:00 PM UTC<br>US Producer Price Index (YoY)(Feb) — Mar 18, 12:30 PM UTC (prev: 2.9%)<br>EU Consumer Price Index (MoM)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 0.7%)<br><br>agentcanary.ai | <i>Not financial advice</i></div>
       
     </div>
+      </div>
+      <aside class="ticker-sidebar" style="background:#080d16;border-left:1px solid rgba(255,255,255,0.06);padding:16px;border-radius:12px;position:sticky;top:80px;align-self:flex-start">
+    <div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">RISK GAUGE</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:#f87171;line-height:1">78</div>
+      <div class="gauge-bar" style="margin-top:8px"><div class="gauge-fill" style="width:78%;background:linear-gradient(90deg,#f8717160,#f87171)"></div></div>
+    </div><div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">REGIME</div>
+      <span class="mono" style="font-size:13px;font-weight:700;color:#f87171;background:rgba(248,113,113,0.08);border:1px solid rgba(248,113,113,0.25);padding:5px 12px;border-radius:100px">Neutral · Neutral</span>
+    </div><div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">TOP MOVERS</div>
+      <div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">IREN</span>
+        <span style="font-weight:600;color:#34d399">+10.2%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">ORCL</span>
+        <span style="font-weight:600;color:#34d399">+9.1%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">WTI</span>
+        <span style="font-weight:600;color:#34d399">+8.3%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">ICP</span>
+        <span style="font-weight:600;color:#34d399">+7.5%</span>
+      </div>
+    </div>
+  </aside>
     </div>
 
     <!-- Footer -->
