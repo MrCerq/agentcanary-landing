@@ -153,6 +153,15 @@
       .topbar { flex-wrap:wrap; gap:12px }
       .hero-top { flex-direction:column !important; gap:24px !important }
     }
+  
+    .daily-layout { display:flex; gap:24px; padding-bottom:60px }
+    .daily-cards { flex:0 0 65%; min-width:0; display:flex; flex-direction:column; gap:20px }
+    .ticker-sidebar { flex:0 0 calc(35% - 24px) }
+    @media (max-width:768px) {
+      .daily-layout { flex-direction:column-reverse }
+      .daily-cards { flex:1 1 auto }
+      .ticker-sidebar { position:static !important; flex:1 1 auto; border-left:none !important; border-bottom:1px solid rgba(255,255,255,0.06) }
+    }
   </style>
 </head>
 <body>
@@ -185,13 +194,15 @@
             <span style="color:#e4e9f2">Monday, March </span><span style="color:#ffc53d">9</span><span style="color:#4a5a7a">, 2026</span>
           </h1>
           
+          <p style="font-size:14px;color:#4a5a7a;margin-top:20px;line-height:1.6">3 briefs published · Regime: STAGFLATION · Risk gauge: 49/100</p>
         </div>
       </div>
     </div>
 
-    <!-- Cards -->
-    <div style="display:flex;flex-direction:column;gap:20px;padding-bottom:60px">
-      
+    <!-- Cards + Sidebar -->
+    <div class="daily-layout">
+      <div class="daily-cards">
+        
     <div class="card" id="midday" style="animation:fadeSlideIn 0.5s ease 0.2s both">
       <div class="card-header">
         <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
@@ -268,6 +279,32 @@ Markets reflected classic stagflation dynamics as Middle East tensions drove oil
         <div class="card-content" id="card-evening-2"><b>MARKET WRAP</b> — Mar 9, 2026<br><br><i>Markets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuring equities while gold held near highs on safe-haven demand. The regime shift toward late-cycle concerns was evident in elevated VIX at 25.5 despite crypto resilience. Geopolitical risk premium now embedded across asset classes.</i><br><br><br><b>CLOSING PRICES</b><br>BTC: <b>$68,985</b> · ETH: <b>$2,028</b> · SOL: <b>$85.98</b> · GOLD: <b>$5,137</b> · SPY: <b>$678.27</b> (-0.4%) · QQQ: <b>$607.76</b> (-0.2%) · VIX: <b>$25.5</b> (+7.4%) · TLT: <b>$89.23</b> (+0.5%) · DXY: <b>$98.73</b> (-0.3%) · OIL: <b>$87.55</b> (-7.6%)<br><br><b>EVENING NEWS</b><br>🟢 Gold dips with inflation in focus but rises after-hours as Trump signals Iran war nearly o<br>🔴 Humanity Protocol [H] drops 8% – Can $0.128 demand zone hold?<br>🟢 Pudgy Penguins Launches ‘Pudgy World’ Browser Game<br>🟢 Bitcoin jumps toward $69K as oil plunges 30% amid US–Iran tensions<br>🟢 Zcash Outpaces Bitcoin Gains as Key Development Team Raises $25 Million<br>🟡 World leaders eye oil reserves, but so far hold off on tapping them<br><br><b>SCENARIO SHIFTS</b><br>↑ Late Cycle: Oil shock and China inflation suggest economy heating up late in cycle<br>↓ Goldilocks: Rising inflation and geopolitical tensions breaking benign environment<br>↑ Stagflation: Oil shock plus China CPI surge creating classic stagflationary pressures<br>↑ Hegemony: Critical minerals competition and Middle East tensions heightening bloc tensions<br>↑ Displacement: Bitcoin ETF flows and minerals reshoring showing alternative system building<br><br><b>REGIME CHECK</b><br>🟢 <b>Risk-On · Neutral</b> · STAGFLATION · Gauge: 49.4/100<br><br><b>UPCOMING — HIGH IMPACT</b><br> Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)<br>US Producer Price Index (YoY)(Feb) — Mar 18, 12:30 PM UTC<br>EU Consumer Price Index (YoY)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 1.9%)<br>EU Consumer Price Index (MoM)(Final)(Feb) — Mar 18, 10:00 AM UTC (prev: 0.7%)<br>US New home sales (AAMR)(Jan) — Mar 16, 02:00 PM UTC (prev: -1.7%)<br> Total retail sales of consumer goods (YoY)(Feb) — Mar 16, 02:00 AM UTC (prev: 0.9%)<br><br><b>CONTRARIAN</b><br>• Bitcoin ETF inflows during risk-off periods suggest crypto is becoming a genuine portfolio diversifi<br>• China's inflation surge might be temporary demand catch-up rather than persistent pricing power, mak<br><br>agentcanary.ai | <i>Not financial advice</i></div>
       
     </div>
+      </div>
+      <aside class="ticker-sidebar" style="background:#080d16;border-left:1px solid rgba(255,255,255,0.06);padding:16px;border-radius:12px;position:sticky;top:80px;align-self:flex-start">
+    <div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">RISK GAUGE</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:#ffc53d;line-height:1">49</div>
+      <div class="gauge-bar" style="margin-top:8px"><div class="gauge-fill" style="width:49%;background:linear-gradient(90deg,#ffc53d60,#ffc53d)"></div></div>
+    </div><div style="margin-bottom:24px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">REGIME</div>
+      <span class="mono" style="font-size:13px;font-weight:700;color:#60a5fa;background:rgba(96,165,250,0.08);border:1px solid rgba(96,165,250,0.25);padding:5px 12px;border-radius:100px">STAGFLATION</span>
+    </div><div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">TOP MOVERS</div>
+      <div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">WTI</span>
+        <span style="font-weight:600;color:#34d399">+29.4%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">BRENT</span>
+        <span style="font-weight:600;color:#34d399">+27.1%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">OIL</span>
+        <span style="font-weight:600;color:#34d399">+11.7%</span>
+      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
+        <span style="color:#8a9abc">VIX</span>
+        <span style="font-weight:600;color:#34d399">+6.9%</span>
+      </div>
+    </div>
+  </aside>
     </div>
 
     <!-- Footer -->

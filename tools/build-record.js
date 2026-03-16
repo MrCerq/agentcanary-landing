@@ -560,6 +560,38 @@ function renderSidebar(briefs) {
   </aside>`;
 }
 
+
+// ─── Daily Context (always-present subline below date) ──────────
+
+function buildDailyContext(briefs) {
+  const parts = [];
+  parts.push(`${briefs.length} brief${briefs.length !== 1 ? 's' : ''} published`);
+
+  const regimeTerms = ['STAGFLATION', 'EXPANSION', 'LATE_CYCLE', 'RECESSION', 'CONTRACTION', 'DISPLACEMENT', 'NEUTRAL', 'RISK-OFF', 'RISK-ON'];
+  for (const b of briefs) {
+    for (const tag of (b.tags || [])) {
+      const t = (tag.t || '').toUpperCase();
+      if (regimeTerms.includes(t)) {
+        parts.push(`Regime: ${tag.t}`);
+        break;
+      }
+    }
+    if (parts.length > 1) break;
+  }
+
+  for (const b of briefs) {
+    for (const p of (b.panels || [])) {
+      if (p.label === 'RISK GAUGE' && p.gauge) {
+        parts.push(`Risk gauge: ${p.gauge.value}/100`);
+        break;
+      }
+    }
+    if (parts.length > 2) break;
+  }
+
+  return parts.join(' · ');
+}
+
 // ─── Daily Page ─────────────────────────────────────────────────
 
 function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
@@ -579,6 +611,7 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
   });
 
   const cardsHtml = sorted.map((b, i) => renderSessionCard(b, i)).join('');
+  const sidebarHtml = renderSidebar(sorted);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -600,7 +633,16 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
   <link rel="icon" href="/favicon.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
-  <style>${baseStyles()}</style>
+  <style>${baseStyles()}
+    .daily-layout { display:flex; gap:24px; padding-bottom:60px }
+    .daily-cards { flex:0 0 65%; min-width:0; display:flex; flex-direction:column; gap:20px }
+    .ticker-sidebar { flex:0 0 calc(35% - 24px) }
+    @media (max-width:768px) {
+      .daily-layout { flex-direction:column-reverse }
+      .daily-cards { flex:1 1 auto }
+      .ticker-sidebar { position:static !important; flex:1 1 auto; border-left:none !important; border-bottom:1px solid rgba(255,255,255,0.06) }
+    }
+  </style>
 </head>
 <body>
   <div class="bg-grid"></div>
@@ -619,13 +661,17 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
             <span style="color:${COLORS.t1}">${dow}, ${mName} </span><span style="color:${COLORS.y}">${dayNum}</span><span style="color:${COLORS.t3}">, ${yyyy}</span>
           </h1>
           ${summary ? `<p style="font-family:'Instrument Sans',sans-serif;font-size:16px;line-height:1.7;color:${COLORS.t2};margin-top:20px">${escapeHtml(summary)}</p>` : ''}
+          <p style="font-size:14px;color:${COLORS.t3};margin-top:${summary ? '8' : '20'}px;line-height:1.6">${buildDailyContext(briefs)}</p>
         </div>
       </div>
     </div>
 
-    <!-- Cards -->
-    <div style="display:flex;flex-direction:column;gap:20px;padding-bottom:60px">
-      ${cardsHtml}
+    <!-- Cards + Sidebar -->
+    <div class="daily-layout">
+      <div class="daily-cards">
+        ${cardsHtml}
+      </div>
+      ${sidebarHtml}
     </div>
 
     <!-- Footer -->
