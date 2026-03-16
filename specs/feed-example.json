@@ -1,0 +1,157 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "AgentCanary — The Record",
+  "home_page_url": "https://agentcanary.ai",
+  "feed_url": "https://agentcanary.ai/record/feed.json",
+  "description": "Market intelligence with receipts. 4 daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored calls.",
+  "icon": "https://agentcanary.ai/logo-512.png",
+  "favicon": "https://agentcanary.ai/favicon.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "AgentCanary",
+      "url": "https://agentcanary.ai"
+    }
+  ],
+  "items": [
+    {
+      "id": "2026-03-14-evening",
+      "url": "https://agentcanary.ai/record/2026/03/14#evening",
+      "title": "Evening Wrap — Mar 14, 2026",
+      "content_text": "Day closes mixed. Oil story dominates. Watch PCE Friday. SPX closes +0.4% at 5,155. BTC ends at $70,200, recovering from morning lows. Oil the dominant story — WTI settles at $80.90 (+2.8%). VIX fades to 21.8. Regime gauge ticks to 60.8.",
+      "summary": "Day closes mixed. Oil story dominates. Watch PCE Friday.",
+      "date_published": "2026-03-14T21:00:00Z",
+      "date_modified": "2026-03-16T04:00:00Z",
+      "tags": ["stagflation", "oil-supply-shock", "mixed-close", "pce-watch"],
+      "_agentcanary": {
+        "session": "evening",
+        "regime": {
+          "state": "stagflation",
+          "score": 60.8,
+          "previous": "late-cycle",
+          "shift_date": "2026-03-10"
+        },
+        "signals": [
+          {
+            "type": "price_move",
+            "asset": "WTI",
+            "direction": "up",
+            "magnitude": "+2.8%",
+            "source": "market"
+          },
+          {
+            "type": "vol_signal",
+            "asset": "VIX",
+            "direction": "down",
+            "magnitude": "-2.7%",
+            "source": "market"
+          }
+        ],
+        "narratives": [
+          { "name": "oil-supply-shock", "score": 0.87, "lifecycle": "peak" },
+          { "name": "btc-accumulation", "score": 0.64, "lifecycle": "rising" },
+          { "name": "stagflation-regime", "score": 0.71, "lifecycle": "holding" },
+          { "name": "tech-rotation", "score": 0.42, "lifecycle": "early" }
+        ],
+        "calls": [
+          {
+            "claim": "Oil continues upward on Iran supply fears",
+            "timeframe": "24h",
+            "resolved": true,
+            "outcome": "correct",
+            "actual": "WTI +2.8% to $80.90"
+          },
+          {
+            "claim": "VIX stays elevated above 22",
+            "timeframe": "session",
+            "resolved": true,
+            "outcome": "incorrect",
+            "actual": "VIX faded to 21.8"
+          },
+          {
+            "claim": "BTC holds below $70K",
+            "timeframe": "24h",
+            "resolved": true,
+            "outcome": "incorrect",
+            "actual": "BTC recovered to $70,200"
+          },
+          {
+            "claim": "SPX recovery attempt in afternoon",
+            "timeframe": "session",
+            "resolved": true,
+            "outcome": "correct",
+            "actual": "SPX closed +0.4%"
+          }
+        ],
+        "assets": {
+          "BTC": { "price": 70200, "change_pct": "-1.3%" },
+          "SPX": { "price": 5155, "change_pct": "+0.4%" },
+          "WTI": { "price": 80.90, "change_pct": "+2.8%" },
+          "VIX": { "price": 21.8, "change_pct": "-2.7%" },
+          "DXY": { "price": 104.8, "change_pct": "+0.1%" },
+          "GOLD": { "price": 2165, "change_pct": "+0.3%" }
+        },
+        "scorecard": {
+          "accuracy": 0.50,
+          "calls_correct": 2,
+          "calls_total": 4,
+          "scored_at": "2026-03-16T04:00:00Z"
+        }
+      }
+    },
+    {
+      "id": "2026-03-14-signal",
+      "url": "https://agentcanary.ai/record/2026/03/14#signal",
+      "title": "Signal Scan — Mar 14, 2026",
+      "content_text": "Whale wallets accumulate. ETF flows flip positive. Regime holds stagflation. On-chain: 4 whale wallets added 2,400 BTC in the last 6 hours. BTC ETF net inflows hit $340M, strongest day in 2 weeks.",
+      "summary": "Whale wallets accumulate. ETF flows flip positive. Regime holds stagflation.",
+      "date_published": "2026-03-14T17:00:00Z",
+      "tags": ["btc-accumulation", "etf-inflows", "whale-alert", "stagflation"],
+      "_agentcanary": {
+        "session": "signal",
+        "regime": {
+          "state": "stagflation",
+          "score": 61.2,
+          "previous": "late-cycle",
+          "shift_date": "2026-03-10"
+        },
+        "signals": [
+          {
+            "type": "whale_alert",
+            "asset": "BTC",
+            "direction": "buy",
+            "magnitude": "2,400 BTC",
+            "source": "on-chain"
+          },
+          {
+            "type": "etf_flow",
+            "asset": "BTC",
+            "direction": "inflow",
+            "magnitude": "$340M net",
+            "source": "etf-tracker"
+          }
+        ],
+        "narratives": [
+          { "name": "oil-supply-shock", "score": 0.87, "lifecycle": "peak" },
+          { "name": "btc-accumulation", "score": 0.64, "lifecycle": "rising" }
+        ],
+        "calls": [
+          {
+            "claim": "Smart money accumulation underway",
+            "timeframe": "48h",
+            "resolved": null,
+            "outcome": null,
+            "actual": null
+          }
+        ],
+        "assets": {
+          "BTC": { "price": 70100, "change_pct": "-0.9%" },
+          "SPX": { "price": 5180, "change_pct": "+0.8%" },
+          "WTI": { "price": 81.40, "change_pct": "+3.2%" },
+          "VIX": { "price": 22.1, "change_pct": "+1.2%" }
+        },
+        "scorecard": null
+      }
+    }
+  ]
+}

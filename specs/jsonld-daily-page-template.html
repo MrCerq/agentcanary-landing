@@ -1,0 +1,211 @@
+<!--
+  AgentCanary — Daily Page JSON-LD Template
+  Place in <head> of /record/YYYY/MM/DD pages
+  
+  Replace all {{PLACEHOLDER}} values with actual data from the brief pipeline.
+  Generate this server-side when building each daily page.
+  
+  Also include in <head>:
+  <link rel="ai-info" href="/llms.txt">
+  <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{DATE_FORMATTED}} — Market Intelligence | The Record",
+  "datePublished": "{{DATE_ISO}}",
+  "dateModified": "{{LAST_MODIFIED_ISO}}",
+  "author": { "@id": "https://agentcanary.ai/#org" },
+  "publisher": { "@id": "https://agentcanary.ai/#org" },
+  "url": "https://agentcanary.ai/record/{{YYYY}}/{{MM}}/{{DD}}",
+  "mainEntityOfPage": "https://agentcanary.ai/record/{{YYYY}}/{{MM}}/{{DD}}",
+  "image": "https://agentcanary.ai/record/{{YYYY}}/{{MM}}/{{DD}}/og-card.png",
+  "description": "{{SEO_DESCRIPTION}}",
+  "keywords": {{KEYWORDS_JSON_ARRAY}},
+  "articleSection": "Market Intelligence",
+  "inLanguage": "en",
+
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "The Record", "item": "https://agentcanary.ai/record/archive" },
+      { "@type": "ListItem", "position": 2, "name": "{{YYYY}}", "item": "https://agentcanary.ai/record/{{YYYY}}/" },
+      { "@type": "ListItem", "position": 3, "name": "{{MONTH_NAME}}", "item": "https://agentcanary.ai/record/{{YYYY}}/{{MM}}/" },
+      { "@type": "ListItem", "position": 4, "name": "{{DATE_FORMATTED}}", "item": "https://agentcanary.ai/record/{{YYYY}}/{{MM}}/{{DD}}" }
+    ]
+  },
+
+  "about": {
+    "@type": "StructuredValue",
+    "name": "MarketIntelligence",
+    "description": "Structured market data snapshot for {{DATE_FORMATTED}}",
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "regime_state",
+        "value": "{{REGIME_STATE}}",
+        "description": "Current macro regime classification"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "regime_score",
+        "value": "{{REGIME_SCORE}}",
+        "unitText": "gauge (0-100)",
+        "description": "Continuous regime gauge score"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "regime_previous",
+        "value": "{{REGIME_PREVIOUS}}",
+        "description": "Previous regime state before most recent shift"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "regime_shift_date",
+        "value": "{{REGIME_SHIFT_DATE}}",
+        "description": "Date of most recent regime state change"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "briefs_count",
+        "value": "{{BRIEFS_COUNT}}",
+        "description": "Number of briefs published this day"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "btc_price",
+        "value": "{{BTC_PRICE}}",
+        "unitText": "USD"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "btc_change_pct",
+        "value": "{{BTC_CHANGE}}"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "spx_close",
+        "value": "{{SPX_CLOSE}}",
+        "unitText": "points"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "spx_change_pct",
+        "value": "{{SPX_CHANGE}}"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "wti_price",
+        "value": "{{WTI_PRICE}}",
+        "unitText": "USD/barrel"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "wti_change_pct",
+        "value": "{{WTI_CHANGE}}"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "vix",
+        "value": "{{VIX_VALUE}}"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "dxy",
+        "value": "{{DXY_VALUE}}"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "gold_price",
+        "value": "{{GOLD_PRICE}}",
+        "unitText": "USD/oz"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "top_signal",
+        "value": "{{TOP_SIGNAL}}",
+        "description": "Highest-impact signal of the day"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "top_narrative",
+        "value": "{{TOP_NARRATIVE}}",
+        "description": "Highest-scoring active narrative"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "top_narrative_score",
+        "value": "{{TOP_NARRATIVE_SCORE}}",
+        "unitText": "0.0-1.0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "scorecard_accuracy",
+        "value": "{{SCORECARD_ACCURACY}}",
+        "unitText": "0.0-1.0",
+        "description": "Overall accuracy of calls made this day (null if not yet scored)"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "scorecard_calls_correct",
+        "value": "{{CALLS_CORRECT}}"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "scorecard_calls_total",
+        "value": "{{CALLS_TOTAL}}"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "scorecard_scored_at",
+        "value": "{{SCORED_AT_ISO}}",
+        "description": "When the scorecard was last evaluated"
+      }
+    ]
+  }
+}
+</script>
+
+<!--
+  IMPLEMENTATION NOTES:
+  
+  1. Generate this JSON-LD server-side from the Mongo brief data.
+  2. For unscorable days (< 48 hours old), set scorecard fields to null.
+  3. Update dateModified whenever the scorecard is populated or updated.
+  4. The og-card.png should be the social card image for that day.
+  5. SEO_DESCRIPTION format: "Regime: {state} ({score}). {top_asset_moves}. {briefs_count} briefs with scored calls."
+  6. KEYWORDS should include: regime state, top signals, top narratives, key asset names.
+  
+  TEMPLATE VARIABLES:
+  {{DATE_FORMATTED}}      → "March 14, 2026"
+  {{DATE_ISO}}            → "2026-03-14"
+  {{LAST_MODIFIED_ISO}}   → "2026-03-16T04:00:00Z" (when scorecard updated)
+  {{YYYY}}                → "2026"
+  {{MM}}                  → "03"
+  {{DD}}                  → "14"
+  {{MONTH_NAME}}          → "March"
+  {{REGIME_STATE}}        → "stagflation"
+  {{REGIME_SCORE}}        → "61.2"
+  {{REGIME_PREVIOUS}}     → "late-cycle"
+  {{REGIME_SHIFT_DATE}}   → "2026-03-10"
+  {{BRIEFS_COUNT}}        → "4"
+  {{BTC_PRICE}}           → "70200"
+  {{BTC_CHANGE}}          → "-1.3%"
+  {{SPX_CLOSE}}           → "5155"
+  {{SPX_CHANGE}}          → "+0.4%"
+  {{WTI_PRICE}}           → "80.90"
+  {{WTI_CHANGE}}          → "+2.8%"
+  {{VIX_VALUE}}           → "21.8"
+  {{DXY_VALUE}}           → "104.8"
+  {{GOLD_PRICE}}          → "2165"
+  {{TOP_SIGNAL}}          → "oil_supply_shock"
+  {{TOP_NARRATIVE}}       → "oil-supply-shock"
+  {{TOP_NARRATIVE_SCORE}} → "0.87"
+  {{SCORECARD_ACCURACY}}  → "0.78" or "null"
+  {{CALLS_CORRECT}}       → "3" or "null"
+  {{CALLS_TOTAL}}         → "4" or "null"
+  {{SCORED_AT_ISO}}       → "2026-03-16T04:00:00Z" or "null"
+  {{SEO_DESCRIPTION}}     → "Regime: stagflation (61.2). Oil +2.8%, BTC -1.3%. 4 briefs with scored calls."
+  {{KEYWORDS_JSON_ARRAY}} → ["stagflation","oil supply shock","btc whale sell","vix elevated"]
+-->
