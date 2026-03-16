@@ -1,0 +1,442 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "AgentCanary — The Record",
+  "home_page_url": "https://agentcanary.ai",
+  "feed_url": "https://agentcanary.ai/record/feed.json",
+  "description": "Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored calls.",
+  "icon": "https://agentcanary.ai/logo-512.png",
+  "favicon": "https://agentcanary.ai/favicon.png",
+  "language": "en",
+  "authors": [
+    {
+      "name": "AgentCanary",
+      "url": "https://agentcanary.ai"
+    }
+  ],
+  "items": [
+    {
+      "id": "2026-03-16-cycle",
+      "url": "https://agentcanary.ai/record/2026/03/16#cycle",
+      "title": "Cycle Check — Mar 16, 2026",
+      "content_text": "Cycle: EXPANSION · Metric 877,618 ↓ Credit: LOW (0 flags). IGV $84.19 DOWN. ICSA 213K. (-9.7% WoW)",
+      "summary": "Cycle: EXPANSION · Metric 877,618 ↓",
+      "date_published": "2026-03-16T06:35:56.977Z",
+      "tags": [
+        "expansion",
+        "credit-low",
+        "igv-down"
+      ],
+      "_agentcanary": {
+        "session": "cycle"
+      }
+    },
+    {
+      "id": "2026-03-16-morning",
+      "url": "https://agentcanary.ai/record/2026/03/16#morning",
+      "title": "Morning Brief — Mar 16, 2026",
+      "content_text": "🔴 Risk-Off · Neutral · Gauge 93.6/100 STAGFLATION. F&G: —. NORMAL.",
+      "summary": "🔴 Risk-Off · Neutral · Gauge 93.6/100",
+      "date_published": "2026-03-16T04:15:01.523Z",
+      "tags": [
+        "risk-off-·-neutral",
+        "gauge-93.6"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-03-15-evening",
+      "url": "https://agentcanary.ai/record/2026/03/15#evening",
+      "title": "Evening Wrap — Mar 15, 2026",
+      "content_text": "0 bullish / 0 bearish signals. MARKET WRAP — Mar 15, 2026\n\nMarkets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressuring equities with SPY down to 662. The dollar's strength above 100 weighed",
+      "summary": "0 bullish / 0 bearish signals.",
+      "date_published": "2026-03-15T22:15:06.533Z",
+      "tags": [
+        "mixed",
+        "eu-markit-manufact"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-03-15-midday",
+      "url": "https://agentcanary.ai/record/2026/03/15#midday",
+      "title": "Market Pulse — Mar 15, 2026",
+      "content_text": "BTC BULL_REGIME on daily.\n100 whale moves detected. BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH 1d:BULL_REGIME 4h:DISTRIBUTION · SOL 1d:BULL_REGIME 4h:DISTRIBUTION",
+      "summary": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-15T16:15:01.502Z",
+      "tags": [
+        "whale-alert",
+        "ir-2323%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-15-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/15#intelligence",
+      "title": "Signal Scan — Mar 15, 2026",
+      "content_text": "SIGNAL SCAN — Mar 15, 2026 Risk 93.6/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 15, 2026",
+      "date_published": "2026-03-15T10:15:20.774Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-03-15-morning",
+      "url": "https://agentcanary.ai/record/2026/03/15#morning",
+      "title": "Morning Brief — Mar 15, 2026",
+      "content_text": "🔴 Risk-Off · Neutral · Gauge 93.6/100 STAGFLATION. F&G: —. NORMAL.",
+      "summary": "🔴 Risk-Off · Neutral · Gauge 93.6/100",
+      "date_published": "2026-03-15T04:15:01.619Z",
+      "tags": [
+        "risk-off-·-neutral",
+        "gauge-93.6"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-03-14-evening",
+      "url": "https://agentcanary.ai/record/2026/03/14#evening",
+      "title": "Evening Wrap — Mar 14, 2026",
+      "content_text": "0 bullish / 0 bearish signals. MARKET WRAP — Mar 14, 2026\n\nMarkets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction",
+      "summary": "0 bullish / 0 bearish signals.",
+      "date_published": "2026-03-14T22:15:06.514Z",
+      "tags": [
+        "mixed",
+        "eu-markit-manufact"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-03-14-midday",
+      "url": "https://agentcanary.ai/record/2026/03/14#midday",
+      "title": "Market Pulse — Mar 14, 2026",
+      "content_text": "BTC BULL_REGIME on daily.\n100 whale moves detected. BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:BEAR_REGIME",
+      "summary": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-14T16:15:01.162Z",
+      "tags": [
+        "whale-alert",
+        "la-1436%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-14-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/14#intelligence",
+      "title": "Signal Scan — Mar 14, 2026",
+      "content_text": "SIGNAL SCAN — Mar 14, 2026 Risk 93.6/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 14, 2026",
+      "date_published": "2026-03-14T10:15:20.704Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-03-13-evening",
+      "url": "https://agentcanary.ai/record/2026/03/13#evening",
+      "title": "Evening Wrap — Mar 13, 2026",
+      "content_text": "0 bullish / 0 bearish signals. MARKET WRAP — Mar 13, 2026\n\nMarkets traded defensively with elevated VIX at 27 signaling broad risk-off sentiment despite crypto resilience. The stagflationary backdrop kept bonds weak while a firm do",
+      "summary": "0 bullish / 0 bearish signals.",
+      "date_published": "2026-03-13T22:15:05.452Z",
+      "tags": [
+        "mixed",
+        "us-new-home-sales-"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-03-13-midday",
+      "url": "https://agentcanary.ai/record/2026/03/13#midday",
+      "title": "Market Pulse — Mar 13, 2026",
+      "content_text": "BTC ACCUMULATION on daily.\n100 whale moves detected. BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:IGNITION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
+      "summary": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-13T16:15:01.225Z",
+      "tags": [
+        "whale-alert",
+        "bb-1463%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-13-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/13#intelligence",
+      "title": "Signal Scan — Mar 13, 2026",
+      "content_text": "SIGNAL SCAN — Mar 13, 2026 Risk 78/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 13, 2026",
+      "date_published": "2026-03-13T10:15:21.779Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-03-13-morning",
+      "url": "https://agentcanary.ai/record/2026/03/13#morning",
+      "title": "Morning Brief — Mar 13, 2026",
+      "content_text": "🟡 Neutral · Neutral · Gauge 78/100 STAGFLATION. F&G: —. WATCH.",
+      "summary": "🟡 Neutral · Neutral · Gauge 78/100",
+      "date_published": "2026-03-13T04:15:01.850Z",
+      "tags": [
+        "neutral-·-neutral",
+        "gauge-78"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-03-12-evening",
+      "url": "https://agentcanary.ai/record/2026/03/12#evening",
+      "title": "Evening Wrap — Mar 12, 2026",
+      "content_text": "0 bullish / 0 bearish signals. MARKET WRAP — Mar 12, 2026\n\nMarkets drifted in neutral territory as stagflationary pressures kept risk assets range-bound, with crypto showing resilience while traditional equities remained cautious. ",
+      "summary": "0 bullish / 0 bearish signals.",
+      "date_published": "2026-03-12T22:15:05.340Z",
+      "tags": [
+        "mixed",
+        "us-new-home-sales-"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-03-12-midday",
+      "url": "https://agentcanary.ai/record/2026/03/12#midday",
+      "title": "Market Pulse — Mar 12, 2026",
+      "content_text": "BTC RISK_OFF on daily.\n100 whale moves detected. BTC 1d:RISK_OFF 4h:DISTRIBUTION · ETH 1d:RISK_OFF 4h:DISTRIBUTION · SOL 1d:RISK_OFF 4h:DISTRIBUTION",
+      "summary": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-12T16:15:01.455Z",
+      "tags": [
+        "risk_off",
+        "whale-alert",
+        "lyn-963%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-12-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/12#intelligence",
+      "title": "Signal Scan — Mar 12, 2026",
+      "content_text": "SIGNAL SCAN — Mar 12, 2026 Risk 78/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 12, 2026",
+      "date_published": "2026-03-12T10:15:21.946Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-03-12-morning",
+      "url": "https://agentcanary.ai/record/2026/03/12#morning",
+      "title": "Morning Brief — Mar 12, 2026",
+      "content_text": "🟡 Neutral · Neutral · Gauge 78/100 STAGFLATION. F&G: —. WATCH.",
+      "summary": "🟡 Neutral · Neutral · Gauge 78/100",
+      "date_published": "2026-03-12T04:15:04.031Z",
+      "tags": [
+        "neutral-·-neutral",
+        "gauge-78"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-03-11-evening",
+      "url": "https://agentcanary.ai/record/2026/03/11#evening",
+      "title": "Evening Wrap — Mar 11, 2026",
+      "content_text": "0 bullish / 0 bearish signals. MARKET WRAP — Mar 11, 2026\n\nMarkets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 24.23 while both equities and crypto sold off in tandem. The dollar's str",
+      "summary": "0 bullish / 0 bearish signals.",
+      "date_published": "2026-03-11T22:15:05.256Z",
+      "tags": [
+        "mixed",
+        "us-new-home-sales-"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-03-11-midday",
+      "url": "https://agentcanary.ai/record/2026/03/11#midday",
+      "title": "Market Pulse — Mar 11, 2026",
+      "content_text": "BTC IGNITION on daily.\n100 whale moves detected. BTC 1d:IGNITION 4h:IGNITION · ETH 1d:IGNITION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:ACCUMULATION",
+      "summary": "BTC IGNITION on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-11T16:15:01.595Z",
+      "tags": [
+        "ignition",
+        "whale-alert",
+        "lyn-4380%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-11-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/11#intelligence",
+      "title": "Signal Scan — Mar 11, 2026",
+      "content_text": "SIGNAL SCAN — Mar 11, 2026 Risk 85/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 11, 2026",
+      "date_published": "2026-03-11T10:15:19.575Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-03-11-morning",
+      "url": "https://agentcanary.ai/record/2026/03/11#morning",
+      "title": "Morning Brief — Mar 11, 2026",
+      "content_text": "🔴 Risk-Off · Neutral · Gauge 85/100 STAGFLATION. F&G: —. WATCH.",
+      "summary": "🔴 Risk-Off · Neutral · Gauge 85/100",
+      "date_published": "2026-03-11T04:15:01.523Z",
+      "tags": [
+        "risk-off-·-neutral",
+        "gauge-85"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-03-10-evening",
+      "url": "https://agentcanary.ai/record/2026/03/10#evening",
+      "title": "Evening Wrap — Mar 10, 2026",
+      "content_text": "0 bullish / 0 bearish signals. MARKET WRAP — Mar 10, 2026\n\nMarkets entered risk-off mode as Middle East tensions sparked an oil shock above $87, feeding stagflation fears already stoked by China's inflation surge. While traditional",
+      "summary": "0 bullish / 0 bearish signals.",
+      "date_published": "2026-03-10T22:15:05.379Z",
+      "tags": [
+        "mixed",
+        "-seasonally-adjust"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-03-10-midday",
+      "url": "https://agentcanary.ai/record/2026/03/10#midday",
+      "title": "Market Pulse — Mar 10, 2026",
+      "content_text": "BTC BEAR_REGIME on daily.\n100 whale moves detected. BTC 1d:BEAR_REGIME 4h:BULL_REGIME · ETH 1d:BEAR_REGIME 4h:BULL_REGIME · SOL 1d:ACCUMULATION 4h:IGNITION",
+      "summary": "BTC BEAR_REGIME on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-10T16:15:01.287Z",
+      "tags": [
+        "bear_regime",
+        "whale-alert",
+        "pixel-1030%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-10-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/10#intelligence",
+      "title": "Signal Scan — Mar 10, 2026",
+      "content_text": "SIGNAL SCAN — Mar 10, 2026 Risk 85/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 10, 2026",
+      "date_published": "2026-03-10T10:15:20.944Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-03-10-morning",
+      "url": "https://agentcanary.ai/record/2026/03/10#morning",
+      "title": "Morning Brief — Mar 10, 2026",
+      "content_text": "🔴 Risk-Off · Neutral · Gauge 85/100 STAGFLATION. F&G: —. WATCH.",
+      "summary": "🔴 Risk-Off · Neutral · Gauge 85/100",
+      "date_published": "2026-03-10T04:15:01.474Z",
+      "tags": [
+        "risk-off-·-neutral",
+        "gauge-85"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-03-09-evening",
+      "url": "https://agentcanary.ai/record/2026/03/09#evening",
+      "title": "Evening Wrap — Mar 9, 2026",
+      "content_text": "0 bullish / 0 bearish signals. MARKET WRAP — Mar 9, 2026\n\nMarkets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuring equities while gold held near highs on safe-haven demand. The regime s",
+      "summary": "0 bullish / 0 bearish signals.",
+      "date_published": "2026-03-09T22:15:05.439Z",
+      "tags": [
+        "mixed",
+        "-seasonally-adjust"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-03-09-midday",
+      "url": "https://agentcanary.ai/record/2026/03/09#midday",
+      "title": "Market Pulse — Mar 9, 2026",
+      "content_text": "BTC DISTRIBUTION on daily.\n100 whale moves detected. BTC 1d:DISTRIBUTION 4h:BULL_REGIME · ETH 1d:BEAR_REGIME 4h:BULL_REGIME · SOL 1d:BEAR_REGIME 4h:BULL_REGIME",
+      "summary": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-09T16:15:02.941Z",
+      "tags": [
+        "whale-alert",
+        "dogs-1474%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-09-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/09#intelligence",
+      "title": "Signal Scan — Mar 9, 2026",
+      "content_text": "SIGNAL SCAN — Mar 9, 2026 Risk 49.4/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 9, 2026",
+      "date_published": "2026-03-09T10:15:20.169Z",
+      "tags": [
+        "low",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    }
+  ]
+}
