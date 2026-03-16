@@ -542,6 +542,20 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
 
 // ─── Archive Page ────────────────────────────────────────────────
 
+function renderFeatureCards() {
+  const features = [
+    { title: 'Regime Tracking', desc: 'Continuous macro regime classification — stagflation, late-cycle, recession, expansion, displacement, neutral.', color: COLORS.o },
+    { title: 'Scored Calls', desc: 'Every prediction tracked and evaluated against actual market outcomes 48-72 hours later.', color: COLORS.g },
+    { title: 'Machine-Readable', desc: 'JSON Feed 1.1, JSON-LD structured data, and llms.txt for AI-native consumption.', color: COLORS.p },
+  ];
+  return features.map(f =>
+    `<div class="card">
+      <div class="mono" style="font-size:10px;font-weight:700;letter-spacing:2px;color:${f.color};margin-bottom:12px">${f.title.toUpperCase()}</div>
+      <p style="font-size:14px;color:${COLORS.t2};line-height:1.6">${f.desc}</p>
+    </div>`
+  ).join('');
+}
+
 function buildArchivePage(dateMap) {
   const dates = Object.keys(dateMap).sort().reverse();
 
@@ -617,14 +631,30 @@ function buildArchivePage(dateMap) {
       </div>
     </div>
 
-    <div style="padding:60px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
-      <div class="mono" style="font-size:11px;color:${COLORS.y};letter-spacing:3px;margin-bottom:16px">THE RECORD</div>
-      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:48px;font-weight:800;letter-spacing:-2px;line-height:1.1;margin-bottom:20px">
-        <span style="color:${COLORS.t1}">Every call.</span> <span style="color:${COLORS.y}">Scored.</span>
+    <!-- Hero -->
+    <div style="padding:80px 0 60px;animation:fadeSlideIn 0.6s ease 0.2s both;text-align:center;max-width:720px;margin:0 auto">
+      <div class="mono" style="font-size:11px;color:${COLORS.y};letter-spacing:3px;margin-bottom:20px">THE RECORD</div>
+      <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:24px">
+        <span style="color:${COLORS.t1}">Every call.</span><br>
+        <span style="color:${COLORS.t1}">Every day.</span><br>
+        <span style="color:${COLORS.y}">Scored.</span>
       </h1>
-      <p style="font-size:16px;color:${COLORS.t2};line-height:1.6;margin-bottom:8px">
-        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions. ${dates.length} days and counting.
+      <p style="font-size:17px;color:${COLORS.t2};line-height:1.6;margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto">
+        Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
       </p>
+      <a href="/record/${dateParts(dates[0]).yyyy}/${dateParts(dates[0]).mm}/${dateParts(dates[0]).dd}/" style="display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:${COLORS.y};color:${COLORS.bg};font-weight:700;font-size:14px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+        Latest: ${formatDate(dates[0])} &rarr;
+      </a>
+    </div>
+
+    <!-- Feature cards -->
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding-bottom:60px;animation:fadeSlideIn 0.6s ease 0.5s both">
+      ${renderFeatureCards()}
+    </div>
+
+    <!-- Archive -->
+    <div style="animation:fadeSlideIn 0.6s ease 0.6s both">
+      <div class="mono" style="font-size:11px;color:${COLORS.t3};letter-spacing:2px;margin-bottom:24px">${dates.length} DAYS OF INTELLIGENCE</div>
     </div>
 
     ${monthsHtml}
