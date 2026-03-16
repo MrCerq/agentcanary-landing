@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-16-midday",
+      "url": "https://agentcanary.ai/record/2026/03/16#midday",
+      "title": "Market Pulse — Mar 16, 2026",
+      "content_text": "BTC BULL_REGIME on daily.\n100 whale moves detected. BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH 1d:BULL_REGIME 4h:DISTRIBUTION · SOL 1d:BULL_REGIME 4h:DISTRIBUTION",
+      "summary": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+      "date_published": "2026-03-16T16:15:01.339Z",
+      "tags": [
+        "whale-alert",
+        "pippin-2190%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-03-16-intelligence",
       "url": "https://agentcanary.ai/record/2026/03/16#intelligence",
       "title": "Signal Scan — Mar 16, 2026",
