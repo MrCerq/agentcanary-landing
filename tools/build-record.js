@@ -711,7 +711,7 @@ function buildDailyContext(briefs) {
 
 // ─── Daily Page ─────────────────────────────────────────────────
 
-function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
+function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary, predictions) {
   const { yyyy, mm, dd } = dateParts(dateStr);
   const formatted = formatDate(dateStr);
   const dow = dayOfWeek(dateStr);
@@ -728,6 +728,7 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
   });
 
   const cardsHtml = sorted.map((b, i) => renderSessionCard(b, i)).join('');
+  const scorecardHtml = renderScorecard(predictions || []);
   const sidebarHtml = renderSidebar(sorted);
 
   return `<!DOCTYPE html>
@@ -783,7 +784,9 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary) {
       </div>
     </div>
 
-    <!-- Cards + Sidebar -->
+    <!-- Scorecard + Cards + Sidebar -->
+    ${scorecardHtml ? `<div style="margin-bottom:24px">${scorecardHtml}</div>` : ''}
+
     <div class="daily-layout">
       <div class="daily-cards">
         ${cardsHtml}
@@ -817,7 +820,7 @@ function renderFeatureCards() {
   ).join('');
 }
 
-function buildArchivePage(dateMap) {
+function buildArchivePage(dateMap, aggStats) {
   const dates = Object.keys(dateMap).sort().reverse();
 
   // Group by month
@@ -901,9 +904,16 @@ function buildArchivePage(dateMap) {
         <span style="color:${COLORS.t1}">Every day.</span><br>
         <span style="color:${COLORS.y}">Scored.</span>
       </h1>
-      <p style="font-size:17px;color:${COLORS.t2};line-height:1.6;margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto">
+      <p style="font-size:17px;color:${COLORS.t2};line-height:1.6;margin-bottom:20px;max-width:520px;margin-left:auto;margin-right:auto">
         Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
       </p>
+      ${aggStats && aggStats.scored > 0 ? `<p class="mono" style="font-size:13px;color:${COLORS.t2};margin-bottom:40px">
+        <span style="color:${COLORS.t1};font-weight:700">${aggStats.total}</span> predictions &middot;
+        <span style="color:${aggStats.hitRate >= 50 ? COLORS.g : COLORS.y};font-weight:700">${aggStats.hitRate}%</span> hit rate &middot;
+        <span style="color:${COLORS.y}">${aggStats.partials}</span> partial &middot;
+        <span style="color:${COLORS.r}">${aggStats.misses}</span> miss
+        ${aggStats.pending > 0 ? `&middot; <span style="color:${COLORS.t3}">${aggStats.pending} pending</span>` : ''}
+      </p>` : `<div style="margin-bottom:40px"></div>`}
       <a href="/record/${dateParts(dates[0]).yyyy}/${dateParts(dates[0]).mm}/${dateParts(dates[0]).dd}/" style="display:inline-flex;align-items:center;gap:10px;padding:14px 32px;background:${COLORS.y};color:${COLORS.bg};font-weight:700;font-size:14px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
         Latest: ${formatDate(dates[0])} &rarr;
       </a>
@@ -1062,6 +1072,296 @@ ${urls}
 </urlset>`;
 }
 
+// ─── Prediction Scoring System ───────────────────────────────────
+
+const PREDICTIONS_PATH = path.join(ROOT, 'record', 'data', 'predictions.json');
+const PRICE_CACHE_PATH = path.join(ROOT, 'record', 'data', 'price-cache.json');
+const SCORE_WINDOW_H = 72; // hours to wait before scoring
+
+const TICKER_YAHOO = {
+  'BTC': 'BTC-USD', 'ETH': 'ETH-USD', 'SOL': 'SOL-USD',
+  'OIL': 'CL=F', 'GOLD': 'GC=F', 'GLD': 'GLD',
+  'DXY': 'DX-Y.NYB', 'SPY': 'SPY', 'QQQ': 'QQQ',
+  'VIX': '^VIX', 'TLT': 'TLT', 'XLU': 'XLU', 'SMH': 'SMH',
+  'XBI': 'XBI', 'XLRE': 'XLRE', 'XLF': 'XLF', 'URA': 'URA',
+  'IGV': 'IGV',
+};
+
+function parsePrice(s, peerPrice) {
+  if (!s) return null;
+  let v = String(s).replace(/[$,]/g, '');
+  const kMatch = v.match(/^([\d.]+)\s*[Kk]$/);
+  if (kMatch) return parseFloat(kMatch[1]) * 1000;
+  const mMatch = v.match(/^([\d.]+)\s*[Mm]$/);
+  if (mMatch) return parseFloat(mMatch[1]) * 1000000;
+  const num = parseFloat(v);
+  if (isNaN(num)) return null;
+  // If peer price exists and is 100x+ larger, this value likely needs K multiplier
+  // e.g. min=76, max=80000 → min should be 76000
+  if (peerPrice != null && peerPrice > num * 50) return num * 1000;
+  // e.g. min=2.3, max=2500 → min should be 2300
+  if (peerPrice != null && peerPrice > num * 100) return num * 1000;
+  return num;
+}
+
+/** Extract scenario predictions from Signal Scan briefs */
+function extractPredictions(briefs) {
+  const predictions = [];
+  for (const b of briefs) {
+    if (b.session !== 'intelligence' && b.session !== 'signal') continue;
+    const content = b.content || '';
+    const blocks = content.split(/<b>SCENARIO/);
+    if (blocks.length <= 1) continue;
+
+    // Get base prices from same brief's MACRO RISK DASHBOARD
+    const basePrices = {};
+    const keyPricesMatch = content.match(/Key prices:\s*([^\n]+)/);
+    if (keyPricesMatch) {
+      const pairs = keyPricesMatch[1].split('|');
+      for (const pair of pairs) {
+        const m = pair.match(/(\w+)\s+[+-]?([\d.]+)%/);
+        // These are % changes, not prices — we need absolute prices from morning brief
+      }
+    }
+
+    for (const block of blocks.slice(1)) {
+      const lines = block.split('\n').map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean);
+      if (lines.length === 0) continue;
+
+      // First line: "A — Geopolitical Escalation"
+      const headerMatch = lines[0].match(/^([A-Z])\s*[—–-]\s*(.+)/);
+      if (!headerMatch) continue;
+      const [, letter, scenarioName] = headerMatch;
+
+      // Following lines: "TICKER: $MIN-MAX (MOVE%)"
+      for (let i = 1; i < lines.length; i++) {
+        const line = lines[i];
+        // Match: "OIL: $105-115 (+10-20%)" or "BTC: $66-70K (-10-5%)" or "BTC: $68K-$71K (-7% to -3%)"
+        const targetMatch = line.match(/^(\w+):\s*\$?([\d,.]+[KkMm]?)\s*[-–]\s*\$?([\d,.]+[KkMm]?)\s*\(([^)]+)\)/);
+        if (!targetMatch) continue;
+
+        const [, ticker, minStr, maxStr, moveStr] = targetMatch;
+        // Parse max first (more likely to have K/M suffix), then min with max as peer
+        const rawMax = parsePrice(maxStr, null);
+        const rawMin = parsePrice(minStr, rawMax);
+        if (rawMin === null || rawMax === null) continue;
+        const rangeMin = Math.min(rawMin, rawMax);
+        const rangeMax = Math.max(rawMin, rawMax);
+
+        const id = `${b.date}-${letter}-${ticker}`;
+        predictions.push({
+          id,
+          date: b.date,
+          session: b.session,
+          scenario: letter,
+          scenarioName: scenarioName.trim(),
+          ticker,
+          type: 'scenario_target',
+          rangeMin: Math.min(rangeMin, rangeMax),
+          rangeMax: Math.max(rangeMin, rangeMax),
+          impliedMove: moveStr.trim(),
+          scoreDate: scoreDate(b.date),
+          result: null,
+          actualHigh: null,
+          actualLow: null,
+          actualClose: null,
+        });
+      }
+    }
+  }
+  return predictions;
+}
+
+function scoreDate(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00Z');
+  d.setDate(d.getDate() + 3); // 72h
+  return d.toISOString().slice(0, 10);
+}
+
+/** Fetch Yahoo historical prices for scoring */
+async function fetchYahooPrices(ticker, startDate, endDate) {
+  const yahooTicker = TICKER_YAHOO[ticker] || ticker;
+  const start = Math.floor(new Date(startDate + 'T00:00:00Z').getTime() / 1000);
+  const end = Math.floor(new Date(endDate + 'T23:59:59Z').getTime() / 1000);
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooTicker)}?period1=${start}&period2=${end}&interval=1d`;
+
+  return new Promise((resolve) => {
+    https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0' } }, res => {
+      let body = '';
+      res.on('data', c => body += c);
+      res.on('end', () => {
+        try {
+          const data = JSON.parse(body);
+          const result = data.chart?.result?.[0];
+          if (!result) return resolve(null);
+          const quotes = result.indicators?.quote?.[0];
+          if (!quotes) return resolve(null);
+          resolve({
+            highs: quotes.high || [],
+            lows: quotes.low || [],
+            closes: quotes.close || [],
+            timestamps: result.timestamp || [],
+          });
+        } catch { resolve(null); }
+      });
+    }).on('error', () => resolve(null));
+  });
+}
+
+/** Score predictions against actual prices */
+async function scorePredictions(predictions, priceCache) {
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
+  let scored = 0;
+
+  for (const pred of predictions) {
+    // Already scored
+    if (pred.result && pred.result !== 'pending') continue;
+
+    // Not ready to score yet
+    if (pred.scoreDate > today) {
+      pred.result = 'pending';
+      continue;
+    }
+
+    // Fetch prices for the 72h window
+    const cacheKey = `${pred.ticker}:${pred.date}:${pred.scoreDate}`;
+    let prices = priceCache[cacheKey];
+
+    if (!prices) {
+      prices = await fetchYahooPrices(pred.ticker, pred.date, pred.scoreDate);
+      if (prices) {
+        priceCache[cacheKey] = prices;
+      } else {
+        pred.result = 'no_data';
+        continue;
+      }
+    }
+
+    // Get high/low over the scoring window
+    const windowHigh = Math.max(...prices.highs.filter(v => v != null));
+    const windowLow = Math.min(...prices.lows.filter(v => v != null));
+    const lastClose = prices.closes.filter(v => v != null).pop();
+
+    pred.actualHigh = Math.round(windowHigh * 100) / 100;
+    pred.actualLow = Math.round(windowLow * 100) / 100;
+    pred.actualClose = lastClose ? Math.round(lastClose * 100) / 100 : null;
+
+    // Did price enter the predicted range?
+    if (windowHigh >= pred.rangeMin && windowLow <= pred.rangeMax) {
+      pred.result = 'hit';
+    } else {
+      // Check if direction was correct (partial)
+      const midRange = (pred.rangeMin + pred.rangeMax) / 2;
+      if (prices.closes[0] != null) {
+        const basePrice = prices.closes[0];
+        const predictedDirection = midRange > basePrice ? 1 : -1;
+        const actualDirection = (lastClose || basePrice) > basePrice ? 1 : -1;
+        if (predictedDirection === actualDirection) {
+          pred.result = 'partial';
+        } else {
+          pred.result = 'miss';
+        }
+      } else {
+        pred.result = 'miss';
+      }
+    }
+    scored++;
+  }
+  return scored;
+}
+
+/** Render scorecard HTML for a daily page */
+function renderScorecard(predictions) {
+  if (!predictions || predictions.length === 0) return '';
+
+  const scored = predictions.filter(p => p.result && p.result !== 'pending' && p.result !== 'no_data');
+  const pending = predictions.filter(p => p.result === 'pending');
+  const hits = scored.filter(p => p.result === 'hit');
+  const partials = scored.filter(p => p.result === 'partial');
+  const misses = scored.filter(p => p.result === 'miss');
+
+  const RESULT_STYLE = {
+    hit:     { icon: '✓', color: COLORS.g, label: 'Hit' },
+    partial: { icon: '◐', color: COLORS.y, label: 'Partial' },
+    miss:    { icon: '✗', color: COLORS.r, label: 'Miss' },
+    pending: { icon: '○', color: COLORS.t3, label: 'Pending' },
+    no_data: { icon: '—', color: COLORS.t3, label: 'No data' },
+  };
+
+  // Group by scenario
+  const byScenario = {};
+  for (const p of predictions) {
+    const key = `${p.scenario} — ${p.scenarioName}`;
+    if (!byScenario[key]) byScenario[key] = [];
+    byScenario[key].push(p);
+  }
+
+  // Summary line
+  let summaryParts = [`${predictions.length} prediction${predictions.length !== 1 ? 's' : ''}`];
+  if (scored.length > 0) {
+    summaryParts.push(`${hits.length} hit`);
+    if (partials.length > 0) summaryParts.push(`${partials.length} partial`);
+    summaryParts.push(`${misses.length} miss`);
+  }
+  if (pending.length > 0) summaryParts.push(`${pending.length} pending`);
+
+  // Hit rate
+  let hitRateHtml = '';
+  if (scored.length > 0) {
+    const rate = Math.round((hits.length / scored.length) * 100);
+    const rateColor = rate >= 60 ? COLORS.g : rate >= 40 ? COLORS.y : COLORS.r;
+    hitRateHtml = `<span class="mono" style="font-size:20px;font-weight:800;color:${rateColor};margin-left:auto">${rate}%</span>`;
+  }
+
+  let rowsHtml = '';
+  for (const [scenario, preds] of Object.entries(byScenario)) {
+    rowsHtml += `<div style="font-size:10px;font-weight:600;letter-spacing:1px;color:${COLORS.t3};margin:12px 0 6px;font-family:'JetBrains Mono',monospace">SCENARIO ${escapeHtml(scenario)}</div>`;
+    for (const p of preds) {
+      const rs = RESULT_STYLE[p.result] || RESULT_STYLE.pending;
+      const rangeStr = p.rangeMax >= 1000
+        ? `$${(p.rangeMin/1000).toFixed(p.rangeMin >= 10000 ? 0 : 1)}K–${(p.rangeMax/1000).toFixed(p.rangeMax >= 10000 ? 0 : 1)}K`
+        : `$${p.rangeMin}–${p.rangeMax}`;
+      let actualStr = '';
+      if (p.result === 'hit') actualStr = `→ Hit at $${p.actualClose || p.actualHigh}`;
+      else if (p.result === 'partial') actualStr = `→ Direction ✓, closed $${p.actualClose}`;
+      else if (p.result === 'miss') actualStr = `→ Closed $${p.actualClose}`;
+      else if (p.result === 'pending') actualStr = `→ Scoring ${formatDateShort(p.scoreDate)}`;
+
+      rowsHtml += `<div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
+        <span style="color:${rs.color};font-weight:700;width:16px;text-align:center">${rs.icon}</span>
+        <span style="color:${COLORS.t1};font-weight:600;min-width:50px" class="mono">${escapeHtml(p.ticker)}</span>
+        <span style="color:${COLORS.t2}">${rangeStr} <span style="color:${COLORS.t3};font-size:11px">(${escapeHtml(p.impliedMove)})</span></span>
+        <span style="color:${rs.color};font-size:12px;margin-left:auto;white-space:nowrap" class="mono">${actualStr}</span>
+      </div>`;
+    }
+  }
+
+  return `
+    <div class="card" style="animation:fadeSlideIn 0.5s ease 0.15s both;border-color:rgba(255,197,61,0.15)">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+        <span class="session-badge mono" style="color:${COLORS.y};background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.25);font-size:11px;font-weight:700;letter-spacing:1.5px;padding:7px 16px;border-radius:100px">
+          &#9733; SCORECARD
+        </span>
+        <span style="font-size:12px;color:${COLORS.t2}">${summaryParts.join(' · ')}</span>
+        ${hitRateHtml}
+      </div>
+      ${rowsHtml}
+    </div>`;
+}
+
+/** Compute aggregate stats across all predictions */
+function computeAggregateStats(predictions) {
+  const scored = predictions.filter(p => p.result && p.result !== 'pending' && p.result !== 'no_data');
+  const hits = scored.filter(p => p.result === 'hit').length;
+  const partials = scored.filter(p => p.result === 'partial').length;
+  const misses = scored.filter(p => p.result === 'miss').length;
+  const total = scored.length;
+  const pending = predictions.filter(p => p.result === 'pending').length;
+  return { total: predictions.length, scored: total, hits, partials, misses, pending,
+    hitRate: total > 0 ? Math.round((hits / total) * 100) : 0 };
+}
+
 // ─── Main ────────────────────────────────────────────────────────
 
 async function main() {
@@ -1091,6 +1391,52 @@ async function main() {
   const sortedDates = Object.keys(dateMap).sort();
   console.log(`  ${sortedDates.length} unique dates: ${sortedDates[0]} → ${sortedDates[sortedDates.length - 1]}\n`);
 
+  // 2b. Extract and score predictions
+  console.log('  Extracting predictions...');
+  const allPredictions = extractPredictions(briefs);
+  console.log(`  Found ${allPredictions.length} scenario predictions`);
+
+  // Load existing predictions (preserve scores)
+  let existingPreds = {};
+  try {
+    const existing = JSON.parse(fs.readFileSync(PREDICTIONS_PATH, 'utf-8'));
+    for (const p of (existing.predictions || [])) existingPreds[p.id] = p;
+  } catch { /* first run */ }
+
+  // Merge: keep existing scores, add new predictions
+  for (const p of allPredictions) {
+    if (existingPreds[p.id] && existingPreds[p.id].result && existingPreds[p.id].result !== 'pending') {
+      // Keep existing scored prediction
+      Object.assign(p, existingPreds[p.id]);
+    }
+  }
+
+  // Load price cache
+  let priceCache = {};
+  try { priceCache = JSON.parse(fs.readFileSync(PRICE_CACHE_PATH, 'utf-8')); } catch { /* first run */ }
+
+  // Score predictions
+  if (!DRY) {
+    console.log('  Scoring predictions...');
+    const scored = await scorePredictions(allPredictions, priceCache);
+    console.log(`  Scored ${scored} new predictions`);
+
+    // Save predictions + price cache
+    ensureDir(path.join(ROOT, 'record', 'data'));
+    writeFile(PREDICTIONS_PATH, JSON.stringify({ predictions: allPredictions, lastScored: new Date().toISOString() }, null, 2));
+    writeFile(PRICE_CACHE_PATH, JSON.stringify(priceCache, null, 2));
+  }
+
+  // Group predictions by date for daily pages
+  const predsByDate = {};
+  for (const p of allPredictions) {
+    if (!predsByDate[p.date]) predsByDate[p.date] = [];
+    predsByDate[p.date].push(p);
+  }
+
+  const aggStats = computeAggregateStats(allPredictions);
+  console.log(`  Aggregate: ${aggStats.scored} scored, ${aggStats.hitRate}% hit rate, ${aggStats.pending} pending\n`);
+
   // 3. Generate daily pages (with Qwen summaries)
   console.log('  Building daily pages...');
   for (let i = 0; i < sortedDates.length; i++) {
@@ -1098,6 +1444,7 @@ async function main() {
     const prevDate = i > 0 ? sortedDates[i - 1] : null;
     const nextDate = i < sortedDates.length - 1 ? sortedDates[i + 1] : null;
     const dayBriefs = dateMap[dateStr];
+    const dayPreds = predsByDate[dateStr] || [];
     const { yyyy, mm, dd } = dateParts(dateStr);
     
     // Generate AI summary via local Qwen (fails silently if Ollama is down)
@@ -1109,13 +1456,13 @@ async function main() {
       } catch { /* page builds without summary */ }
     }
     
-    const html = buildDailyPage(dateStr, dayBriefs, prevDate, nextDate, summary);
+    const html = buildDailyPage(dateStr, dayBriefs, prevDate, nextDate, summary, dayPreds);
     writeFile(path.join(ROOT, 'record', yyyy, mm, dd, 'index.html'), html);
   }
 
   // 4. Archive page (serves as both /record/ and /record/archive/)
   console.log('\n  Building archive page...');
-  const archiveHtml = buildArchivePage(dateMap);
+  const archiveHtml = buildArchivePage(dateMap, aggStats);
   writeFile(path.join(ROOT, 'record', 'index.html'), archiveHtml);
   writeFile(path.join(ROOT, 'record', 'archive', 'index.html'), archiveHtml);
 

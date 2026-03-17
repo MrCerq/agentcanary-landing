@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-17-midday",
+      "url": "https://agentcanary.ai/record/2026/03/17#midday",
+      "title": "Market Pulse — Mar 17, 2026",
+      "content_text": "BTC Distribution · 100 whale moves BTC daily distribution, 4h bullish · ETH daily bullish, 4h distribution · SOL daily ignition, 4h ignition",
+      "summary": "BTC Distribution · 100 whale moves",
+      "date_published": "2026-03-17T16:15:01.039Z",
+      "tags": [
+        "whale-alert",
+        "pippin-15689%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-03-17-intelligence",
       "url": "https://agentcanary.ai/record/2026/03/17#intelligence",
       "title": "Signal Scan — Mar 17, 2026",
