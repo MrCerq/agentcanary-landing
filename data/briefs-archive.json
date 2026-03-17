@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-16",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 16, 2026\n\nMarkets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, sugg",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "EU Markit Manufact",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 94
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "EU Markit Manufacturing",
+            "v": "Mar 24",
+            "c": "blue"
+          },
+          {
+            "k": " National Consumer Pr",
+            "v": "Mar 23",
+            "c": "blue"
+          },
+          {
+            "k": "US Producer Price Index",
+            "v": "Mar 20",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 150,
+    "telegramText": "<b>MARKET WRAP</b> — Mar 16, 2026\n\n<i>Markets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, suggesting investors are positioning for persistent inflation rather than seeking traditional safe havens. Even crypto couldn't escape the defensive rotation.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$74,426</b> · ETH: <b>$2,360</b> · SOL: <b>$96.48</b> · GOLD: <b>$5,015</b> · SPY: <b>$669.03</b> (+0.4%) · QQQ: <b>$600.38</b> (+0.5%) · VIX: <b>$23.51</b> (-13.5%) · TLT: <b>$87.21</b> (+0.3%) · DXY: <b>$99.82</b> (-0.5%) · OIL: <b>$94.43</b> (+1.0%)\n\n<b>EVENING NEWS</b>\n🟢 Gold dips below $5,000 as inflation concerns remain main market driver\n🟢 TRUMP Coin Whales Reach 5-Month High Ahead Gala Luncheon For Top Token Holders\n🟢 Ethereum Has Serious Momentum, Up More than 12% Today. Here's Why That Trend Could Continu\n🟢 Bitmine Accelerates ETH Buys, Treasury Hits 4.6M Coins\n🟢 Bitcoin tops $74.5K but are pro traders turning bullish again?\n🟢 Crypto Markets Soar as Stocks Rally, Oil Drops 5%\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS Producer Price Index (YoY)(Jan) — Mar 20, 11:30 PM UTC (prev: 3.0%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n GDP(YoY)(Q4) — Mar 19, 12:03 PM UTC (prev: 2.1%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-03-16",
     "time": "16:15 UTC",

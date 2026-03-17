@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-16",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 16, 2026\n\nMarkets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, sugg",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "EU Markit Manufact",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 94
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "EU Markit Manufacturing",
+            "v": "Mar 24",
+            "c": "blue"
+          },
+          {
+            "k": " National Consumer Pr",
+            "v": "Mar 23",
+            "c": "blue"
+          },
+          {
+            "k": "US Producer Price Index",
+            "v": "Mar 20",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Mar 16, 2026\n\n<i>Markets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, suggesting investors are positioning for persistent inflation rather than seeking traditional safe havens. Even crypto couldn't escape the defensive rotation.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$74,426</b> · ETH: <b>$2,360</b> · SOL: <b>$96.48</b> · GOLD: <b>$5,015</b> · SPY: <b>$669.03</b> (+0.4%) · QQQ: <b>$600.38</b> (+0.5%) · VIX: <b>$23.51</b> (-13.5%) · TLT: <b>$87.21</b> (+0.3%) · DXY: <b>$99.82</b> (-0.5%) · OIL: <b>$94.43</b> (+1.0%)\n\n<b>EVENING NEWS</b>\n🟢 Gold dips below $5,000 as inflation concerns remain main market driver\n🟢 TRUMP Coin Whales Reach 5-Month High Ahead Gala Luncheon For Top Token Holders\n🟢 Ethereum Has Serious Momentum, Up More than 12% Today. Here's Why That Trend Could Continu\n🟢 Bitmine Accelerates ETH Buys, Treasury Hits 4.6M Coins\n🟢 Bitcoin tops $74.5K but are pro traders turning bullish again?\n🟢 Crypto Markets Soar as Stocks Rally, Oil Drops 5%\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS Producer Price Index (YoY)(Jan) — Mar 20, 11:30 PM UTC (prev: 3.0%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n GDP(YoY)(Q4) — Mar 19, 12:03 PM UTC (prev: 2.1%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 150
+  },
+  {
     "session": "midday",
     "date": "2026-03-16",
     "time": "16:15 UTC",
@@ -1454,81 +1502,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — March 9, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime activated as Iran war shock sends oil to $115+, spiking VIX to 31.5 while equities dump -1.8%. Cross-asset dislocation emerging with defensive positioning in crypto flows while commodities reprice geopolitical premium. Risk-off with commodity overlay.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 49.4/100 (Elevated)\nRegime: STAGFLATION — Iran oil shock driving inflation expectations while financial conditions tighten\nSPY: -1.86% | QQQ: -1.80% | VIX: +6.92% | TLT: -0.77% | DXY: +0.31% | OIL: +11.67%\nICSA: 213K (trend down, z-score -0.08)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $62K-65K (-6% to -4%)\nOIL: $120-135 (+18% to +33%)\nSPY: $620-640 (-8% to -5%)\n\n<b>SCENARIO B</b> — Diplomatic De-escalation\nBTC: $72K-76K (+6% to +12%)\nOIL: $85-95 (-16% to -6%)\nSPY: $690-720 (+3% to +7%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +0.68%) — bid\n2. Utilities (XLU -1.12%) — defensive\n3. Comm Services (XLC -1.12%) — weak\n4. Consumer Staples (XLP -1.58%) — dump\n5. Consumer Disc (XLY -1.68%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nWTI +29.4% — Iran war tensions forcing production cuts, crude hits $115\nBRENT +27.1% — Middle East conflict impacting European/Asian supply chains\nOIL +11.7% — Iran oil shock triggering dollar surge across Asia FX\nVIX +6.9% — Equity vol spike on geopolitical risk repricing\nEWY -5.7% — South Korean exposure to oil shock and regional tensions\n<i>Energy complex decoupling from risk assets as geopolitical premium overwhelms growth concerns.</i>\n\n<b>POSITIONING</b>\nWhale positioning: BTC shorts $85.6M (5 positions, max 40x lev) with $3.6M PnL. ETH shorts $100.3M generating $346K. Gold shorts $19.7M underwater -$434K.\nBTC ETF flows: +$106.4M inflow, 12-day consecutive streak signals institutional defensive accumulation despite price weakness.\n\n<b>IMPLICATION</b>\nTactical opportunity in energy vs tech spread if Iran premium sustains above $110 oil. BTC ETF flows suggest institutional view of crypto as stagflation hedge despite whale shorts. Downside limited in risk assets unless oil breaks $120.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 118
-  },
-  {
-    "session": "cycle",
-    "date": "2026-03-09",
-    "time": "06:37 UTC",
-    "headline": "Cycle: EXPANSION · Metric 910,756 ↓",
-    "headlineColor": "#34d399",
-    "desc": "Credit: LOW (0 flags). IGV $87.97 DOWN. ICSA 213K. (-6.3% WoW)",
-    "tags": [
-      {
-        "t": "EXPANSION",
-        "c": "green"
-      },
-      {
-        "t": "CREDIT LOW",
-        "c": "green"
-      },
-      {
-        "t": "IGV DOWN",
-        "c": "yellow"
-      }
-    ],
-    "panels": [
-      {
-        "label": "CYCLE METRIC",
-        "rows": [
-          {
-            "k": "Composite",
-            "v": "910,756",
-            "c": "green"
-          },
-          {
-            "k": "Unemployment",
-            "v": "4.4%",
-            "c": "green"
-          },
-          {
-            "k": "Fed Funds",
-            "v": "3.64%",
-            "c": "blue"
-          },
-          {
-            "k": "ICSA",
-            "v": "213K",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "CREDIT STRESS",
-        "rows": [
-          {
-            "k": "Level",
-            "v": "LOW",
-            "c": "green"
-          },
-          {
-            "k": "Card delinq.",
-            "v": "2.94%",
-            "c": "green"
-          },
-          {
-            "k": "All loans",
-            "v": "1.48%",
-            "c": "green"
-          },
-          {
-            "k": "IGV",
-            "v": "$88 DOWN",
-            "c": "yellow"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>[+] WEEKLY BUSINESS CYCLE</b> — Mar 9, 2026\n\n<b>CYCLE METRIC:</b> 910,756 ↓ (-6.3% WoW)\nPhase: <b>EXPANSION</b>\n\n<b>MACRO INPUTS</b>\n• S&P 500: $6,724\n• Unemployment: 4.4%\n• Fed Funds: 3.64%\n• CPI YoY: 2.35%\n• Initial Claims: 213K\n\n<b>CREDIT STRESS: LOW</b>\n[OK] No flags\n• Card delinquency: 2.94%\n• Consumer loans: 2.62%\n• All loans: 1.48%\n\n<b>SPECULATIVE APPETITE (IGV)</b>\n$87.97 · +51.7% from golden pocket · Trend: DOWN\n[DOWN] Growth still out of favor\n\nagentcanary.ai | <i>Weekly macro cycle analysis</i>",
-    "telegramMessageId": 116
   }
 ]
