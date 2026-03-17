@@ -1,71 +1,87 @@
-# AgentCanary — The Record
+# AgentCanary — Market Intelligence for Agents & Humans
 # https://agentcanary.ai
 
-## What This Site Is
-AgentCanary is a macro market intelligence platform that publishes
-4 daily briefs tracking regime states, whale alerts, narrative scores,
-and macro signals across crypto, equities, commodities, and forex.
-"The Record" is our scored daily archive — every call is tracked
-and evaluated against actual market outcomes.
+## What This Is
+AgentCanary is a macro market intelligence platform. We publish
+4 daily briefs tracking regime states, whale alerts, narrative
+momentum, scenario analysis, and macro signals across crypto,
+equities, commodities, and forex. Every prediction is scored
+against actual prices 72 hours later.
+
+## How Agents Can Use This
+- **MCP Server**: `npx agentcanary-mcp` — 8 tools for Claude, Cursor, Windsurf, any MCP client
+- **REST API**: api.agentcanary.ai — JSON endpoints with API key auth
+- **JSON Feed**: agentcanary.ai/record/feed.json (JSON Feed 1.1)
+- **RSS Feed**: agentcanary.ai/record/rss.xml (RSS 2.0)
+- **Structured Data**: JSON-LD on every page
+
+## Getting an API Key
+POST https://api.agentcanary.ai/api/keys/create
+Body: {"walletAddress": "0xYOUR_WALLET", "chain": "base"}
+Returns: API key + deposit address. Free Explorer tier immediately.
+Upgrade by depositing USDC/USDT on Base, Arbitrum, Optimism, Polygon, or Ethereum.
+
+## Tiers & Pricing
+- Explorer (free): Briefs + scores. 50 calls/day.
+- Builder ($50 USDC deposit): + indicators, regime, narratives, news, predictions. 500 calls/day.
+- Signal ($150 USDC): + scenario analysis, positioning, full content. 2000 calls/day.
+- Institutional ($500 USDC): Unlimited. White-label. SLA.
+Per-call cost: $0.01-0.02 deducted from deposit balance.
+
+## API Endpoints (authenticated)
+Base URL: https://api.agentcanary.ai/api
+- GET /briefs/archive?limit=50 — Daily intelligence briefs (public)
+- GET /indicators — 50+ market indicators (VIX, F&G, funding rates, ETF flows, etc.)
+- GET /regime — Macro regime classification + transition probabilities
+- GET /predictions — Prediction market data (Polymarket, Kalshi)
+- GET /narratives — Narrative momentum scores (AI, energy, defense, crypto...)
+- GET /news?limit=20 — Aggregated market news
+- GET /scenarios — Forward scenario analysis
+- GET /sentiment — Market sentiment composite
+Auth: x-api-key header
+
+## MCP Server Setup
+```json
+{
+  "mcpServers": {
+    "agentcanary": {
+      "command": "npx",
+      "args": ["agentcanary-mcp"],
+      "env": { "AC_API_KEY": "ac_your_key" }
+    }
+  }
+}
+```
 
 ## Data Available
-- Daily market intelligence briefs (4 per day: morning, midday, signal, evening)
-- Regime state tracking (stagflation, late-cycle, recession, expansion, displacement, neutral)
-- Regime gauge score (0–100 continuous)
-- Whale alert signals (on-chain large transactions)
-- Narrative lifecycle scores (birth → peak → fade, scored 0.0–1.0)
-- Scorecard accuracy data (hindsight evaluation of all calls, 48–72hr delay)
-- Key asset prices (BTC, SPX, WTI, VIX, DXY, Gold)
+- Daily briefs: 4x per day (04:15, 10:15, 16:15, 22:15 UTC)
+- Regime tracking: expansion, stagflation, late-cycle, recession, displacement, neutral
+- Risk gauge: 0-100 continuous score
+- Whale alerts: on-chain large transactions
+- Narrative scores: 18 themes, lifecycle tracking (birth → peak → fade)
+- Scenario targets: 2-3 forward scenarios with specific price ranges per day
+- Prediction scoring: hit/miss/partial evaluation after 72 hours
+- 50+ indicators: VIX, Fear & Greed, BTC funding, ETF flows, stablecoin yields, oil, Baltic Dry, etc.
 
-## Structured Data Locations
-- Homepage: JSON-LD with Organization, WebSite, DataCatalog schemas
-- Daily pages: JSON-LD with Article + MarketIntelligence custom schema
-- JSON Feed: https://agentcanary.ai/record/feed.json (JSON Feed 1.1)
-- RSS Feed: https://agentcanary.ai/record/rss.xml (RSS 2.0)
-- Sitemap: https://agentcanary.ai/sitemap.xml
+## Prediction Scoring
+Every Signal Scan brief contains forward scenarios with price targets.
+After 72 hours, we score each target against actual prices:
+- Hit: price entered predicted range
+- Partial: correct direction, didn't reach range
+- Miss: wrong direction
+Scoring data: https://agentcanary.ai/record/data/predictions.json
 
 ## URL Patterns
-- Daily intel: /record/YYYY/MM/DD (e.g., /record/2026/03/14)
-- Monthly rollup: /record/YYYY/MM/ (e.g., /record/2026/03/)
-- Archive: /record/archive
-- API docs: /api/docs
-
-## API Access
-- Base URL: https://api.agentcanary.ai/v1
-- OpenAPI spec: https://agentcanary.ai/api/openapi.json
-- Authentication: API key via header (X-API-Key)
-- Free tier: 7-day lookback, 10 calls/day
-- Pro tier ($49/mo): Full history, 1000 calls/day
-- Team tier ($199/mo): Bulk export, custom alerts, chat layer
-
-## Key Endpoints
-- GET /v1/record/{date} — Full day payload (all briefs, regime, signals, scores)
-- GET /v1/regime/history?range=30d — Regime state time series
-- GET /v1/signals?type=whale&range=7d — Signal query with filters
-- GET /v1/scorecard/{date} — Accuracy data for a specific day
-- GET /v1/narratives?active=true — Currently active narrative scores
-
-## Data Schema (Brief Object)
-Each daily page and API response contains structured brief objects:
-- date: ISO 8601 date string
-- session: morning | midday | signal | evening
-- regime: {state: string, score: float, previous: string, shift_date: date}
-- signals: [{type: string, asset: string, direction: string, magnitude: string, source: string}]
-- narratives: [{name: string, score: float, lifecycle: string}]
-- calls: [{claim: string, timeframe: string, resolved: bool, outcome: string, actual: string}]
-- scorecard: {accuracy: float, scored_at: datetime} (null if not yet scored)
-
-## Update Cadence
-- Briefs: 4x daily (06:30, 13:00, 17:00, 21:00 UTC)
-- Scorecard: Updated nightly for briefs 48–72 hours old
-- JSON Feed: Updated after each brief publication
-- Sitemap: Regenerated daily at 00:00 UTC
+- Daily pages: /record/YYYY/MM/DD/ (e.g., /record/2026/03/17/)
+- Archive: /record/
+- Predictions data: /record/data/predictions.json
+- Price cache: /record/data/price-cache.json
+- Sitemap: /sitemap.xml
 
 ## Historical Coverage
-- Archive begins: February 23, 2026
-- Growing daily — currently 68+ days of continuous coverage
+- Archive begins: March 9, 2026
+- Growing daily — continuous coverage, 7 days/week
 
 ## Contact
-- Telegram: t.me/agentcanary
-- API support: api@agentcanary.ai
+- Telegram: t.me/agentcanary / @agentcanary
 - Site: https://agentcanary.ai

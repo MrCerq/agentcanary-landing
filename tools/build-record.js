@@ -794,10 +794,19 @@ function buildDailyPage(dateStr, briefs, prevDate, nextDate, summary, prediction
       ${sidebarHtml}
     </div>
 
+    <!-- CTA -->
+    <div style="text-align:center;padding:40px 0 20px;animation:fadeIn 0.5s ease 0.7s both">
+      <p style="font-size:14px;color:${COLORS.t2};margin-bottom:16px">Want this data in your AI workflow?</p>
+      <a href="https://agentcanary.ai/#pricing" class="mono" style="display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.25);color:${COLORS.y};font-size:12px;font-weight:700;letter-spacing:1px;border-radius:100px;transition:all 0.2s" onmouseover="this.style.background='rgba(255,197,61,0.15)'" onmouseout="this.style.background='rgba(255,197,61,0.08)'">
+        GET API KEY &rarr;
+      </a>
+      <span style="display:block;margin-top:10px;font-size:11px;color:${COLORS.t3}">Free tier available &middot; MCP server for Claude, Cursor &amp; more</span>
+    </div>
+
     <!-- Footer -->
     <div class="footer">
       <span class="mono"><a href="/" style="color:${COLORS.t3}">agentcanary.ai</a></span>
-      <span class="mono"><a href="/record/" style="color:${COLORS.t3}">Archive</a> &middot; <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a></span>
+      <span class="mono"><a href="/record/" style="color:${COLORS.t3}">Archive</a> &middot; <a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a> &middot; <a href="https://github.com/MrCerq/agentcanary-skill" style="color:${COLORS.t3}">MCP</a></span>
     </div>
   </div>
 </body>
@@ -931,9 +940,18 @@ function buildArchivePage(dateMap, aggStats) {
 
     ${monthsHtml}
 
+    <!-- CTA -->
+    <div style="text-align:center;padding:40px 0 20px;animation:fadeIn 0.5s ease 0.9s both">
+      <p style="font-size:15px;color:${COLORS.t2};margin-bottom:16px">Get AgentCanary data in Claude, Cursor, or any MCP client.</p>
+      <a href="https://agentcanary.ai/#pricing" class="mono" style="display:inline-flex;align-items:center;gap:8px;padding:14px 32px;background:${COLORS.y};color:${COLORS.bg};font-weight:700;font-size:13px;border-radius:100px;text-decoration:none;transition:transform 0.2s,box-shadow 0.2s" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(255,197,61,0.3)'" onmouseout="this.style.transform='none';this.style.boxShadow='none'">
+        GET API KEY &rarr;
+      </a>
+      <span style="display:block;margin-top:12px;font-size:11px;color:${COLORS.t3}">Free tier &middot; Pay with USDC &middot; MCP server included</span>
+    </div>
+
     <div class="footer">
       <span class="mono"><a href="/" style="color:${COLORS.t3}">agentcanary.ai</a></span>
-      <span class="mono"><a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a></span>
+      <span class="mono"><a href="/record/feed.json" style="color:${COLORS.t3}">Feed</a> &middot; <a href="/record/rss.xml" style="color:${COLORS.t3}">RSS</a> &middot; <a href="/llms.txt" style="color:${COLORS.t3}">llms.txt</a></span>
     </div>
   </div>
 </body>
