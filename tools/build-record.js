@@ -93,7 +93,7 @@ function ollamaGenerate(prompt) {
       });
     });
     req.on('error', () => resolve('')); // fail silently — page still builds without summary
-    req.setTimeout(30000, () => { req.destroy(); resolve(''); });
+    req.setTimeout(60000, () => { req.destroy(); resolve(''); });
     req.write(payload);
     req.end();
   });
