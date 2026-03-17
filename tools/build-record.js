@@ -185,6 +185,123 @@ function dateParts(dateStr) {
   return { yyyy: dateStr.slice(0, 4), mm: dateStr.slice(5, 7), dd: dateStr.slice(8, 10) };
 }
 
+// ─── Content Cleanup (humanize raw API data) ────────────────────
+
+const REGIME_LABELS = {
+  'BULL_REGIME': 'Bullish', 'BEAR_REGIME': 'Bearish', 'DISTRIBUTION': 'Distribution',
+  'ACCUMULATION': 'Accumulation', 'IGNITION': 'Ignition', 'RISK_OFF': 'Risk-Off',
+  'RISK_ON': 'Risk-On', 'CAPITULATION': 'Capitulation',
+};
+
+function humanizeRegime(raw) {
+  return REGIME_LABELS[raw] || raw.charAt(0) + raw.slice(1).toLowerCase().replace(/_/g, ' ');
+}
+
+/** Clean midday headline: "BTC BULL_REGIME on daily.\n100 whale moves detected." → "BTC Bullish · 100 whale moves" */
+function cleanMiddayHeadline(h) {
+  const regime = h.match(/^(BTC|ETH|SOL)\s+(\w+)\s+on\s+daily/);
+  const whales = h.match(/(\d+)\s+whale\s+moves/);
+  if (!regime) return h;
+  const parts = [`${regime[1]} ${humanizeRegime(regime[2])}`];
+  if (whales) parts.push(`${whales[1]} whale moves`);
+  return parts.join(' · ');
+}
+
+/** Clean midday desc: "BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH ..." → "BTC daily bullish, 4h distribution · ETH ..." */
+function cleanMiddayDesc(d) {
+  return d.replace(/(\w+)\s+1d:(\w+)\s+4h:(\w+)/g, (_, ticker, d1, d4) =>
+    `${ticker} daily ${humanizeRegime(d1).toLowerCase()}, 4h ${humanizeRegime(d4).toLowerCase()}`
+  );
+}
+
+/** Clean morning headline: "🔴 Risk-Off · Neutral · Gauge 100/100" → keep as-is (already readable) */
+/** Clean morning desc: "STAGFLATION. F&G: —. NORMAL." → "Stagflation regime · Fear & Greed: neutral" */
+function cleanMorningDesc(d) {
+  let s = d;
+  // Regime
+  s = s.replace(/^(STAGFLATION|EXPANSION|LATE_CYCLE|RECESSION|NEUTRAL|DISPLACEMENT|REFLATION|OVERHEATING)\.?\s*/i,
+    (_, r) => r.charAt(0) + r.slice(1).toLowerCase().replace(/_/g, ' ') + ' regime · ');
+  // F&G
+  s = s.replace(/F&G:\s*—\.?\s*/i, 'Fear & Greed: neutral · ');
+  s = s.replace(/F&G:\s*(\d+)\.?\s*/i, 'Fear & Greed: $1 · ');
+  // Tail labels
+  s = s.replace(/\.\s*(NORMAL|WATCH|ALERT|CRITICAL)\.?\s*$/i,
+    (_, level) => ` · ${level.charAt(0) + level.slice(1).toLowerCase()}`);
+  // Clean trailing dots/spaces/middots
+  s = s.replace(/[·\s.]+$/, '');
+  return s;
+}
+
+/** Clean evening headline: "0 bullish / 0 bearish signals." → use desc's first sentence instead */
+function cleanEveningHeadline(h, desc) {
+  if (/^\d+\s+bullish\s*\/\s*\d+\s+bearish/.test(h)) {
+    // Pull first sentence from desc (which has the actual wrap text)
+    const firstSentence = (desc || '').replace(/^MARKET WRAP\s*[—–-]\s*\w+\s+\d+,\s*\d+\s*/i, '').split(/[.!]\s/)[0];
+    if (firstSentence && firstSentence.length > 20) return firstSentence.slice(0, 100) + (firstSentence.length > 100 ? '…' : '');
+    return h;
+  }
+  return h;
+}
+
+/** Clean cycle desc: "Credit: LOW (0 flags). IGV $84.19 DOWN. ICSA 213K. (-9.7% WoW)" → readable */
+function cleanCycleDesc(d) {
+  let s = d;
+  s = s.replace(/Credit:\s*(\w+)\s*\(\d+\s*flags?\)/i, (_, level) => `Credit stress: ${level.toLowerCase()}`);
+  s = s.replace(/IGV\s*\$?([\d.]+)\s*(UP|DOWN|FLAT)/i, (_, p, dir) => `· IGV $${p} (${dir.toLowerCase()})`);
+  s = s.replace(/ICSA\s*([\d,]+K?)/i, '· Initial claims $1');
+  s = s.replace(/\(([+-]?[\d.]+%)\s*WoW\)/i, '($1 week-over-week)');
+  return s;
+}
+
+/** Clean content body: humanize regimes, clean "unk", fix raw enums */
+function cleanContent(content) {
+  if (!content) return '';
+  let s = content;
+  // "from unk" / "to unk" → "from unknown" / "to unknown"
+  s = s.replace(/\b(from|to)\s+unk\b/gi, '$1 unknown');
+  // Regime enums in content
+  for (const [raw, label] of Object.entries(REGIME_LABELS)) {
+    s = s.replace(new RegExp(`\\b${raw}\\b`, 'g'), label);
+  }
+  // "1d: BULL_REGIME | 4h: DISTRIBUTION" → "Daily: Bullish | 4h: Distribution"  (already caught by above)
+  s = s.replace(/\b1d:/g, 'Daily:');
+  s = s.replace(/\b4h:/g, '4h:');
+  return s;
+}
+
+/** Clean panel row values */
+function cleanPanelValue(v) {
+  if (!v) return v;
+  let s = v;
+  for (const [raw, label] of Object.entries(REGIME_LABELS)) {
+    s = s.replace(new RegExp(`\\b${raw}\\b`, 'g'), label);
+  }
+  s = s.replace(/\b(from|to)\s+unk\b/gi, '$1 unknown');
+  return s;
+}
+
+/** Apply all cleanup to a brief (mutates) */
+function cleanBrief(brief) {
+  const s = brief.session;
+  if (s === 'midday') {
+    brief.headline = cleanMiddayHeadline(brief.headline || '');
+    brief.desc = cleanMiddayDesc(brief.desc || '');
+  } else if (s === 'morning') {
+    brief.desc = cleanMorningDesc(brief.desc || '');
+  } else if (s === 'evening') {
+    brief.headline = cleanEveningHeadline(brief.headline || '', brief.desc || '');
+  } else if (s === 'cycle') {
+    brief.desc = cleanCycleDesc(brief.desc || '');
+  }
+  brief.content = cleanContent(brief.content || '');
+  // Clean panel row values
+  for (const panel of (brief.panels || [])) {
+    for (const row of (panel.rows || [])) {
+      row.v = cleanPanelValue(row.v);
+    }
+  }
+}
+
 /** Convert Telegram HTML content to display-safe HTML */
 function briefContentToHtml(content) {
   if (!content) return '';
@@ -961,7 +1078,9 @@ async function main() {
     process.exit(0);
   }
 
-  // 2. Group by date
+  // 2. Clean up briefs + group by date
+  for (const b of briefs) cleanBrief(b);
+
   const dateMap = {};
   for (const b of briefs) {
     if (!b.date) continue;
