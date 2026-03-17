@@ -18,6 +18,7 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="ai-info" href="/llms.txt">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#04070c;--bg2:#080d18;--card:#0b1120;--card-h:#0f1628;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--y-glow:rgba(255,197,61,.10);--y-glow-s:rgba(255,197,61,.22);--y-border:rgba(255,197,61,.20);--g:#34d399;--g-glow:rgba(52,211,153,.10);--r:#f87171;--b:#60a5fa;--p:#a78bfa;--o:#fb923c;--o-glow:rgba(251,146,60,.12);--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
@@ -240,9 +241,14 @@ footer{max-width:1200px;margin:0 auto;padding:32px 24px 48px;border-top:1px soli
 
 </div>
 
+<div style="text-align:center;padding:40px 20px 20px;">
+  <p style="font-size:14px;color:var(--t2);margin-bottom:16px;">Want this data in your own tools?</p>
+  <a href="https://app.agentcanary.ai" style="display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:var(--y);color:var(--bg);font-family:var(--mono);font-size:12px;font-weight:700;letter-spacing:1px;border-radius:100px;text-decoration:none;">GET API KEY →</a>
+  <span style="display:block;margin-top:10px;font-size:11px;color:var(--t3);">Free tier available · Pay with USDC · 130+ endpoints</span>
+</div>
 <footer>
   <div class="ft-left">AgentCanary · api.agentcanary.ai · 2026<span class="ft-disc">AgentCanary provides market data and intelligence for informational purposes only. Nothing on this site constitutes financial advice. Do your own research.</span></div>
-  <div class="ft-links"><a href="https://clawhub.ai/MrCerq/agentcanary" target="_blank">ClawHub</a><a href="https://t.me/AgentCanary" target="_blank">Telegram</a><a href="https://x.com/agentcanaryHQ" target="_blank">X</a></div>
+  <div class="ft-links"><a href="/record/">The Record</a><a href="https://clawhub.ai/MrCerq/agentcanary" target="_blank">ClawHub</a><a href="https://t.me/AgentCanary" target="_blank">Telegram</a><a href="https://x.com/agentcanaryHQ" target="_blank">X</a></div>
 </footer>
 
 <script>
@@ -267,6 +273,11 @@ function glowClass(b){
   return hasRed ? 'glow-midday-red' : 'glow-midday-green';
 }
 
+var REGIME_LABELS={BULL_REGIME:'Bullish',BEAR_REGIME:'Bearish',DISTRIBUTION:'Distribution',ACCUMULATION:'Accumulation',IGNITION:'Ignition',RISK_OFF:'Risk-Off',RISK_ON:'Risk-On',CAPITULATION:'Capitulation'};
+function humanize(s){if(!s)return s;var out=s;Object.keys(REGIME_LABELS).forEach(function(k){out=out.replace(new RegExp('\\b'+k+'\\b','g'),REGIME_LABELS[k]);});out=out.replace(/\b(from|to)\s+unk\b/gi,'$1 unknown');out=out.replace(/\b1d:/g,'Daily:').replace(/\b4h:/g,'4h:');return out;}
+function cleanBriefHL(b){var h=b.headline||'';if(b.session==='midday'){var m=h.match(/^(BTC|ETH|SOL)\s+(\w+)\s+on\s+daily/);if(m){var parts=[m[1]+' '+(REGIME_LABELS[m[2]]||m[2])];var w=h.match(/(\d+)\s+whale\s+moves/);if(w)parts.push(w[1]+' whale moves');return parts.join(' · ');}};if(b.session==='evening'&&/^\d+\s+bullish/.test(h)){var d=b.desc||'';var fs=d.replace(/^MARKET WRAP[^.]*\.\s*/i,'').split(/[.!]\s/)[0];if(fs&&fs.length>20)return fs.slice(0,100)+(fs.length>100?'…':'');}return humanize(h);}
+function cleanBriefDesc(b){var d=b.desc||'';if(b.session==='midday')return humanize(d);if(b.session==='morning'){d=d.replace(/^(STAGFLATION|EXPANSION|LATE_CYCLE|RECESSION|NEUTRAL)\.?\s*/i,function(_,r){return r.charAt(0)+r.slice(1).toLowerCase().replace(/_/g,' ')+' regime · ';});d=d.replace(/F&G:\s*—\.?\s*/i,'Fear & Greed: neutral · ');d=d.replace(/\.\s*(NORMAL|WATCH|ALERT|CRITICAL)\.?\s*$/i,function(_,l){return ' · '+l.charAt(0)+l.slice(1).toLowerCase();});d=d.replace(/[·\s.]+$/,'');}return humanize(d);}
+
 function renderCard(b){
   var s = SESSIONS[b.session] || {pill:'pill-radar',glow:'glow-radar'};
   var permalink = '/briefs#'+b.session+'-'+b.date;
@@ -281,19 +292,21 @@ function renderCard(b){
         '<div class="gauge-track"><div class="gauge-fill" style="width:'+p.gauge.value+'%;background:'+(p.gauge.gradient||'linear-gradient(90deg,var(--g),var(--o))')+'"></div></div>'+
         '<div class="gauge-labels"><span>0</span><span class="val" style="color:'+(p.gauge.value>70?'var(--o)':'var(--g)')+'">'+p.gauge.value+'</span><span>100</span></div></div>';
     }
-    var rows = (p.rows||[]).map(function(r){return '<div class="data-row"><span class="k">'+r.k+'</span><span class="v-'+r.c+'">'+r.v+'</span></div>';}).join('');
+    var rows = (p.rows||[]).map(function(r){return '<div class="data-row"><span class="k">'+r.k+'</span><span class="v-'+r.c+'">'+humanize(r.v)+'</span></div>';}).join('');
     return '<div class="data-panel"><div class="data-label">'+p.label+'</div>'+rows+'</div>';
   }).join('');
 
   var tags = (b.tags||[]).map(function(t){return '<span class="tag tag-'+t.c+'">'+t.t+'</span>';}).join('');
-  var hl = b.headline.split('\n').map(function(line,i){
+  var cleanedHL = cleanBriefHL(b);
+  var hl = cleanedHL.split('\n').map(function(line,i){
     return i===1 ? '<span style="color:'+b.headlineColor+'">'+line+'</span>' : line;
   }).join('<br>');
+  var cleanedDesc = cleanBriefDesc(b);
 
   var hlLink = b.telegramMessageId ? 'https://t.me/agentcanary/'+b.telegramMessageId : '';
   var body = '<div class="brief-left">'+
     (hlLink ? '<a href="'+hlLink+'" target="_blank" style="text-decoration:none;color:inherit;"><div class="brief-headline" style="cursor:pointer;transition:color .2s;" onmouseover="this.style.color=\'var(--y)\'" onmouseout="this.style.color=\'\'">'+hl+'</div></a>' : '<div class="brief-headline">'+hl+'</div>')+
-    '<div class="brief-desc">'+b.desc+'</div>'+
+    '<div class="brief-desc">'+cleanedDesc+'</div>'+
     '<div class="brief-tags">'+tags+'</div>'+
   '</div>'+
   '<div class="brief-right">'+panels+'</div>';

@@ -1,0 +1,35 @@
+{
+  "name": "agentcanary",
+  "version": "1.0.0",
+  "description": "Macro market intelligence — regime, indicators, briefs, narratives, scored predictions",
+  "homepage": "https://agentcanary.ai",
+  "install": {
+    "npm": "npx agentcanary-mcp",
+    "env": {
+      "AC_API_KEY": {
+        "description": "Your AgentCanary API key (get one at https://app.agentcanary.ai)",
+        "required": true
+      }
+    }
+  },
+  "tools": [
+    {"name": "get_briefs", "description": "Daily market intelligence briefs (4x/day)"},
+    {"name": "get_indicators", "description": "50+ market indicators (VIX, F&G, funding rates, ETF flows)"},
+    {"name": "get_regime", "description": "Macro regime classification + transition probabilities"},
+    {"name": "get_predictions", "description": "Prediction market data (Polymarket, Kalshi)"},
+    {"name": "get_narratives", "description": "Narrative momentum scores (AI, energy, defense, crypto)"},
+    {"name": "get_news", "description": "Aggregated market news, filterable by ticker"},
+    {"name": "get_scores", "description": "Prediction scoring results (hit/miss/partial rates)"},
+    {"name": "get_scenario_analysis", "description": "Forward scenarios with price targets"}
+  ],
+  "pricing": {
+    "free_tier": true,
+    "payment": "USDC/USDT on Base, Arbitrum, Optimism, Polygon, Ethereum"
+  },
+  "links": {
+    "docs": "https://agentcanary.ai/docs",
+    "api": "https://api.agentcanary.ai/api",
+    "telegram": "https://t.me/AgentCanary",
+    "github": "https://github.com/MrCerq/agentcanary-skill"
+  }
+}
