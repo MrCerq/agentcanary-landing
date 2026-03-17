@@ -1,48 +1,53 @@
 {
-  "session": "evening",
-  "date": "2026-03-16",
-  "time": "22:15 UTC",
-  "headline": "0 bullish / 0 bearish signals.",
-  "headlineColor": "#A78BFA",
-  "desc": "MARKET WRAP — Mar 16, 2026\n\nMarkets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, sugg",
+  "session": "intelligence",
+  "date": "2026-03-17",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 17, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 100/100 · 8 movers",
   "tags": [
     {
-      "t": "MIXED",
-      "c": "yellow"
+      "t": "HIGH",
+      "c": "red"
     },
     {
-      "t": "EU Markit Manufact",
+      "t": "STAGFLATION",
       "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 94
+        "value": 100
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "EU Markit Manufacturing",
-          "v": "Mar 24",
-          "c": "blue"
+          "k": "FET",
+          "v": "+18.4%",
+          "c": "green"
         },
         {
-          "k": " National Consumer Pr",
-          "v": "Mar 23",
-          "c": "blue"
+          "k": "BMNR",
+          "v": "+13.3%",
+          "c": "green"
         },
         {
-          "k": "US Producer Price Index",
-          "v": "Mar 20",
-          "c": "blue"
+          "k": "PEPE",
+          "v": "+12.6%",
+          "c": "green"
+        },
+        {
+          "k": "WULF",
+          "v": "+11.7%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 16, 2026\n\n<i>Markets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, suggesting investors are positioning for persistent inflation rather than seeking traditional safe havens. Even crypto couldn't escape the defensive rotation.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$74,426</b> · ETH: <b>$2,360</b> · SOL: <b>$96.48</b> · GOLD: <b>$5,015</b> · SPY: <b>$669.03</b> (+0.4%) · QQQ: <b>$600.38</b> (+0.5%) · VIX: <b>$23.51</b> (-13.5%) · TLT: <b>$87.21</b> (+0.3%) · DXY: <b>$99.82</b> (-0.5%) · OIL: <b>$94.43</b> (+1.0%)\n\n<b>EVENING NEWS</b>\n🟢 Gold dips below $5,000 as inflation concerns remain main market driver\n🟢 TRUMP Coin Whales Reach 5-Month High Ahead Gala Luncheon For Top Token Holders\n🟢 Ethereum Has Serious Momentum, Up More than 12% Today. Here's Why That Trend Could Continu\n🟢 Bitmine Accelerates ETH Buys, Treasury Hits 4.6M Coins\n🟢 Bitcoin tops $74.5K but are pro traders turning bullish again?\n🟢 Crypto Markets Soar as Stocks Rally, Oil Drops 5%\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS Producer Price Index (YoY)(Jan) — Mar 20, 11:30 PM UTC (prev: 3.0%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n GDP(YoY)(Q4) — Mar 19, 12:03 PM UTC (prev: 2.1%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 150
+  "telegramText": "<b>SIGNAL SCAN</b> — March 17, 2026\n\n<b>SNAPSHOT</b>\nRisk-on equities despite stagflationary backdrop as crypto leads with ETH outperforming BTC 3x. Oil spiking 2.2% on Middle East tensions while precious metals dump hard. Cross-asset dislocation widening between growth assets and inflation hedges.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 100.0/100 (Critical)\nRegime: Transitional Stagflation — real yields rising amid financial conditions tightening\nKey prices: SPY +0.4% | QQQ +0.5% | VIX +0.1% | TLT +0.3% | DXY +0.2% | OIL +2.2%\nICSA: 213K (flat trend)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nOIL: $105-115 (+10-20%)\nSPY: $635-655 (-5-10%)\nBTC: $66-70K (-10-5%)\n\n<b>SCENARIO B</b> — Risk-On Continuation\nETH: $2,500-2,700 (+8-17%)\nQQQ: $630-660 (+5-10%)\nVIX: $18-21 (-25-10%)\n\n<b>SCENARIO C</b> — Stagflation Confirmation\nGLD: $480-520 (+4-13%)\nTLT: $82-85 (-6-3%)\nDXY: $102-105 (+2-5%)\n\n<b>SECTOR STRENGTH</b>\n1. Utilities (XLU +1.6%) — strong\n2. Semiconductors (SMH +1.5%) — bid  \n3. Biotech (XBI +1.0%) — rotating\n4. Real Estate (XLRE +1.0%) — bid\n5. Financials (XLF +1.0%) — strong\n\n<b>BIG MOVES + DRIVERS</b>\nFET +18.4% — Puffer/Anchorage institutional pufETH exposure partnership\nBMNR +13.3% — $11.5B holdings report including 4.6M ETH, OpenAI exposure\nPEPE +12.6% — meme momentum following viral social confirmation\nWULF +11.7% — crypto mining beneficiary from BTC strength\nETHE +10.9% — Tether $1.6B diversified investment disclosure\nVNET -9.7% — Chinese cloud exposure amid geopolitical tensions\n\n<i>Crypto infrastructure driving risk-on while traditional inflation hedges sell off, suggesting liquidity rotation into growth over protection.</i>\n\n<b>POSITIONING</b>\nBTC whales: $18M short positions vs no longs, -$7M PnL suggests recent reversal pain\nETH whales: $16.2M long vs $27M short, mixed positioning ahead of altcoin breakout\nBTC ETF flows: +$765M inflow (6-day streak) — institutional accumulation continues despite whale shorts\n\n<b>IMPLICATION</b>\nTactical opportunity in crypto/equity beta vs commodities if geopolitical premium fades. Whale BTC shorts vs ETF inflows create squeeze potential, while stagflation hedges oversold on growth rotation.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 152
 }
