@@ -31,7 +31,7 @@ Per-call cost: $0.01-0.02 deducted from deposit balance.
 ## API Endpoints (authenticated)
 Base URL: https://api.agentcanary.ai/api
 - GET /briefs/archive?limit=50 — Daily intelligence briefs (public)
-- GET /indicators — 50+ market indicators (VIX, F&G, funding rates, ETF flows, etc.)
+- GET /indicators — 36 proprietary indicators (Bull Market Support Band, Pi Cycle, Wyckoff, Stablecoin Composite, Composite Risk Score + 31 more)
 - GET /regime — Macro regime classification + transition probabilities
 - GET /predictions — Prediction market data (Polymarket, Kalshi)
 - GET /narratives — Narrative momentum scores (AI, energy, defense, crypto...)
@@ -61,7 +61,7 @@ Auth: x-api-key header
 - Narrative scores: 18 themes, lifecycle tracking (birth → peak → fade)
 - Scenario targets: 2-3 forward scenarios with specific price ranges per day
 - Prediction scoring: hit/miss/partial evaluation after 72 hours
-- 50+ indicators: VIX, Fear & Greed, BTC funding, ETF flows, stablecoin yields, oil, Baltic Dry, etc.
+- 36 indicators: Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, Composite Risk Score, sector rotation, CAPE ratio, Hindenburg omen, geopolitical risk + 27 more
 
 ## Prediction Scoring
 Every Signal Scan brief contains forward scenarios with price targets.
