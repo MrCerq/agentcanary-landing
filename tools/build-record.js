@@ -19,6 +19,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const API_URL = 'https://api.agentcanary.ai/api/briefs/archive?limit=500';
+const AC_API_KEY = process.env.AC_API_KEY || 'ac_e0eac09fe01ff28f91ca0ef00a68d02a435fabef578b5c6b93e80b88d29f01f2';
 const SITE_URL = 'https://agentcanary.ai';
 const DRY = process.argv.includes('--dry');
 
@@ -54,7 +55,13 @@ const TAG_RGB_MAP = {
 
 function fetch(url) {
   return new Promise((resolve, reject) => {
-    https.get(url, res => {
+    const parsedUrl = new URL(url);
+    const options = {
+      hostname: parsedUrl.hostname,
+      path: parsedUrl.pathname + parsedUrl.search,
+      headers: { 'x-api-key': AC_API_KEY }
+    };
+    https.get(options, res => {
       let body = '';
       res.on('data', c => body += c);
       res.on('end', () => {

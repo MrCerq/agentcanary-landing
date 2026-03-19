@@ -1,6 +1,159 @@
 {
   "predictions": [
     {
+      "id": "2026-03-18-A-SPY",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "A",
+      "scenarioName": "Fed Pivot Relief",
+      "ticker": "SPY",
+      "type": "scenario_target",
+      "rangeMin": 690,
+      "rangeMax": 710,
+      "impliedMove": "+3-6%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-A-BTC",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "A",
+      "scenarioName": "Fed Pivot Relief",
+      "ticker": "BTC",
+      "type": "scenario_target",
+      "rangeMin": 78000,
+      "rangeMax": 82000,
+      "impliedMove": "+5-10%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-A-VIX",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "A",
+      "scenarioName": "Fed Pivot Relief",
+      "ticker": "VIX",
+      "type": "scenario_target",
+      "rangeMin": 18,
+      "rangeMax": 20,
+      "impliedMove": "-15-17%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-B-TLT",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "B",
+      "scenarioName": "Stagflation Acceleration",
+      "ticker": "TLT",
+      "type": "scenario_target",
+      "rangeMin": 82,
+      "rangeMax": 85,
+      "impliedMove": "-6-9%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-B-OIL",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "B",
+      "scenarioName": "Stagflation Acceleration",
+      "ticker": "OIL",
+      "type": "scenario_target",
+      "rangeMin": 105,
+      "rangeMax": 115,
+      "impliedMove": "+11-22%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-B-DXY",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "B",
+      "scenarioName": "Stagflation Acceleration",
+      "ticker": "DXY",
+      "type": "scenario_target",
+      "rangeMin": 102,
+      "rangeMax": 105,
+      "impliedMove": "+3-5%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-C-GLD",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "C",
+      "scenarioName": "Geopolitical Escalation",
+      "ticker": "GLD",
+      "type": "scenario_target",
+      "rangeMin": 480,
+      "rangeMax": 500,
+      "impliedMove": "+5-9%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-C-OIL",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "C",
+      "scenarioName": "Geopolitical Escalation",
+      "ticker": "OIL",
+      "type": "scenario_target",
+      "rangeMin": 110,
+      "rangeMax": 125,
+      "impliedMove": "+17-33%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-03-18-C-SPY",
+      "date": "2026-03-18",
+      "session": "intelligence",
+      "scenario": "C",
+      "scenarioName": "Geopolitical Escalation",
+      "ticker": "SPY",
+      "type": "scenario_target",
+      "rangeMin": 620,
+      "rangeMax": 640,
+      "impliedMove": "-5-8%",
+      "scoreDate": "2026-03-21",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
       "id": "2026-03-17-A-OIL",
       "date": "2026-03-17",
       "session": "intelligence",
@@ -165,10 +318,10 @@
       "rangeMax": 71000,
       "impliedMove": "-7% to -3%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 75988.4,
+      "actualLow": 70724.39,
+      "actualClose": 70803.55
     },
     {
       "id": "2026-03-16-A-SPY",
@@ -182,10 +335,10 @@
       "rangeMax": 650,
       "impliedMove": "-5% to -2%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 674.44,
+      "actualLow": 661.19,
+      "actualClose": 661.43
     },
     {
       "id": "2026-03-16-A-OIL",
@@ -199,10 +352,10 @@
       "rangeMax": 115,
       "impliedMove": "+6% to +16%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 102.44,
+      "actualLow": 91.96,
+      "actualClose": 96.02
     },
     {
       "id": "2026-03-16-B-TLT",
@@ -216,10 +369,10 @@
       "rangeMax": 85,
       "impliedMove": "-5% to -2%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 87.57,
+      "actualLow": 86.93,
+      "actualClose": 86.96
     },
     {
       "id": "2026-03-16-B-SPY",
@@ -233,10 +386,10 @@
       "rangeMax": 665,
       "impliedMove": "-3% to +0.4%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 674.44,
+      "actualLow": 661.19,
+      "actualClose": 661.43
     },
     {
       "id": "2026-03-16-B-BTC",
@@ -250,10 +403,10 @@
       "rangeMax": 75000,
       "impliedMove": "-5% to +2%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 75988.4,
+      "actualLow": 70724.39,
+      "actualClose": 70803.55
     },
     {
       "id": "2026-03-16-C-BTC",
@@ -267,10 +420,10 @@
       "rangeMax": 80000,
       "impliedMove": "+2% to +9%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 75988.4,
+      "actualLow": 70724.39,
+      "actualClose": 70803.55
     },
     {
       "id": "2026-03-16-C-ETH",
@@ -284,10 +437,10 @@
       "rangeMax": 2500,
       "impliedMove": "+4% to +10%",
       "scoreDate": "2026-03-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 2384.47,
+      "actualLow": 2166,
+      "actualClose": 2194.27
     },
     {
       "id": "2026-03-15-A-BTC",
@@ -301,10 +454,10 @@
       "rangeMax": 80000,
       "impliedMove": "+6-11%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 75988.4,
+      "actualLow": 70724.39,
+      "actualClose": 73922.48
     },
     {
       "id": "2026-03-15-A-ETH",
@@ -318,10 +471,10 @@
       "rangeMax": 2500,
       "impliedMove": "+9-18%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 2384.47,
+      "actualLow": 2084.21,
+      "actualClose": 2318.05
     },
     {
       "id": "2026-03-15-A-SPY",
@@ -335,10 +488,10 @@
       "rangeMax": 700,
       "impliedMove": "+3-6%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 674.44,
+      "actualLow": 661.19,
+      "actualClose": 661.43
     },
     {
       "id": "2026-03-15-B-BTC",
@@ -352,10 +505,10 @@
       "rangeMax": 68000,
       "impliedMove": "-10-5%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 75988.4,
+      "actualLow": 70724.39,
+      "actualClose": 73922.48
     },
     {
       "id": "2026-03-15-B-ETH",
@@ -369,10 +522,10 @@
       "rangeMax": 2000,
       "impliedMove": "-15-5%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 2384.47,
+      "actualLow": 2084.21,
+      "actualClose": 2318.05
     },
     {
       "id": "2026-03-15-B-SPY",
@@ -386,10 +539,10 @@
       "rangeMax": 630,
       "impliedMove": "-9-5%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 674.44,
+      "actualLow": 661.19,
+      "actualClose": 661.43
     },
     {
       "id": "2026-03-15-C-DXY",
@@ -403,10 +556,10 @@
       "rangeMax": 106,
       "impliedMove": "+3-5%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 100.48,
+      "actualLow": 99.47,
+      "actualClose": 100.09
     },
     {
       "id": "2026-03-15-C-GLD",
@@ -420,10 +573,10 @@
       "rangeMax": 450,
       "impliedMove": "-7-2%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 462.8,
+      "actualLow": 444.39,
+      "actualClose": 444.74
     },
     {
       "id": "2026-03-15-C-TLT",
@@ -437,10 +590,10 @@
       "rangeMax": 85,
       "impliedMove": "-5-2%",
       "scoreDate": "2026-03-18",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 87.57,
+      "actualLow": 86.93,
+      "actualClose": 86.96
     },
     {
       "id": "2026-03-14-A-BTC",
@@ -1191,5 +1344,5 @@
       "actualClose": 666.06
     }
   ],
-  "lastScored": "2026-03-17T22:00:02.583Z"
+  "lastScored": "2026-03-19T05:29:19.206Z"
 }

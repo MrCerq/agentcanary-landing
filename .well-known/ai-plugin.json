@@ -3,7 +3,7 @@
   "name_for_human": "AgentCanary",
   "name_for_model": "agentcanary",
   "description_for_human": "Macro market intelligence — regime tracking, indicators, briefs, narratives, and scored predictions across crypto, equities, and commodities.",
-  "description_for_model": "AgentCanary provides macro market intelligence. Use it to get the current market regime (expansion/stagflation/recession), risk gauge (0-100), 50+ indicators (VIX, Fear & Greed, BTC funding, ETF flows), narrative momentum scores, whale alerts, forward scenario analysis with price targets, and scored prediction accuracy. Data covers crypto, equities, commodities, and forex. 4 daily briefs with analysis.",
+  "description_for_model": "AgentCanary provides macro market intelligence. Use it to get the current market regime (expansion/stagflation/recession), risk gauge (0-100), 36 proprietary indicators (Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, CAPE ratio, Hindenburg omen + 30 more), narrative momentum scores, whale alerts, forward scenario analysis with price targets, and scored prediction accuracy. 121 endpoints covering crypto, equities, commodities, and forex. 4 daily AI briefs. Wallet-based auth, USDC/USDT deposits.",
   "auth": {
     "type": "service_http",
     "authorization_type": "bearer",
