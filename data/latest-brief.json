@@ -1,53 +1,57 @@
 {
-  "session": "intelligence",
-  "date": "2026-03-17",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 17, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 100/100 · 8 movers",
+  "session": "midday",
+  "date": "2026-03-19",
+  "time": "16:15 UTC",
+  "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:DISTRIBUTION 4h:ACCUMULATION · ETH 1d:DISTRIBUTION 4h:ACCUMULATION · SOL 1d:DISTRIBUTION 4h:ACCUMULATION",
   "tags": [
     {
-      "t": "HIGH",
-      "c": "red"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "STAGFLATION",
-      "c": "blue"
+      "t": "ENJ 1567% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 100
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "FET",
-          "v": "+18.4%",
-          "c": "green"
+          "k": "BTC 1D",
+          "v": "DISTRIBUTION",
+          "c": "red"
         },
         {
-          "k": "BMNR",
-          "v": "+13.3%",
-          "c": "green"
+          "k": "ETH 1D",
+          "v": "DISTRIBUTION",
+          "c": "red"
         },
         {
-          "k": "PEPE",
-          "v": "+12.6%",
-          "c": "green"
+          "k": "SOL 1D",
+          "v": "DISTRIBUTION",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$51M BTC",
+          "v": "transferred from Coi",
+          "c": "blue"
         },
         {
-          "k": "WULF",
-          "v": "+11.7%",
-          "c": "green"
+          "k": "$51M BTC",
+          "v": "transferred from Coi",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 17, 2026\n\n<b>SNAPSHOT</b>\nRisk-on equities despite stagflationary backdrop as crypto leads with ETH outperforming BTC 3x. Oil spiking 2.2% on Middle East tensions while precious metals dump hard. Cross-asset dislocation widening between growth assets and inflation hedges.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 100.0/100 (Critical)\nRegime: Transitional Stagflation — real yields rising amid financial conditions tightening\nKey prices: SPY +0.4% | QQQ +0.5% | VIX +0.1% | TLT +0.3% | DXY +0.2% | OIL +2.2%\nICSA: 213K (flat trend)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nOIL: $105-115 (+10-20%)\nSPY: $635-655 (-5-10%)\nBTC: $66-70K (-10-5%)\n\n<b>SCENARIO B</b> — Risk-On Continuation\nETH: $2,500-2,700 (+8-17%)\nQQQ: $630-660 (+5-10%)\nVIX: $18-21 (-25-10%)\n\n<b>SCENARIO C</b> — Stagflation Confirmation\nGLD: $480-520 (+4-13%)\nTLT: $82-85 (-6-3%)\nDXY: $102-105 (+2-5%)\n\n<b>SECTOR STRENGTH</b>\n1. Utilities (XLU +1.6%) — strong\n2. Semiconductors (SMH +1.5%) — bid  \n3. Biotech (XBI +1.0%) — rotating\n4. Real Estate (XLRE +1.0%) — bid\n5. Financials (XLF +1.0%) — strong\n\n<b>BIG MOVES + DRIVERS</b>\nFET +18.4% — Puffer/Anchorage institutional pufETH exposure partnership\nBMNR +13.3% — $11.5B holdings report including 4.6M ETH, OpenAI exposure\nPEPE +12.6% — meme momentum following viral social confirmation\nWULF +11.7% — crypto mining beneficiary from BTC strength\nETHE +10.9% — Tether $1.6B diversified investment disclosure\nVNET -9.7% — Chinese cloud exposure amid geopolitical tensions\n\n<i>Crypto infrastructure driving risk-on while traditional inflation hedges sell off, suggesting liquidity rotation into growth over protection.</i>\n\n<b>POSITIONING</b>\nBTC whales: $18M short positions vs no longs, -$7M PnL suggests recent reversal pain\nETH whales: $16.2M long vs $27M short, mixed positioning ahead of altcoin breakout\nBTC ETF flows: +$765M inflow (6-day streak) — institutional accumulation continues despite whale shorts\n\n<b>IMPLICATION</b>\nTactical opportunity in crypto/equity beta vs commodities if geopolitical premium fades. Whale BTC shorts vs ETF inflows create squeeze potential, while stagflation hedges oversold on growth rotation.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 152
+  "telegramText": "<b>MARKET PULSE</b> — Mar 19, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$69,244</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n• ETH: <b>$2,114</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n• SOL: <b>$87.42</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 726 BTC ($51,195,571)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n• 721 BTC ($51,117,498)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n• 721 BTC ($51,090,933)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $161,585,193 | Longs: 85% | L/S: 5.7:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 163
 }
