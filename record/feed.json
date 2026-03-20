@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-19-evening",
+      "url": "https://agentcanary.ai/record/2026/03/19#evening",
+      "title": "Evening Wrap — Mar 19, 2026",
+      "content_text": "Markets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with … MARKET WRAP — Mar 19, 2026\n\nMarkets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with Bitcoin holding above $70K while traditional equity indices lagged. The ",
+      "summary": "Markets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with …",
+      "date_published": "2026-03-19T22:15:05.143Z",
+      "tags": [
+        "mixed",
+        "us-university-of-m"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-19-midday",
       "url": "https://agentcanary.ai/record/2026/03/19#midday",
       "title": "Market Pulse — Mar 19, 2026",

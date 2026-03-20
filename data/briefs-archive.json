@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-19",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 19, 2026\n\nMarkets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with Bitcoin holding above $70K while traditional equity indices lagged. The ",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "US University of M",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 78
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US University of Michig",
+            "v": "Mar 27",
+            "c": "blue"
+          },
+          {
+            "k": "EU Markit Manufacturing",
+            "v": "Mar 24",
+            "c": "blue"
+          },
+          {
+            "k": "US University of Michig",
+            "v": "Mar 23",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 164,
+    "telegramText": "<b>MARKET WRAP</b> — Mar 19, 2026\n\n<i>Markets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with Bitcoin holding above $70K while traditional equity indices lagged. The elevated VIX at 24 and flat bond performance in TLT suggest investors are grappling with persistent inflation concerns amid slowing growth dynamics.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,480</b> · ETH: <b>$2,152</b> · SOL: <b>$89.14</b> · GOLD: <b>$4,634</b> · SPY: <b>$659.8</b> (-1.6%) · QQQ: <b>$593.02</b> (-1.7%) · VIX: <b>$24.06</b> (-4.1%) · TLT: <b>$87.49</b> (+0.0%) · DXY: <b>$99.16</b> (-0.9%) · OIL: <b>$94.22</b> (-2.2%)\n\n<b>EVENING NEWS</b>\n🟢 SOL treasury Forward industries buys back shares using crypto-backed debt\n🟢 Datavault AI signs agreement to acquire NYIAX for blockchain trading\n🟢 Israel Will Avoid Attacking Iran’s Energy Assets, Netanyahu Says\n🟢 Uncovering Opportunity Amidst Rates Repricing\n🟢 EUR/USD surges over 1% as ECB rate hike talk hits USD\n🟢 Crypto Structure Bill Progress: ‘99%’ Settlement Reached In Stablecoin Yield Talks\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 77.9/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Final)(Mar) — Mar 27, 02:00 PM UTC (prev: 55.5)\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\nUS University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 23, 11:30 PM UTC (prev: 56.6)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS Producer Price Index (YoY)(Jan) — Mar 20, 11:30 PM UTC (prev: 3.0%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-03-19",
     "time": "16:15 UTC",

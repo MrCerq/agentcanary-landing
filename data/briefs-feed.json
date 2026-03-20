@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-19",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 19, 2026\n\nMarkets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with Bitcoin holding above $70K while traditional equity indices lagged. The ",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "US University of M",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 78
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US University of Michig",
+            "v": "Mar 27",
+            "c": "blue"
+          },
+          {
+            "k": "EU Markit Manufacturing",
+            "v": "Mar 24",
+            "c": "blue"
+          },
+          {
+            "k": "US University of Michig",
+            "v": "Mar 23",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Mar 19, 2026\n\n<i>Markets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with Bitcoin holding above $70K while traditional equity indices lagged. The elevated VIX at 24 and flat bond performance in TLT suggest investors are grappling with persistent inflation concerns amid slowing growth dynamics.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,480</b> · ETH: <b>$2,152</b> · SOL: <b>$89.14</b> · GOLD: <b>$4,634</b> · SPY: <b>$659.8</b> (-1.6%) · QQQ: <b>$593.02</b> (-1.7%) · VIX: <b>$24.06</b> (-4.1%) · TLT: <b>$87.49</b> (+0.0%) · DXY: <b>$99.16</b> (-0.9%) · OIL: <b>$94.22</b> (-2.2%)\n\n<b>EVENING NEWS</b>\n🟢 SOL treasury Forward industries buys back shares using crypto-backed debt\n🟢 Datavault AI signs agreement to acquire NYIAX for blockchain trading\n🟢 Israel Will Avoid Attacking Iran’s Energy Assets, Netanyahu Says\n🟢 Uncovering Opportunity Amidst Rates Repricing\n🟢 EUR/USD surges over 1% as ECB rate hike talk hits USD\n🟢 Crypto Structure Bill Progress: ‘99%’ Settlement Reached In Stablecoin Yield Talks\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 77.9/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Final)(Mar) — Mar 27, 02:00 PM UTC (prev: 55.5)\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\nUS University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 23, 11:30 PM UTC (prev: 56.6)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS Producer Price Index (YoY)(Jan) — Mar 20, 11:30 PM UTC (prev: 3.0%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 164
+  },
+  {
     "session": "midday",
     "date": "2026-03-19",
     "time": "16:15 UTC",
@@ -1446,43 +1494,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — March 12, 2026\n\n<b>SNAPSHOT</b>\nStagflationary backdrop with cross-asset tension. Energy rips on Iran-Strait tensions while bonds dump on sticky inflation expectations. Semis lead despite crypto/equity mixed signals as AI infrastructure spending accelerates.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 78.0/100 (High)\nRegime: STAGFLATION — inflation expectations rising while USD strengthens on geopolitical risk\nSPY: $676.33 (-0.29%)\nQQQ: $607.69 (-0.01%)\nVIX: $24.96 (-2.12%)\nTLT: $87.14 (-2.34%)\nDXY: $99.30 (+0.07%)\nOIL: $91.20 (+4.53%)\nICSA: 213K (trend down, -0.08 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $64K-66K (-6% to -9%)\nOIL: $98-105 (+7% to +15%)\nSPY: $645-660 (-2% to -5%)\nTLT: $90-93 (+3% to +7%)\n\n<b>SCENARIO B</b> — Iran Tensions Fade\nOIL: $82-87 (-10% to -5%)\nSPY: $690-710 (+2% to +5%)\nBTC: $72K-76K (+3% to +9%)\nTLT: $82-85 (-6% to -3%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +1.69%) — strong\n2. Energy (XLE +1.17%) — bid\n3. Uranium (URA +0.57%) — rotating\n4. Technology (XLK +0.48%) — steady\n5. Financials (XLF -1.37%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nIREN $41.94 (+10.2%) — NVIDIA AI infrastructure investments boosting bitcoin mining exposure\nORCL $163.33 (+9.1%) — earnings beat as enterprise AI spending accelerates\nWTI $94.46 (+8.3%) — Iran threatens Strait of Hormuz after striking Thai vessel\nICP $2.57 (+7.5%) — AI infrastructure narrative spillover\nHYPE $35.96 (+3.9%) — Hyperliquid derivatives ATH open interest\n<i>AI infrastructure spend driving energy-intensive sectors while geopolitical premium reprices commodity curves.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: -$375.3M outflow (high significance)\nWhale positioning: BTC longs $31.9M vs shorts $36.8M (+$14.4M PnL), ETH heavily short-skewed $72M vs $14.4M longs (-$1.1M PnL), HYPE long-biased $51.9M vs $12.4M shorts but underwater -$2.8M\n\n<b>IMPLICATION</b>\nTactical long energy/semis vs bonds captures stagflationary regime shift. BTC weakness despite whale profits suggests institutional rotation into AI infrastructure plays over store-of-value positioning.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 130
-  },
-  {
-    "session": "morning",
-    "date": "2026-03-12",
-    "time": "04:15 UTC",
-    "headline": "🟡 Neutral · Neutral · Gauge 78/100",
-    "headlineColor": "#F87171",
-    "desc": "STAGFLATION. F&G: —. WATCH.",
-    "tags": [
-      {
-        "t": "Neutral · Neutral",
-        "c": "red"
-      },
-      {
-        "t": "GAUGE 78",
-        "c": "red"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 78
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "1.5/6 WATCH",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — Mar 12, 2026\n\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100\n\n• BTC: <b>$69,555</b>\n• ETH: <b>$2,025</b>\n• SOL: <b>$85.12</b>\n• GOLD: <b>$5,183</b>\nSPY: <b>$676.33</b> (-0.3%)\nQQQ: <b>$607.69</b> (-0.0%)\nVIX: <b>24.2</b> (-5.0%)\nTLT: <b>$87.14</b> (-2.3%)\nDXY: <b>99.5</b> (+0.2%)\nOIL: <b>$94.15</b> (+7.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n[-] Global CB Liquidity: <b>$18.13T</b> (YoY -3.5%)\n   US M2: $22.44T (YoY +4.29%)\n[+] HY Credit Spreads: <b>306bps</b> CALM (5d: -2bps)\n\n<b>NOTABLE Z-SCORES</b>\n[-] WTI Crude Oil: +2.80σ\n[-] 10Y Breakeven Inflation: +2.15σ\n[-] DTWEXBGS: +1.96σ\n[-] 2Y Treasury: +1.60σ\n[+] 30Y Mortgage Rate: -1.57σ\n\n<b>TOP MOVERS</b>\n[+] IREN $41.94 (+10.2%)\n[+] ORCL $163 (+9.1%)\n[+] WTI $94.46 (+8.3%)\n[+] OIL $94.15 (+7.9%) — February CPI Holds at 2.4% as Oil Shock Complicates Fed Rate\n[+] ICP $2.57 (+7.5%)\n[-] GEMI $8.60 (-7.4%)\n[+] HYPE $35.96 (+3.9%)\n[+] FET $0.1592 (+2.8%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n[-] USD Index: 119.491 (&gt;110)\n[~] 2Y Yield: 3.57% (&lt;3.6%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 129
   }
 ]
