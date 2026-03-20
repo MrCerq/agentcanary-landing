@@ -15,6 +15,36 @@
   ],
   "items": [
     {
+      "id": "2026-03-20-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/20#intelligence",
+      "title": "Signal Scan — Mar 20, 2026",
+      "content_text": "SIGNAL SCAN — Mar 20, 2026 Risk 78.7/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 20, 2026",
+      "date_published": "2026-03-20T10:15:19.746Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-03-20-morning",
+      "url": "https://agentcanary.ai/record/2026/03/20#morning",
+      "title": "Morning Brief — Mar 20, 2026",
+      "content_text": "🔴 Risk-Off · Neutral · Gauge 78.7/100 Stagflation regime · Fear & Greed: neutral · NORMAL",
+      "summary": "🔴 Risk-Off · Neutral · Gauge 78.7/100",
+      "date_published": "2026-03-20T04:15:01.939Z",
+      "tags": [
+        "risk-off-·-neutral",
+        "gauge-78.7"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
       "id": "2026-03-19-evening",
       "url": "https://agentcanary.ai/record/2026/03/19#evening",
       "title": "Evening Wrap — Mar 19, 2026",
