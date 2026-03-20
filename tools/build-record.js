@@ -75,15 +75,16 @@ function fetch(url) {
 // ─── Ollama (Local Qwen) Summary Generator ──────────────────────
 
 const OLLAMA_URL = 'http://localhost:11434/api/generate';
-const OLLAMA_MODEL = 'qwen3:8b';
+const OLLAMA_MODEL = 'qwen3.5:2b';
 
 function ollamaGenerate(prompt) {
   return new Promise((resolve, reject) => {
     const http = require('http');
     const payload = JSON.stringify({
       model: OLLAMA_MODEL,
-      prompt: `/no_think\n${prompt}`,
+      prompt: prompt,
       stream: false,
+      think: false,
       options: { temperature: 0.3 }
     });
     const req = http.request(OLLAMA_URL, {
@@ -125,8 +126,7 @@ ${briefTexts}
 3 sentences only:`;
 
   const summary = await ollamaGenerate(prompt);
-  // Clean up any thinking tags or extra whitespace
-  return summary.replace(/<think>[\s\S]*?<\/think>/g, '').replace(/^\s+|\s+$/g, '');
+  return summary.replace(/^\s+|\s+$/g, '');
 }
 
 function ensureDir(dir) {

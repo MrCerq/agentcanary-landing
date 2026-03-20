@@ -15,6 +15,22 @@
   ],
   "items": [
     {
+      "id": "2026-03-20-midday",
+      "url": "https://agentcanary.ai/record/2026/03/20#midday",
+      "title": "Market Pulse — Mar 20, 2026",
+      "content_text": "BTC Risk-Off · 100 whale moves BTC daily risk-off, 4h risk-off · ETH daily distribution, 4h risk-off · SOL daily distribution, 4h risk-off",
+      "summary": "BTC Risk-Off · 100 whale moves",
+      "date_published": "2026-03-20T16:15:01.171Z",
+      "tags": [
+        "risk_off",
+        "whale-alert",
+        "waxp-8630%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-03-20-intelligence",
       "url": "https://agentcanary.ai/record/2026/03/20#intelligence",
       "title": "Signal Scan — Mar 20, 2026",
