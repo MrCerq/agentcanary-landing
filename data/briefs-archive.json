@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-20",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 20, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with traditional havens like gold pushing to 4501 while equities strugg",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "US New housing sta",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 79
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US New housing starts (",
+            "v": "Mar 30",
+            "c": "blue"
+          },
+          {
+            "k": "US University of Michig",
+            "v": "Mar 27",
+            "c": "blue"
+          },
+          {
+            "k": "US ISM Manufacturing Pu",
+            "v": "Mar 25",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 168,
+    "telegramText": "<b>MARKET WRAP</b> — Mar 20, 2026\n\n<i>Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with traditional havens like gold pushing to 4501 while equities struggled. The dollar's strength near 99.5 and elevated oil at 98.09 reinforced the challenging backdrop of persistent inflation alongside growth concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,525</b> · ETH: <b>$2,147</b> · SOL: <b>$89.61</b> · GOLD: <b>$4,501</b> · SPY: <b>$648.57</b> (-1.9%) · QQQ: <b>$582.06</b> (-2.2%) · VIX: <b>$26.78</b> (+11.3%) · TLT: <b>$85.83</b> (-1.3%) · DXY: <b>$99.5</b> (+0.3%) · OIL: <b>$98.09</b> (+2.0%)\n\n<b>SECTOR CLOSE</b>\n🟢 XLE (Energy) +3.2% · XLU (Utilities) +0.1% · XLK (Technology) +0.4%\n🔴 COPX (Copper Miners) -9.2% · XLB (Materials) -3.9% · URA (Uranium) -4.9%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 88) — BTC, ETH\n\n<b>EVENING NEWS</b>\n🟢 UK lets US use British bases to strike Iranian missile sites targeting Strait of Hormuz\n🟢 Britain’s bond panic is currently making the case for Bitcoin many people seem to have for\n🟢 Bitcoin Cash: Here’s why BCH traders should watch THIS buy signal\n🟢 Bitcoin price aims to hold $70K amid rising inflation concerns\n🟢 Bitcoin Has Stabilized, But Investors Are Paying Up for Downside Protection: VanEck\n🟢 Wall Street Angst Mounts as Oil Shock, Fed Freeze Roil Markets\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 78.7/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New housing starts (AAMR)(Jan) — Mar 30, 12:30 PM UTC (prev: 6.2%)\nUS University of Michigan Consumer Confidence Index (Final)(Mar) — Mar 27, 02:00 PM UTC (prev: 55.5)\nUS ISM Manufacturing Purchasing Managers Index(Feb) — Mar 25, 07:00 AM UTC (prev: 52.6)\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\nUS University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 23, 11:30 PM UTC (prev: 56.6)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-03-20",
     "time": "16:15 UTC",

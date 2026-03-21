@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-20",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 20, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with traditional havens like gold pushing to 4501 while equities strugg",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "US New housing sta",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 79
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US New housing starts (",
+            "v": "Mar 30",
+            "c": "blue"
+          },
+          {
+            "k": "US University of Michig",
+            "v": "Mar 27",
+            "c": "blue"
+          },
+          {
+            "k": "US ISM Manufacturing Pu",
+            "v": "Mar 25",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Mar 20, 2026\n\n<i>Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with traditional havens like gold pushing to 4501 while equities struggled. The dollar's strength near 99.5 and elevated oil at 98.09 reinforced the challenging backdrop of persistent inflation alongside growth concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,525</b> · ETH: <b>$2,147</b> · SOL: <b>$89.61</b> · GOLD: <b>$4,501</b> · SPY: <b>$648.57</b> (-1.9%) · QQQ: <b>$582.06</b> (-2.2%) · VIX: <b>$26.78</b> (+11.3%) · TLT: <b>$85.83</b> (-1.3%) · DXY: <b>$99.5</b> (+0.3%) · OIL: <b>$98.09</b> (+2.0%)\n\n<b>SECTOR CLOSE</b>\n🟢 XLE (Energy) +3.2% · XLU (Utilities) +0.1% · XLK (Technology) +0.4%\n🔴 COPX (Copper Miners) -9.2% · XLB (Materials) -3.9% · URA (Uranium) -4.9%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 88) — BTC, ETH\n\n<b>EVENING NEWS</b>\n🟢 UK lets US use British bases to strike Iranian missile sites targeting Strait of Hormuz\n🟢 Britain’s bond panic is currently making the case for Bitcoin many people seem to have for\n🟢 Bitcoin Cash: Here’s why BCH traders should watch THIS buy signal\n🟢 Bitcoin price aims to hold $70K amid rising inflation concerns\n🟢 Bitcoin Has Stabilized, But Investors Are Paying Up for Downside Protection: VanEck\n🟢 Wall Street Angst Mounts as Oil Shock, Fed Freeze Roil Markets\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 78.7/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New housing starts (AAMR)(Jan) — Mar 30, 12:30 PM UTC (prev: 6.2%)\nUS University of Michigan Consumer Confidence Index (Final)(Mar) — Mar 27, 02:00 PM UTC (prev: 55.5)\nUS ISM Manufacturing Purchasing Managers Index(Feb) — Mar 25, 07:00 AM UTC (prev: 52.6)\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\nUS University of Michigan Consumer Confidence Index (Preliminary)(Mar) — Mar 23, 11:30 PM UTC (prev: 56.6)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 168
+  },
+  {
     "session": "midday",
     "date": "2026-03-20",
     "time": "16:15 UTC",
@@ -1446,43 +1494,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — March 13th, 2026\n\n<b>SNAPSHOT</b>\nRisk-off deepening as stagflationary pressures mount with DXY strength and VIX spiking to 27. Middle East tensions driving energy higher while broad risk assets liquidate. Cross-asset divergence widening as institutions flee duration and equities simultaneously.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 78.0/100 (High)\nRegime: STAGFLATION — financial conditions tightening as USD strengthens into rising inflation expectations\nKey prices: SPY -1.6% | QQQ -1.7% | VIX +8.2% | TLT -1.5% | DXY +0.4% | OIL -0.2%\nICSA: 213K (trending down, Z-score -0.08)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $600-630 (-5% to -10%)\nBTC: $65K-68K (-5% to -10%)\nOIL: $105-115 (+10% to +20%)\n\n<b>SCENARIO B</b> — Stagflation Pivot\nTLT: $75-80 (-10% to -13%)\nDXY: $103-106 (+3% to +6%)\nGOLD: $430-450 (-5% to -8%)\n\n<b>SCENARIO C</b> — Risk Asset Bounce\nSPY: $680-700 (+2% to +5%)\nBTC: $75K-78K (+4% to +8%)\nVIX: $20-23 (-20% to -26%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +3.4%) — bid\n2. Utilities (XLU -0.1%) — defensive\n3. Materials (XLB -0.4%) — weak\n4. Technology (XLK -1.4%) — dump\n5. Industrials (XLI -2.8%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nFET $0.189 (+18.4%) — AI token momentum amid NATO defense escalation\nRENDER $1.76 (+17.3%) — Turkey NATO missile intercepts boosting defense-adjacent crypto\nVIX $26.98 (+8.2%) — Iran tanker attacks triggering vol spike across risk assets\nNEAR $1.39 (+7.8%) — Trump oil refinery announcement lifting energy-adjacent protocols\nTRMD $24.67 (-9.5%) — broad risk-off hitting small caps hardest\nPATH $11.37 (-8.2%) — dollar milkshake thesis pressuring growth names\n\n<i>Crypto outperforming traditional risk assets as institutions view BTC as geopolitical hedge rather than risk-on play.</i>\n\n<b>POSITIONING</b>\nWhale flow: BTC longs $31.7M vs shorts $77.2M, net PnL -$8K across 6 positions\nETH positioning: $87.7M short interest, -$2.99M PnL suggests capitulation phase\nBTC ETF flows: +$125M inflow (day 1 of streak) — institutions buying the war premium\n\n<b>IMPLICATION</b>\nTactical opportunity emerging in crypto vs traditional risk given institutional BTC flows during geopolitical stress. Consider energy/crypto barbell if Middle East tensions persist while monitoring DXY 103 resistance for broader risk sentiment shift.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 134
-  },
-  {
-    "session": "morning",
-    "date": "2026-03-13",
-    "time": "04:15 UTC",
-    "headline": "🟡 Neutral · Neutral · Gauge 78/100",
-    "headlineColor": "#F87171",
-    "desc": "STAGFLATION. F&G: —. WATCH.",
-    "tags": [
-      {
-        "t": "Neutral · Neutral",
-        "c": "red"
-      },
-      {
-        "t": "GAUGE 78",
-        "c": "red"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 78
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "1.5/6 WATCH",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — Mar 13, 2026\n\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100\n\n• BTC: <b>$71,389</b>\n• ETH: <b>$2,118</b>\n• SOL: <b>$89.7</b>\n• GOLD: <b>$5,088</b>\nSPY: <b>$666.06</b> (-1.6%)\nQQQ: <b>$597.26</b> (-1.7%)\nVIX: <b>27.3</b> (+9.5%)\nTLT: <b>$86.97</b> (-1.5%)\nDXY: <b>99.8</b> (+0.0%)\nOIL: <b>$95.51</b> (-0.2%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n[-] Global CB Liquidity: <b>$18.15T</b> (YoY -3.43%)\n   US M2: $22.44T (YoY +4.29%)\n[+] HY Credit Spreads: <b>306bps</b> CALM (5d: -2bps)\n\n<b>NOTABLE Z-SCORES</b>\n[-] WTI Crude Oil: +2.80σ\n[-] 10Y Breakeven Inflation: +2.15σ\n[-] DTWEXBGS: +1.96σ\n[-] 2Y Treasury: +1.60σ\n[+] 30Y Mortgage Rate: -1.52σ\n\n<b>TOP MOVERS</b>\n[+] FET $0.1887 (+18.4%)\n[+] RENDER $1.76 (+17.3%)\n[-] TRMD $24.66 (-9.5%)\n[+] VIX $27.29 (+9.5%)\n[-] GEMI $7.87 (-8.5%)\n[-] PATH $11.37 (-8.2%)\n[-] WPP $235 (-8.2%)\n[+] NEAR $1.39 (+7.8%) — Aluminum Near Four-Year High as War Risks Smelter Closures\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n[-] USD Index: 119.491 (&gt;110)\n[~] 2Y Yield: 3.57% (&lt;3.6%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 133
   }
 ]

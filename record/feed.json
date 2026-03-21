@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-20-evening",
+      "url": "https://agentcanary.ai/record/2026/03/20#evening",
+      "title": "Evening Wrap — Mar 20, 2026",
+      "content_text": "Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment,… MARKET WRAP — Mar 20, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with traditional havens like gold pushing to 4501 while equities strugg",
+      "summary": "Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment,…",
+      "date_published": "2026-03-20T22:15:09.488Z",
+      "tags": [
+        "mixed",
+        "us-new-housing-sta"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-20-midday",
       "url": "https://agentcanary.ai/record/2026/03/20#midday",
       "title": "Market Pulse — Mar 20, 2026",
