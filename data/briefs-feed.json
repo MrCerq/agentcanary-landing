@@ -1,5 +1,96 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-21",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 21, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 91.3/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 91
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "VST",
+            "v": "-12.8%",
+            "c": "red"
+          },
+          {
+            "k": "CEG",
+            "v": "-11.3%",
+            "c": "red"
+          },
+          {
+            "k": "VIX",
+            "v": "+11.3%",
+            "c": "green"
+          },
+          {
+            "k": "TLN",
+            "v": "-10.7%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — March 21st, 2026\n\n<b>SNAPSHOT</b>\nRisk-off accelerating as stagflation trades unwind across assets. USD strength driving broad deleveraging while oil spikes on geopolitical premium. Cross-asset dislocation emerging with crypto holding above key levels despite equity selloff.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 91.3/100 (Critical)\nRegime: STAGFLATION — financial conditions tightening as USD strengthens into rising real yields\nKey prices: SPY -1.9% | QQQ -2.2% | VIX +11.3% | TLT -1.3% | DXY +0.3% | OIL +2.2%\nICSA: 205K (improving, -0.7 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $615-635 (-5 to -2%)\nBTC: $67-72K (-5 to +2%)\nOIL: $105-115 (+7 to +17%)\n\n<b>SCENARIO B</b> — Fed Pivot Signal\nSPY: $665-685 (+3 to +6%)\nBTC: $73-78K (+3 to +10%)\nTLT: $90-95 (+5 to +11%)\n\n<b>SCENARIO C</b> — Stagflation Deepening\nDXY: $102-105 (+3 to +6%)\nGOLD: $380-400 (-8 to -3%)\nSPY: $620-640 (-4 to -1%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — strong\n2. Financials (XLF +0.2%) — bid\n3. Biotech (XBI -0.7%) — weak\n4. Healthcare (XLV -1.2%) — rotating\n5. Technology (XLK -1.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nVST $146 (-12.8%) — dividend adjustment ahead of ex-date\nCEG $281 (-11.3%) — rate hike probability now exceeds cuts through June 2027\nVIX $26.78 (+11.3%) — risk-off acceleration as positioning unwinds\nSLV $61.52 (-10.5%) — precious metals collapse on USD strength\nSOL $90.49 (+1.6%) — crypto resilience amid institutional accumulation\n<i>Energy outperformance masking broad stagflation repricing as rate expectations flip hawkish.</i>\n\n<b>POSITIONING</b>\nBTC whales net short (-$4.9M delta) with 29.6M short vs 24.7M long positions, max leverage 40x signaling institutional hedging.\nBTC ETF flows: +$145.1M inflow (1-day streak) — institutional accumulation despite whale shorts suggests tactical vs strategic positioning divergence.\n\n<b>IMPLICATION</b>\nTactical fade energy rally if geopolitical premium peaks while maintaining crypto exposure as institutional flow diverges from whale positioning. Consider TLT puts if real yields continue rising into stagflation regime confirmation.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 170
+  },
+  {
+    "session": "morning",
+    "date": "2026-03-21",
+    "time": "04:15 UTC",
+    "headline": "🔴 Risk-Off · Neutral · Gauge 91.3/100",
+    "headlineColor": "#F87171",
+    "desc": "STAGFLATION. F&G: —. WATCH.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 91.3",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 91
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1.5/6 WATCH",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — Mar 21, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.3/100\n\n• BTC: <b>$70,704</b>\n• ETH: <b>$2,155</b>\n• SOL: <b>$90.49</b>\n• GOLD: <b>$4,501</b>\nSPY: <b>$648.57</b> (-1.9%)\nQQQ: <b>$582.06</b> (-2.2%)\nVIX: <b>26.8</b> (+11.3%)\nTLT: <b>$85.83</b> (-1.3%)\nDXY: <b>99.5</b> (+0.3%)\nOIL: <b>$98.09</b> (+2.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18T</b> (YoY -3.32%)\n   US M2: $22.44T (YoY +4.29%)\n🟢 HY Credit Spreads: <b>327bps</b> CALM (5d: +10bps)\n\n<b>NOTABLE Z-SCORES</b>\n🟢 Gold: -2.87σ\n🟢 2s10s Curve: -2.64σ\n🟢 Silver: -2.54σ\n🔴 DTWEXBGS: +2.21σ\n🔴 2Y Treasury: +1.76σ\n\n<b>TOP MOVERS</b>\n🔴 VST $146 (-12.8%)\n🟢 VIX $26.78 (+11.3%)\n🔴 CEG $281 (-11.3%)\n🔴 TLN $304 (-10.7%)\n🔴 SLV $61.52 (-10.5%)\n🟢 ATOM $1.84 (+2.2%)\n🟢 SOL $90.49 (+1.6%)\n🔴 NEAR $1.31 (-1.5%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.5518 (&gt;110)\n🟡 Gold: $4501 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 169
+  },
+  {
     "session": "evening",
     "date": "2026-03-20",
     "time": "22:15 UTC",
@@ -1384,115 +1475,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — Mar 13, 2026\n\n<i>Markets traded defensively with elevated VIX at 27 signaling broad risk-off sentiment despite crypto resilience. The stagflationary backdrop kept bonds weak while a firm dollar pressured risk assets, creating a bifurcated environment where traditional hedges like gold held up better than growth-sensitive sectors.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$71,147</b> · ETH: <b>$2,105</b> · SOL: <b>$88.68</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (+12.2%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.52</b> (+0.8%) · OIL: <b>$99.31</b> (+3.7%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +1.7% · XLU (Utilities) -0.8% · URA (Uranium) +4.1%\n▼ COPX (Copper Miners) -0.3% · XLF (Financials) -3.4% · XLY (Consumer Disc) -4.3%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH\n🟡 Defense / Geopolitics (intensity 60) — ITA, LMT, RTX\n🟢 AI / Tech (intensity 58) — NVDA, MSFT, GOOGL\n\n<b>EVENING NEWS</b>\n🟢 Dollar Rallies as Surging Oil Prices Spark Inflation Fears\n🟢 BPI targets August for BTC tax relief, but warns time is running out\n🟢 DeepSnitch AI Presale Launch Date Set For March 31:  Could This Be 2026’s Biggest Crypto E\n🔴 Miss this warning and you too could lose 99.9% in one swap while Ethereum bots walk away w\n🔴 US judge throws out justice department subpoenas to Fed citing ‘thin’ evidence\n🟢 Solana Price Prediction 2026: SOL Could Look Better &amp; Here’s Why DeepSnitch AI’s Live Agen\n\n<b>REGIME CHECK</b>\n🟡 <b>Neutral · Neutral</b> · STAGFLATION · Gauge: 78/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\nUS Federal Funds Benchmark Rate — Mar 18, 06:00 PM UTC (prev: 3.50% - 3.75%)\nUS EIA crude oil inventory transmutation last week (10,000 barrels)(to 0313) — Mar 18, 02:30 PM UTC (prev: 382.4)\nUS Durable goods orders (MoM)(Final)(Jan) — Mar 18, 02:00 PM UTC\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 136
-  },
-  {
-    "session": "midday",
-    "date": "2026-03-13",
-    "time": "16:15 UTC",
-    "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:IGNITION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "BB 1463% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "IGNITION",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$73M BTC",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$73M BTC",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — Mar 13, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$71,787</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• ETH: <b>$2,131</b> — 1d: IGNITION | 4h: IGNITION\n• SOL: <b>$89.63</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 1,000 BTC ($72,608,510)\n  <i>transferred from unknown wallet to #Bybit</i>\n• 1,000 BTC ($72,608,510)\n  <i>transferred from unknown wallet to #Bybit</i>\n• 1,000 BTC ($72,546,834)\n  <i>transferred from unknown wallet to #Bybit</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>PIXEL</b>: 563% net APR (0.2388% rate)\n  Long Binance / Short Bybit | OI: $8.7M | Spread: -0.17%\n• <b>PIPPIN</b>: 335% net APR (0.1748% rate)\n  Long Bybit / Short OKX | OI: $7.7M | Spread: 0.07%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $171,601,157 | Longs: 22% | L/S: 0.3:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 135
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-03-13",
-    "time": "10:15 UTC",
-    "headline": "SIGNAL SCAN — Mar 13, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 78/100 · 8 movers",
-    "tags": [
-      {
-        "t": "HIGH",
-        "c": "red"
-      },
-      {
-        "t": "STAGFLATION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 78
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "FET",
-            "v": "+18.4%",
-            "c": "green"
-          },
-          {
-            "k": "RENDER",
-            "v": "+17.3%",
-            "c": "green"
-          },
-          {
-            "k": "TRMD",
-            "v": "-9.5%",
-            "c": "red"
-          },
-          {
-            "k": "GEMI",
-            "v": "-8.5%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — March 13th, 2026\n\n<b>SNAPSHOT</b>\nRisk-off deepening as stagflationary pressures mount with DXY strength and VIX spiking to 27. Middle East tensions driving energy higher while broad risk assets liquidate. Cross-asset divergence widening as institutions flee duration and equities simultaneously.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 78.0/100 (High)\nRegime: STAGFLATION — financial conditions tightening as USD strengthens into rising inflation expectations\nKey prices: SPY -1.6% | QQQ -1.7% | VIX +8.2% | TLT -1.5% | DXY +0.4% | OIL -0.2%\nICSA: 213K (trending down, Z-score -0.08)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $600-630 (-5% to -10%)\nBTC: $65K-68K (-5% to -10%)\nOIL: $105-115 (+10% to +20%)\n\n<b>SCENARIO B</b> — Stagflation Pivot\nTLT: $75-80 (-10% to -13%)\nDXY: $103-106 (+3% to +6%)\nGOLD: $430-450 (-5% to -8%)\n\n<b>SCENARIO C</b> — Risk Asset Bounce\nSPY: $680-700 (+2% to +5%)\nBTC: $75K-78K (+4% to +8%)\nVIX: $20-23 (-20% to -26%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +3.4%) — bid\n2. Utilities (XLU -0.1%) — defensive\n3. Materials (XLB -0.4%) — weak\n4. Technology (XLK -1.4%) — dump\n5. Industrials (XLI -2.8%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nFET $0.189 (+18.4%) — AI token momentum amid NATO defense escalation\nRENDER $1.76 (+17.3%) — Turkey NATO missile intercepts boosting defense-adjacent crypto\nVIX $26.98 (+8.2%) — Iran tanker attacks triggering vol spike across risk assets\nNEAR $1.39 (+7.8%) — Trump oil refinery announcement lifting energy-adjacent protocols\nTRMD $24.67 (-9.5%) — broad risk-off hitting small caps hardest\nPATH $11.37 (-8.2%) — dollar milkshake thesis pressuring growth names\n\n<i>Crypto outperforming traditional risk assets as institutions view BTC as geopolitical hedge rather than risk-on play.</i>\n\n<b>POSITIONING</b>\nWhale flow: BTC longs $31.7M vs shorts $77.2M, net PnL -$8K across 6 positions\nETH positioning: $87.7M short interest, -$2.99M PnL suggests capitulation phase\nBTC ETF flows: +$125M inflow (day 1 of streak) — institutions buying the war premium\n\n<b>IMPLICATION</b>\nTactical opportunity emerging in crypto vs traditional risk given institutional BTC flows during geopolitical stress. Consider energy/crypto barbell if Middle East tensions persist while monitoring DXY 103 resistance for broader risk sentiment shift.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 134
   }
 ]
