@@ -7,6 +7,29 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — Mar 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/22#morning</link>
+      <description>🔴 Risk-Off · Neutral · Gauge 91.3/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
+      <pubDate>Sun, 22 Mar 2026 04:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/22#morning</guid>
+    </item>
+    <item>
+      <title>Evening Wrap — Mar 21, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/21#evening</link>
+      <description>Markets reflected stagflationary pressures with VIX elevated at 26.78 as growth assets struggled des… — MARKET WRAP — Mar 21, 2026
+
+Markets reflected stagflationary pressures with VIX elevated at 26.78 as growth assets struggled despite crypto's resilience. The dollar's strength near 99.5 alongside surg</description>
+      <pubDate>Sat, 21 Mar 2026 22:15:05 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/21#evening</guid>
+    </item>
+    <item>
+      <title>Market Pulse — Mar 21, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/21#midday</link>
+      <description>BTC Accumulation · 100 whale moves — BTC daily accumulation, 4h bearish · ETH daily distribution, 4h bullish · SOL daily distribution, 4h bullish</description>
+      <pubDate>Sat, 21 Mar 2026 16:15:00 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/21#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — Mar 21, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/21#intelligence</link>
       <description>SIGNAL SCAN — Mar 21, 2026 — Risk 91.3/100 · 8 movers</description>
@@ -358,20 +381,6 @@ Markets entered risk-off mode as Middle East tensions sparked an oil shock above
 Markets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuring equities while gold held near highs on safe-haven demand. The regime s</description>
       <pubDate>Mon, 09 Mar 2026 22:15:05 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/09#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — Mar 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/09#midday</link>
-      <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h bullish · ETH daily bearish, 4h bullish · SOL daily bearish, 4h bullish</description>
-      <pubDate>Mon, 09 Mar 2026 16:15:02 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/09#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/09#intelligence</link>
-      <description>SIGNAL SCAN — Mar 9, 2026 — Risk 49.4/100 · 8 movers</description>
-      <pubDate>Mon, 09 Mar 2026 10:15:20 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/09#intelligence</guid>
     </item>
   </channel>
 </rss>

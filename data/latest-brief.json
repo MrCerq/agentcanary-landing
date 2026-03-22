@@ -1,18 +1,18 @@
 {
-  "session": "intelligence",
-  "date": "2026-03-21",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 21, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 91.3/100 · 8 movers",
+  "session": "morning",
+  "date": "2026-03-22",
+  "time": "04:15 UTC",
+  "headline": "🔴 Risk-Off · Neutral · Gauge 91.3/100",
+  "headlineColor": "#F87171",
+  "desc": "STAGFLATION. F&G: —. WATCH.",
   "tags": [
     {
-      "t": "HIGH",
+      "t": "Risk-Off · Neutral",
       "c": "red"
     },
     {
-      "t": "STAGFLATION",
-      "c": "blue"
+      "t": "GAUGE 91.3",
+      "c": "red"
     }
   ],
   "panels": [
@@ -23,31 +23,16 @@
       }
     },
     {
-      "label": "TOP MOVERS",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "VST",
-          "v": "-12.8%",
-          "c": "red"
-        },
-        {
-          "k": "CEG",
-          "v": "-11.3%",
-          "c": "red"
-        },
-        {
-          "k": "VIX",
-          "v": "+11.3%",
+          "k": "Snapback",
+          "v": "1.5/6 WATCH",
           "c": "green"
-        },
-        {
-          "k": "TLN",
-          "v": "-10.7%",
-          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 21st, 2026\n\n<b>SNAPSHOT</b>\nRisk-off accelerating as stagflation trades unwind across assets. USD strength driving broad deleveraging while oil spikes on geopolitical premium. Cross-asset dislocation emerging with crypto holding above key levels despite equity selloff.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 91.3/100 (Critical)\nRegime: STAGFLATION — financial conditions tightening as USD strengthens into rising real yields\nKey prices: SPY -1.9% | QQQ -2.2% | VIX +11.3% | TLT -1.3% | DXY +0.3% | OIL +2.2%\nICSA: 205K (improving, -0.7 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $615-635 (-5 to -2%)\nBTC: $67-72K (-5 to +2%)\nOIL: $105-115 (+7 to +17%)\n\n<b>SCENARIO B</b> — Fed Pivot Signal\nSPY: $665-685 (+3 to +6%)\nBTC: $73-78K (+3 to +10%)\nTLT: $90-95 (+5 to +11%)\n\n<b>SCENARIO C</b> — Stagflation Deepening\nDXY: $102-105 (+3 to +6%)\nGOLD: $380-400 (-8 to -3%)\nSPY: $620-640 (-4 to -1%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — strong\n2. Financials (XLF +0.2%) — bid\n3. Biotech (XBI -0.7%) — weak\n4. Healthcare (XLV -1.2%) — rotating\n5. Technology (XLK -1.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nVST $146 (-12.8%) — dividend adjustment ahead of ex-date\nCEG $281 (-11.3%) — rate hike probability now exceeds cuts through June 2027\nVIX $26.78 (+11.3%) — risk-off acceleration as positioning unwinds\nSLV $61.52 (-10.5%) — precious metals collapse on USD strength\nSOL $90.49 (+1.6%) — crypto resilience amid institutional accumulation\n<i>Energy outperformance masking broad stagflation repricing as rate expectations flip hawkish.</i>\n\n<b>POSITIONING</b>\nBTC whales net short (-$4.9M delta) with 29.6M short vs 24.7M long positions, max leverage 40x signaling institutional hedging.\nBTC ETF flows: +$145.1M inflow (1-day streak) — institutional accumulation despite whale shorts suggests tactical vs strategic positioning divergence.\n\n<b>IMPLICATION</b>\nTactical fade energy rally if geopolitical premium peaks while maintaining crypto exposure as institutional flow diverges from whale positioning. Consider TLT puts if real yields continue rising into stagflation regime confirmation.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 170
+  "telegramText": "<b>MACRO RADAR</b> — Mar 22, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.3/100\n\n• BTC: <b>$69,355</b>\n• ETH: <b>$2,116</b>\n• SOL: <b>$88.66</b>\n• GOLD: <b>$4,501</b>\nSPY: <b>$648.57</b> (-1.9%)\nQQQ: <b>$582.06</b> (-2.2%)\nVIX: <b>26.8</b> (+11.3%)\nTLT: <b>$85.83</b> (-1.3%)\nDXY: <b>99.5</b> (-0.1%)\nOIL: <b>$98.23</b> (-0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18T</b> (YoY -3.32%)\n   US M2: $22.44T (YoY +4.29%)\n🟢 HY Credit Spreads: <b>327bps</b> CALM (5d: +10bps)\n\n<b>NOTABLE Z-SCORES</b>\n🟢 Gold: -2.87σ\n🟢 2s10s Curve: -2.64σ\n🟢 Silver: -2.54σ\n🔴 DTWEXBGS: +2.21σ\n🔴 2Y Treasury: +1.76σ\n\n<b>TOP MOVERS</b>\n🟢 VIX $26.78 (+11.3%)\n🔴 SLV $61.52 (-10.5%)\n🔴 GLD $413 (-7.1%)\n🔴 MOH $139 (-6.2%)\n🔴 BRENT $106 (-5.2%)\n🔴 PENDLE $1.21 (-4.0%)\n🔴 INJ $3.03 (-2.9%)\n🔴 MORPHO $1.73 (-2.8%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.5518 (&gt;110)\n🟡 Gold: $4501 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 173
 }
