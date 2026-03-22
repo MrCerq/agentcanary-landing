@@ -1477,9 +1477,12 @@ async function main() {
   const aggStats = computeAggregateStats(allPredictions);
   console.log(`  Aggregate: ${aggStats.scored} scored, ${aggStats.hitRate}% hit rate, ${aggStats.pending} pending\n`);
 
-  // 3. Generate daily pages (with Qwen summaries)
+  // 3. Generate daily pages
+  // Only rebuild today + any day whose brief count changed. Skip old unchanged days.
   console.log('  Building daily pages...');
   const summaryCache = loadSummaryCache();
+  const today = new Date().toISOString().slice(0, 10);
+  
   for (let i = 0; i < sortedDates.length; i++) {
     const dateStr = sortedDates[i];
     const prevDate = i > 0 ? sortedDates[i - 1] : null;
@@ -1487,10 +1490,20 @@ async function main() {
     const dayBriefs = dateMap[dateStr];
     const dayPreds = predsByDate[dateStr] || [];
     const { yyyy, mm, dd } = dateParts(dateStr);
-    
-    // Generate AI summary — use cache for unchanged days
-    let summary = '';
     const cacheKey = `${dateStr}:${dayBriefs.length}`;
+    const pageFile = path.join(ROOT, 'record', yyyy, mm, dd, 'index.html');
+    
+    // Skip old days that already have a page AND same brief count in cache
+    const isToday = dateStr === today;
+    const pageExists = !DRY && fs.existsSync(pageFile);
+    const briefCountUnchanged = !!summaryCache[cacheKey];
+    
+    if (!isToday && pageExists && briefCountUnchanged) {
+      continue; // Skip — nothing changed for this day
+    }
+    
+    // Generate AI summary — use cache if available
+    let summary = '';
     if (summaryCache[cacheKey]) {
       summary = summaryCache[cacheKey];
       console.log(`    ⚡ Cached summary for ${dateStr} (${summary.length} chars)`);
