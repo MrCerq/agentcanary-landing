@@ -72,6 +72,21 @@ function fetch(url) {
   });
 }
 
+// ─── Summary Cache ───────────────────────────────────────────────
+// Cache summaries so we don't re-call Ollama for days that haven't changed.
+// Key: "dateStr:briefCount" → summary text
+const SUMMARY_CACHE_PATH = path.join(ROOT, 'record', 'data', 'summary-cache.json');
+
+function loadSummaryCache() {
+  try { return JSON.parse(fs.readFileSync(SUMMARY_CACHE_PATH, 'utf-8')); } catch { return {}; }
+}
+
+function saveSummaryCache(cache) {
+  if (DRY) return;
+  ensureDir(path.dirname(SUMMARY_CACHE_PATH));
+  fs.writeFileSync(SUMMARY_CACHE_PATH, JSON.stringify(cache, null, 2), 'utf-8');
+}
+
 // ─── Ollama (Local Qwen) Summary Generator ──────────────────────
 
 const OLLAMA_URL = 'http://localhost:11434/api/generate';
@@ -1464,6 +1479,7 @@ async function main() {
 
   // 3. Generate daily pages (with Qwen summaries)
   console.log('  Building daily pages...');
+  const summaryCache = loadSummaryCache();
   for (let i = 0; i < sortedDates.length; i++) {
     const dateStr = sortedDates[i];
     const prevDate = i > 0 ? sortedDates[i - 1] : null;
@@ -1472,18 +1488,28 @@ async function main() {
     const dayPreds = predsByDate[dateStr] || [];
     const { yyyy, mm, dd } = dateParts(dateStr);
     
-    // Generate AI summary via local Qwen (fails silently if Ollama is down)
+    // Generate AI summary — use cache for unchanged days
     let summary = '';
-    if (!DRY) {
+    const cacheKey = `${dateStr}:${dayBriefs.length}`;
+    if (summaryCache[cacheKey]) {
+      summary = summaryCache[cacheKey];
+      console.log(`    ⚡ Cached summary for ${dateStr} (${summary.length} chars)`);
+    } else if (!DRY) {
       try {
         summary = await generateDailySummary(dayBriefs, dateStr);
-        if (summary) console.log(`    ✓ Summary for ${dateStr} (${summary.length} chars)`);
+        if (summary) {
+          summaryCache[cacheKey] = summary;
+          console.log(`    ✓ Summary for ${dateStr} (${summary.length} chars)`);
+        }
       } catch { /* page builds without summary */ }
     }
     
     const html = buildDailyPage(dateStr, dayBriefs, prevDate, nextDate, summary, dayPreds);
     writeFile(path.join(ROOT, 'record', yyyy, mm, dd, 'index.html'), html);
   }
+
+  // Save summary cache
+  saveSummaryCache(summaryCache);
 
   // 4. Archive page (serves as both /record/ and /record/archive/)
   console.log('\n  Building archive page...');
