@@ -72,19 +72,26 @@ function fetch(url) {
   });
 }
 
-// ─── Summary Cache ───────────────────────────────────────────────
-// Cache summaries so we don't re-call Ollama for days that haven't changed.
-// Key: "dateStr:briefCount" → summary text
-const SUMMARY_CACHE_PATH = path.join(ROOT, 'record', 'data', 'summary-cache.json');
+// ─── Build State Cache ──────────────────────────────────────────
+// Two caches:
+// 1. summaryCache: "dateStr:briefCount" → summary text (LLM output)
+// 2. buildState: "dateStr" → briefCount (tracks what's been built)
+// Separated so Ollama failures don't force full rebuilds.
+const CACHE_DIR = path.join(ROOT, 'record', 'data');
+const SUMMARY_CACHE_PATH = path.join(CACHE_DIR, 'summary-cache.json');
+const BUILD_STATE_PATH = path.join(CACHE_DIR, 'build-state.json');
 
-function loadSummaryCache() {
-  try { return JSON.parse(fs.readFileSync(SUMMARY_CACHE_PATH, 'utf-8')); } catch { return {}; }
+function loadJSON(p) {
+  try { return JSON.parse(fs.readFileSync(p, 'utf-8')); } catch { return {}; }
 }
 
-function saveSummaryCache(cache) {
+function saveJSON(p, data) {
   if (DRY) return;
-  ensureDir(path.dirname(SUMMARY_CACHE_PATH));
-  fs.writeFileSync(SUMMARY_CACHE_PATH, JSON.stringify(cache, null, 2), 'utf-8');
+  ensureDir(path.dirname(p));
+  // Atomic write: write to tmp, then rename
+  const tmp = p + '.tmp';
+  fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf-8');
+  fs.renameSync(tmp, p);
 }
 
 // ─── Ollama (Local Qwen) Summary Generator ──────────────────────
@@ -1480,8 +1487,11 @@ async function main() {
   // 3. Generate daily pages
   // Only rebuild today + any day whose brief count changed. Skip old unchanged days.
   console.log('  Building daily pages...');
-  const summaryCache = loadSummaryCache();
+  const summaryCache = loadJSON(SUMMARY_CACHE_PATH);
+  const buildState = loadJSON(BUILD_STATE_PATH);
   const today = new Date().toISOString().slice(0, 10);
+  let pagesBuilt = 0;
+  let pagesSkipped = 0;
   
   for (let i = 0; i < sortedDates.length; i++) {
     const dateStr = sortedDates[i];
@@ -1493,13 +1503,14 @@ async function main() {
     const cacheKey = `${dateStr}:${dayBriefs.length}`;
     const pageFile = path.join(ROOT, 'record', yyyy, mm, dd, 'index.html');
     
-    // Skip old days that already have a page AND same brief count in cache
+    // Skip old days where brief count hasn't changed and page exists
     const isToday = dateStr === today;
     const pageExists = !DRY && fs.existsSync(pageFile);
-    const briefCountUnchanged = !!summaryCache[cacheKey];
+    const briefCountUnchanged = buildState[dateStr] === dayBriefs.length;
     
     if (!isToday && pageExists && briefCountUnchanged) {
-      continue; // Skip — nothing changed for this day
+      pagesSkipped++;
+      continue;
     }
     
     // Generate AI summary — use cache if available
@@ -1514,15 +1525,22 @@ async function main() {
           summaryCache[cacheKey] = summary;
           console.log(`    ✓ Summary for ${dateStr} (${summary.length} chars)`);
         }
-      } catch { /* page builds without summary */ }
+      } catch { /* page builds without summary — that's OK */ }
     }
     
     const html = buildDailyPage(dateStr, dayBriefs, prevDate, nextDate, summary, dayPreds);
     writeFile(path.join(ROOT, 'record', yyyy, mm, dd, 'index.html'), html);
+    
+    // Track build state regardless of summary success
+    buildState[dateStr] = dayBriefs.length;
+    pagesBuilt++;
   }
 
-  // Save summary cache
-  saveSummaryCache(summaryCache);
+  if (pagesSkipped > 0) console.log(`    ⏭ Skipped ${pagesSkipped} unchanged days`);
+  
+  // Save caches (atomic writes)
+  saveJSON(SUMMARY_CACHE_PATH, summaryCache);
+  saveJSON(BUILD_STATE_PATH, buildState);
 
   // 4. Archive page (serves as both /record/ and /record/archive/)
   console.log('\n  Building archive page...');
