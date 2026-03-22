@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-22-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/22#intelligence",
+      "title": "Signal Scan — Mar 22, 2026",
+      "content_text": "SIGNAL SCAN — Mar 22, 2026 Risk 91.3/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 22, 2026",
+      "date_published": "2026-03-22T10:15:19.534Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-03-22-morning",
       "url": "https://agentcanary.ai/record/2026/03/22#morning",
       "title": "Morning Brief — Mar 22, 2026",
@@ -752,21 +767,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-09-evening",
-      "url": "https://agentcanary.ai/record/2026/03/09#evening",
-      "title": "Evening Wrap — Mar 9, 2026",
-      "content_text": "Markets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuri… MARKET WRAP — Mar 9, 2026\n\nMarkets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuring equities while gold held near highs on safe-haven demand. The regime s",
-      "summary": "Markets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuri…",
-      "date_published": "2026-03-09T22:15:05.439Z",
-      "tags": [
-        "mixed",
-        "-seasonally-adjust"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

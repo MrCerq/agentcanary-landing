@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-22",
-  "time": "04:15 UTC",
-  "headline": "🔴 Risk-Off · Neutral · Gauge 91.3/100",
-  "headlineColor": "#F87171",
-  "desc": "STAGFLATION. F&G: —. WATCH.",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 22, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 91.3/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
+      "t": "HIGH",
       "c": "red"
     },
     {
-      "t": "GAUGE 91.3",
-      "c": "red"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1.5/6 WATCH",
+          "k": "VIX",
+          "v": "+11.3%",
           "c": "green"
+        },
+        {
+          "k": "UEC",
+          "v": "-10.6%",
+          "c": "red"
+        },
+        {
+          "k": "SLV",
+          "v": "-10.5%",
+          "c": "red"
+        },
+        {
+          "k": "NEM",
+          "v": "-10.1%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 22, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.3/100\n\n• BTC: <b>$69,355</b>\n• ETH: <b>$2,116</b>\n• SOL: <b>$88.66</b>\n• GOLD: <b>$4,501</b>\nSPY: <b>$648.57</b> (-1.9%)\nQQQ: <b>$582.06</b> (-2.2%)\nVIX: <b>26.8</b> (+11.3%)\nTLT: <b>$85.83</b> (-1.3%)\nDXY: <b>99.5</b> (-0.1%)\nOIL: <b>$98.23</b> (-0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18T</b> (YoY -3.32%)\n   US M2: $22.44T (YoY +4.29%)\n🟢 HY Credit Spreads: <b>327bps</b> CALM (5d: +10bps)\n\n<b>NOTABLE Z-SCORES</b>\n🟢 Gold: -2.87σ\n🟢 2s10s Curve: -2.64σ\n🟢 Silver: -2.54σ\n🔴 DTWEXBGS: +2.21σ\n🔴 2Y Treasury: +1.76σ\n\n<b>TOP MOVERS</b>\n🟢 VIX $26.78 (+11.3%)\n🔴 SLV $61.52 (-10.5%)\n🔴 GLD $413 (-7.1%)\n🔴 MOH $139 (-6.2%)\n🔴 BRENT $106 (-5.2%)\n🔴 PENDLE $1.21 (-4.0%)\n🔴 INJ $3.03 (-2.9%)\n🔴 MORPHO $1.73 (-2.8%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.5518 (&gt;110)\n🟡 Gold: $4501 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 173
+  "telegramText": "<b>SIGNAL SCAN</b> — March 22, 2026\n\n<b>SNAPSHOT</b>\nHard risk-off as stagflationary pressures accelerate with Trump's Iran ultimatum spiking oil concerns. Tech and growth assets crushed while energy outperforms on supply shock fears. Cross-asset divergence widening as defensive positioning overwhelms risk assets.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 91.3/100 (Critical)\nRegime: STAGFLATION — Financial conditions tightening as USD strength and HY spreads widen\nKey prices: SPY -1.9% | QQQ -2.2% | VIX +11.3% | TLT -1.3% | DXY -0.1% | OIL -0.1%\nICSA: 205K (trend UP, z-score -0.64)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Compliance\nSPY: $668-688 (+3-6%)\nBTC: $71-75K (+3-8%)\nVIX: $18-22 (-18-33%)\n\n<b>SCENARIO B</b> — Strait Closure\nSPY: $580-620 (-4-11%)\nOIL: $115-135 (+17-37%)\nVIX: $35-45 (+31-68%)\n\n<b>SCENARIO C</b> — Extended Conflict\nBTC: $72-78K (+4-13%)\nGLD: $450-480 (+9-16%)\nTLT: $92-98 (+7-14%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — strong\n2. Financials (XLF +0.2%) — bid\n3. Biotech (XBI -0.7%) — weak\n4. Healthcare (XLV -1.2%) — rotating\n5. Technology (XLK -1.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nVIX $26.78 (+11.3%) — Middle East conflict escalation driving defensive positioning\nUEC $12.09 (-10.6%) — War uncertainties weighing on uranium sector despite long-term outlook\nSLV $61.52 (-10.5%) — Industrial metals selling as stagflation fears override safe haven demand\nNEM $95.80 (-10.1%) — Gold miners paradoxically weak despite geopolitical premium\nHYPE $38.17 (-4.8%) — Crypto risk-off despite Grayscale ETF filing momentum\n<i>Traditional safe havens fracturing as stagflation regime challenges historical correlations.</i>\n\n<b>POSITIONING</b>\nBTC whales: $78M long vs $84.8M short, net bearish tilt with max 40x leverage\nETH positioning: $17.7M short only, no major longs detected\nBTC ETF outflows: -$52M net, low significance but reinforces risk-off theme\n\n<b>IMPLICATION</b>\nStagflationary shock creating tactical opportunities in energy vs tech spread and BTC as inflation hedge if geopolitical premium sustains. Consider defensive tilts with oil upside exposure unless Iran compliance materializes within 48-hour window.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 174
 }

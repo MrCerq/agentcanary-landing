@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Mar 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/22#intelligence</link>
+      <description>SIGNAL SCAN — Mar 22, 2026 — Risk 91.3/100 · 8 movers</description>
+      <pubDate>Sun, 22 Mar 2026 10:15:19 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/22#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Mar 22, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/22#morning</link>
       <description>🔴 Risk-Off · Neutral · Gauge 91.3/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
@@ -372,15 +379,6 @@ Markets entered risk-off mode as Middle East tensions sparked an oil shock above
       <description>🔴 Risk-Off · Neutral · Gauge 85/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
       <pubDate>Tue, 10 Mar 2026 04:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/10#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/09#evening</link>
-      <description>Markets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuri… — MARKET WRAP — Mar 9, 2026
-
-Markets reflected classic stagflation dynamics as Middle East tensions drove oil above $87, pressuring equities while gold held near highs on safe-haven demand. The regime s</description>
-      <pubDate>Mon, 09 Mar 2026 22:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/09#evening</guid>
     </item>
   </channel>
 </rss>
