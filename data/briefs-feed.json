@@ -1,5 +1,66 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-22",
+    "time": "16:15 UTC",
+    "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:RISK_OFF 4h:RISK_OFF",
+    "tags": [
+      {
+        "t": "RISK_OFF",
+        "c": "red"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "SIREN 4859% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$220M USDT",
+            "v": "transferred from #Ok",
+            "c": "blue"
+          },
+          {
+            "k": "$220M USDT",
+            "v": "transferred from #Ok",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — Mar 22, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$68,883</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$2,082</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$87.35</b> — 1d: RISK_OFF | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 220,000,000 USDT ($219,956,220)\n  <i>transferred from #Okex to unknown wallet</i>\n• 220,000,000 USDT ($219,979,617)\n  <i>transferred from #Okex to unknown wallet</i>\n• 220,000,000 USDT ($219,957,320)\n  <i>transferred from #Okex to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>SIREN</b>: 4629% net APR (2.2186% rate)\n  Long Bybit / Short Bitget | OI: $24.4M | Spread: 0.57%\n• <b>PIPPIN</b>: 235% net APR (0.0874% rate)\n  Long Binance / Short Bybit | OI: $14.4M | Spread: -0.18%\n• <b>LYN</b>: 154% net APR (0.0769% rate)\n  Long Binance / Short Bybit | OI: $9.1M | Spread: -0.02%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $136,569,898 | Longs: 92% | L/S: 11.2:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 178
+  },
+  {
     "session": "intelligence",
     "date": "2026-03-22",
     "time": "10:15 UTC",
@@ -1427,43 +1488,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — March 15, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime deepens with risk-off equities (-2% SPY/QQQ) while defensive utilities rally +1.7%. Real yields climbing amid USD strength creates cross-asset dislocation — precious metals crushed while crypto shows selective strength. Classic late-cycle divergence pattern.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 93.6/100 (Critical)\nRegime: STAGFLATION — real yields rising while financial conditions remain loose\nKey prices: SPY -2.1% | QQQ -2.3% | VIX +27.19 (-0.4%) | TLT -0.7% | DXY +0.1% | OIL flat\nICSA: 213K (flat trend, no labor stress)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Fed Pivot Hopes\nBTC: $76-80K (+6-11%)\nETH: $2.3-2.5K (+9-18%)\nSPY: $680-700 (+3-6%)\n\n<b>SCENARIO B</b> — Stagflation Deepens\nBTC: $64-68K (-10-5%)\nETH: $1.8-2.0K (-15-5%)\nSPY: $600-630 (-9-5%)\n\n<b>SCENARIO C</b> — Dollar Breakout\nDXY: $103-106 (+3-5%)\nGLD: $430-450 (-7-2%)\nTLT: $82-85 (-5-2%)\n\n<b>SECTOR STRENGTH</b>\n1. Utilities (XLU +1.7%) — defensive bid\n2. Energy (XLE +1.3%) — inflation hedge\n3. Materials (XLB -1.3%) — rotating out\n4. Technology (XLK -2.6%) — growth dump\n5. Semiconductors (SMH -3.4%) — tech wreck\n\n<b>BIG MOVES + DRIVERS</b>\nMNT +10.8% — crypto momentum continuation\nRENDER +7.3% — AI narrative resilience despite broader tech selloff\nSLV -6.7% — precious metals crushed on real yield spike\nEWY -6.5% — Korea exposure to China slowdown fears\nWPP -6.8% — advertising spend concerns in stagflation environment\nFET +6.1% — AI token strength bucking sector weakness\n\n<i>Defensive rotation accelerating as commodity currencies weaken while select crypto maintains bid — liquidity seeking yield-insensitive assets.</i>\n\n<b>POSITIONING</b>\nBTC whales: $52M long vs $102M short, net bearish positioning with $387K PnL suggests distribution\nETH: $41M short-heavy, -$328K PnL indicates capitulation phase\nBTC ETF flows: +$125M inflow (3-day streak) — institutional accumulation contra whale positioning\n\n<b>IMPLICATION</b>\nTactical defensive tilt warranted — utilities/energy vs growth. BTC ETF inflows against whale shorts suggests institutional accumulation opportunity on weakness. Monitor real yield ceiling around 2.8% for reversal catalyst.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 141
-  },
-  {
-    "session": "morning",
-    "date": "2026-03-15",
-    "time": "04:15 UTC",
-    "headline": "🔴 Risk-Off · Neutral · Gauge 93.6/100",
-    "headlineColor": "#F87171",
-    "desc": "STAGFLATION. F&G: —. NORMAL.",
-    "tags": [
-      {
-        "t": "Risk-Off · Neutral",
-        "c": "red"
-      },
-      {
-        "t": "GAUGE 93.6",
-        "c": "red"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 94
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "1/6 NORMAL",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — Mar 15, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n• BTC: <b>$71,357</b>\n• ETH: <b>$2,097</b>\n• SOL: <b>$87.83</b>\n• GOLD: <b>$5,023</b>\nSPY: <b>$662.29</b> (-2.1%)\nQQQ: <b>$593.72</b> (-2.3%)\nVIX: <b>27.2</b> (-0.4%)\nTLT: <b>$86.54</b> (-0.7%)\nDXY: <b>100.5</b> (+0.1%)\nOIL: <b>$98.71</b> (+0.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n[-] Global CB Liquidity: <b>$18.15T</b> (YoY -3.43%)\n   US M2: $22.44T (YoY +4.29%)\n[+] HY Credit Spreads: <b>317bps</b> CALM (5d: +17bps)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2Y Treasury: +2.92σ\n[-] WTI Crude Oil: +2.80σ\n[-] 10Y Real Rate: +2.75σ\n[-] 30Y Treasury: +2.72σ\n[-] 10Y Treasury: +2.70σ\n\n<b>TOP MOVERS</b>\n[+] MNT $0.7908 (+10.8%)\n[+] RENDER $1.92 (+7.3%)\n[-] WPP $238 (-6.8%)\n[-] SLV $72.69 (-6.7%)\n[-] EWY $124 (-6.5%)\n[+] FET $0.1914 (+6.1%)\n[-] EWZ $35.49 (-5.6%)\n[-] ILF $33.15 (-5.1%)\n\n<b>HEGEMONY SNAPBACK</b> 🟢: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n[-] USD Index: 119.491 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 140
   }
 ]

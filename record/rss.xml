@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — Mar 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/22#midday</link>
+      <description>BTC Risk-Off · 100 whale moves — BTC daily risk-off, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily risk-off, 4h risk-off</description>
+      <pubDate>Sun, 22 Mar 2026 16:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/22#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — Mar 22, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/22#intelligence</link>
       <description>SIGNAL SCAN — Mar 22, 2026 — Risk 91.3/100 · 8 movers</description>
@@ -372,13 +379,6 @@ Markets entered risk-off mode as Middle East tensions sparked an oil shock above
       <description>SIGNAL SCAN — Mar 10, 2026 — Risk 85/100 · 8 movers</description>
       <pubDate>Tue, 10 Mar 2026 10:15:20 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/10#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — Mar 10, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/10#morning</link>
-      <description>🔴 Risk-Off · Neutral · Gauge 85/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
-      <pubDate>Tue, 10 Mar 2026 04:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/10#morning</guid>
     </item>
   </channel>
 </rss>
