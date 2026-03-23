@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-23",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 23, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 91.3/100 · 7 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 91
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "VIX",
+            "v": "+12.7%",
+            "c": "green"
+          },
+          {
+            "k": "UEC",
+            "v": "-10.6%",
+            "c": "red"
+          },
+          {
+            "k": "SLV",
+            "v": "-10.5%",
+            "c": "red"
+          },
+          {
+            "k": "NEM",
+            "v": "-10.1%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — March 23, 2026\n\n<b>SNAPSHOT</b>\nRisk-off acceleration as Iran conflict escalates with explosions in Isfahan and infrastructure threats. Cross-asset liquidation led by precious metals (-7% to -10%) while energy catches haven bid. VIX spiking through 30 signals institutional hedging into geopolitical uncertainty.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 91.3/100 (Critical)\nRegime: Transitional Stagflation — geopolitical shock overriding base case inflation dynamics\nKey prices: SPY -1.9% | QQQ -2.2% | VIX +12.7% | TLT -1.3% | DXY +0.4% | OIL +0.9%\nICSA: 205K (neutral, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Conflict Escalation\nBTC: $58-62K (-10 to -15%)\nSPY: $590-620 (-4 to -9%)\nOIL: $110-125 (+11 to +26%)\n\n<b>SCENARIO B</b> — Diplomatic Cooling\nBTC: $72-78K (+5 to +14%)\nSPY: $670-690 (+3 to +6%)\nVIX: $18-22 (-27 to -40%)\n\n<b>SCENARIO C</b> — Extended Uncertainty\nBTC: $62-68K (-9 to -1%)\nTLT: $88-92 (+3 to +7%)\nGOLD: $4200-4400 (-7 to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — haven\n2. Financials (XLF +0.2%) — resilient  \n3. Healthcare (XLV -1.2%) — rotation\n4. Technology (XLK -1.9%) — dump\n5. Materials (XLB -3.1%) — liquidation\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 30.19 (+12.7%) — geopolitical hedging demand as Iran conflict intensifies\nUEC 12.09 (-10.6%) — uranium sector selloff on war uncertainty impact to nuclear supply chains\nSLV 61.52 (-10.5%) — precious metals liquidation amid dollar strength and margin calls\nNEM 95.8 (-10.1%) — gold miners crushed on hawkish Fed rhetoric during flight-to-quality failure\nMORPHO 1.66 (-1.8%) — DeFi primitive launch overshadowed by risk-off macro\n<i>Traditional haven assets failing to perform as dollar and energy capture defensive flows in stagflationary war premium.</i>\n\n<b>POSITIONING</b>\nBTC whales net short $67.9M vs $46.3M long (max 40x leverage) — institutional bearish on geopolitical shock\nMajor BTC ETF outflows -$202.2M signal institutional risk reduction\nPAXG pure short positioning $18.3M suggests even gold-backed crypto facing liquidation pressure\n\n<b>IMPLICATION</b>\nPortfolio managers should hedge equity beta through energy allocation rather than traditional safe havens, which are failing amid stagflationary dynamics. Consider tactical short duration as bonds offer no sanctuary when real yields rise alongside geopolitical risk premium.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 181
+  },
+  {
     "session": "morning",
     "date": "2026-03-23",
     "time": "04:15 UTC",
@@ -1416,53 +1469,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Mar 16, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n• BTC: <b>$73,636</b>\n• ETH: <b>$2,240</b>\n• SOL: <b>$93.27</b>\n• GOLD: <b>$5,023</b>\nSPY: <b>$662.29</b> (-2.1%)\nQQQ: <b>$593.72</b> (-2.3%)\nVIX: <b>27.2</b> (-0.4%)\nTLT: <b>$86.54</b> (-0.7%)\nDXY: <b>100.2</b> (-0.1%)\nOIL: <b>$99.46</b> (+0.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n[-] Global CB Liquidity: <b>$18.15T</b> (YoY -3.43%)\n   US M2: $22.44T (YoY +4.29%)\n[+] HY Credit Spreads: <b>317bps</b> CALM (5d: +17bps)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2Y Treasury: +2.92σ\n[-] WTI Crude Oil: +2.80σ\n[-] 10Y Real Rate: +2.75σ\n[-] 30Y Treasury: +2.72σ\n[-] 10Y Treasury: +2.70σ\n\n<b>TOP MOVERS</b>\n[+] ETH $2,240 (+6.8%) — Ethereum Users Warned as USDT Dust Attacks Jump 612%\n[+] PEPE $0.000003600 (+6.8%)\n[-] WPP $238 (-6.8%)\n[-] SLV $72.69 (-6.7%)\n[-] EWY $124 (-6.5%)\n[+] AAVE $118 (+6.4%)\n[-] EWZ $35.49 (-5.6%)\n[-] ILF $33.15 (-5.1%)\n\n<b>HEGEMONY SNAPBACK</b> 🟢: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n[-] USD Index: 119.491 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 147
-  },
-  {
-    "session": "evening",
-    "date": "2026-03-15",
-    "time": "22:15 UTC",
-    "headline": "0 bullish / 0 bearish signals.",
-    "headlineColor": "#A78BFA",
-    "desc": "MARKET WRAP — Mar 15, 2026\n\nMarkets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressuring equities with SPY down to 662. The dollar's strength above 100 weighed",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "EU Markit Manufact",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 94
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "EU Markit Manufacturing",
-            "v": "Mar 24",
-            "c": "blue"
-          },
-          {
-            "k": " National Consumer Pr",
-            "v": "Mar 23",
-            "c": "blue"
-          },
-          {
-            "k": "US New home sales (AAMR",
-            "v": "Mar 19",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Mar 15, 2026\n\n<i>Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressuring equities with SPY down to 662. The dollar's strength above 100 weighed on risk assets, though crypto showed relative resilience with Bitcoin holding above $71K. Flight-to-quality flows lifted bonds as growth fears intensified.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$71,845</b> · ETH: <b>$2,132</b> · SOL: <b>$90.32</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (-0.4%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.39</b> (+0.0%) · OIL: <b>$98.71</b> (+0.0%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +2.5% · XLU (Utilities) +0.2% · XLC (Communication) -2.6%\n▼ COPX (Copper Miners) -7.1% · XLB (Materials) -1.6% · XLI (Industrials) -3.7%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH\n🟡 AI / Tech (intensity 61) — NVDA, MSFT, GOOGL\n🟡 Defense / Geopolitics (intensity 48) — ITA, LMT, RTX\n🟡 Oil / Energy (intensity 41) — XLE, USO, OXY\n\n<b>EVENING NEWS</b>\n🟢 Bitcoin Whale Activity Hits Six-Year High as Retail Participation Stays Near Cycle Lows\n🟢 Ethereum Users Warned as USDT Dust Attacks Jump 612%\n🟢 Bitcoin Outperforms S&amp;P 500, Indicating Possible Shift Toward Digital Gold\n🟢 India hails talks with Iran to open Strait of Hormuz\n🔴 RBA to Deliver Back-to-Back Hikes as Iran War Refuels Inflation\n🟢 Bitcoin ETF Inflows Stay Strong as Whales Accumulate During Market Dips\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n GDP(YoY)(Q4) — Mar 19, 12:03 PM UTC (prev: 2.1%)\n Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)\nUS Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 146
   }
 ]

@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-23",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 23, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 91.3/100 · 7 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 91
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "VIX",
+            "v": "+12.7%",
+            "c": "green"
+          },
+          {
+            "k": "UEC",
+            "v": "-10.6%",
+            "c": "red"
+          },
+          {
+            "k": "SLV",
+            "v": "-10.5%",
+            "c": "red"
+          },
+          {
+            "k": "NEM",
+            "v": "-10.1%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 181,
+    "telegramText": "<b>SIGNAL SCAN</b> — March 23, 2026\n\n<b>SNAPSHOT</b>\nRisk-off acceleration as Iran conflict escalates with explosions in Isfahan and infrastructure threats. Cross-asset liquidation led by precious metals (-7% to -10%) while energy catches haven bid. VIX spiking through 30 signals institutional hedging into geopolitical uncertainty.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 91.3/100 (Critical)\nRegime: Transitional Stagflation — geopolitical shock overriding base case inflation dynamics\nKey prices: SPY -1.9% | QQQ -2.2% | VIX +12.7% | TLT -1.3% | DXY +0.4% | OIL +0.9%\nICSA: 205K (neutral, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Conflict Escalation\nBTC: $58-62K (-10 to -15%)\nSPY: $590-620 (-4 to -9%)\nOIL: $110-125 (+11 to +26%)\n\n<b>SCENARIO B</b> — Diplomatic Cooling\nBTC: $72-78K (+5 to +14%)\nSPY: $670-690 (+3 to +6%)\nVIX: $18-22 (-27 to -40%)\n\n<b>SCENARIO C</b> — Extended Uncertainty\nBTC: $62-68K (-9 to -1%)\nTLT: $88-92 (+3 to +7%)\nGOLD: $4200-4400 (-7 to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — haven\n2. Financials (XLF +0.2%) — resilient  \n3. Healthcare (XLV -1.2%) — rotation\n4. Technology (XLK -1.9%) — dump\n5. Materials (XLB -3.1%) — liquidation\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 30.19 (+12.7%) — geopolitical hedging demand as Iran conflict intensifies\nUEC 12.09 (-10.6%) — uranium sector selloff on war uncertainty impact to nuclear supply chains\nSLV 61.52 (-10.5%) — precious metals liquidation amid dollar strength and margin calls\nNEM 95.8 (-10.1%) — gold miners crushed on hawkish Fed rhetoric during flight-to-quality failure\nMORPHO 1.66 (-1.8%) — DeFi primitive launch overshadowed by risk-off macro\n<i>Traditional haven assets failing to perform as dollar and energy capture defensive flows in stagflationary war premium.</i>\n\n<b>POSITIONING</b>\nBTC whales net short $67.9M vs $46.3M long (max 40x leverage) — institutional bearish on geopolitical shock\nMajor BTC ETF outflows -$202.2M signal institutional risk reduction\nPAXG pure short positioning $18.3M suggests even gold-backed crypto facing liquidation pressure\n\n<b>IMPLICATION</b>\nPortfolio managers should hedge equity beta through energy allocation rather than traditional safe havens, which are failing amid stagflationary dynamics. Consider tactical short duration as bonds offer no sanctuary when real yields rise alongside geopolitical risk premium.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-03-23",
     "time": "04:15 UTC",

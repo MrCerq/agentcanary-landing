@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Mar 23, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/23#intelligence</link>
+      <description>SIGNAL SCAN — Mar 23, 2026 — Risk 91.3/100 · 7 movers</description>
+      <pubDate>Mon, 23 Mar 2026 10:15:21 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/23#intelligence</guid>
+    </item>
+    <item>
       <title>Cycle Check — Mar 23, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/23#cycle</link>
       <description>Cycle: EXPANSION · Metric 859,437 ↓ — Credit stress: low. · IGV $82.99 (down). · Initial claims 205K. (-11.6% week-over-week)</description>
@@ -372,13 +379,6 @@ Markets retreated across risk assets as stagflation concerns intensified, with t
       <description>SIGNAL SCAN — Mar 11, 2026 — Risk 85/100 · 8 movers</description>
       <pubDate>Wed, 11 Mar 2026 10:15:19 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/11#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — Mar 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/11#morning</link>
-      <description>🔴 Risk-Off · Neutral · Gauge 85/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
-      <pubDate>Wed, 11 Mar 2026 04:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/11#morning</guid>
     </item>
   </channel>
 </rss>
