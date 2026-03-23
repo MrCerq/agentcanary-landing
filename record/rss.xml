@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — Mar 23, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/23#midday</link>
+      <description>BTC Bearish · 100 whale moves — BTC daily bearish, 4h bullish · ETH daily bearish, 4h bullish · SOL daily bearish, 4h bullish</description>
+      <pubDate>Mon, 23 Mar 2026 16:15:02 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/23#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — Mar 23, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/23#intelligence</link>
       <description>SIGNAL SCAN — Mar 23, 2026 — Risk 91.3/100 · 7 movers</description>
@@ -372,13 +379,6 @@ Markets retreated across risk assets as stagflation concerns intensified, with t
       <description>BTC Ignition · 100 whale moves — BTC daily ignition, 4h ignition · ETH daily ignition, 4h ignition · SOL daily accumulation, 4h accumulation</description>
       <pubDate>Wed, 11 Mar 2026 16:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/11#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/11#intelligence</link>
-      <description>SIGNAL SCAN — Mar 11, 2026 — Risk 85/100 · 8 movers</description>
-      <pubDate>Wed, 11 Mar 2026 10:15:19 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/11#intelligence</guid>
     </item>
   </channel>
 </rss>

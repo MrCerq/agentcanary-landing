@@ -15,6 +15,22 @@
   ],
   "items": [
     {
+      "id": "2026-03-23-midday",
+      "url": "https://agentcanary.ai/record/2026/03/23#midday",
+      "title": "Market Pulse — Mar 23, 2026",
+      "content_text": "BTC Bearish · 100 whale moves BTC daily bearish, 4h bullish · ETH daily bearish, 4h bullish · SOL daily bearish, 4h bullish",
+      "summary": "BTC Bearish · 100 whale moves",
+      "date_published": "2026-03-23T16:15:02.088Z",
+      "tags": [
+        "bear_regime",
+        "whale-alert",
+        "a2z-1698%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-03-23-intelligence",
       "url": "https://agentcanary.ai/record/2026/03/23#intelligence",
       "title": "Signal Scan — Mar 23, 2026",
@@ -753,21 +769,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-11-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/11#intelligence",
-      "title": "Signal Scan — Mar 11, 2026",
-      "content_text": "SIGNAL SCAN — Mar 11, 2026 Risk 85/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 11, 2026",
-      "date_published": "2026-03-11T10:15:19.575Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
