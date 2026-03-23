@@ -1,5 +1,91 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-23",
+    "time": "04:15 UTC",
+    "headline": "🔴 Risk-Off · Neutral · Gauge 91.3/100",
+    "headlineColor": "#F87171",
+    "desc": "STAGFLATION. F&G: —. WATCH.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 91.3",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 91
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1.5/6 WATCH",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 180,
+    "telegramText": "<b>MACRO RADAR</b> — Mar 23, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.3/100\n\n• BTC: <b>$68,069</b>\n• ETH: <b>$2,052</b>\n• SOL: <b>$86.42</b>\n• GOLD: <b>$4,501</b>\nSPY: <b>$648.57</b> (-1.9%)\nQQQ: <b>$582.06</b> (-2.2%)\nVIX: <b>26.8</b> (+11.3%)\nTLT: <b>$85.83</b> (-1.3%)\nDXY: <b>99.7</b> (+0.0%)\nOIL: <b>$99.19</b> (+1.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18T</b> (YoY -3.32%)\n   US M2: $22.44T (YoY +4.29%)\n🟢 HY Credit Spreads: <b>327bps</b> CALM (5d: +10bps)\n\n<b>NOTABLE Z-SCORES</b>\n🟢 Gold: -2.87σ\n🟢 2s10s Curve: -2.64σ\n🟢 Silver: -2.54σ\n🔴 DTWEXBGS: +2.21σ\n🔴 2Y Treasury: +1.76σ\n\n<b>TOP MOVERS</b>\n🟢 VIX $26.78 (+11.3%)\n🔴 SLV $61.52 (-10.5%)\n🔴 GLD $413 (-7.1%)\n🔴 MOH $139 (-6.2%)\n🔴 EWY $126 (-4.6%)\n🟢 APT $0.9486 (+3.4%)\n🔴 MORPHO $1.66 (-1.8%)\n🟢 SHIB $0.000005810 (+1.6%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.5518 (&gt;110)\n🟡 Gold: $4501 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
+    "session": "evening",
+    "date": "2026-03-22",
+    "time": "22:15 UTC",
+    "headline": "0 bullish / 0 bearish signals.",
+    "headlineColor": "#A78BFA",
+    "desc": "MARKET WRAP — Mar 22, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with equities declining while oil surged to $98.23 and gold hit $4,501.",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "US ISM Manufacturi",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 91
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US ISM Manufacturing Pu",
+            "v": "Apr 1",
+            "c": "blue"
+          },
+          {
+            "k": "US Change in ADP employ",
+            "v": "Apr 1",
+            "c": "blue"
+          },
+          {
+            "k": "EU Unemployment Rate(Fe",
+            "v": "Apr 1",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 179,
+    "telegramText": "<b>MARKET WRAP</b> — Mar 22, 2026\n\n<i>Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with equities declining while oil surged to $98.23 and gold hit $4,501. The dollar's strength near 99.65 and Treasury weakness in TLT suggest investors are positioning for persistent inflation with limited Fed easing capacity.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$68,304</b> · ETH: <b>$2,066</b> · SOL: <b>$87</b> · GOLD: <b>$4,501</b> · SPY: <b>$648.57</b> (-1.9%) · QQQ: <b>$582.06</b> (-2.2%) · VIX: <b>$26.78</b> (+11.3%) · TLT: <b>$85.83</b> (-1.3%) · DXY: <b>$99.65</b> (+0.0%) · OIL: <b>$98.23</b> (-0.1%)\n\n<b>SECTOR CLOSE</b>\n🟢 XLE (Energy) +2.4% · XLK (Technology) -2.5% · XBI (Biotech) -2.9%\n🔴 COPX (Copper Miners) -12.2% · URA (Uranium) -7.0% · XLB (Materials) -4.9%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 66) — BTC, ETH\n\n<b>EVENING NEWS</b>\n🟢 Strategy Surpasses 761K BTC as Michael Saylor Hints at More Buying Momentum\n🔴 Ethereum Whales Face Losses as Unrealized Profit Ratio Hits Critical Levels\n🟢 Traders Brace for Turbulent Open as War Rages On\n🟢 Analyst Predicts Crypto Market Cap Could Hit $100T by 2030\n🟢 Binance Coin (BNB) Dethrones XRP to Become 4th Most Valuable Cryptocurrency\n🔴 Bitcoin Records Second-Largest Difficulty Drop of 2026 as Hash Rate Remains Below 1 ZH/s\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.3/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS ISM Manufacturing Purchasing Managers Index(Mar) — Apr 1, 02:00 PM UTC (prev: 52.4)\nUS Change in ADP employment (thousands)(Mar) — Apr 1, 12:15 PM UTC (prev: 63.0)\nEU Unemployment Rate(Feb) — Apr 1, 09:00 AM UTC (prev: 6.1%)\nEU Markit Manufacturing Purchasing Managers Index (Final)(Mar) — Apr 1, 08:00 AM UTC\nUS Conference Board Consumer Confidence Index(Mar) — Mar 31, 02:00 PM UTC (prev: 91.2)\nEU Consumer Price Index (MoM)(Preliminary)(Mar) — Mar 31, 09:00 AM UTC (prev: 0.6%)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-03-22",
     "time": "16:15 UTC",
