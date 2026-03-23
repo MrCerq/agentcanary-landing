@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-23-evening",
+      "url": "https://agentcanary.ai/record/2026/03/23#evening",
+      "title": "Evening Wrap — Mar 23, 2026",
+      "content_text": "Markets retreated into defensive positioning as stagflation concerns intensified, with the VIX climb… MARKET WRAP — Mar 23, 2026\n\nMarkets retreated into defensive positioning as stagflation concerns intensified, with the VIX climbing to 26.15 while bonds failed to provide refuge despite falling yields",
+      "summary": "Markets retreated into defensive positioning as stagflation concerns intensified, with the VIX climb…",
+      "date_published": "2026-03-23T22:15:05.037Z",
+      "tags": [
+        "mixed",
+        "us-trade-balance-("
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-23-midday",
       "url": "https://agentcanary.ai/record/2026/03/23#midday",
       "title": "Market Pulse — Mar 23, 2026",
@@ -43,22 +58,6 @@
       ],
       "_agentcanary": {
         "session": "signal"
-      }
-    },
-    {
-      "id": "2026-03-23-cycle",
-      "url": "https://agentcanary.ai/record/2026/03/23#cycle",
-      "title": "Cycle Check — Mar 23, 2026",
-      "content_text": "Cycle: EXPANSION · Metric 859,437 ↓ Credit stress: low. · IGV $82.99 (down). · Initial claims 205K. (-11.6% week-over-week)",
-      "summary": "Cycle: EXPANSION · Metric 859,437 ↓",
-      "date_published": "2026-03-23T06:35:55.918Z",
-      "tags": [
-        "expansion",
-        "credit-low",
-        "igv-down"
-      ],
-      "_agentcanary": {
-        "session": "cycle"
       }
     },
     {
@@ -484,22 +483,6 @@
       }
     },
     {
-      "id": "2026-03-16-cycle",
-      "url": "https://agentcanary.ai/record/2026/03/16#cycle",
-      "title": "Cycle Check — Mar 16, 2026",
-      "content_text": "Cycle: EXPANSION · Metric 877,618 ↓ Credit stress: low. · IGV $84.19 (down). · Initial claims 213K. (-9.7% week-over-week)",
-      "summary": "Cycle: EXPANSION · Metric 877,618 ↓",
-      "date_published": "2026-03-16T06:35:56.977Z",
-      "tags": [
-        "expansion",
-        "credit-low",
-        "igv-down"
-      ],
-      "_agentcanary": {
-        "session": "cycle"
-      }
-    },
-    {
       "id": "2026-03-16-morning",
       "url": "https://agentcanary.ai/record/2026/03/16#morning",
       "title": "Morning Brief — Mar 16, 2026",
@@ -769,6 +752,21 @@
       ],
       "_agentcanary": {
         "session": "midday"
+      }
+    },
+    {
+      "id": "2026-03-11-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/11#intelligence",
+      "title": "Signal Scan — Mar 11, 2026",
+      "content_text": "SIGNAL SCAN — Mar 11, 2026 Risk 85/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 11, 2026",
+      "date_published": "2026-03-11T10:15:19.575Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
       }
     }
   ]

@@ -1425,11 +1425,14 @@ async function main() {
     process.exit(0);
   }
 
-  // 2. Clean up briefs + group by date
-  for (const b of briefs) cleanBrief(b);
+  // 2. Clean up briefs + filter private sessions + group by date
+  const PRIVATE_SESSIONS = ['cycle']; // Private briefs — never show on public Record
+  const publicBriefs = briefs.filter(b => !PRIVATE_SESSIONS.includes(b.session));
+  console.log(`  Filtered: ${briefs.length - publicBriefs.length} private briefs removed (${PRIVATE_SESSIONS.join(', ')})`);
+  for (const b of publicBriefs) cleanBrief(b);
 
   const dateMap = {};
-  for (const b of briefs) {
+  for (const b of publicBriefs) {
     if (!b.date) continue;
     if (!dateMap[b.date]) dateMap[b.date] = [];
     dateMap[b.date].push(b);
@@ -1440,7 +1443,7 @@ async function main() {
 
   // 2b. Extract and score predictions
   console.log('  Extracting predictions...');
-  const allPredictions = extractPredictions(briefs);
+  const allPredictions = extractPredictions(publicBriefs);
   console.log(`  Found ${allPredictions.length} scenario predictions`);
 
   // Load existing predictions (preserve scores)
