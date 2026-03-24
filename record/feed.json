@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-24-midday",
+      "url": "https://agentcanary.ai/record/2026/03/24#midday",
+      "title": "Market Pulse — Mar 24, 2026",
+      "content_text": "BTC Accumulation · 100 whale moves BTC daily accumulation, 4h bearish · ETH daily risk-off, 4h risk-off · SOL daily accumulation, 4h distribution",
+      "summary": "BTC Accumulation · 100 whale moves",
+      "date_published": "2026-03-24T16:15:02.051Z",
+      "tags": [
+        "whale-alert",
+        "ont-5219%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-03-24-intelligence",
       "url": "https://agentcanary.ai/record/2026/03/24#intelligence",
       "title": "Signal Scan — Mar 24, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-11-evening",
-      "url": "https://agentcanary.ai/record/2026/03/11#evening",
-      "title": "Evening Wrap — Mar 11, 2026",
-      "content_text": "Markets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 2… MARKET WRAP — Mar 11, 2026\n\nMarkets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 24.23 while both equities and crypto sold off in tandem. The dollar's str",
-      "summary": "Markets retreated across risk assets as stagflation concerns intensified, with the VIX climbing to 2…",
-      "date_published": "2026-03-11T22:15:05.256Z",
-      "tags": [
-        "mixed",
-        "us-new-home-sales-"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
