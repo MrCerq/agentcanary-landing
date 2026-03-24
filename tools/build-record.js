@@ -1506,12 +1506,15 @@ async function main() {
     const cacheKey = `${dateStr}:${dayBriefs.length}`;
     const pageFile = path.join(ROOT, 'record', yyyy, mm, dd, 'index.html');
     
-    // Skip old days where brief count hasn't changed and page exists
+    // Skip old days where brief count AND prediction scores haven't changed
     const isToday = dateStr === today;
     const pageExists = !DRY && fs.existsSync(pageFile);
     const briefCountUnchanged = buildState[dateStr] === dayBriefs.length;
+    const scoredCount = dayPreds.filter(p => p.result && p.result !== 'pending').length;
+    const prevScoredKey = `${dateStr}:scored`;
+    const scoredUnchanged = buildState[prevScoredKey] === scoredCount;
     
-    if (!isToday && pageExists && briefCountUnchanged) {
+    if (!isToday && pageExists && briefCountUnchanged && scoredUnchanged) {
       pagesSkipped++;
       continue;
     }
@@ -1536,6 +1539,7 @@ async function main() {
     
     // Track build state regardless of summary success
     buildState[dateStr] = dayBriefs.length;
+    buildState[`${dateStr}:scored`] = scoredCount;
     pagesBuilt++;
   }
 
