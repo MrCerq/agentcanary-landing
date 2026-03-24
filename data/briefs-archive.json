@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-24",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 24, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 84.9/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 85
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TKMS",
+            "v": "-5.7%",
+            "c": "red"
+          },
+          {
+            "k": "GLD",
+            "v": "-5.2%",
+            "c": "red"
+          },
+          {
+            "k": "SLV",
+            "v": "-4.9%",
+            "c": "red"
+          },
+          {
+            "k": "MOH",
+            "v": "-4.9%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 185,
+    "telegramText": "<b>SIGNAL SCAN</b> — March 24, 2026\n\n<b>SNAPSHOT</b>\nRisk-off stagflation regime with commodity surge overriding growth assets. Iran war premium driving energy +2.7% while precious metals crater -5% on real yield spike. Cross-asset dislocation as geopolitical risks reprice asymmetrically.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 84.9/100 (High)\nRegime: STAGFLATION — Real yields rising amid liquidity expansion creates growth/inflation tension\nKey prices: SPY -0.7%, QQQ -0.8%, VIX +0.5%, TLT -1.3%, DXY +0.4%, OIL +2.7%\nICSA: 205K (trend UP, -0.64 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Settlement Rally\nSPY: $680-$700 (+4-7%)\nOil: $75-$82 (-15-9%)\nBTC: $75K-$78K (+5-9%)\n\n<b>SCENARIO B</b> — Stagflation Deepens\nTLT: $80-$83 (-7-4%)\nOil: $95-$105 (+5-16%)\nGold: $380-$400 (-6-1%)\n\n<b>SCENARIO C</b> — Growth Shock\nSPY: $590-$620 (-10-5%)\nVIX: $35-$45 (+33-71%)\nDXY: $102-$105 (+3-6%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+1.6%) — strong\n2. XLF (+0.6%) — rotating\n3. XLE (+0.5%) — bid\n4. XLU (-3.8%) — dump\n5. XLRE (-3.1%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nGLD $404 (-5.2%) — Real yields spiking as stagflation shifts from inflation hedge to growth drag narrative\nWTI $92 (+4.1%) — Iran war premium persists despite Trump settlement signals\nTKMS €81 (-5.7%) — German defense contractor ROE concerns amid budget uncertainty\nMOH $135 (-4.9%) — Healthcare pressured by Iran Parliament speaker denying US negotiations\nTON $1.34 (+2.3%) — Telegram profitability milestone and successful bond refinancing\n<i>Energy/precious metals divergence highlights regime uncertainty as markets price selective war premium while real rates destroy traditional hedges.</i>\n\n<b>POSITIONING</b>\nWhale flow: BTC longs $67M vs $38M shorts (net bullish); ETH shorts $14M (bearish)\nBTC ETF: -$106M outflow (high significance) — institutional rotation continues\nCrypto positioning mixed: SOL longs $14M, HYPE shorts $14M suggest alt rotation\n\n<b>IMPLICATION</b>\nTactical fade of precious metals weakness if Iran settlement materializes — real yield spike overdone relative to geopolitical resolution probability. Energy longs vulnerable to headline reversal but maintain structural bid until supply normalization.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-03-24",
     "time": "04:15 UTC",
