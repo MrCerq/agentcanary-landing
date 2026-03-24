@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-24-evening",
+      "url": "https://agentcanary.ai/record/2026/03/24#evening",
+      "title": "Evening Wrap — Mar 24, 2026",
+      "content_text": "Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, sign… MARKET WRAP — Mar 24, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, signaling investor flight to hard assets amid persistent inflation concerns.",
+      "summary": "Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, sign…",
+      "date_published": "2026-03-24T22:15:06.225Z",
+      "tags": [
+        "mixed",
+        "us-unemployment-ra"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-24-midday",
       "url": "https://agentcanary.ai/record/2026/03/24#midday",
       "title": "Market Pulse — Mar 24, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "signal"
-      }
-    },
-    {
-      "id": "2026-03-12-morning",
-      "url": "https://agentcanary.ai/record/2026/03/12#morning",
-      "title": "Morning Brief — Mar 12, 2026",
-      "content_text": "🟡 Neutral · Neutral · Gauge 78/100 Stagflation regime · Fear & Greed: neutral · WATCH",
-      "summary": "🟡 Neutral · Neutral · Gauge 78/100",
-      "date_published": "2026-03-12T04:15:04.031Z",
-      "tags": [
-        "neutral-·-neutral",
-        "gauge-78"
-      ],
-      "_agentcanary": {
-        "session": "morning"
       }
     }
   ]

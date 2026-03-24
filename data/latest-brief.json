@@ -1,57 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-03-24",
-  "time": "16:15 UTC",
-  "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:ACCUMULATION 4h:BEAR_REGIME · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
+  "time": "22:15 UTC",
+  "headline": "0 bullish / 0 bearish signals.",
+  "headlineColor": "#A78BFA",
+  "desc": "MARKET WRAP — Mar 24, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, signaling investor flight to hard assets amid persistent inflation concerns.",
   "tags": [
     {
-      "t": "WHALE ALERT",
-      "c": "blue"
+      "t": "MIXED",
+      "c": "yellow"
     },
     {
-      "t": "ONT 5219% APR",
-      "c": "green"
+      "t": "US Unemployment Ra",
+      "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "ACCUMULATION",
-          "c": "green"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "RISK_OFF",
-          "c": "red"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "ACCUMULATION",
-          "c": "green"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 85
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$63M BTC",
-          "v": "transferred from unk",
+          "k": "US Unemployment Rate(Ma",
+          "v": "Apr 3",
           "c": "blue"
         },
         {
-          "k": "$114M SOL",
-          "v": "transferred from  to",
+          "k": "US Seasonally adjusted ",
+          "v": "Apr 3",
+          "c": "blue"
+        },
+        {
+          "k": " Caixin Services Purc",
+          "v": "Apr 3",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Mar 24, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$69,878</b> — 1d: ACCUMULATION | 4h: BEAR_REGIME\n• ETH: <b>$2,137</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$89.75</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 900 BTC ($63,115,624)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 1,250,000 SOL ($114,246,056)\n  <i>transferred from  to </i>\n• 1,056 BTC ($75,078,640)\n  <i>transferred from #Kraken to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ONT</b>: 4861% net APR (0.5958% rate)\n  Long Bybit / Short Binance | OI: $8.4M | Spread: 0.92%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $45,162,598 | Longs: 60% | L/S: 1.5:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 186
+  "telegramText": "<b>MARKET WRAP</b> — Mar 24, 2026\n\n<i>Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, signaling investor flight to hard assets amid persistent inflation concerns. The dollar's strength near 99 weighed on risk assets, with tech lagging as QQQ underperformed SPY in a classic rotation away from growth. Crypto held up relatively well, suggesting digital assets may be finding a floor as an alternative store of value.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,260</b> · ETH: <b>$2,146</b> · SOL: <b>$90.28</b> · GOLD: <b>$4,403</b> · SPY: <b>$653.18</b> (+0.7%) · QQQ: <b>$583.98</b> (+0.3%) · VIX: <b>$26.95</b> (+3.1%) · TLT: <b>$86.01</b> (+0.2%) · DXY: <b>$99.18</b> (+0.2%) · OIL: <b>$88.61</b> (+0.5%)\n\n<b>SECTOR CLOSE</b>\n🟢 XLE (Energy) +1.9% · XLK (Technology) -1.9% · XLF (Financials) -0.6%\n🔴 COPX (Copper Miners) -5.6% · URA (Uranium) -4.7% · XLB (Materials) -4.0%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 40) — BTC, ETH\n\n<b>EVENING NEWS</b>\n🔴 Victory Capital Withdraws Bid for Janus Henderson\n🟢 Dollar Advances on Reports the US to Deploy Troops to the Middle East\n🔴 Robinhood reloads stock repurchase plan to $1.5 billion as shares continue in downtrend\n🟢 Iran Rejects Peace Talk Claims, Leaving Bitcoin Stuck At $70K\n🟢 Australian Pension Giant Eyes Bitcoin Access For 2.2 Million Members\n🟡 Erdene Announces 2025 Results - Provides Bayan Khundii Gold Mine and Exploration Update\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 84.9/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\nUS Trade Balance (billion USD)(Feb) — Apr 2, 12:30 PM UTC (prev: -54.5)\nUS ISM Manufacturing Purchasing Managers Index(Mar) — Apr 1, 02:00 PM UTC (prev: 52.4)\nUS Change in ADP employment (thousands)(Mar) — Apr 1, 12:15 PM UTC (prev: 63.0)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 187
 }
