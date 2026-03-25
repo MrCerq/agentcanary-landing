@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-25",
-  "time": "04:15 UTC",
-  "headline": "🔴 Risk-Off · Neutral · Gauge 84.9/100",
-  "headlineColor": "#F87171",
-  "desc": "STAGFLATION. F&G: —. WATCH.",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 25, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 84.9/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
+      "t": "HIGH",
       "c": "red"
     },
     {
-      "t": "GAUGE 84.9",
-      "c": "red"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1.5/6 WATCH",
+          "k": "UEC",
+          "v": "+9.1%",
+          "c": "green"
+        },
+        {
+          "k": "KTOS",
+          "v": "-8.4%",
+          "c": "red"
+        },
+        {
+          "k": "FCX",
+          "v": "+8.4%",
+          "c": "green"
+        },
+        {
+          "k": "TECK",
+          "v": "+7.1%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 25, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 84.9/100\n\n• BTC: <b>$70,821</b>\n• ETH: <b>$2,162</b>\n• SOL: <b>$91.75</b>\n• GOLD: <b>$4,403</b>\nSPY: <b>$653.18</b> (+0.7%)\nQQQ: <b>$583.98</b> (+0.3%)\nVIX: <b>26.9</b> (+3.1%)\nTLT: <b>$86.01</b> (+0.2%)\nDXY: <b>99.3</b> (-0.1%)\nOIL: <b>$88.89</b> (-3.7%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🟢 HY Credit Spreads: <b>324bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n🔴 10Y Real Rate: +2.79σ\n🔴 10Y Treasury: +2.25σ\n🟢 Gold: -2.14σ\n🔴 2Y Treasury: +2.07σ\n🔴 30Y Treasury: +2.04σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 NVDA: -5.1%\n🟢 SOL: +1.6%\n🟢 BTC: +0.8%\n🟢 ETH: +0.7%\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.2757 (&gt;110)\n🟡 Gold: $4403 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 188
+  "telegramText": "<b>SIGNAL SCAN</b> — March 25, 2026\n\n<b>SNAPSHOT</b>\nCross-asset dislocation as commodities surge while crypto bleeds liquidity. Stagflationary regime confirmed with real yields rising, but equities holding up on materials rotation. Middle East deployment risk premium emerging across energy complex.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 84.9/100 (High)\nRegime: Stagflation — real yields climbing as liquidity expands but HY spreads widen\nSPY +0.71% | QQQ +0.33% | VIX -4.34% | TLT +0.21% | DXY -0.13% | OIL -5.50%\nICSA: 205K (trending up, below normal)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $620-640 (-5 to -2%)\nBTC: $65K-68K (-8 to -4%)\nOIL: $95-105 (+9 to +20%)\n\n<b>SCENARIO B</b> — Materials Supercycle\nSPY: $665-685 (+2 to +5%)\nGOLD: $4180-4290 (-5 to -3%)\nCOPPER: $4.8-5.2 (+15 to +25%)\n\n<b>SCENARIO C</b> — Crypto Washout\nBTC: $62K-66K (-12 to -7%)\nETH: $1950-2100 (-10 to -3%)\nSPY: $640-660 (-2 to +1%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+5.67%) — strong\n2. URA (+3.77%) — rotating\n3. XLB (+3.13%) — bid\n4. XLE (+2.58%) — strong\n5. SMH (+2.56%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nUEC +9.1% — uranium supply chain push despite recent valuation concerns\nFCX +8.4% — copper supercycle momentum on infrastructure demand\nKTOS -8.4% — defense tech selloff on execution concerns vs peers\nCRM -6.3% — software multiple compression on revenue durability questions\nSOL +4.1% — resilient despite US troop deployment to Middle East\nPEPE +3.5% — meme momentum bucking broader crypto outflows\n\n<i>Commodities repricing structural shortage while crypto absorbs forced selling from levered positions.</i>\n\n<b>POSITIONING</b>\nBTC ETF outflows: -$277.1M (high significance)\nWhale positioning shows ETH net short $45.2M, SOL underwater -$8.4M PnL\nInstitutional deleveraging evident across crypto majors while HYPE sees concentrated long exposure\n\n<b>IMPLICATION</b>\nTactical tilt toward materials/energy over crypto until ETF outflows stabilize. Watch $65K BTC support — break triggers deeper washout to $62K range.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 189
 }

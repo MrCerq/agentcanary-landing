@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-25",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 25, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 84.9/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 85
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "UEC",
+            "v": "+9.1%",
+            "c": "green"
+          },
+          {
+            "k": "KTOS",
+            "v": "-8.4%",
+            "c": "red"
+          },
+          {
+            "k": "FCX",
+            "v": "+8.4%",
+            "c": "green"
+          },
+          {
+            "k": "TECK",
+            "v": "+7.1%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 189,
+    "telegramText": "<b>SIGNAL SCAN</b> — March 25, 2026\n\n<b>SNAPSHOT</b>\nCross-asset dislocation as commodities surge while crypto bleeds liquidity. Stagflationary regime confirmed with real yields rising, but equities holding up on materials rotation. Middle East deployment risk premium emerging across energy complex.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 84.9/100 (High)\nRegime: Stagflation — real yields climbing as liquidity expands but HY spreads widen\nSPY +0.71% | QQQ +0.33% | VIX -4.34% | TLT +0.21% | DXY -0.13% | OIL -5.50%\nICSA: 205K (trending up, below normal)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $620-640 (-5 to -2%)\nBTC: $65K-68K (-8 to -4%)\nOIL: $95-105 (+9 to +20%)\n\n<b>SCENARIO B</b> — Materials Supercycle\nSPY: $665-685 (+2 to +5%)\nGOLD: $4180-4290 (-5 to -3%)\nCOPPER: $4.8-5.2 (+15 to +25%)\n\n<b>SCENARIO C</b> — Crypto Washout\nBTC: $62K-66K (-12 to -7%)\nETH: $1950-2100 (-10 to -3%)\nSPY: $640-660 (-2 to +1%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+5.67%) — strong\n2. URA (+3.77%) — rotating\n3. XLB (+3.13%) — bid\n4. XLE (+2.58%) — strong\n5. SMH (+2.56%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nUEC +9.1% — uranium supply chain push despite recent valuation concerns\nFCX +8.4% — copper supercycle momentum on infrastructure demand\nKTOS -8.4% — defense tech selloff on execution concerns vs peers\nCRM -6.3% — software multiple compression on revenue durability questions\nSOL +4.1% — resilient despite US troop deployment to Middle East\nPEPE +3.5% — meme momentum bucking broader crypto outflows\n\n<i>Commodities repricing structural shortage while crypto absorbs forced selling from levered positions.</i>\n\n<b>POSITIONING</b>\nBTC ETF outflows: -$277.1M (high significance)\nWhale positioning shows ETH net short $45.2M, SOL underwater -$8.4M PnL\nInstitutional deleveraging evident across crypto majors while HYPE sees concentrated long exposure\n\n<b>IMPLICATION</b>\nTactical tilt toward materials/energy over crypto until ETF outflows stabilize. Watch $65K BTC support — break triggers deeper washout to $62K range.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-03-25",
     "time": "04:15 UTC",

@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-25",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 25, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 84.9/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 85
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "UEC",
+            "v": "+9.1%",
+            "c": "green"
+          },
+          {
+            "k": "KTOS",
+            "v": "-8.4%",
+            "c": "red"
+          },
+          {
+            "k": "FCX",
+            "v": "+8.4%",
+            "c": "green"
+          },
+          {
+            "k": "TECK",
+            "v": "+7.1%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — March 25, 2026\n\n<b>SNAPSHOT</b>\nCross-asset dislocation as commodities surge while crypto bleeds liquidity. Stagflationary regime confirmed with real yields rising, but equities holding up on materials rotation. Middle East deployment risk premium emerging across energy complex.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 84.9/100 (High)\nRegime: Stagflation — real yields climbing as liquidity expands but HY spreads widen\nSPY +0.71% | QQQ +0.33% | VIX -4.34% | TLT +0.21% | DXY -0.13% | OIL -5.50%\nICSA: 205K (trending up, below normal)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $620-640 (-5 to -2%)\nBTC: $65K-68K (-8 to -4%)\nOIL: $95-105 (+9 to +20%)\n\n<b>SCENARIO B</b> — Materials Supercycle\nSPY: $665-685 (+2 to +5%)\nGOLD: $4180-4290 (-5 to -3%)\nCOPPER: $4.8-5.2 (+15 to +25%)\n\n<b>SCENARIO C</b> — Crypto Washout\nBTC: $62K-66K (-12 to -7%)\nETH: $1950-2100 (-10 to -3%)\nSPY: $640-660 (-2 to +1%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+5.67%) — strong\n2. URA (+3.77%) — rotating\n3. XLB (+3.13%) — bid\n4. XLE (+2.58%) — strong\n5. SMH (+2.56%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nUEC +9.1% — uranium supply chain push despite recent valuation concerns\nFCX +8.4% — copper supercycle momentum on infrastructure demand\nKTOS -8.4% — defense tech selloff on execution concerns vs peers\nCRM -6.3% — software multiple compression on revenue durability questions\nSOL +4.1% — resilient despite US troop deployment to Middle East\nPEPE +3.5% — meme momentum bucking broader crypto outflows\n\n<i>Commodities repricing structural shortage while crypto absorbs forced selling from levered positions.</i>\n\n<b>POSITIONING</b>\nBTC ETF outflows: -$277.1M (high significance)\nWhale positioning shows ETH net short $45.2M, SOL underwater -$8.4M PnL\nInstitutional deleveraging evident across crypto majors while HYPE sees concentrated long exposure\n\n<b>IMPLICATION</b>\nTactical tilt toward materials/energy over crypto until ETF outflows stabilize. Watch $65K BTC support — break triggers deeper washout to $62K range.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 189
+  },
+  {
     "session": "morning",
     "date": "2026-03-25",
     "time": "04:15 UTC",
@@ -1420,53 +1473,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Mar 18, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.5/100\n\n• BTC: <b>$74,494</b>\n• ETH: <b>$2,342</b>\n• SOL: <b>$95.09</b>\n• GOLD: <b>$5,000</b>\nSPY: <b>$670.79</b> (+1.3%)\nQQQ: <b>$603.31</b> (+1.6%)\nVIX: <b>22.4</b> (-4.8%)\nTLT: <b>$87.45</b> (+1.1%)\nDXY: <b>99.6</b> (+0.0%)\nOIL: <b>$92.44</b> (-3.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$17.99T</b> (YoY -3.39%)\n   US M2: $22.44T (YoY +4.29%)\n🟢 HY Credit Spreads: <b>327bps</b> CALM (5d: +8bps)\n\n<b>NOTABLE Z-SCORES</b>\n🔴 WTI Crude Oil: +2.80σ\n🔴 IG Credit Spread: +2.22σ\n🔴 DTWEXBGS: +2.21σ\n🔴 HY Credit Spread: +1.84σ\n🔴 Fed Balance Sheet: +1.69σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 NVDA: -1.3%\n\n<b>TOP MOVERS</b>\n🟢 EWY $134 (+8.3%)\n🔴 VIX $22.37 (-4.8%)\n🔴 OIL $92.44 (-3.9%) — China: Fiscal support seen offsetting Oil shock – TD Securit\n🔴 MOH $144 (-3.5%)\n🟢 EWZ $36.71 (+3.4%)\n🔴 FET $0.2355 (-2.5%)\n🔴 PENDLE $1.33 (-2.2%)\n🟢 ATOM $2.00 (+2.0%)\n\n<b>HEGEMONY SNAPBACK</b> 🟢: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.5518 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 156
-  },
-  {
-    "session": "evening",
-    "date": "2026-03-17",
-    "time": "22:15 UTC",
-    "headline": "0 bullish / 0 bearish signals.",
-    "headlineColor": "#A78BFA",
-    "desc": "MARKET WRAP — Mar 17, 2026\n\nMarkets traded defensively as stagflationary pressures mounted, with the regime gauge hitting 100 signaling peak concerns over persistent inflation amid slowing growth. The",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US University of M",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 100
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US University of Michig",
-            "v": "Mar 27",
-            "c": "blue"
-          },
-          {
-            "k": "EU Markit Manufacturing",
-            "v": "Mar 24",
-            "c": "blue"
-          },
-          {
-            "k": " National Consumer Pr",
-            "v": "Mar 23",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Mar 17, 2026\n\n<i>Markets traded defensively as stagflationary pressures mounted, with the regime gauge hitting 100 signaling peak concerns over persistent inflation amid slowing growth. The VIX surge to 22.37 reflected broad risk aversion, though crypto assets showed resilience with Bitcoin holding near $75K as investors sought alternatives to traditional assets. Dollar strength and elevated oil prices reinforced the stagflation narrative dominating today's session.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$74,691</b> · ETH: <b>$2,339</b> · SOL: <b>$95.27</b> · GOLD: <b>$5,000</b> · SPY: <b>$670.79</b> (+1.3%) · QQQ: <b>$603.31</b> (+1.6%) · VIX: <b>$22.37</b> (-4.8%) · TLT: <b>$87.45</b> (+1.1%) · DXY: <b>$99.56</b> (-0.1%) · OIL: <b>$95.15</b> (+1.8%)\n\n<b>SECTOR CLOSE</b>\n🟢 XLE (Energy) +2.8% · XLU (Utilities) +0.9% · XLK (Technology) -0.7%\n🔴 COPX (Copper Miners) -4.3% · XLB (Materials) -1.2% · XLI (Industrials) -2.9%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH\n🟡 AI / Tech (intensity 51) — NVDA, MSFT, GOOGL\n🟡 Defense / Geopolitics (intensity 49) — ITA, LMT, RTX\n🟡 Oil / Energy (intensity 49) — XLE, USO, OXY\n\n<b>EVENING NEWS</b>\n🔴 Crypto Gift Card Platform Bitrefill Discloses Hack, Points Finger at North Korean Groups\n🔴 Traders Dial Back Bets Against Fed Cuts as Growth Worries Build\n🔴 Dollar Pressured by Rising Stocks\n🔴 USD/CHF Price Forecast: US Dollar slips toward 0.7850 ahead of Fed decision\n🟢 USD/THB: Overbought but still upside risks – OCBC\n🟢 Crypto Power Move: Bitmine Ramps Up Ethereum Buys To 4.6M ETH\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 100/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Final)(Mar) — Mar 27, 02:00 PM UTC (prev: 55.5)\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)\n National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)\nUS Producer Price Index (YoY)(Jan) — Mar 20, 11:30 PM UTC (prev: 3.0%)\nUS New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)\n GDP(YoY)(Q4) — Mar 19, 12:03 PM UTC (prev: 2.1%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 154
   }
 ]
