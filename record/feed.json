@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-25-midday",
+      "url": "https://agentcanary.ai/record/2026/03/25#midday",
+      "title": "Market Pulse — Mar 25, 2026",
+      "content_text": "BTC Accumulation · 100 whale moves BTC daily accumulation, 4h distribution · ETH daily accumulation, 4h distribution · SOL daily accumulation, 4h distribution",
+      "summary": "BTC Accumulation · 100 whale moves",
+      "date_published": "2026-03-25T16:15:00.884Z",
+      "tags": [
+        "whale-alert",
+        "m-418%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-03-25-intelligence",
       "url": "https://agentcanary.ai/record/2026/03/25#intelligence",
       "title": "Signal Scan — Mar 25, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-12-evening",
-      "url": "https://agentcanary.ai/record/2026/03/12#evening",
-      "title": "Evening Wrap — Mar 12, 2026",
-      "content_text": "Markets drifted in neutral territory as stagflationary pressures kept risk assets range-bound, with … MARKET WRAP — Mar 12, 2026\n\nMarkets drifted in neutral territory as stagflationary pressures kept risk assets range-bound, with crypto showing resilience while traditional equities remained cautious. ",
-      "summary": "Markets drifted in neutral territory as stagflationary pressures kept risk assets range-bound, with …",
-      "date_published": "2026-03-12T22:15:05.340Z",
-      "tags": [
-        "mixed",
-        "us-new-home-sales-"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
