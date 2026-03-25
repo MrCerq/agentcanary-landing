@@ -946,8 +946,8 @@ function buildArchivePage(dateMap, aggStats) {
         Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored predictions.
       </p>
       ${aggStats && aggStats.scored > 0 ? `<p class="mono" style="font-size:13px;color:${COLORS.t2};margin-bottom:40px">
-        <span style="color:${COLORS.t1};font-weight:700">${aggStats.total}</span> predictions &middot;
-        <span style="color:${aggStats.hitRate >= 50 ? COLORS.g : COLORS.y};font-weight:700">${aggStats.hitRate}%</span> hit rate &middot;
+        <span style="color:${COLORS.t1};font-weight:700">${aggStats.total}</span> conditional predictions &middot;
+        <span style="color:${aggStats.scenarioHitRate >= 50 ? COLORS.g : COLORS.y};font-weight:700">${aggStats.scenarioHitRate}%</span> best-scenario hit rate &middot;
         <span style="color:${COLORS.y}">${aggStats.partials}</span> partial &middot;
         <span style="color:${COLORS.r}">${aggStats.misses}</span> miss
         ${aggStats.pending > 0 ? `&middot; <span style="color:${COLORS.t3}">${aggStats.pending} pending</span>` : ''}
@@ -1134,6 +1134,15 @@ const TICKER_YAHOO = {
   'IGV': 'IGV',
 };
 
+/** Normalize ticker from LLM output (case-insensitive, GLD/GOLD disambiguation) */
+function normalizeTicker(raw, rangeMin, rangeMax) {
+  const upper = (raw || '').toUpperCase().trim();
+  // GLD vs GOLD (futures) disambiguation: if price range < $1000, it's GLD ETF
+  if (upper === 'GOLD' && rangeMax < 1000) return 'GLD';
+  if (upper === 'GLD' && rangeMin > 1000) return 'GOLD'; // actually meant futures
+  return upper;
+}
+
 function parsePrice(s, peerPrice) {
   if (!s) return null;
   let v = String(s).replace(/[$,]/g, '');
@@ -1187,7 +1196,7 @@ function extractPredictions(briefs) {
         const targetMatch = line.match(/^(\w+):\s*\$?([\d,.]+[KkMm]?)\s*[-–]\s*\$?([\d,.]+[KkMm]?)\s*\(([^)]+)\)/);
         if (!targetMatch) continue;
 
-        const [, ticker, minStr, maxStr, moveStr] = targetMatch;
+        const [, rawTicker, minStr, maxStr, moveStr] = targetMatch;
         // Parse max first (more likely to have K/M suffix), then min with max as peer
         const rawMax = parsePrice(maxStr, null);
         const rawMin = parsePrice(minStr, rawMax);
@@ -1195,6 +1204,8 @@ function extractPredictions(briefs) {
         const rangeMin = Math.min(rawMin, rawMax);
         const rangeMax = Math.max(rawMin, rawMax);
 
+        // Normalize ticker (case + GLD/GOLD disambiguation)
+        const ticker = normalizeTicker(rawTicker, rangeMin, rangeMax);
         const id = `${b.date}-${letter}-${ticker}`;
         predictions.push({
           id,
@@ -1227,7 +1238,7 @@ function scoreDate(dateStr) {
 
 /** Fetch Yahoo historical prices for scoring */
 async function fetchYahooPrices(ticker, startDate, endDate) {
-  const yahooTicker = TICKER_YAHOO[ticker] || ticker;
+  const yahooTicker = TICKER_YAHOO[ticker.toUpperCase()] || ticker;
   const start = Math.floor(new Date(startDate + 'T00:00:00Z').getTime() / 1000);
   const end = Math.floor(new Date(endDate + 'T23:59:59Z').getTime() / 1000);
   const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooTicker)}?period1=${start}&period2=${end}&interval=1d`;
@@ -1397,7 +1408,11 @@ function renderScorecard(predictions) {
     </div>`;
 }
 
-/** Compute aggregate stats across all predictions */
+/** Compute aggregate stats across all predictions
+ * NOTE: Scenarios are mutually exclusive — only one can play out.
+ * We compute "best scenario" hit rate: for each date, count the scenario 
+ * with the most hits. This avoids penalizing correct conditional forecasting.
+ */
 function computeAggregateStats(predictions) {
   const scored = predictions.filter(p => p.result && p.result !== 'pending' && p.result !== 'no_data');
   const hits = scored.filter(p => p.result === 'hit').length;
@@ -1405,8 +1420,27 @@ function computeAggregateStats(predictions) {
   const misses = scored.filter(p => p.result === 'miss').length;
   const total = scored.length;
   const pending = predictions.filter(p => p.result === 'pending').length;
+
+  // Per-scenario hit rate: group by date+scenario, find best scenario per date
+  const byDateScenario = {};
+  for (const p of scored) {
+    const key = `${p.date}-${p.scenario}`;
+    if (!byDateScenario[key]) byDateScenario[key] = { hits: 0, total: 0, date: p.date, scenario: p.scenario };
+    byDateScenario[key].total++;
+    if (p.result === 'hit') byDateScenario[key].hits++;
+  }
+  // Best scenario per date
+  const byDate = {};
+  for (const [, s] of Object.entries(byDateScenario)) {
+    if (!byDate[s.date] || s.hits > byDate[s.date].hits) byDate[s.date] = s;
+  }
+  const bestScenarioHits = Object.values(byDate).reduce((sum, s) => sum + s.hits, 0);
+  const bestScenarioTotal = Object.values(byDate).reduce((sum, s) => sum + s.total, 0);
+  const scenarioHitRate = bestScenarioTotal > 0 ? Math.round((bestScenarioHits / bestScenarioTotal) * 100) : 0;
+
   return { total: predictions.length, scored: total, hits, partials, misses, pending,
-    hitRate: total > 0 ? Math.round((hits / total) * 100) : 0 };
+    hitRate: total > 0 ? Math.round((hits / total) * 100) : 0,
+    scenarioHitRate, bestScenarioHits, bestScenarioTotal };
 }
 
 // ─── Main ────────────────────────────────────────────────────────

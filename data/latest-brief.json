@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-03-24",
-  "time": "22:15 UTC",
-  "headline": "MARKET WRAP",
-  "headlineColor": "#A78BFA",
-  "desc": "MARKET WRAP \u2014 Mar 24, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, signaling investor flight to hard assets amid persistent inflation concerns.",
+  "session": "morning",
+  "date": "2026-03-25",
+  "time": "04:15 UTC",
+  "headline": "🔴 Risk-Off · Neutral · Gauge 84.9/100",
+  "headlineColor": "#F87171",
+  "desc": "STAGFLATION. F&G: —. WATCH.",
   "tags": [
     {
-      "t": "MIXED",
-      "c": "yellow"
+      "t": "Risk-Off · Neutral",
+      "c": "red"
     },
     {
-      "t": "US Unemployment Ra",
-      "c": "blue"
+      "t": "GAUGE 84.9",
+      "c": "red"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 85
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Unemployment Rate(Ma",
-          "v": "Apr 3",
-          "c": "blue"
-        },
-        {
-          "k": "US Seasonally adjusted ",
-          "v": "Apr 3",
-          "c": "blue"
-        },
-        {
-          "k": " Caixin Services Purc",
-          "v": "Apr 3",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1.5/6 WATCH",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> \u2014 Mar 24, 2026\n\n<i>Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, signaling investor flight to hard assets amid persistent inflation concerns. The dollar's strength near 99 weighed on risk assets, with tech lagging as QQQ underperformed SPY in a classic rotation away from growth. Crypto held up relatively well, suggesting digital assets may be finding a floor as an alternative store of value.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,260</b> \u00b7 ETH: <b>$2,146</b> \u00b7 SOL: <b>$90.28</b> \u00b7 GOLD: <b>$4,403</b> \u00b7 SPY: <b>$653.18</b> (+0.7%) \u00b7 QQQ: <b>$583.98</b> (+0.3%) \u00b7 VIX: <b>$26.95</b> (+3.1%) \u00b7 TLT: <b>$86.01</b> (+0.2%) \u00b7 DXY: <b>$99.18</b> (+0.2%) \u00b7 OIL: <b>$88.61</b> (+0.5%)\n\n<b>SECTOR CLOSE</b>\n\ud83d\udfe2 XLE (Energy) +1.9% \u00b7 XLK (Technology) -1.9% \u00b7 XLF (Financials) -0.6%\n\ud83d\udd34 COPX (Copper Miners) -5.6% \u00b7 URA (Uranium) -4.7% \u00b7 XLB (Materials) -4.0%\n\n<b>SIGNALS</b>\n\ud83d\udfe1 Crypto / Bitcoin (intensity 40) \u2014 BTC, ETH\n\n<b>EVENING NEWS</b>\n\ud83d\udd34 Victory Capital Withdraws Bid for Janus Henderson\n\ud83d\udfe2 Dollar Advances on Reports the US to Deploy Troops to the Middle East\n\ud83d\udd34 Robinhood reloads stock repurchase plan to $1.5 billion as shares continue in downtrend\n\ud83d\udfe2 Iran Rejects Peace Talk Claims, Leaving Bitcoin Stuck At $70K\n\ud83d\udfe2 Australian Pension Giant Eyes Bitcoin Access For 2.2 Million Members\n\ud83d\udfe1 Erdene Announces 2025 Results - Provides Bayan Khundii Gold Mine and Exploration Update\n\n<b>REGIME CHECK</b>\n\ud83d\udd34 <b>Risk-Off \u00b7 Neutral</b> \u00b7 STAGFLATION \u00b7 Gauge: 84.9/100\n\n<b>UPCOMING \u2014 HIGH IMPACT</b>\nUS Unemployment Rate(Mar) \u2014 Apr 3, 12:30 PM UTC (prev: 4.4%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) \u2014 Apr 3, 12:30 PM UTC (prev: -92)\n Caixin Services Purchasing Managers Index(Mar) \u2014 Apr 3, 01:45 AM UTC (prev: 56.7)\nUS Trade Balance (billion USD)(Feb) \u2014 Apr 2, 12:30 PM UTC (prev: -54.5)\nUS ISM Manufacturing Purchasing Managers Index(Mar) \u2014 Apr 1, 02:00 PM UTC (prev: 52.4)\nUS Change in ADP employment (thousands)(Mar) \u2014 Apr 1, 12:15 PM UTC (prev: 63.0)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 187
+  "telegramText": "<b>MACRO RADAR</b> — Mar 25, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 84.9/100\n\n• BTC: <b>$70,821</b>\n• ETH: <b>$2,162</b>\n• SOL: <b>$91.75</b>\n• GOLD: <b>$4,403</b>\nSPY: <b>$653.18</b> (+0.7%)\nQQQ: <b>$583.98</b> (+0.3%)\nVIX: <b>26.9</b> (+3.1%)\nTLT: <b>$86.01</b> (+0.2%)\nDXY: <b>99.3</b> (-0.1%)\nOIL: <b>$88.89</b> (-3.7%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🟢 HY Credit Spreads: <b>324bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n🔴 10Y Real Rate: +2.79σ\n🔴 10Y Treasury: +2.25σ\n🟢 Gold: -2.14σ\n🔴 2Y Treasury: +2.07σ\n🔴 30Y Treasury: +2.04σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 NVDA: -5.1%\n🟢 SOL: +1.6%\n🟢 BTC: +0.8%\n🟢 ETH: +0.7%\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.2757 (&gt;110)\n🟡 Gold: $4403 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 188
 }

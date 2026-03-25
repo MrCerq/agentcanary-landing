@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-25",
+    "time": "04:15 UTC",
+    "headline": "🔴 Risk-Off · Neutral · Gauge 84.9/100",
+    "headlineColor": "#F87171",
+    "desc": "STAGFLATION. F&G: —. WATCH.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 84.9",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 85
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1.5/6 WATCH",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 188,
+    "telegramText": "<b>MACRO RADAR</b> — Mar 25, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 84.9/100\n\n• BTC: <b>$70,821</b>\n• ETH: <b>$2,162</b>\n• SOL: <b>$91.75</b>\n• GOLD: <b>$4,403</b>\nSPY: <b>$653.18</b> (+0.7%)\nQQQ: <b>$583.98</b> (+0.3%)\nVIX: <b>26.9</b> (+3.1%)\nTLT: <b>$86.01</b> (+0.2%)\nDXY: <b>99.3</b> (-0.1%)\nOIL: <b>$88.89</b> (-3.7%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🟢 HY Credit Spreads: <b>324bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n🔴 10Y Real Rate: +2.79σ\n🔴 10Y Treasury: +2.25σ\n🟢 Gold: -2.14σ\n🔴 2Y Treasury: +2.07σ\n🔴 30Y Treasury: +2.04σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 NVDA: -5.1%\n🟢 SOL: +1.6%\n🟢 BTC: +0.8%\n🟢 ETH: +0.7%\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.2757 (&gt;110)\n🟡 Gold: $4403 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-03-24",
     "time": "22:15 UTC",

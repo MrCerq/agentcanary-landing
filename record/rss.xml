@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — Mar 25, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/25#morning</link>
+      <description>🔴 Risk-Off · Neutral · Gauge 84.9/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
+      <pubDate>Wed, 25 Mar 2026 04:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/25#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — Mar 24, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/24#evening</link>
       <description>Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, sign… — MARKET WRAP — Mar 24, 2026
@@ -374,13 +381,6 @@ Markets drifted in neutral territory as stagflationary pressures kept risk asset
       <description>BTC Risk-Off · 100 whale moves — BTC daily risk-off, 4h distribution · ETH daily risk-off, 4h distribution · SOL daily risk-off, 4h distribution</description>
       <pubDate>Thu, 12 Mar 2026 16:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/12#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 12, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/12#intelligence</link>
-      <description>SIGNAL SCAN — Mar 12, 2026 — Risk 78/100 · 8 movers</description>
-      <pubDate>Thu, 12 Mar 2026 10:15:21 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/12#intelligence</guid>
     </item>
   </channel>
 </rss>
