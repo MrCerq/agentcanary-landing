@@ -18,12 +18,12 @@
       "id": "2026-03-25-midday",
       "url": "https://agentcanary.ai/record/2026/03/25#midday",
       "title": "Market Pulse — Mar 25, 2026",
-      "content_text": "BTC Accumulation · 100 whale moves BTC daily accumulation, 4h distribution · ETH daily accumulation, 4h distribution · SOL daily accumulation, 4h distribution",
+      "content_text": "BTC Accumulation · 100 whale moves BTC daily accumulation, 4h ignition · ETH daily accumulation, 4h ignition · SOL daily accumulation, 4h ignition",
       "summary": "BTC Accumulation · 100 whale moves",
-      "date_published": "2026-03-25T16:15:00.884Z",
+      "date_published": "2026-03-25T20:32:34.275Z",
       "tags": [
         "whale-alert",
-        "m-418%-apr"
+        "m-204%-apr"
       ],
       "_agentcanary": {
         "session": "midday"

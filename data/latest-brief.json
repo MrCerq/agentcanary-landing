@@ -1,17 +1,17 @@
 {
   "session": "midday",
   "date": "2026-03-25",
-  "time": "16:15 UTC",
+  "time": "20:32 UTC",
   "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
   "headlineColor": "#F87171",
-  "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:ACCUMULATION 4h:DISTRIBUTION · SOL 1d:ACCUMULATION 4h:DISTRIBUTION",
+  "desc": "BTC 1d:ACCUMULATION 4h:IGNITION · ETH 1d:ACCUMULATION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:IGNITION",
   "tags": [
     {
       "t": "WHALE ALERT",
       "c": "blue"
     },
     {
-      "t": "M 418% APR",
+      "t": "M 204% APR",
       "c": "green"
     }
   ],
@@ -40,18 +40,18 @@
       "label": "TOP WHALE",
       "rows": [
         {
-          "k": "$207M USDT",
-          "v": "transferred from unk",
+          "k": "$250M USDC",
+          "v": "minted at USDC Treas",
           "c": "blue"
         },
         {
-          "k": "$64M BTC",
+          "k": "$55M BTC",
           "v": "transferred from unk",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Mar 25, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,879</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• ETH: <b>$2,162</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• SOL: <b>$91.67</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 207,314,047 USDT ($207,261,464)\n  <i>transferred from unknown wallet to #Binance</i>\n• 899 BTC ($63,757,782)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 1,397 BTC ($99,667,379)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>M</b>: 487% net APR (0.1908% rate)\n  Long Bitget / Short Bybit | OI: $7.3M | Spread: -0.25%\n• <b>CRCL</b>: 40% net APR (0.0663% rate)\n  Long Bitget / Short Binance | OI: $5.4M | Spread: 0.01%\n• <b>ASTER</b>: 36% net APR (0.0215% rate)\n  Long Bitget / Short Binance | OI: $21.0M | Spread: -0.05%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $80,324,341 | Longs: 38% | L/S: 0.6:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n🟢 Crypto Infrastructure Maturation [BTC, COIN, LINK]\n🟢 Geopolitical Risk Repricing [BTC, OIL, GLD]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 190
+  "telegramText": "<b>MARKET PULSE</b> — Mar 25, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,711</b> — 1d: ACCUMULATION | 4h: IGNITION\n• ETH: <b>$2,165</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$91.32</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($249,993,375)\n  <i>minted at USDC Treasury</i>\n• 778 BTC ($55,145,301)\n  <i>transferred from unknown wallet to #Coinbase</i>\n• 1,500,000 SOL ($138,067,131)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>M</b>: 215% net APR (0.0930% rate)\n  Long Binance / Short Bybit | OI: $17.0M | Spread: -0.09%\n• <b>SIREN</b>: 0% net APR (0.0093% rate)\n  Long Bitget / Short MEXC | OI: $8.2M | Spread: 0.33%\n• <b>ONDO</b>: 99% net APR (0.0367% rate)\n  Long Bybit / Short Bitget | OI: $9.4M | Spread: -0.11%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $71,263,154 | Longs: 20% | L/S: 0.3:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n🟢 Crypto Infrastructure Maturation [BTC, COIN, LINK]\n🟢 Geopolitical Risk Repricing [BTC, OIL, GLD]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 191
 }
