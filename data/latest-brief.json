@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-26",
-  "time": "04:15 UTC",
-  "headline": "🔴 Risk-Off · Neutral · Gauge 81.2/100",
-  "headlineColor": "#F87171",
-  "desc": "STAGFLATION. F&G: —. WATCH.",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 26, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 81.2/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
+      "t": "HIGH",
       "c": "red"
     },
     {
-      "t": "GAUGE 81.2",
-      "c": "red"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1.5/6 WATCH",
+          "k": "FET",
+          "v": "-8.3%",
+          "c": "red"
+        },
+        {
+          "k": "VIX",
+          "v": "+7.9%",
           "c": "green"
+        },
+        {
+          "k": "RENDER",
+          "v": "-4.3%",
+          "c": "red"
+        },
+        {
+          "k": "MNT",
+          "v": "-4.3%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 26, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 81.2/100\n\n• BTC: <b>$70,836</b>\n• ETH: <b>$2,152</b>\n• SOL: <b>$91</b>\n• GOLD: <b>$4,527</b>\nSPY: <b>$656.82</b> (+0.2%)\nQQQ: <b>$587.82</b> (-0.0%)\nVIX: <b>25.3</b> (-6.0%)\nTLT: <b>$86.84</b> (+0.5%)\nDXY: <b>99.6</b> (+0.0%)\nOIL: <b>$91.81</b> (+1.6%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18.05T</b> (YoY -3.4%)\n   US M2: $22.67T (YoY +4.88%)\n🟢 HY Credit Spreads: <b>324bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n🔴 10Y Real Rate: +2.33σ\n🔴 10Y Treasury: +1.77σ\n🔴 2Y Treasury: +1.77σ\n🔴 Fed Balance Sheet: +1.64σ\n🟡 Gold: -1.49σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 NVDA: -3.1%\n🔴 ETH: -0.5%\n\n<b>TOP MOVERS</b>\n🔴 VIX $25.33 (-6.0%)\n🔴 EWY $128 (-4.5%)\n🟢 SLV $65.21 (+4.4%)\n🟢 XLB $49.41 (+3.9%)\n🔴 BRENT $98.45 (-3.7%)\n🔴 RENDER $1.80 (-2.7%) — Best Crypto to Buy Now for Q2 Gains: RENDER and INJ Could Ru\n🔴 NEAR $1.25 (-2.3%) — Bitcoin ETFs Near YTD Flow Recovery Despite 40% Price Drop\n🔴 MORPHO $1.68 (-2.3%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.2757 (&gt;110)\n🟡 Gold: $4527 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 193
+  "telegramText": "<b>SIGNAL SCAN</b> — March 26, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime intensifies with VIX +7.9% as geopolitical tensions drive oil to $93.64 (+3.7%). Mixed cross-asset signals: commodities bid, crypto under pressure with BTC ETF outflows at -$276.9M. Equity markets showing defensive rotation into biotech/materials while tech lags.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 81.2/100 (High)\nRegime: STAGFLATION — Energy-driven inflation pressures amid rising real yields\nSPY +0.22% | QQQ -0.03% | VIX +7.9% | TLT +0.52% | DXY +0.09% | OIL +3.7%\nICSA: 205K (trend UP, below average)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $63-67K (-10%)\nOIL: $105-115 (+15%)\nVIX: $35-40 (+30%)\n\n<b>SCENARIO B</b> — Iran Diplomatic Progress\nBTC: $75-80K (+10%)\nOIL: $85-90 (-8%)\nSPY: $680-700 (+5%)\n\n<b>SCENARIO C</b> — Stagflation Persistence\nGOLD: $4650-4750 (+4%)\nTLT: $82-85 (-4%)\nReal Assets outperform\n\n<b>SECTOR STRENGTH</b>\n1. Biotech (XBI +3.7%) — strong\n2. Copper Miners (COPX +3.6%) — bid\n3. Materials (XLB +2.0%) — rotating\n4. Uranium (URA +1.6%) — strong\n5. Defense (ITA +1.5%) — bid\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 27.32 (+7.9%) — Middle East conflict escalation fears driving volatility\nOIL 93.64 (+3.7%) — Ukrainian drone strikes on Russian export terminals (-2M bpd)\nFET 0.243 (-8.3%) — Crypto sector weakness amid regulatory headwinds\nSLV 65.21 (+3.6%) — Precious metals safe haven bid with inflation concerns\nXBI 123.92 (+3.7%) — Defensive healthcare rotation as growth slows\nRENDER 1.77 (-4.3%) — AI tokens under pressure with tech sector weakness\n\n<i>Cross-asset divergence widens as commodities price stagflation risks while crypto faces institutional outflows.</i>\n\n<b>POSITIONING</b>\nBTC whales mixed: $51.1M long vs $77M short positions, indicating hedged stance near $70K.\nBTC ETF outflows continue at -$276.9M, signaling institutional risk-off positioning.\nSOL positioning negative with -$337K PnL suggesting momentum exhaustion.\n\n<b>IMPLICATION</b>\nTactical opportunity in commodities/real assets vs growth tech if geopolitical premium persists. Consider defensive positioning in healthcare/materials while maintaining energy exposure as inflation hedge.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 194
 }
