@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — Mar 26, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/26#midday</link>
+      <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h bearish · ETH daily accumulation, 4h bearish · SOL daily bullish, 4h bearish</description>
+      <pubDate>Thu, 26 Mar 2026 16:15:00 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/26#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — Mar 26, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/26#intelligence</link>
       <description>SIGNAL SCAN — Mar 26, 2026 — Risk 81.2/100 · 8 movers</description>
@@ -370,15 +377,6 @@ Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling 
       <description>SIGNAL SCAN — Mar 14, 2026 — Risk 93.6/100 · 8 movers</description>
       <pubDate>Sat, 14 Mar 2026 10:15:20 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/14#intelligence</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 13, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/13#evening</link>
-      <description>Markets traded defensively with elevated VIX at 27 signaling broad risk-off sentiment despite crypto… — MARKET WRAP — Mar 13, 2026
-
-Markets traded defensively with elevated VIX at 27 signaling broad risk-off sentiment despite crypto resilience. The stagflationary backdrop kept bonds weak while a firm do</description>
-      <pubDate>Fri, 13 Mar 2026 22:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/13#evening</guid>
     </item>
   </channel>
 </rss>
