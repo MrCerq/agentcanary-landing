@@ -96,33 +96,41 @@ function saveJSON(p, data) {
 
 // ─── Ollama (Local Qwen) Summary Generator ──────────────────────
 
-const OLLAMA_URL = 'http://localhost:11434/api/generate';
-const OLLAMA_MODEL = 'qwen3.5:2b';
+const LM_STUDIO_URL = 'http://localhost:1234/v1/chat/completions';
+const LM_STUDIO_MODEL = 'qwen/qwen3.5-9b';
+const LM_STUDIO_KEY = 'sk-lm-ydncg29I:IucIXDddsZdFUDMkzkpb';
 
-function ollamaGenerate(prompt) {
-  return new Promise((resolve, reject) => {
+function lmStudioGenerate(prompt) {
+  return new Promise((resolve) => {
     const http = require('http');
     const payload = JSON.stringify({
-      model: OLLAMA_MODEL,
-      prompt: prompt,
-      stream: false,
-      think: false,
-      options: { temperature: 0.3 }
+      model: LM_STUDIO_MODEL,
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.3,
+      stream: false
     });
-    const req = http.request(OLLAMA_URL, {
+    const url = new URL(LM_STUDIO_URL);
+    const req = http.request({
+      hostname: url.hostname,
+      port: url.port,
+      path: url.pathname,
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Content-Length': Buffer.byteLength(payload) }
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + LM_STUDIO_KEY,
+        'Content-Length': Buffer.byteLength(payload)
+      }
     }, res => {
       let body = '';
       res.on('data', c => body += c);
       res.on('end', () => {
         try {
           const r = JSON.parse(body);
-          resolve(r.response || '');
+          resolve(r.choices && r.choices[0] && r.choices[0].message ? r.choices[0].message.content : '');
         } catch { resolve(''); }
       });
     });
-    req.on('error', () => resolve('')); // fail silently — page still builds without summary
+    req.on('error', () => resolve(''));
     req.setTimeout(60000, () => { req.destroy(); resolve(''); });
     req.write(payload);
     req.end();
@@ -147,7 +155,7 @@ ${briefTexts}
 
 3 sentences only:`;
 
-  const summary = await ollamaGenerate(prompt);
+  const summary = await lmStudioGenerate(prompt);
   return summary.replace(/^\s+|\s+$/g, '');
 }
 
