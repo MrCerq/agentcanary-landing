@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-26",
+    "time": "22:15 UTC",
+    "headline": "Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off f…",
+    "headlineColor": "#A78BFA",
+    "desc": "STAGFLATION. 17 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Durable goods orders (MoM) ",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 81
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Durable goods orders (MoM) (Revised",
+            "v": "Apr 4",
+            "c": "blue"
+          },
+          {
+            "k": "US Seasonally adjusted changes in non-",
+            "v": "Apr 3",
+            "c": "blue"
+          },
+          {
+            "k": "US Unemployment Rate(Mar)",
+            "v": "Apr 3",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Mar 26, 2026\n\n<i>Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off flows while inflationary concerns mounted. The VIX spike above 27 drove defensive positioning into gold near $4,364, as both crypto and equities sold off amid fears of economic stagnation. Late-cycle dynamics are clearly asserting themselves across asset classes.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$68,883</b> · ETH: <b>$2,068</b> · SOL: <b>$86.83</b> · GOLD: <b>$4,364</b> · SPY: <b>$645.09</b> (-1.2%) · QQQ: <b>$573.79</b> (-1.7%) · VIX: <b>$27.44</b> (+8.3%) · TLT: <b>$86.11</b> (+0.1%) · DXY: <b>$99.87</b> (+0.3%) · OIL: <b>$93.47</b> (+3.5%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +3.7% · XBI (Biotech) +1.3% · XLB (Materials) +2.8%\n▼ COPX (Copper Miners) -2.1% · URA (Uranium) -3.3% · SMH (Semiconductors) -3.6%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 90) — BTC, ETH\n\n<b>EVENING NEWS</b>\n▲ After a $1.2 billion run, XRP ETFs just flipped from inflows to outflows\n▼ Asian Stocks to Drop as Trump Extends Iran Talks: Markets Wrap\n▲ Bitcoin gained 655% the last time this supply in profit metric dropped to 50%\n▼ Crypto drops alongside equities as risk-off sentiment spreads across markets\n▼ MARA Sells 15,000 BTC for $1.1 Billion to Retire Convertible Debt\n▼ Bitcoin, Ethereum Slip as Trump Says He's 'Not Desperate' to End Iran War\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto profit-taking and nonbank credit growth signal mature cycle dynamics\n▲ Recession: Broad risk-off sentiment and asset liquidations increase recession probability\n▼ Goldilocks: Multiple headwinds eliminate conditions for balanced growth environment\n▲ Stagflation: Geopolitical tensions driving energy costs while growth concerns mount\n▲ Hegemony: Iran tensions highlight ongoing U.S. geopolitical engagement requirements\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 81.2/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 55.4)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 2, 02:00 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's historical 655% gain after 50% supply-in-profit metric suggests current weakness could be \n• MARA's debt retirement through Bitcoin sales may signal confident balance sheet optimization rather \n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 196
+  },
+  {
     "session": "midday",
     "date": "2026-03-26",
     "time": "16:15 UTC",
@@ -1439,58 +1487,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Mar 19, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$69,244</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n• ETH: <b>$2,114</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n• SOL: <b>$87.42</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 726 BTC ($51,195,571)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n• 721 BTC ($51,117,498)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n• 721 BTC ($51,090,933)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $161,585,193 | Longs: 85% | L/S: 5.7:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 163
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-03-19",
-    "time": "10:15 UTC",
-    "headline": "SIGNAL SCAN — Mar 19, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 77.9/100 · 8 movers",
-    "tags": [
-      {
-        "t": "HIGH",
-        "c": "red"
-      },
-      {
-        "t": "STAGFLATION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 78
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "SLV",
-            "v": "-6.2%",
-            "c": "red"
-          },
-          {
-            "k": "KWEB",
-            "v": "-3.9%",
-            "c": "red"
-          },
-          {
-            "k": "WPP",
-            "v": "-3.6%",
-            "c": "red"
-          },
-          {
-            "k": "GLD",
-            "v": "-3.4%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — March 19, 2026\n\n<b>SNAPSHOT</b>\nStagflationary regime deepening as Fed holds rates unchanged while inflation expectations climb. Risk-off rotation accelerating with commodities leading selloff — silver down 6.2%, gold -3.4%. Cross-asset dislocation evident: BTC ETFs see +$765M inflows (6-day streak) while precious metals crater.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 77.9/100 (High)\nRegime: STAGFLATION — financial conditions tightening amid rising inflation expectations\nSPY: -1.1% | QQQ: -0.9% | VIX: +1.3% | TLT: -0.3% | DXY: flat | OIL: -0.7%\nICSA: 213K (flat trend)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $620-640 (-6 to -9%)\nBTC: $62K-66K (-8 to -12%)\nOIL: $105-115 (+10 to +20%)\n\n<b>SCENARIO B</b> — Inflation Repricing\nTLT: $82-85 (-6 to -9%)\nDXY: $103-106 (+3 to +6%)\nGOLD: $415-430 (-7 to -3%)\n\n<b>SCENARIO C</b> — Risk Asset Bounce\nSPY: $680-700 (+3 to +6%)\nQQQ: $620-640 (+4 to +8%)\nVIX: $18-21 (-25 to -17%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +0.9%) — bid\n2. Semiconductors (SMH -0.1%) — rotating\n3. Industrials (XLI -0.5%) — weak\n4. Technology (XLK -0.6%) — weak\n5. Defense (ITA -0.6%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $68.70 (-6.2%) — Fed hawkish hold pressures precious metals complex\nKWEB $29.45 (-3.9%) — UBS downgrades US tech, prefers China but Beijing GDP target concerns persist\nGLD $444.74 (-3.4%) — Dollar strength + real rates rising crush gold\nHYPE $41.53 (-2.3%) — Profit-taking despite WSJ coverage of S&P 500 perpetual launch\nAAVE $117.77 (+2.1%) — Ethereum Foundation deposits $111.8M across DeFi protocols including Aave\n<i>Precious metals repricing Fed hawkishness while crypto absorbs institutional flows despite macro headwinds.</i>\n\n<b>POSITIONING</b>\nBTC ETFs: +$765M net inflow (6-day streak) — institutional accumulation despite macro deterioration signals conviction\nWhales short ETH ($83.4M) and HYPE ($20.1M) while long BTC ($87.4M vs $113.7M short) — mixed crypto sentiment with BTC preference\n\n<b>IMPLICATION</b>\nTactical short precious metals/long energy if geopolitical premium persists. BTC institutional flows suggest crypto may decouple from traditional risk-off playbook — consider crypto vs commodities pair trade if stagflation deepens.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 162
   }
 ]

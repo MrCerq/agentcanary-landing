@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-26-evening",
+      "url": "https://agentcanary.ai/record/2026/03/26#evening",
+      "title": "Evening Wrap — Mar 26, 2026",
+      "content_text": "Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off f… STAGFLATION. 17 news items. 5 scenario shifts.",
+      "summary": "Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off f…",
+      "date_published": "2026-03-26T22:15:05.832Z",
+      "tags": [
+        "bearish-skew",
+        "us-durable-goods-orders-(mom)-"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-26-midday",
       "url": "https://agentcanary.ai/record/2026/03/26#midday",
       "title": "Market Pulse — Mar 26, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-14-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/14#intelligence",
-      "title": "Signal Scan — Mar 14, 2026",
-      "content_text": "SIGNAL SCAN — Mar 14, 2026 Risk 93.6/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 14, 2026",
-      "date_published": "2026-03-14T10:15:20.704Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

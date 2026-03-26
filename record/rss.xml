@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — Mar 26, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/26#evening</link>
+      <description>Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off f… — STAGFLATION. 17 news items. 5 scenario shifts.</description>
+      <pubDate>Thu, 26 Mar 2026 22:15:05 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/26#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — Mar 26, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/26#midday</link>
       <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h bearish · ETH daily accumulation, 4h bearish · SOL daily bullish, 4h bearish</description>
@@ -370,13 +377,6 @@ Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling 
       <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h bearish · ETH daily bullish, 4h bearish · SOL daily bullish, 4h bearish</description>
       <pubDate>Sat, 14 Mar 2026 16:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/14#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/14#intelligence</link>
-      <description>SIGNAL SCAN — Mar 14, 2026 — Risk 93.6/100 · 8 movers</description>
-      <pubDate>Sat, 14 Mar 2026 10:15:20 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/14#intelligence</guid>
     </item>
   </channel>
 </rss>
