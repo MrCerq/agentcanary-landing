@@ -15,6 +15,36 @@
   ],
   "items": [
     {
+      "id": "2026-03-26-morning",
+      "url": "https://agentcanary.ai/record/2026/03/26#morning",
+      "title": "Morning Brief — Mar 26, 2026",
+      "content_text": "🔴 Risk-Off · Neutral · Gauge 81.2/100 Stagflation regime · Fear & Greed: neutral · WATCH",
+      "summary": "🔴 Risk-Off · Neutral · Gauge 81.2/100",
+      "date_published": "2026-03-26T04:15:01.316Z",
+      "tags": [
+        "risk-off-·-neutral",
+        "gauge-81.2"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-03-25-evening",
+      "url": "https://agentcanary.ai/record/2026/03/25#evening",
+      "title": "Evening Wrap — Mar 25, 2026",
+      "content_text": "Markets reflected growing stagflation concerns as U.S.-Iran tensions drove risk-off positioning, wit… STAGFLATION. 18 news items. 5 scenario shifts.",
+      "summary": "Markets reflected growing stagflation concerns as U.S.-Iran tensions drove risk-off positioning, wit…",
+      "date_published": "2026-03-25T22:15:04.480Z",
+      "tags": [
+        "bearish-skew",
+        "us-durable-goods-orders-(mom)-"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-25-midday",
       "url": "https://agentcanary.ai/record/2026/03/25#midday",
       "title": "Market Pulse — Mar 25, 2026",
@@ -735,36 +765,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-13-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/13#intelligence",
-      "title": "Signal Scan — Mar 13, 2026",
-      "content_text": "SIGNAL SCAN — Mar 13, 2026 Risk 78/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 13, 2026",
-      "date_published": "2026-03-13T10:15:21.779Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
-      }
-    },
-    {
-      "id": "2026-03-13-morning",
-      "url": "https://agentcanary.ai/record/2026/03/13#morning",
-      "title": "Morning Brief — Mar 13, 2026",
-      "content_text": "🟡 Neutral · Neutral · Gauge 78/100 Stagflation regime · Fear & Greed: neutral · WATCH",
-      "summary": "🟡 Neutral · Neutral · Gauge 78/100",
-      "date_published": "2026-03-13T04:15:01.850Z",
-      "tags": [
-        "neutral-·-neutral",
-        "gauge-78"
-      ],
-      "_agentcanary": {
-        "session": "morning"
       }
     }
   ]
