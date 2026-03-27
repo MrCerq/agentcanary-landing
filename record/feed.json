@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-27-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/27#intelligence",
+      "title": "Signal Scan — Mar 27, 2026",
+      "content_text": "SIGNAL SCAN — Mar 27, 2026 Risk 69.7/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 27, 2026",
+      "date_published": "2026-03-27T10:15:19.476Z",
+      "tags": [
+        "medium",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-03-27-morning",
       "url": "https://agentcanary.ai/record/2026/03/27#morning",
       "title": "Morning Brief — Mar 27, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-14-evening",
-      "url": "https://agentcanary.ai/record/2026/03/14#evening",
-      "title": "Evening Wrap — Mar 14, 2026",
-      "content_text": "Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertain… MARKET WRAP — Mar 14, 2026\n\nMarkets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction",
-      "summary": "Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertain…",
-      "date_published": "2026-03-14T22:15:06.514Z",
-      "tags": [
-        "mixed",
-        "eu-markit-manufact"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

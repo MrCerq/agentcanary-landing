@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Mar 27, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/27#intelligence</link>
+      <description>SIGNAL SCAN — Mar 27, 2026 — Risk 69.7/100 · 8 movers</description>
+      <pubDate>Fri, 27 Mar 2026 10:15:19 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/27#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Mar 27, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/27#morning</link>
       <description>▼ Risk-Off · Neutral · Gauge 69.7/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
@@ -368,15 +375,6 @@ Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held
       <description>🔴 Risk-Off · Neutral · Gauge 93.6/100 — Stagflation regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Sun, 15 Mar 2026 04:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/15#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/14#evening</link>
-      <description>Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertain… — MARKET WRAP — Mar 14, 2026
-
-Markets traded in classic stagflation mode with elevated VIX at 27.19 signaling persistent uncertainty around growth-inflation dynamics. Risk assets showed mixed conviction</description>
-      <pubDate>Sat, 14 Mar 2026 22:15:06 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/14#evening</guid>
     </item>
   </channel>
 </rss>
