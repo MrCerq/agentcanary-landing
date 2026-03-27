@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-27",
+    "time": "04:15 UTC",
+    "headline": "▼ Risk-Off · Neutral · Gauge 69.7/100",
+    "headlineColor": "#F87171",
+    "desc": "STAGFLATION. F&G: —. WATCH.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 69.7",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 70
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1.5/6 WATCH",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 197,
+    "telegramText": "<b>MACRO RADAR</b> — Mar 27, 2026\n\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 69.7/100\n\n• BTC: <b>$68,510</b>\n• ETH: <b>$2,050</b>\n• SOL: <b>$86.25</b>\n• GOLD: <b>$4,364</b>\nSPY: <b>$645.09</b> (-1.2%)\nQQQ: <b>$573.79</b> (-1.7%)\nVIX: <b>27.4</b> (+8.3%)\nTLT: <b>$86.11</b> (+0.1%)\nDXY: <b>99.8</b> (-0.1%)\nOIL: <b>$93.49</b> (-1.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.06T</b> (YoY -3.31%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>317bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 10Y Real Rate: +2.33σ\n▲ Gold: -1.77σ\n▲ Silver: -1.64σ\n▼ Fed Balance Sheet: +1.50σ\n— INDPRO: +1.41σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ NVDA: -7.0%\n▼ ETH: -0.9%\n▼ SOL: -0.7%\n▼ BTC: -0.5%\n\n<b>TOP MOVERS</b>\n▲ VIX $27.44 (+8.3%)\n▼ EWY $120 (-6.8%)\n▼ BRENT $101 (-6.6%)\n▲ ONDO $0.2795 (+5.4%)\n▼ ETHFI $0.4977 (-4.9%)\n▼ M $2.10 (-3.7%)\n▲ XBI $124 (+3.6%)\n▼ SOXX $329 (-3.6%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4364 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-03-26",
     "time": "22:15 UTC",

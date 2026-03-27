@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-03-26",
-  "time": "22:15 UTC",
-  "headline": "Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off f…",
-  "headlineColor": "#A78BFA",
-  "desc": "STAGFLATION. 17 news items. 5 scenario shifts.",
+  "session": "morning",
+  "date": "2026-03-27",
+  "time": "04:15 UTC",
+  "headline": "▼ Risk-Off · Neutral · Gauge 69.7/100",
+  "headlineColor": "#F87171",
+  "desc": "STAGFLATION. F&G: —. WATCH.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
+      "t": "Risk-Off · Neutral",
       "c": "red"
     },
     {
-      "t": "US Durable goods orders (MoM) ",
-      "c": "blue"
+      "t": "GAUGE 69.7",
+      "c": "red"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 81
+        "value": 70
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Durable goods orders (MoM) (Revised",
-          "v": "Apr 4",
-          "c": "blue"
-        },
-        {
-          "k": "US Seasonally adjusted changes in non-",
-          "v": "Apr 3",
-          "c": "blue"
-        },
-        {
-          "k": "US Unemployment Rate(Mar)",
-          "v": "Apr 3",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1.5/6 WATCH",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 26, 2026\n\n<i>Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off flows while inflationary concerns mounted. The VIX spike above 27 drove defensive positioning into gold near $4,364, as both crypto and equities sold off amid fears of economic stagnation. Late-cycle dynamics are clearly asserting themselves across asset classes.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$68,883</b> · ETH: <b>$2,068</b> · SOL: <b>$86.83</b> · GOLD: <b>$4,364</b> · SPY: <b>$645.09</b> (-1.2%) · QQQ: <b>$573.79</b> (-1.7%) · VIX: <b>$27.44</b> (+8.3%) · TLT: <b>$86.11</b> (+0.1%) · DXY: <b>$99.87</b> (+0.3%) · OIL: <b>$93.47</b> (+3.5%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +3.7% · XBI (Biotech) +1.3% · XLB (Materials) +2.8%\n▼ COPX (Copper Miners) -2.1% · URA (Uranium) -3.3% · SMH (Semiconductors) -3.6%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 90) — BTC, ETH\n\n<b>EVENING NEWS</b>\n▲ After a $1.2 billion run, XRP ETFs just flipped from inflows to outflows\n▼ Asian Stocks to Drop as Trump Extends Iran Talks: Markets Wrap\n▲ Bitcoin gained 655% the last time this supply in profit metric dropped to 50%\n▼ Crypto drops alongside equities as risk-off sentiment spreads across markets\n▼ MARA Sells 15,000 BTC for $1.1 Billion to Retire Convertible Debt\n▼ Bitcoin, Ethereum Slip as Trump Says He's 'Not Desperate' to End Iran War\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto profit-taking and nonbank credit growth signal mature cycle dynamics\n▲ Recession: Broad risk-off sentiment and asset liquidations increase recession probability\n▼ Goldilocks: Multiple headwinds eliminate conditions for balanced growth environment\n▲ Stagflation: Geopolitical tensions driving energy costs while growth concerns mount\n▲ Hegemony: Iran tensions highlight ongoing U.S. geopolitical engagement requirements\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 81.2/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 55.4)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 2, 02:00 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's historical 655% gain after 50% supply-in-profit metric suggests current weakness could be \n• MARA's debt retirement through Bitcoin sales may signal confident balance sheet optimization rather \n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 196
+  "telegramText": "<b>MACRO RADAR</b> — Mar 27, 2026\n\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 69.7/100\n\n• BTC: <b>$68,510</b>\n• ETH: <b>$2,050</b>\n• SOL: <b>$86.25</b>\n• GOLD: <b>$4,364</b>\nSPY: <b>$645.09</b> (-1.2%)\nQQQ: <b>$573.79</b> (-1.7%)\nVIX: <b>27.4</b> (+8.3%)\nTLT: <b>$86.11</b> (+0.1%)\nDXY: <b>99.8</b> (-0.1%)\nOIL: <b>$93.49</b> (-1.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.06T</b> (YoY -3.31%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>317bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 10Y Real Rate: +2.33σ\n▲ Gold: -1.77σ\n▲ Silver: -1.64σ\n▼ Fed Balance Sheet: +1.50σ\n— INDPRO: +1.41σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ NVDA: -7.0%\n▼ ETH: -0.9%\n▼ SOL: -0.7%\n▼ BTC: -0.5%\n\n<b>TOP MOVERS</b>\n▲ VIX $27.44 (+8.3%)\n▼ EWY $120 (-6.8%)\n▼ BRENT $101 (-6.6%)\n▲ ONDO $0.2795 (+5.4%)\n▼ ETHFI $0.4977 (-4.9%)\n▼ M $2.10 (-3.7%)\n▲ XBI $124 (+3.6%)\n▼ SOXX $329 (-3.6%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4364 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 197
 }
