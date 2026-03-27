@@ -1,53 +1,61 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-03-27",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 27, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 69.7/100 · 8 movers",
+  "time": "16:15 UTC",
+  "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:RISK_OFF 4h:RISK_OFF",
   "tags": [
     {
-      "t": "MEDIUM",
-      "c": "yellow"
+      "t": "RISK_OFF",
+      "c": "red"
     },
     {
-      "t": "STAGFLATION",
+      "t": "WHALE ALERT",
       "c": "blue"
+    },
+    {
+      "t": "RIVER 451% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 70
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "ONDO",
-          "v": "+11.3%",
-          "c": "green"
-        },
-        {
-          "k": "GOLD",
-          "v": "-8.3%",
+          "k": "BTC 1D",
+          "v": "RISK_OFF",
           "c": "red"
         },
         {
-          "k": "SLV",
-          "v": "-6.8%",
+          "k": "ETH 1D",
+          "v": "RISK_OFF",
           "c": "red"
         },
         {
-          "k": "EWY",
-          "v": "-6.1%",
+          "k": "SOL 1D",
+          "v": "RISK_OFF",
           "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$250M USDC",
+          "v": "minted at USDC Treas",
+          "c": "blue"
+        },
+        {
+          "k": "$269M PYUSD",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 27, 2026\n\n<b>SNAPSHOT</b>\nRisk-off cascade accelerating as Iran war stalemate threatens Fed rate cuts. Oil shock hitting inflation while growth concerns mount — classic stagflation setup. Institutional crypto rotation stalling as XRP ETFs flip to outflows after $1.2B run.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 69.7/100 (Elevated)\nRegime: STAGFLATION — Oil price shock hitting inflation while real yields rise\nKey prices: SPY -1.2%, QQQ -1.7%, VIX +5.0%, TLT +0.1%, DXY +0.1%, OIL +1.7%\nICSA: 210K (slight uptick, -0.22 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Talks Collapse\nSPY: $580-610 (-10 to -5%)\nBTC: $58K-62K (-15 to -10%)\nOIL: $110-120 (+15 to +25%)\n\n<b>SCENARIO B</b> — Diplomatic Resolution \nSPY: $680-710 (+5 to +10%)\nBTC: $75K-80K (+10 to +17%)\nOIL: $82-88 (-15 to -8%)\n\n<b>SCENARIO C</b> — Extended Stalemate\nSPY: $620-650 (-4 to +1%)\nBTC: $62K-72K (-10 to +5%)\nOIL: $92-105 (-4 to +9%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.6%) — bid\n2. Materials (XLB -0.7%) — weak  \n3. Financials (XLF -0.6%) — rotating\n4. Technology (XLK -3.1%) — dump\n5. Semiconductors (SMH -4.6%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nONDO +11.3% — institutional DeFi positioning amid traditional finance stress\nGOLD -8.3% — Tether's XAUT expansion to BNB Chain creates tokenized gold supply overhang\nSLV -6.8% — precious metals deleveraging as real yields rise\nEWY -6.1% — Korea exposure to China slowdown and semiconductor cycle\nBRENT -5.8% — profit-taking after Iran war premium spike\nTON -3.1% — Goldman-backed Canton Network integrates LayerZero but crypto rotation continues\n\n<i>Cross-asset deleveraging intensifying as stagflationary pressures force institutional rotation from growth to energy beta.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: -$62.0M outflow (high significance)\nWhale positioning: Heavy BTC shorts ($61.5M) vs longs ($20.2M), ETH massively short-skewed ($69.9M short, $0 long)\nCorporate Bitcoin rotation: MARA selling 15K BTC for debt retirement signals institutional deleveraging\n\n<b>IMPLICATION</b>\nTactical energy overweight warranted as oil shock probability rises while Fed policy uncertainty caps duration trades. Bitcoin's institutional sell-off creating near-term headwinds but potential entry opportunity if geopolitical premium fades.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 198
+  "telegramText": "<b>MARKET PULSE</b> — Mar 27, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$65,853</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$1,975</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$82.88</b> — 1d: RISK_OFF | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($250,024,750)\n  <i>minted at USDC Treasury</i>\n• 268,987,323 PYUSD ($269,065,344)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 268,987,323 PYUSD ($269,035,108)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RIVER</b>: 524% net APR (0.0515% rate)\n  Long Bitget / Short OKX | OI: $10.6M | Spread: -0.28%\n• <b>ARIA</b>: 318% net APR (0.0884% rate)\n  Long Binance / Short Bitget | OI: $10.1M | Spread: -0.42%\n• <b>PIPPIN</b>: 102% net APR (0.0782% rate)\n  Long Bybit / Short Bitget | OI: $5.3M | Spread: 0.13%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $195,202,072 | Longs: 93% | L/S: 14.0:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Iran Geopolitical Crisis [OIL, BTC, SPY]\n▼ Bitcoin Major Correction [BTC, ETH, AAVE]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 199
 }

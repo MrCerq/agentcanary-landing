@@ -1,5 +1,66 @@
 [
   {
+    "session": "midday",
+    "date": "2026-03-27",
+    "time": "16:15 UTC",
+    "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:RISK_OFF 4h:RISK_OFF",
+    "tags": [
+      {
+        "t": "RISK_OFF",
+        "c": "red"
+      },
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "RIVER 451% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "RISK_OFF",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$250M USDC",
+            "v": "minted at USDC Treas",
+            "c": "blue"
+          },
+          {
+            "k": "$269M PYUSD",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — Mar 27, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$65,853</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$1,975</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$82.88</b> — 1d: RISK_OFF | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($250,024,750)\n  <i>minted at USDC Treasury</i>\n• 268,987,323 PYUSD ($269,065,344)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 268,987,323 PYUSD ($269,035,108)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RIVER</b>: 524% net APR (0.0515% rate)\n  Long Bitget / Short OKX | OI: $10.6M | Spread: -0.28%\n• <b>ARIA</b>: 318% net APR (0.0884% rate)\n  Long Binance / Short Bitget | OI: $10.1M | Spread: -0.42%\n• <b>PIPPIN</b>: 102% net APR (0.0782% rate)\n  Long Bybit / Short Bitget | OI: $5.3M | Spread: 0.13%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $195,202,072 | Longs: 93% | L/S: 14.0:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Iran Geopolitical Crisis [OIL, BTC, SPY]\n▼ Bitcoin Major Correction [BTC, ETH, AAVE]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 199
+  },
+  {
     "session": "intelligence",
     "date": "2026-03-27",
     "time": "10:15 UTC",
@@ -1435,43 +1496,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — March 20, 2026\n\n<b>SNAPSHOT</b>\nRisk-off stagflation regime accelerating as precious metals crater while energy rallies. Core divergence: Bitcoin ETF flows +$765M despite defensive positioning hitting peak levels. Geopolitical premium repricing with Qatar LNG force majeure adding supply shock risk.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 78.7/100 (High)\nRegime: STAGFLATION — Financial conditions tightening despite liquidity expansion\nSPY -1.6% | QQQ -1.7% | VIX +4.4% | TLT +0.0% | DXY +0.4% | OIL -0.0%\nICSA: 205K (trending down, employment stable)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $64K-67K (-6% to -4%)\nSPY: $620-640 (-6% to -3%)\nOIL: $105-115 (+9% to +20%)\n\n<b>SCENARIO B</b> — Stagflation Pivot \nBTC: $75K-78K (+7% to +11%)\nTLT: $82-85 (-6% to -3%)\nGLD: $400-420 (-6% to -1%)\n\n<b>SCENARIO C</b> — Risk Asset Bounce\nSPY: $680-700 (+3% to +6%)\nQQQ: $620-640 (+5% to +8%)\nVIX: $18-22 (-28% to -12%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — strong\n2. Semiconductors (SMH -0.5%) — weak\n3. Technology (XLK -0.8%) — rotating\n4. Financials (XLF -1.2%) — weak\n5. Utilities (XLU -1.3%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $65.68 (-8.3%) — PM selloff on reduced rate cut expectations, rising real yields\nGLD $426.41 (-7.2%) — Bitcoin-gold correlation plunges to -0.88, lowest since 2022\nBABA $125.01 (-7.1%) — China crackdown on fuel/fertilizer exports spurs supply fears\nSOUN $6.88 (-7.5%) — Peet's Coffee AI deployment overshadowed by broad tech rotation\nTON $1.21 (-6.2%) — Triangle breakdown, downtrend channel pattern confirmed\nBE $166.91 (+6.1%) — Nasdaq tokenization gets SEC regulatory green light\n\n<i>Cross-asset regime shift: crypto absorbing institutional flows while traditional inflation hedges collapse on policy tightening fears.</i>\n\n<b>POSITIONING</b>\nBTC whales: $83.8M long vs $64.7M short, net bullish despite defensive options positioning\nETH whales: Heavy short bias at $37.8M, no material longs\nBTC ETF flows: +$765M inflow (high significance), 1-day streak\n\n<b>IMPLICATION</b>\nTactical long crypto/short precious metals spread capturing institutional flow divergence. Energy exposure warranted on Qatar LNG disruption, but size positions for 78.7 risk environment — downside acceleration likely unless geopolitical premium stabilizes.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 166
-  },
-  {
-    "session": "morning",
-    "date": "2026-03-20",
-    "time": "04:15 UTC",
-    "headline": "🔴 Risk-Off · Neutral · Gauge 78.7/100",
-    "headlineColor": "#F87171",
-    "desc": "STAGFLATION. F&G: —. NORMAL.",
-    "tags": [
-      {
-        "t": "Risk-Off · Neutral",
-        "c": "red"
-      },
-      {
-        "t": "GAUGE 78.7",
-        "c": "red"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 79
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "1/6 NORMAL",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — Mar 20, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 78.7/100\n\n• BTC: <b>$70,753</b>\n• ETH: <b>$2,152</b>\n• SOL: <b>$89.58</b>\n• GOLD: <b>$4,634</b>\nSPY: <b>$659.8</b> (-1.6%)\nQQQ: <b>$593.02</b> (-1.7%)\nVIX: <b>24.1</b> (-4.1%)\nTLT: <b>$87.49</b> (+0.0%)\nDXY: <b>99.4</b> (+0.2%)\nOIL: <b>$93.58</b> (-2.7%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18T</b> (YoY -3.32%)\n   US M2: $22.44T (YoY +4.29%)\n🟢 HY Credit Spreads: <b>320bps</b> CALM (5d: +11bps)\n\n<b>NOTABLE Z-SCORES</b>\n🟢 Gold: -3.13σ\n🟢 Silver: -2.41σ\n🔴 DTWEXBGS: +2.21σ\n🟢 2s10s Curve: -2.15σ\n🔴 2Y Treasury: +1.78σ\n\n<b>TOP MOVERS</b>\n🔴 SLV $65.68 (-8.3%)\n🔴 SOUN $6.88 (-7.5%)\n🔴 GLD $426 (-7.2%)\n🔴 BABA $125 (-7.1%)\n🔴 TON $1.21 (-6.2%)\n🟢 BE $167 (+6.1%) — Bitcoin Is in Uncertain Territory. Could Strategy’s STRC Be \n🔴 ATOM $1.80 (-5.8%)\n🟢 INJ $3.19 (+4.6%)\n\n<b>HEGEMONY SNAPBACK</b> 🟢: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.5518 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 165
   }
 ]
