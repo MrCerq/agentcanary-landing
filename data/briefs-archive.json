@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-27",
+    "time": "22:15 UTC",
+    "headline": "Markets turned risk-off as Gulf tensions escalated, but the traditional playbook broke down with gol…",
+    "headlineColor": "#A78BFA",
+    "desc": "STAGFLATION. 18 news items. 6 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Durable goods orders (MoM) ",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 70
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Durable goods orders (MoM) (Revised",
+            "v": "Apr 4",
+            "c": "blue"
+          },
+          {
+            "k": "US Unemployment Rate(Mar)",
+            "v": "Apr 3",
+            "c": "blue"
+          },
+          {
+            "k": "US Seasonally adjusted changes in non-",
+            "v": "Apr 3",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 200,
+    "telegramText": "<b>MARKET WRAP</b> — Mar 27, 2026\n\n<i>Markets turned risk-off as Gulf tensions escalated, but the traditional playbook broke down with gold unexpectedly under pressure despite safe-haven demand. The stagflation regime intensified as geopolitical risks collided with persistent inflation fears, leaving investors caught between recession hedges and commodity exposure conflicts.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$66,019</b> · ETH: <b>$1,984</b> · SOL: <b>$82.74</b> · GOLD: <b>$4,516</b> · SPY: <b>$634.09</b> (-3.5%) · QQQ: <b>$562.58</b> (-4.3%) · VIX: <b>$31.05</b> (+13.2%) · TLT: <b>$85.64</b> (-1.4%) · DXY: <b>$100.19</b> (+0.3%) · OIL: <b>$101.18</b> (+7.1%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +5.5% · XLU (Utilities) +2.1% · XLB (Materials) +4.1%\n▼ COPX (Copper Miners) +3.7% · URA (Uranium) +0.4% · ITA (Aerospace/Defense) -2.9%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 60) — BTC, ETH\n\n<b>EVENING NEWS</b>\n▲ Gulf officials seek to calm investors as war rattles confidence\n▼ Gold falls for fourth straight week, faces added pressure from central bank reserve sales\n▼ Bitcoin traders see 53% odds of sub-$66K BTC by April 24\n▼ RIVER crypto’s volatility surges: Why traders should watch $11.4 next\n▼ SEC Division Overseeing Private Credit Firms Lost 24% of Staff\n▲ BlackRock’s Fink Pay Bumped 23% After Private Markets Push\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Private markets consolidation and gold weakness suggest cycle extension\n▲ Recession: Gulf tensions and crypto bearishness increase recession probability\n▼ Goldilocks: Geopolitical stress and safe haven breakdown challenge benign conditions\n▲ Stagflation: Gulf war risk threatens energy supply while gold selling suggests liquidity stress\n▲ Hegemony: Private markets concentration in major players like BlackRock\n▲ Displacement: Traditional safe haven dynamics breaking down with gold weakness and crypto stress\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 69.7/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 55.4)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 2, 02:00 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• Gold weakness during geopolitical stress could signal maximum pessimism rather than structural break\n• Private credit's regulatory staffing decline might create compliance arbitrage opportunities for wel\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-03-27",
     "time": "16:15 UTC",
