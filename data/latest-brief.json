@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-28",
-  "time": "04:15 UTC",
-  "headline": "▼ Risk-Off · Neutral · Gauge 71.4/100",
-  "headlineColor": "#F87171",
-  "desc": "STAGFLATION. F&G: —. WATCH.",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 28, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 71.4/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
+      "t": "HIGH",
       "c": "red"
     },
     {
-      "t": "GAUGE 71.4",
-      "c": "red"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1.5/6 WATCH",
+          "k": "VIX",
+          "v": "+13.2%",
+          "c": "green"
+        },
+        {
+          "k": "TKMS",
+          "v": "-6.5%",
+          "c": "red"
+        },
+        {
+          "k": "OIL",
+          "v": "+5.5%",
+          "c": "green"
+        },
+        {
+          "k": "WTI",
+          "v": "+5.5%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 28, 2026\n\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n• BTC: <b>$66,143</b>\n• ETH: <b>$1,987</b>\n• SOL: <b>$82.55</b>\n• GOLD: <b>$4,516</b>\nSPY: <b>$634.09</b> (-3.5%)\nQQQ: <b>$562.58</b> (-4.3%)\nVIX: <b>31.1</b> (+13.2%)\nTLT: <b>$85.64</b> (-1.4%)\nDXY: <b>100.2</b> (+0.3%)\nOIL: <b>$101.18</b> (+7.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.06T</b> (YoY -3.31%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>321bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ 10Y Real Rate: +1.96σ\n▲ 2s10s Curve: -1.85σ\n▼ 2Y Treasury: +1.81σ\n▼ 10Y Treasury: +1.69σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ NVDA: -9.1%\n\n<b>TOP MOVERS</b>\n▲ VIX $31.05 (+13.2%)\n▼ TKMS $72.70 (-10.0%)\n▲ OIL $101 (+7.1%) — Indonesia: Inflation pressures from Oil and festivals – DBS\n▲ WTI $101 (+7.1%)\n▼ SOXX $323 (-6.3%)\n▼ APT $0.9455 (-3.8%)\n▼ XDC $0.03031 (-2.8%)\n▼ ONDO $0.2638 (-2.7%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4516 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 201
+  "telegramText": "<b>SIGNAL SCAN</b> — March 28, 2026\n\n<b>SNAPSHOT</b>\nRisk-off accelerating as Iran war escalates and $16.4B crypto options expire. Stagflation fears resurface with oil spiking 5.5% while real yields rise. Cross-asset dislocation widening — gold rallying despite crude surge signals structural stress.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 71.4/100 (High)\nRegime: STAGFLATION — Real yields rising amid expanding liquidity and inflation spike\nSPY: -3.5% | QQQ: -4.3% | VIX: +13.2% | TLT: -1.4% | DXY: +0.3% | OIL: +5.5%\nICSA: 210K (neutral, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Conflict Escalates\nSPY: $590-610 (-4 to -7%)\nBTC: $58K-62K (-9 to -13%)\nOIL: $108-115 (+8 to +15%)\n\n<b>SCENARIO B</b> — Options Expiry Capitulation\nBTC: $62K-68K (-6 to +3%)\nETH: $1850-2050 (-7 to +3%)\nVIX: 25-35 (-19 to +13%)\n\n<b>SCENARIO C</b> — Stagflation Confirmed\nTLT: $80-84 (-7 to -2%)\nGLD: $430-450 (+4 to +9%)\nSPY: $600-625 (-5 to -1%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.7%) — strong\n2. Copper Miners (COPX +1.0%) — bid\n3. Consumer Staples (XLP +0.8%) — defensive\n4. Biotech (XBI -3.5%) — dump\n5. Consumer Disc (XLY -2.9%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 31.05 (+13.2%) — Iran war escalation rattling global confidence\nOIL 99.64 (+5.5%) — Iran conflict driving energy premium as Warren calls for war end\nGLD 414.7 (+3.5%) — Safe haven bid amid geopolitical stress despite central bank sales\nAAVE 96.81 (-2.1%) — ECB paper finds DeFi governance highly concentrated, top 100 addresses control 80%\nTKMS 72.7 (-6.5%) — German defense contractor hit despite sector rotation expectations\n<i>Cross-asset divergence deepens as commodities price war risk while crypto faces structural liquidation pressure.</i>\n\n<b>POSITIONING</b>\nWhales aggressively short crypto: BTC $118M short vs $0 long, ETH $38M short vs $0 long. Max leverage 40x on BTC positions signals capitulation phase.\nBTC ETF outflows accelerate to -$62M, marking institutional de-risking amid options expiry pressure.\n\n<b>IMPLICATION</b>\nLate-cycle dynamics accelerating with stagflationary pressures and geopolitical shocks. Tactical opportunity in commodities/staples vs growth if war premium persists, but crypto liquidation may signal broader risk asset capitulation ahead.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 202
 }
