@@ -1,53 +1,61 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-03-28",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 28, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 71.4/100 · 8 movers",
+  "time": "16:15 UTC",
+  "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:RISK_OFF 4h:RISK_OFF",
   "tags": [
     {
-      "t": "HIGH",
+      "t": "RISK_OFF",
       "c": "red"
     },
     {
-      "t": "STAGFLATION",
+      "t": "WHALE ALERT",
       "c": "blue"
+    },
+    {
+      "t": "ONT 486% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 71
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "VIX",
-          "v": "+13.2%",
-          "c": "green"
-        },
-        {
-          "k": "TKMS",
-          "v": "-6.5%",
+          "k": "BTC 1D",
+          "v": "RISK_OFF",
           "c": "red"
         },
         {
-          "k": "OIL",
-          "v": "+5.5%",
-          "c": "green"
+          "k": "ETH 1D",
+          "v": "RISK_OFF",
+          "c": "red"
         },
         {
-          "k": "WTI",
-          "v": "+5.5%",
-          "c": "green"
+          "k": "SOL 1D",
+          "v": "RISK_OFF",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$130M USDT",
+          "v": "transferred from Tet",
+          "c": "blue"
+        },
+        {
+          "k": "$133M BTC",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 28, 2026\n\n<b>SNAPSHOT</b>\nRisk-off accelerating as Iran war escalates and $16.4B crypto options expire. Stagflation fears resurface with oil spiking 5.5% while real yields rise. Cross-asset dislocation widening — gold rallying despite crude surge signals structural stress.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 71.4/100 (High)\nRegime: STAGFLATION — Real yields rising amid expanding liquidity and inflation spike\nSPY: -3.5% | QQQ: -4.3% | VIX: +13.2% | TLT: -1.4% | DXY: +0.3% | OIL: +5.5%\nICSA: 210K (neutral, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Conflict Escalates\nSPY: $590-610 (-4 to -7%)\nBTC: $58K-62K (-9 to -13%)\nOIL: $108-115 (+8 to +15%)\n\n<b>SCENARIO B</b> — Options Expiry Capitulation\nBTC: $62K-68K (-6 to +3%)\nETH: $1850-2050 (-7 to +3%)\nVIX: 25-35 (-19 to +13%)\n\n<b>SCENARIO C</b> — Stagflation Confirmed\nTLT: $80-84 (-7 to -2%)\nGLD: $430-450 (+4 to +9%)\nSPY: $600-625 (-5 to -1%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.7%) — strong\n2. Copper Miners (COPX +1.0%) — bid\n3. Consumer Staples (XLP +0.8%) — defensive\n4. Biotech (XBI -3.5%) — dump\n5. Consumer Disc (XLY -2.9%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 31.05 (+13.2%) — Iran war escalation rattling global confidence\nOIL 99.64 (+5.5%) — Iran conflict driving energy premium as Warren calls for war end\nGLD 414.7 (+3.5%) — Safe haven bid amid geopolitical stress despite central bank sales\nAAVE 96.81 (-2.1%) — ECB paper finds DeFi governance highly concentrated, top 100 addresses control 80%\nTKMS 72.7 (-6.5%) — German defense contractor hit despite sector rotation expectations\n<i>Cross-asset divergence deepens as commodities price war risk while crypto faces structural liquidation pressure.</i>\n\n<b>POSITIONING</b>\nWhales aggressively short crypto: BTC $118M short vs $0 long, ETH $38M short vs $0 long. Max leverage 40x on BTC positions signals capitulation phase.\nBTC ETF outflows accelerate to -$62M, marking institutional de-risking amid options expiry pressure.\n\n<b>IMPLICATION</b>\nLate-cycle dynamics accelerating with stagflationary pressures and geopolitical shocks. Tactical opportunity in commodities/staples vs growth if war premium persists, but crypto liquidation may signal broader risk asset capitulation ahead.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 202
+  "telegramText": "<b>MARKET PULSE</b> — Mar 28, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$66,832</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$2,021</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$83.3</b> — 1d: RISK_OFF | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 130,000,000 USDT ($129,912,110)\n  <i>transferred from Tether Treasury to #Bitfinex</i>\n• 2,000 BTC ($132,539,780)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 1,999 BTC ($132,263,814)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ONT</b>: 694% net APR (0.0555% rate)\n  Long Bitget / Short Bybit | OI: $6.1M | Spread: -0.63%\n• <b>NIGHT</b>: 185% net APR (0.1010% rate)\n  Long OKX / Short Binance | OI: $6.4M | Spread: 0.02%\n• <b>SIREN</b>: 279% net APR (0.0248% rate)\n  Long Binance / Short Bitget | OI: $32.0M | Spread: -0.25%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $39,536,242 | Longs: 39% | L/S: 0.6:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Iran War Geopolitical Risk [BTC, ETH, SPY]\n▼ Crypto Market Correction Deepening [BTC, ETH, XRP]\n— Smart Money Bitcoin Accumulation [BTC]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 203
 }
