@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-28-evening",
+      "url": "https://agentcanary.ai/record/2026/03/28#evening",
+      "title": "Evening Wrap — Mar 28, 2026",
+      "content_text": "Markets reflected a stagflationary regime shift as geopolitical tensions and crypto capitulation dro… STAGFLATION. 16 news items. 5 scenario shifts.",
+      "summary": "Markets reflected a stagflationary regime shift as geopolitical tensions and crypto capitulation dro…",
+      "date_published": "2026-03-28T22:15:05.116Z",
+      "tags": [
+        "bearish-skew",
+        "us-durable-goods-orders-(mom)-"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-28-midday",
       "url": "https://agentcanary.ai/record/2026/03/28#midday",
       "title": "Market Pulse — Mar 28, 2026",
@@ -752,21 +767,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-16-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/16#intelligence",
-      "title": "Signal Scan — Mar 16, 2026",
-      "content_text": "SIGNAL SCAN — Mar 16, 2026 Risk 93.6/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 16, 2026",
-      "date_published": "2026-03-16T10:15:21.596Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

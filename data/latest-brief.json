@@ -1,61 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-03-28",
-  "time": "16:15 UTC",
-  "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:RISK_OFF 4h:RISK_OFF",
+  "time": "22:15 UTC",
+  "headline": "Markets reflected a stagflationary regime shift as geopolitical tensions and crypto capitulation dro…",
+  "headlineColor": "#A78BFA",
+  "desc": "STAGFLATION. 16 news items. 5 scenario shifts.",
   "tags": [
     {
-      "t": "RISK_OFF",
+      "t": "BEARISH SKEW",
       "c": "red"
     },
     {
-      "t": "WHALE ALERT",
+      "t": "US Durable goods orders (MoM) ",
       "c": "blue"
-    },
-    {
-      "t": "ONT 486% APR",
-      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "RISK_OFF",
-          "c": "red"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "RISK_OFF",
-          "c": "red"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "RISK_OFF",
-          "c": "red"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 71
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$130M USDT",
-          "v": "transferred from Tet",
+          "k": "US Durable goods orders (MoM) (Revised",
+          "v": "Apr 4",
           "c": "blue"
         },
         {
-          "k": "$133M BTC",
-          "v": "transferred from unk",
+          "k": "US Unemployment Rate(Mar)",
+          "v": "Apr 3",
+          "c": "blue"
+        },
+        {
+          "k": "US Seasonally adjusted changes in non-",
+          "v": "Apr 3",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Mar 28, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$66,832</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$2,021</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$83.3</b> — 1d: RISK_OFF | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 130,000,000 USDT ($129,912,110)\n  <i>transferred from Tether Treasury to #Bitfinex</i>\n• 2,000 BTC ($132,539,780)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 1,999 BTC ($132,263,814)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ONT</b>: 694% net APR (0.0555% rate)\n  Long Bitget / Short Bybit | OI: $6.1M | Spread: -0.63%\n• <b>NIGHT</b>: 185% net APR (0.1010% rate)\n  Long OKX / Short Binance | OI: $6.4M | Spread: 0.02%\n• <b>SIREN</b>: 279% net APR (0.0248% rate)\n  Long Binance / Short Bitget | OI: $32.0M | Spread: -0.25%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $39,536,242 | Longs: 39% | L/S: 0.6:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Iran War Geopolitical Risk [BTC, ETH, SPY]\n▼ Crypto Market Correction Deepening [BTC, ETH, XRP]\n— Smart Money Bitcoin Accumulation [BTC]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 203
+  "telegramText": "<b>MARKET WRAP</b> — Mar 28, 2026\n\n<i>Markets reflected a stagflationary regime shift as geopolitical tensions and crypto capitulation drove broad risk-off sentiment. Bitcoin's 25% Q1 plunge amid ETF outflows cascaded into equities while elevated VIX signaled heightened uncertainty. The dollar's strength and oil's resilience underscored inflationary pressures persisting despite growth concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$66,934</b> · ETH: <b>$2,023</b> · SOL: <b>$83.38</b> · GOLD: <b>$4,516</b> · SPY: <b>$634.09</b> (-3.5%) · QQQ: <b>$562.58</b> (-4.3%) · VIX: <b>$31.05</b> (+13.2%) · TLT: <b>$85.64</b> (-1.4%) · DXY: <b>$100.19</b> (+0.3%) · OIL: <b>$99.64</b> (+5.5%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +5.5% · XLU (Utilities) +2.1% · XLB (Materials) +4.1%\n▼ COPX (Copper Miners) +3.7% · URA (Uranium) +0.4% · ITA (Aerospace/Defense) -2.9%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 46) — BTC, ETH\n— Iran / Middle East (intensity 45)\n\n<b>EVENING NEWS</b>\n▲ 39 Billion SHIB: Shiba Inu’s Woes Are Far From Over As Sell-Offs Continue\n▼ UK and Singapore press ahead with digital deal as WTO remains deadlocked\n▼ Mexican Navy Locates Missing Aid Vessels Destined for Cuba\n▲ Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks\n▼ Real estate stocks end lower amid higher yields, interest rate concerns\n▲ Brazil passes anti-gang law allowing seized crypto to fund security forces \n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Rate concerns and crypto capitulation signal asset bubble deflation\n▲ Recession: Risk asset selloffs and flight from speculation indicate economic slowdown fears\n▼ Goldilocks: Geopolitical tensions and market volatility contradict stable growth narrative\n▲ Stagflation: Iran war risks threaten supply chains while rate pressures persist\n▲ Hegemony: Middle East conflicts test US ability to maintain regional stability\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 55.4)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 2, 02:00 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• Massive Bitcoin whale accumulation of 23,000+ BTC suggests smart money is buying the panic while ret\n• Ethereum's record user growth despite price weakness indicates the network effect is strengthening d\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 204
 }

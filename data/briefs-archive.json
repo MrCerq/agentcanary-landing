@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-28",
+    "time": "22:15 UTC",
+    "headline": "Markets reflected a stagflationary regime shift as geopolitical tensions and crypto capitulation dro…",
+    "headlineColor": "#A78BFA",
+    "desc": "STAGFLATION. 16 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Durable goods orders (MoM) ",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 71
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Durable goods orders (MoM) (Revised",
+            "v": "Apr 4",
+            "c": "blue"
+          },
+          {
+            "k": "US Unemployment Rate(Mar)",
+            "v": "Apr 3",
+            "c": "blue"
+          },
+          {
+            "k": "US Seasonally adjusted changes in non-",
+            "v": "Apr 3",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 204,
+    "telegramText": "<b>MARKET WRAP</b> — Mar 28, 2026\n\n<i>Markets reflected a stagflationary regime shift as geopolitical tensions and crypto capitulation drove broad risk-off sentiment. Bitcoin's 25% Q1 plunge amid ETF outflows cascaded into equities while elevated VIX signaled heightened uncertainty. The dollar's strength and oil's resilience underscored inflationary pressures persisting despite growth concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$66,934</b> · ETH: <b>$2,023</b> · SOL: <b>$83.38</b> · GOLD: <b>$4,516</b> · SPY: <b>$634.09</b> (-3.5%) · QQQ: <b>$562.58</b> (-4.3%) · VIX: <b>$31.05</b> (+13.2%) · TLT: <b>$85.64</b> (-1.4%) · DXY: <b>$100.19</b> (+0.3%) · OIL: <b>$99.64</b> (+5.5%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +5.5% · XLU (Utilities) +2.1% · XLB (Materials) +4.1%\n▼ COPX (Copper Miners) +3.7% · URA (Uranium) +0.4% · ITA (Aerospace/Defense) -2.9%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 46) — BTC, ETH\n— Iran / Middle East (intensity 45)\n\n<b>EVENING NEWS</b>\n▲ 39 Billion SHIB: Shiba Inu’s Woes Are Far From Over As Sell-Offs Continue\n▼ UK and Singapore press ahead with digital deal as WTO remains deadlocked\n▼ Mexican Navy Locates Missing Aid Vessels Destined for Cuba\n▲ Why bitcoin's 'compressed' valuation offers reduced downside risk versus stocks\n▼ Real estate stocks end lower amid higher yields, interest rate concerns\n▲ Brazil passes anti-gang law allowing seized crypto to fund security forces \n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Rate concerns and crypto capitulation signal asset bubble deflation\n▲ Recession: Risk asset selloffs and flight from speculation indicate economic slowdown fears\n▼ Goldilocks: Geopolitical tensions and market volatility contradict stable growth narrative\n▲ Stagflation: Iran war risks threaten supply chains while rate pressures persist\n▲ Hegemony: Middle East conflicts test US ability to maintain regional stability\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 55.4)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 2, 02:00 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• Massive Bitcoin whale accumulation of 23,000+ BTC suggests smart money is buying the panic while ret\n• Ethereum's record user growth despite price weakness indicates the network effect is strengthening d\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-03-28",
     "time": "16:15 UTC",
