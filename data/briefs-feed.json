@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-29",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 29, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 71.4/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 71
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "VIX",
+            "v": "+13.2%",
+            "c": "green"
+          },
+          {
+            "k": "UMAC",
+            "v": "-12.4%",
+            "c": "red"
+          },
+          {
+            "k": "TKMS",
+            "v": "-6.5%",
+            "c": "red"
+          },
+          {
+            "k": "BRENT",
+            "v": "-6.4%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — March 29, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime intensifying as Iran war enters month 4 with markets pricing persistent supply shocks. Risk-off accelerating with VIX spiking to 31, crypto hemorrhaging institutional flows, and yields approaching 5% despite Fed pause. Cross-asset dislocation widening as commodities decouple from equities.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 71.4/100 (High)\nRegime: STAGFLATION — Real yields rising amid geopolitical oil premium\nKey prices: SPY -3.5% | QQQ -4.3% | VIX +13.2% | TLT -1.4% | DXY +0.04% | OIL flat\nICSA: 210K (trending down, z-score -0.35)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $58K-62K (-7% to -12%)\nSPY: $600-620 (-5% to -8%)\nOIL: $110-120 (+10% to +20%)\n\n<b>SCENARIO B</b> — Iran Ceasefire\nBTC: $70K-75K (+5% to +13%)\nSPY: $650-670 (+3% to +6%)\nOIL: $85-90 (-15% to -10%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.7%) — strong\n2. Copper Miners (COPX +1.0%) — bid\n3. Consumer Staples (XLP +0.8%) — rotating\n4. Consumer Disc (XLY -2.9%) — dump\n5. Biotech (XBI -3.5%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 31.05 (+13.2%) — Iran war escalation with Tehran strikes, Boeing E-3 damaged\nUMAC 11.78 (-12.4%) — $1.1B drone program launch triggered sell-off \nGLD 414.7 (+3.5%) — Safe haven bid amid Middle East tensions\nBRENT 105.32 (-6.4%) — Profit-taking despite Hormuz bypass routes at capacity\nADA 0.245 (-2.2%) — Canada's Bill C-25 proposing crypto donation ban\nTKMS 72.7 (-6.5%) — Defense sector rotation despite geopolitical premium\n<i>Commodities repricing supply shock risk while crypto absorbs regulatory headwinds and institutional outflows.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: -$62M outflow (high significance)\nWhale positioning heavily short: BTC 115.4M short vs 23.3M long, ETH 26.2M short only\nInstitutional crypto exodus accelerating with record exchange withdrawals suggesting capitulation phase\n\n<b>IMPLICATION</b>\nTactical opportunity emerging in commodities vs crypto beta as geopolitical premium sustains while digital assets oversold. Consider defensive rotation into energy/staples while monitoring $58K BTC support for reversal signals.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 206
+  },
+  {
     "session": "morning",
     "date": "2026-03-29",
     "time": "04:15 UTC",
@@ -1424,53 +1477,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Mar 22, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.3/100\n\n• BTC: <b>$69,355</b>\n• ETH: <b>$2,116</b>\n• SOL: <b>$88.66</b>\n• GOLD: <b>$4,501</b>\nSPY: <b>$648.57</b> (-1.9%)\nQQQ: <b>$582.06</b> (-2.2%)\nVIX: <b>26.8</b> (+11.3%)\nTLT: <b>$85.83</b> (-1.3%)\nDXY: <b>99.5</b> (-0.1%)\nOIL: <b>$98.23</b> (-0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18T</b> (YoY -3.32%)\n   US M2: $22.44T (YoY +4.29%)\n🟢 HY Credit Spreads: <b>327bps</b> CALM (5d: +10bps)\n\n<b>NOTABLE Z-SCORES</b>\n🟢 Gold: -2.87σ\n🟢 2s10s Curve: -2.64σ\n🟢 Silver: -2.54σ\n🔴 DTWEXBGS: +2.21σ\n🔴 2Y Treasury: +1.76σ\n\n<b>TOP MOVERS</b>\n🟢 VIX $26.78 (+11.3%)\n🔴 SLV $61.52 (-10.5%)\n🔴 GLD $413 (-7.1%)\n🔴 MOH $139 (-6.2%)\n🔴 BRENT $106 (-5.2%)\n🔴 PENDLE $1.21 (-4.0%)\n🔴 INJ $3.03 (-2.9%)\n🔴 MORPHO $1.73 (-2.8%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.5518 (&gt;110)\n🟡 Gold: $4501 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 173
-  },
-  {
-    "session": "evening",
-    "date": "2026-03-21",
-    "time": "22:15 UTC",
-    "headline": "0 bullish / 0 bearish signals.",
-    "headlineColor": "#A78BFA",
-    "desc": "MARKET WRAP — Mar 21, 2026\n\nMarkets reflected stagflationary pressures with VIX elevated at 26.78 as growth assets struggled despite crypto's resilience. The dollar's strength near 99.5 alongside surg",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US Conference Boar",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 91
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Conference Board Con",
-            "v": "Mar 31",
-            "c": "blue"
-          },
-          {
-            "k": "EU Consumer Price Index",
-            "v": "Mar 31",
-            "c": "blue"
-          },
-          {
-            "k": "EU Consumer Price Index",
-            "v": "Mar 31",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Mar 21, 2026\n\n<i>Markets reflected stagflationary pressures with VIX elevated at 26.78 as growth assets struggled despite crypto's resilience. The dollar's strength near 99.5 alongside surging oil prices above $98 reinforced the challenging macro backdrop where inflation risks are rekindling without corresponding growth momentum.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$70,295</b> · ETH: <b>$2,151</b> · SOL: <b>$89.95</b> · GOLD: <b>$4,501</b> · SPY: <b>$648.57</b> (-1.9%) · QQQ: <b>$582.06</b> (-2.2%) · VIX: <b>$26.78</b> (+11.3%) · TLT: <b>$85.83</b> (-1.3%) · DXY: <b>$99.5</b> (+0.3%) · OIL: <b>$98.23</b> (+2.2%)\n\n<b>SECTOR CLOSE</b>\n🟢 XLE (Energy) +2.4% · XLK (Technology) -2.5% · XBI (Biotech) -2.9%\n🔴 COPX (Copper Miners) -12.2% · URA (Uranium) -7.0% · XLB (Materials) -4.9%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 58) — BTC, ETH\n\n<b>EVENING NEWS</b>\n🔴 8,285 Bitcoin, 29 Satellites, One Massive IPO: SpaceX’s Big Week\n🔴 Bitcoin Decouples From S&amp;P 500 After Liquidation Shock as Market Divergence Widens\n🟢 Fed rate cut chance hits zero, threatening stagflation where Bitcoin thrives as a hedge ag\n🔴 Here's Why Gemini Space Station Stock Slumped This Week\n🔴 Bitcoin Miners’ Position Index Hits Historic Low: Strength Signal or Early Warning Sign?\n🟢 Stablecoins Surpass Nations as Major U.S. Treasury Holders After GENIUS Act\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 91.3/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Conference Board Consumer Confidence Index(Mar) — Mar 31, 02:00 PM UTC (prev: 91.2)\nEU Consumer Price Index (MoM)(Preliminary)(Mar) — Mar 31, 09:00 AM UTC (prev: 0.6%)\nEU Consumer Price Index (YoY)(Preliminary)(Mar) — Mar 31, 09:00 AM UTC (prev: 1.9%)\n Official Manufacturing Purchasing Managers Index(Mar) — Mar 31, 01:30 AM UTC (prev: 49.0)\n Seasonally adjusted retail sales (MoM)(Feb) — Mar 30, 11:50 PM UTC (prev: 4.1%)\n Unemployment Rate(Feb) — Mar 30, 11:30 PM UTC (prev: 2.7%)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 172
   }
 ]

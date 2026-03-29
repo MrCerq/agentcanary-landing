@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Mar 29, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/29#intelligence</link>
+      <description>SIGNAL SCAN — Mar 29, 2026 — Risk 71.4/100 · 8 movers</description>
+      <pubDate>Sun, 29 Mar 2026 10:15:20 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/29#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Mar 29, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/29#morning</link>
       <description>▼ Risk-Off · Neutral · Gauge 71.4/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
@@ -364,15 +371,6 @@ Markets traded defensively as stagflationary pressures mounted, with the regime 
       <description>🔴 Risk-Off · Neutral · Gauge 100/100 — Stagflation regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Tue, 17 Mar 2026 04:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/17#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 16, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/16#evening</link>
-      <description>Markets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dom… — MARKET WRAP — Mar 16, 2026
-
-Markets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, sugg</description>
-      <pubDate>Mon, 16 Mar 2026 22:15:06 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/16#evening</guid>
     </item>
   </channel>
 </rss>

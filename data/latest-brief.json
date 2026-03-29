@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-03-29",
-  "time": "04:15 UTC",
-  "headline": "▼ Risk-Off · Neutral · Gauge 71.4/100",
-  "headlineColor": "#F87171",
-  "desc": "STAGFLATION. F&G: —. WATCH.",
+  "time": "10:15 UTC",
+  "headline": "SIGNAL SCAN — Mar 29, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 71.4/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
+      "t": "HIGH",
       "c": "red"
     },
     {
-      "t": "GAUGE 71.4",
-      "c": "red"
+      "t": "STAGFLATION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1.5/6 WATCH",
+          "k": "VIX",
+          "v": "+13.2%",
           "c": "green"
+        },
+        {
+          "k": "UMAC",
+          "v": "-12.4%",
+          "c": "red"
+        },
+        {
+          "k": "TKMS",
+          "v": "-6.5%",
+          "c": "red"
+        },
+        {
+          "k": "BRENT",
+          "v": "-6.4%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Mar 29, 2026\n\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n• BTC: <b>$66,851</b>\n• ETH: <b>$2,009</b>\n• SOL: <b>$82.95</b>\n• GOLD: <b>$4,516</b>\nSPY: <b>$634.09</b> (-3.5%)\nQQQ: <b>$562.58</b> (-4.3%)\nVIX: <b>31.1</b> (+13.2%)\nTLT: <b>$85.64</b> (-1.4%)\nDXY: <b>100.2</b> (+0.0%)\nOIL: <b>$99.64</b> (+0.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.06T</b> (YoY -3.31%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>321bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ 10Y Real Rate: +1.96σ\n▲ 2s10s Curve: -1.85σ\n▼ 2Y Treasury: +1.81σ\n▼ 10Y Treasury: +1.69σ\n\n<b>TOP MOVERS</b>\n▲ VIX $31.05 (+13.2%)\n▼ TKMS $72.70 (-10.0%)\n▼ BRENT $105 (-6.4%)\n▼ SOXX $323 (-6.3%)\n▼ SMH $374 (-6.2%)\n▼ ENA $0.09102 (-3.0%)\n▼ FET $0.2426 (-2.8%)\n▼ RAIN $0.008071 (-2.7%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4516 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 205
+  "telegramText": "<b>SIGNAL SCAN</b> — March 29, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime intensifying as Iran war enters month 4 with markets pricing persistent supply shocks. Risk-off accelerating with VIX spiking to 31, crypto hemorrhaging institutional flows, and yields approaching 5% despite Fed pause. Cross-asset dislocation widening as commodities decouple from equities.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 71.4/100 (High)\nRegime: STAGFLATION — Real yields rising amid geopolitical oil premium\nKey prices: SPY -3.5% | QQQ -4.3% | VIX +13.2% | TLT -1.4% | DXY +0.04% | OIL flat\nICSA: 210K (trending down, z-score -0.35)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $58K-62K (-7% to -12%)\nSPY: $600-620 (-5% to -8%)\nOIL: $110-120 (+10% to +20%)\n\n<b>SCENARIO B</b> — Iran Ceasefire\nBTC: $70K-75K (+5% to +13%)\nSPY: $650-670 (+3% to +6%)\nOIL: $85-90 (-15% to -10%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.7%) — strong\n2. Copper Miners (COPX +1.0%) — bid\n3. Consumer Staples (XLP +0.8%) — rotating\n4. Consumer Disc (XLY -2.9%) — dump\n5. Biotech (XBI -3.5%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 31.05 (+13.2%) — Iran war escalation with Tehran strikes, Boeing E-3 damaged\nUMAC 11.78 (-12.4%) — $1.1B drone program launch triggered sell-off \nGLD 414.7 (+3.5%) — Safe haven bid amid Middle East tensions\nBRENT 105.32 (-6.4%) — Profit-taking despite Hormuz bypass routes at capacity\nADA 0.245 (-2.2%) — Canada's Bill C-25 proposing crypto donation ban\nTKMS 72.7 (-6.5%) — Defense sector rotation despite geopolitical premium\n<i>Commodities repricing supply shock risk while crypto absorbs regulatory headwinds and institutional outflows.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: -$62M outflow (high significance)\nWhale positioning heavily short: BTC 115.4M short vs 23.3M long, ETH 26.2M short only\nInstitutional crypto exodus accelerating with record exchange withdrawals suggesting capitulation phase\n\n<b>IMPLICATION</b>\nTactical opportunity emerging in commodities vs crypto beta as geopolitical premium sustains while digital assets oversold. Consider defensive rotation into energy/staples while monitoring $58K BTC support for reversal signals.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 206
 }

@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-29-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/29#intelligence",
+      "title": "Signal Scan — Mar 29, 2026",
+      "content_text": "SIGNAL SCAN — Mar 29, 2026 Risk 71.4/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 29, 2026",
+      "date_published": "2026-03-29T10:15:20.115Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-03-29-morning",
       "url": "https://agentcanary.ai/record/2026/03/29#morning",
       "title": "Morning Brief — Mar 29, 2026",
@@ -752,21 +767,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-16-evening",
-      "url": "https://agentcanary.ai/record/2026/03/16#evening",
-      "title": "Evening Wrap — Mar 16, 2026",
-      "content_text": "Markets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dom… MARKET WRAP — Mar 16, 2026\n\nMarkets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dominated sentiment. The dollar held near parity while bonds weakened, sugg",
-      "summary": "Markets traded in a risk-off pattern today with the VIX elevated at 23.5 as stagflation concerns dom…",
-      "date_published": "2026-03-16T22:15:06.855Z",
-      "tags": [
-        "mixed",
-        "eu-markit-manufact"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
