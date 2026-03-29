@@ -1,53 +1,57 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-03-29",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 29, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 71.4/100 · 8 movers",
+  "time": "16:15 UTC",
+  "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:ACCUMULATION 4h:DISTRIBUTION · ETH 1d:ACCUMULATION 4h:BEAR_REGIME · SOL 1d:ACCUMULATION 4h:BEAR_REGIME",
   "tags": [
     {
-      "t": "HIGH",
-      "c": "red"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "STAGFLATION",
-      "c": "blue"
+      "t": "BARD 326% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 71
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "VIX",
-          "v": "+13.2%",
+          "k": "BTC 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "UMAC",
-          "v": "-12.4%",
-          "c": "red"
+          "k": "ETH 1D",
+          "v": "ACCUMULATION",
+          "c": "green"
         },
         {
-          "k": "TKMS",
-          "v": "-6.5%",
-          "c": "red"
+          "k": "SOL 1D",
+          "v": "ACCUMULATION",
+          "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$224M TRX",
+          "v": "transferred from unk",
+          "c": "blue"
         },
         {
-          "k": "BRENT",
-          "v": "-6.4%",
-          "c": "red"
+          "k": "$192M TRX",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 29, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime intensifying as Iran war enters month 4 with markets pricing persistent supply shocks. Risk-off accelerating with VIX spiking to 31, crypto hemorrhaging institutional flows, and yields approaching 5% despite Fed pause. Cross-asset dislocation widening as commodities decouple from equities.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 71.4/100 (High)\nRegime: STAGFLATION — Real yields rising amid geopolitical oil premium\nKey prices: SPY -3.5% | QQQ -4.3% | VIX +13.2% | TLT -1.4% | DXY +0.04% | OIL flat\nICSA: 210K (trending down, z-score -0.35)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $58K-62K (-7% to -12%)\nSPY: $600-620 (-5% to -8%)\nOIL: $110-120 (+10% to +20%)\n\n<b>SCENARIO B</b> — Iran Ceasefire\nBTC: $70K-75K (+5% to +13%)\nSPY: $650-670 (+3% to +6%)\nOIL: $85-90 (-15% to -10%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.7%) — strong\n2. Copper Miners (COPX +1.0%) — bid\n3. Consumer Staples (XLP +0.8%) — rotating\n4. Consumer Disc (XLY -2.9%) — dump\n5. Biotech (XBI -3.5%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 31.05 (+13.2%) — Iran war escalation with Tehran strikes, Boeing E-3 damaged\nUMAC 11.78 (-12.4%) — $1.1B drone program launch triggered sell-off \nGLD 414.7 (+3.5%) — Safe haven bid amid Middle East tensions\nBRENT 105.32 (-6.4%) — Profit-taking despite Hormuz bypass routes at capacity\nADA 0.245 (-2.2%) — Canada's Bill C-25 proposing crypto donation ban\nTKMS 72.7 (-6.5%) — Defense sector rotation despite geopolitical premium\n<i>Commodities repricing supply shock risk while crypto absorbs regulatory headwinds and institutional outflows.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: -$62M outflow (high significance)\nWhale positioning heavily short: BTC 115.4M short vs 23.3M long, ETH 26.2M short only\nInstitutional crypto exodus accelerating with record exchange withdrawals suggesting capitulation phase\n\n<b>IMPLICATION</b>\nTactical opportunity emerging in commodities vs crypto beta as geopolitical premium sustains while digital assets oversold. Consider defensive rotation into energy/staples while monitoring $58K BTC support for reversal signals.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 206
+  "telegramText": "<b>MARKET PULSE</b> — Mar 29, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$66,647</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• ETH: <b>$1,995</b> — 1d: ACCUMULATION | 4h: BEAR_REGIME\n• SOL: <b>$81.99</b> — 1d: ACCUMULATION | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 700,000,000 TRX ($223,807,078)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 600,000,000 TRX ($191,589,316)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 126,225,799 USDT ($126,158,332)\n  <i>transferred from #Bitfinex to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>BARD</b>: 698% net APR (0.0372% rate)\n  Long Binance / Short Bybit | OI: $10.3M | Spread: -1.08%\n• <b>STO</b>: 203% net APR (0.0943% rate)\n  Long Bybit / Short Binance | OI: $8.3M | Spread: -0.05%\n• <b>CL</b>: 350% net APR (0.1000% rate)\n  Long OKX / Short Bitget | OI: $7.9M | Spread: -0.74%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $22,753,846 | Longs: 51% | L/S: 1.0:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Traditional Banking Crypto Adoption [BTC, ETH, crypto sector]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 207
 }
