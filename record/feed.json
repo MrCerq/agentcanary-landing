@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-29-evening",
+      "url": "https://agentcanary.ai/record/2026/03/29#evening",
+      "title": "Evening Wrap — Mar 29, 2026",
+      "content_text": "Markets sold off across risk assets as crypto collapsed and inflation fears drove bond yields higher… STAGFLATION. 25 news items. 6 scenario shifts.",
+      "summary": "Markets sold off across risk assets as crypto collapsed and inflation fears drove bond yields higher…",
+      "date_published": "2026-03-29T21:15:04.983Z",
+      "tags": [
+        "bearish-skew",
+        "eu-retail-sales-(mom)(feb)"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-03-29-midday",
       "url": "https://agentcanary.ai/record/2026/03/29#midday",
       "title": "Market Pulse — Mar 29, 2026",
@@ -752,21 +767,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-17-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/17#intelligence",
-      "title": "Signal Scan — Mar 17, 2026",
-      "content_text": "SIGNAL SCAN — Mar 17, 2026 Risk 100/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 17, 2026",
-      "date_published": "2026-03-17T10:15:21.239Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
