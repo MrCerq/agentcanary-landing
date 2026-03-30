@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-03-30",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected stagflationary pressures with elevated VIX at 30.61 as oil surged past $105 while …",
+    "headlineColor": "#A78BFA",
+    "desc": "STAGFLATION. 9 news items. 3 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US Personal income (MoM)(Feb)",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 71
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Personal income (MoM)(Feb)",
+            "v": "Apr 9",
+            "c": "blue"
+          },
+          {
+            "k": "US Real GDP(AQR)(Final)(Q4)",
+            "v": "Apr 9",
+            "c": "blue"
+          },
+          {
+            "k": "US Personal consumption expenditure pr",
+            "v": "Apr 9",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Mar 30, 2026\n\n<i>Markets reflected stagflationary pressures with elevated VIX at 30.61 as oil surged past $105 while bonds weakened. The rising hegemony and displacement themes suggest investors are positioning for structural shifts, with Ethereum's infrastructure dominance in tokenized assets highlighting institutional flight toward alternative financial rails.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$66,607</b> · ETH: <b>$2,023</b> · SOL: <b>$82.72</b> · GOLD: <b>$4,515</b> · SPY: <b>$631.97</b> (-2.0%) · QQQ: <b>$558.28</b> (-2.7%) · VIX: <b>$30.61</b> (-1.4%) · TLT: <b>$86.78</b> (+0.8%) · DXY: <b>$100.5</b> (+0.4%) · OIL: <b>$105.01</b> (+5.4%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +5.5% · XLU (Utilities) +2.1% · XLB (Materials) +4.1%\n▼ COPX (Copper Miners) +3.7% · URA (Uranium) +0.4% · ITA (Aerospace/Defense) -2.9%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 49) — BTC, ETH\n— Iran / Middle East (intensity 47)\n\n<b>EVENING NEWS</b>\n— Gold Finds Footing Near $4,500 as Iran War Enters Fifth Week\n— TSX Closer: Index Closes Lower On Jitters Over the Iran War and Oil Prices\n— HF Sinclair Corporation First Quarter 2026 Earnings Release and Conference Webcast\n— Oil prices, private credit concerns, Mag 7: Market Takeaways\n— Gold IRA vs. traditional IRA: What's the difference?\n— More sun, more choice: Sunwing Vacations reveals 2026 summer schedule\n\n<b>SCENARIO SHIFTS</b>\n▲ Goldilocks: Stable growth environment benefits institutional crypto adoption\n▲ Hegemony: Ethereum's dominance reinforces network effects and market position\n▲ Displacement: Blockchain technology displacing traditional financial infrastructure\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Personal income (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\nUS Real GDP(AQR)(Final)(Q4) — Apr 9, 12:30 PM UTC (prev: 0.7%)\nUS Personal consumption expenditure price index (AQR)(Final)(Q4) — Apr 9, 12:30 PM UTC (prev: 2.8%)\nUS Personal consumption expenditure price index (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.3%)\nUS Personal consumption expenditure (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\nEU Producer Price Index (YoY)(Feb) — Apr 8, 09:00 AM UTC (prev: -2.1%)\n\n<b>CONTRARIAN</b>\n• Ethereum's dominance may be a lagging indicator - newer chains could rapidly gain market share as to\n• The $206.2 billion figure might include inflated valuations that don't reflect actual utility or tra\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 212
+  },
+  {
     "session": "midday",
     "date": "2026-03-30",
     "time": "15:15 UTC",
@@ -1439,58 +1487,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Mar 23, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,460</b> — 1d: BEAR_REGIME | 4h: BULL_REGIME\n• ETH: <b>$2,137</b> — 1d: BEAR_REGIME | 4h: BULL_REGIME\n• SOL: <b>$90.22</b> — 1d: BEAR_REGIME | 4h: BULL_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 1,611 BTC ($114,554,298)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 200,000,000 USDT ($199,982,000)\n  <i>transferred from unknown wallet to #Binance</i>\n• 9,000 BTC ($612,700,992)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>STABLE</b>: 745% net APR (0.2970% rate)\n  Long Binance / Short Bybit | OI: $9.2M | Spread: -0.32%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $264,814,137 | Longs: 41% | L/S: 0.7:1\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 182
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-03-23",
-    "time": "10:15 UTC",
-    "headline": "SIGNAL SCAN — Mar 23, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 91.3/100 · 7 movers",
-    "tags": [
-      {
-        "t": "HIGH",
-        "c": "red"
-      },
-      {
-        "t": "STAGFLATION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 91
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "VIX",
-            "v": "+12.7%",
-            "c": "green"
-          },
-          {
-            "k": "UEC",
-            "v": "-10.6%",
-            "c": "red"
-          },
-          {
-            "k": "SLV",
-            "v": "-10.5%",
-            "c": "red"
-          },
-          {
-            "k": "NEM",
-            "v": "-10.1%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — March 23, 2026\n\n<b>SNAPSHOT</b>\nRisk-off acceleration as Iran conflict escalates with explosions in Isfahan and infrastructure threats. Cross-asset liquidation led by precious metals (-7% to -10%) while energy catches haven bid. VIX spiking through 30 signals institutional hedging into geopolitical uncertainty.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 91.3/100 (Critical)\nRegime: Transitional Stagflation — geopolitical shock overriding base case inflation dynamics\nKey prices: SPY -1.9% | QQQ -2.2% | VIX +12.7% | TLT -1.3% | DXY +0.4% | OIL +0.9%\nICSA: 205K (neutral, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Conflict Escalation\nBTC: $58-62K (-10 to -15%)\nSPY: $590-620 (-4 to -9%)\nOIL: $110-125 (+11 to +26%)\n\n<b>SCENARIO B</b> — Diplomatic Cooling\nBTC: $72-78K (+5 to +14%)\nSPY: $670-690 (+3 to +6%)\nVIX: $18-22 (-27 to -40%)\n\n<b>SCENARIO C</b> — Extended Uncertainty\nBTC: $62-68K (-9 to -1%)\nTLT: $88-92 (+3 to +7%)\nGOLD: $4200-4400 (-7 to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — haven\n2. Financials (XLF +0.2%) — resilient  \n3. Healthcare (XLV -1.2%) — rotation\n4. Technology (XLK -1.9%) — dump\n5. Materials (XLB -3.1%) — liquidation\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 30.19 (+12.7%) — geopolitical hedging demand as Iran conflict intensifies\nUEC 12.09 (-10.6%) — uranium sector selloff on war uncertainty impact to nuclear supply chains\nSLV 61.52 (-10.5%) — precious metals liquidation amid dollar strength and margin calls\nNEM 95.8 (-10.1%) — gold miners crushed on hawkish Fed rhetoric during flight-to-quality failure\nMORPHO 1.66 (-1.8%) — DeFi primitive launch overshadowed by risk-off macro\n<i>Traditional haven assets failing to perform as dollar and energy capture defensive flows in stagflationary war premium.</i>\n\n<b>POSITIONING</b>\nBTC whales net short $67.9M vs $46.3M long (max 40x leverage) — institutional bearish on geopolitical shock\nMajor BTC ETF outflows -$202.2M signal institutional risk reduction\nPAXG pure short positioning $18.3M suggests even gold-backed crypto facing liquidation pressure\n\n<b>IMPLICATION</b>\nPortfolio managers should hedge equity beta through energy allocation rather than traditional safe havens, which are failing amid stagflationary dynamics. Consider tactical short duration as bonds offer no sanctuary when real yields rise alongside geopolitical risk premium.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 181
   }
 ]
