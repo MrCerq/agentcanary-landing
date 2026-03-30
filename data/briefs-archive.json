@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-30",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 30, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 71.4/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 71
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "UMAC",
+            "v": "-12.4%",
+            "c": "red"
+          },
+          {
+            "k": "TKMS",
+            "v": "-6.5%",
+            "c": "red"
+          },
+          {
+            "k": "DFEN",
+            "v": "-5.5%",
+            "c": "red"
+          },
+          {
+            "k": "KTOS",
+            "v": "-5.2%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 210,
+    "telegramText": "<b>SIGNAL SCAN</b> — March 30, 2026\n\n<b>SNAPSHOT</b>\nRisk-off regime with stagflationary undertones as equities tumble while commodities surge. BTC slides to $66K amid record leverage buildup while Fed repricing accelerates on inflation fears. Cross-asset dislocation suggests regime transition underway.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 71.4/100 (High)\nRegime: STAGFLATION — Real yields rising amid expanding liquidity creating policy uncertainty\nSPY: -3.5% | QQQ: -4.3% | VIX: -1.4% | TLT: -1.4% | DXY: +0.1% | OIL: +1.4%\nICSA: 210K (down, z-score -0.35)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Fed Pivot Delay\nBTC: $60-63K (-7 to -11%)\nSPY: $600-615 (-3 to -6%)\nOIL: $105-110 (+4 to +9%)\n\n<b>SCENARIO B</b> — Geopolitical Escalation\nGOLD: $4700-4850 (+4 to +7%)\nBTC: $64-67K (-5 to -1%)\nVIX: $35-40 (+15 to +31%)\n\n<b>SCENARIO C</b> — Leverage Unwind Accelerates\nBTC: $58-62K (-9 to -14%)\nETH: $1850-1950 (-10 to -5%)\nQQQ: $530-550 (-6 to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.7%) — strong\n2. Copper Miners (COPX +1.0%) — bid\n3. Consumer Staples (XLP +0.8%) — rotating\n4. Biotech (XBI -3.5%) — dump\n5. Consumer Disc (XLY -2.9%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nUMAC $11.78 (-12.4%) — Drone program launch disappoints, collaboration concerns\nSLV $63.44 (+4.4%) — Precious metals bid on stagflation fears, Iran tensions\nFET $0.24 (+5.1%) — AI infrastructure narrative gaining traction amid perplexity integrations\nUNI $3.49 (+4.2%) — DeFi rotation as institutional crypto exits create value opportunities\nKTOS $71.94 (-5.2%) — Defense sector selloff despite geopolitical backdrop\n\n<i>Commodities outperforming crypto signals institutional preference shift toward hard assets over digital risk.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: -$645.8M outflow (high significance)\nBitfinex BTC longs hit highest since Nov 2023 at 79.3K — contrarian signal emerging\nWhale data: BTC net long bias $63.9M vs $39.1M short, but ETH showing losses\n\n<b>IMPLICATION</b>\nTactical fade crypto strength on retail leverage extremes while rotating toward commodities and defensive positioning. Monitor Fed pivot timeline as stagflation narrative builds momentum across traditional assets.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-03-30",
     "time": "03:15 UTC",

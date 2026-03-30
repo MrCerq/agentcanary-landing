@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-30-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/30#intelligence",
+      "title": "Signal Scan — Mar 30, 2026",
+      "content_text": "SIGNAL SCAN — Mar 30, 2026 Risk 71.4/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 30, 2026",
+      "date_published": "2026-03-30T09:15:20.206Z",
+      "tags": [
+        "high",
+        "stagflation"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-03-30-morning",
       "url": "https://agentcanary.ai/record/2026/03/30#morning",
       "title": "Morning Brief — Mar 30, 2026",
@@ -752,21 +767,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-17-evening",
-      "url": "https://agentcanary.ai/record/2026/03/17#evening",
-      "title": "Evening Wrap — Mar 17, 2026",
-      "content_text": "Markets traded defensively as stagflationary pressures mounted, with the regime gauge hitting 100 si… MARKET WRAP — Mar 17, 2026\n\nMarkets traded defensively as stagflationary pressures mounted, with the regime gauge hitting 100 signaling peak concerns over persistent inflation amid slowing growth. The",
-      "summary": "Markets traded defensively as stagflationary pressures mounted, with the regime gauge hitting 100 si…",
-      "date_published": "2026-03-17T22:15:05.392Z",
-      "tags": [
-        "mixed",
-        "us-university-of-m"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

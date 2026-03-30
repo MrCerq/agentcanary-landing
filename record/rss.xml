@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Mar 30, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/30#intelligence</link>
+      <description>SIGNAL SCAN — Mar 30, 2026 — Risk 71.4/100 · 8 movers</description>
+      <pubDate>Mon, 30 Mar 2026 09:15:20 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/30#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Mar 30, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/30#morning</link>
       <description>▼ Risk-Off · Neutral · Gauge 71.4/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
@@ -362,15 +369,6 @@ Markets traded defensively as stagflationary pressures intensified, with elevate
       <description>🔴 Risk-Off · Neutral · Gauge 93.5/100 — Stagflation regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Wed, 18 Mar 2026 04:18:20 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/18#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/17#evening</link>
-      <description>Markets traded defensively as stagflationary pressures mounted, with the regime gauge hitting 100 si… — MARKET WRAP — Mar 17, 2026
-
-Markets traded defensively as stagflationary pressures mounted, with the regime gauge hitting 100 signaling peak concerns over persistent inflation amid slowing growth. The</description>
-      <pubDate>Tue, 17 Mar 2026 22:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/17#evening</guid>
     </item>
   </channel>
 </rss>
