@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-03-29",
-  "time": "21:15 UTC",
-  "headline": "Markets sold off across risk assets as crypto collapsed and inflation fears drove bond yields higher…",
-  "headlineColor": "#A78BFA",
-  "desc": "STAGFLATION. 25 news items. 6 scenario shifts.",
+  "session": "morning",
+  "date": "2026-03-30",
+  "time": "03:15 UTC",
+  "headline": "▼ Risk-Off · Neutral · Gauge 71.4/100",
+  "headlineColor": "#F87171",
+  "desc": "STAGFLATION. F&G: —. WATCH.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
+      "t": "Risk-Off · Neutral",
       "c": "red"
     },
     {
-      "t": "EU Retail Sales (MoM)(Feb)",
-      "c": "blue"
+      "t": "GAUGE 71.4",
+      "c": "red"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 71
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "EU Retail Sales (MoM)(Feb)",
-          "v": "Apr 8",
-          "c": "blue"
-        },
-        {
-          "k": "EU Producer Price Index (YoY)(Feb)",
-          "v": "Apr 8",
-          "c": "blue"
-        },
-        {
-          "k": "US Durable goods orders (MoM) (Revised",
-          "v": "Apr 4",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1.5/6 WATCH",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 29, 2026\n\n<i>Markets sold off across risk assets as crypto collapsed and inflation fears drove bond yields higher, with Bitcoin's institutional exodus bleeding into broader risk sentiment. The dollar strengthened while gold held firm, reflecting a classic stagflationary setup where growth concerns mount alongside persistent price pressures.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$66,364</b> · ETH: <b>$1,996</b> · SOL: <b>$81.71</b> · GOLD: <b>$4,516</b> · SPY: <b>$634.09</b> (-3.5%) · QQQ: <b>$562.58</b> (-4.3%) · VIX: <b>$31.05</b> (+13.2%) · TLT: <b>$85.64</b> (-1.4%) · DXY: <b>$100.19</b> (+0.0%) · OIL: <b>$99.64</b> (+0.0%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +5.5% · XLU (Utilities) +2.1% · XLB (Materials) +4.1%\n▼ COPX (Copper Miners) +3.7% · URA (Uranium) +0.4% · ITA (Aerospace/Defense) -2.9%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 54) — BTC, ETH\n\n<b>EVENING NEWS</b>\n▼ Bitcoin Slides to $66K as XRP, Ethereum, and Solana Crash: Here Is What Triggered the Drop\n▲ Bitcoin Longs Hit Multi-Year High on Bitfinex, Raising Downside Risk\n▼ Bitcoin’s Three Unsolved Problems Could Hand Ethereum a Long-Term Structural Advantage\n▼ Israel blocks Catholic cardinal from Holy Sepulchre on Palm Sunday\n▼ Nakamoto Inc. Stock Crashes 99% as Bitcoin Treasury Strategy Backfires\n▲ Markets move to price in rate hikes as inflation fears and geopolitics reshape Fed expecta\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed hawkish pivot and tightening financial conditions signal late-cycle dynamics\n▲ Recession: Institutional crypto exodus and manufacturing stress indicate economic weakness\n▼ Goldilocks: Inflation resurgence and rate hike pricing eliminate soft landing hopes\n▲ Stagflation: Rising energy costs and industrial stress amid persistent inflation pressures\n▲ Hegemony: Trade tensions driving factory closures and regulatory fragmentation in crypto\n▲ Displacement: Crypto institutional exodus and regulatory threats accelerate traditional finance displacement\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Retail Sales (MoM)(Feb) — Apr 8, 09:00 AM UTC (prev: -0.1%)\nEU Producer Price Index (YoY)(Feb) — Apr 8, 09:00 AM UTC (prev: -2.1%)\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\n\n<b>CONTRARIAN</b>\n• Record high bitcoin longs might indicate smart money distribution rather than retail capitulation, s\n• European industrial stress could accelerate productivity-enhancing automation and reshoring, potenti\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 208
+  "telegramText": "<b>MACRO RADAR</b> — Mar 30, 2026\n\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n• BTC: <b>$67,056</b>\n• ETH: <b>$2,028</b>\n• SOL: <b>$83.28</b>\n• GOLD: <b>$4,516</b>\nSPY: <b>$634.09</b> (-3.5%)\nQQQ: <b>$562.58</b> (-4.3%)\nVIX: <b>31.1</b> (+13.2%)\nTLT: <b>$85.64</b> (-1.4%)\nDXY: <b>100.1</b> (-0.0%)\nOIL: <b>$101.46</b> (+1.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.06T</b> (YoY -3.31%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>321bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ 10Y Real Rate: +1.96σ\n▲ 2s10s Curve: -1.85σ\n▼ 2Y Treasury: +1.81σ\n▼ 10Y Treasury: +1.69σ\n\n<b>TOP MOVERS</b>\n▲ VIX $31.05 (+13.2%)\n▼ TKMS $72.70 (-10.0%)\n▼ BUIDL $0.00006476 (-8.8%)\n▼ SOXX $323 (-6.3%)\n▼ SMH $374 (-6.2%)\n▼ EWY $121 (-5.3%)\n▲ TAO $331 (+4.3%)\n▲ CHZ $0.04096 (+4.3%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4516 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 209
 }

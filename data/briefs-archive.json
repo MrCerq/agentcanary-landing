@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-30",
+    "time": "03:15 UTC",
+    "headline": "▼ Risk-Off · Neutral · Gauge 71.4/100",
+    "headlineColor": "#F87171",
+    "desc": "STAGFLATION. F&G: —. WATCH.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 71.4",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 71
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1.5/6 WATCH",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 209,
+    "telegramText": "<b>MACRO RADAR</b> — Mar 30, 2026\n\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n• BTC: <b>$67,056</b>\n• ETH: <b>$2,028</b>\n• SOL: <b>$83.28</b>\n• GOLD: <b>$4,516</b>\nSPY: <b>$634.09</b> (-3.5%)\nQQQ: <b>$562.58</b> (-4.3%)\nVIX: <b>31.1</b> (+13.2%)\nTLT: <b>$85.64</b> (-1.4%)\nDXY: <b>100.1</b> (-0.0%)\nOIL: <b>$101.46</b> (+1.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.06T</b> (YoY -3.31%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>321bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ 10Y Real Rate: +1.96σ\n▲ 2s10s Curve: -1.85σ\n▼ 2Y Treasury: +1.81σ\n▼ 10Y Treasury: +1.69σ\n\n<b>TOP MOVERS</b>\n▲ VIX $31.05 (+13.2%)\n▼ TKMS $72.70 (-10.0%)\n▼ BUIDL $0.00006476 (-8.8%)\n▼ SOXX $323 (-6.3%)\n▼ SMH $374 (-6.2%)\n▼ EWY $121 (-5.3%)\n▲ TAO $331 (+4.3%)\n▲ CHZ $0.04096 (+4.3%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4516 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-03-29",
     "time": "21:15 UTC",
