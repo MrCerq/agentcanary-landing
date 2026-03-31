@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-03-31-intelligence",
+      "url": "https://agentcanary.ai/record/2026/03/31#intelligence",
+      "title": "Signal Scan — Mar 31, 2026",
+      "content_text": "SIGNAL SCAN — Mar 31, 2026 Risk 71.4/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Mar 31, 2026",
+      "date_published": "2026-03-31T09:15:24.288Z",
+      "tags": [
+        "high",
+        "recovery"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-03-31-morning",
       "url": "https://agentcanary.ai/record/2026/03/31#morning",
       "title": "Morning Brief — Mar 31, 2026",
@@ -752,21 +767,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-18-evening",
-      "url": "https://agentcanary.ai/record/2026/03/18#evening",
-      "title": "Evening Wrap — Mar 18, 2026",
-      "content_text": "Markets traded defensively as stagflationary pressures intensified, with elevated VIX at 25.09 refle… MARKET WRAP — Mar 18, 2026\n\nMarkets traded defensively as stagflationary pressures intensified, with elevated VIX at 25.09 reflecting broad risk-off sentiment across traditional assets. Despite the ma",
-      "summary": "Markets traded defensively as stagflationary pressures intensified, with elevated VIX at 25.09 refle…",
-      "date_published": "2026-03-18T22:15:05.609Z",
-      "tags": [
-        "mixed",
-        "us-university-of-m"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
