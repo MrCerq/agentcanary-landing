@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — Mar 31, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/31#morning</link>
+      <description>▼ Risk-Off · Neutral · Gauge 71.4/100 — RECOVERY. Fear &amp; Greed: neutral · WATCH</description>
+      <pubDate>Tue, 31 Mar 2026 03:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/31#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — Mar 30, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/30#evening</link>
       <description>Markets reflected stagflationary pressures with elevated VIX at 30.61 as oil surged past $105 while … — STAGFLATION. 9 news items. 3 scenario shifts.</description>
@@ -362,13 +369,6 @@ Markets reflected stagflationary pressures as risk assets struggled despite cryp
 Markets traded defensively as stagflationary pressures intensified, with elevated VIX at 25.09 reflecting broad risk-off sentiment across traditional assets. Despite the ma</description>
       <pubDate>Wed, 18 Mar 2026 22:15:05 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/18#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — Mar 18, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/18#midday</link>
-      <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h risk-off · ETH daily distribution, 4h risk-off · SOL daily distribution, 4h risk-off</description>
-      <pubDate>Wed, 18 Mar 2026 16:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/18#midday</guid>
     </item>
   </channel>
 </rss>

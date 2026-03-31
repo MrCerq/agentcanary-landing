@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-03-31",
+    "time": "03:15 UTC",
+    "headline": "▼ Risk-Off · Neutral · Gauge 71.4/100",
+    "headlineColor": "#F87171",
+    "desc": "RECOVERY. F&G: —. WATCH.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 71.4",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 71
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1.5/6 WATCH",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 213,
+    "telegramText": "<b>MACRO RADAR</b> — Mar 31, 2026\n\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 71.4/100\n\n• BTC: <b>$67,796</b>\n• ETH: <b>$2,068</b>\n• SOL: <b>$83.72</b>\n• GOLD: <b>$4,515</b>\nSPY: <b>$631.97</b> (-2.0%)\nQQQ: <b>$558.28</b> (-2.7%)\nVIX: <b>30.6</b> (-1.4%)\nTLT: <b>$86.78</b> (+0.8%)\nDXY: <b>100.4</b> (+0.3%)\nOIL: <b>$102.05</b> (-0.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.02T</b> (YoY -3.3%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>321bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ 10Y Real Rate: +1.96σ\n▲ 2s10s Curve: -1.85σ\n▼ 2Y Treasury: +1.81σ\n▼ 10Y Treasury: +1.69σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ NVDA: -10.3%\n▲ ETH: +2.2%\n▲ BTC: +1.8%\n▲ SOL: +1.2%\n\n<b>TOP MOVERS</b>\n▲ SKY $0.07827 (+7.2%)\n▼ SOXX $310 (-5.8%)\n▼ MOH $131 (-5.3%)\n▼ SMH $363 (-4.8%)\n▲ SLV $63.52 (+4.5%)\n▼ ITA $211 (-4.2%)\n▲ DASH $33.03 (+4.2%)\n▲ ETHFI $0.4774 (+3.4%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4515 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-03-30",
     "time": "21:15 UTC",

@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-03-30",
-  "time": "21:15 UTC",
-  "headline": "Markets reflected stagflationary pressures with elevated VIX at 30.61 as oil surged past $105 while …",
-  "headlineColor": "#A78BFA",
-  "desc": "STAGFLATION. 9 news items. 3 scenario shifts.",
+  "session": "morning",
+  "date": "2026-03-31",
+  "time": "03:15 UTC",
+  "headline": "▼ Risk-Off · Neutral · Gauge 71.4/100",
+  "headlineColor": "#F87171",
+  "desc": "RECOVERY. F&G: —. WATCH.",
   "tags": [
     {
-      "t": "BULLISH SKEW",
-      "c": "green"
+      "t": "Risk-Off · Neutral",
+      "c": "red"
     },
     {
-      "t": "US Personal income (MoM)(Feb)",
-      "c": "blue"
+      "t": "GAUGE 71.4",
+      "c": "red"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 71
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Personal income (MoM)(Feb)",
-          "v": "Apr 9",
-          "c": "blue"
-        },
-        {
-          "k": "US Real GDP(AQR)(Final)(Q4)",
-          "v": "Apr 9",
-          "c": "blue"
-        },
-        {
-          "k": "US Personal consumption expenditure pr",
-          "v": "Apr 9",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1.5/6 WATCH",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 30, 2026\n\n<i>Markets reflected stagflationary pressures with elevated VIX at 30.61 as oil surged past $105 while bonds weakened. The rising hegemony and displacement themes suggest investors are positioning for structural shifts, with Ethereum's infrastructure dominance in tokenized assets highlighting institutional flight toward alternative financial rails.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$66,607</b> · ETH: <b>$2,023</b> · SOL: <b>$82.72</b> · GOLD: <b>$4,515</b> · SPY: <b>$631.97</b> (-2.0%) · QQQ: <b>$558.28</b> (-2.7%) · VIX: <b>$30.61</b> (-1.4%) · TLT: <b>$86.78</b> (+0.8%) · DXY: <b>$100.5</b> (+0.4%) · OIL: <b>$105.01</b> (+5.4%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +5.5% · XLU (Utilities) +2.1% · XLB (Materials) +4.1%\n▼ COPX (Copper Miners) +3.7% · URA (Uranium) +0.4% · ITA (Aerospace/Defense) -2.9%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 49) — BTC, ETH\n— Iran / Middle East (intensity 47)\n\n<b>EVENING NEWS</b>\n— Gold Finds Footing Near $4,500 as Iran War Enters Fifth Week\n— TSX Closer: Index Closes Lower On Jitters Over the Iran War and Oil Prices\n— HF Sinclair Corporation First Quarter 2026 Earnings Release and Conference Webcast\n— Oil prices, private credit concerns, Mag 7: Market Takeaways\n— Gold IRA vs. traditional IRA: What's the difference?\n— More sun, more choice: Sunwing Vacations reveals 2026 summer schedule\n\n<b>SCENARIO SHIFTS</b>\n▲ Goldilocks: Stable growth environment benefits institutional crypto adoption\n▲ Hegemony: Ethereum's dominance reinforces network effects and market position\n▲ Displacement: Blockchain technology displacing traditional financial infrastructure\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 71.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Personal income (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\nUS Real GDP(AQR)(Final)(Q4) — Apr 9, 12:30 PM UTC (prev: 0.7%)\nUS Personal consumption expenditure price index (AQR)(Final)(Q4) — Apr 9, 12:30 PM UTC (prev: 2.8%)\nUS Personal consumption expenditure price index (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.3%)\nUS Personal consumption expenditure (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\nEU Producer Price Index (YoY)(Feb) — Apr 8, 09:00 AM UTC (prev: -2.1%)\n\n<b>CONTRARIAN</b>\n• Ethereum's dominance may be a lagging indicator - newer chains could rapidly gain market share as to\n• The $206.2 billion figure might include inflated valuations that don't reflect actual utility or tra\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 212
+  "telegramText": "<b>MACRO RADAR</b> — Mar 31, 2026\n\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 71.4/100\n\n• BTC: <b>$67,796</b>\n• ETH: <b>$2,068</b>\n• SOL: <b>$83.72</b>\n• GOLD: <b>$4,515</b>\nSPY: <b>$631.97</b> (-2.0%)\nQQQ: <b>$558.28</b> (-2.7%)\nVIX: <b>30.6</b> (-1.4%)\nTLT: <b>$86.78</b> (+0.8%)\nDXY: <b>100.4</b> (+0.3%)\nOIL: <b>$102.05</b> (-0.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.02T</b> (YoY -3.3%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>321bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ 10Y Real Rate: +1.96σ\n▲ 2s10s Curve: -1.85σ\n▼ 2Y Treasury: +1.81σ\n▼ 10Y Treasury: +1.69σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ NVDA: -10.3%\n▲ ETH: +2.2%\n▲ BTC: +1.8%\n▲ SOL: +1.2%\n\n<b>TOP MOVERS</b>\n▲ SKY $0.07827 (+7.2%)\n▼ SOXX $310 (-5.8%)\n▼ MOH $131 (-5.3%)\n▼ SMH $363 (-4.8%)\n▲ SLV $63.52 (+4.5%)\n▼ ITA $211 (-4.2%)\n▲ DASH $33.03 (+4.2%)\n▲ ETHFI $0.4774 (+3.4%)\n\n<b>HEGEMONY SNAPBACK</b> : 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.2757 (&gt;110)\n— Gold: $4515 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 213
 }
