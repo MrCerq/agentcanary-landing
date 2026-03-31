@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — Mar 31, 2026</title>
+      <link>https://agentcanary.ai/record/2026/03/31#evening</link>
+      <description>Markets displayed cautious optimism as geopolitical tensions eased, but underlying inflation concern… — RECOVERY. 18 news items. 5 scenario shifts.</description>
+      <pubDate>Tue, 31 Mar 2026 21:15:05 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/03/31#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — Mar 31, 2026</title>
       <link>https://agentcanary.ai/record/2026/03/31#midday</link>
       <description>BTC BEAR_REGIME 1D / ACCUMULATION 4H.
@@ -361,13 +368,6 @@ Markets reflected stagflationary pressures as risk assets struggled despite cryp
       <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h accumulation · ETH daily distribution, 4h accumulation · SOL daily distribution, 4h accumulation</description>
       <pubDate>Thu, 19 Mar 2026 16:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/19#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 19, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/19#intelligence</link>
-      <description>SIGNAL SCAN — Mar 19, 2026 — Risk 77.9/100 · 8 movers</description>
-      <pubDate>Thu, 19 Mar 2026 10:15:21 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/19#intelligence</guid>
     </item>
   </channel>
 </rss>
