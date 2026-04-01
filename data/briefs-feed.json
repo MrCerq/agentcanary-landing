@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-01",
+    "time": "21:15 UTC",
+    "headline": "Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional fo…",
+    "headlineColor": "#A78BFA",
+    "desc": "RECOVERY. 10 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US University of Michigan Cons",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 95
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "Apr 10",
+            "c": "blue"
+          },
+          {
+            "k": "US Unseasonally Adjusted Consumer Pric",
+            "v": "Apr 10",
+            "c": "blue"
+          },
+          {
+            "k": "US Core Consumer Price Index (Unseason",
+            "v": "Apr 10",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 1, 2026\n\n<i>Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional footing amid municipal adoption waves while traditional equities weakened on late-cycle concerns. The VIX spike to 24.54 and bond strength reflected growing recession hedging as institutional flows increasingly treat digital assets as a separate risk class.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$68,178</b> · ETH: <b>$2,144</b> · SOL: <b>$82.62</b> · GOLD: <b>$4,769</b> · SPY: <b>$655.24</b> (+3.7%) · QQQ: <b>$584.31</b> (+4.7%) · VIX: <b>$24.54</b> (-2.8%) · TLT: <b>$86.26</b> (-0.6%) · DXY: <b>$99.57</b> (-0.4%) · OIL: <b>$98.91</b> (-2.4%)\n\n<b>SECTOR CLOSE</b>\n▲ XBI (Biotech) +4.6% · XLE (Energy) -3.0% · XLU (Utilities) +2.0%\n▼ ITA (Aerospace/Defense) -0.2% · XLP (Consumer Staples) -0.0% · XLI (Industrials) +0.1%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 100) — BTC, ETH\n— Defense / Geopolitics (intensity 67) — ITA, LMT, RTX\n\n<b>EVENING NEWS</b>\n— B2Gold Corp. (BTG) Discovers Significant Mineral Resource at Back River Gold District\n— Why Newmont Stock Surged on Wednesday\n— QCI Introduces New Operational Solutions at IGA 2026\n— These Three Altcoins Just Got Leveraged Crypto ETFs\n— Wall Street Turns Tactical on Constellation Brands With $170 Target Into Earnings\n— No Foolin': ADP Jobs Led by Small Companies\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Stock weakness with crypto stability suggests late cycle rotation patterns\n▲ Recession: Equity slides point to growing recession concerns in traditional markets\n▼ Goldilocks: Market divergence and stock weakness contradict goldilocks stability\n▲ Hegemony: Municipal crypto adoption shows institutional acceptance strengthening US crypto leadership\n▲ Displacement: Decoupling and government adoption indicate crypto displacing traditional finance roles\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 95.2/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Preliminary)(Apr) — Apr 10, 02:00 PM UTC (prev: 53.3)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.4%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.5%)\n Consumer Price Index for Residents (YoY)(Mar) — Apr 10, 01:30 AM UTC (prev: 1.3%)\nUS Personal income (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\nUS Personal consumption expenditure (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\n\n<b>CONTRARIAN</b>\n• The crypto-stock decoupling may be temporary correlation breakdown rather than permanent structural \n• Municipal Bitcoin bonds could face regulatory backlash that reverses institutional adoption momentum\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 220
+  },
+  {
     "session": "midday",
     "date": "2026-04-01",
     "time": "15:15 UTC",
@@ -1431,58 +1479,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Mar 25, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,711</b> — 1d: ACCUMULATION | 4h: IGNITION\n• ETH: <b>$2,165</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$91.32</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($249,993,375)\n  <i>minted at USDC Treasury</i>\n• 778 BTC ($55,145,301)\n  <i>transferred from unknown wallet to #Coinbase</i>\n• 1,500,000 SOL ($138,067,131)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>M</b>: 215% net APR (0.0930% rate)\n  Long Binance / Short Bybit | OI: $17.0M | Spread: -0.09%\n• <b>SIREN</b>: 0% net APR (0.0093% rate)\n  Long Bitget / Short MEXC | OI: $8.2M | Spread: 0.33%\n• <b>ONDO</b>: 99% net APR (0.0367% rate)\n  Long Bybit / Short Bitget | OI: $9.4M | Spread: -0.11%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $71,263,154 | Longs: 20% | L/S: 0.3:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n🟢 Crypto Infrastructure Maturation [BTC, COIN, LINK]\n🟢 Geopolitical Risk Repricing [BTC, OIL, GLD]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 191
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-03-25",
-    "time": "10:15 UTC",
-    "headline": "SIGNAL SCAN — Mar 25, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 84.9/100 · 8 movers",
-    "tags": [
-      {
-        "t": "HIGH",
-        "c": "red"
-      },
-      {
-        "t": "STAGFLATION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 85
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "UEC",
-            "v": "+9.1%",
-            "c": "green"
-          },
-          {
-            "k": "KTOS",
-            "v": "-8.4%",
-            "c": "red"
-          },
-          {
-            "k": "FCX",
-            "v": "+8.4%",
-            "c": "green"
-          },
-          {
-            "k": "TECK",
-            "v": "+7.1%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — March 25, 2026\n\n<b>SNAPSHOT</b>\nCross-asset dislocation as commodities surge while crypto bleeds liquidity. Stagflationary regime confirmed with real yields rising, but equities holding up on materials rotation. Middle East deployment risk premium emerging across energy complex.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 84.9/100 (High)\nRegime: Stagflation — real yields climbing as liquidity expands but HY spreads widen\nSPY +0.71% | QQQ +0.33% | VIX -4.34% | TLT +0.21% | DXY -0.13% | OIL -5.50%\nICSA: 205K (trending up, below normal)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nSPY: $620-640 (-5 to -2%)\nBTC: $65K-68K (-8 to -4%)\nOIL: $95-105 (+9 to +20%)\n\n<b>SCENARIO B</b> — Materials Supercycle\nSPY: $665-685 (+2 to +5%)\nGOLD: $4180-4290 (-5 to -3%)\nCOPPER: $4.8-5.2 (+15 to +25%)\n\n<b>SCENARIO C</b> — Crypto Washout\nBTC: $62K-66K (-12 to -7%)\nETH: $1950-2100 (-10 to -3%)\nSPY: $640-660 (-2 to +1%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+5.67%) — strong\n2. URA (+3.77%) — rotating\n3. XLB (+3.13%) — bid\n4. XLE (+2.58%) — strong\n5. SMH (+2.56%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nUEC +9.1% — uranium supply chain push despite recent valuation concerns\nFCX +8.4% — copper supercycle momentum on infrastructure demand\nKTOS -8.4% — defense tech selloff on execution concerns vs peers\nCRM -6.3% — software multiple compression on revenue durability questions\nSOL +4.1% — resilient despite US troop deployment to Middle East\nPEPE +3.5% — meme momentum bucking broader crypto outflows\n\n<i>Commodities repricing structural shortage while crypto absorbs forced selling from levered positions.</i>\n\n<b>POSITIONING</b>\nBTC ETF outflows: -$277.1M (high significance)\nWhale positioning shows ETH net short $45.2M, SOL underwater -$8.4M PnL\nInstitutional deleveraging evident across crypto majors while HYPE sees concentrated long exposure\n\n<b>IMPLICATION</b>\nTactical tilt toward materials/energy over crypto until ETF outflows stabilize. Watch $65K BTC support — break triggers deeper washout to $62K range.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 189
   }
 ]

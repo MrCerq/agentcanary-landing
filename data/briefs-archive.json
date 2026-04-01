@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-01",
+    "time": "21:15 UTC",
+    "headline": "Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional fo…",
+    "headlineColor": "#A78BFA",
+    "desc": "RECOVERY. 10 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US University of Michigan Cons",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 95
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "Apr 10",
+            "c": "blue"
+          },
+          {
+            "k": "US Unseasonally Adjusted Consumer Pric",
+            "v": "Apr 10",
+            "c": "blue"
+          },
+          {
+            "k": "US Core Consumer Price Index (Unseason",
+            "v": "Apr 10",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 220,
+    "telegramText": "<b>MARKET WRAP</b> — Apr 1, 2026\n\n<i>Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional footing amid municipal adoption waves while traditional equities weakened on late-cycle concerns. The VIX spike to 24.54 and bond strength reflected growing recession hedging as institutional flows increasingly treat digital assets as a separate risk class.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$68,178</b> · ETH: <b>$2,144</b> · SOL: <b>$82.62</b> · GOLD: <b>$4,769</b> · SPY: <b>$655.24</b> (+3.7%) · QQQ: <b>$584.31</b> (+4.7%) · VIX: <b>$24.54</b> (-2.8%) · TLT: <b>$86.26</b> (-0.6%) · DXY: <b>$99.57</b> (-0.4%) · OIL: <b>$98.91</b> (-2.4%)\n\n<b>SECTOR CLOSE</b>\n▲ XBI (Biotech) +4.6% · XLE (Energy) -3.0% · XLU (Utilities) +2.0%\n▼ ITA (Aerospace/Defense) -0.2% · XLP (Consumer Staples) -0.0% · XLI (Industrials) +0.1%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 100) — BTC, ETH\n— Defense / Geopolitics (intensity 67) — ITA, LMT, RTX\n\n<b>EVENING NEWS</b>\n— B2Gold Corp. (BTG) Discovers Significant Mineral Resource at Back River Gold District\n— Why Newmont Stock Surged on Wednesday\n— QCI Introduces New Operational Solutions at IGA 2026\n— These Three Altcoins Just Got Leveraged Crypto ETFs\n— Wall Street Turns Tactical on Constellation Brands With $170 Target Into Earnings\n— No Foolin': ADP Jobs Led by Small Companies\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Stock weakness with crypto stability suggests late cycle rotation patterns\n▲ Recession: Equity slides point to growing recession concerns in traditional markets\n▼ Goldilocks: Market divergence and stock weakness contradict goldilocks stability\n▲ Hegemony: Municipal crypto adoption shows institutional acceptance strengthening US crypto leadership\n▲ Displacement: Decoupling and government adoption indicate crypto displacing traditional finance roles\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 95.2/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Preliminary)(Apr) — Apr 10, 02:00 PM UTC (prev: 53.3)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.4%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.5%)\n Consumer Price Index for Residents (YoY)(Mar) — Apr 10, 01:30 AM UTC (prev: 1.3%)\nUS Personal income (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\nUS Personal consumption expenditure (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.4%)\n\n<b>CONTRARIAN</b>\n• The crypto-stock decoupling may be temporary correlation breakdown rather than permanent structural \n• Municipal Bitcoin bonds could face regulatory backlash that reverses institutional adoption momentum\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-04-01",
     "time": "15:15 UTC",

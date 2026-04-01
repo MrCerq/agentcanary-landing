@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-01-evening",
+      "url": "https://agentcanary.ai/record/2026/04/01#evening",
+      "title": "Evening Wrap — Apr 1, 2026",
+      "content_text": "Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional fo… RECOVERY. 10 news items. 5 scenario shifts.",
+      "summary": "Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional fo…",
+      "date_published": "2026-04-01T21:15:04.516Z",
+      "tags": [
+        "bullish-skew",
+        "us-university-of-michigan-cons"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-01-midday",
       "url": "https://agentcanary.ai/record/2026/04/01#midday",
       "title": "Market Pulse — Apr 1, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-20-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/20#intelligence",
-      "title": "Signal Scan — Mar 20, 2026",
-      "content_text": "SIGNAL SCAN — Mar 20, 2026 Risk 78.7/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 20, 2026",
-      "date_published": "2026-03-20T10:15:19.746Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
