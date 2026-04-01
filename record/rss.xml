@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — Apr 1, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/01#midday</link>
+      <description>BTC Accumulation · 100 whale moves — BTC daily accumulation, 4h ignition · ETH daily accumulation, 4h distribution · SOL daily accumulation, 4h ignition</description>
+      <pubDate>Wed, 01 Apr 2026 15:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/01#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — Apr 1, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/01#intelligence</link>
       <description>SIGNAL SCAN — Apr 1, 2026 — Risk 95.2/100 · 8 movers</description>
@@ -359,13 +366,6 @@ Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad
       <description>SIGNAL SCAN — Mar 20, 2026 — Risk 78.7/100 · 8 movers</description>
       <pubDate>Fri, 20 Mar 2026 10:15:19 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/20#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — Mar 20, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/20#morning</link>
-      <description>🔴 Risk-Off · Neutral · Gauge 78.7/100 — Stagflation regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Fri, 20 Mar 2026 04:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/20#morning</guid>
     </item>
   </channel>
 </rss>

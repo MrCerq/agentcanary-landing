@@ -1,53 +1,53 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-04-01",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — Apr 1, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 95.2/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:ACCUMULATION 4h:IGNITION · ETH 1d:ACCUMULATION 4h:DISTRIBUTION · SOL 1d:ACCUMULATION 4h:IGNITION",
   "tags": [
     {
-      "t": "HIGH",
-      "c": "red"
-    },
-    {
-      "t": "RECOVERY",
+      "t": "WHALE ALERT",
       "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 95
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "APLD",
-          "v": "+15.4%",
+          "k": "BTC 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "SOUN",
-          "v": "+14.3%",
+          "k": "ETH 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "BE",
-          "v": "+12.9%",
+          "k": "SOL 1D",
+          "v": "ACCUMULATION",
           "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$52M BTC",
+          "v": "transferred from Coi",
+          "c": "blue"
         },
         {
-          "k": "MRVL",
-          "v": "+12.8%",
-          "c": "green"
+          "k": "$52M BTC",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — April 01, 2026\n\n<b>SNAPSHOT</b>\nRisk-on surge driven by Iran de-escalation reports, but cross-asset divergence emerging. Stocks ripping +2.5% while crypto faces quantum threats and Bitcoin approaches historic underperformance streak. Energy shock unwinding temporarily lifts growth assets.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 95.2/100 (Critical)\nRegime: Transitional Recovery — geopolitical relief masking energy-driven inflation pressures\nSPY: +2.56% | QQQ: +2.60% | VIX: -1.90% | TLT: +1.23% | DXY: -0.48% | OIL: -2.04%\nICSA: 210K (trending down, -0.35σ)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Relief Rally\nSPY: $670-685 (+3-5%)\nBTC: $72-75K (+5-10%)\nOIL: $90-95 (-7-10%)\n\n<b>SCENARIO B</b> — Quantum Panic Accelerates\nBTC: $58-62K (-10-15%)\nETH: $1800-1950 (-8-15%)\nSPY: $620-635 (-2-5%)\n\n<b>SCENARIO C</b> — Energy Shock Resurges\nOIL: $110-120 (+10-20%)\nTLT: $75-80 (-8-13%)\nDXY: 102-105 (+3-5%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +7.9%) — strong\n2. Biotech (XBI +7.5%) — rotating\n3. Uranium (URA +6.9%) — bid\n4. Semiconductors (SMH +5.8%) — strong\n5. Technology (XLK +4.2%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nAPLD $23.78 (+15.4%) — earnings anticipation Wednesday, AI data center positioning\nSOUN $6.875 (+14.3%) — rebound from record lows, AI momentum\nBE $134.90 (+12.9%) — inflation hedge positioning as oil threatens growth\nGLD $430.29 (+3.8%) — safe haven bid amid quantum/energy uncertainty\nSLV $68.14 (+7.3%) — industrial demand meets precious metals rotation\n<i>Defensive assets outperforming despite equity rally signals underlying structural concerns persist.</i>\n\n<b>POSITIONING</b>\nBTC whales: $24M long vs $27M short, net negative bias with +$8M PnL\nETH positioning: slight short bias at $9.6M long/$10.9M short, -$494K PnL\nBTC ETF flows: flat at $0.0M net, ending streak patterns\nNotable: 5,500 BTC ($366M) moved after 5-year dormancy from Gemini whale\n\n<b>IMPLICATION</b>\nTactical long precious metals vs tech momentum while geopolitical relief window remains open. Hedge quantum risk in crypto positions — defensive rotation accelerating despite headline strength suggests underlying fragility.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 218
+  "telegramText": "<b>MARKET PULSE</b> — Apr 1, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$68,495</b> — 1d: ACCUMULATION | 4h: IGNITION\n• ETH: <b>$2,125</b> — 1d: ACCUMULATION | 4h: DISTRIBUTION\n• SOL: <b>$83.28</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 758 BTC ($52,003,103)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n• 758 BTC ($51,823,779)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 169,837,284 USDT ($169,771,485)\n  <i>transferred from #Bitfinex to unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $89,525,363 | Longs: 17% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Bitcoin Under Pressure [BTC, ETH, SOL]\n▲ Geopolitical De-escalation Hopes [SPY, QQQ, BTC]\n▼ Quantum Computing Threat Acceleration [BTC, crypto infrastructure, cybersecurity stocks]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 219
 }

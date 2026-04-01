@@ -15,6 +15,20 @@
   ],
   "items": [
     {
+      "id": "2026-04-01-midday",
+      "url": "https://agentcanary.ai/record/2026/04/01#midday",
+      "title": "Market Pulse — Apr 1, 2026",
+      "content_text": "BTC Accumulation · 100 whale moves BTC daily accumulation, 4h ignition · ETH daily accumulation, 4h distribution · SOL daily accumulation, 4h ignition",
+      "summary": "BTC Accumulation · 100 whale moves",
+      "date_published": "2026-04-01T15:15:01.251Z",
+      "tags": [
+        "whale-alert"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-04-01-intelligence",
       "url": "https://agentcanary.ai/record/2026/04/01#intelligence",
       "title": "Signal Scan — Apr 1, 2026",
@@ -752,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "signal"
-      }
-    },
-    {
-      "id": "2026-03-20-morning",
-      "url": "https://agentcanary.ai/record/2026/03/20#morning",
-      "title": "Morning Brief — Mar 20, 2026",
-      "content_text": "🔴 Risk-Off · Neutral · Gauge 78.7/100 Stagflation regime · Fear & Greed: neutral · NORMAL",
-      "summary": "🔴 Risk-Off · Neutral · Gauge 78.7/100",
-      "date_published": "2026-03-20T04:15:01.939Z",
-      "tags": [
-        "risk-off-·-neutral",
-        "gauge-78.7"
-      ],
-      "_agentcanary": {
-        "session": "morning"
       }
     }
   ]
