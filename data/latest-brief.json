@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-03-31",
-  "time": "21:15 UTC",
-  "headline": "Markets displayed cautious optimism as geopolitical tensions eased, but underlying inflation concern…",
-  "headlineColor": "#A78BFA",
-  "desc": "RECOVERY. 18 news items. 5 scenario shifts.",
+  "session": "morning",
+  "date": "2026-04-01",
+  "time": "03:15 UTC",
+  "headline": "▼ Risk-Off · Neutral · Gauge 95.2/100",
+  "headlineColor": "#F87171",
+  "desc": "RECOVERY. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BULLISH SKEW",
-      "c": "green"
+      "t": "Risk-Off · Neutral",
+      "c": "red"
     },
     {
-      "t": "US University of Michigan Cons",
-      "c": "blue"
+      "t": "GAUGE 95.2",
+      "c": "red"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 71
+        "value": 95
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US University of Michigan Consumer Con",
-          "v": "Apr 10",
-          "c": "blue"
-        },
-        {
-          "k": "US Unseasonally Adjusted Consumer Pric",
-          "v": "Apr 10",
-          "c": "blue"
-        },
-        {
-          "k": "US Core Consumer Price Index (Unseason",
-          "v": "Apr 10",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Mar 31, 2026\n\n<i>Markets displayed cautious optimism as geopolitical tensions eased, but underlying inflation concerns and crypto weakness kept risk appetite in check. The elevated VIX at 25.25 alongside recovery-phase positioning suggests investors are navigating between improving sentiment and persistent macro uncertainties around growth and pricing pressures.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$68,190</b> · ETH: <b>$2,105</b> · SOL: <b>$83.05</b> · GOLD: <b>$4,682</b> · SPY: <b>$650.34</b> (+2.6%) · QQQ: <b>$577.18</b> (+2.6%) · VIX: <b>$25.25</b> (-17.5%) · TLT: <b>$86.69</b> (+1.2%) · DXY: <b>$99.89</b> (-0.6%) · OIL: <b>$101.56</b> (-1.3%)\n\n<b>SECTOR CLOSE</b>\n▲ XBI (Biotech) +6.8% · XLE (Energy) -1.2% · XLU (Utilities) +0.9%\n▼ COPX (Copper Miners) +3.0% · ITA (Aerospace/Defense) -2.1% · URA (Uranium) -0.2%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 100) — BTC, ETH\n— Defense / Geopolitics (intensity 59) — ITA, LMT, RTX\n— Iran / Middle East (intensity 50)\n— Oil / Energy (intensity 44) — XLE, USO, OXY\n\n<b>EVENING NEWS</b>\n▼ Bond Traders Ditch Inflation Bets as Oil Surge Threatens Growth\n▼ UK submarine captain steps down after link to Chinese spy case\n▼ What's next after bitcoin's historic underperformance stretch against stocks\n▲ OpenAI raises $3bn from retail investors as part of record funding haul\n▲ Crypto Market First Major Outflow In 5 Weeks – Here’s How Bitcoin And Ethereum Performed\n▲ Elon Musk Highlights a Surprising Silver Lining of Looming Crypto Quantum Breakthrough\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Oil surge and crypto weakness signal late-cycle dynamics\n▲ Goldilocks: Geopolitical easing and AI investment support soft landing narrative\n▲ Stagflation: Oil surge threatening growth while maintaining inflation pressures\n▲ Hegemony: Geopolitical tensions easing supports US market dominance\n▲ Displacement: AI funding surge and crypto quantum concerns accelerate tech displacement\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 71.4/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Preliminary)(Apr) — Apr 10, 02:00 PM UTC (prev: 53.3)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.4%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.5%)\n Consumer Price Index for Residents (YoY)(Mar) — Apr 10, 01:30 AM UTC (prev: 1.3%)\nUS Personal consumption expenditure price index (MoM)(Feb) — Apr 9, 12:30 PM UTC (prev: 0.3%)\nUS Personal consumption expenditure price index (AQR)(Final)(Q4) — Apr 9, 12:30 PM UTC (prev: 2.8%)\n\n<b>CONTRARIAN</b>\n• Crypto's underperformance vs stocks might be healthy consolidation before institutional adoption acc\n• Bond traders ditching inflation bets could be premature given persistent energy cost pressures globa\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 216
+  "telegramText": "<b>MACRO RADAR</b> — Apr 1, 2026\n\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 95.2/100\n\n• BTC: <b>$67,726</b>\n• ETH: <b>$2,091</b>\n• SOL: <b>$82.67</b>\n• GOLD: <b>$4,682</b>\nSPY: <b>$650.34</b> (+2.6%)\nQQQ: <b>$577.18</b> (+2.6%)\nVIX: <b>25.3</b> (-17.5%)\nTLT: <b>$86.69</b> (+1.2%)\nDXY: <b>99.8</b> (-0.7%)\nOIL: <b>$103.15</b> (+0.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.02T</b> (YoY -3.3%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>346bps</b> CALM (5d: +27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ HY Credit Spread: +2.28σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.50σ\n— 10Y Real Rate: +1.17σ\n\n<b>TOP MOVERS</b>\n▼ VIX $25.25 (-17.5%)\n▲ APLD $23.78 (+15.4%)\n▲ SOUN $6.88 (+14.3%)\n▲ BE $135 (+12.9%)\n▲ MRVL $99.08 (+12.8%)\n▲ ALGO $0.09602 (+12.0%)\n▲ ONDO $0.2712 (+5.4%)\n▲ RENDER $1.75 (+4.8%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.8851 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 217
 }

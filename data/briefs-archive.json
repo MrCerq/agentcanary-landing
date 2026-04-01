@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-04-01",
+    "time": "03:15 UTC",
+    "headline": "▼ Risk-Off · Neutral · Gauge 95.2/100",
+    "headlineColor": "#F87171",
+    "desc": "RECOVERY. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 95.2",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 95
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 217,
+    "telegramText": "<b>MACRO RADAR</b> — Apr 1, 2026\n\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 95.2/100\n\n• BTC: <b>$67,726</b>\n• ETH: <b>$2,091</b>\n• SOL: <b>$82.67</b>\n• GOLD: <b>$4,682</b>\nSPY: <b>$650.34</b> (+2.6%)\nQQQ: <b>$577.18</b> (+2.6%)\nVIX: <b>25.3</b> (-17.5%)\nTLT: <b>$86.69</b> (+1.2%)\nDXY: <b>99.8</b> (-0.7%)\nOIL: <b>$103.15</b> (+0.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.02T</b> (YoY -3.3%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>346bps</b> CALM (5d: +27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ HY Credit Spread: +2.28σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.50σ\n— 10Y Real Rate: +1.17σ\n\n<b>TOP MOVERS</b>\n▼ VIX $25.25 (-17.5%)\n▲ APLD $23.78 (+15.4%)\n▲ SOUN $6.88 (+14.3%)\n▲ BE $135 (+12.9%)\n▲ MRVL $99.08 (+12.8%)\n▲ ALGO $0.09602 (+12.0%)\n▲ ONDO $0.2712 (+5.4%)\n▲ RENDER $1.75 (+4.8%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.8851 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-03-31",
     "time": "21:15 UTC",
