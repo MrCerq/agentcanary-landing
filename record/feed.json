@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-01-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/01#intelligence",
+      "title": "Signal Scan — Apr 1, 2026",
+      "content_text": "SIGNAL SCAN — Apr 1, 2026 Risk 95.2/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 1, 2026",
+      "date_published": "2026-04-01T09:15:26.277Z",
+      "tags": [
+        "high",
+        "recovery"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-01-morning",
       "url": "https://agentcanary.ai/record/2026/04/01#morning",
       "title": "Morning Brief — Apr 1, 2026",
@@ -752,21 +767,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-19-evening",
-      "url": "https://agentcanary.ai/record/2026/03/19#evening",
-      "title": "Evening Wrap — Mar 19, 2026",
-      "content_text": "Markets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with … MARKET WRAP — Mar 19, 2026\n\nMarkets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with Bitcoin holding above $70K while traditional equity indices lagged. The ",
-      "summary": "Markets reflected stagflationary pressures as risk assets struggled despite crypto resilience, with …",
-      "date_published": "2026-03-19T22:15:05.143Z",
-      "tags": [
-        "mixed",
-        "us-university-of-m"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

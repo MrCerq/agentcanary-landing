@@ -1,6 +1,159 @@
 {
   "predictions": [
     {
+      "id": "2026-04-01-A-SPY",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "A",
+      "scenarioName": "Geopolitical Relief Rally",
+      "ticker": "SPY",
+      "type": "scenario_target",
+      "rangeMin": 670,
+      "rangeMax": 685,
+      "impliedMove": "+3-5%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-A-BTC",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "A",
+      "scenarioName": "Geopolitical Relief Rally",
+      "ticker": "BTC",
+      "type": "scenario_target",
+      "rangeMin": 72000,
+      "rangeMax": 75000,
+      "impliedMove": "+5-10%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-A-OIL",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "A",
+      "scenarioName": "Geopolitical Relief Rally",
+      "ticker": "OIL",
+      "type": "scenario_target",
+      "rangeMin": 90,
+      "rangeMax": 95,
+      "impliedMove": "-7-10%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-B-BTC",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "B",
+      "scenarioName": "Quantum Panic Accelerates",
+      "ticker": "BTC",
+      "type": "scenario_target",
+      "rangeMin": 58000,
+      "rangeMax": 62000,
+      "impliedMove": "-10-15%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-B-ETH",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "B",
+      "scenarioName": "Quantum Panic Accelerates",
+      "ticker": "ETH",
+      "type": "scenario_target",
+      "rangeMin": 1800,
+      "rangeMax": 1950,
+      "impliedMove": "-8-15%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-B-SPY",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "B",
+      "scenarioName": "Quantum Panic Accelerates",
+      "ticker": "SPY",
+      "type": "scenario_target",
+      "rangeMin": 620,
+      "rangeMax": 635,
+      "impliedMove": "-2-5%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-C-OIL",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "C",
+      "scenarioName": "Energy Shock Resurges",
+      "ticker": "OIL",
+      "type": "scenario_target",
+      "rangeMin": 110,
+      "rangeMax": 120,
+      "impliedMove": "+10-20%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-C-TLT",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "C",
+      "scenarioName": "Energy Shock Resurges",
+      "ticker": "TLT",
+      "type": "scenario_target",
+      "rangeMin": 75,
+      "rangeMax": 80,
+      "impliedMove": "-8-13%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
+      "id": "2026-04-01-C-DXY",
+      "date": "2026-04-01",
+      "session": "intelligence",
+      "scenario": "C",
+      "scenarioName": "Energy Shock Resurges",
+      "ticker": "DXY",
+      "type": "scenario_target",
+      "rangeMin": 102,
+      "rangeMax": 105,
+      "impliedMove": "+3-5%",
+      "scoreDate": "2026-04-04",
+      "result": "pending",
+      "actualHigh": null,
+      "actualLow": null,
+      "actualClose": null
+    },
+    {
       "id": "2026-03-31-A-SPY",
       "date": "2026-03-31",
       "session": "intelligence",
@@ -319,9 +472,9 @@
       "impliedMove": "-7% to -12%",
       "scoreDate": "2026-04-01",
       "result": "miss",
-      "actualHigh": 68257.69,
+      "actualHigh": 69191.27,
       "actualLow": 64971.71,
-      "actualClose": 68110.63
+      "actualClose": 68515.63
     },
     {
       "id": "2026-03-29-A-SPY",
@@ -352,10 +505,10 @@
       "rangeMax": 120,
       "impliedMove": "+10% to +20%",
       "scoreDate": "2026-04-01",
-      "result": "partial",
+      "result": "miss",
       "actualHigh": 106.86,
-      "actualLow": 99.43,
-      "actualClose": 102.96
+      "actualLow": 96.5,
+      "actualClose": 100.04
     },
     {
       "id": "2026-03-29-B-BTC",
@@ -370,9 +523,9 @@
       "impliedMove": "+5% to +13%",
       "scoreDate": "2026-04-01",
       "result": "partial",
-      "actualHigh": 68257.69,
+      "actualHigh": 69191.27,
       "actualLow": 64971.71,
-      "actualClose": 68110.63
+      "actualClose": 68515.63
     },
     {
       "id": "2026-03-29-B-SPY",
@@ -403,10 +556,10 @@
       "rangeMax": 90,
       "impliedMove": "-15% to -10%",
       "scoreDate": "2026-04-01",
-      "result": "miss",
+      "result": "partial",
       "actualHigh": 106.86,
-      "actualLow": 99.43,
-      "actualClose": 102.96
+      "actualLow": 96.5,
+      "actualClose": 100.04
     },
     {
       "id": "2026-03-28-A-SPY",
@@ -3775,5 +3928,5 @@
       "actualClose": 5146.1
     }
   ],
-  "lastScored": "2026-04-01T04:38:16.642Z"
+  "lastScored": "2026-04-01T10:22:27.133Z"
 }

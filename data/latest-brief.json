@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-01",
-  "time": "03:15 UTC",
-  "headline": "▼ Risk-Off · Neutral · Gauge 95.2/100",
-  "headlineColor": "#F87171",
-  "desc": "RECOVERY. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 1, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 95.2/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
+      "t": "HIGH",
       "c": "red"
     },
     {
-      "t": "GAUGE 95.2",
-      "c": "red"
+      "t": "RECOVERY",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1/6 NORMAL",
+          "k": "APLD",
+          "v": "+15.4%",
+          "c": "green"
+        },
+        {
+          "k": "SOUN",
+          "v": "+14.3%",
+          "c": "green"
+        },
+        {
+          "k": "BE",
+          "v": "+12.9%",
+          "c": "green"
+        },
+        {
+          "k": "MRVL",
+          "v": "+12.8%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 1, 2026\n\n▼ <b>Risk-Off · Neutral</b> · RECOVERY · Gauge: 95.2/100\n\n• BTC: <b>$67,726</b>\n• ETH: <b>$2,091</b>\n• SOL: <b>$82.67</b>\n• GOLD: <b>$4,682</b>\nSPY: <b>$650.34</b> (+2.6%)\nQQQ: <b>$577.18</b> (+2.6%)\nVIX: <b>25.3</b> (-17.5%)\nTLT: <b>$86.69</b> (+1.2%)\nDXY: <b>99.8</b> (-0.7%)\nOIL: <b>$103.15</b> (+0.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.02T</b> (YoY -3.3%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>346bps</b> CALM (5d: +27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ HY Credit Spread: +2.28σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.50σ\n— 10Y Real Rate: +1.17σ\n\n<b>TOP MOVERS</b>\n▼ VIX $25.25 (-17.5%)\n▲ APLD $23.78 (+15.4%)\n▲ SOUN $6.88 (+14.3%)\n▲ BE $135 (+12.9%)\n▲ MRVL $99.08 (+12.8%)\n▲ ALGO $0.09602 (+12.0%)\n▲ ONDO $0.2712 (+5.4%)\n▲ RENDER $1.75 (+4.8%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.8851 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 217
+  "telegramText": "<b>SIGNAL SCAN</b> — April 01, 2026\n\n<b>SNAPSHOT</b>\nRisk-on surge driven by Iran de-escalation reports, but cross-asset divergence emerging. Stocks ripping +2.5% while crypto faces quantum threats and Bitcoin approaches historic underperformance streak. Energy shock unwinding temporarily lifts growth assets.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 95.2/100 (Critical)\nRegime: Transitional Recovery — geopolitical relief masking energy-driven inflation pressures\nSPY: +2.56% | QQQ: +2.60% | VIX: -1.90% | TLT: +1.23% | DXY: -0.48% | OIL: -2.04%\nICSA: 210K (trending down, -0.35σ)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Geopolitical Relief Rally\nSPY: $670-685 (+3-5%)\nBTC: $72-75K (+5-10%)\nOIL: $90-95 (-7-10%)\n\n<b>SCENARIO B</b> — Quantum Panic Accelerates\nBTC: $58-62K (-10-15%)\nETH: $1800-1950 (-8-15%)\nSPY: $620-635 (-2-5%)\n\n<b>SCENARIO C</b> — Energy Shock Resurges\nOIL: $110-120 (+10-20%)\nTLT: $75-80 (-8-13%)\nDXY: 102-105 (+3-5%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +7.9%) — strong\n2. Biotech (XBI +7.5%) — rotating\n3. Uranium (URA +6.9%) — bid\n4. Semiconductors (SMH +5.8%) — strong\n5. Technology (XLK +4.2%) — rotating\n\n<b>BIG MOVES + DRIVERS</b>\nAPLD $23.78 (+15.4%) — earnings anticipation Wednesday, AI data center positioning\nSOUN $6.875 (+14.3%) — rebound from record lows, AI momentum\nBE $134.90 (+12.9%) — inflation hedge positioning as oil threatens growth\nGLD $430.29 (+3.8%) — safe haven bid amid quantum/energy uncertainty\nSLV $68.14 (+7.3%) — industrial demand meets precious metals rotation\n<i>Defensive assets outperforming despite equity rally signals underlying structural concerns persist.</i>\n\n<b>POSITIONING</b>\nBTC whales: $24M long vs $27M short, net negative bias with +$8M PnL\nETH positioning: slight short bias at $9.6M long/$10.9M short, -$494K PnL\nBTC ETF flows: flat at $0.0M net, ending streak patterns\nNotable: 5,500 BTC ($366M) moved after 5-year dormancy from Gemini whale\n\n<b>IMPLICATION</b>\nTactical long precious metals vs tech momentum while geopolitical relief window remains open. Hedge quantum risk in crypto positions — defensive rotation accelerating despite headline strength suggests underlying fragility.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 218
 }
