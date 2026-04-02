@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-04-02",
+    "time": "03:15 UTC",
+    "headline": "▼ Risk-Off · Neutral · Gauge 93/100",
+    "headlineColor": "#F87171",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 93",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 93
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 221,
+    "telegramText": "<b>MACRO RADAR</b> — Apr 2, 2026\n\n▼ <b>Risk-Off · Neutral</b> · EXPANSION · Gauge: 93/100\n\n• BTC: <b>$66,832</b>\n• ETH: <b>$2,072</b>\n• SOL: <b>$78.8</b>\n• GOLD: <b>$4,769</b>\nSPY: <b>$655.24</b> (+3.7%)\nQQQ: <b>$584.31</b> (+4.7%)\nVIX: <b>24.5</b> (-2.8%)\nTLT: <b>$86.26</b> (-0.6%)\nDXY: <b>100.0</b> (-0.0%)\nOIL: <b>$104.03</b> (+2.6%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.03T</b> (YoY -3.1%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>346bps</b> CALM (5d: +27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ HY Credit Spread: +2.28σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.51σ\n— Unemployment: +1.00σ\n\n<b>TOP MOVERS</b>\n▲ TKMS $90.10 (+20.8%)\n▼ BRENT $106 (-10.5%)\n▲ SOXX $339 (+9.3%)\n▲ MU $368 (+9.1%)\n▲ INTC $48.02 (+8.8%)\n▲ M $2.49 (+6.9%)\n▼ DASH $30.58 (-6.8%)\n▼ RAIN $0.007577 (-6.2%) — Trump threatened to stop weapons for Ukraine unless Europe j\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.8851 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-04-01",
     "time": "21:15 UTC",
