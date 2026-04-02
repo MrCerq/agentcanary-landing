@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-02-evening",
+      "url": "https://agentcanary.ai/record/2026/04/02#evening",
+      "title": "Evening Wrap — Apr 2, 2026",
+      "content_text": "Markets pivoted to risk-off as geopolitical tensions with Iran escalated, sending gold to $4,673 and… EXPANSION. 16 news items. 4 scenario shifts.",
+      "summary": "Markets pivoted to risk-off as geopolitical tensions with Iran escalated, sending gold to $4,673 and…",
+      "date_published": "2026-04-02T21:15:04.382Z",
+      "tags": [
+        "mixed",
+        "us-university-of-michigan-cons"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-02-midday",
       "url": "https://agentcanary.ai/record/2026/04/02#midday",
       "title": "Market Pulse — Apr 2, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-21-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/21#intelligence",
-      "title": "Signal Scan — Mar 21, 2026",
-      "content_text": "SIGNAL SCAN — Mar 21, 2026 Risk 91.3/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 21, 2026",
-      "date_published": "2026-03-21T10:15:19.486Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — Apr 2, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/02#evening</link>
+      <description>Markets pivoted to risk-off as geopolitical tensions with Iran escalated, sending gold to $4,673 and… — EXPANSION. 16 news items. 4 scenario shifts.</description>
+      <pubDate>Thu, 02 Apr 2026 21:15:04 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/02#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — Apr 2, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/02#midday</link>
       <description>BTC Risk-Off · 100 whale moves — BTC daily risk-off, 4h risk-off · ETH daily accumulation, 4h bearish · SOL daily risk-off, 4h risk-off</description>
@@ -357,13 +364,6 @@ Markets reflected stagflationary pressures with VIX elevated at 26.78 as growth 
       <description>BTC Accumulation · 100 whale moves — BTC daily accumulation, 4h bearish · ETH daily distribution, 4h bullish · SOL daily distribution, 4h bullish</description>
       <pubDate>Sat, 21 Mar 2026 16:15:00 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/21#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 21, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/21#intelligence</link>
-      <description>SIGNAL SCAN — Mar 21, 2026 — Risk 91.3/100 · 8 movers</description>
-      <pubDate>Sat, 21 Mar 2026 10:15:19 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/21#intelligence</guid>
     </item>
   </channel>
 </rss>
