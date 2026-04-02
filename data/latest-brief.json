@@ -1,53 +1,61 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-04-02",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — Apr 2, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 93/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:ACCUMULATION 4h:BEAR_REGIME · SOL 1d:RISK_OFF 4h:RISK_OFF",
   "tags": [
     {
-      "t": "HIGH",
+      "t": "RISK_OFF",
       "c": "red"
     },
     {
-      "t": "EXPANSION",
+      "t": "WHALE ALERT",
       "c": "blue"
+    },
+    {
+      "t": "NOM 335% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 93
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "TKMS",
-          "v": "+14.6%",
+          "k": "BTC 1D",
+          "v": "RISK_OFF",
+          "c": "red"
+        },
+        {
+          "k": "ETH 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "RHM.DE",
-          "v": "+9.5%",
-          "c": "green"
+          "k": "SOL 1D",
+          "v": "RISK_OFF",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$75M BTC",
+          "v": "transferred from Coi",
+          "c": "blue"
         },
         {
-          "k": "MU",
-          "v": "+9.1%",
-          "c": "green"
-        },
-        {
-          "k": "INTC",
-          "v": "+8.8%",
-          "c": "green"
+          "k": "$250M USDC",
+          "v": "minted at USDC Treas",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — April 2, 2026\n\n<b>SNAPSHOT</b>\nRisk-on sentiment emerges despite elevated volatility as geopolitical tensions ease with Iran ceasefire hopes. Cross-asset divergence shows equities rallying while crypto faces headwinds from SOL hack, though institutional flows remain constructive. Mixed regime with growth momentum offsetting tightening financial conditions.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 93.0/100 (Critical)\nRegime: Transitional expansion — HY spreads widening conflicts with equity strength\nKey prices: SPY +3.7%, QQQ +4.7%, VIX +7.8%, TLT -0.6%, DXY +0.5%, OIL +7.2%\nICSA: 210K (-0.35σ, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Relief Rally\nSPY: $675-690 (+3-5%)\nBTC: $70-73K (+5-10%)\nOIL: $95-100 (-9-12%)\n\n<b>SCENARIO B</b> — DeFi Contagion Spread\nSOL: $65-70 (-12-18%)\nETH: $1850-1950 (-5-9%)\nBTC: $62-65K (-3-6%)\n\n<b>SCENARIO C</b> — Central Bank Pivot\nTLT: $88-92 (+2-7%)\nDXY: $97-99 (-2-3%)\nSPY: $640-655 (-2-0%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +2.4%) — strong\n2. Defense (ITA +2.2%) — bid\n3. Semiconductors (SMH +2.2%) — rotating\n4. Uranium (URA +1.7%) — strong\n5. Industrials (XLI +1.7%) — bid\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS +14.6% — defense contractor benefiting from geopolitical tensions and increased military spending focus\nMU +9.1% — Franklin Templeton crypto acquisition boosting institutional adoption narrative for tech infrastructure\nINTC +8.8% — semiconductor rotation as relative strength leaders emerge in AI/edge computing space\nSOL -5.2% — major DeFi hack on Solana ecosystem creating sector-wide risk-off sentiment\nONDO -4.8% — real-world asset tokens declining on regulatory uncertainty and DeFi contagion fears\n<i>Defensive rotation accelerating as geopolitical premium shifts from oil to hard assets while crypto faces institutional-retail divergence.</i>\n\n<b>POSITIONING</b>\nBTC whales heavily long $66.7M vs $16.2M short with +$7.8M PnL across 3 positions, max leverage 40x indicating conviction despite recent volatility. ETH positioning balanced at $20M each side with -$799K PnL showing uncertainty. SOL whales net long $11.1M but sitting on -$6.37M losses.\nBTC ETF flows: -$212.3M outflow, breaking recent positive streak as institutional money rotates to traditional risk assets.\n\n<b>IMPLICATION</b>\nPortfolio managers should consider tactical long defense/industrials vs crypto beta as geopolitical premium shifts from energy to hard assets. BTC ETF outflows signal institutional rotation window, but whale positioning suggests downside limited unless DeFi contagion spreads to broader crypto infrastructure.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 222
+  "telegramText": "<b>MARKET PULSE</b> — Apr 2, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$66,891</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$2,064</b> — 1d: ACCUMULATION | 4h: BEAR_REGIME\n• SOL: <b>$79.02</b> — 1d: RISK_OFF | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 1,116 BTC ($74,578,912)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n• 250,000,000 USDC ($249,999,750)\n  <i>minted at USDC Treasury</i>\n• 250,000,000 USDC ($250,025,000)\n  <i>minted at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>NOM</b>: 65% net APR (0.1529% rate)\n  Long Bybit / Short MEXC | OI: $5.1M | Spread: 0.70%\n• <b>ARIA</b>: 369% net APR (0.1370% rate)\n  Long Binance / Short Bybit | OI: $8.0M | Spread: -0.25%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $98,075,425 | Longs: 73% | L/S: 2.7:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n▲ Crypto Market Potential Reversal [BTC, ETH, COIN]\n— Mining Sector Mixed Signals [BITF, RIOT, MARA]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 223
 }
