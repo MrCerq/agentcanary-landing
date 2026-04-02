@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-02",
-  "time": "03:15 UTC",
-  "headline": "▼ Risk-Off · Neutral · Gauge 93/100",
-  "headlineColor": "#F87171",
-  "desc": "EXPANSION. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 2, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 93/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
+      "t": "HIGH",
       "c": "red"
     },
     {
-      "t": "GAUGE 93",
-      "c": "red"
+      "t": "EXPANSION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1/6 NORMAL",
+          "k": "TKMS",
+          "v": "+14.6%",
+          "c": "green"
+        },
+        {
+          "k": "RHM.DE",
+          "v": "+9.5%",
+          "c": "green"
+        },
+        {
+          "k": "MU",
+          "v": "+9.1%",
+          "c": "green"
+        },
+        {
+          "k": "INTC",
+          "v": "+8.8%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 2, 2026\n\n▼ <b>Risk-Off · Neutral</b> · EXPANSION · Gauge: 93/100\n\n• BTC: <b>$66,832</b>\n• ETH: <b>$2,072</b>\n• SOL: <b>$78.8</b>\n• GOLD: <b>$4,769</b>\nSPY: <b>$655.24</b> (+3.7%)\nQQQ: <b>$584.31</b> (+4.7%)\nVIX: <b>24.5</b> (-2.8%)\nTLT: <b>$86.26</b> (-0.6%)\nDXY: <b>100.0</b> (-0.0%)\nOIL: <b>$104.03</b> (+2.6%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.03T</b> (YoY -3.1%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>346bps</b> CALM (5d: +27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.58σ\n▼ HY Credit Spread: +2.28σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.51σ\n— Unemployment: +1.00σ\n\n<b>TOP MOVERS</b>\n▲ TKMS $90.10 (+20.8%)\n▼ BRENT $106 (-10.5%)\n▲ SOXX $339 (+9.3%)\n▲ MU $368 (+9.1%)\n▲ INTC $48.02 (+8.8%)\n▲ M $2.49 (+6.9%)\n▼ DASH $30.58 (-6.8%)\n▼ RAIN $0.007577 (-6.2%) — Trump threatened to stop weapons for Ukraine unless Europe j\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ USD Index: 120.8851 (&gt;110)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 221
+  "telegramText": "<b>SIGNAL SCAN</b> — April 2, 2026\n\n<b>SNAPSHOT</b>\nRisk-on sentiment emerges despite elevated volatility as geopolitical tensions ease with Iran ceasefire hopes. Cross-asset divergence shows equities rallying while crypto faces headwinds from SOL hack, though institutional flows remain constructive. Mixed regime with growth momentum offsetting tightening financial conditions.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 93.0/100 (Critical)\nRegime: Transitional expansion — HY spreads widening conflicts with equity strength\nKey prices: SPY +3.7%, QQQ +4.7%, VIX +7.8%, TLT -0.6%, DXY +0.5%, OIL +7.2%\nICSA: 210K (-0.35σ, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Relief Rally\nSPY: $675-690 (+3-5%)\nBTC: $70-73K (+5-10%)\nOIL: $95-100 (-9-12%)\n\n<b>SCENARIO B</b> — DeFi Contagion Spread\nSOL: $65-70 (-12-18%)\nETH: $1850-1950 (-5-9%)\nBTC: $62-65K (-3-6%)\n\n<b>SCENARIO C</b> — Central Bank Pivot\nTLT: $88-92 (+2-7%)\nDXY: $97-99 (-2-3%)\nSPY: $640-655 (-2-0%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +2.4%) — strong\n2. Defense (ITA +2.2%) — bid\n3. Semiconductors (SMH +2.2%) — rotating\n4. Uranium (URA +1.7%) — strong\n5. Industrials (XLI +1.7%) — bid\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS +14.6% — defense contractor benefiting from geopolitical tensions and increased military spending focus\nMU +9.1% — Franklin Templeton crypto acquisition boosting institutional adoption narrative for tech infrastructure\nINTC +8.8% — semiconductor rotation as relative strength leaders emerge in AI/edge computing space\nSOL -5.2% — major DeFi hack on Solana ecosystem creating sector-wide risk-off sentiment\nONDO -4.8% — real-world asset tokens declining on regulatory uncertainty and DeFi contagion fears\n<i>Defensive rotation accelerating as geopolitical premium shifts from oil to hard assets while crypto faces institutional-retail divergence.</i>\n\n<b>POSITIONING</b>\nBTC whales heavily long $66.7M vs $16.2M short with +$7.8M PnL across 3 positions, max leverage 40x indicating conviction despite recent volatility. ETH positioning balanced at $20M each side with -$799K PnL showing uncertainty. SOL whales net long $11.1M but sitting on -$6.37M losses.\nBTC ETF flows: -$212.3M outflow, breaking recent positive streak as institutional money rotates to traditional risk assets.\n\n<b>IMPLICATION</b>\nPortfolio managers should consider tactical long defense/industrials vs crypto beta as geopolitical premium shifts from energy to hard assets. BTC ETF outflows signal institutional rotation window, but whale positioning suggests downside limited unless DeFi contagion spreads to broader crypto infrastructure.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 222
 }

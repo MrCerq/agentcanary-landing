@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Apr 2, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/02#intelligence</link>
+      <description>SIGNAL SCAN — Apr 2, 2026 — Risk 93/100 · 8 movers</description>
+      <pubDate>Thu, 02 Apr 2026 09:15:29 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/02#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Apr 2, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/02#morning</link>
       <description>▼ Risk-Off · Neutral · Gauge 93/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -357,15 +364,6 @@ Markets reflected stagflationary pressures with VIX elevated at 26.78 as growth 
       <description>🔴 Risk-Off · Neutral · Gauge 91.3/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
       <pubDate>Sat, 21 Mar 2026 04:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/21#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 20, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/20#evening</link>
-      <description>Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment,… — MARKET WRAP — Mar 20, 2026
-
-Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with traditional havens like gold pushing to 4501 while equities strugg</description>
-      <pubDate>Fri, 20 Mar 2026 22:15:09 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/20#evening</guid>
     </item>
   </channel>
 </rss>

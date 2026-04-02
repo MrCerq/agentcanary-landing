@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-02",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 2, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 93/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 93
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TKMS",
+            "v": "+14.6%",
+            "c": "green"
+          },
+          {
+            "k": "RHM.DE",
+            "v": "+9.5%",
+            "c": "green"
+          },
+          {
+            "k": "MU",
+            "v": "+9.1%",
+            "c": "green"
+          },
+          {
+            "k": "INTC",
+            "v": "+8.8%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — April 2, 2026\n\n<b>SNAPSHOT</b>\nRisk-on sentiment emerges despite elevated volatility as geopolitical tensions ease with Iran ceasefire hopes. Cross-asset divergence shows equities rallying while crypto faces headwinds from SOL hack, though institutional flows remain constructive. Mixed regime with growth momentum offsetting tightening financial conditions.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 93.0/100 (Critical)\nRegime: Transitional expansion — HY spreads widening conflicts with equity strength\nKey prices: SPY +3.7%, QQQ +4.7%, VIX +7.8%, TLT -0.6%, DXY +0.5%, OIL +7.2%\nICSA: 210K (-0.35σ, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Relief Rally\nSPY: $675-690 (+3-5%)\nBTC: $70-73K (+5-10%)\nOIL: $95-100 (-9-12%)\n\n<b>SCENARIO B</b> — DeFi Contagion Spread\nSOL: $65-70 (-12-18%)\nETH: $1850-1950 (-5-9%)\nBTC: $62-65K (-3-6%)\n\n<b>SCENARIO C</b> — Central Bank Pivot\nTLT: $88-92 (+2-7%)\nDXY: $97-99 (-2-3%)\nSPY: $640-655 (-2-0%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +2.4%) — strong\n2. Defense (ITA +2.2%) — bid\n3. Semiconductors (SMH +2.2%) — rotating\n4. Uranium (URA +1.7%) — strong\n5. Industrials (XLI +1.7%) — bid\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS +14.6% — defense contractor benefiting from geopolitical tensions and increased military spending focus\nMU +9.1% — Franklin Templeton crypto acquisition boosting institutional adoption narrative for tech infrastructure\nINTC +8.8% — semiconductor rotation as relative strength leaders emerge in AI/edge computing space\nSOL -5.2% — major DeFi hack on Solana ecosystem creating sector-wide risk-off sentiment\nONDO -4.8% — real-world asset tokens declining on regulatory uncertainty and DeFi contagion fears\n<i>Defensive rotation accelerating as geopolitical premium shifts from oil to hard assets while crypto faces institutional-retail divergence.</i>\n\n<b>POSITIONING</b>\nBTC whales heavily long $66.7M vs $16.2M short with +$7.8M PnL across 3 positions, max leverage 40x indicating conviction despite recent volatility. ETH positioning balanced at $20M each side with -$799K PnL showing uncertainty. SOL whales net long $11.1M but sitting on -$6.37M losses.\nBTC ETF flows: -$212.3M outflow, breaking recent positive streak as institutional money rotates to traditional risk assets.\n\n<b>IMPLICATION</b>\nPortfolio managers should consider tactical long defense/industrials vs crypto beta as geopolitical premium shifts from energy to hard assets. BTC ETF outflows signal institutional rotation window, but whale positioning suggests downside limited unless DeFi contagion spreads to broader crypto infrastructure.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 222
+  },
+  {
     "session": "morning",
     "date": "2026-04-02",
     "time": "03:15 UTC",
@@ -1412,53 +1465,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Mar 26, 2026\n\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 81.2/100\n\n• BTC: <b>$70,836</b>\n• ETH: <b>$2,152</b>\n• SOL: <b>$91</b>\n• GOLD: <b>$4,527</b>\nSPY: <b>$656.82</b> (+0.2%)\nQQQ: <b>$587.82</b> (-0.0%)\nVIX: <b>25.3</b> (-6.0%)\nTLT: <b>$86.84</b> (+0.5%)\nDXY: <b>99.6</b> (+0.0%)\nOIL: <b>$91.81</b> (+1.6%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n🔴 Global CB Liquidity: <b>$18.05T</b> (YoY -3.4%)\n   US M2: $22.67T (YoY +4.88%)\n🟢 HY Credit Spreads: <b>324bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n🔴 10Y Real Rate: +2.33σ\n🔴 10Y Treasury: +1.77σ\n🔴 2Y Treasury: +1.77σ\n🔴 Fed Balance Sheet: +1.64σ\n🟡 Gold: -1.49σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n🔴 NVDA: -3.1%\n🔴 ETH: -0.5%\n\n<b>TOP MOVERS</b>\n🔴 VIX $25.33 (-6.0%)\n🔴 EWY $128 (-4.5%)\n🟢 SLV $65.21 (+4.4%)\n🟢 XLB $49.41 (+3.9%)\n🔴 BRENT $98.45 (-3.7%)\n🔴 RENDER $1.80 (-2.7%) — Best Crypto to Buy Now for Q2 Gains: RENDER and INJ Could Ru\n🔴 NEAR $1.25 (-2.3%) — Bitcoin ETFs Near YTD Flow Recovery Despite 40% Price Drop\n🔴 MORPHO $1.68 (-2.3%)\n\n<b>HEGEMONY SNAPBACK</b> 👀: 1.5/6 — <b>WATCH</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n🔴 USD Index: 120.2757 (&gt;110)\n🟡 Gold: $4527 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 193
-  },
-  {
-    "session": "evening",
-    "date": "2026-03-25",
-    "time": "22:15 UTC",
-    "headline": "Markets reflected growing stagflation concerns as U.S.-Iran tensions drove risk-off positioning, wit…",
-    "headlineColor": "#A78BFA",
-    "desc": "STAGFLATION. 18 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "US Durable goods orders (MoM) ",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 85
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Durable goods orders (MoM) (Revised",
-            "v": "Apr 4",
-            "c": "blue"
-          },
-          {
-            "k": "US Seasonally adjusted changes in non-",
-            "v": "Apr 3",
-            "c": "blue"
-          },
-          {
-            "k": "US Unemployment Rate(Mar)",
-            "v": "Apr 3",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Mar 25, 2026\n\n<i>Markets reflected growing stagflation concerns as U.S.-Iran tensions drove risk-off positioning, with Bitcoin's resilience near $71k challenging gold's traditional safe-haven dominance. The elevated VIX and rising dollar underscore investor anxiety about persistent inflation pressures amid late-cycle dynamics.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$71,003</b> · ETH: <b>$2,163</b> · SOL: <b>$91.19</b> · GOLD: <b>$4,527</b> · SPY: <b>$656.82</b> (+0.2%) · QQQ: <b>$587.82</b> (-0.0%) · VIX: <b>$25.33</b> (-6.0%) · TLT: <b>$86.84</b> (+0.5%) · DXY: <b>$99.64</b> (+0.2%) · OIL: <b>$91.27</b> (-1.2%)\n\n<b>SECTOR CLOSE</b>\n🟢 XLE (Energy) +3.7% · XBI (Biotech) +2.3% · XLF (Financials) +0.8%\n🔴 COPX (Copper Miners) +0.9% · XLRE (Real Estate) -4.2% · URA (Uranium) -0.2%\n\n<b>SIGNALS</b>\n🟡 Crypto / Bitcoin (intensity 87) — BTC, ETH\n🟡 Iran / Middle East (intensity 51)\n🟡 Defense / Geopolitics (intensity 46) — ITA, LMT, RTX\n\n<b>EVENING NEWS</b>\n🟢 Bitcoin Rises as U.S.-Iran Tensions Escalate, Challenging Gold’s Safe Haven Dominance\n🟢 US Insists Talks Ongoing Even as Iran Rejects Trump Outreach\n🟢 Fed’s Miran Says He Raised Rate Projection Due to Inflation Data\n🔴 Jefferies reports new $10mn First Brands loss as it writes off exposure \n🔴 Analyst: Bitcoin Could Bottom at $46K as ‘Electric Cost’ Falls\n🔴 Cattle Fading Back on Wednesday\n\n<b>SCENARIO SHIFTS</b>\n🟢 Late Cycle: Fed hawkishness and inflation persistence extend cycle\n🔴 Goldilocks: Inflation and geopolitical tensions break goldilocks conditions\n🟢 Stagflation: Energy shocks and persistent inflation with growth concerns\n🟢 Hegemony: U.S.-Iran conflict tests American global influence\n🟢 Displacement: Bitcoin challenging gold's safe haven role signals monetary displacement\n\n<b>REGIME CHECK</b>\n🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 84.9/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 55.4)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 2, 02:00 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's safe haven narrative during the Iran crisis may be temporary positioning rather than funda\n• Energy price spikes from Iran conflict could accelerate renewable adoption faster than expected, mak\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 192
   }
 ]
