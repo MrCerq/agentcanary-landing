@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-03-evening",
+      "url": "https://agentcanary.ai/record/2026/04/03#evening",
+      "title": "Evening Wrap — Apr 3, 2026",
+      "content_text": "Markets reflected growing macro uncertainty as the VIX pushed above 23 while bonds rallied alongside… EXPANSION. 15 news items. 4 scenario shifts.",
+      "summary": "Markets reflected growing macro uncertainty as the VIX pushed above 23 while bonds rallied alongside…",
+      "date_published": "2026-04-03T21:15:05.215Z",
+      "tags": [
+        "mixed",
+        "us-nar-seasonally-adjusted-exi"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-03-midday",
       "url": "https://agentcanary.ai/record/2026/04/03#midday",
       "title": "Market Pulse — Apr 3, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-22-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/22#intelligence",
-      "title": "Signal Scan — Mar 22, 2026",
-      "content_text": "SIGNAL SCAN — Mar 22, 2026 Risk 91.3/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 22, 2026",
-      "date_published": "2026-03-22T10:15:19.534Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
