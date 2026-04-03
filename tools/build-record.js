@@ -98,7 +98,7 @@ function saveJSON(p, data) {
 
 const LM_STUDIO_URL = 'http://localhost:1234/v1/chat/completions';
 const LM_STUDIO_MODEL = 'qwen/qwen3.5-9b';
-const LM_STUDIO_KEY = 'sk-lm-ydncg29I:IucIXDddsZdFUDMkzkpb';
+const LM_STUDIO_KEY = 'REDACTED_VPS_LLM_TOKEN';
 
 function lmStudioGenerate(prompt) {
   return new Promise((resolve) => {

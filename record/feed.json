@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-03-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/03#intelligence",
+      "title": "Signal Scan — Apr 3, 2026",
+      "content_text": "SIGNAL SCAN — Apr 3, 2026 Risk 93/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 3, 2026",
+      "date_published": "2026-04-03T09:15:27.828Z",
+      "tags": [
+        "high",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-03-morning",
       "url": "https://agentcanary.ai/record/2026/04/03#morning",
       "title": "Morning Brief — Apr 3, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-21-evening",
-      "url": "https://agentcanary.ai/record/2026/03/21#evening",
-      "title": "Evening Wrap — Mar 21, 2026",
-      "content_text": "Markets reflected stagflationary pressures with VIX elevated at 26.78 as growth assets struggled des… MARKET WRAP — Mar 21, 2026\n\nMarkets reflected stagflationary pressures with VIX elevated at 26.78 as growth assets struggled despite crypto's resilience. The dollar's strength near 99.5 alongside surg",
-      "summary": "Markets reflected stagflationary pressures with VIX elevated at 26.78 as growth assets struggled des…",
-      "date_published": "2026-03-21T22:15:05.217Z",
-      "tags": [
-        "mixed",
-        "us-conference-boar"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
