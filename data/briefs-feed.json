@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-04-03",
+    "time": "03:15 UTC",
+    "headline": "▼ Risk-Off · Neutral · Gauge 93/100",
+    "headlineColor": "#F87171",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-Off · Neutral",
+        "c": "red"
+      },
+      {
+        "t": "GAUGE 93",
+        "c": "red"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 93
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — Apr 3, 2026\n\n▼ <b>Risk-Off · Neutral</b> · EXPANSION · Gauge: 93/100\n\n• BTC: <b>$66,496</b>\n• ETH: <b>$2,051</b>\n• SOL: <b>$79.27</b>\n• GOLD: <b>$4,673</b>\nSPY: <b>$655.83</b> (+0.8%)\nQQQ: <b>$584.98</b> (+1.4%)\nVIX: <b>23.9</b> (-2.7%)\nTLT: <b>$86.79</b> (+0.1%)\nDXY: <b>100.0</b> (+0.4%)\nOIL: <b>$112.06</b> (+11.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.04T</b> (YoY -2.91%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>346bps</b> CALM (5d: +27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.57σ\n▼ HY Credit Spread: +2.28σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.51σ\n— Unemployment: +1.00σ\n\n<b>TOP MOVERS</b>\n▲ OIL $112 (+11.9%) — Oil shock, Iran war risk keep crypto investors on sidelines:\n▲ WTI $112 (+11.9%)\n▲ ALGO $0.1108 (+11.9%)\n▲ TKMS $87.85 (+11.8%)\n▲ ALAB $117 (+10.1%)\n▲ RENDER $1.87 (+9.4%)\n▲ ONDS $9.59 (+8.8%)\n▲ QNT $75.67 (+8.4%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n<i>No signals firing — multipolar thesis intact</i>\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 225
+  },
+  {
     "session": "evening",
     "date": "2026-04-02",
     "time": "21:15 UTC",
@@ -1426,62 +1464,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — Mar 26, 2026\n\n<i>Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off flows while inflationary concerns mounted. The VIX spike above 27 drove defensive positioning into gold near $4,364, as both crypto and equities sold off amid fears of economic stagnation. Late-cycle dynamics are clearly asserting themselves across asset classes.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$68,883</b> · ETH: <b>$2,068</b> · SOL: <b>$86.83</b> · GOLD: <b>$4,364</b> · SPY: <b>$645.09</b> (-1.2%) · QQQ: <b>$573.79</b> (-1.7%) · VIX: <b>$27.44</b> (+8.3%) · TLT: <b>$86.11</b> (+0.1%) · DXY: <b>$99.87</b> (+0.3%) · OIL: <b>$93.47</b> (+3.5%)\n\n<b>SECTOR CLOSE</b>\n▲ XLE (Energy) +3.7% · XBI (Biotech) +1.3% · XLB (Materials) +2.8%\n▼ COPX (Copper Miners) -2.1% · URA (Uranium) -3.3% · SMH (Semiconductors) -3.6%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 90) — BTC, ETH\n\n<b>EVENING NEWS</b>\n▲ After a $1.2 billion run, XRP ETFs just flipped from inflows to outflows\n▼ Asian Stocks to Drop as Trump Extends Iran Talks: Markets Wrap\n▲ Bitcoin gained 655% the last time this supply in profit metric dropped to 50%\n▼ Crypto drops alongside equities as risk-off sentiment spreads across markets\n▼ MARA Sells 15,000 BTC for $1.1 Billion to Retire Convertible Debt\n▼ Bitcoin, Ethereum Slip as Trump Says He's 'Not Desperate' to End Iran War\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto profit-taking and nonbank credit growth signal mature cycle dynamics\n▲ Recession: Broad risk-off sentiment and asset liquidations increase recession probability\n▼ Goldilocks: Multiple headwinds eliminate conditions for balanced growth environment\n▲ Stagflation: Geopolitical tensions driving energy costs while growth concerns mount\n▲ Hegemony: Iran tensions highlight ongoing U.S. geopolitical engagement requirements\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 81.2/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Feb) — Apr 4, 02:00 PM UTC (prev: 0.0%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Mar) — Apr 3, 12:30 PM UTC (prev: -92)\nUS Unemployment Rate(Mar) — Apr 3, 12:30 PM UTC (prev: 4.4%)\n Caixin Services Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 56.7)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 3, 01:45 AM UTC (prev: 55.4)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 2, 02:00 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's historical 655% gain after 50% supply-in-profit metric suggests current weakness could be \n• MARA's debt retirement through Bitcoin sales may signal confident balance sheet optimization rather \n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 196
-  },
-  {
-    "session": "midday",
-    "date": "2026-03-26",
-    "time": "16:15 UTC",
-    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:ACCUMULATION 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:BEAR_REGIME",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "BARD 1612% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$51M USDC",
-            "v": "burned at USDC Treas",
-            "c": "blue"
-          },
-          {
-            "k": "$50M USDC",
-            "v": "burned at USDC Treas",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — Mar 26, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$69,090</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,066</b> — 1d: ACCUMULATION | 4h: BEAR_REGIME\n• SOL: <b>$87.15</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 51,286,376.05 USDC ($51,287,992)\n  <i>burned at USDC Treasury</i>\n• 50,000,000 USDC ($50,001,675)\n  <i>burned at USDC Treasury</i>\n• 250,000,000 USDC ($250,016,499)\n  <i>minted at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>BARD</b>: 2094% net APR (0.1840% rate)\n  Long Binance / Short Bybit | OI: $12.1M | Spread: -1.38%\n• <b>SIREN</b>: 289% net APR (0.0276% rate)\n  Long Binance / Short Bitget | OI: $14.9M | Spread: -0.21%\n• <b>M</b>: 172% net APR (0.0569% rate)\n  Long Bybit / Short Binance | OI: $14.4M | Spread: -0.19%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $67,173,798 | Longs: 77% | L/S: 3.3:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>INTEL</b>\n— Crypto Institutional Rebalancing [BTC, MARA, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 195
   }
 ]
