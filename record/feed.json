@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-04-morning",
+      "url": "https://agentcanary.ai/record/2026/04/04#morning",
+      "title": "Morning Brief — Apr 4, 2026",
+      "content_text": "▼ Risk-Off · Neutral · Gauge 47.3/100 Expansion regime · Fear & Greed: neutral · NORMAL",
+      "summary": "▼ Risk-Off · Neutral · Gauge 47.3/100",
+      "date_published": "2026-04-04T03:15:01.902Z",
+      "tags": [
+        "risk-off-·-neutral",
+        "gauge-47.3"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
       "id": "2026-04-03-evening",
       "url": "https://agentcanary.ai/record/2026/04/03#evening",
       "title": "Evening Wrap — Apr 3, 2026",
@@ -750,22 +765,6 @@
       ],
       "_agentcanary": {
         "session": "evening"
-      }
-    },
-    {
-      "id": "2026-03-22-midday",
-      "url": "https://agentcanary.ai/record/2026/03/22#midday",
-      "title": "Market Pulse — Mar 22, 2026",
-      "content_text": "BTC Risk-Off · 100 whale moves BTC daily risk-off, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily risk-off, 4h risk-off",
-      "summary": "BTC Risk-Off · 100 whale moves",
-      "date_published": "2026-03-22T16:15:01.084Z",
-      "tags": [
-        "risk_off",
-        "whale-alert",
-        "siren-4859%-apr"
-      ],
-      "_agentcanary": {
-        "session": "midday"
       }
     }
   ]

@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — Apr 4, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/04#morning</link>
+      <description>▼ Risk-Off · Neutral · Gauge 47.3/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
+      <pubDate>Sat, 04 Apr 2026 03:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/04#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — Apr 3, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/03#evening</link>
       <description>Markets reflected growing macro uncertainty as the VIX pushed above 23 while bonds rallied alongside… — EXPANSION. 15 news items. 4 scenario shifts.</description>
@@ -355,13 +362,6 @@ Markets retreated into defensive positioning as stagflation concerns intensified
 Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with equities declining while oil surged to $98.23 and gold hit $4,501.</description>
       <pubDate>Sun, 22 Mar 2026 22:15:05 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/22#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — Mar 22, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/22#midday</link>
-      <description>BTC Risk-Off · 100 whale moves — BTC daily risk-off, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily risk-off, 4h risk-off</description>
-      <pubDate>Sun, 22 Mar 2026 16:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/22#midday</guid>
     </item>
   </channel>
 </rss>
