@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — Apr 4, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/04#midday</link>
+      <description>BTC Ignition · 100 whale moves — BTC daily ignition, 4h ignition · ETH daily ignition, 4h accumulation · SOL daily accumulation, 4h distribution</description>
+      <pubDate>Sat, 04 Apr 2026 15:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/04#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — Apr 4, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/04#intelligence</link>
       <description>SIGNAL SCAN — Apr 4, 2026 — Risk 47.3/100 · 8 movers</description>
@@ -353,13 +360,6 @@ Markets retreated into defensive positioning as stagflation concerns intensified
       <description>SIGNAL SCAN — Mar 23, 2026 — Risk 91.3/100 · 7 movers</description>
       <pubDate>Mon, 23 Mar 2026 10:15:21 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/23#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — Mar 23, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/23#morning</link>
-      <description>🔴 Risk-Off · Neutral · Gauge 91.3/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
-      <pubDate>Mon, 23 Mar 2026 04:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/23#morning</guid>
     </item>
   </channel>
 </rss>
