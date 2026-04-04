@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — Apr 4, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/04#evening</link>
+      <description>Markets turned risk-off as geopolitical tensions escalated while strong employment data complicated … — EXPANSION. 13 news items. 5 scenario shifts.</description>
+      <pubDate>Sat, 04 Apr 2026 21:15:05 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/04#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — Apr 4, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/04#midday</link>
       <description>BTC Ignition · 100 whale moves — BTC daily ignition, 4h ignition · ETH daily ignition, 4h accumulation · SOL daily accumulation, 4h distribution</description>
@@ -353,13 +360,6 @@ Markets retreated into defensive positioning as stagflation concerns intensified
       <description>BTC Bearish · 100 whale moves — BTC daily bearish, 4h bullish · ETH daily bearish, 4h bullish · SOL daily bearish, 4h bullish</description>
       <pubDate>Mon, 23 Mar 2026 16:15:02 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/23#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 23, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/23#intelligence</link>
-      <description>SIGNAL SCAN — Mar 23, 2026 — Risk 91.3/100 · 7 movers</description>
-      <pubDate>Mon, 23 Mar 2026 10:15:21 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/23#intelligence</guid>
     </item>
   </channel>
 </rss>

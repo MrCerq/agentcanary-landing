@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-04-evening",
+      "url": "https://agentcanary.ai/record/2026/04/04#evening",
+      "title": "Evening Wrap — Apr 4, 2026",
+      "content_text": "Markets turned risk-off as geopolitical tensions escalated while strong employment data complicated … EXPANSION. 13 news items. 5 scenario shifts.",
+      "summary": "Markets turned risk-off as geopolitical tensions escalated while strong employment data complicated …",
+      "date_published": "2026-04-04T21:15:05.085Z",
+      "tags": [
+        "mixed",
+        "us-producer-price-index-(yoy)("
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-04-midday",
       "url": "https://agentcanary.ai/record/2026/04/04#midday",
       "title": "Market Pulse — Apr 4, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-23-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/23#intelligence",
-      "title": "Signal Scan — Mar 23, 2026",
-      "content_text": "SIGNAL SCAN — Mar 23, 2026 Risk 91.3/100 · 7 movers",
-      "summary": "SIGNAL SCAN — Mar 23, 2026",
-      "date_published": "2026-03-23T10:15:21.042Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
