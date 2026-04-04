@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-04-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/04#intelligence",
+      "title": "Signal Scan — Apr 4, 2026",
+      "content_text": "SIGNAL SCAN — Apr 4, 2026 Risk 47.3/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 4, 2026",
+      "date_published": "2026-04-04T09:15:25.302Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-04-morning",
       "url": "https://agentcanary.ai/record/2026/04/04#morning",
       "title": "Morning Brief — Apr 4, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-22-evening",
-      "url": "https://agentcanary.ai/record/2026/03/22#evening",
-      "title": "Evening Wrap — Mar 22, 2026",
-      "content_text": "Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment,… MARKET WRAP — Mar 22, 2026\n\nMarkets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment, with equities declining while oil surged to $98.23 and gold hit $4,501.",
-      "summary": "Markets reflected stagflationary pressures as the VIX spiked to 26.78 amid broad risk-off sentiment,…",
-      "date_published": "2026-03-22T22:15:05.469Z",
-      "tags": [
-        "mixed",
-        "us-ism-manufacturi"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
