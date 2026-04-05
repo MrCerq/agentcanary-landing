@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Apr 5, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/05#intelligence</link>
+      <description>SIGNAL SCAN — Apr 5, 2026 — Risk 42.9/100 · 8 movers</description>
+      <pubDate>Sun, 05 Apr 2026 09:15:23 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/05#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Apr 5, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/05#morning</link>
       <description>— Neutral · Neutral · Gauge 42.9/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -351,15 +358,6 @@ Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pu
       <description>🔴 Risk-Off · Neutral · Gauge 84.9/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
       <pubDate>Tue, 24 Mar 2026 04:15:02 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/24#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 23, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/23#evening</link>
-      <description>Markets retreated into defensive positioning as stagflation concerns intensified, with the VIX climb… — MARKET WRAP — Mar 23, 2026
-
-Markets retreated into defensive positioning as stagflation concerns intensified, with the VIX climbing to 26.15 while bonds failed to provide refuge despite falling yields</description>
-      <pubDate>Mon, 23 Mar 2026 22:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/23#evening</guid>
     </item>
   </channel>
 </rss>

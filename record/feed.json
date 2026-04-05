@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-05-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/05#intelligence",
+      "title": "Signal Scan — Apr 5, 2026",
+      "content_text": "SIGNAL SCAN — Apr 5, 2026 Risk 42.9/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 5, 2026",
+      "date_published": "2026-04-05T09:15:23.451Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-05-morning",
       "url": "https://agentcanary.ai/record/2026/04/05#morning",
       "title": "Morning Brief — Apr 5, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-23-evening",
-      "url": "https://agentcanary.ai/record/2026/03/23#evening",
-      "title": "Evening Wrap — Mar 23, 2026",
-      "content_text": "Markets retreated into defensive positioning as stagflation concerns intensified, with the VIX climb… MARKET WRAP — Mar 23, 2026\n\nMarkets retreated into defensive positioning as stagflation concerns intensified, with the VIX climbing to 26.15 while bonds failed to provide refuge despite falling yields",
-      "summary": "Markets retreated into defensive positioning as stagflation concerns intensified, with the VIX climb…",
-      "date_published": "2026-03-23T22:15:05.037Z",
-      "tags": [
-        "mixed",
-        "us-trade-balance-("
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
