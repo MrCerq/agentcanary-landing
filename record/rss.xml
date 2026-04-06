@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — Apr 6, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/06#evening</link>
+      <description>Markets reflected a growing institutional shift toward alternative assets as Bitcoin broke above $70… — EXPANSION. 18 news items. 5 scenario shifts.</description>
+      <pubDate>Mon, 06 Apr 2026 21:15:04 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/06#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — Apr 6, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/06#midday</link>
       <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h distribution · ETH daily bullish, 4h distribution · SOL daily bullish, 4h distribution</description>
@@ -349,13 +356,6 @@
       <description>BTC Accumulation · 100 whale moves — BTC daily accumulation, 4h ignition · ETH daily accumulation, 4h ignition · SOL daily accumulation, 4h ignition</description>
       <pubDate>Wed, 25 Mar 2026 20:32:34 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/25#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 25, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/25#intelligence</link>
-      <description>SIGNAL SCAN — Mar 25, 2026 — Risk 84.9/100 · 8 movers</description>
-      <pubDate>Wed, 25 Mar 2026 10:15:17 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/25#intelligence</guid>
     </item>
   </channel>
 </rss>

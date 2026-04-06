@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-06-evening",
+      "url": "https://agentcanary.ai/record/2026/04/06#evening",
+      "title": "Evening Wrap — Apr 6, 2026",
+      "content_text": "Markets reflected a growing institutional shift toward alternative assets as Bitcoin broke above $70… EXPANSION. 18 news items. 5 scenario shifts.",
+      "summary": "Markets reflected a growing institutional shift toward alternative assets as Bitcoin broke above $70…",
+      "date_published": "2026-04-06T21:15:04.992Z",
+      "tags": [
+        "mixed",
+        "eu-consumer-price-index-(yoy)("
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-06-midday",
       "url": "https://agentcanary.ai/record/2026/04/06#midday",
       "title": "Market Pulse — Apr 6, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-25-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/25#intelligence",
-      "title": "Signal Scan — Mar 25, 2026",
-      "content_text": "SIGNAL SCAN — Mar 25, 2026 Risk 84.9/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 25, 2026",
-      "date_published": "2026-03-25T10:15:17.703Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
