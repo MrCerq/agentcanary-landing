@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Apr 6, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/06#intelligence</link>
+      <description>SIGNAL SCAN — Apr 6, 2026 — Risk 42.9/100 · 8 movers</description>
+      <pubDate>Mon, 06 Apr 2026 09:15:26 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/06#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Apr 6, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/06#morning</link>
       <description>— Neutral · Neutral · Gauge 42.9/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -349,15 +356,6 @@
       <description>🔴 Risk-Off · Neutral · Gauge 84.9/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
       <pubDate>Wed, 25 Mar 2026 04:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/25#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 24, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/24#evening</link>
-      <description>Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, sign… — MARKET WRAP — Mar 24, 2026
-
-Markets reflected stagflationary pressures as the VIX spiked to 27 while gold pushed to $4,403, signaling investor flight to hard assets amid persistent inflation concerns.</description>
-      <pubDate>Tue, 24 Mar 2026 22:15:06 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/24#evening</guid>
     </item>
   </channel>
 </rss>
