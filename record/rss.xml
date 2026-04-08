@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Apr 8, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/08#intelligence</link>
+      <description>SIGNAL SCAN — Apr 8, 2026 — Risk 60/100 · 8 movers</description>
+      <pubDate>Wed, 08 Apr 2026 09:15:26 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/08#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Apr 8, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/08#morning</link>
       <description>▼ Risk-Off · Neutral · Gauge 60/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -349,13 +356,6 @@
       <description>▼ Risk-Off · Neutral · Gauge 69.7/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
       <pubDate>Fri, 27 Mar 2026 04:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/27#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Mar 26, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/26#evening</link>
-      <description>Markets reflected classic stagflationary pressures today as geopolitical tensions sparked risk-off f… — STAGFLATION. 17 news items. 5 scenario shifts.</description>
-      <pubDate>Thu, 26 Mar 2026 22:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/26#evening</guid>
     </item>
   </channel>
 </rss>
