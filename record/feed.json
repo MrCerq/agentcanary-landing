@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-09-evening",
+      "url": "https://agentcanary.ai/record/2026/04/09#evening",
+      "title": "Evening Wrap — Apr 9, 2026",
+      "content_text": "Markets reflected growing institutional unease as crypto's mainstream adoption collided with mountin… EXPANSION. 18 news items. 6 scenario shifts.",
+      "summary": "Markets reflected growing institutional unease as crypto's mainstream adoption collided with mountin…",
+      "date_published": "2026-04-09T21:15:04.721Z",
+      "tags": [
+        "mixed",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-09-midday",
       "url": "https://agentcanary.ai/record/2026/04/09#midday",
       "title": "Market Pulse — Apr 9, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-28-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/28#intelligence",
-      "title": "Signal Scan — Mar 28, 2026",
-      "content_text": "SIGNAL SCAN — Mar 28, 2026 Risk 71.4/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 28, 2026",
-      "date_published": "2026-03-28T10:15:22.004Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
