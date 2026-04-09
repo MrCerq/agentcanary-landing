@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — Apr 9, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/09#morning</link>
+      <description>— Neutral · Neutral · Gauge 25.6/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
+      <pubDate>Thu, 09 Apr 2026 03:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/09#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — Apr 8, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/08#evening</link>
       <description>Markets traded in cautious equilibrium as Bitcoin's recovery to $71K and Fed easing signals offset r… — EXPANSION. 16 news items. 4 scenario shifts.</description>
@@ -349,13 +356,6 @@
       <description>Markets turned risk-off as Gulf tensions escalated, but the traditional playbook broke down with gol… — STAGFLATION. 18 news items. 6 scenario shifts.</description>
       <pubDate>Fri, 27 Mar 2026 22:15:05 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/27#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — Mar 27, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/27#midday</link>
-      <description>BTC Risk-Off · 100 whale moves — BTC daily risk-off, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily risk-off, 4h risk-off</description>
-      <pubDate>Fri, 27 Mar 2026 16:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/27#midday</guid>
     </item>
   </channel>
 </rss>
