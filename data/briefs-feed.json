@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-10",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected a late-cycle tug-of-war today, with crypto surging on institutional flows while pe…",
+    "headlineColor": "#A78BFA",
+    "desc": "EXPANSION. 18 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Unseasonally Adjusted Consu",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 50
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Unseasonally Adjusted Consumer Pric",
+            "v": "Apr 24",
+            "c": "blue"
+          },
+          {
+            "k": "US New home sales (AAMR)(Feb)",
+            "v": "Apr 20",
+            "c": "blue"
+          },
+          {
+            "k": "EU Consumer Price Index (YoY)(Final)(M",
+            "v": "Apr 16",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 10, 2026\n\n<i>Markets reflected a late-cycle tug-of-war today, with crypto surging on institutional flows while persistent inflation fears and geopolitical tensions kept traditional risk assets range-bound. The underlying narrative points to growing displacement risks as the goldilocks scenario fades and stagflationary pressures build beneath the surface.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$73,370</b> · ETH: <b>$2,256</b> · SOL: <b>$85.44</b> · GOLD: <b>$4,760</b> · SPY: <b>$679.46</b> (+0.5%) · QQQ: <b>$611.07</b> (+0.8%) · VIX: <b>$19.23</b> (-1.3%) · TLT: <b>$86.49</b> (-0.5%) · DXY: <b>$98.7</b> (-0.1%) · OIL: <b>$95.63</b> (-2.3%)\n\n<b>EVENING NEWS</b>\n▼ Ruth Judson: TIC data’s limitations hinder foreign investment insights, the Fed’s diminish\n▲ Dmitry Tokarev: Many crypto projects are exceeding expectations, investors are shifting to\n▲ Fed’s Daly: If inflation stays elevated, we would hold steady\n▲ Bitcoin Surges Past $73,000 as Hot CPI Meets Fragile Ceasefire\n▼ NYC’s Car Capital Stung by High Gas Prices, GOP Lawmaker Says\n▼ Bitcoin Exchange Supply Drops as Shorts Increase Pressure\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto surge and inflation persistence suggest late-cycle dynamics strengthening\n▼ Goldilocks: Inflation persistence and geopolitical tensions undermine balanced growth\n▲ Stagflation: Hot CPI, energy price pressures, and Fed hawkish stance align with stagflationary forces\n▼ Hegemony: Dollar weakness from Iran talks and data infrastructure gaps challenge US monetary dominance\n▲ Displacement: Bitcoin institutional adoption and crypto infrastructure development accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS New home sales (AAMR)(Feb) — Apr 20, 02:00 PM UTC (prev: -17.6%)\nEU Consumer Price Index (YoY)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 2.5%)\nEU Consumer Price Index (MoM)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 1.2%)\n Total retail sales of consumer goods (YoY)(Mar) — Apr 16, 02:00 AM UTC (prev: 2.8%)\n GDP (QoQ)(Q1) — Apr 16, 02:00 AM UTC (prev: 1.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's rally past $73k might be a liquidity-driven squeeze rather than genuine institutional adop\n• Fed's inflation concerns may be overblown as energy price spikes from geopolitical tensions are like\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 256
+  },
+  {
     "session": "midday",
     "date": "2026-04-10",
     "time": "15:15 UTC",
@@ -1435,58 +1483,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 3, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$66,975</b> — 1d: ACCUMULATION | 4h: IGNITION\n• ETH: <b>$2,056</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$80.41</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 100,000,000,000,000 RLUSD ($100,000,000,000,000)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 100,000,000,000,000 RLUSD ($99,998,100,000,000)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 100,000,000,000,000 RLUSD ($99,996,700,000,000)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ARIA</b>: 394% net APR (0.1268% rate)\n  Long Binance / Short Bybit | OI: $8.9M | Spread: -0.38%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $33,826,540 | Longs: 59% | L/S: 1.4:1\n\n<b>SCENARIO</b>\n↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ US-Iran Conflict Escalation [SPY, VIX, GLD]\n— Crypto Institutional Integration [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 227
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-03",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 3, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 93/100 · 8 movers",
-    "tags": [
-      {
-        "t": "HIGH",
-        "c": "red"
-      },
-      {
-        "t": "EXPANSION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 93
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "OIL",
-            "v": "-28.6%",
-            "c": "red"
-          },
-          {
-            "k": "VHYL",
-            "v": "-24.5%",
-            "c": "red"
-          },
-          {
-            "k": "CL",
-            "v": "+11.9%",
-            "c": "green"
-          },
-          {
-            "k": "RENDER",
-            "v": "+11.1%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 3, 2026\n\n<b>SNAPSHOT</b>\nRisk-off dominance as US-Iran tensions spike with 66% odds of military engagement by month-end. Energy complex exploding while crypto faces institutional selling pressure despite regulatory wins. Mixed macro signals with equities grinding higher amid defensive rotation.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 93.0/100 (Critical)\nRegime: LATE CYCLE STRESS — geopolitical premium overlaying growth concerns\nKey prices: SPY +0.8% | QQQ +1.4% | VIX flat | TLT +0.1% | DXY +0.3% | OIL -28.6%\nICSA: 210K (trend down, z-score -0.35)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Escalation\nSPY: $590-620 (±6%)\nOIL: $125-140 (+75-95%)\nVIX: $35-45 (+47-89%)\n\n<b>SCENARIO B</b> — Diplomatic Resolution  \nSPY: $680-700 (+5-7%)\nOIL: $50-60 (±15%)\nBTC: $70-75K (+5-12%)\n\n<b>SCENARIO C</b> — Asian Slowdown Cascade\nQQQ: $520-550 (±8%)\nDXY: $105-108 (+5-8%)\nGLD: $450-470 (+5-10%)\n\n<b>SECTOR STRENGTH</b>\n1. XLRE (+1.6%) — bid\n2. XLK (+0.8%) — strong  \n3. XLP (+0.5%) — defensive\n4. XLU (+0.5%) — defensive\n5. XLE (+0.5%) — energy\n\n<b>BIG MOVES + DRIVERS</b>\nOIL -28.6% — extreme data error vs crude reality; CL +11.9% on Isfahan strike escalation\nVHYL -24.5% — high yield stress as credit spreads widen on geopolitical risk\nRENDER +11.1% — AI compute demand amid infrastructure tokenization themes\nALAB +10.1% — biotech rotation into defensive growth names\nUNI -7.3% — crypto selling pressure as whales distribute ahead of regulatory clarity\n<i>Energy repricing war premium while crypto absorbs whale distribution despite institutional adoption progress.</i>\n\n<b>POSITIONING</b>\nBTC whales net short with $212.3M ETF outflows signaling distribution phase. Crypto longs underwater with 82.2M vs 114.7M short positioning. Iran tensions driving defensive flows into utilities and REITs while growth tech holds bid on AI themes.\n\n<b>IMPLICATION</b>\nTactical hedge energy upside vs crypto downside as geopolitical premium builds. Consider VIX upside protection and defensive sector rotation until Iran tensions resolve or markets reprice higher volatility regime.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 226
   }
 ]

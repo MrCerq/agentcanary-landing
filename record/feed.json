@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-10-evening",
+      "url": "https://agentcanary.ai/record/2026/04/10#evening",
+      "title": "Evening Wrap — Apr 10, 2026",
+      "content_text": "Markets reflected a late-cycle tug-of-war today, with crypto surging on institutional flows while pe… EXPANSION. 18 news items. 5 scenario shifts.",
+      "summary": "Markets reflected a late-cycle tug-of-war today, with crypto surging on institutional flows while pe…",
+      "date_published": "2026-04-10T21:15:05.236Z",
+      "tags": [
+        "bearish-skew",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-10-midday",
       "url": "https://agentcanary.ai/record/2026/04/10#midday",
       "title": "Market Pulse — Apr 10, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-29-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/29#intelligence",
-      "title": "Signal Scan — Mar 29, 2026",
-      "content_text": "SIGNAL SCAN — Mar 29, 2026 Risk 71.4/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 29, 2026",
-      "date_published": "2026-03-29T10:15:20.115Z",
-      "tags": [
-        "high",
-        "stagflation"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

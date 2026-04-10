@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-10",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected a late-cycle tug-of-war today, with crypto surging on institutional flows while pe…",
+    "headlineColor": "#A78BFA",
+    "desc": "EXPANSION. 18 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Unseasonally Adjusted Consu",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 50
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Unseasonally Adjusted Consumer Pric",
+            "v": "Apr 24",
+            "c": "blue"
+          },
+          {
+            "k": "US New home sales (AAMR)(Feb)",
+            "v": "Apr 20",
+            "c": "blue"
+          },
+          {
+            "k": "EU Consumer Price Index (YoY)(Final)(M",
+            "v": "Apr 16",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 256,
+    "telegramText": "<b>MARKET WRAP</b> — Apr 10, 2026\n\n<i>Markets reflected a late-cycle tug-of-war today, with crypto surging on institutional flows while persistent inflation fears and geopolitical tensions kept traditional risk assets range-bound. The underlying narrative points to growing displacement risks as the goldilocks scenario fades and stagflationary pressures build beneath the surface.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$73,370</b> · ETH: <b>$2,256</b> · SOL: <b>$85.44</b> · GOLD: <b>$4,760</b> · SPY: <b>$679.46</b> (+0.5%) · QQQ: <b>$611.07</b> (+0.8%) · VIX: <b>$19.23</b> (-1.3%) · TLT: <b>$86.49</b> (-0.5%) · DXY: <b>$98.7</b> (-0.1%) · OIL: <b>$95.63</b> (-2.3%)\n\n<b>EVENING NEWS</b>\n▼ Ruth Judson: TIC data’s limitations hinder foreign investment insights, the Fed’s diminish\n▲ Dmitry Tokarev: Many crypto projects are exceeding expectations, investors are shifting to\n▲ Fed’s Daly: If inflation stays elevated, we would hold steady\n▲ Bitcoin Surges Past $73,000 as Hot CPI Meets Fragile Ceasefire\n▼ NYC’s Car Capital Stung by High Gas Prices, GOP Lawmaker Says\n▼ Bitcoin Exchange Supply Drops as Shorts Increase Pressure\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto surge and inflation persistence suggest late-cycle dynamics strengthening\n▼ Goldilocks: Inflation persistence and geopolitical tensions undermine balanced growth\n▲ Stagflation: Hot CPI, energy price pressures, and Fed hawkish stance align with stagflationary forces\n▼ Hegemony: Dollar weakness from Iran talks and data infrastructure gaps challenge US monetary dominance\n▲ Displacement: Bitcoin institutional adoption and crypto infrastructure development accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS New home sales (AAMR)(Feb) — Apr 20, 02:00 PM UTC (prev: -17.6%)\nEU Consumer Price Index (YoY)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 2.5%)\nEU Consumer Price Index (MoM)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 1.2%)\n Total retail sales of consumer goods (YoY)(Mar) — Apr 16, 02:00 AM UTC (prev: 2.8%)\n GDP (QoQ)(Q1) — Apr 16, 02:00 AM UTC (prev: 1.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's rally past $73k might be a liquidity-driven squeeze rather than genuine institutional adop\n• Fed's inflation concerns may be overblown as energy price spikes from geopolitical tensions are like\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-04-10",
     "time": "15:15 UTC",
