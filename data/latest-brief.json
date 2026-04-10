@@ -1,38 +1,61 @@
 {
-  "session": "morning",
-  "date": "2026-04-03",
-  "time": "03:15 UTC",
-  "headline": "▼ Risk-Off · Neutral · Gauge 93/100",
-  "headlineColor": "#F87171",
-  "desc": "EXPANSION. F&G: —. NORMAL.",
+  "session": "midday",
+  "date": "2026-04-10",
+  "time": "15:15 UTC",
+  "headline": "BTC IGNITION on daily.\n100 whale moves detected.",
+  "headlineColor": "#34D399",
+  "desc": "BTC 1d:IGNITION 4h:IGNITION · ETH 1d:IGNITION 4h:IGNITION · SOL 1d:IGNITION 4h:IGNITION",
   "tags": [
     {
-      "t": "Risk-Off · Neutral",
-      "c": "red"
+      "t": "IGNITION",
+      "c": "green"
     },
     {
-      "t": "GAUGE 93",
-      "c": "red"
+      "t": "WHALE ALERT",
+      "c": "blue"
+    },
+    {
+      "t": "RAVE 1019% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 93
-      }
-    },
-    {
-      "label": "HEGEMONY",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0/6 NORMAL",
+          "k": "BTC 1D",
+          "v": "IGNITION",
           "c": "green"
+        },
+        {
+          "k": "ETH 1D",
+          "v": "IGNITION",
+          "c": "green"
+        },
+        {
+          "k": "SOL 1D",
+          "v": "IGNITION",
+          "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$130M USDT",
+          "v": "transferred from Tet",
+          "c": "blue"
+        },
+        {
+          "k": "$52M USDC",
+          "v": "burned at USDC Treas",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 3, 2026\n\n▼ <b>Risk-Off · Neutral</b> · EXPANSION · Gauge: 93/100\n\n• BTC: <b>$66,496</b>\n• ETH: <b>$2,051</b>\n• SOL: <b>$79.27</b>\n• GOLD: <b>$4,673</b>\nSPY: <b>$655.83</b> (+0.8%)\nQQQ: <b>$584.98</b> (+1.4%)\nVIX: <b>23.9</b> (-2.7%)\nTLT: <b>$86.79</b> (+0.1%)\nDXY: <b>100.0</b> (+0.4%)\nOIL: <b>$112.06</b> (+11.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.04T</b> (YoY -2.91%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>346bps</b> CALM (5d: +27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.57σ\n▼ HY Credit Spread: +2.28σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.51σ\n— Unemployment: +1.00σ\n\n<b>TOP MOVERS</b>\n▲ OIL $112 (+11.9%) — Oil shock, Iran war risk keep crypto investors on sidelines:\n▲ WTI $112 (+11.9%)\n▲ ALGO $0.1108 (+11.9%)\n▲ TKMS $87.85 (+11.8%)\n▲ ALAB $117 (+10.1%)\n▲ RENDER $1.87 (+9.4%)\n▲ ONDS $9.59 (+8.8%)\n▲ QNT $75.67 (+8.4%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n<i>No signals firing — multipolar thesis intact</i>\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 225
+  "telegramText": "<b>MARKET PULSE</b> — Apr 10, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$73,067</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,247</b> — 1d: IGNITION | 4h: IGNITION\n• SOL: <b>$85.22</b> — 1d: IGNITION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 130,000,000 USDT ($129,996,750)\n  <i>transferred from Tether Treasury to #Bitfinex</i>\n• 52,200,000.05 USDC ($52,192,170)\n  <i>burned at USDC Treasury</i>\n• 719 BTC ($52,030,580)\n  <i>transferred from Coinbase Institutional to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 1282% net APR (0.4654% rate)\n  Long OKX / Short Bitget | OI: $17.1M | Spread: -0.80%\n• <b>CL</b>: 0% net APR (0.1358% rate)\n  Long Bitget / Short Bybit | OI: $15.1M | Spread: 0.99%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $174,642,112 | Longs: 8% | L/S: 0.1:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Cryptocurrency Security Concerns [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 255
 }

@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — Apr 10, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/10#midday</link>
+      <description>BTC Ignition · 100 whale moves — BTC daily ignition, 4h ignition · ETH daily ignition, 4h ignition · SOL daily ignition, 4h ignition</description>
+      <pubDate>Fri, 10 Apr 2026 15:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/10#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — Apr 10, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/10#intelligence</link>
       <description>SIGNAL SCAN — Apr 10, 2026 — Risk 0/100 · 8 movers</description>
@@ -349,13 +356,6 @@
       <description>SIGNAL SCAN — Mar 29, 2026 — Risk 71.4/100 · 8 movers</description>
       <pubDate>Sun, 29 Mar 2026 10:15:20 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/29#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — Mar 29, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/29#morning</link>
-      <description>▼ Risk-Off · Neutral · Gauge 71.4/100 — Stagflation regime · Fear &amp; Greed: neutral · WATCH</description>
-      <pubDate>Sun, 29 Mar 2026 04:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/29#morning</guid>
     </item>
   </channel>
 </rss>
