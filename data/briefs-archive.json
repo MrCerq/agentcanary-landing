@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-11",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 11, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TKMS",
+            "v": "-7.1%",
+            "c": "red"
+          },
+          {
+            "k": "EWZ",
+            "v": "+4.5%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+4.4%",
+            "c": "green"
+          },
+          {
+            "k": "SMH",
+            "v": "+3.3%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 258,
+    "telegramText": "<b>SIGNAL SCAN</b> — April 11, 2026\n\n<b>SNAPSHOT</b>\nRisk-on session with clear sector rotation. Tech/semis rallying while energy sells off on oil weakness. Cross-asset divergence as precious metals gain alongside growth assets, suggesting mixed regime signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: EXPANSION — liquidity expanding with HY spreads tightening\nKey prices: SPY +0.5% | QQQ +0.8% | VIX -1.3% | TLT -0.5% | DXY -0.1% | OIL -1.3%\nICSA: 219K (z-score 0.76, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Leadership Extension\nSPY: $695-715 (+2-5%)\nQQQ: $635-665 (+4-9%)\nVIX: $16-18 (-15-6%)\n\n<b>SCENARIO B</b> — Energy Rotation Reversal\nOIL: $105-115 (+9-19%)\nXLE: recovery +3-8%\nDXY: $100-102 (+1-3%)\n\n<b>SCENARIO C</b> — Metals Breakout\nGLD: $450-470 (+3-8%)\nSLV: $72-78 (+4-13%)\nTLT: $89-92 (+3-6%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +3.3%) — strong\n2. Consumer Disc (XLY +1.9%) — rotating\n3. Copper Miners (COPX +1.8%) — bid\n4. Real Estate (XLRE +0.9%) — rotating\n5. Energy (XLE -1.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS -7.1% — ROE concerns highlighted in analysis coverage\nEWZ +4.5% — oil above $90 thesis driving LatAm play\nSOXX +4.4% — semiconductor sector leadership continuing\nSMH +3.3% — chip rally broadening beyond mega-caps\nSLV +2.4% — precious metals bid amid expansion signals\nMORPHO -2.7% — DeFi protocol weakness in broader crypto rotation\n\n<i>Expansion regime driving cyclical rotation while precious metals signal underlying inflation hedging demand.</i>\n\n<b>POSITIONING</b>\nBTC whale activity: $38.5M long vs $100.2M short exposure, -$2.6M PnL suggests institutional profit-taking near $73K\nBTC ETF flows: -$212.3M outflow signals institutional distribution at highs\nETH positioning cleaner with modest short covering\n\n<b>IMPLICATION</b>\nTactical opportunity in semiconductor momentum while energy oversold. Mixed precious metals strength suggests hedging infrastructure build despite expansion signals.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-04-11",
     "time": "03:15 UTC",

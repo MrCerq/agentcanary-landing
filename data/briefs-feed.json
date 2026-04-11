@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-11",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 11, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TKMS",
+            "v": "-7.1%",
+            "c": "red"
+          },
+          {
+            "k": "EWZ",
+            "v": "+4.5%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+4.4%",
+            "c": "green"
+          },
+          {
+            "k": "SMH",
+            "v": "+3.3%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — April 11, 2026\n\n<b>SNAPSHOT</b>\nRisk-on session with clear sector rotation. Tech/semis rallying while energy sells off on oil weakness. Cross-asset divergence as precious metals gain alongside growth assets, suggesting mixed regime signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: EXPANSION — liquidity expanding with HY spreads tightening\nKey prices: SPY +0.5% | QQQ +0.8% | VIX -1.3% | TLT -0.5% | DXY -0.1% | OIL -1.3%\nICSA: 219K (z-score 0.76, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Leadership Extension\nSPY: $695-715 (+2-5%)\nQQQ: $635-665 (+4-9%)\nVIX: $16-18 (-15-6%)\n\n<b>SCENARIO B</b> — Energy Rotation Reversal\nOIL: $105-115 (+9-19%)\nXLE: recovery +3-8%\nDXY: $100-102 (+1-3%)\n\n<b>SCENARIO C</b> — Metals Breakout\nGLD: $450-470 (+3-8%)\nSLV: $72-78 (+4-13%)\nTLT: $89-92 (+3-6%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +3.3%) — strong\n2. Consumer Disc (XLY +1.9%) — rotating\n3. Copper Miners (COPX +1.8%) — bid\n4. Real Estate (XLRE +0.9%) — rotating\n5. Energy (XLE -1.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS -7.1% — ROE concerns highlighted in analysis coverage\nEWZ +4.5% — oil above $90 thesis driving LatAm play\nSOXX +4.4% — semiconductor sector leadership continuing\nSMH +3.3% — chip rally broadening beyond mega-caps\nSLV +2.4% — precious metals bid amid expansion signals\nMORPHO -2.7% — DeFi protocol weakness in broader crypto rotation\n\n<i>Expansion regime driving cyclical rotation while precious metals signal underlying inflation hedging demand.</i>\n\n<b>POSITIONING</b>\nBTC whale activity: $38.5M long vs $100.2M short exposure, -$2.6M PnL suggests institutional profit-taking near $73K\nBTC ETF flows: -$212.3M outflow signals institutional distribution at highs\nETH positioning cleaner with modest short covering\n\n<b>IMPLICATION</b>\nTactical opportunity in semiconductor momentum while energy oversold. Mixed precious metals strength suggests hedging infrastructure build despite expansion signals.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 258
+  },
+  {
     "session": "morning",
     "date": "2026-04-11",
     "time": "03:15 UTC",
@@ -1416,53 +1469,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 4, 2026\n\n▼ <b>Risk-Off · Neutral</b> · EXPANSION · Gauge: 47.3/100\n\n• BTC: <b>$66,866</b>\n• ETH: <b>$2,050</b>\n• SOL: <b>$80.17</b>\n• GOLD: <b>$4,673</b>\nSPY: <b>$655.83</b> (+0.8%)\nQQQ: <b>$584.98</b> (+1.4%)\nVIX: <b>23.9</b> (+0.0%)\nTLT: <b>$86.79</b> (+0.1%)\nDXY: <b>100.2</b> (+0.5%)\nOIL: <b>$112.06</b> (+11.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.04T</b> (YoY -2.91%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>317bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.54σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.77σ\n▼ WTI Crude Oil: +1.62σ\n— Jobless Claims: -1.03σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ NVDA: -3.8%\n\n<b>TOP MOVERS</b>\n▲ OIL $112 (+11.9%) — Bitcoin’s safe haven story breaks as war shock revives $10,0\n▲ WTI $112 (+11.9%)\n▲ TKMS $87.85 (+11.8%)\n▲ BRENT $109 (+7.8%)\n▲ MOH $139 (+4.6%)\n▼ BUIDL $0.00006461 (-3.4%)\n▲ VET $0.007201 (+3.0%)\n▼ QNT $75.00 (-2.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $105 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 229
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-03",
-    "time": "21:15 UTC",
-    "headline": "Markets reflected growing macro uncertainty as the VIX pushed above 23 while bonds rallied alongside…",
-    "headlineColor": "#A78BFA",
-    "desc": "EXPANSION. 15 news items. 4 scenario shifts.",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US NAR seasonally adjusted exi",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 93
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US NAR seasonally adjusted existing ho",
-            "v": "Apr 13",
-            "c": "blue"
-          },
-          {
-            "k": "US University of Michigan Consumer Con",
-            "v": "Apr 10",
-            "c": "blue"
-          },
-          {
-            "k": "US Core Consumer Price Index (Unseason",
-            "v": "Apr 10",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 3, 2026\n\n<i>Markets reflected growing macro uncertainty as the VIX pushed above 23 while bonds rallied alongside a strengthening dollar, signaling flight-to-quality flows despite continued institutional crypto adoption. The simultaneous rise in late-cycle, recession, and stagflation probabilities undermined risk assets even as Bitcoin held near $67k, testing its emerging safe-haven credentials against traditional hedges.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$66,835</b> · ETH: <b>$2,053</b> · SOL: <b>$80.22</b> · GOLD: <b>$4,673</b> · SPY: <b>$655.83</b> (+0.8%) · QQQ: <b>$584.98</b> (+1.4%) · VIX: <b>$23.87</b> (+0.0%) · TLT: <b>$86.79</b> (+0.1%) · DXY: <b>$100.19</b> (+0.5%) · OIL: <b>$112.06</b> (+11.9%)\n\n<b>SECTOR CLOSE</b>\n▲ XBI (Biotech) +4.1% · XLE (Energy) -3.7% · SMH (Semiconductors) +3.0%\n▼ ITA (Aerospace/Defense) +0.8% · XLY (Consumer Disc) -0.6% · XLV (Healthcare) +0.7%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 100) — BTC, ETH\n— Oil / Energy (intensity 46) — XLE, USO, OXY\n\n<b>EVENING NEWS</b>\n▲ Grayscale files for Bittensor ETF, bringing AI-focused crypto to institutional investors\n▲ Lucky Independent Bitcoin Miner Hits The Jackpot, Netting $210,000 BTC Reward\n▲ Schwab to launch spot Bitcoin and Ether trading in H1 2026, boosting bullish sentiment\n▲ Bitcoin’s safe haven story breaks as war shock revives $10,000 risk if oil hits $150 a bar\n▼ Circle under fire after $285 million Drift hack over inaction to freeze stolen USDC\n— Amazon.com, Inc. (AMZN): Billionaire Steve Cohen Is Buying This Tech Stock\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Institutional crypto adoption suggests continued risk appetite\n▲ Recession: Safe haven breakdown and DeFi hacks increase recession probability\n▲ Stagflation: Oil shock risks and Bitcoin correlation breakdown\n▲ Displacement: AI-crypto convergence accelerating technological disruption\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · EXPANSION · Gauge: 93/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS NAR seasonally adjusted existing home sales (AAMR)(Mar) — Apr 13, 02:00 PM UTC (prev: 1.7%)\nUS University of Michigan Consumer Confidence Index (Preliminary)(Apr) — Apr 10, 02:00 PM UTC (prev: 53.3)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.5%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.4%)\n Consumer Price Index for Residents (YoY)(Mar) — Apr 10, 01:30 AM UTC (prev: 1.3%)\nUS Personal consumption expenditure price index (AQR)(Final)(Q4) — Apr 9, 12:30 PM UTC (prev: 2.8%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's correlation breakdown during crisis might actually strengthen its long-term store of value\n• DeFi hacks could accelerate institutional-grade security solutions, ultimately benefiting the ecosys\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 228
   }
 ]

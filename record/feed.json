@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-11-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/11#intelligence",
+      "title": "Signal Scan — Apr 11, 2026",
+      "content_text": "SIGNAL SCAN — Apr 11, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 11, 2026",
+      "date_published": "2026-04-11T09:15:25.985Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-11-morning",
       "url": "https://agentcanary.ai/record/2026/04/11#morning",
       "title": "Morning Brief — Apr 11, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-29-evening",
-      "url": "https://agentcanary.ai/record/2026/03/29#evening",
-      "title": "Evening Wrap — Mar 29, 2026",
-      "content_text": "Markets sold off across risk assets as crypto collapsed and inflation fears drove bond yields higher… STAGFLATION. 25 news items. 6 scenario shifts.",
-      "summary": "Markets sold off across risk assets as crypto collapsed and inflation fears drove bond yields higher…",
-      "date_published": "2026-03-29T21:15:04.983Z",
-      "tags": [
-        "bearish-skew",
-        "eu-retail-sales-(mom)(feb)"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
