@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-04-11",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge —/100",
+    "headlineColor": "#34D399",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE —",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 50
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 257,
+    "telegramText": "<b>MACRO RADAR</b> — Apr 11, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 0/100\n\n• BTC: <b>$73,008</b>\n• ETH: <b>$2,249</b>\n• SOL: <b>$84.83</b>\n• GOLD: <b>$4,760</b>\nSPY: <b>$679.46</b> (+0.5%)\nQQQ: <b>$611.07</b> (+0.8%)\nVIX: <b>19.2</b> (-1.3%)\nTLT: <b>$86.49</b> (-0.5%)\nDXY: <b>98.7</b> (-0.2%)\nOIL: <b>$95.63</b> (-2.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.05T</b> (YoY -2.98%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>294bps</b> CALM (5d: -22bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.53σ\n▲ HY Credit Spread: -2.41σ\n▼ WTI Crude Oil: +2.24σ\n▲ WTREGEN: -2.19σ\n▼ Fed Balance Sheet: +2.00σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +2.2%\n▼ SOL: -0.7%\n\n<b>TOP MOVERS</b>\n▼ TKMS $82.90 (-7.1%)\n▲ ARB $0.1187 (+5.7%)\n▲ EWZ $41.33 (+4.5%)\n▲ SOXX $387 (+4.4%)\n▼ ZEC $370 (-3.5%)\n▼ ZRO $1.93 (-3.5%)\n▲ SMH $437 (+3.3%)\n▲ ILF $37.82 (+2.8%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ Oil: $114 (&gt;$110)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-04-10",
     "time": "21:15 UTC",
