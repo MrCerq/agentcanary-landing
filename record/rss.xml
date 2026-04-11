@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — Apr 11, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/11#evening</link>
+      <description>Markets wrestled with conflicting signals as Bitcoin's institutional breakout to $73k collided with … — EXPANSION. 15 news items. 6 scenario shifts.</description>
+      <pubDate>Sat, 11 Apr 2026 21:15:06 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/11#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — Apr 11, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/11#midday</link>
       <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h distribution · ETH daily bullish, 4h distribution · SOL daily bullish, 4h distribution</description>
@@ -349,13 +356,6 @@
       <description>BTC Accumulation · 100 whale moves — BTC daily accumulation, 4h distribution · ETH daily accumulation, 4h distribution · SOL daily accumulation, 4h distribution</description>
       <pubDate>Mon, 30 Mar 2026 15:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/03/30#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Mar 30, 2026</title>
-      <link>https://agentcanary.ai/record/2026/03/30#intelligence</link>
-      <description>SIGNAL SCAN — Mar 30, 2026 — Risk 71.4/100 · 8 movers</description>
-      <pubDate>Mon, 30 Mar 2026 09:15:20 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/03/30#intelligence</guid>
     </item>
   </channel>
 </rss>
