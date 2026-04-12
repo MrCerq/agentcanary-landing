@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-12",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 12, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "NET",
+            "v": "-13.5%",
+            "c": "red"
+          },
+          {
+            "k": "UMAC",
+            "v": "+10.4%",
+            "c": "green"
+          },
+          {
+            "k": "TON",
+            "v": "+9.2%",
+            "c": "green"
+          },
+          {
+            "k": "SNOW",
+            "v": "-8.4%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 262,
+    "telegramText": "<b>SIGNAL SCAN</b> — April 12, 2026\n\n<b>SNAPSHOT</b>\nRisk-on rally as BTC ETFs post $789M weekly inflows and US-Iran talks show progress. Tech leads with semiconductors +1.5% while defensive sectors lag. Cross-asset divergence emerging as inflation persistence challenges Fed dovish pivot expectations.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: EXPANSION — Liquidity expanding +3.7 with HY spreads tightening\nKey prices: SPY +0.5% | QQQ +0.8% | VIX -1.3% | TLT -0.5% | DXY +0.05% | OIL flat\nICSA: 219K (flat trend, +0.86σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Diplomatic Breakthrough\nBTC: $75K-78K (+5-9%)\nSPY: $695-715 (+2-5%)\nVIX: $16-18 (-15-7%)\n\n<b>SCENARIO B</b> — Stagflation Persistence\nTLT: $82-84 (-5-3%)\nDXY: $101-103 (+2-4%)\nOIL: $105-110 (+9-14%)\n\n<b>SCENARIO C</b> — Tech Correction\nQQQ: $580-595 (-5-3%)\nBTC: $65K-68K (-9-5%)\nVIX: $25-30 (+30-56%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +2.4%) — strong\n2. Semiconductors (SMH +1.5%) — bid\n3. Materials (XLB +0.6%) — rotating\n4. Biotech (XBI -1.8%) — dump\n5. Healthcare (XLV -1.4%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nNET $167 (-13.5%) — Tech selloff on quantum computing disruption concerns\nUMAC $13.7 (+10.4%) — Accelerated motor factory output at Orlando campus\nTON $1.43 (+9.2%) — Macro optimism from live analyst coverage\nSNOW $121 (-8.4%) — Broader cloud software rotation amid AI disruption fears\nNIO $6.5 (+7.1%) — EV recovery on China stimulus speculation\nADA $0.24 (-3.9%) — Quantum resistance narrative fading\n\n<i>Risk asset divergence widening as crypto absorbs diplomatic optimism while enterprise software reprices AI displacement risk.</i>\n\n<b>POSITIONING</b>\nBTC whales net short $70M with 5 positions averaging 40x leverage — contrarian signal amid retail euphoria. BTC ETF inflows hit 13-day streak at +$531M, highest institutional demand since February. XRP and HYPE seeing concentrated long positioning on quantum resistance themes.\n\n<b>IMPLICATION</b>\nTactical opportunity in long crypto vs defensive tech if diplomatic progress accelerates, but inflation persistence limits Fed accommodation. Consider hedging growth exposure through VIX calls given late-cycle positioning signals and whale contrarian bets.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-04-12",
     "time": "03:15 UTC",

@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-12",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 12, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "NET",
+            "v": "-13.5%",
+            "c": "red"
+          },
+          {
+            "k": "UMAC",
+            "v": "+10.4%",
+            "c": "green"
+          },
+          {
+            "k": "TON",
+            "v": "+9.2%",
+            "c": "green"
+          },
+          {
+            "k": "SNOW",
+            "v": "-8.4%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — April 12, 2026\n\n<b>SNAPSHOT</b>\nRisk-on rally as BTC ETFs post $789M weekly inflows and US-Iran talks show progress. Tech leads with semiconductors +1.5% while defensive sectors lag. Cross-asset divergence emerging as inflation persistence challenges Fed dovish pivot expectations.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: EXPANSION — Liquidity expanding +3.7 with HY spreads tightening\nKey prices: SPY +0.5% | QQQ +0.8% | VIX -1.3% | TLT -0.5% | DXY +0.05% | OIL flat\nICSA: 219K (flat trend, +0.86σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Diplomatic Breakthrough\nBTC: $75K-78K (+5-9%)\nSPY: $695-715 (+2-5%)\nVIX: $16-18 (-15-7%)\n\n<b>SCENARIO B</b> — Stagflation Persistence\nTLT: $82-84 (-5-3%)\nDXY: $101-103 (+2-4%)\nOIL: $105-110 (+9-14%)\n\n<b>SCENARIO C</b> — Tech Correction\nQQQ: $580-595 (-5-3%)\nBTC: $65K-68K (-9-5%)\nVIX: $25-30 (+30-56%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +2.4%) — strong\n2. Semiconductors (SMH +1.5%) — bid\n3. Materials (XLB +0.6%) — rotating\n4. Biotech (XBI -1.8%) — dump\n5. Healthcare (XLV -1.4%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nNET $167 (-13.5%) — Tech selloff on quantum computing disruption concerns\nUMAC $13.7 (+10.4%) — Accelerated motor factory output at Orlando campus\nTON $1.43 (+9.2%) — Macro optimism from live analyst coverage\nSNOW $121 (-8.4%) — Broader cloud software rotation amid AI disruption fears\nNIO $6.5 (+7.1%) — EV recovery on China stimulus speculation\nADA $0.24 (-3.9%) — Quantum resistance narrative fading\n\n<i>Risk asset divergence widening as crypto absorbs diplomatic optimism while enterprise software reprices AI displacement risk.</i>\n\n<b>POSITIONING</b>\nBTC whales net short $70M with 5 positions averaging 40x leverage — contrarian signal amid retail euphoria. BTC ETF inflows hit 13-day streak at +$531M, highest institutional demand since February. XRP and HYPE seeing concentrated long positioning on quantum resistance themes.\n\n<b>IMPLICATION</b>\nTactical opportunity in long crypto vs defensive tech if diplomatic progress accelerates, but inflation persistence limits Fed accommodation. Consider hedging growth exposure through VIX calls given late-cycle positioning signals and whale contrarian bets.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 262
+  },
+  {
     "session": "morning",
     "date": "2026-04-12",
     "time": "03:15 UTC",
@@ -1412,53 +1465,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 5, 2026\n\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 42.9/100\n\n• BTC: <b>$67,177</b>\n• ETH: <b>$2,060</b>\n• SOL: <b>$80.57</b>\n• GOLD: <b>$4,673</b>\nSPY: <b>$655.83</b> (+0.8%)\nQQQ: <b>$584.98</b> (+1.4%)\nVIX: <b>23.9</b> (+0.0%)\nTLT: <b>$86.79</b> (+0.1%)\nDXY: <b>100.2</b> (+0.5%)\nOIL: <b>$112.06</b> (+11.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.04T</b> (YoY -2.91%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>317bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.54σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.77σ\n▼ WTI Crude Oil: +1.62σ\n— Jobless Claims: -1.04σ\n\n<b>TOP MOVERS</b>\n▲ OIL $112 (+11.9%)\n▲ WTI $112 (+11.9%)\n▲ TKMS $87.85 (+11.8%)\n▲ DEXE $9.05 (+11.2%)\n▲ BRENT $109 (+7.8%)\n▼ M $2.55 (-5.6%)\n▲ ETC $8.55 (+5.2%)\n▲ MOH $139 (+4.6%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $105 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 233
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-04",
-    "time": "21:15 UTC",
-    "headline": "Markets turned risk-off as geopolitical tensions escalated while strong employment data complicated …",
-    "headlineColor": "#A78BFA",
-    "desc": "EXPANSION. 13 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US Producer Price Index (YoY)(",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 47
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Producer Price Index (YoY)(Mar)",
-            "v": "Apr 14",
-            "c": "blue"
-          },
-          {
-            "k": " Trade Balance (billion USD)(Mar)",
-            "v": "Apr 13",
-            "c": "blue"
-          },
-          {
-            "k": "US NAR seasonally adjusted existing ho",
-            "v": "Apr 13",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 4, 2026\n\n<i>Markets turned risk-off as geopolitical tensions escalated while strong employment data complicated Fed dovish expectations. Traditional safe havens like gold rallied to $4,673 while Bitcoin's safe haven narrative cracked, falling to $67,235 amid broader risk asset selling that pushed VIX above 23.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$67,235</b> · ETH: <b>$2,063</b> · SOL: <b>$80.85</b> · GOLD: <b>$4,673</b> · SPY: <b>$655.83</b> (+0.8%) · QQQ: <b>$584.98</b> (+1.4%) · VIX: <b>$23.87</b> (+0.0%) · TLT: <b>$86.79</b> (+0.1%) · DXY: <b>$100.19</b> (+0.5%) · OIL: <b>$112.06</b> (+11.9%)\n\n<b>EVENING NEWS</b>\n▲ Bitcoin tends to outperform gold and stocks after global shocks, Mercado Bitcoin finds\n▼ Ceasefire odds drop to 1% as protests erupt in Tel Aviv amid escalating tensions\n▼ Bitcoin Drops To Bottom Discovery Range For First Time In 4 Years In Sharp Selloff\n▼ Iranian regime collapse odds drop to 13.5% after US aircraft losses\n▼ Fed Rate Cut Bets Collapse as Jobs Data Shocks Markets; 10-year Treasury Yield Hits Critic\n▲ HORMUZ TRACKER: Weekly Transits Reach Highest Since War Began\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed hold expectations and crypto retail exodus suggest cycle maturity\n▼ Goldilocks: Geopolitical tensions and inflation fears disrupt balanced growth\n▲ Stagflation: War-driven oil price risks with persistent employment strength\n▲ Hegemony: US-Iran tensions test American military projection capabilities\n▲ Displacement: Continued crypto institutional adoption despite market volatility\n\n<b>REGIME CHECK</b>\n▼ <b>Risk-Off · Neutral</b> · EXPANSION · Gauge: 47.3/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Producer Price Index (YoY)(Mar) — Apr 14, 12:30 PM UTC (prev: 3.4%)\n Trade Balance (billion USD)(Mar) — Apr 13, 04:05 PM UTC (prev: 213.62)\nUS NAR seasonally adjusted existing home sales (AAMR)(Mar) — Apr 13, 02:00 PM UTC (prev: 1.7%)\nUS University of Michigan Consumer Confidence Index (Preliminary)(Apr) — Apr 10, 02:00 PM UTC (prev: 53.3)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.4%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.5%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's 'failed' safe haven narrative might actually signal maturation into a risk asset, making i\n• Strong employment data masking underlying weakness could make the Fed more dovish than markets expec\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 232
   }
 ]
