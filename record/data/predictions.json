@@ -250,10 +250,10 @@
       "rangeMax": 720,
       "impliedMove": "+2-6%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 682.03,
+      "actualLow": 673.77,
+      "actualClose": 679.46
     },
     {
       "id": "2026-04-09-A-BTC",
@@ -267,10 +267,10 @@
       "rangeMax": 78000,
       "impliedMove": "+4-9%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 73440.12,
+      "actualLow": 70486.36,
+      "actualClose": 71711.78
     },
     {
       "id": "2026-04-09-A-OIL",
@@ -284,10 +284,10 @@
       "rangeMax": 92,
       "impliedMove": "-13-6%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 102.7,
+      "actualLow": 95.25,
+      "actualClose": 96.57
     },
     {
       "id": "2026-04-09-B-SPY",
@@ -301,10 +301,10 @@
       "rangeMax": 660,
       "impliedMove": "-5-2%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 682.03,
+      "actualLow": 673.77,
+      "actualClose": 679.46
     },
     {
       "id": "2026-04-09-B-BTC",
@@ -318,10 +318,10 @@
       "rangeMax": 68000,
       "impliedMove": "-9-5%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 73440.12,
+      "actualLow": 70486.36,
+      "actualClose": 71711.78
     },
     {
       "id": "2026-04-09-B-OIL",
@@ -335,10 +335,10 @@
       "rangeMax": 125,
       "impliedMove": "+13-28%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 102.7,
+      "actualLow": 95.25,
+      "actualClose": 96.57
     },
     {
       "id": "2026-04-09-C-TLT",
@@ -352,10 +352,10 @@
       "rangeMax": 85,
       "impliedMove": "-6-2%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 87.13,
+      "actualLow": 86.33,
+      "actualClose": 86.49
     },
     {
       "id": "2026-04-09-C-SPY",
@@ -369,10 +369,10 @@
       "rangeMax": 675,
       "impliedMove": "-4-0%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 682.03,
+      "actualLow": 673.77,
+      "actualClose": 679.46
     },
     {
       "id": "2026-04-09-C-DXY",
@@ -386,10 +386,10 @@
       "rangeMax": 105,
       "impliedMove": "+3-6%",
       "scoreDate": "2026-04-12",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 99.16,
+      "actualLow": 98.54,
+      "actualClose": 98.65
     },
     {
       "id": "2026-04-07-A-SPY",
@@ -5220,5 +5220,5 @@
       "actualClose": 5146.1
     }
   ],
-  "lastScored": "2026-04-11T22:04:13.357Z"
+  "lastScored": "2026-04-12T03:54:59.373Z"
 }
