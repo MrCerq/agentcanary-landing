@@ -1,17 +1,17 @@
 {
   "session": "intelligence",
-  "date": "2026-03-26",
-  "time": "10:15 UTC",
-  "headline": "SIGNAL SCAN — Mar 26, 2026",
+  "date": "2026-04-12",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 12, 2026",
   "headlineColor": "#60A5FA",
-  "desc": "Risk 81.2/100 · 8 movers",
+  "desc": "Risk 0/100 · 8 movers",
   "tags": [
     {
-      "t": "HIGH",
-      "c": "red"
+      "t": "LOW",
+      "c": "green"
     },
     {
-      "t": "STAGFLATION",
+      "t": "EXPANSION",
       "c": "blue"
     }
   ],
@@ -19,35 +19,35 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 81
+        "value": 0
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "FET",
-          "v": "-8.3%",
+          "k": "NET",
+          "v": "-13.5%",
           "c": "red"
         },
         {
-          "k": "VIX",
-          "v": "+7.9%",
+          "k": "UMAC",
+          "v": "+10.4%",
           "c": "green"
         },
         {
-          "k": "RENDER",
-          "v": "-4.3%",
-          "c": "red"
+          "k": "TON",
+          "v": "+9.2%",
+          "c": "green"
         },
         {
-          "k": "MNT",
-          "v": "-4.3%",
+          "k": "SNOW",
+          "v": "-8.4%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — March 26, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime intensifies with VIX +7.9% as geopolitical tensions drive oil to $93.64 (+3.7%). Mixed cross-asset signals: commodities bid, crypto under pressure with BTC ETF outflows at -$276.9M. Equity markets showing defensive rotation into biotech/materials while tech lags.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 81.2/100 (High)\nRegime: STAGFLATION — Energy-driven inflation pressures amid rising real yields\nSPY +0.22% | QQQ -0.03% | VIX +7.9% | TLT +0.52% | DXY +0.09% | OIL +3.7%\nICSA: 205K (trend UP, below average)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $63-67K (-10%)\nOIL: $105-115 (+15%)\nVIX: $35-40 (+30%)\n\n<b>SCENARIO B</b> — Iran Diplomatic Progress\nBTC: $75-80K (+10%)\nOIL: $85-90 (-8%)\nSPY: $680-700 (+5%)\n\n<b>SCENARIO C</b> — Stagflation Persistence\nGOLD: $4650-4750 (+4%)\nTLT: $82-85 (-4%)\nReal Assets outperform\n\n<b>SECTOR STRENGTH</b>\n1. Biotech (XBI +3.7%) — strong\n2. Copper Miners (COPX +3.6%) — bid\n3. Materials (XLB +2.0%) — rotating\n4. Uranium (URA +1.6%) — strong\n5. Defense (ITA +1.5%) — bid\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 27.32 (+7.9%) — Middle East conflict escalation fears driving volatility\nOIL 93.64 (+3.7%) — Ukrainian drone strikes on Russian export terminals (-2M bpd)\nFET 0.243 (-8.3%) — Crypto sector weakness amid regulatory headwinds\nSLV 65.21 (+3.6%) — Precious metals safe haven bid with inflation concerns\nXBI 123.92 (+3.7%) — Defensive healthcare rotation as growth slows\nRENDER 1.77 (-4.3%) — AI tokens under pressure with tech sector weakness\n\n<i>Cross-asset divergence widens as commodities price stagflation risks while crypto faces institutional outflows.</i>\n\n<b>POSITIONING</b>\nBTC whales mixed: $51.1M long vs $77M short positions, indicating hedged stance near $70K.\nBTC ETF outflows continue at -$276.9M, signaling institutional risk-off positioning.\nSOL positioning negative with -$337K PnL suggesting momentum exhaustion.\n\n<b>IMPLICATION</b>\nTactical opportunity in commodities/real assets vs growth tech if geopolitical premium persists. Consider defensive positioning in healthcare/materials while maintaining energy exposure as inflation hedge.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 194
+  "telegramText": "<b>SIGNAL SCAN</b> — April 12, 2026\n\n<b>SNAPSHOT</b>\nRisk-on rally as BTC ETFs post $789M weekly inflows and US-Iran talks show progress. Tech leads with semiconductors +1.5% while defensive sectors lag. Cross-asset divergence emerging as inflation persistence challenges Fed dovish pivot expectations.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: EXPANSION — Liquidity expanding +3.7 with HY spreads tightening\nKey prices: SPY +0.5% | QQQ +0.8% | VIX -1.3% | TLT -0.5% | DXY +0.05% | OIL flat\nICSA: 219K (flat trend, +0.86σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Diplomatic Breakthrough\nBTC: $75K-78K (+5-9%)\nSPY: $695-715 (+2-5%)\nVIX: $16-18 (-15-7%)\n\n<b>SCENARIO B</b> — Stagflation Persistence\nTLT: $82-84 (-5-3%)\nDXY: $101-103 (+2-4%)\nOIL: $105-110 (+9-14%)\n\n<b>SCENARIO C</b> — Tech Correction\nQQQ: $580-595 (-5-3%)\nBTC: $65K-68K (-9-5%)\nVIX: $25-30 (+30-56%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +2.4%) — strong\n2. Semiconductors (SMH +1.5%) — bid\n3. Materials (XLB +0.6%) — rotating\n4. Biotech (XBI -1.8%) — dump\n5. Healthcare (XLV -1.4%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nNET $167 (-13.5%) — Tech selloff on quantum computing disruption concerns\nUMAC $13.7 (+10.4%) — Accelerated motor factory output at Orlando campus\nTON $1.43 (+9.2%) — Macro optimism from live analyst coverage\nSNOW $121 (-8.4%) — Broader cloud software rotation amid AI disruption fears\nNIO $6.5 (+7.1%) — EV recovery on China stimulus speculation\nADA $0.24 (-3.9%) — Quantum resistance narrative fading\n\n<i>Risk asset divergence widening as crypto absorbs diplomatic optimism while enterprise software reprices AI displacement risk.</i>\n\n<b>POSITIONING</b>\nBTC whales net short $70M with 5 positions averaging 40x leverage — contrarian signal amid retail euphoria. BTC ETF inflows hit 13-day streak at +$531M, highest institutional demand since February. XRP and HYPE seeing concentrated long positioning on quantum resistance themes.\n\n<b>IMPLICATION</b>\nTactical opportunity in long crypto vs defensive tech if diplomatic progress accelerates, but inflation persistence limits Fed accommodation. Consider hedging growth exposure through VIX calls given late-cycle positioning signals and whale contrarian bets.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 262
 }
