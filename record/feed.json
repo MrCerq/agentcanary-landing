@@ -15,6 +15,66 @@
   ],
   "items": [
     {
+      "id": "2026-04-13-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/13#intelligence",
+      "title": "Signal Scan — Apr 13, 2026",
+      "content_text": "SIGNAL SCAN — Apr 13, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 13, 2026",
+      "date_published": "2026-04-13T09:15:25.000Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-04-13-morning",
+      "url": "https://agentcanary.ai/record/2026/04/13#morning",
+      "title": "Morning Brief — Apr 13, 2026",
+      "content_text": "▲ Risk-On · Neutral · Gauge —/100 Overheating regime · Fear & Greed: neutral · NORMAL",
+      "summary": "▲ Risk-On · Neutral · Gauge —/100",
+      "date_published": "2026-04-13T03:15:01.909Z",
+      "tags": [
+        "risk-on-·-neutral",
+        "gauge-—"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-04-12-evening",
+      "url": "https://agentcanary.ai/record/2026/04/12#evening",
+      "title": "Evening Wrap — Apr 12, 2026",
+      "content_text": "Markets rallied on geopolitical tensions driving haven demand into both traditional gold and digital… EXPANSION. 16 news items. 5 scenario shifts.",
+      "summary": "Markets rallied on geopolitical tensions driving haven demand into both traditional gold and digital…",
+      "date_published": "2026-04-12T21:15:05.334Z",
+      "tags": [
+        "bullish-skew",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-04-12-midday",
+      "url": "https://agentcanary.ai/record/2026/04/12#midday",
+      "title": "Market Pulse — Apr 12, 2026",
+      "content_text": "BTC Distribution · 100 whale moves BTC daily distribution, 4h risk-off · ETH daily bullish, 4h bearish · SOL daily distribution, 4h risk-off",
+      "summary": "BTC Distribution · 100 whale moves",
+      "date_published": "2026-04-12T15:15:02.900Z",
+      "tags": [
+        "whale-alert",
+        "rave-1756%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-04-12-intelligence",
       "url": "https://agentcanary.ai/record/2026/04/12#intelligence",
       "title": "Signal Scan — Apr 12, 2026",
@@ -701,66 +761,6 @@
       "tags": [
         "risk-off-·-neutral",
         "gauge-95.2"
-      ],
-      "_agentcanary": {
-        "session": "morning"
-      }
-    },
-    {
-      "id": "2026-03-31-evening",
-      "url": "https://agentcanary.ai/record/2026/03/31#evening",
-      "title": "Evening Wrap — Mar 31, 2026",
-      "content_text": "Markets displayed cautious optimism as geopolitical tensions eased, but underlying inflation concern… RECOVERY. 18 news items. 5 scenario shifts.",
-      "summary": "Markets displayed cautious optimism as geopolitical tensions eased, but underlying inflation concern…",
-      "date_published": "2026-03-31T21:15:05.016Z",
-      "tags": [
-        "bullish-skew",
-        "us-university-of-michigan-cons"
-      ],
-      "_agentcanary": {
-        "session": "evening"
-      }
-    },
-    {
-      "id": "2026-03-31-midday",
-      "url": "https://agentcanary.ai/record/2026/03/31#midday",
-      "title": "Market Pulse — Mar 31, 2026",
-      "content_text": "BTC BEAR_REGIME 1D / ACCUMULATION 4H.\n100 whale moves detected. BTC daily bearish, 4h accumulation · ETH daily bearish, 4h bullish · SOL daily bearish, 4h accumulation",
-      "summary": "BTC BEAR_REGIME 1D / ACCUMULATION 4H.\n100 whale moves detected.",
-      "date_published": "2026-03-31T15:15:01.223Z",
-      "tags": [
-        "tension",
-        "whale-alert"
-      ],
-      "_agentcanary": {
-        "session": "midday"
-      }
-    },
-    {
-      "id": "2026-03-31-intelligence",
-      "url": "https://agentcanary.ai/record/2026/03/31#intelligence",
-      "title": "Signal Scan — Mar 31, 2026",
-      "content_text": "SIGNAL SCAN — Mar 31, 2026 Risk 71.4/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Mar 31, 2026",
-      "date_published": "2026-03-31T09:15:24.288Z",
-      "tags": [
-        "high",
-        "recovery"
-      ],
-      "_agentcanary": {
-        "session": "signal"
-      }
-    },
-    {
-      "id": "2026-03-31-morning",
-      "url": "https://agentcanary.ai/record/2026/03/31#morning",
-      "title": "Morning Brief — Mar 31, 2026",
-      "content_text": "▼ Risk-Off · Neutral · Gauge 71.4/100 RECOVERY. Fear & Greed: neutral · WATCH",
-      "summary": "▼ Risk-Off · Neutral · Gauge 71.4/100",
-      "date_published": "2026-03-31T03:15:01.598Z",
-      "tags": [
-        "risk-off-·-neutral",
-        "gauge-71.4"
       ],
       "_agentcanary": {
         "session": "morning"

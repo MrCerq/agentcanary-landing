@@ -1,6 +1,202 @@
 [
   {
     "session": "intelligence",
+    "date": "2026-04-13",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 13, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "VIX",
+            "v": "+10.9%",
+            "c": "green"
+          },
+          {
+            "k": "WTI",
+            "v": "+8.7%",
+            "c": "green"
+          },
+          {
+            "k": "OIL",
+            "v": "+7.9%",
+            "c": "green"
+          },
+          {
+            "k": "BRENT",
+            "v": "+7.4%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — April 13, 2026\n\n<b>SNAPSHOT</b>\nRisk-off sentiment dominates as failed US-Iran nuclear talks trigger oil shock and Hormuz blockade fears. VIX spikes 11% while energy surges 8%, creating stagflationary crosscurrents. Crypto shows resilience with massive institutional flows despite geopolitical stress.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion drives risk assets despite geopolitical tensions\nKey prices: SPY +0.5% | QQQ +0.8% | VIX +10.9% | TLT -0.5% | DXY +0.3% | OIL +7.9%\nICSA: 219K (flat trend, z-score 0.86)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Hormuz Escalation\nSPY: $610-640 (-10 to -6%)\nOIL: $115-125 (+10 to +20%)\n\n<b>SCENARIO B</b> — Diplomatic Resolution\nBTC: $75-80K (+6 to +13%)\nVIX: $16-19 (-25 to -11%)\n\n<b>SCENARIO C</b> — Stagflation Reset\nTLT: $82-85 (-5 to -2%)\nGLD: $460-480 (+5 to +10%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +3.3%) — strong\n2. Consumer Disc (XLY +1.9%) — rotating\n3. Copper Miners (COPX +1.8%) — bid\n4. Energy (XLE -1.9%) — dump\n5. Healthcare (XLV -1.6%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 21.33 (+10.9%) — Fear gauge signals calm ahead of inflation data despite geopolitical stress\nWTI 104.99 (+8.7%) — US announces Hormuz blockade following failed Iran talks\nAAVE 92.82 (+3.0%) — Chaos Labs stepping down as risk manager after 3-year tenure\nTKMS 82.90 (-7.1%) — Defense contractor selloff despite Middle East tensions\nADA 0.24 (-3.0%) — Adam Back denial of Satoshi claims weighs on crypto sentiment\n<i>Cross-asset dislocation emerges as energy reprices war risk while equities ignore geopolitical premium</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531.0M (13-day streak) — institutional demand remains robust\nWhale activity: BTC shorts dominate ($23.8M vs $7.4M longs), ETH positioning mixed\nHYPE seeing concentrated shorting (-$1.2M PnL) as ETF filings create volatility\n\n<b>IMPLICATION</b>\nTactical opportunity in energy-crypto pair trade if geopolitical premium fades. VIX disconnect from oil surge suggests equity complacency vulnerable to energy shock transmission through inflation expectations.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 266
+  },
+  {
+    "session": "morning",
+    "date": "2026-04-13",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge —/100",
+    "headlineColor": "#34D399",
+    "desc": "OVERHEATING. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE —",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 50
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — Apr 13, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$71,032</b>\n• ETH: <b>$2,193</b>\n• SOL: <b>$81.86</b>\n• GOLD: <b>$4,760</b>\nSPY: <b>$679.46</b> (+0.5%)\nQQQ: <b>$611.07</b> (+0.8%)\nVIX: <b>19.2</b> (-1.3%)\nTLT: <b>$86.49</b> (-0.5%)\nDXY: <b>99.0</b> (+0.4%)\nOIL: <b>$104.97</b> (+8.7%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.05T</b> (YoY -2.98%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>290bps</b> CALM (5d: -27bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ HY Credit Spread: -2.27σ\n▼ WTI Crude Oil: +2.24σ\n▲ WTREGEN: -2.19σ\n▼ Fed Balance Sheet: +2.00σ\n▼ 30Y Mortgage Rate: +1.60σ\n\n<b>TOP MOVERS</b>\n▲ WTI $105 (+8.7%)\n▲ OIL $105 (+8.7%) — Bitcoin dips to $70.6K, oil rises after US announces Hormuz \n▲ BRENT $102 (+7.4%)\n▼ TKMS $82.90 (-7.1%)\n▼ CHZ $0.03612 (-5.1%)\n▼ SKY $0.07246 (-4.7%)\n▲ EWZ $41.33 (+4.5%)\n▼ DASH $41.45 (-4.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ Oil: $114 (&gt;$110)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 265
+  },
+  {
+    "session": "evening",
+    "date": "2026-04-12",
+    "time": "21:15 UTC",
+    "headline": "Markets rallied on geopolitical tensions driving haven demand into both traditional gold and digital…",
+    "headlineColor": "#A78BFA",
+    "desc": "EXPANSION. 16 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US Unseasonally Adjusted Consu",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 50
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Unseasonally Adjusted Consumer Pric",
+            "v": "Apr 24",
+            "c": "blue"
+          },
+          {
+            "k": "US Retail sales (MoM)(Mar)",
+            "v": "Apr 21",
+            "c": "blue"
+          },
+          {
+            "k": "US New home sales (AAMR)(Feb)",
+            "v": "Apr 20",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 12, 2026\n\n<i>Markets rallied on geopolitical tensions driving haven demand into both traditional gold and digital assets, with Bitcoin ETF flows amplifying crypto's momentum despite mixed institutional signals. The late-cycle rotation into hard assets accelerated as hegemony concerns and quantum displacement themes overshadowed lingering inflation fears.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$71,244</b> · ETH: <b>$2,208</b> · SOL: <b>$82.54</b> · GOLD: <b>$4,760</b> · SPY: <b>$679.46</b> (+0.5%) · QQQ: <b>$611.07</b> (+0.8%) · VIX: <b>$19.23</b> (-1.3%) · TLT: <b>$86.49</b> (-0.5%) · DXY: <b>$98.7</b> (+0.0%) · OIL: <b>$96.57</b> (+0.0%)\n\n<b>SECTOR CLOSE</b>\n▲ SMH (Semiconductors) +11.4% · COPX (Copper Miners) +8.7% · XLB (Materials) +3.1%\n▼ XLE (Energy) -3.9% · XLV (Healthcare) +0.3% · XLP (Consumer Staples) +0.6%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 71) — BTC, ETH\n\n<b>EVENING NEWS</b>\n▲ Finally an easy-going weekend\n▲ Forint Jumps to Three-Year High as Hungary’s Orban Is Voted Out\n▲ Hungary’s Orbán concedes defeat as opposition heads for landslide win\n▼ Bond Traders Snap Back to Inflation as Higher-for-Longer Sets In\n▲ Stablecoin Forecasts Stretch Higher as Bessent Presses for U.S. Crypto Clarity\n▼ Justin Sun calls out WLFI, platform threatens lawsuit in response\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Geopolitical tensions and inflation surge suggest economic cycle maturation\n▼ Goldilocks: Inflation resurgence and geopolitical risks disrupting balanced growth narrative\n▲ Stagflation: Energy-driven inflation with war fueling persistent price pressures\n▼ Hegemony: Failed diplomatic talks suggest weakening US influence in Middle East\n▲ Displacement: Quantum resistance focus and institutional blockchain adoption accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS Retail sales (MoM)(Mar) — Apr 21, 12:30 PM UTC (prev: 0.6%)\nUS New home sales (AAMR)(Feb) — Apr 20, 02:00 PM UTC (prev: -17.6%)\nEU Consumer Price Index (YoY)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 2.5%)\nEU Consumer Price Index (MoM)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 1.2%)\n Total retail sales of consumer goods (YoY)(Mar) — Apr 16, 02:00 AM UTC (prev: 2.8%)\n\n<b>CONTRARIAN</b>\n• Bhutan's 70% bitcoin liquidation might signal sovereign wealth diversification strategy rather than \n• Privacy coin surge on quantum fears may be premature given current quantum computing timeline limita\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 264
+  },
+  {
+    "session": "midday",
+    "date": "2026-04-12",
+    "time": "15:15 UTC",
+    "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:DISTRIBUTION 4h:RISK_OFF · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:DISTRIBUTION 4h:RISK_OFF",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "RAVE 1756% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$103M USDC",
+            "v": "transferred from unk",
+            "c": "blue"
+          },
+          {
+            "k": "$103M USDC",
+            "v": "transferred from #Aa",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — Apr 12, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,833</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n• ETH: <b>$2,184</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$81.78</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 102,866,857 USDC ($102,864,370)\n  <i>transferred from unknown wallet to #Aave</i>\n• 102,837,488 USDC ($102,822,191)\n  <i>transferred from #Aave to unknown wallet</i>\n• 250,000,000 USDC ($249,937,375)\n  <i>minted at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 1953% net APR (0.8020% rate)\n  Long Bybit / Short Bitget | OI: $29.5M | Spread: -0.60%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $103,248,168 | Longs: 64% | L/S: 1.8:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ US-Iran Diplomatic Failure Fuels War Premium [BTC, ETH, OIL]\n— Crypto Market Structural Shift Despite ETF Inflows [BTC, ETH, XRP]\n▲ Quantum Computing Threat Reshapes Crypto Preferences [ZEC, XRP, BTC]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 263
+  },
+  {
+    "session": "intelligence",
     "date": "2026-04-12",
     "time": "09:15 UTC",
     "headline": "SIGNAL SCAN — Apr 12, 2026",
@@ -1269,201 +1465,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 6, 2026\n\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 42.9/100\n\n• BTC: <b>$69,221</b>\n• ETH: <b>$2,133</b>\n• SOL: <b>$82.48</b>\n• GOLD: <b>$4,673</b>\nSPY: <b>$655.83</b> (+0.8%)\nQQQ: <b>$584.98</b> (+1.4%)\nVIX: <b>23.9</b> (+0.0%)\nTLT: <b>$86.79</b> (+0.1%)\nDXY: <b>100.0</b> (-0.0%)\nOIL: <b>$111.64</b> (+0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.04T</b> (YoY -2.91%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>317bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.54σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.77σ\n▼ WTI Crude Oil: +1.62σ\n— Jobless Claims: -1.04σ\n\n<b>TOP MOVERS</b>\n▲ TKMS $87.85 (+11.8%)\n▼ RAIN $0.006592 (-9.7%)\n▲ M $2.74 (+7.5%)\n▲ AVAX $9.59 (+6.9%)\n▲ MOH $139 (+4.6%)\n▼ SLV $65.79 (-3.4%)\n▲ SOXX $340 (+3.3%)\n▼ XLE $59.25 (-3.3%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $105 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 237
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-05",
-    "time": "21:15 UTC",
-    "headline": "Markets turned risk-off as escalating US-Iran tensions drove a flight to gold while oil spiked, pres…",
-    "headlineColor": "#A78BFA",
-    "desc": "EXPANSION. 15 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "US Producer Price Index (YoY)(",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 43
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Producer Price Index (YoY)(Mar)",
-            "v": "Apr 14",
-            "c": "blue"
-          },
-          {
-            "k": " Trade Balance (billion USD)(Mar)",
-            "v": "Apr 13",
-            "c": "blue"
-          },
-          {
-            "k": "US NAR seasonally adjusted existing ho",
-            "v": "Apr 13",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 5, 2026\n\n<i>Markets turned risk-off as escalating US-Iran tensions drove a flight to gold while oil spiked, pressuring equities despite continued expansion. Bitcoin held above technical support on institutional flows, but broader crypto weakness reflected the defensive rotation as late-cycle dynamics accelerated.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$67,511</b> · ETH: <b>$2,061</b> · SOL: <b>$79.96</b> · GOLD: <b>$4,673</b> · SPY: <b>$655.83</b> (+0.8%) · QQQ: <b>$584.98</b> (+1.4%) · VIX: <b>$23.87</b> (+0.0%) · TLT: <b>$86.79</b> (+0.1%) · DXY: <b>$100.19</b> (+0.2%) · OIL: <b>$112.06</b> (+0.5%)\n\n<b>EVENING NEWS</b>\n▲ Bitcoin Price Prediction: OCC Grants Crypto Bank Charter as Pepeto Targets 100x While ETH \n▲ Algorand just jumped 50% after a Google flags quantum risk for Bitcoin and Ethereum\n▼ Michael Saylor Rejects Schiff's 'MSTR Crash' Claims, Citing 36% Annualized Returns in Bitc\n▼ XRP, Bitcoin (BTC) Extend Losses as Oil Breaks $113 Ahead of April 9 Inflation Report\n▲ US jobs crush forecasts, yet hidden labor weakness could keep Bitcoin under pressure\n▼ MSTR Stock Forecast as Michael Saylor Hints at Bitcoin Purchases\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed policy reversal and institutional crypto adoption signal market maturation\n▼ Goldilocks: Military escalation and Fed hawkishness break goldilocks narrative\n▲ Stagflation: Iran conflict threatens oil supply while Fed maintains hawkish stance\n▲ Hegemony: US military operations demonstrate power projection capabilities\n▲ Displacement: Major institutional crypto adoption despite technical weakness shows paradigm shift\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 42.9/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Producer Price Index (YoY)(Mar) — Apr 14, 12:30 PM UTC (prev: 3.4%)\n Trade Balance (billion USD)(Mar) — Apr 13, 04:05 PM UTC (prev: 213.62)\nUS NAR seasonally adjusted existing home sales (AAMR)(Mar) — Apr 13, 02:00 PM UTC (prev: 1.7%)\nUS University of Michigan Consumer Confidence Index (Preliminary)(Apr) — Apr 10, 02:00 PM UTC (prev: 53.3)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.4%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Mar) — Apr 10, 12:30 PM UTC (prev: 2.5%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's technical weakness during institutional adoption wave could signal a major accumulation op\n• Iran conflict escalation might be priced in given 86% troop deployment odds, setting up for relief r\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 236
-  },
-  {
-    "session": "midday",
-    "date": "2026-04-05",
-    "time": "15:15 UTC",
-    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:ACCUMULATION 4h:BEAR_REGIME",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "BARD 809% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$134M BTC",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$300M USDC",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — Apr 5, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$66,937</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,041</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$79.15</b> — 1d: ACCUMULATION | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 2,000 BTC ($133,690,148)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 300,000,000 USDC ($299,997,750)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 402,613,583 USDC ($402,632,909)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>BARD</b>: 1116% net APR (0.0924% rate)\n  Long Binance / Short Bybit | OI: $9.4M | Spread: -0.90%\n• <b>STO</b>: 852% net APR (0.0864% rate)\n  Long Binance / Short Bybit | OI: $8.5M | Spread: -0.32%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $13,975,757 | Longs: 57% | L/S: 1.3:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>INTEL</b>\n▼ Bitcoin Network Bearish Technicals [BTC, MSTR, COIN]\n▲ Crypto Infrastructure Maturation [BTC, ETH, COIN]\n▲ Ethereum Network Developments [ETH, Ethereum validators]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 235
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-05",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 5, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 42.9/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "EXPANSION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 43
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "WTI",
-            "v": "+11.9%",
-            "c": "green"
-          },
-          {
-            "k": "TKMS",
-            "v": "+11.8%",
-            "c": "green"
-          },
-          {
-            "k": "BRENT",
-            "v": "+7.8%",
-            "c": "green"
-          },
-          {
-            "k": "MOH",
-            "v": "+4.6%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 5, 2026\n\n<b>SNAPSHOT</b>\nRisk-off regime with cross-asset dislocation. US-Iran military escalation (86% deployment odds) driving commodity surge while Fed hawkish pivot crushes rate cut hopes. Tech strength diverging from geopolitical stress as crypto institutional adoption accelerates despite BTC technical breakdown.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 42.9/100 (Elevated)\nRegime: Transitional Late Cycle — geopolitical tensions colliding with Fed policy pivot\nSPY +0.8% | QQQ +1.4% | VIX flat | TLT +0.1% | DXY +0.2% | OIL +0.5%\nICSA: 202K (declining, -1.0σ trend)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Escalation Premium\nSPY: $620-640 (-3% to -5%)\nOIL: $125-135 (+12% to +20%)\nBTC: $58-62K (-13% to -7%)\n\n<b>SCENARIO B</b> — Fed Pause Signal\nSPY: $675-695 (+3% to +6%)\nTLT: $90-94 (+4% to +8%)\nDXY: $97-99 (-2% to -1%)\n\n<b>SCENARIO C</b> — Institutional Crypto FOMO\nBTC: $72-78K (+8% to +17%)\nETH: $2200-2400 (+8% to +18%)\nCOIN: breakout above $280\n\n<b>SECTOR STRENGTH</b>\n1. Technology (XLK +2.3%) — strong\n2. Semiconductors (SMH +2.3%) — bid\n3. Real Estate (XLRE +1.9%) — rotating\n4. Defense (ITA +1.4%) — strong\n5. Energy (XLE -3.3%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nWTI +11.9% — Iran conflict escalation threatening supply disruption\nTKMS +11.8% — defense contractor benefiting from military tensions\nNEAR +4.1% — Mantle Network TVL surge 3x amid DeFi contraction\nSLV -3.4% — industrial demand concerns override safe haven bid\nXMR +3.3% — privacy coin strength amid geopolitical uncertainty\n<i>Commodities repricing war premium while crypto absorbs institutional flows despite technical weakness.</i>\n\n<b>POSITIONING</b>\nBTC whales: $121.9M long vs $104.7M short, +$1.8M PnL with 8 positions at 40x max leverage\nBTC ETF outflows: -$212.3M net, high significance but no consecutive streak\nContrarian signal: Schwab crypto launch timing suggests institutional confidence despite price action\n\n<b>IMPLICATION</b>\nTactical opportunity in defense/energy spread vs tech if geopolitical premium sustains. BTC institutional adoption narrative intact despite technical breakdown — consider hedged exposure ahead of Schwab launch catalysts.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 234
-  },
-  {
-    "session": "morning",
-    "date": "2026-04-05",
-    "time": "03:15 UTC",
-    "headline": "— Neutral · Neutral · Gauge 42.9/100",
-    "headlineColor": "#34D399",
-    "desc": "EXPANSION. F&G: —. NORMAL.",
-    "tags": [
-      {
-        "t": "Neutral · Neutral",
-        "c": "green"
-      },
-      {
-        "t": "GAUGE 42.9",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 43
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "0.5/6 NORMAL",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — Apr 5, 2026\n\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 42.9/100\n\n• BTC: <b>$67,177</b>\n• ETH: <b>$2,060</b>\n• SOL: <b>$80.57</b>\n• GOLD: <b>$4,673</b>\nSPY: <b>$655.83</b> (+0.8%)\nQQQ: <b>$584.98</b> (+1.4%)\nVIX: <b>23.9</b> (+0.0%)\nTLT: <b>$86.79</b> (+0.1%)\nDXY: <b>100.2</b> (+0.5%)\nOIL: <b>$112.06</b> (+11.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.04T</b> (YoY -2.91%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>317bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.54σ\n▼ DTWEXBGS: +1.93σ\n▼ Fed Balance Sheet: +1.77σ\n▼ WTI Crude Oil: +1.62σ\n— Jobless Claims: -1.04σ\n\n<b>TOP MOVERS</b>\n▲ OIL $112 (+11.9%)\n▲ WTI $112 (+11.9%)\n▲ TKMS $87.85 (+11.8%)\n▲ DEXE $9.05 (+11.2%)\n▲ BRENT $109 (+7.8%)\n▼ M $2.55 (-5.6%)\n▲ ETC $8.55 (+5.2%)\n▲ MOH $139 (+4.6%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $105 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 233
   }
 ]
