@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-03-26",
+    "time": "10:15 UTC",
+    "headline": "SIGNAL SCAN — Mar 26, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 81.2/100 · 8 movers",
+    "tags": [
+      {
+        "t": "HIGH",
+        "c": "red"
+      },
+      {
+        "t": "STAGFLATION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 81
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "FET",
+            "v": "-8.3%",
+            "c": "red"
+          },
+          {
+            "k": "VIX",
+            "v": "+7.9%",
+            "c": "green"
+          },
+          {
+            "k": "RENDER",
+            "v": "-4.3%",
+            "c": "red"
+          },
+          {
+            "k": "MNT",
+            "v": "-4.3%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 194,
+    "telegramText": "<b>SIGNAL SCAN</b> — March 26, 2026\n\n<b>SNAPSHOT</b>\nStagflation regime intensifies with VIX +7.9% as geopolitical tensions drive oil to $93.64 (+3.7%). Mixed cross-asset signals: commodities bid, crypto under pressure with BTC ETF outflows at -$276.9M. Equity markets showing defensive rotation into biotech/materials while tech lags.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 81.2/100 (High)\nRegime: STAGFLATION — Energy-driven inflation pressures amid rising real yields\nSPY +0.22% | QQQ -0.03% | VIX +7.9% | TLT +0.52% | DXY +0.09% | OIL +3.7%\nICSA: 205K (trend UP, below average)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Geopolitical Escalation\nBTC: $63-67K (-10%)\nOIL: $105-115 (+15%)\nVIX: $35-40 (+30%)\n\n<b>SCENARIO B</b> — Iran Diplomatic Progress\nBTC: $75-80K (+10%)\nOIL: $85-90 (-8%)\nSPY: $680-700 (+5%)\n\n<b>SCENARIO C</b> — Stagflation Persistence\nGOLD: $4650-4750 (+4%)\nTLT: $82-85 (-4%)\nReal Assets outperform\n\n<b>SECTOR STRENGTH</b>\n1. Biotech (XBI +3.7%) — strong\n2. Copper Miners (COPX +3.6%) — bid\n3. Materials (XLB +2.0%) — rotating\n4. Uranium (URA +1.6%) — strong\n5. Defense (ITA +1.5%) — bid\n\n<b>BIG MOVES + DRIVERS</b>\nVIX 27.32 (+7.9%) — Middle East conflict escalation fears driving volatility\nOIL 93.64 (+3.7%) — Ukrainian drone strikes on Russian export terminals (-2M bpd)\nFET 0.243 (-8.3%) — Crypto sector weakness amid regulatory headwinds\nSLV 65.21 (+3.6%) — Precious metals safe haven bid with inflation concerns\nXBI 123.92 (+3.7%) — Defensive healthcare rotation as growth slows\nRENDER 1.77 (-4.3%) — AI tokens under pressure with tech sector weakness\n\n<i>Cross-asset divergence widens as commodities price stagflation risks while crypto faces institutional outflows.</i>\n\n<b>POSITIONING</b>\nBTC whales mixed: $51.1M long vs $77M short positions, indicating hedged stance near $70K.\nBTC ETF outflows continue at -$276.9M, signaling institutional risk-off positioning.\nSOL positioning negative with -$337K PnL suggesting momentum exhaustion.\n\n<b>IMPLICATION</b>\nTactical opportunity in commodities/real assets vs growth tech if geopolitical premium persists. Consider defensive positioning in healthcare/materials while maintaining energy exposure as inflation hedge.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-03-26",
     "time": "04:15 UTC",
