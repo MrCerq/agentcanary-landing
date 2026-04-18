@@ -1,5 +1,62 @@
 [
   {
+    "session": "midday",
+    "date": "2026-04-18",
+    "time": "15:15 UTC",
+    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH 1d:BULL_REGIME 4h:DISTRIBUTION · SOL 1d:DISTRIBUTION 4h:ACCUMULATION",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "RAVE 5035% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$130M USDT",
+            "v": "transferred from #Kr",
+            "c": "blue"
+          },
+          {
+            "k": "$1000M USDT",
+            "v": "minted at Tether Tre",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — Apr 18, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$76,175</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n• ETH: <b>$2,363</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n• SOL: <b>$86.77</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 130,000,000 USDT ($130,026,000)\n  <i>transferred from #Kraken to #Aave</i>\n• 1,000,000,000 USDT ($1,000,300,000)\n  <i>minted at Tether Treasury</i>\n• 160,000,000 USDT ($160,059,460)\n  <i>transferred from Tether Treasury to #Kraken</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 5451% net APR (0.5748% rate)\n  Long MEXC / Short OKX | OI: $9.3M | Spread: -1.20%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $89,803,235 | Longs: 58% | L/S: 1.4:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Strait of Hormuz Reopening Relief Rally [BTC, SPY, OIL]\n▲ Bitcoin Breaking Multi-Month Resistance [BTC, ETH, ADA]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 287
+  },
+  {
     "session": "intelligence",
     "date": "2026-04-18",
     "time": "09:15 UTC",
@@ -1427,43 +1484,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — April 11, 2026\n\n<b>SNAPSHOT</b>\nRisk-on session with clear sector rotation. Tech/semis rallying while energy sells off on oil weakness. Cross-asset divergence as precious metals gain alongside growth assets, suggesting mixed regime signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: EXPANSION — liquidity expanding with HY spreads tightening\nKey prices: SPY +0.5% | QQQ +0.8% | VIX -1.3% | TLT -0.5% | DXY -0.1% | OIL -1.3%\nICSA: 219K (z-score 0.76, trending down)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Leadership Extension\nSPY: $695-715 (+2-5%)\nQQQ: $635-665 (+4-9%)\nVIX: $16-18 (-15-6%)\n\n<b>SCENARIO B</b> — Energy Rotation Reversal\nOIL: $105-115 (+9-19%)\nXLE: recovery +3-8%\nDXY: $100-102 (+1-3%)\n\n<b>SCENARIO C</b> — Metals Breakout\nGLD: $450-470 (+3-8%)\nSLV: $72-78 (+4-13%)\nTLT: $89-92 (+3-6%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +3.3%) — strong\n2. Consumer Disc (XLY +1.9%) — rotating\n3. Copper Miners (COPX +1.8%) — bid\n4. Real Estate (XLRE +0.9%) — rotating\n5. Energy (XLE -1.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS -7.1% — ROE concerns highlighted in analysis coverage\nEWZ +4.5% — oil above $90 thesis driving LatAm play\nSOXX +4.4% — semiconductor sector leadership continuing\nSMH +3.3% — chip rally broadening beyond mega-caps\nSLV +2.4% — precious metals bid amid expansion signals\nMORPHO -2.7% — DeFi protocol weakness in broader crypto rotation\n\n<i>Expansion regime driving cyclical rotation while precious metals signal underlying inflation hedging demand.</i>\n\n<b>POSITIONING</b>\nBTC whale activity: $38.5M long vs $100.2M short exposure, -$2.6M PnL suggests institutional profit-taking near $73K\nBTC ETF flows: -$212.3M outflow signals institutional distribution at highs\nETH positioning cleaner with modest short covering\n\n<b>IMPLICATION</b>\nTactical opportunity in semiconductor momentum while energy oversold. Mixed precious metals strength suggests hedging infrastructure build despite expansion signals.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 258
-  },
-  {
-    "session": "morning",
-    "date": "2026-04-11",
-    "time": "03:15 UTC",
-    "headline": "▲ Risk-On · Neutral · Gauge —/100",
-    "headlineColor": "#34D399",
-    "desc": "EXPANSION. F&G: —. NORMAL.",
-    "tags": [
-      {
-        "t": "Risk-On · Neutral",
-        "c": "green"
-      },
-      {
-        "t": "GAUGE —",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 50
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "1/6 NORMAL",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — Apr 11, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 0/100\n\n• BTC: <b>$73,008</b>\n• ETH: <b>$2,249</b>\n• SOL: <b>$84.83</b>\n• GOLD: <b>$4,760</b>\nSPY: <b>$679.46</b> (+0.5%)\nQQQ: <b>$611.07</b> (+0.8%)\nVIX: <b>19.2</b> (-1.3%)\nTLT: <b>$86.49</b> (-0.5%)\nDXY: <b>98.7</b> (-0.2%)\nOIL: <b>$95.63</b> (-2.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.05T</b> (YoY -2.98%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>294bps</b> CALM (5d: -22bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.53σ\n▲ HY Credit Spread: -2.41σ\n▼ WTI Crude Oil: +2.24σ\n▲ WTREGEN: -2.19σ\n▼ Fed Balance Sheet: +2.00σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +2.2%\n▼ SOL: -0.7%\n\n<b>TOP MOVERS</b>\n▼ TKMS $82.90 (-7.1%)\n▲ ARB $0.1187 (+5.7%)\n▲ EWZ $41.33 (+4.5%)\n▲ SOXX $387 (+4.4%)\n▼ ZEC $370 (-3.5%)\n▼ ZRO $1.93 (-3.5%)\n▲ SMH $437 (+3.3%)\n▲ ILF $37.82 (+2.8%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ Oil: $114 (&gt;$110)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 257
   }
 ]
