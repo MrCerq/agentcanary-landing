@@ -15,6 +15,307 @@
   ],
   "items": [
     {
+      "id": "2026-04-18-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/18#intelligence",
+      "title": "Signal Scan — Apr 18, 2026",
+      "content_text": "SIGNAL SCAN — Apr 18, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 18, 2026",
+      "date_published": "2026-04-18T09:15:27.808Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-04-18-morning",
+      "url": "https://agentcanary.ai/record/2026/04/18#morning",
+      "title": "Morning Brief — Apr 18, 2026",
+      "content_text": "▲ Risk-On · Neutral · Gauge —/100 Overheating regime · Fear & Greed: neutral · NORMAL",
+      "summary": "▲ Risk-On · Neutral · Gauge —/100",
+      "date_published": "2026-04-18T03:15:04.190Z",
+      "tags": [
+        "risk-on-·-neutral",
+        "gauge-—"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-04-17-evening",
+      "url": "https://agentcanary.ai/record/2026/04/17#evening",
+      "title": "Evening Wrap — Apr 17, 2026",
+      "content_text": "Markets rallied on Strait of Hormuz reopening, with energy and agricultural commodities finding reli… OVERHEATING. 18 news items. 4 scenario shifts.",
+      "summary": "Markets rallied on Strait of Hormuz reopening, with energy and agricultural commodities finding reli…",
+      "date_published": "2026-04-17T21:15:05.710Z",
+      "tags": [
+        "bullish-skew",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-04-17-midday",
+      "url": "https://agentcanary.ai/record/2026/04/17#midday",
+      "title": "Market Pulse — Apr 17, 2026",
+      "content_text": "BTC Distribution · 100 whale moves BTC daily distribution, 4h bullish · ETH daily distribution, 4h bullish · SOL daily ignition, 4h ignition",
+      "summary": "BTC Distribution · 100 whale moves",
+      "date_published": "2026-04-17T15:15:03.557Z",
+      "tags": [
+        "whale-alert",
+        "soon-1249%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-04-17-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/17#intelligence",
+      "title": "Signal Scan — Apr 17, 2026",
+      "content_text": "SIGNAL SCAN — Apr 17, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 17, 2026",
+      "date_published": "2026-04-17T09:15:30.678Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-04-17-morning",
+      "url": "https://agentcanary.ai/record/2026/04/17#morning",
+      "title": "Morning Brief — Apr 17, 2026",
+      "content_text": "▲ Risk-On · Neutral · Gauge —/100 Overheating regime · Fear & Greed: neutral · NORMAL",
+      "summary": "▲ Risk-On · Neutral · Gauge —/100",
+      "date_published": "2026-04-17T03:15:04.912Z",
+      "tags": [
+        "risk-on-·-neutral",
+        "gauge-—"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-04-16-evening",
+      "url": "https://agentcanary.ai/record/2026/04/16#evening",
+      "title": "Evening Wrap — Apr 16, 2026",
+      "content_text": "Markets displayed cautious euphoria as Bitcoin's institutional adoption drive pushed it toward $75K,… OVERHEATING. 18 news items. 5 scenario shifts.",
+      "summary": "Markets displayed cautious euphoria as Bitcoin's institutional adoption drive pushed it toward $75K,…",
+      "date_published": "2026-04-16T21:15:04.868Z",
+      "tags": [
+        "mixed",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-04-16-midday",
+      "url": "https://agentcanary.ai/record/2026/04/16#midday",
+      "title": "Market Pulse — Apr 16, 2026",
+      "content_text": "BTC Bullish · 100 whale moves BTC daily bullish, 4h bearish · ETH daily bullish, 4h bearish · SOL daily bullish, 4h distribution",
+      "summary": "BTC Bullish · 100 whale moves",
+      "date_published": "2026-04-16T15:15:01.662Z",
+      "tags": [
+        "whale-alert",
+        "rave-830%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-04-16-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/16#intelligence",
+      "title": "Signal Scan — Apr 16, 2026",
+      "content_text": "SIGNAL SCAN — Apr 16, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 16, 2026",
+      "date_published": "2026-04-16T09:15:29.760Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-04-16-morning",
+      "url": "https://agentcanary.ai/record/2026/04/16#morning",
+      "title": "Morning Brief — Apr 16, 2026",
+      "content_text": "▲ Risk-On · Neutral · Gauge —/100 Overheating regime · Fear & Greed: neutral · NORMAL",
+      "summary": "▲ Risk-On · Neutral · Gauge —/100",
+      "date_published": "2026-04-16T03:15:04.127Z",
+      "tags": [
+        "risk-on-·-neutral",
+        "gauge-—"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-04-15-evening",
+      "url": "https://agentcanary.ai/record/2026/04/15#evening",
+      "title": "Evening Wrap — Apr 15, 2026",
+      "content_text": "Markets displayed late-cycle exuberance with Bitcoin nearing $75k on institutional flows while equit… OVERHEATING. 18 news items. 5 scenario shifts.",
+      "summary": "Markets displayed late-cycle exuberance with Bitcoin nearing $75k on institutional flows while equit…",
+      "date_published": "2026-04-15T21:15:04.824Z",
+      "tags": [
+        "bullish-skew",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-04-15-midday",
+      "url": "https://agentcanary.ai/record/2026/04/15#midday",
+      "title": "Market Pulse — Apr 15, 2026",
+      "content_text": "BTC Distribution · 100 whale moves BTC daily distribution, 4h risk-off · ETH daily distribution, 4h risk-off · SOL daily bearish, 4h accumulation",
+      "summary": "BTC Distribution · 100 whale moves",
+      "date_published": "2026-04-15T15:15:01.879Z",
+      "tags": [
+        "whale-alert",
+        "rave-863%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-04-15-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/15#intelligence",
+      "title": "Signal Scan — Apr 15, 2026",
+      "content_text": "SIGNAL SCAN — Apr 15, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 15, 2026",
+      "date_published": "2026-04-15T09:15:25.915Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-04-15-morning",
+      "url": "https://agentcanary.ai/record/2026/04/15#morning",
+      "title": "Morning Brief — Apr 15, 2026",
+      "content_text": "▲ Risk-On · Neutral · Gauge —/100 Overheating regime · Fear & Greed: neutral · NORMAL",
+      "summary": "▲ Risk-On · Neutral · Gauge —/100",
+      "date_published": "2026-04-15T03:15:03.387Z",
+      "tags": [
+        "risk-on-·-neutral",
+        "gauge-—"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-04-14-evening",
+      "url": "https://agentcanary.ai/record/2026/04/14#evening",
+      "title": "Evening Wrap — Apr 14, 2026",
+      "content_text": "Markets displayed late-cycle exuberance with Bitcoin surging past $74K as risk assets rallied despit… OVERHEATING. 16 news items. 4 scenario shifts.",
+      "summary": "Markets displayed late-cycle exuberance with Bitcoin surging past $74K as risk assets rallied despit…",
+      "date_published": "2026-04-14T21:15:07.123Z",
+      "tags": [
+        "bearish-skew",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-04-14-midday",
+      "url": "https://agentcanary.ai/record/2026/04/14#midday",
+      "title": "Market Pulse — Apr 14, 2026",
+      "content_text": "BTC Ignition · 100 whale moves BTC daily ignition, 4h ignition · ETH daily ignition, 4h ignition · SOL daily ignition, 4h ignition",
+      "summary": "BTC Ignition · 100 whale moves",
+      "date_published": "2026-04-14T15:15:02.065Z",
+      "tags": [
+        "ignition",
+        "whale-alert",
+        "rave-4380%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
+      "id": "2026-04-14-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/14#intelligence",
+      "title": "Signal Scan — Apr 14, 2026",
+      "content_text": "SIGNAL SCAN — Apr 14, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 14, 2026",
+      "date_published": "2026-04-14T09:15:24.830Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
+      "id": "2026-04-14-morning",
+      "url": "https://agentcanary.ai/record/2026/04/14#morning",
+      "title": "Morning Brief — Apr 14, 2026",
+      "content_text": "▲ Risk-On · Neutral · Gauge —/100 Overheating regime · Fear & Greed: neutral · NORMAL",
+      "summary": "▲ Risk-On · Neutral · Gauge —/100",
+      "date_published": "2026-04-14T03:15:03.576Z",
+      "tags": [
+        "risk-on-·-neutral",
+        "gauge-—"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
+      "id": "2026-04-13-evening",
+      "url": "https://agentcanary.ai/record/2026/04/13#evening",
+      "title": "Evening Wrap — Apr 13, 2026",
+      "content_text": "Markets displayed classic late-cycle behavior with crypto leading risk assets higher while oil stren… OVERHEATING. 16 news items. 4 scenario shifts.",
+      "summary": "Markets displayed classic late-cycle behavior with crypto leading risk assets higher while oil stren…",
+      "date_published": "2026-04-13T21:15:04.858Z",
+      "tags": [
+        "bullish-skew",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
+      "id": "2026-04-13-midday",
+      "url": "https://agentcanary.ai/record/2026/04/13#midday",
+      "title": "Market Pulse — Apr 13, 2026",
+      "content_text": "BTC Distribution · 100 whale moves BTC daily distribution, 4h bullish · ETH daily distribution, 4h bullish · SOL daily bearish, 4h bullish",
+      "summary": "BTC Distribution · 100 whale moves",
+      "date_published": "2026-04-13T15:15:01.601Z",
+      "tags": [
+        "whale-alert",
+        "aria-998%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-04-13-intelligence",
       "url": "https://agentcanary.ai/record/2026/04/13#intelligence",
       "title": "Signal Scan — Apr 13, 2026",
@@ -460,307 +761,6 @@
       "tags": [
         "neutral-·-neutral",
         "gauge-42.9"
-      ],
-      "_agentcanary": {
-        "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-05-evening",
-      "url": "https://agentcanary.ai/record/2026/04/05#evening",
-      "title": "Evening Wrap — Apr 5, 2026",
-      "content_text": "Markets turned risk-off as escalating US-Iran tensions drove a flight to gold while oil spiked, pres… EXPANSION. 15 news items. 5 scenario shifts.",
-      "summary": "Markets turned risk-off as escalating US-Iran tensions drove a flight to gold while oil spiked, pres…",
-      "date_published": "2026-04-05T21:15:05.730Z",
-      "tags": [
-        "bearish-skew",
-        "us-producer-price-index-(yoy)("
-      ],
-      "_agentcanary": {
-        "session": "evening"
-      }
-    },
-    {
-      "id": "2026-04-05-midday",
-      "url": "https://agentcanary.ai/record/2026/04/05#midday",
-      "title": "Market Pulse — Apr 5, 2026",
-      "content_text": "BTC Bullish · 100 whale moves BTC daily bullish, 4h bearish · ETH daily bullish, 4h bearish · SOL daily accumulation, 4h bearish",
-      "summary": "BTC Bullish · 100 whale moves",
-      "date_published": "2026-04-05T15:15:01.383Z",
-      "tags": [
-        "whale-alert",
-        "bard-809%-apr"
-      ],
-      "_agentcanary": {
-        "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-05-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/05#intelligence",
-      "title": "Signal Scan — Apr 5, 2026",
-      "content_text": "SIGNAL SCAN — Apr 5, 2026 Risk 42.9/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 5, 2026",
-      "date_published": "2026-04-05T09:15:23.451Z",
-      "tags": [
-        "low",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
-      }
-    },
-    {
-      "id": "2026-04-05-morning",
-      "url": "https://agentcanary.ai/record/2026/04/05#morning",
-      "title": "Morning Brief — Apr 5, 2026",
-      "content_text": "— Neutral · Neutral · Gauge 42.9/100 Expansion regime · Fear & Greed: neutral · NORMAL",
-      "summary": "— Neutral · Neutral · Gauge 42.9/100",
-      "date_published": "2026-04-05T03:15:03.509Z",
-      "tags": [
-        "neutral-·-neutral",
-        "gauge-42.9"
-      ],
-      "_agentcanary": {
-        "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-04-evening",
-      "url": "https://agentcanary.ai/record/2026/04/04#evening",
-      "title": "Evening Wrap — Apr 4, 2026",
-      "content_text": "Markets turned risk-off as geopolitical tensions escalated while strong employment data complicated … EXPANSION. 13 news items. 5 scenario shifts.",
-      "summary": "Markets turned risk-off as geopolitical tensions escalated while strong employment data complicated …",
-      "date_published": "2026-04-04T21:15:05.085Z",
-      "tags": [
-        "mixed",
-        "us-producer-price-index-(yoy)("
-      ],
-      "_agentcanary": {
-        "session": "evening"
-      }
-    },
-    {
-      "id": "2026-04-04-midday",
-      "url": "https://agentcanary.ai/record/2026/04/04#midday",
-      "title": "Market Pulse — Apr 4, 2026",
-      "content_text": "BTC Ignition · 100 whale moves BTC daily ignition, 4h ignition · ETH daily ignition, 4h accumulation · SOL daily accumulation, 4h distribution",
-      "summary": "BTC Ignition · 100 whale moves",
-      "date_published": "2026-04-04T15:15:01.167Z",
-      "tags": [
-        "ignition",
-        "whale-alert",
-        "bard-1282%-apr"
-      ],
-      "_agentcanary": {
-        "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-04-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/04#intelligence",
-      "title": "Signal Scan — Apr 4, 2026",
-      "content_text": "SIGNAL SCAN — Apr 4, 2026 Risk 47.3/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 4, 2026",
-      "date_published": "2026-04-04T09:15:25.302Z",
-      "tags": [
-        "low",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
-      }
-    },
-    {
-      "id": "2026-04-04-morning",
-      "url": "https://agentcanary.ai/record/2026/04/04#morning",
-      "title": "Morning Brief — Apr 4, 2026",
-      "content_text": "▼ Risk-Off · Neutral · Gauge 47.3/100 Expansion regime · Fear & Greed: neutral · NORMAL",
-      "summary": "▼ Risk-Off · Neutral · Gauge 47.3/100",
-      "date_published": "2026-04-04T03:15:01.902Z",
-      "tags": [
-        "risk-off-·-neutral",
-        "gauge-47.3"
-      ],
-      "_agentcanary": {
-        "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-03-evening",
-      "url": "https://agentcanary.ai/record/2026/04/03#evening",
-      "title": "Evening Wrap — Apr 3, 2026",
-      "content_text": "Markets reflected growing macro uncertainty as the VIX pushed above 23 while bonds rallied alongside… EXPANSION. 15 news items. 4 scenario shifts.",
-      "summary": "Markets reflected growing macro uncertainty as the VIX pushed above 23 while bonds rallied alongside…",
-      "date_published": "2026-04-03T21:15:05.215Z",
-      "tags": [
-        "mixed",
-        "us-nar-seasonally-adjusted-exi"
-      ],
-      "_agentcanary": {
-        "session": "evening"
-      }
-    },
-    {
-      "id": "2026-04-03-midday",
-      "url": "https://agentcanary.ai/record/2026/04/03#midday",
-      "title": "Market Pulse — Apr 3, 2026",
-      "content_text": "BTC Accumulation · 100 whale moves BTC daily accumulation, 4h ignition · ETH daily accumulation, 4h ignition · SOL daily accumulation, 4h ignition",
-      "summary": "BTC Accumulation · 100 whale moves",
-      "date_published": "2026-04-03T15:15:01.784Z",
-      "tags": [
-        "whale-alert",
-        "aria-278%-apr"
-      ],
-      "_agentcanary": {
-        "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-03-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/03#intelligence",
-      "title": "Signal Scan — Apr 3, 2026",
-      "content_text": "SIGNAL SCAN — Apr 3, 2026 Risk 93/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 3, 2026",
-      "date_published": "2026-04-03T09:15:27.828Z",
-      "tags": [
-        "high",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
-      }
-    },
-    {
-      "id": "2026-04-03-morning",
-      "url": "https://agentcanary.ai/record/2026/04/03#morning",
-      "title": "Morning Brief — Apr 3, 2026",
-      "content_text": "▼ Risk-Off · Neutral · Gauge 93/100 Expansion regime · Fear & Greed: neutral · NORMAL",
-      "summary": "▼ Risk-Off · Neutral · Gauge 93/100",
-      "date_published": "2026-04-03T03:15:01.697Z",
-      "tags": [
-        "risk-off-·-neutral",
-        "gauge-93"
-      ],
-      "_agentcanary": {
-        "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-02-evening",
-      "url": "https://agentcanary.ai/record/2026/04/02#evening",
-      "title": "Evening Wrap — Apr 2, 2026",
-      "content_text": "Markets pivoted to risk-off as geopolitical tensions with Iran escalated, sending gold to $4,673 and… EXPANSION. 16 news items. 4 scenario shifts.",
-      "summary": "Markets pivoted to risk-off as geopolitical tensions with Iran escalated, sending gold to $4,673 and…",
-      "date_published": "2026-04-02T21:15:04.382Z",
-      "tags": [
-        "mixed",
-        "us-university-of-michigan-cons"
-      ],
-      "_agentcanary": {
-        "session": "evening"
-      }
-    },
-    {
-      "id": "2026-04-02-midday",
-      "url": "https://agentcanary.ai/record/2026/04/02#midday",
-      "title": "Market Pulse — Apr 2, 2026",
-      "content_text": "BTC Risk-Off · 100 whale moves BTC daily risk-off, 4h risk-off · ETH daily accumulation, 4h bearish · SOL daily risk-off, 4h risk-off",
-      "summary": "BTC Risk-Off · 100 whale moves",
-      "date_published": "2026-04-02T15:15:01.129Z",
-      "tags": [
-        "risk_off",
-        "whale-alert",
-        "nom-335%-apr"
-      ],
-      "_agentcanary": {
-        "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-02-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/02#intelligence",
-      "title": "Signal Scan — Apr 2, 2026",
-      "content_text": "SIGNAL SCAN — Apr 2, 2026 Risk 93/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 2, 2026",
-      "date_published": "2026-04-02T09:15:29.045Z",
-      "tags": [
-        "high",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
-      }
-    },
-    {
-      "id": "2026-04-02-morning",
-      "url": "https://agentcanary.ai/record/2026/04/02#morning",
-      "title": "Morning Brief — Apr 2, 2026",
-      "content_text": "▼ Risk-Off · Neutral · Gauge 93/100 Expansion regime · Fear & Greed: neutral · NORMAL",
-      "summary": "▼ Risk-Off · Neutral · Gauge 93/100",
-      "date_published": "2026-04-02T03:15:02.154Z",
-      "tags": [
-        "risk-off-·-neutral",
-        "gauge-93"
-      ],
-      "_agentcanary": {
-        "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-01-evening",
-      "url": "https://agentcanary.ai/record/2026/04/01#evening",
-      "title": "Evening Wrap — Apr 1, 2026",
-      "content_text": "Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional fo… RECOVERY. 10 news items. 5 scenario shifts.",
-      "summary": "Markets exhibited a maturing decoupling narrative today, with crypto assets finding institutional fo…",
-      "date_published": "2026-04-01T21:15:04.516Z",
-      "tags": [
-        "bullish-skew",
-        "us-university-of-michigan-cons"
-      ],
-      "_agentcanary": {
-        "session": "evening"
-      }
-    },
-    {
-      "id": "2026-04-01-midday",
-      "url": "https://agentcanary.ai/record/2026/04/01#midday",
-      "title": "Market Pulse — Apr 1, 2026",
-      "content_text": "BTC Accumulation · 100 whale moves BTC daily accumulation, 4h ignition · ETH daily accumulation, 4h distribution · SOL daily accumulation, 4h ignition",
-      "summary": "BTC Accumulation · 100 whale moves",
-      "date_published": "2026-04-01T15:15:01.251Z",
-      "tags": [
-        "whale-alert"
-      ],
-      "_agentcanary": {
-        "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-01-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/01#intelligence",
-      "title": "Signal Scan — Apr 1, 2026",
-      "content_text": "SIGNAL SCAN — Apr 1, 2026 Risk 95.2/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 1, 2026",
-      "date_published": "2026-04-01T09:15:26.277Z",
-      "tags": [
-        "high",
-        "recovery"
-      ],
-      "_agentcanary": {
-        "session": "signal"
-      }
-    },
-    {
-      "id": "2026-04-01-morning",
-      "url": "https://agentcanary.ai/record/2026/04/01#morning",
-      "title": "Morning Brief — Apr 1, 2026",
-      "content_text": "▼ Risk-Off · Neutral · Gauge 95.2/100 RECOVERY. Fear & Greed: neutral · NORMAL",
-      "summary": "▼ Risk-Off · Neutral · Gauge 95.2/100",
-      "date_published": "2026-04-01T03:15:03.035Z",
-      "tags": [
-        "risk-off-·-neutral",
-        "gauge-95.2"
       ],
       "_agentcanary": {
         "session": "morning"
