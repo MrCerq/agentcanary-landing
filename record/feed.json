@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-18-evening",
+      "url": "https://agentcanary.ai/record/2026/04/18#evening",
+      "title": "Evening Wrap — Apr 18, 2026",
+      "content_text": "Markets surged on Strait of Hormuz reopening, with oil retreating as supply fears eased and risk ass… OVERHEATING. 17 news items. 5 scenario shifts.",
+      "summary": "Markets surged on Strait of Hormuz reopening, with oil retreating as supply fears eased and risk ass…",
+      "date_published": "2026-04-18T21:15:06.470Z",
+      "tags": [
+        "mixed",
+        "us-conference-board-consumer-c"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-18-midday",
       "url": "https://agentcanary.ai/record/2026/04/18#midday",
       "title": "Market Pulse — Apr 18, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-06-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/06#intelligence",
-      "title": "Signal Scan — Apr 6, 2026",
-      "content_text": "SIGNAL SCAN — Apr 6, 2026 Risk 42.9/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 6, 2026",
-      "date_published": "2026-04-06T09:15:26.305Z",
-      "tags": [
-        "low",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
