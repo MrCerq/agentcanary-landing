@@ -1,53 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-04-19",
-  "time": "15:15 UTC",
-  "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:DISTRIBUTION 4h:ACCUMULATION · ETH 1d:DISTRIBUTION 4h:ACCUMULATION · SOL 1d:DISTRIBUTION 4h:ACCUMULATION",
+  "time": "21:15 UTC",
+  "headline": "Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-t…",
+  "headlineColor": "#A78BFA",
+  "desc": "OVERHEATING. 15 news items. 5 scenario shifts.",
   "tags": [
     {
-      "t": "WHALE ALERT",
+      "t": "MIXED",
+      "c": "yellow"
+    },
+    {
+      "t": " Consumer Price Index(YoY)(Q1)",
       "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "DISTRIBUTION",
-          "c": "red"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "DISTRIBUTION",
-          "c": "red"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "DISTRIBUTION",
-          "c": "red"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 50
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$495M USDT",
-          "v": "transferred from unk",
+          "k": " Consumer Price Index(YoY)(Q1)",
+          "v": "Apr 29",
           "c": "blue"
         },
         {
-          "k": "$226M USDT",
-          "v": "transferred from unk",
+          "k": " Consumer Price Index (QoQ)(Q1)",
+          "v": "Apr 29",
+          "c": "blue"
+        },
+        {
+          "k": "US Conference Board Consumer Confidenc",
+          "v": "Apr 28",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Apr 19, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$76,052</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n• ETH: <b>$2,337</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n• SOL: <b>$86.45</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 495,130,549 USDT ($495,358,309)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 225,835,797 USDT ($225,897,902)\n  <i>transferred from unknown wallet to #Spark</i>\n• 50,000,000 USDE ($50,009,308)\n  <i>transferred from unknown wallet to unknown wallet</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $50,996,383 | Longs: 71% | L/S: 2.4:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Iran-US Geopolitical Crisis [BTC, ETH, SPY]\n▲ Bitcoin Mining Transition and Supply Dynamics [BTC, MARA, RIOT]\n▲ Crypto ETF Capital Flows [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 291
+  "telegramText": "<b>MARKET WRAP</b> — Apr 19, 2026\n\n<i>Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-to-quality flows into gold while crypto diverged on institutional demand despite exchange instability. The risk-on/risk-off whipsaw reflected late-cycle dynamics with energy disruption fears offsetting selective institutional crypto adoption.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$74,660</b> · ETH: <b>$2,284</b> · SOL: <b>$85.11</b> · GOLD: <b>$4,854</b> · SPY: <b>$710.14</b> (+1.5%) · QQQ: <b>$648.85</b> (+1.8%) · VIX: <b>$17.48</b> (-2.6%) · TLT: <b>$87.07</b> (+0.3%) · DXY: <b>$98.23</b> (+0.1%) · OIL: <b>$82.59</b> (-1.5%)\n\n<b>EVENING NEWS</b>\n▲ Ethereum sees rising U.S. demand – But why is ETH stuck near breakout?\n▼ Economic impact of Iran war will hurt US even after conflict ends, economists warn\n▲ The Recent CPI Report Is Already Shifting 2027 COLA Forecasts -- What Retirees Should Know\n▼ Crypto Regulation: Polish Parliament Fails To Overturn Presidential Veto Again\n▲ Is Tether’s $1B Ethereum mint early signal for stronger Q2 activity?\n▲ Walmart challenges Amazon on same-day delivery by using stores as warehouses\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong crypto institutional flows and network activity suggest continued risk appetite\n▼ Goldilocks: Geopolitical tensions and potential oil supply disruption threaten balanced growth\n▲ Stagflation: Strait of Hormuz closure threatens oil supply, raising inflation risks\n▲ Hegemony: US-Iran confrontation tests American global influence and energy security\n▲ Displacement: Crypto adoption accelerates despite exchange failures, miner dynamics shift to AI\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Consumer Price Index(YoY)(Q1) — Apr 29, 01:30 AM UTC (prev: 3.6%)\n Consumer Price Index (QoQ)(Q1) — Apr 29, 01:30 AM UTC (prev: 0.6%)\nUS Conference Board Consumer Confidence Index(Apr) — Apr 28, 02:00 PM UTC (prev: 91.8)\n Unemployment Rate(Mar) — Apr 27, 11:30 PM UTC (prev: 2.6%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS University of Michigan Consumer Confidence Index (Final)(Apr) — Apr 24, 02:00 PM UTC (prev: 53.3)\n\n<b>CONTRARIAN</b>\n• The VIX drop of 44% in three weeks suggests markets are too complacent about Iran escalation risks, \n• Bitcoin miner 'capitulation' narrative may be overplayed as miners pivot to AI rather than true dist\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 292
 }

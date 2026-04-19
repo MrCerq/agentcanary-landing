@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-19-evening",
+      "url": "https://agentcanary.ai/record/2026/04/19#evening",
+      "title": "Evening Wrap — Apr 19, 2026",
+      "content_text": "Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-t… OVERHEATING. 15 news items. 5 scenario shifts.",
+      "summary": "Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-t…",
+      "date_published": "2026-04-19T21:15:06.979Z",
+      "tags": [
+        "mixed",
+        "-consumer-price-index(yoy)(q1)"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-19-midday",
       "url": "https://agentcanary.ai/record/2026/04/19#midday",
       "title": "Market Pulse — Apr 19, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-07-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/07#intelligence",
-      "title": "Signal Scan — Apr 7, 2026",
-      "content_text": "SIGNAL SCAN — Apr 7, 2026 Risk 26.9/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 7, 2026",
-      "date_published": "2026-04-07T09:15:24.322Z",
-      "tags": [
-        "low",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

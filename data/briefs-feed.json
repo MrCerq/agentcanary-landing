@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-19",
+    "time": "21:15 UTC",
+    "headline": "Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-t…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 15 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": " Consumer Price Index(YoY)(Q1)",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 50
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": " Consumer Price Index(YoY)(Q1)",
+            "v": "Apr 29",
+            "c": "blue"
+          },
+          {
+            "k": " Consumer Price Index (QoQ)(Q1)",
+            "v": "Apr 29",
+            "c": "blue"
+          },
+          {
+            "k": "US Conference Board Consumer Confidenc",
+            "v": "Apr 28",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 19, 2026\n\n<i>Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-to-quality flows into gold while crypto diverged on institutional demand despite exchange instability. The risk-on/risk-off whipsaw reflected late-cycle dynamics with energy disruption fears offsetting selective institutional crypto adoption.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$74,660</b> · ETH: <b>$2,284</b> · SOL: <b>$85.11</b> · GOLD: <b>$4,854</b> · SPY: <b>$710.14</b> (+1.5%) · QQQ: <b>$648.85</b> (+1.8%) · VIX: <b>$17.48</b> (-2.6%) · TLT: <b>$87.07</b> (+0.3%) · DXY: <b>$98.23</b> (+0.1%) · OIL: <b>$82.59</b> (-1.5%)\n\n<b>EVENING NEWS</b>\n▲ Ethereum sees rising U.S. demand – But why is ETH stuck near breakout?\n▼ Economic impact of Iran war will hurt US even after conflict ends, economists warn\n▲ The Recent CPI Report Is Already Shifting 2027 COLA Forecasts -- What Retirees Should Know\n▼ Crypto Regulation: Polish Parliament Fails To Overturn Presidential Veto Again\n▲ Is Tether’s $1B Ethereum mint early signal for stronger Q2 activity?\n▲ Walmart challenges Amazon on same-day delivery by using stores as warehouses\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong crypto institutional flows and network activity suggest continued risk appetite\n▼ Goldilocks: Geopolitical tensions and potential oil supply disruption threaten balanced growth\n▲ Stagflation: Strait of Hormuz closure threatens oil supply, raising inflation risks\n▲ Hegemony: US-Iran confrontation tests American global influence and energy security\n▲ Displacement: Crypto adoption accelerates despite exchange failures, miner dynamics shift to AI\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Consumer Price Index(YoY)(Q1) — Apr 29, 01:30 AM UTC (prev: 3.6%)\n Consumer Price Index (QoQ)(Q1) — Apr 29, 01:30 AM UTC (prev: 0.6%)\nUS Conference Board Consumer Confidence Index(Apr) — Apr 28, 02:00 PM UTC (prev: 91.8)\n Unemployment Rate(Mar) — Apr 27, 11:30 PM UTC (prev: 2.6%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS University of Michigan Consumer Confidence Index (Final)(Apr) — Apr 24, 02:00 PM UTC (prev: 53.3)\n\n<b>CONTRARIAN</b>\n• The VIX drop of 44% in three weeks suggests markets are too complacent about Iran escalation risks, \n• Bitcoin miner 'capitulation' narrative may be overplayed as miners pivot to AI rather than true dist\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 292
+  },
+  {
     "session": "midday",
     "date": "2026-04-19",
     "time": "15:15 UTC",
@@ -1427,58 +1475,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 12, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$70,833</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n• ETH: <b>$2,184</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$81.78</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 102,866,857 USDC ($102,864,370)\n  <i>transferred from unknown wallet to #Aave</i>\n• 102,837,488 USDC ($102,822,191)\n  <i>transferred from #Aave to unknown wallet</i>\n• 250,000,000 USDC ($249,937,375)\n  <i>minted at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 1953% net APR (0.8020% rate)\n  Long Bybit / Short Bitget | OI: $29.5M | Spread: -0.60%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $103,248,168 | Longs: 64% | L/S: 1.8:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ US-Iran Diplomatic Failure Fuels War Premium [BTC, ETH, OIL]\n— Crypto Market Structural Shift Despite ETF Inflows [BTC, ETH, XRP]\n▲ Quantum Computing Threat Reshapes Crypto Preferences [ZEC, XRP, BTC]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 263
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-12",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 12, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 0/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "EXPANSION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 0
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "NET",
-            "v": "-13.5%",
-            "c": "red"
-          },
-          {
-            "k": "UMAC",
-            "v": "+10.4%",
-            "c": "green"
-          },
-          {
-            "k": "TON",
-            "v": "+9.2%",
-            "c": "green"
-          },
-          {
-            "k": "SNOW",
-            "v": "-8.4%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 12, 2026\n\n<b>SNAPSHOT</b>\nRisk-on rally as BTC ETFs post $789M weekly inflows and US-Iran talks show progress. Tech leads with semiconductors +1.5% while defensive sectors lag. Cross-asset divergence emerging as inflation persistence challenges Fed dovish pivot expectations.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: EXPANSION — Liquidity expanding +3.7 with HY spreads tightening\nKey prices: SPY +0.5% | QQQ +0.8% | VIX -1.3% | TLT -0.5% | DXY +0.05% | OIL flat\nICSA: 219K (flat trend, +0.86σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Diplomatic Breakthrough\nBTC: $75K-78K (+5-9%)\nSPY: $695-715 (+2-5%)\nVIX: $16-18 (-15-7%)\n\n<b>SCENARIO B</b> — Stagflation Persistence\nTLT: $82-84 (-5-3%)\nDXY: $101-103 (+2-4%)\nOIL: $105-110 (+9-14%)\n\n<b>SCENARIO C</b> — Tech Correction\nQQQ: $580-595 (-5-3%)\nBTC: $65K-68K (-9-5%)\nVIX: $25-30 (+30-56%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +2.4%) — strong\n2. Semiconductors (SMH +1.5%) — bid\n3. Materials (XLB +0.6%) — rotating\n4. Biotech (XBI -1.8%) — dump\n5. Healthcare (XLV -1.4%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nNET $167 (-13.5%) — Tech selloff on quantum computing disruption concerns\nUMAC $13.7 (+10.4%) — Accelerated motor factory output at Orlando campus\nTON $1.43 (+9.2%) — Macro optimism from live analyst coverage\nSNOW $121 (-8.4%) — Broader cloud software rotation amid AI disruption fears\nNIO $6.5 (+7.1%) — EV recovery on China stimulus speculation\nADA $0.24 (-3.9%) — Quantum resistance narrative fading\n\n<i>Risk asset divergence widening as crypto absorbs diplomatic optimism while enterprise software reprices AI displacement risk.</i>\n\n<b>POSITIONING</b>\nBTC whales net short $70M with 5 positions averaging 40x leverage — contrarian signal amid retail euphoria. BTC ETF inflows hit 13-day streak at +$531M, highest institutional demand since February. XRP and HYPE seeing concentrated long positioning on quantum resistance themes.\n\n<b>IMPLICATION</b>\nTactical opportunity in long crypto vs defensive tech if diplomatic progress accelerates, but inflation persistence limits Fed accommodation. Consider hedging growth exposure through VIX calls given late-cycle positioning signals and whale contrarian bets.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 262
   }
 ]
