@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-19-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/19#intelligence",
+      "title": "Signal Scan — Apr 19, 2026",
+      "content_text": "SIGNAL SCAN — Apr 19, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 19, 2026",
+      "date_published": "2026-04-19T09:15:26.875Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-19-morning",
       "url": "https://agentcanary.ai/record/2026/04/19#morning",
       "title": "Morning Brief — Apr 19, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-06-evening",
-      "url": "https://agentcanary.ai/record/2026/04/06#evening",
-      "title": "Evening Wrap — Apr 6, 2026",
-      "content_text": "Markets reflected a growing institutional shift toward alternative assets as Bitcoin broke above $70… EXPANSION. 18 news items. 5 scenario shifts.",
-      "summary": "Markets reflected a growing institutional shift toward alternative assets as Bitcoin broke above $70…",
-      "date_published": "2026-04-06T21:15:04.992Z",
-      "tags": [
-        "mixed",
-        "eu-consumer-price-index-(yoy)("
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

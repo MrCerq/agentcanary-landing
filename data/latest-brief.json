@@ -1,38 +1,53 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-19",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge —/100",
-  "headlineColor": "#34D399",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 19, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 0/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE —",
-      "c": "green"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 50
+        "value": 0
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
-          "c": "green"
+          "k": "AAVE",
+          "v": "-17.5%",
+          "c": "red"
+        },
+        {
+          "k": "WTI",
+          "v": "-12.8%",
+          "c": "red"
+        },
+        {
+          "k": "TON",
+          "v": "-9.3%",
+          "c": "red"
+        },
+        {
+          "k": "BRENT",
+          "v": "-9.1%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 19, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$75,532</b>\n• ETH: <b>$2,340</b>\n• SOL: <b>$85.58</b>\n• GOLD: <b>$4,854</b>\nSPY: <b>$710.14</b> (+1.5%)\nQQQ: <b>$648.85</b> (+1.8%)\nVIX: <b>17.5</b> (-2.6%)\nTLT: <b>$87.07</b> (+0.3%)\nDXY: <b>98.2</b> (+0.0%)\nOIL: <b>$82.59</b> (-12.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.19T</b> (YoY -2.9%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -28bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▲ HY Credit Spread: -1.88σ\n▼ Silver: +1.88σ\n▲ WTREGEN: -1.81σ\n▲ IG Credit Spread: -1.80σ\n\n<b>TOP MOVERS</b>\n▼ ZRO $1.60 (-17.9%)\n▼ AAVE $95.34 (-17.5%)\n▼ M $3.61 (-17.4%)\n▼ OIL $82.59 (-12.8%)\n▼ WTI $82.59 (-12.8%)\n▼ BRENT $90.38 (-9.1%)\n▲ EWY $152 (+5.1%)\n▲ TKMS $89.60 (+4.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 289
+  "telegramText": "<b>SIGNAL SCAN</b> — April 19, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum accelerating despite Iran closing Strait of Hormuz. Tech leading (+2.7%) while oil craters on supply disruption fears. Bitcoin miners capitulating as ETFs absorb record $531M inflow streak.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion driving risk assets despite geopolitical tensions\nSPY +1.5% | QQQ +1.8% | VIX -2.6% | TLT +0.3% | DXY +0.1% | OIL -1.5%\nICSA: 207K (trending up, z-score -0.4)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Hormuz Escalation\nSPY: $675-690 (-5 to -3%)\nBTC: $68-72K (-9 to -4%)\nVIX: $22-28 (+26 to +60%)\n\n<b>SCENARIO B</b> — Crypto Supply Shock\nBTC: $80-85K (+6 to +13%)\nETH: $2500-2700 (+8 to +16%)\nCOIN: $285-315 (+12 to +24%)\n\n<b>SCENARIO C</b> — Diplomatic Resolution\nOil: $75-78 (-9 to -5%)\nTLT: $82-84 (-6 to -3%)\nGold: $420-435 (-6 to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. TECHNOLOGY (XLK +2.7%) — strong\n2. REAL ESTATE (XLRE +2.5%) — bid\n3. SEMICONDUCTORS (SMH +2.5%) — rotating\n4. CONSUMER DISC (XLY +1.9%) — strong\n5. ENERGY (XLE -1.3%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nAAVE $95 (-17.5%) — V4 protocol prices yield-bearing bitcoin as superior collateral to wrapped bitcoin\nWTI $83 (-12.8%) — Strait of Hormuz closure disrupts oil shipping routes\nTON $1.27 (-9.3%) — broader alt-coin weakness amid geopolitical volatility\nPENDLE $1.34 (-8.8%) — DeFi rotation out of yield protocols\nEWY $152 (+5.1%) — Korea rotation benefiting from Middle East tensions\nSOXX $416 (+3.4%) — semiconductor strength on AI demand\n<i>Cross-asset divergence as crypto absorbs institutional flows while energy reprices geopolitical premium.</i>\n\n<b>POSITIONING</b>\nBTC whales: $76.7M long vs $11.6M short, -$1.2M unrealized PnL suggests distribution near resistance\nETH positioning: $39.4M long vs $12.3M short with moderate leverage\nBTC ETF flows: +$531M (13-day consecutive inflow streak) — institutional adoption accelerating despite volatility\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if geopolitical premium fades. Bitcoin miner capitulation creating supply vacuum while ETF demand remains structurally bid — positioning for $80K test if Hormuz tensions resolve.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 290
 }

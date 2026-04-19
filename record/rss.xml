@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Apr 19, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/19#intelligence</link>
+      <description>SIGNAL SCAN — Apr 19, 2026 — Risk 0/100 · 8 movers</description>
+      <pubDate>Sun, 19 Apr 2026 09:15:26 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/19#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Apr 19, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/19#morning</link>
       <description>▲ Risk-On · Neutral · Gauge —/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -348,13 +355,6 @@
       <description>— Neutral · Neutral · Gauge 26.9/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Tue, 07 Apr 2026 03:15:02 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/07#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Apr 6, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/06#evening</link>
-      <description>Markets reflected a growing institutional shift toward alternative assets as Bitcoin broke above $70… — EXPANSION. 18 news items. 5 scenario shifts.</description>
-      <pubDate>Mon, 06 Apr 2026 21:15:04 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/06#evening</guid>
     </item>
   </channel>
 </rss>

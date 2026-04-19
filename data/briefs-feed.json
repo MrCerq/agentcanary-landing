@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-19",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 19, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "AAVE",
+            "v": "-17.5%",
+            "c": "red"
+          },
+          {
+            "k": "WTI",
+            "v": "-12.8%",
+            "c": "red"
+          },
+          {
+            "k": "TON",
+            "v": "-9.3%",
+            "c": "red"
+          },
+          {
+            "k": "BRENT",
+            "v": "-9.1%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — April 19, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum accelerating despite Iran closing Strait of Hormuz. Tech leading (+2.7%) while oil craters on supply disruption fears. Bitcoin miners capitulating as ETFs absorb record $531M inflow streak.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion driving risk assets despite geopolitical tensions\nSPY +1.5% | QQQ +1.8% | VIX -2.6% | TLT +0.3% | DXY +0.1% | OIL -1.5%\nICSA: 207K (trending up, z-score -0.4)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Hormuz Escalation\nSPY: $675-690 (-5 to -3%)\nBTC: $68-72K (-9 to -4%)\nVIX: $22-28 (+26 to +60%)\n\n<b>SCENARIO B</b> — Crypto Supply Shock\nBTC: $80-85K (+6 to +13%)\nETH: $2500-2700 (+8 to +16%)\nCOIN: $285-315 (+12 to +24%)\n\n<b>SCENARIO C</b> — Diplomatic Resolution\nOil: $75-78 (-9 to -5%)\nTLT: $82-84 (-6 to -3%)\nGold: $420-435 (-6 to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. TECHNOLOGY (XLK +2.7%) — strong\n2. REAL ESTATE (XLRE +2.5%) — bid\n3. SEMICONDUCTORS (SMH +2.5%) — rotating\n4. CONSUMER DISC (XLY +1.9%) — strong\n5. ENERGY (XLE -1.3%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nAAVE $95 (-17.5%) — V4 protocol prices yield-bearing bitcoin as superior collateral to wrapped bitcoin\nWTI $83 (-12.8%) — Strait of Hormuz closure disrupts oil shipping routes\nTON $1.27 (-9.3%) — broader alt-coin weakness amid geopolitical volatility\nPENDLE $1.34 (-8.8%) — DeFi rotation out of yield protocols\nEWY $152 (+5.1%) — Korea rotation benefiting from Middle East tensions\nSOXX $416 (+3.4%) — semiconductor strength on AI demand\n<i>Cross-asset divergence as crypto absorbs institutional flows while energy reprices geopolitical premium.</i>\n\n<b>POSITIONING</b>\nBTC whales: $76.7M long vs $11.6M short, -$1.2M unrealized PnL suggests distribution near resistance\nETH positioning: $39.4M long vs $12.3M short with moderate leverage\nBTC ETF flows: +$531M (13-day consecutive inflow streak) — institutional adoption accelerating despite volatility\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if geopolitical premium fades. Bitcoin miner capitulation creating supply vacuum while ETF demand remains structurally bid — positioning for $80K test if Hormuz tensions resolve.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 290
+  },
+  {
     "session": "morning",
     "date": "2026-04-19",
     "time": "03:15 UTC",
@@ -1412,53 +1465,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 12, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 0/100\n\n• BTC: <b>$71,836</b>\n• ETH: <b>$2,226</b>\n• SOL: <b>$82.73</b>\n• GOLD: <b>$4,760</b>\nSPY: <b>$679.46</b> (+0.5%)\nQQQ: <b>$611.07</b> (+0.8%)\nVIX: <b>19.2</b> (-1.3%)\nTLT: <b>$86.49</b> (-0.5%)\nDXY: <b>98.7</b> (-0.2%)\nOIL: <b>$96.57</b> (-1.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.05T</b> (YoY -2.98%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>294bps</b> CALM (5d: -22bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Mortgage Rate: +2.53σ\n▲ HY Credit Spread: -2.41σ\n▼ WTI Crude Oil: +2.24σ\n▲ WTREGEN: -2.19σ\n▼ Fed Balance Sheet: +2.00σ\n\n<b>TOP MOVERS</b>\n▲ TON $1.43 (+9.2%)\n▼ TKMS $82.90 (-7.1%)\n▼ RAIN $0.007648 (-6.4%)\n▲ JST $0.07372 (+5.8%)\n▲ EWZ $41.33 (+4.5%)\n▲ SOXX $387 (+4.4%)\n▲ SMH $437 (+3.3%)\n▲ ILF $37.82 (+2.8%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ Oil: $114 (&gt;$110)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 261
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-11",
-    "time": "21:15 UTC",
-    "headline": "Markets wrestled with conflicting signals as Bitcoin's institutional breakout to $73k collided with …",
-    "headlineColor": "#A78BFA",
-    "desc": "EXPANSION. 15 news items. 6 scenario shifts.",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US Unseasonally Adjusted Consu",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 50
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Unseasonally Adjusted Consumer Pric",
-            "v": "Apr 24",
-            "c": "blue"
-          },
-          {
-            "k": "US Retail sales (MoM)(Mar)",
-            "v": "Apr 21",
-            "c": "blue"
-          },
-          {
-            "k": "US New home sales (AAMR)(Feb)",
-            "v": "Apr 20",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 11, 2026\n\n<i>Markets wrestled with conflicting signals as Bitcoin's institutional breakout to $73k collided with CPI's jump to 3.3%, forcing a hawkish Fed repricing. Risk assets held gains despite rising stagflation fears, suggesting crypto momentum is temporarily overpowering traditional macro headwinds.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$73,425</b> · ETH: <b>$2,303</b> · SOL: <b>$85.48</b> · GOLD: <b>$4,760</b> · SPY: <b>$679.46</b> (+0.5%) · QQQ: <b>$611.07</b> (+0.8%) · VIX: <b>$19.23</b> (-1.3%) · TLT: <b>$86.49</b> (-0.5%) · DXY: <b>$98.7</b> (-0.1%) · OIL: <b>$96.57</b> (-1.3%)\n\n<b>SECTOR CLOSE</b>\n▲ SMH (Semiconductors) +11.4% · COPX (Copper Miners) +8.7% · XLB (Materials) +3.1%\n▼ XLE (Energy) -3.9% · XLV (Healthcare) +0.3% · XLP (Consumer Staples) +0.6%\n\n<b>SIGNALS</b>\n— Crypto / Bitcoin (intensity 71) — BTC, ETH\n\n<b>EVENING NEWS</b>\n▼ Should You Be Investing in Bitcoin... or a Basket of Diversified Cryptocurrencies?\n▼ WLFI Token Hits All-Time Low Amid World Liberty’s DeFi Lending Controversy\n▼ Bhutan Kingdom Quietly Unwinds 70% of Its Bitcoin Reserve in 18 Months\n▲ Ethereum Holds $2.2K Support as Bullish Momentum Builds While Whale Accumulation Slows\n▲ US CPI Jumps in March as Energy Prices Surge While Core Inflation Stays Stable\n▲ Securitize Integrates With TRON to Bring Tokenized Real-World Assets to a Global Blockchai\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed holding rates steady and asset rotation patterns confirm late-cycle dynamics\n▲ Recession: Software sector collapse and inflation persistence increase recession probability\n▼ Goldilocks: Hot inflation data and Fed hawkish pivot crush soft landing hopes\n▲ Stagflation: Rising inflation with growth concerns and commodity strength\n▲ Hegemony: Iran tensions and Chagos Islands reversal show geopolitical stress\n▲ Displacement: Bitcoin institutional adoption and crypto yields falling below TradFi\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS Retail sales (MoM)(Mar) — Apr 21, 12:30 PM UTC (prev: 0.6%)\nUS New home sales (AAMR)(Feb) — Apr 20, 02:00 PM UTC (prev: -17.6%)\nEU Consumer Price Index (MoM)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 1.2%)\nEU Consumer Price Index (YoY)(Final)(Mar) — Apr 16, 09:00 AM UTC (prev: 2.5%)\n GDP (QoQ)(Q1) — Apr 16, 02:00 AM UTC (prev: 1.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's surge on hot inflation data suggests it's becoming an inflation hedge rather than a risk a\n• Software stock capitulation may be overdone - AI advancement could drive rapid recovery once rate fe\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 260
   }
 ]
