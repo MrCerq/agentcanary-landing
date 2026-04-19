@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-04-18",
-  "time": "21:15 UTC",
-  "headline": "Markets surged on Strait of Hormuz reopening, with oil retreating as supply fears eased and risk ass…",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 17 news items. 5 scenario shifts.",
+  "session": "morning",
+  "date": "2026-04-19",
+  "time": "03:15 UTC",
+  "headline": "▲ Risk-On · Neutral · Gauge —/100",
+  "headlineColor": "#34D399",
+  "desc": "OVERHEATING. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "MIXED",
-      "c": "yellow"
+      "t": "Risk-On · Neutral",
+      "c": "green"
     },
     {
-      "t": "US Conference Board Consumer C",
-      "c": "blue"
+      "t": "GAUGE —",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 50
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Conference Board Consumer Confidenc",
-          "v": "Apr 28",
-          "c": "blue"
-        },
-        {
-          "k": " Unemployment Rate(Mar)",
-          "v": "Apr 27",
-          "c": "blue"
-        },
-        {
-          "k": "US Unseasonally Adjusted Consumer Pric",
-          "v": "Apr 24",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0.5/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Apr 18, 2026\n\n<i>Markets surged on Strait of Hormuz reopening, with oil retreating as supply fears eased and risk assets rallying across the board. Bitcoin's breakout past $75K led a broad crypto surge, while equities extended gains on reduced geopolitical tail risk despite lingering Fed hawkishness.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$75,749</b> · ETH: <b>$2,353</b> · SOL: <b>$86.17</b> · GOLD: <b>$4,854</b> · SPY: <b>$710.14</b> (+1.5%) · QQQ: <b>$648.85</b> (+1.8%) · VIX: <b>$17.48</b> (-2.6%) · TLT: <b>$87.07</b> (+0.3%) · DXY: <b>$98.23</b> (+0.0%) · OIL: <b>$82.59</b> (-12.8%)\n\n<b>EVENING NEWS</b>\n▼ Iran closes Strait of Hormuz, fires on vessels, escalating US-Iran tensions\n▲ Solana futures open interest rose by 20% this week: Is $100 SOL next?\n▼ Bitcoin mining difficulty falls, but projected to rise in next adjustment\n▲ Ethereum Hits All-Time High in Quarterly Network Activity\n▲ RAVE Pump-and-Dump Allegations Spark $25,000 Bounty and Exchange Pressure\n▲ Bitcoin STHs realize gains: Correction or short squeeze, what’s ahead?\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Bitcoin surge and Fed caution suggest asset bubbles amid tightening policy\n▲ Goldilocks: Hormuz reopening reduces supply chain risks without overheating economy\n▲ Stagflation: Fed warns of lasting price shocks while Iran toll creates new inflation pressure\n▲ Hegemony: Iran crisis and European coalition-building show fracturing global order\n▲ Displacement: Crypto surge past major resistance suggests accelerating digital asset adoption\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Conference Board Consumer Confidence Index(Apr) — Apr 28, 02:00 PM UTC (prev: 91.8)\n Unemployment Rate(Mar) — Apr 27, 11:30 PM UTC (prev: 2.6%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS University of Michigan Consumer Confidence Index (Final)(Apr) — Apr 24, 02:00 PM UTC (prev: 53.3)\n National Consumer Price Index (YoY)(Mar) — Apr 23, 11:30 PM UTC (prev: 1.3%)\nUS Durable goods orders (MoM)(Mar) — Apr 23, 02:00 PM UTC (prev: -1.4%)\n\n<b>CONTRARIAN</b>\n• Iran's $2M vessel toll and ongoing disputes suggest the Hormuz 'resolution' is temporary theater - t\n• Bitcoin's surge to $78K on geopolitical relief rather than fundamental adoption may signal a vulnera\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 288
+  "telegramText": "<b>MACRO RADAR</b> — Apr 19, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$75,532</b>\n• ETH: <b>$2,340</b>\n• SOL: <b>$85.58</b>\n• GOLD: <b>$4,854</b>\nSPY: <b>$710.14</b> (+1.5%)\nQQQ: <b>$648.85</b> (+1.8%)\nVIX: <b>17.5</b> (-2.6%)\nTLT: <b>$87.07</b> (+0.3%)\nDXY: <b>98.2</b> (+0.0%)\nOIL: <b>$82.59</b> (-12.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.19T</b> (YoY -2.9%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -28bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▲ HY Credit Spread: -1.88σ\n▼ Silver: +1.88σ\n▲ WTREGEN: -1.81σ\n▲ IG Credit Spread: -1.80σ\n\n<b>TOP MOVERS</b>\n▼ ZRO $1.60 (-17.9%)\n▼ AAVE $95.34 (-17.5%)\n▼ M $3.61 (-17.4%)\n▼ OIL $82.59 (-12.8%)\n▼ WTI $82.59 (-12.8%)\n▼ BRENT $90.38 (-9.1%)\n▲ EWY $152 (+5.1%)\n▲ TKMS $89.60 (+4.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 289
 }
