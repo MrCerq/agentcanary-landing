@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — Apr 20, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/20#intelligence</link>
+      <description>SIGNAL SCAN — Apr 20, 2026 — Risk 0/100 · 8 movers</description>
+      <pubDate>Mon, 20 Apr 2026 09:15:25 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/20#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — Apr 20, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/20#morning</link>
       <description>▲ Risk-On · Neutral · Gauge —/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -348,13 +355,6 @@
       <description>▼ Risk-Off · Neutral · Gauge 60/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Wed, 08 Apr 2026 03:15:02 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/08#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Apr 7, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/07#evening</link>
-      <description>Markets grappled with escalating Iran tensions that drove a flight to safety, lifting gold to new hi… — EXPANSION. 16 news items. 6 scenario shifts.</description>
-      <pubDate>Tue, 07 Apr 2026 21:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/07#evening</guid>
     </item>
   </channel>
 </rss>

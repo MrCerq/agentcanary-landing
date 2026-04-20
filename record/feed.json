@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-20-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/20#intelligence",
+      "title": "Signal Scan — Apr 20, 2026",
+      "content_text": "SIGNAL SCAN — Apr 20, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 20, 2026",
+      "date_published": "2026-04-20T09:15:25.823Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-20-morning",
       "url": "https://agentcanary.ai/record/2026/04/20#morning",
       "title": "Morning Brief — Apr 20, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-07-evening",
-      "url": "https://agentcanary.ai/record/2026/04/07#evening",
-      "title": "Evening Wrap — Apr 7, 2026",
-      "content_text": "Markets grappled with escalating Iran tensions that drove a flight to safety, lifting gold to new hi… EXPANSION. 16 news items. 6 scenario shifts.",
-      "summary": "Markets grappled with escalating Iran tensions that drove a flight to safety, lifting gold to new hi…",
-      "date_published": "2026-04-07T21:15:05.144Z",
-      "tags": [
-        "bearish-skew",
-        "eu-consumer-price-index-(mom)("
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

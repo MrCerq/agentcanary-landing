@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-20",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 20, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "HYPE",
+            "v": "-5.5%",
+            "c": "red"
+          },
+          {
+            "k": "PENDLE",
+            "v": "-5.2%",
+            "c": "red"
+          },
+          {
+            "k": "MNT",
+            "v": "-5.2%",
+            "c": "red"
+          },
+          {
+            "k": "EWY",
+            "v": "+5.1%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 294,
+    "telegramText": "<b>SIGNAL SCAN</b> — April 20, 2026\n\n<b>SNAPSHOT</b>\nMixed risk regime as equities rally despite Persian Gulf shipping crisis. Tech leadership emerges while energy underperforms paradoxically. Crypto divergence suggests institutional flows overriding geopolitical risk.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expanding +3.4 despite financial conditions tightening\nSPY +1.5% | QQQ +1.8% | VIX flat 17.48 | TLT +0.3% | DXY +0.2% | OIL flat 82.59\nICSA: 207K (trend UP, below normal)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Hormuz Escalation\nBTC: $67-70K (-7% to -11%)\nSPY: $675-690 (-5% to -3%)\nOIL: $95-105 (+15% to +27%)\n\n<b>SCENARIO B</b> — Tech Momentum\nQQQ: $680-720 (+5% to +11%)\nBTC: $78-82K (+4% to +9%)\nTLT: $85-87 (-2% to flat)\n\n<b>SCENARIO C</b> — BOJ Pivot\nSPY: $690-700 (-3% to -1%)\nDXY: $101-104 (+3% to +6%)\nGOLD: $435-450 (-2% to +1%)\n\n<b>SECTOR STRENGTH</b>\n1. Technology (XLK +2.7%) — strong\n2. Real Estate (XLRE +2.5%) — rotating\n3. Semiconductors (SMH +2.5%) — bid\n4. Consumer Disc (XLY +1.9%) — strong\n5. Energy (XLE -1.3%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nHYPE $40.97 (-5.5%) — Ethereum thesis weakening as Solana dominates retail, Hyperliquid captures perps flow\nEWY $152.33 (+5.1%) — South Korea benefiting from tech rotation\nSOXX $415.71 (+3.4%) — Semiconductor strength on AI demand\nPENDLE $1.27 (-5.2%) — DeFi yield protocol caught in ETH weakness\nXLK $154.35 (+2.7%) — Tech leadership despite geopolitical backdrop\n<i>Risk assets ignoring energy disruption signals liquidity-driven rally trumping fundamentals.</i>\n\n<b>POSITIONING</b>\nBTC whales: 52.7M long vs 11.6M short, -$880K PnL suggests recent pain\nETH whales: 33.9M long vs 12.2M short, +$419K PnL on positioning\nHYPE: 29.1M short exposure, +$456K gains on decline\nBTC ETFs: +$531M net inflows, 13-day streak — institutional demand persists through volatility\n\n<b>IMPLICATION</b>\nDivergence between geopolitical risk and asset performance suggests late-cycle liquidity dominance. Tactical opportunity in tech vs energy spread if Persian Gulf tensions fade, but hedge via oil exposure given supply risk.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-04-20",
     "time": "03:15 UTC",
