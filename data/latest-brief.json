@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-04-19",
-  "time": "21:15 UTC",
-  "headline": "Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-t…",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 15 news items. 5 scenario shifts.",
+  "session": "morning",
+  "date": "2026-04-20",
+  "time": "03:15 UTC",
+  "headline": "▲ Risk-On · Neutral · Gauge —/100",
+  "headlineColor": "#34D399",
+  "desc": "OVERHEATING. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "MIXED",
-      "c": "yellow"
+      "t": "Risk-On · Neutral",
+      "c": "green"
     },
     {
-      "t": " Consumer Price Index(YoY)(Q1)",
-      "c": "blue"
+      "t": "GAUGE —",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 50
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": " Consumer Price Index(YoY)(Q1)",
-          "v": "Apr 29",
-          "c": "blue"
-        },
-        {
-          "k": " Consumer Price Index (QoQ)(Q1)",
-          "v": "Apr 29",
-          "c": "blue"
-        },
-        {
-          "k": "US Conference Board Consumer Confidenc",
-          "v": "Apr 28",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0.5/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Apr 19, 2026\n\n<i>Markets churned through geopolitical uncertainty as Iran's Strait of Hormuz closure sparked flight-to-quality flows into gold while crypto diverged on institutional demand despite exchange instability. The risk-on/risk-off whipsaw reflected late-cycle dynamics with energy disruption fears offsetting selective institutional crypto adoption.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$74,660</b> · ETH: <b>$2,284</b> · SOL: <b>$85.11</b> · GOLD: <b>$4,854</b> · SPY: <b>$710.14</b> (+1.5%) · QQQ: <b>$648.85</b> (+1.8%) · VIX: <b>$17.48</b> (-2.6%) · TLT: <b>$87.07</b> (+0.3%) · DXY: <b>$98.23</b> (+0.1%) · OIL: <b>$82.59</b> (-1.5%)\n\n<b>EVENING NEWS</b>\n▲ Ethereum sees rising U.S. demand – But why is ETH stuck near breakout?\n▼ Economic impact of Iran war will hurt US even after conflict ends, economists warn\n▲ The Recent CPI Report Is Already Shifting 2027 COLA Forecasts -- What Retirees Should Know\n▼ Crypto Regulation: Polish Parliament Fails To Overturn Presidential Veto Again\n▲ Is Tether’s $1B Ethereum mint early signal for stronger Q2 activity?\n▲ Walmart challenges Amazon on same-day delivery by using stores as warehouses\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong crypto institutional flows and network activity suggest continued risk appetite\n▼ Goldilocks: Geopolitical tensions and potential oil supply disruption threaten balanced growth\n▲ Stagflation: Strait of Hormuz closure threatens oil supply, raising inflation risks\n▲ Hegemony: US-Iran confrontation tests American global influence and energy security\n▲ Displacement: Crypto adoption accelerates despite exchange failures, miner dynamics shift to AI\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Consumer Price Index(YoY)(Q1) — Apr 29, 01:30 AM UTC (prev: 3.6%)\n Consumer Price Index (QoQ)(Q1) — Apr 29, 01:30 AM UTC (prev: 0.6%)\nUS Conference Board Consumer Confidence Index(Apr) — Apr 28, 02:00 PM UTC (prev: 91.8)\n Unemployment Rate(Mar) — Apr 27, 11:30 PM UTC (prev: 2.6%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS University of Michigan Consumer Confidence Index (Final)(Apr) — Apr 24, 02:00 PM UTC (prev: 53.3)\n\n<b>CONTRARIAN</b>\n• The VIX drop of 44% in three weeks suggests markets are too complacent about Iran escalation risks, \n• Bitcoin miner 'capitulation' narrative may be overplayed as miners pivot to AI rather than true dist\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 292
+  "telegramText": "<b>MACRO RADAR</b> — Apr 20, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$74,397</b>\n• ETH: <b>$2,278</b>\n• SOL: <b>$84.22</b>\n• GOLD: <b>$4,854</b>\nSPY: <b>$710.14</b> (+1.5%)\nQQQ: <b>$648.85</b> (+1.8%)\nVIX: <b>17.5</b> (-2.6%)\nTLT: <b>$87.07</b> (+0.3%)\nDXY: <b>98.3</b> (+0.2%)\nOIL: <b>$82.59</b> (-1.5%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.19T</b> (YoY -2.9%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▼ Silver: +1.88σ\n▲ WTREGEN: -1.81σ\n▲ IG Credit Spread: -1.80σ\n▼ 10Y Breakeven Inflation: +1.68σ\n\n<b>TOP MOVERS</b>\n▼ RSETH $2,016 (-18.9%)\n▲ JST $0.07371 (+9.2%)\n▲ CHZ $0.04312 (+6.6%)\n▲ EWY $152 (+5.1%)\n▲ TKMS $89.60 (+4.7%)\n▲ SOXX $416 (+3.4%)\n▲ WPP $271 (+3.1%)\n▲ KWEB $30.45 (+2.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 293
 }
