@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-20-midday",
+      "url": "https://agentcanary.ai/record/2026/04/20#midday",
+      "title": "Market Pulse — Apr 20, 2026",
+      "content_text": "BTC Bullish · 100 whale moves BTC daily bullish, 4h bearish · ETH daily bullish, 4h bearish · SOL daily bullish, 4h bearish",
+      "summary": "BTC Bullish · 100 whale moves",
+      "date_published": "2026-04-20T15:15:02.194Z",
+      "tags": [
+        "whale-alert",
+        "skyai-903%-apr"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-04-20-intelligence",
       "url": "https://agentcanary.ai/record/2026/04/20#intelligence",
       "title": "Signal Scan — Apr 20, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "signal"
-      }
-    },
-    {
-      "id": "2026-04-08-morning",
-      "url": "https://agentcanary.ai/record/2026/04/08#morning",
-      "title": "Morning Brief — Apr 8, 2026",
-      "content_text": "▼ Risk-Off · Neutral · Gauge 60/100 Expansion regime · Fear & Greed: neutral · NORMAL",
-      "summary": "▼ Risk-Off · Neutral · Gauge 60/100",
-      "date_published": "2026-04-08T03:15:02.053Z",
-      "tags": [
-        "risk-off-·-neutral",
-        "gauge-60"
-      ],
-      "_agentcanary": {
-        "session": "morning"
       }
     }
   ]
