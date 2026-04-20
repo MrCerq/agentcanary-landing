@@ -1,57 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-04-20",
-  "time": "15:15 UTC",
-  "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:BEAR_REGIME",
+  "time": "21:15 UTC",
+  "headline": "Markets displayed classic late-cycle exuberance with Bitcoin surging past $76K on institutional infl…",
+  "headlineColor": "#A78BFA",
+  "desc": "OVERHEATING. 16 news items. 4 scenario shifts.",
   "tags": [
     {
-      "t": "WHALE ALERT",
-      "c": "blue"
+      "t": "MIXED",
+      "c": "yellow"
     },
     {
-      "t": "SKYAI 903% APR",
-      "c": "green"
+      "t": "US Personal consumption expend",
+      "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 50
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$200M USDT",
-          "v": "transferred from unk",
+          "k": "US Personal consumption expenditure pr",
+          "v": "Apr 30",
           "c": "blue"
         },
         {
-          "k": "$201M USDT",
-          "v": "transferred from unk",
+          "k": " Caixin Composite Purchasing Manager",
+          "v": "Apr 30",
+          "c": "blue"
+        },
+        {
+          "k": "US Personal consumption expenditure pr",
+          "v": "Apr 30",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Apr 20, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$74,980</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,290</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$84.81</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 199,860,097 USDT ($199,940,041)\n  <i>transferred from unknown wallet to #Ethena</i>\n• 200,500,000 USDT ($200,558,144)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 222,000,000 USDT ($222,097,680)\n  <i>transferred from Tether Treasury to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>SKYAI</b>: 932% net APR (0.4123% rate)\n  Long Binance / Short Bitget | OI: $20.8M | Spread: -0.16%\n• <b>RAVE</b>: 653% net APR (0.0875% rate)\n  Long Bitget / Short OKX | OI: $8.1M | Spread: 0.23%\n• <b>PIEVERSE</b>: 245% net APR (0.2502% rate)\n  Long Bybit / Short Bitget | OI: $8.7M | Spread: 0.77%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $131,957,518 | Longs: 71% | L/S: 2.4:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n— Bitcoin Testing Critical Support [BTC, MSTR, COIN]\n▲ Cryptocurrency Ecosystem Expansion [XRP, SHIB, USDT]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 295
+  "telegramText": "<b>MARKET WRAP</b> — Apr 20, 2026\n\n<i>Markets displayed classic late-cycle exuberance with Bitcoin surging past $76K on institutional inflows while traditional risk assets advanced despite overheating signals. The crypto rally paradoxically strengthened amid infrastructure concerns, suggesting institutional demand is overwhelming technical caution in an increasingly frothy environment.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,303</b> · ETH: <b>$2,339</b> · SOL: <b>$85.99</b> · GOLD: <b>$4,812</b> · SPY: <b>$708.72</b> (+1.0%) · QQQ: <b>$646.79</b> (+1.0%) · VIX: <b>$18.87</b> (+8.0%) · TLT: <b>$87.05</b> (+0.9%) · DXY: <b>$98.05</b> (-0.0%) · OIL: <b>$85.89</b> (+4.0%)\n\n<b>EVENING NEWS</b>\n▲ Early Investment Trends Favor Little Pepe ($LILPEPE) as Presale Activity Continues to Surg\n▼ UK Gas Firm Faces Pushback Over Plans to Mine Bitcoin\n▲ Spot Bitcoin ETFs Add $996M as Flows Near Record High\n▼ Poland’s Biggest Crypto Exchange Falls, and Nobody Can Find the Man Who Holds the Keys\n▼ DeFi TVL Drops on All Top 20 Chains After KelpDAO Exploit\n▲ Schwab advises up Bitcoin allocation for aggressive portfolios\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong institutional Bitcoin flows and continued speculative activity\n▲ Goldilocks: Mainstream financial firms embracing Bitcoin allocation strategies\n▼ Stagflation: Energy sector pushback on Bitcoin mining creates regulatory headwinds\n▲ Displacement: Exchange failures and DeFi exploits highlight need for new infrastructure solutions\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Personal consumption expenditure price index (AQR)(Preliminary)(Q1) — Apr 30, 12:30 PM UTC\n Caixin Composite Purchasing Managers Index(Mar) — Apr 30, 12:30 PM UTC (prev: 55.4)\nUS Personal consumption expenditure price index (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.4%)\nUS Personal consumption expenditure (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.5%)\nUS Personal income (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: -0.1%)\nUS Real GDP(AQR)(Preliminary)(Q1) — Apr 30, 12:30 PM UTC (prev: 0.5%)\n\n<b>CONTRARIAN</b>\n• Record ETF flows may signal a local top as retail FOMO peaks rather than sustainable institutional a\n• Infrastructure failures could accelerate regulatory clarity and stronger custody standards, ultimate\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 296
 }

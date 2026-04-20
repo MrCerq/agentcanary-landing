@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-20-evening",
+      "url": "https://agentcanary.ai/record/2026/04/20#evening",
+      "title": "Evening Wrap — Apr 20, 2026",
+      "content_text": "Markets displayed classic late-cycle exuberance with Bitcoin surging past $76K on institutional infl… OVERHEATING. 16 news items. 4 scenario shifts.",
+      "summary": "Markets displayed classic late-cycle exuberance with Bitcoin surging past $76K on institutional infl…",
+      "date_published": "2026-04-20T21:15:05.027Z",
+      "tags": [
+        "mixed",
+        "us-personal-consumption-expend"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-20-midday",
       "url": "https://agentcanary.ai/record/2026/04/20#midday",
       "title": "Market Pulse — Apr 20, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-08-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/08#intelligence",
-      "title": "Signal Scan — Apr 8, 2026",
-      "content_text": "SIGNAL SCAN — Apr 8, 2026 Risk 60/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 8, 2026",
-      "date_published": "2026-04-08T09:15:26.562Z",
-      "tags": [
-        "medium",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
