@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-21-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/21#intelligence",
+      "title": "Signal Scan — Apr 21, 2026",
+      "content_text": "SIGNAL SCAN — Apr 21, 2026 Risk 0/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 21, 2026",
+      "date_published": "2026-04-21T09:15:25.936Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-21-morning",
       "url": "https://agentcanary.ai/record/2026/04/21#morning",
       "title": "Morning Brief — Apr 21, 2026",
@@ -748,21 +763,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-08-evening",
-      "url": "https://agentcanary.ai/record/2026/04/08#evening",
-      "title": "Evening Wrap — Apr 8, 2026",
-      "content_text": "Markets traded in cautious equilibrium as Bitcoin's recovery to $71K and Fed easing signals offset r… EXPANSION. 16 news items. 4 scenario shifts.",
-      "summary": "Markets traded in cautious equilibrium as Bitcoin's recovery to $71K and Fed easing signals offset r…",
-      "date_published": "2026-04-08T21:15:05.026Z",
-      "tags": [
-        "mixed",
-        "eu-consumer-price-index-(yoy)("
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

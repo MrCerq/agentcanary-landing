@@ -1,38 +1,53 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-21",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge —/100",
-  "headlineColor": "#34D399",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 21, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 0/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE —",
-      "c": "green"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 50
+        "value": 0
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
+          "k": "TKMS",
+          "v": "+4.8%",
           "c": "green"
+        },
+        {
+          "k": "PENDLE",
+          "v": "-3.6%",
+          "c": "red"
+        },
+        {
+          "k": "SOXX",
+          "v": "+2.9%",
+          "c": "green"
+        },
+        {
+          "k": "XLE",
+          "v": "-2.7%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 21, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$75,572</b>\n• ETH: <b>$2,306</b>\n• SOL: <b>$85.23</b>\n• GOLD: <b>$4,812</b>\nSPY: <b>$708.72</b> (+1.0%)\nQQQ: <b>$646.79</b> (+1.0%)\nVIX: <b>18.9</b> (+8.0%)\nTLT: <b>$87.05</b> (+0.9%)\nDXY: <b>98.1</b> (+0.0%)\nOIL: <b>$86.61</b> (-0.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.27T</b> (YoY -2.91%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▲ 2Y Treasury: -1.94σ\n▲ WTREGEN: -1.81σ\n▲ IG Credit Spread: -1.80σ\n▼ 2s10s Curve: +1.66σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +9.6%\n▼ ETH: -1.4%\n▼ BTC: -1.0%\n▼ SOL: -0.9%\n\n<b>TOP MOVERS</b>\n▲ VIX $18.87 (+8.0%)\n▼ M $3.30 (-6.0%)\n▲ DEXE $14.60 (+5.0%)\n▲ TKMS $89.00 (+4.8%)\n▲ ZRO $1.67 (+3.7%)\n▲ SOXX $418 (+2.9%)\n▼ XLE $55.07 (-2.7%)\n▲ XLI $174 (+2.1%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 297
+  "telegramText": "<b>SIGNAL SCAN</b> — April 21, 2026\n\n<b>SNAPSHOT</b>\nRisk-on equities amid overheating macro regime, driven by expanding liquidity (+3.4) despite tightening financial conditions. Crypto surging on institutional flows while energy sells off on geopolitical de-escalation signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion overcomes real yield headwinds\nKey prices: SPY +1.0% | QQQ +1.0% | VIX +0.95% | TLT +0.89% | DXY +0.22% | OIL -2.5%\nICSA: 207K (trending up, -0.4 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Liquidity Peak\nSPY: $740-765 (+4-8%)\nBTC: $82K-88K (+7-15%)\nOIL: $75-80 (-9-14%)\n\n<b>SCENARIO B</b> — Geopolitical Flare\nOIL: $95-105 (+9-20%)\nVIX: $28-35 (+47-84%)\nTLT: $92-96 (+6-10%)\n\n<b>SECTOR STRENGTH</b>\n1. Industrials (XLI +2.1%) — strong\n2. Semiconductors (SMH +2.0%) — bid\n3. Consumer Disc (XLY +1.9%) — rotating\n4. Real Estate (XLRE +1.9%) — strong\n5. Energy (XLE -2.7%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS $89 (+4.8%) — earnings beat on defense contracts\nSOXX $418 (+2.9%) — semiconductor momentum on AI demand\nPENDLE $1.32 (-3.6%) — STRC dividend impact on apyUSD market mechanics\nOIL $87.35 (-2.5%) — UAE yuan settlement threat amid Iran conflict de-escalation\nXLE $55.07 (-2.7%) — energy sector rotation on peace hopes\nUNI $3.22 (-2.1%) — Iran-US negotiation uncertainty weighing on risk assets\n\n<i>Cross-asset divergence as institutional crypto flows offset commodity geopolitical premium fade.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) — institutional adoption accelerating\nWhale positioning: ETH longs $33.5M vs $12.3M shorts (+$807K PnL), BTC mixed with $31.9M long/$23.3M short (-$649K PnL)\n\n<b>IMPLICATION</b>\nOverheating regime with calm risk gauge suggests late-cycle melt-up conditions favoring growth over value. Energy weakness creates tactical opportunity if geopolitical tensions re-emerge.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 298
 }
