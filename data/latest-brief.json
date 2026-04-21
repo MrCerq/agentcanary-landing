@@ -1,53 +1,57 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-04-21",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — Apr 21, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 0/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:DISTRIBUTION 4h:DISTRIBUTION · ETH 1d:RISK_OFF 4h:DISTRIBUTION · SOL 1d:RISK_OFF 4h:DISTRIBUTION",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "OVERHEATING",
-      "c": "blue"
+      "t": "RAVE 2653% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 0
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "TKMS",
-          "v": "+4.8%",
-          "c": "green"
-        },
-        {
-          "k": "PENDLE",
-          "v": "-3.6%",
+          "k": "BTC 1D",
+          "v": "DISTRIBUTION",
           "c": "red"
         },
         {
-          "k": "SOXX",
-          "v": "+2.9%",
-          "c": "green"
+          "k": "ETH 1D",
+          "v": "RISK_OFF",
+          "c": "red"
         },
         {
-          "k": "XLE",
-          "v": "-2.7%",
+          "k": "SOL 1D",
+          "v": "RISK_OFF",
           "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$79M BTC",
+          "v": "transferred from unk",
+          "c": "blue"
+        },
+        {
+          "k": "$104M BTC",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — April 21, 2026\n\n<b>SNAPSHOT</b>\nRisk-on equities amid overheating macro regime, driven by expanding liquidity (+3.4) despite tightening financial conditions. Crypto surging on institutional flows while energy sells off on geopolitical de-escalation signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion overcomes real yield headwinds\nKey prices: SPY +1.0% | QQQ +1.0% | VIX +0.95% | TLT +0.89% | DXY +0.22% | OIL -2.5%\nICSA: 207K (trending up, -0.4 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Liquidity Peak\nSPY: $740-765 (+4-8%)\nBTC: $82K-88K (+7-15%)\nOIL: $75-80 (-9-14%)\n\n<b>SCENARIO B</b> — Geopolitical Flare\nOIL: $95-105 (+9-20%)\nVIX: $28-35 (+47-84%)\nTLT: $92-96 (+6-10%)\n\n<b>SECTOR STRENGTH</b>\n1. Industrials (XLI +2.1%) — strong\n2. Semiconductors (SMH +2.0%) — bid\n3. Consumer Disc (XLY +1.9%) — rotating\n4. Real Estate (XLRE +1.9%) — strong\n5. Energy (XLE -2.7%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS $89 (+4.8%) — earnings beat on defense contracts\nSOXX $418 (+2.9%) — semiconductor momentum on AI demand\nPENDLE $1.32 (-3.6%) — STRC dividend impact on apyUSD market mechanics\nOIL $87.35 (-2.5%) — UAE yuan settlement threat amid Iran conflict de-escalation\nXLE $55.07 (-2.7%) — energy sector rotation on peace hopes\nUNI $3.22 (-2.1%) — Iran-US negotiation uncertainty weighing on risk assets\n\n<i>Cross-asset divergence as institutional crypto flows offset commodity geopolitical premium fade.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) — institutional adoption accelerating\nWhale positioning: ETH longs $33.5M vs $12.3M shorts (+$807K PnL), BTC mixed with $31.9M long/$23.3M short (-$649K PnL)\n\n<b>IMPLICATION</b>\nOverheating regime with calm risk gauge suggests late-cycle melt-up conditions favoring growth over value. Energy weakness creates tactical opportunity if geopolitical tensions re-emerge.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 298
+  "telegramText": "<b>MARKET PULSE</b> — Apr 21, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$75,784</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• ETH: <b>$2,305</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n• SOL: <b>$85.97</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 1,029 BTC ($78,553,401)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 1,368 BTC ($104,364,580)\n  <i>transferred from unknown wallet to #Kraken</i>\n• 88,000,000 USDC ($87,973,820)\n  <i>burned at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 2606% net APR (0.3029% rate)\n  Long Bybit / Short MEXC | OI: $7.4M | Spread: 0.09%\n• <b>LAB</b>: 380% net APR (0.1019% rate)\n  Long Binance / Short Bitget | OI: $8.8M | Spread: -0.51%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $108,643,217 | Longs: 19% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Institutional Crypto Adoption Surge [BTC, ETH, SOL]\n▼ DeFi Security Crisis [DeFi tokens, ETH, SOL]\n▼ Geopolitical Escalation [GLD, VIX, ETH]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 299
 }
