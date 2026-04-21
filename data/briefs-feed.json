@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-21",
+    "time": "21:15 UTC",
+    "headline": "Markets displayed a tale of two risk appetites today, with crypto soaring on fresh institutional inf…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 16 news items. 6 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US ISM Manufacturing Purchasin",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 50
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US ISM Manufacturing Purchasing Manage",
+            "v": "May 1",
+            "c": "blue"
+          },
+          {
+            "k": " Producer Price Index (YoY)(Q1)",
+            "v": "May 1",
+            "c": "blue"
+          },
+          {
+            "k": "US Personal consumption expenditure pr",
+            "v": "Apr 30",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 21, 2026\n\n<i>Markets displayed a tale of two risk appetites today, with crypto soaring on fresh institutional inflows while banking stress emerged amid credit concerns. The divergence signals late-cycle dynamics taking hold, as investors chase displacement trades in digital assets while traditional finance faces headwinds from persistent inflation and political uncertainty.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$75,763</b> · ETH: <b>$2,319</b> · SOL: <b>$85.57</b> · GOLD: <b>$4,683</b> · SPY: <b>$704.08</b> (-0.9%) · QQQ: <b>$644.33</b> (-0.7%) · VIX: <b>$19.5</b> (+3.3%) · TLT: <b>$86.57</b> (-0.6%) · DXY: <b>$98.36</b> (+0.3%) · OIL: <b>$90.22</b> (+0.7%)\n\n<b>EVENING NEWS</b>\n▲ Capital One Boosts Provision for Bad Loans, Misses Estimates\n▼ Mandelson scandal threatens Starmer’s leadership as pressure mounts\n▲ Bitcoin And Ethereum Inflows On Binance And Coinbase Climb To Multi-Month Levels\n▲ Strategy gains $3.6B from Bitcoin as holdings surpass BlackRock\n▲ New Zealand: Sticky inflation and cautious business mood – BNY\n▲ There is need for improvement in terms of centralization of Fed operations, says Fed's Wal\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Banking stress and sticky inflation signal economy overheating\n▲ Recession: Credit provisioning surge indicates potential economic downturn\n▼ Goldilocks: Banking stress and inflation persistence undermine soft landing hopes\n▲ Stagflation: Persistent inflation amid potential credit stress\n▼ Hegemony: Political instability and operational reforms suggest institutional strain\n▲ Displacement: Crypto institutional adoption accelerating rapidly\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS ISM Manufacturing Purchasing Managers Index(Apr) — May 1, 02:00 PM UTC (prev: 52.7)\n Producer Price Index (YoY)(Q1) — May 1, 01:30 AM UTC (prev: 3.5%)\nUS Personal consumption expenditure price index (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.4%)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 30, 12:30 PM UTC (prev: 55.4)\nUS Real GDP(AQR)(Preliminary)(Q1) — Apr 30, 12:30 PM UTC (prev: 0.5%)\nUS Personal consumption expenditure (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.5%)\n\n<b>CONTRARIAN</b>\n• Crypto surge may be a late-cycle euphoria signal rather than genuine institutional adoption\n• Banking credit stress could be isolated to specific sectors rather than systemic warning\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 300
+  },
+  {
     "session": "midday",
     "date": "2026-04-21",
     "time": "15:15 UTC",
@@ -1427,58 +1475,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 14, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$74,750</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,343</b> — 1d: IGNITION | 4h: IGNITION\n• SOL: <b>$85.6</b> — 1d: IGNITION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 1,985 BTC ($150,567,719)\n  <i>transferred from #Coinbase to unknown wallet</i>\n• 250,000,000 USDC ($249,821,250)\n  <i>minted at USDC Treasury</i>\n• 670 BTC ($50,639,269)\n  <i>transferred from #Coinbase to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 5362% net APR (0.5000% rate)\n  Long Binance / Short OKX | OI: $34.4M | Spread: -2.77%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $270,461,828 | Longs: 6% | L/S: 0.1:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Bitcoin Institutional Adoption Surge [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 271
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-14",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 14, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 0/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 0
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "MORPHO",
-            "v": "+6.5%",
-            "c": "green"
-          },
-          {
-            "k": "ETH",
-            "v": "+5.0%",
-            "c": "green"
-          },
-          {
-            "k": "AAVE",
-            "v": "+4.4%",
-            "c": "green"
-          },
-          {
-            "k": "SOXX",
-            "v": "+3.9%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 14, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum driven by Iran deal optimism and crypto institutional flows. Tech/semis leading with +3% while energy sells off -2.6% on geopolitical premium fade. Cross-asset dislocation as BTC hits $74K amid $531M ETF inflows while oil dumps on Trump diplomacy headlines.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion (+3.7) offset by tightening financial conditions\nKey prices: SPY +0.9% | QQQ +1.2% | VIX -2.9% | TLT +0.1% | DXY -0.2% | OIL -2.6%\nICSA: 219K (neutral, flat trend)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Deal Completion\nBTC: $78-82K (+4-10%)\nSPY: $720-750 (+5-9%)\nOIL: $85-90 (-12-7%)\n\n<b>SCENARIO B</b> — Energy Inflation Shock\nOIL: $105-115 (+9-19%)\nTLT: $82-85 (-5-2%)\nSPY: $650-670 (-5-2%)\n\n<b>SCENARIO C</b> — Tech Momentum Extension\nQQQ: $650-680 (+5-10%)\nBTC: $70-75K (-6-0%)\nVIX: 15-17 (-19-8%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+4.1%) — strong\n2. SMH (+3.0%) — rotating\n3. XLK (+2.5%) — bid  \n4. URA (+2.5%) — strong\n5. XLE (-0.4%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nMORPHO +6.5% �� geothermal development deals driving energy transition plays\nETH +5.0% — Aave V4 launch showing $13.5M TVL in 14 days, DeFi infrastructure momentum\nAAVE +4.4% — V4 protocol upgrade capturing institutional DeFi adoption\nSOXX +3.9% — semiconductor strength on AI infrastructure demand\nOIL -2.6% — Trump announces Iran wants deal, geopolitical premium unwinding\nVIX -2.9% — risk-off hedges being sold as diplomacy headlines emerge\n<i>Crypto surging on institutional flows while energy dumps on geopolitical de-escalation, creating tactical rotation opportunity.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) — institutional FOMO accelerating\nWhale positioning: ETH longs $148.5M vs $52.6M shorts, +$14.6M PnL suggests momentum continuation\nBTC whales: $65.3M long-only positioning with 40x max leverage indicates conviction\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if Iran diplomacy progresses. Semiconductor strength suggests AI infrastructure theme intact, but energy inflation risk requires TLT hedge if talks fail.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 270
   }
 ]
