@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-04-21",
-  "time": "21:15 UTC",
-  "headline": "Markets displayed a tale of two risk appetites today, with crypto soaring on fresh institutional inf…",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 16 news items. 6 scenario shifts.",
+  "session": "morning",
+  "date": "2026-04-22",
+  "time": "03:15 UTC",
+  "headline": "▲ Risk-On · Neutral · Gauge —/100",
+  "headlineColor": "#34D399",
+  "desc": "OVERHEATING. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
-      "c": "red"
+      "t": "Risk-On · Neutral",
+      "c": "green"
     },
     {
-      "t": "US ISM Manufacturing Purchasin",
-      "c": "blue"
+      "t": "GAUGE —",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 50
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US ISM Manufacturing Purchasing Manage",
-          "v": "May 1",
-          "c": "blue"
-        },
-        {
-          "k": " Producer Price Index (YoY)(Q1)",
-          "v": "May 1",
-          "c": "blue"
-        },
-        {
-          "k": "US Personal consumption expenditure pr",
-          "v": "Apr 30",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0.5/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Apr 21, 2026\n\n<i>Markets displayed a tale of two risk appetites today, with crypto soaring on fresh institutional inflows while banking stress emerged amid credit concerns. The divergence signals late-cycle dynamics taking hold, as investors chase displacement trades in digital assets while traditional finance faces headwinds from persistent inflation and political uncertainty.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$75,763</b> · ETH: <b>$2,319</b> · SOL: <b>$85.57</b> · GOLD: <b>$4,683</b> · SPY: <b>$704.08</b> (-0.9%) · QQQ: <b>$644.33</b> (-0.7%) · VIX: <b>$19.5</b> (+3.3%) · TLT: <b>$86.57</b> (-0.6%) · DXY: <b>$98.36</b> (+0.3%) · OIL: <b>$90.22</b> (+0.7%)\n\n<b>EVENING NEWS</b>\n▲ Capital One Boosts Provision for Bad Loans, Misses Estimates\n▼ Mandelson scandal threatens Starmer’s leadership as pressure mounts\n▲ Bitcoin And Ethereum Inflows On Binance And Coinbase Climb To Multi-Month Levels\n▲ Strategy gains $3.6B from Bitcoin as holdings surpass BlackRock\n▲ New Zealand: Sticky inflation and cautious business mood – BNY\n▲ There is need for improvement in terms of centralization of Fed operations, says Fed's Wal\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Banking stress and sticky inflation signal economy overheating\n▲ Recession: Credit provisioning surge indicates potential economic downturn\n▼ Goldilocks: Banking stress and inflation persistence undermine soft landing hopes\n▲ Stagflation: Persistent inflation amid potential credit stress\n▼ Hegemony: Political instability and operational reforms suggest institutional strain\n▲ Displacement: Crypto institutional adoption accelerating rapidly\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS ISM Manufacturing Purchasing Managers Index(Apr) — May 1, 02:00 PM UTC (prev: 52.7)\n Producer Price Index (YoY)(Q1) — May 1, 01:30 AM UTC (prev: 3.5%)\nUS Personal consumption expenditure price index (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.4%)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 30, 12:30 PM UTC (prev: 55.4)\nUS Real GDP(AQR)(Preliminary)(Q1) — Apr 30, 12:30 PM UTC (prev: 0.5%)\nUS Personal consumption expenditure (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.5%)\n\n<b>CONTRARIAN</b>\n• Crypto surge may be a late-cycle euphoria signal rather than genuine institutional adoption\n• Banking credit stress could be isolated to specific sectors rather than systemic warning\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 300
+  "telegramText": "<b>MACRO RADAR</b> — Apr 22, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$77,590</b>\n• ETH: <b>$2,373</b>\n• SOL: <b>$87.41</b>\n• GOLD: <b>$4,683</b>\nSPY: <b>$704.08</b> (-0.9%)\nQQQ: <b>$644.33</b> (-0.7%)\nVIX: <b>19.5</b> (+3.3%)\nTLT: <b>$86.57</b> (-0.6%)\nDXY: <b>98.4</b> (+0.3%)\nOIL: <b>$89.26</b> (-0.4%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.08%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>287bps</b> CALM (5d: -8bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▲ WTREGEN: -1.81σ\n▲ 2Y Treasury: -1.55σ\n— CPI: +1.38σ\n— RSAFS: +1.37σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.3%\n▲ BTC: +2.4%\n▲ ETH: +2.3%\n▲ SOL: +2.2%\n\n<b>TOP MOVERS</b>\n▼ SLV $68.49 (-7.0%)\n▲ DEXE $12.81 (+5.9%)\n▼ TKMS $84.80 (-5.4%)\n▲ PENGU $0.008005 (+5.1%)\n▼ RTX $187 (-4.7%)\n▲ M $4.41 (+4.5%)\n▼ ITA $223 (-3.8%)\n▼ GLD $430 (-3.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 301
 }
