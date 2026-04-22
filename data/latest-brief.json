@@ -1,38 +1,53 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-22",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge —/100",
-  "headlineColor": "#34D399",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 22, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 0/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE —",
-      "c": "green"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 50
+        "value": 0
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
-          "c": "green"
+          "k": "SLV",
+          "v": "-7.0%",
+          "c": "red"
+        },
+        {
+          "k": "TKMS",
+          "v": "-5.4%",
+          "c": "red"
+        },
+        {
+          "k": "RTX",
+          "v": "-4.7%",
+          "c": "red"
+        },
+        {
+          "k": "ITA",
+          "v": "-3.8%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 22, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$77,590</b>\n• ETH: <b>$2,373</b>\n• SOL: <b>$87.41</b>\n• GOLD: <b>$4,683</b>\nSPY: <b>$704.08</b> (-0.9%)\nQQQ: <b>$644.33</b> (-0.7%)\nVIX: <b>19.5</b> (+3.3%)\nTLT: <b>$86.57</b> (-0.6%)\nDXY: <b>98.4</b> (+0.3%)\nOIL: <b>$89.26</b> (-0.4%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.08%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>287bps</b> CALM (5d: -8bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▲ WTREGEN: -1.81σ\n▲ 2Y Treasury: -1.55σ\n— CPI: +1.38σ\n— RSAFS: +1.37σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.3%\n▲ BTC: +2.4%\n▲ ETH: +2.3%\n▲ SOL: +2.2%\n\n<b>TOP MOVERS</b>\n▼ SLV $68.49 (-7.0%)\n▲ DEXE $12.81 (+5.9%)\n▼ TKMS $84.80 (-5.4%)\n▲ PENGU $0.008005 (+5.1%)\n▼ RTX $187 (-4.7%)\n▲ M $4.41 (+4.5%)\n▼ ITA $223 (-3.8%)\n▼ GLD $430 (-3.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 301
+  "telegramText": "<b>SIGNAL SCAN</b> — April 22, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with crypto-led risk appetite amid overheating signals. Bitcoin surged past $77K on institutional flows while traditional assets diverge — gold dumping despite Iran tensions. Macro regime shows overheating but cross-asset dislocations suggest transitional dynamics.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expanding but financial conditions tightening\nKey prices: SPY -0.9% | QQQ -0.7% | VIX -1.6% | TLT -0.6% | DXY -0.1% | OIL -1.5%\nICSA: 207K (trending up, low stress)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Crypto Institutional Breakout\nBTC: $82-86K (+5-10%)\nETH: $2,600-2,750 (+9-15%)\nSPY: $710-730 (+1-4%)\n\n<b>SCENARIO B</b> — Geopolitical Risk Premium\nOIL: $95-105 (+5-16%)\nGLD: $4,850-5,100 (+4-9%)\nDXY: 100-102 (+2-4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $670-690 (-5-2%)\nTLT: $90-94 (+4-9%)\nVIX: $25-30 (+30-56%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — strong\n2. Industrials (XLI -1.2%) — weak\n3. Consumer Disc (XLY -1.2%) — rotating\n4. Real Estate (XLRE -1.6%) — dump\n5. Defense (ITA -3.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV -7.0% — US-Iran tensions paradoxically pressuring precious metals as crypto absorbs safe haven flows\nRTX -4.7% — defense sector rotation despite geopolitical tensions\nITA -3.8% — Capital One loan loss provisions signal broader credit stress hitting defense ETF\nPEPE +3.7% — ETH bullish triangle formation driving meme coin speculation \nONDO +3.5% — RWA narrative accelerating on SEC Reg Crypto framework anticipation\n<i>Traditional safe havens failing while crypto captures institutional flows, suggesting paradigm shift in risk asset hierarchy.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $17.7M long vs $28.8M short, +$5M PnL with 13-day ETF inflow streak at +$531M daily. ETH more balanced at $24.7M/$23.7M but +$976K PnL. HYPE seeing $23M short interest with -$278K losses.\nInstitutional crypto adoption accelerating while traditional hedges underperform.\n\n<b>IMPLICATION</b>\nTactical opportunity in crypto beta vs traditional defensives as institutional adoption creates structural bid. Monitor credit stress signals from financials while geopolitical premium fades from traditional safe havens.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 302
 }
