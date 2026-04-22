@@ -1,53 +1,61 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-04-22",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — Apr 22, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 0/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC IGNITION on daily.\n100 whale moves detected.",
+  "headlineColor": "#34D399",
+  "desc": "BTC 1d:IGNITION 4h:IGNITION · ETH 1d:IGNITION 4h:IGNITION · SOL 1d:IGNITION 4h:IGNITION",
   "tags": [
     {
-      "t": "LOW",
+      "t": "IGNITION",
       "c": "green"
     },
     {
-      "t": "OVERHEATING",
+      "t": "WHALE ALERT",
       "c": "blue"
+    },
+    {
+      "t": "RAVE 225% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 0
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "SLV",
-          "v": "-7.0%",
-          "c": "red"
+          "k": "BTC 1D",
+          "v": "IGNITION",
+          "c": "green"
         },
         {
-          "k": "TKMS",
-          "v": "-5.4%",
-          "c": "red"
+          "k": "ETH 1D",
+          "v": "IGNITION",
+          "c": "green"
         },
         {
-          "k": "RTX",
-          "v": "-4.7%",
-          "c": "red"
+          "k": "SOL 1D",
+          "v": "IGNITION",
+          "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$200M USDC",
+          "v": "transferred from USD",
+          "c": "blue"
         },
         {
-          "k": "ITA",
-          "v": "-3.8%",
-          "c": "red"
+          "k": "$200M USDC",
+          "v": "minted at USDC Treas",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — April 22, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with crypto-led risk appetite amid overheating signals. Bitcoin surged past $77K on institutional flows while traditional assets diverge — gold dumping despite Iran tensions. Macro regime shows overheating but cross-asset dislocations suggest transitional dynamics.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expanding but financial conditions tightening\nKey prices: SPY -0.9% | QQQ -0.7% | VIX -1.6% | TLT -0.6% | DXY -0.1% | OIL -1.5%\nICSA: 207K (trending up, low stress)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Crypto Institutional Breakout\nBTC: $82-86K (+5-10%)\nETH: $2,600-2,750 (+9-15%)\nSPY: $710-730 (+1-4%)\n\n<b>SCENARIO B</b> — Geopolitical Risk Premium\nOIL: $95-105 (+5-16%)\nGLD: $4,850-5,100 (+4-9%)\nDXY: 100-102 (+2-4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $670-690 (-5-2%)\nTLT: $90-94 (+4-9%)\nVIX: $25-30 (+30-56%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — strong\n2. Industrials (XLI -1.2%) — weak\n3. Consumer Disc (XLY -1.2%) — rotating\n4. Real Estate (XLRE -1.6%) — dump\n5. Defense (ITA -3.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV -7.0% — US-Iran tensions paradoxically pressuring precious metals as crypto absorbs safe haven flows\nRTX -4.7% — defense sector rotation despite geopolitical tensions\nITA -3.8% — Capital One loan loss provisions signal broader credit stress hitting defense ETF\nPEPE +3.7% — ETH bullish triangle formation driving meme coin speculation \nONDO +3.5% — RWA narrative accelerating on SEC Reg Crypto framework anticipation\n<i>Traditional safe havens failing while crypto captures institutional flows, suggesting paradigm shift in risk asset hierarchy.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $17.7M long vs $28.8M short, +$5M PnL with 13-day ETF inflow streak at +$531M daily. ETH more balanced at $24.7M/$23.7M but +$976K PnL. HYPE seeing $23M short interest with -$278K losses.\nInstitutional crypto adoption accelerating while traditional hedges underperform.\n\n<b>IMPLICATION</b>\nTactical opportunity in crypto beta vs traditional defensives as institutional adoption creates structural bid. Monitor credit stress signals from financials while geopolitical premium fades from traditional safe havens.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 302
+  "telegramText": "<b>MARKET PULSE</b> — Apr 22, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,992</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,400</b> — 1d: IGNITION | 4h: IGNITION\n• SOL: <b>$88.53</b> — 1d: IGNITION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 200,000,000 USDC ($199,925,300)\n  <i>transferred from USDC Treasury to #Coinbase</i>\n• 200,000,000 USDC ($199,927,500)\n  <i>minted at USDC Treasury</i>\n• 635 BTC ($50,080,084)\n  <i>transferred from unknown wallet to #Robinhood</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 265% net APR (0.0256% rate)\n  Long Bybit / Short Binance | OI: $17.4M | Spread: -0.17%\n• <b>CHIP</b>: 71% net APR (0.0956% rate)\n  Long Bybit / Short Bitget | OI: $12.7M | Spread: 0.32%\n• <b>M</b>: 105% net APR (0.0912% rate)\n  Long Bitget / Short Bybit | OI: $18.3M | Spread: 0.20%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $207,110,269 | Longs: 13% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Bitcoin institutional adoption accelerates [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 303
 }
