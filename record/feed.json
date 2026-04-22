@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-22-evening",
+      "url": "https://agentcanary.ai/record/2026/04/22#evening",
+      "title": "Evening Wrap — Apr 22, 2026",
+      "content_text": "Markets reflected growing institutional acceptance of crypto as a legitimate asset class, with Bitco… OVERHEATING. 15 news items. 5 scenario shifts.",
+      "summary": "Markets reflected growing institutional acceptance of crypto as a legitimate asset class, with Bitco…",
+      "date_published": "2026-04-22T21:15:05.470Z",
+      "tags": [
+        "bullish-skew",
+        "us-ism-manufacturing-purchasin"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-22-midday",
       "url": "https://agentcanary.ai/record/2026/04/22#midday",
       "title": "Market Pulse — Apr 22, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-10-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/10#intelligence",
-      "title": "Signal Scan — Apr 10, 2026",
-      "content_text": "SIGNAL SCAN — Apr 10, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 10, 2026",
-      "date_published": "2026-04-10T09:15:22.665Z",
-      "tags": [
-        "low",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
