@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-23-evening",
+      "url": "https://agentcanary.ai/record/2026/04/23#evening",
+      "title": "Evening Wrap — Apr 23, 2026",
+      "content_text": "Markets displayed classic late-cycle dynamics as crypto's institutional wave pushed BTC near $78K wh… OVERHEATING. 16 news items. 5 scenario shifts.",
+      "summary": "Markets displayed classic late-cycle dynamics as crypto's institutional wave pushed BTC near $78K wh…",
+      "date_published": "2026-04-23T21:15:05.021Z",
+      "tags": [
+        "bearish-skew",
+        "us-ism-manufacturing-purchasin"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-23-midday",
       "url": "https://agentcanary.ai/record/2026/04/23#midday",
       "title": "Market Pulse — Apr 23, 2026",
@@ -748,21 +763,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-11-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/11#intelligence",
-      "title": "Signal Scan — Apr 11, 2026",
-      "content_text": "SIGNAL SCAN — Apr 11, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 11, 2026",
-      "date_published": "2026-04-11T09:15:25.985Z",
-      "tags": [
-        "low",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
