@@ -1,5 +1,62 @@
 [
   {
+    "session": "midday",
+    "date": "2026-04-23",
+    "time": "15:15 UTC",
+    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:DISTRIBUTION 4h:RISK_OFF",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "RAVE 294% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$250M USDC",
+            "v": "minted at USDC Treas",
+            "c": "blue"
+          },
+          {
+            "k": "$61M BTC",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — Apr 23, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,091</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,329</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$85.91</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($249,923,375)\n  <i>minted at USDC Treasury</i>\n• 780 BTC ($60,504,141)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 350,000,000 USDT ($350,261,876)\n  <i>minted at Tether Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 75% net APR (0.0336% rate)\n  Long Bitget / Short Bybit | OI: $15.3M | Spread: 0.54%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $75,459,061 | Longs: 45% | L/S: 0.8:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Crypto Market Stabilization [BTC, ETH, crypto sector]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 307
+  },
+  {
     "session": "intelligence",
     "date": "2026-04-23",
     "time": "09:15 UTC",
@@ -1423,43 +1480,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — April 16, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum with tech leading (+3.2% QQQ) as geopolitical premium fades. Silver explodes +5.2% while oil dumps -2.3%, signaling commodities rotation. Australia's stagflation warning (5.9% inflation expectations, weak jobs) creates cross-asset dislocation.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity surge (+3.7) offsetting financial conditions drag\nKey prices: SPY +2.0% | QQQ +3.2% | VIX -0.6% | TLT +0.1% | DXY +0.1% | OIL -2.3%\nICSA: 219K (flat trend, Z-score +0.86)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Momentum Breakout\nSPY: $720-$735 (+3-5%)\nQQQ: $660-$675 (+4-6%)\n\n<b>SCENARIO B</b> — Stagflation Repricing\nTLT: $84-$86 (-1 to -3%)\nGLD: $455-$465 (+3-6%)\n\n<b>SCENARIO C</b> — Commodity Rotation Continues\nOIL: $85-$87 (-2 to -5%)\nSLV: $75-$78 (+5-8%)\n\n<b>SECTOR STRENGTH</b>\n1. URANIUM (URA +5.1%) — strong\n2. CONSUMER DISC (XLY +3.7%) — rotating\n3. BIOTECH (XBI +3.3%) — bid\n4. TECHNOLOGY (XLK +3.2%) — strong\n5. ENERGY (XLE -2.4%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $71.84 (+5.2%) — ETF flows amid broad precious metals rotation\nWPP $263 (+4.6%) — FTC settlement on ad boycott probe removes regulatory overhang\nQQQ $637.4 (+3.2%) — tech momentum as crypto-commodity divergence widens\nPEPE +4.0% — meme rotation continues in crypto rally\nXBI $136.45 (+3.3%) — biotech bounce on risk-on flows\nMORPHO $1.88 (+1.6%) — DeFi yield farming attracting leverage (6.5% borrow rates)\n\n<i>Cross-asset divergence accelerating as precious metals absorb stagflation hedging while energy reprices geopolitical fade.</i>\n\n<b>POSITIONING</b>\nBTC whales: $531M ETF inflows (13-day streak), major accumulation above $70K\nDerivatives: BTC $15.5M long vs $46.2M short whale exposure, ETH $33.2M long bias\nAustralia positioning vulnerable to stagflation repricing\n\n<b>IMPLICATION</b>\nTactical long precious metals vs energy as commodity rotation intensifies. Monitor Australian data for global stagflation contagion risk — current overheating regime fragile if labor weakness spreads while inflation expectations anchor higher.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 278
-  },
-  {
-    "session": "morning",
-    "date": "2026-04-16",
-    "time": "03:15 UTC",
-    "headline": "▲ Risk-On · Neutral · Gauge —/100",
-    "headlineColor": "#34D399",
-    "desc": "OVERHEATING. F&G: —. NORMAL.",
-    "tags": [
-      {
-        "t": "Risk-On · Neutral",
-        "c": "green"
-      },
-      {
-        "t": "GAUGE —",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 50
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "1/6 NORMAL",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — Apr 16, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$74,957</b>\n• ETH: <b>$2,359</b>\n• SOL: <b>$85.2</b>\n• GOLD: <b>$4,796</b>\nSPY: <b>$699.94</b> (+2.0%)\nQQQ: <b>$637.4</b> (+3.2%)\nVIX: <b>18.2</b> (-1.0%)\nTLT: <b>$86.83</b> (+0.1%)\nDXY: <b>97.9</b> (-0.3%)\nOIL: <b>$91.36</b> (+0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.18T</b> (YoY -2.97%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -28bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTI Crude Oil: +2.24σ\n▲ WTREGEN: -2.16σ\n▼ Fed Balance Sheet: +2.01σ\n▲ HY Credit Spread: -1.88σ\n▼ Silver: +1.81σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.0%\n\n<b>TOP MOVERS</b>\n▼ JST $0.06047 (-11.2%)\n▲ SLV $71.84 (+5.2%)\n▲ WPP $263 (+4.6%)\n▼ DEXE $11.51 (-4.3%)\n▲ PEPE $0.000003870 (+4.0%)\n▲ XLY $118 (+3.7%)\n▲ XBI $136 (+3.3%)\n▲ QQQ $637 (+3.2%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n▼ Oil: $114 (&gt;$110)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 277
   }
 ]

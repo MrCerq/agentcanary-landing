@@ -1,5 +1,62 @@
 [
   {
+    "session": "midday",
+    "date": "2026-04-23",
+    "time": "15:15 UTC",
+    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:DISTRIBUTION 4h:RISK_OFF",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "RAVE 294% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$250M USDC",
+            "v": "minted at USDC Treas",
+            "c": "blue"
+          },
+          {
+            "k": "$61M BTC",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 307,
+    "telegramText": "<b>MARKET PULSE</b> — Apr 23, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,091</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,329</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$85.91</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($249,923,375)\n  <i>minted at USDC Treasury</i>\n• 780 BTC ($60,504,141)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 350,000,000 USDT ($350,261,876)\n  <i>minted at Tether Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 75% net APR (0.0336% rate)\n  Long Bitget / Short Bybit | OI: $15.3M | Spread: 0.54%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $75,459,061 | Longs: 45% | L/S: 0.8:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Crypto Market Stabilization [BTC, ETH, crypto sector]\n\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "intelligence",
     "date": "2026-04-23",
     "time": "09:15 UTC",
