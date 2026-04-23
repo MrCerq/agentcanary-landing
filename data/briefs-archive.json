@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-23",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 23, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 0/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 0
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "RTX",
+            "v": "-7.6%",
+            "c": "red"
+          },
+          {
+            "k": "TKMS",
+            "v": "-6.9%",
+            "c": "red"
+          },
+          {
+            "k": "ITA",
+            "v": "-5.5%",
+            "c": "red"
+          },
+          {
+            "k": "BRENT",
+            "v": "+4.8%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 306,
+    "telegramText": "<b>SIGNAL SCAN</b> — April 23, 2026\n\n<b>SNAPSHOT</b>\nRisk-on regime with tech/energy leading amid geopolitical tensions. Markets pricing overheating dynamics as liquidity expands despite rising VIX. Cross-asset divergence emerging as defensive sectors get dumped while commodities surge on supply concerns.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion driving risk assets despite geopolitical backdrop\nSPY +0.35% | QQQ +1.29% | VIX +4.12% | TLT -0.36% | DXY +0.10% | OIL +2.62%\nICSA: 207K (trending up, -0.43 sigma)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Energy Crisis Escalation\nSPY: $640-675 (-10% to -5%)\nOIL: $110-125 (+15% to +31%)\nVIX: $28-35 (+42% to +78%)\n\n<b>SCENARIO B</b> — Tech Momentum Continuation  \nQQQ: $705-735 (+8% to +12%)\nSPY: $740-770 (+4% to +8%)\nVIX: $14-17 (-29% to -14%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $620-660 (-13% to -7%)\nTLT: $92-96 (+6% to +11%)\nDXY: $103-107 (+4% to +8%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +3.0%) — bid\n2. Semiconductors (SMH +2.77%) — strong  \n3. Energy (XLE +2.67%) — strong\n4. Technology (XLK +2.28%) — rotating\n5. Defense (ITA -5.48%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nRTX $180.91 (-7.6%) — Q1 beat overshadowed by commercial aerospace headwinds, BofA downgrade\nBRENT $103.19 (+4.8%) — Middle East tensions as Greek cargo ship attacked near Hormuz Strait\nVIX $19.7 (+4.1%) — geopolitical premium despite risk-on flows\nUNI $3.27 (-2.7%) — United Airlines hiking ticket prices 15-20% on fuel costs pressuring travel tokens\nXMR $362.35 (-3.7%) — privacy coin rotation amid regulatory uncertainty\n<i>Energy supply shock fears driving commodity surge while defense selloff suggests market pricing tactical rather than strategic conflict escalation.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531.0M inflow (13-day streak) — institutional accumulation accelerating\nWhale activity: BTC shorts $47.7M vs zero longs, ETH mixed $9.3M long/$12.3M short\nContrarian signal: Tokyo property decline may indicate healthy correction vs economic warning\n\n<b>IMPLICATION</b>\nEnergy supply premium creating tactical long opportunity in XLE vs defensive sectors, while sustained crypto inflows suggest institutional portfolio allocation continuing. Consider oil/defense spread as market prices geopolitical risk selectively.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-04-23",
     "time": "03:15 UTC",
