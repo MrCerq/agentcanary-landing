@@ -1,53 +1,53 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-04-24",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — Apr 24, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 8.9/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:DISTRIBUTION 4h:BULL_REGIME · ETH 1d:BEAR_REGIME 4h:ACCUMULATION · SOL 1d:RISK_OFF 4h:DISTRIBUTION",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
-    },
-    {
-      "t": "OVERHEATING",
+      "t": "WHALE ALERT",
       "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 9
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "MOH",
-          "v": "+15.7%",
-          "c": "green"
-        },
-        {
-          "k": "SOXX",
-          "v": "+4.8%",
-          "c": "green"
-        },
-        {
-          "k": "RTX",
-          "v": "-4.2%",
+          "k": "BTC 1D",
+          "v": "DISTRIBUTION",
           "c": "red"
         },
         {
-          "k": "BRENT",
-          "v": "+3.9%",
-          "c": "green"
+          "k": "ETH 1D",
+          "v": "BEAR_REGIME",
+          "c": "red"
+        },
+        {
+          "k": "SOL 1D",
+          "v": "RISK_OFF",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$81M BTC",
+          "v": "transferred from unk",
+          "c": "blue"
+        },
+        {
+          "k": "$150M USDT",
+          "v": "transferred from Tet",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — April 24, 2026\n\n<b>SNAPSHOT</b>\nCross-asset tension as BTC rallies to $80K on massive institutional flows while Iran conflict drives energy inflation shock. Risk-on crypto vs risk-off commodities creating regime uncertainty. Tech leading equity rally despite geopolitical premium widening.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 8.9/100 (Calm)\nRegime: OVERHEATING — financial conditions loosening despite inflation expectations rising\nSPY +0.6% | QQQ +1.1% | VIX -0.6% | TLT flat | DXY flat | OIL +1.4%\nICSA: 214K (trend UP, +0.34 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Escalation \nSPY: $665-$690 (-3% to -8%)\nBTC: $70K-$75K (-6% to -10%)\nOIL: $105-$115 (+8% to +18%)\n\n<b>SCENARIO B</b> — Crypto Momentum Extension\nBTC: $82K-$87K (+6% to +12%)\nETH: $2,450-$2,650 (+6% to +15%)\nQQQ: $670-$685 (+3% to +5%)\n\n<b>SCENARIO C</b> — Stagflation Redux\nTLT: $82-$85 (-5% to -8%)\nGLD: $460-$485 (+7% to +13%)\nSPY: $695-$705 (-2% to flat)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.1%) — squeeze\n2. Semiconductors (SMH +3.7%) — strong  \n3. Utilities (XLU +2.5%) — bid\n4. Energy (XLE +2.0%) — rotating\n5. Defense (ITA -1.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH $174.7 (+15.7%) — Q1 earnings beat with strong revenue and EPS growth\nSOXX $441 (+4.8%) — chip/software convergence rally as sector leadership broadens\nBRENT $105.87 (+3.9%) — Iran conflict escalation as peace talks stall\nWTI $96.49 (+3.8%) — gasoline hits war-high levels, broader consumer impact\n<i>Energy repricing geopolitical risk while tech absorbs institutional crypto spillover effects.</i>\n\n<b>POSITIONING</b>\nBTC whales: $31.1M long vs $23.9M short, net PnL -$289K suggests recent entries\nETH whales: $43.7M long vs $13.3M short, +$4.2M PnL on momentum\nBTC ETF flows: +$531M inflow (13-day streak) — institutional FOMO accelerating\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if Iran tensions fade, but hedged exposure warranted given stagflation signals. Cross-asset divergence suggests regime transition — monitor real yields and DXY for directional clarity.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 310
+  "telegramText": "<b>MARKET PULSE</b> — Apr 24, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$77,753</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n• ETH: <b>$2,309</b> — 1d: BEAR_REGIME | 4h: ACCUMULATION\n• SOL: <b>$85.8</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 1,044 BTC ($81,425,762)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 150,000,000 USDT ($150,082,125)\n  <i>transferred from Tether Treasury to #Kraken</i>\n• 70,622,905.61 PYUSD ($70,618,811)\n  <i>burned at PAXOS Treasury</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $51,459,018 | Longs: 53% | L/S: 1.1:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Bitcoin Institutional Accumulation Wave [BTC, ETH, COIN]\n▼ Crypto Market Divergence [ADA, LTC, XRP]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 311
 }
