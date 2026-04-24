@@ -318,10 +318,10 @@
       "rangeMax": 765,
       "impliedMove": "+4-8%",
       "scoreDate": "2026-04-24",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 712.36,
+      "actualLow": 702.28,
+      "actualClose": 708.45
     },
     {
       "id": "2026-04-21-A-BTC",
@@ -335,10 +335,10 @@
       "rangeMax": 88000,
       "impliedMove": "+7-15%",
       "scoreDate": "2026-04-24",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 79468,
+      "actualLow": 74852.67,
+      "actualClose": 78054.02
     },
     {
       "id": "2026-04-21-A-OIL",
@@ -352,10 +352,10 @@
       "rangeMax": 80,
       "impliedMove": "-9-14%",
       "scoreDate": "2026-04-24",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 97.54,
+      "actualLow": 87.64,
+      "actualClose": 96.79
     },
     {
       "id": "2026-04-21-B-OIL",
@@ -369,10 +369,10 @@
       "rangeMax": 105,
       "impliedMove": "+9-20%",
       "scoreDate": "2026-04-24",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 97.54,
+      "actualLow": 87.64,
+      "actualClose": 96.79
     },
     {
       "id": "2026-04-21-B-VIX",
@@ -386,10 +386,10 @@
       "rangeMax": 35,
       "impliedMove": "+47-84%",
       "scoreDate": "2026-04-24",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 21.56,
+      "actualLow": 18.68,
+      "actualClose": 19.31
     },
     {
       "id": "2026-04-21-B-TLT",
@@ -403,10 +403,10 @@
       "rangeMax": 96,
       "impliedMove": "+6-10%",
       "scoreDate": "2026-04-24",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 87.16,
+      "actualLow": 86.24,
+      "actualClose": 86.55
     },
     {
       "id": "2026-04-20-A-BTC",
@@ -6903,5 +6903,5 @@
       "actualClose": 5146.1
     }
   ],
-  "lastScored": "2026-04-23T22:30:03.529Z"
+  "lastScored": "2026-04-24T01:30:03.404Z"
 }
