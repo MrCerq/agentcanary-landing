@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-24",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 24, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 8.9/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 9
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "MOH",
+            "v": "+15.7%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+4.8%",
+            "c": "green"
+          },
+          {
+            "k": "RTX",
+            "v": "-4.2%",
+            "c": "red"
+          },
+          {
+            "k": "BRENT",
+            "v": "+3.9%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — April 24, 2026\n\n<b>SNAPSHOT</b>\nCross-asset tension as BTC rallies to $80K on massive institutional flows while Iran conflict drives energy inflation shock. Risk-on crypto vs risk-off commodities creating regime uncertainty. Tech leading equity rally despite geopolitical premium widening.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 8.9/100 (Calm)\nRegime: OVERHEATING — financial conditions loosening despite inflation expectations rising\nSPY +0.6% | QQQ +1.1% | VIX -0.6% | TLT flat | DXY flat | OIL +1.4%\nICSA: 214K (trend UP, +0.34 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Escalation \nSPY: $665-$690 (-3% to -8%)\nBTC: $70K-$75K (-6% to -10%)\nOIL: $105-$115 (+8% to +18%)\n\n<b>SCENARIO B</b> — Crypto Momentum Extension\nBTC: $82K-$87K (+6% to +12%)\nETH: $2,450-$2,650 (+6% to +15%)\nQQQ: $670-$685 (+3% to +5%)\n\n<b>SCENARIO C</b> — Stagflation Redux\nTLT: $82-$85 (-5% to -8%)\nGLD: $460-$485 (+7% to +13%)\nSPY: $695-$705 (-2% to flat)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.1%) — squeeze\n2. Semiconductors (SMH +3.7%) — strong  \n3. Utilities (XLU +2.5%) — bid\n4. Energy (XLE +2.0%) — rotating\n5. Defense (ITA -1.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH $174.7 (+15.7%) — Q1 earnings beat with strong revenue and EPS growth\nSOXX $441 (+4.8%) — chip/software convergence rally as sector leadership broadens\nBRENT $105.87 (+3.9%) — Iran conflict escalation as peace talks stall\nWTI $96.49 (+3.8%) — gasoline hits war-high levels, broader consumer impact\n<i>Energy repricing geopolitical risk while tech absorbs institutional crypto spillover effects.</i>\n\n<b>POSITIONING</b>\nBTC whales: $31.1M long vs $23.9M short, net PnL -$289K suggests recent entries\nETH whales: $43.7M long vs $13.3M short, +$4.2M PnL on momentum\nBTC ETF flows: +$531M inflow (13-day streak) — institutional FOMO accelerating\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if Iran tensions fade, but hedged exposure warranted given stagflation signals. Cross-asset divergence suggests regime transition — monitor real yields and DXY for directional clarity.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 310
+  },
+  {
     "session": "morning",
     "date": "2026-04-24",
     "time": "03:15 UTC",
@@ -1408,53 +1461,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 17, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$74,701</b>\n• ETH: <b>$2,331</b>\n• SOL: <b>$87.86</b>\n• GOLD: <b>$4,795</b>\nSPY: <b>$701.66</b> (+1.0%)\nQQQ: <b>$640.47</b> (+1.9%)\nVIX: <b>17.9</b> (-1.3%)\nTLT: <b>$86.28</b> (-1.1%)\nDXY: <b>98.2</b> (+0.2%)\nOIL: <b>$89.74</b> (-1.7%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.19T</b> (YoY -2.9%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -28bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▲ HY Credit Spread: -1.88σ\n▲ WTREGEN: -1.81σ\n▲ IG Credit Spread: -1.80σ\n▼ 10Y Breakeven Inflation: +1.68σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +7.5%\n▼ SOL: -2.0%\n▼ ETH: -0.8%\n▼ BTC: -0.7%\n\n<b>TOP MOVERS</b>\n▲ JST $0.06686 (+3.9%)\n▼ ENA $0.1103 (-3.9%)\n▲ BRENT $98.21 (+3.5%)\n▼ RTX $196 (-3.4%)\n▲ WPP $268 (+3.4%)\n▲ TAO $252 (+3.1%)\n▲ XLK $152 (+2.8%)\n▼ ITA $229 (-2.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 281
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-16",
-    "time": "21:15 UTC",
-    "headline": "Markets displayed cautious euphoria as Bitcoin's institutional adoption drive pushed it toward $75K,…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 18 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US Unseasonally Adjusted Consu",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 50
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Unseasonally Adjusted Consumer Pric",
-            "v": "Apr 24",
-            "c": "blue"
-          },
-          {
-            "k": "US University of Michigan Consumer Con",
-            "v": "Apr 24",
-            "c": "blue"
-          },
-          {
-            "k": " National Consumer Price Index (YoY)",
-            "v": "Apr 23",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 16, 2026\n\n<i>Markets displayed cautious euphoria as Bitcoin's institutional adoption drive pushed it toward $75K, while rising geopolitical tensions and mixed Chinese data signals created a complex backdrop. The risk-on sentiment persisted despite late-cycle concerns, with traditional safe havens like gold holding elevated levels as investors balanced growth optimism against mounting macro uncertainties.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$75,239</b> · ETH: <b>$2,350</b> · SOL: <b>$89.62</b> · GOLD: <b>$4,795</b> · SPY: <b>$701.66</b> (+1.0%) · QQQ: <b>$640.47</b> (+1.9%) · VIX: <b>$17.94</b> (-1.3%) · TLT: <b>$86.28</b> (-1.1%) · DXY: <b>$98.23</b> (+0.2%) · OIL: <b>$89.65</b> (-1.8%)\n\n<b>EVENING NEWS</b>\n▲ Altcoins Surge as Bitcoin Drifts Near $75,000\n▲ Morgan Stanley, Goldman Sachs push Bitcoin ETF products amid SEC changes\n▼ China: Growth beat overshadowed by weak demand – TD Securities\n▼ Russian Crypto Exchange Grinex Halts Trading, Alleging $13M Exploit by 'Western Special Se\n▼ New York City’s super-rich cry foul over proposed tax on second homes \n▲ Citi Says Mixing Bitcoin With Gold Can Boost Your Portfolio Performance \n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Bitcoin institutional adoption and mixed but positive growth data\n▲ Goldilocks: Falling energy prices reducing inflation pressures\n▲ Stagflation: Geopolitical tensions creating supply-side risks\n▲ Hegemony: Iran tensions and crypto warfare allegations\n▲ Displacement: Accelerating Bitcoin institutional adoption\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS University of Michigan Consumer Confidence Index (Final)(Apr) — Apr 24, 02:00 PM UTC (prev: 53.3)\n National Consumer Price Index (YoY)(Mar) — Apr 23, 11:30 PM UTC (prev: 1.3%)\nUS Durable goods orders (MoM)(Mar) — Apr 23, 02:00 PM UTC (prev: -1.4%)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 23, 02:00 PM UTC (prev: -1.4%)\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(Apr) — Apr 23, 08:00 AM UTC (prev: 51.6)\n\n<b>CONTRARIAN</b>\n• Bitcoin's institutional embrace at $75K may be arriving at a local top rather than the beginning of \n• Geopolitical risk premiums might be overstated as markets have become desensitized to Middle East te\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 280
   }
 ]

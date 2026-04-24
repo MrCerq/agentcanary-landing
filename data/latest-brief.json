@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-24",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge 8.9/100",
-  "headlineColor": "#34D399",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 24, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 8.9/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE 8.9",
-      "c": "green"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
+          "k": "MOH",
+          "v": "+15.7%",
+          "c": "green"
+        },
+        {
+          "k": "SOXX",
+          "v": "+4.8%",
+          "c": "green"
+        },
+        {
+          "k": "RTX",
+          "v": "-4.2%",
+          "c": "red"
+        },
+        {
+          "k": "BRENT",
+          "v": "+3.9%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 24, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 8.9/100\n\n• BTC: <b>$78,154</b>\n• ETH: <b>$2,320</b>\n• SOL: <b>$85.92</b>\n• GOLD: <b>$4,699</b>\nSPY: <b>$708.45</b> (+0.6%)\nQQQ: <b>$651.42</b> (+1.1%)\nVIX: <b>19.3</b> (+2.1%)\nTLT: <b>$86.55</b> (-0.0%)\nDXY: <b>98.9</b> (+0.3%)\nOIL: <b>$96.61</b> (+3.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.07%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -1bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTREGEN: +2.29σ\n▼ 10Y Breakeven Inflation: +2.08σ\n▼ Fed Balance Sheet: +1.73σ\n▲ DTWEXBGS: -1.68σ\n— CPI: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.3%\n\n<b>TOP MOVERS</b>\n▲ MOH $175 (+15.7%)\n▲ M $4.69 (+9.8%)\n▼ RSETH $2,077 (-4.9%)\n▲ SOXX $441 (+4.8%)\n▼ RTX $179 (-4.2%)\n▲ OIL $96.61 (+3.9%) — Japan’s Inflation Picks Up as Oil Clouds Outlook Ahead of BO\n▲ BRENT $106 (+3.9%)\n▲ PENGU $0.008699 (+3.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 309
+  "telegramText": "<b>SIGNAL SCAN</b> — April 24, 2026\n\n<b>SNAPSHOT</b>\nCross-asset tension as BTC rallies to $80K on massive institutional flows while Iran conflict drives energy inflation shock. Risk-on crypto vs risk-off commodities creating regime uncertainty. Tech leading equity rally despite geopolitical premium widening.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 8.9/100 (Calm)\nRegime: OVERHEATING — financial conditions loosening despite inflation expectations rising\nSPY +0.6% | QQQ +1.1% | VIX -0.6% | TLT flat | DXY flat | OIL +1.4%\nICSA: 214K (trend UP, +0.34 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Escalation \nSPY: $665-$690 (-3% to -8%)\nBTC: $70K-$75K (-6% to -10%)\nOIL: $105-$115 (+8% to +18%)\n\n<b>SCENARIO B</b> — Crypto Momentum Extension\nBTC: $82K-$87K (+6% to +12%)\nETH: $2,450-$2,650 (+6% to +15%)\nQQQ: $670-$685 (+3% to +5%)\n\n<b>SCENARIO C</b> — Stagflation Redux\nTLT: $82-$85 (-5% to -8%)\nGLD: $460-$485 (+7% to +13%)\nSPY: $695-$705 (-2% to flat)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.1%) — squeeze\n2. Semiconductors (SMH +3.7%) — strong  \n3. Utilities (XLU +2.5%) — bid\n4. Energy (XLE +2.0%) — rotating\n5. Defense (ITA -1.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH $174.7 (+15.7%) — Q1 earnings beat with strong revenue and EPS growth\nSOXX $441 (+4.8%) — chip/software convergence rally as sector leadership broadens\nBRENT $105.87 (+3.9%) — Iran conflict escalation as peace talks stall\nWTI $96.49 (+3.8%) — gasoline hits war-high levels, broader consumer impact\n<i>Energy repricing geopolitical risk while tech absorbs institutional crypto spillover effects.</i>\n\n<b>POSITIONING</b>\nBTC whales: $31.1M long vs $23.9M short, net PnL -$289K suggests recent entries\nETH whales: $43.7M long vs $13.3M short, +$4.2M PnL on momentum\nBTC ETF flows: +$531M inflow (13-day streak) — institutional FOMO accelerating\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if Iran tensions fade, but hedged exposure warranted given stagflation signals. Cross-asset divergence suggests regime transition — monitor real yields and DXY for directional clarity.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 310
 }

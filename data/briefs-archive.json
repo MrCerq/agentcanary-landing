@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-24",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 24, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 8.9/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 9
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "MOH",
+            "v": "+15.7%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+4.8%",
+            "c": "green"
+          },
+          {
+            "k": "RTX",
+            "v": "-4.2%",
+            "c": "red"
+          },
+          {
+            "k": "BRENT",
+            "v": "+3.9%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 310,
+    "telegramText": "<b>SIGNAL SCAN</b> — April 24, 2026\n\n<b>SNAPSHOT</b>\nCross-asset tension as BTC rallies to $80K on massive institutional flows while Iran conflict drives energy inflation shock. Risk-on crypto vs risk-off commodities creating regime uncertainty. Tech leading equity rally despite geopolitical premium widening.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 8.9/100 (Calm)\nRegime: OVERHEATING — financial conditions loosening despite inflation expectations rising\nSPY +0.6% | QQQ +1.1% | VIX -0.6% | TLT flat | DXY flat | OIL +1.4%\nICSA: 214K (trend UP, +0.34 z-score)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Escalation \nSPY: $665-$690 (-3% to -8%)\nBTC: $70K-$75K (-6% to -10%)\nOIL: $105-$115 (+8% to +18%)\n\n<b>SCENARIO B</b> — Crypto Momentum Extension\nBTC: $82K-$87K (+6% to +12%)\nETH: $2,450-$2,650 (+6% to +15%)\nQQQ: $670-$685 (+3% to +5%)\n\n<b>SCENARIO C</b> — Stagflation Redux\nTLT: $82-$85 (-5% to -8%)\nGLD: $460-$485 (+7% to +13%)\nSPY: $695-$705 (-2% to flat)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.1%) — squeeze\n2. Semiconductors (SMH +3.7%) — strong  \n3. Utilities (XLU +2.5%) — bid\n4. Energy (XLE +2.0%) — rotating\n5. Defense (ITA -1.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH $174.7 (+15.7%) — Q1 earnings beat with strong revenue and EPS growth\nSOXX $441 (+4.8%) — chip/software convergence rally as sector leadership broadens\nBRENT $105.87 (+3.9%) — Iran conflict escalation as peace talks stall\nWTI $96.49 (+3.8%) — gasoline hits war-high levels, broader consumer impact\n<i>Energy repricing geopolitical risk while tech absorbs institutional crypto spillover effects.</i>\n\n<b>POSITIONING</b>\nBTC whales: $31.1M long vs $23.9M short, net PnL -$289K suggests recent entries\nETH whales: $43.7M long vs $13.3M short, +$4.2M PnL on momentum\nBTC ETF flows: +$531M inflow (13-day streak) — institutional FOMO accelerating\n\n<b>IMPLICATION</b>\nTactical long crypto/short energy spread if Iran tensions fade, but hedged exposure warranted given stagflation signals. Cross-asset divergence suggests regime transition — monitor real yields and DXY for directional clarity.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-04-24",
     "time": "03:15 UTC",
