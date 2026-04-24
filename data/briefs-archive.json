@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-24",
+    "time": "21:15 UTC",
+    "headline": "Markets shrugged off Middle East naval escalation and energy disruptions, with US equities hitting f…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 17 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US Durable goods orders (MoM) ",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 9
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Durable goods orders (MoM) (Revised",
+            "v": "May 4",
+            "c": "blue"
+          },
+          {
+            "k": "EU Markit Manufacturing Purchasing Man",
+            "v": "May 4",
+            "c": "blue"
+          },
+          {
+            "k": "US ISM Manufacturing Purchasing Manage",
+            "v": "May 1",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 312,
+    "telegramText": "<b>MARKET WRAP</b> — Apr 24, 2026\n\n<i>Markets shrugged off Middle East naval escalation and energy disruptions, with US equities hitting fresh highs as investors bet on American resilience over global fragility. The risk-on rally extended to crypto amid exchange outflows, while rising oil and muted bonds signal late-cycle dynamics taking hold.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$77,747</b> · ETH: <b>$2,327</b> · SOL: <b>$86.86</b> · GOLD: <b>$4,715</b> · SPY: <b>$713.94</b> (+0.4%) · QQQ: <b>$663.88</b> (+1.3%) · VIX: <b>$18.71</b> (-3.1%) · TLT: <b>$86.71</b> (-0.0%) · DXY: <b>$98.51</b> (-0.3%) · OIL: <b>$94.88</b> (-1.0%)\n\n<b>EVENING NEWS</b>\n▲ US expands naval blockade on Iran, reducing odds of near-term lifting\n▲ US stocks race ahead of Europe as Wall Street shrugs off energy shock\n▲ PHP: BSP tightening supports Peso but risks linger – OCBC\n▼ Israeli media alleges IDF looting in Lebanon, complicates ceasefire talks\n▼ Iran stalls on US talks, peace deal odds plummet\n▼ US-Iran talks to resume in Pakistan without VP Vance this weekend\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: US market strength and crypto accumulation suggest continued risk appetite\n▼ Goldilocks: Geopolitical tensions and energy disruptions threaten balanced growth\n▲ Stagflation: Iran blockade raises energy prices while EM tightening signals inflation pressure\n▲ Hegemony: US outperformance and naval blockade demonstrate economic and military dominance\n▲ Displacement: Bitcoin institutional adoption continues despite traditional market stress\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 8.9/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Durable goods orders (MoM) (Revised) (Mar) — May 4, 02:00 PM UTC\nEU Markit Manufacturing Purchasing Managers Index (Final)(Apr) — May 4, 08:00 AM UTC (prev: 52.2)\nUS ISM Manufacturing Purchasing Managers Index(Apr) — May 1, 02:00 PM UTC (prev: 52.7)\n Producer Price Index (YoY)(Q1) — May 1, 01:30 AM UTC (prev: 3.5%)\nUS API crude oil inventory transmutation last week (10,000 barrels)(to 0424) — Apr 30, 10:00 PM UTC (prev: -447)\nUS Personal consumption expenditure price index (AQR)(Preliminary)(Q1) — Apr 30, 12:30 PM UTC (prev: 2.9%)\n\n<b>CONTRARIAN</b>\n• Market resilience to Middle East tensions may be overconfident - energy supply disruptions could cas\n• Bitcoin exchange outflows might signal retail capitulation rather than institutional accumulation, a\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-04-24",
     "time": "15:15 UTC",
