@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-04-24",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge 8.9/100",
+    "headlineColor": "#34D399",
+    "desc": "OVERHEATING. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 8.9",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 9
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 309,
+    "telegramText": "<b>MACRO RADAR</b> — Apr 24, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 8.9/100\n\n• BTC: <b>$78,154</b>\n• ETH: <b>$2,320</b>\n• SOL: <b>$85.92</b>\n• GOLD: <b>$4,699</b>\nSPY: <b>$708.45</b> (+0.6%)\nQQQ: <b>$651.42</b> (+1.1%)\nVIX: <b>19.3</b> (+2.1%)\nTLT: <b>$86.55</b> (-0.0%)\nDXY: <b>98.9</b> (+0.3%)\nOIL: <b>$96.61</b> (+3.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.07%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -1bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTREGEN: +2.29σ\n▼ 10Y Breakeven Inflation: +2.08σ\n▼ Fed Balance Sheet: +1.73σ\n▲ DTWEXBGS: -1.68σ\n— CPI: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.3%\n\n<b>TOP MOVERS</b>\n▲ MOH $175 (+15.7%)\n▲ M $4.69 (+9.8%)\n▼ RSETH $2,077 (-4.9%)\n▲ SOXX $441 (+4.8%)\n▼ RTX $179 (-4.2%)\n▲ OIL $96.61 (+3.9%) — Japan’s Inflation Picks Up as Oil Clouds Outlook Ahead of BO\n▲ BRENT $106 (+3.9%)\n▲ PENGU $0.008699 (+3.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-04-23",
     "time": "21:15 UTC",
