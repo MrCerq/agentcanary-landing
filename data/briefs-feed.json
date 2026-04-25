@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-25",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 25, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 8.9/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 9
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "MOH",
+            "v": "+15.0%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+6.9%",
+            "c": "green"
+          },
+          {
+            "k": "SMH",
+            "v": "+6.2%",
+            "c": "green"
+          },
+          {
+            "k": "BRENT",
+            "v": "-5.0%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — April 25, 2026\n\n<b>SNAPSHOT</b>\nRisk-on regime with selective rotation into semis and utilities while energy deflates. Tech earnings momentum driving growth leadership despite Middle East tensions. Cross-asset divergence as crypto rallies +23% while oil dumps -5% on Iran blockade effectiveness.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 8.9/100 (Calm)\nRegime: OVERHEATING — financial conditions easing as inflation expectations rise with weakening dollar\nKey prices: SPY +0.4% | QQQ +1.3% | VIX -3.1% | TLT -0.03% | DXY -0.3% | OIL -1.5%\nICSA: 214K (+0.34 z-score, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Tech Earnings Extend\nSPY: $730-750 (+2-5%)\nQQQ: $680-710 (+2-7%)\nVIX: $15-17 (-15-20%)\n\n<b>SCENARIO B</b> — Energy Inflation Shock\nOIL: $105-115 (+11-22%)\nTLT: $82-85 (-5-6%)\nDXY: $101-104 (+3-5%)\n\n<b>SCENARIO C</b> — Iran Peace Premium\nBTC: $72K-78K (-7-0%)\nGOLD: $410-430 (-5-9%)\nVIX: $22-26 (+18-39%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +6.2%) — breakout\n2. Utilities (XLU +2.9%) — defensive\n3. Consumer Staples (XLP +1.4%) — rotation\n4. Technology (XLK +1.4%) — earnings\n5. Defense (ITA -1.5%) — fade\n\n<b>BIG MOVES + DRIVERS</b>\nMOH +15.0% — Q1 beat with Medicare Advantage exit strategy, UBS target raised to $180\nSOXX +6.9% — tech earnings optimism driving semiconductor ETF breakout\nBRENT -5.0% — US naval blockade proving effective at containing Iran energy exports\nRTX -3.7% — defense rotation fading as conflict containment expectations rise\n<i>Risk assets diverging from energy as geopolitical premium shifts from kinetic to economic warfare.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) signaling institutional crisis hedging adoption\nWhale activity: $57M long HYPE (+$3.6M PnL), $57M BTC longs vs $9M shorts, concentrated ETH positioning at $31M\nCross-asset positioning suggests continued crypto accumulation during traditional risk-off periods\n\n<b>IMPLICATION</b>\nTactical long tech/crypto vs energy as Iran blockade success reduces kinetic risk while maintaining economic pressure. Monitor TLT weakness — if real yields rise with growth, defensive rotation could reverse quickly.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 314
+  },
+  {
     "session": "morning",
     "date": "2026-04-25",
     "time": "03:15 UTC",
@@ -1404,53 +1457,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 18, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n• BTC: <b>$77,270</b>\n• ETH: <b>$2,417</b>\n• SOL: <b>$88.87</b>\n• GOLD: <b>$4,854</b>\nSPY: <b>$710.14</b> (+1.5%)\nQQQ: <b>$648.85</b> (+1.8%)\nVIX: <b>17.5</b> (-2.6%)\nTLT: <b>$87.07</b> (+0.3%)\nDXY: <b>98.1</b> (-0.1%)\nOIL: <b>$84</b> (-11.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.19T</b> (YoY -2.9%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -28bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Fed Balance Sheet: +1.98σ\n▲ HY Credit Spread: -1.88σ\n▼ Silver: +1.88σ\n▲ WTREGEN: -1.81σ\n▲ IG Credit Spread: -1.80σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +9.3%\n\n<b>TOP MOVERS</b>\n▲ M $4.37 (+15.0%)\n▼ OIL $84.00 (-11.3%)\n▼ WTI $84.00 (-11.3%)\n▼ BRENT $91.87 (-7.6%)\n▼ ENA $0.1236 (-5.8%)\n▼ RAIN $0.007383 (-5.6%)\n▲ EWY $152 (+5.1%)\n▲ TKMS $89.60 (+4.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 285
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-17",
-    "time": "21:15 UTC",
-    "headline": "Markets rallied on Strait of Hormuz reopening, with energy and agricultural commodities finding reli…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 18 news items. 4 scenario shifts.",
-    "tags": [
-      {
-        "t": "BULLISH SKEW",
-        "c": "green"
-      },
-      {
-        "t": "US Unseasonally Adjusted Consu",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 50
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Unseasonally Adjusted Consumer Pric",
-            "v": "Apr 24",
-            "c": "blue"
-          },
-          {
-            "k": "US University of Michigan Consumer Con",
-            "v": "Apr 24",
-            "c": "blue"
-          },
-          {
-            "k": " National Consumer Price Index (YoY)",
-            "v": "Apr 23",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 17, 2026\n\n<i>Markets rallied on Strait of Hormuz reopening, with energy and agricultural commodities finding relief as supply chain fears eased. Risk assets benefited from the geopolitical de-escalation, though crypto lagged amid ongoing institutional hesitancy. The dovish shift suggests investors are positioning for a softer landing scenario.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$77,363</b> · ETH: <b>$2,427</b> · SOL: <b>$88.97</b> · GOLD: <b>$4,854</b> · SPY: <b>$710.14</b> (+1.5%) · QQQ: <b>$648.85</b> (+1.8%) · VIX: <b>$17.48</b> (-2.6%) · TLT: <b>$87.07</b> (+0.3%) · DXY: <b>$98.23</b> (+0.0%) · OIL: <b>$84</b> (-11.3%)\n\n<b>EVENING NEWS</b>\n▲ ‘Tough sell’ – Bloomberg analyst casts doubt on Charles Schwab’s crypto push\n▲ Ether wallet balances surge 33%, fueling $3K rally speculation\n▼ Fertilizer Prices Drop as Hormuz Opening Brings Farmers Relief\n▲ China: Policy easing expectations trimmed – DBS\n▲ Top Fed official warns Iran war could spark ‘lasting’ price shock\n▼ \n        Hormuz is (apparently) unblocked. Energy markets remain a mess\n      \n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: China policy moderation suggests economic stabilization without aggressive stimulus\n▼ Recession: Hormuz reopening reduces supply chain disruption risks\n▲ Goldilocks: Commodity relief and trade normalization support balanced growth environment\n▼ Hegemony: Alternative trade bloc formation challenges US economic dominance\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Mar) — Apr 24, 06:30 PM UTC (prev: 2.4%)\nUS University of Michigan Consumer Confidence Index (Final)(Apr) — Apr 24, 02:00 PM UTC (prev: 53.3)\n National Consumer Price Index (YoY)(Mar) — Apr 23, 11:30 PM UTC (prev: 1.3%)\nUS Durable goods orders (MoM)(Mar) — Apr 23, 02:00 PM UTC (prev: -1.4%)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 23, 02:00 PM UTC (prev: -1.4%)\nUS Durable goods orders (MoM)(Final)(Feb) — Apr 23, 12:30 PM UTC (prev: 0.0%)\n\n<b>CONTRARIAN</b>\n• ETH wallet accumulation amid low trading volumes suggests smart money positioning for breakout despi\n• Fertilizer price drops may be temporary as geopolitical tensions could reignite, making agricultural\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 284
   }
 ]

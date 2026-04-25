@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-25",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge 8.9/100",
-  "headlineColor": "#34D399",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 25, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 8.9/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE 8.9",
-      "c": "green"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
+          "k": "MOH",
+          "v": "+15.0%",
           "c": "green"
+        },
+        {
+          "k": "SOXX",
+          "v": "+6.9%",
+          "c": "green"
+        },
+        {
+          "k": "SMH",
+          "v": "+6.2%",
+          "c": "green"
+        },
+        {
+          "k": "BRENT",
+          "v": "-5.0%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 25, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 8.9/100\n\n• BTC: <b>$77,620</b>\n• ETH: <b>$2,318</b>\n• SOL: <b>$86.3</b>\n• GOLD: <b>$4,715</b>\nSPY: <b>$713.94</b> (+0.4%)\nQQQ: <b>$663.88</b> (+1.3%)\nVIX: <b>18.7</b> (-3.1%)\nTLT: <b>$86.71</b> (-0.0%)\nDXY: <b>98.5</b> (-0.3%)\nOIL: <b>$94.88</b> (-1.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.07%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -1bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTREGEN: +2.29σ\n▼ 10Y Breakeven Inflation: +2.08σ\n▼ Fed Balance Sheet: +1.73σ\n▲ DTWEXBGS: -1.68σ\n— CPI: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +13.0%\n▼ SOL: -0.6%\n\n<b>TOP MOVERS</b>\n▲ MOH $176 (+15.0%)\n▲ SOXX $462 (+6.9%)\n▲ SMH $506 (+6.2%)\n▼ BRENT $99.78 (-5.0%)\n▼ DEXE $12.80 (-5.0%)\n▼ JST $0.07650 (-4.9%)\n▲ M $4.39 (+4.5%)\n▼ RTX $174 (-3.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 313
+  "telegramText": "<b>SIGNAL SCAN</b> — April 25, 2026\n\n<b>SNAPSHOT</b>\nRisk-on regime with selective rotation into semis and utilities while energy deflates. Tech earnings momentum driving growth leadership despite Middle East tensions. Cross-asset divergence as crypto rallies +23% while oil dumps -5% on Iran blockade effectiveness.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 8.9/100 (Calm)\nRegime: OVERHEATING — financial conditions easing as inflation expectations rise with weakening dollar\nKey prices: SPY +0.4% | QQQ +1.3% | VIX -3.1% | TLT -0.03% | DXY -0.3% | OIL -1.5%\nICSA: 214K (+0.34 z-score, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Tech Earnings Extend\nSPY: $730-750 (+2-5%)\nQQQ: $680-710 (+2-7%)\nVIX: $15-17 (-15-20%)\n\n<b>SCENARIO B</b> — Energy Inflation Shock\nOIL: $105-115 (+11-22%)\nTLT: $82-85 (-5-6%)\nDXY: $101-104 (+3-5%)\n\n<b>SCENARIO C</b> — Iran Peace Premium\nBTC: $72K-78K (-7-0%)\nGOLD: $410-430 (-5-9%)\nVIX: $22-26 (+18-39%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +6.2%) — breakout\n2. Utilities (XLU +2.9%) — defensive\n3. Consumer Staples (XLP +1.4%) — rotation\n4. Technology (XLK +1.4%) — earnings\n5. Defense (ITA -1.5%) — fade\n\n<b>BIG MOVES + DRIVERS</b>\nMOH +15.0% — Q1 beat with Medicare Advantage exit strategy, UBS target raised to $180\nSOXX +6.9% — tech earnings optimism driving semiconductor ETF breakout\nBRENT -5.0% — US naval blockade proving effective at containing Iran energy exports\nRTX -3.7% — defense rotation fading as conflict containment expectations rise\n<i>Risk assets diverging from energy as geopolitical premium shifts from kinetic to economic warfare.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) signaling institutional crisis hedging adoption\nWhale activity: $57M long HYPE (+$3.6M PnL), $57M BTC longs vs $9M shorts, concentrated ETH positioning at $31M\nCross-asset positioning suggests continued crypto accumulation during traditional risk-off periods\n\n<b>IMPLICATION</b>\nTactical long tech/crypto vs energy as Iran blockade success reduces kinetic risk while maintaining economic pressure. Monitor TLT weakness — if real yields rise with growth, defensive rotation could reverse quickly.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 314
 }
