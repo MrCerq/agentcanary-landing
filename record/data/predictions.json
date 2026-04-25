@@ -6053,57 +6053,6 @@
       "actualClose": 460.43
     },
     {
-      "id": "2026-03-13-C-SPY",
-      "date": "2026-03-13",
-      "session": "intelligence",
-      "scenario": "C",
-      "scenarioName": "Risk Asset Bounce",
-      "ticker": "SPY",
-      "type": "scenario_target",
-      "rangeMin": 680,
-      "rangeMax": 700,
-      "impliedMove": "+2% to +5%",
-      "scoreDate": "2026-03-16",
-      "result": "partial",
-      "actualHigh": 672.34,
-      "actualLow": 661.36,
-      "actualClose": 669.03
-    },
-    {
-      "id": "2026-03-13-C-BTC",
-      "date": "2026-03-13",
-      "session": "intelligence",
-      "scenario": "C",
-      "scenarioName": "Risk Asset Bounce",
-      "ticker": "BTC",
-      "type": "scenario_target",
-      "rangeMin": 75000,
-      "rangeMax": 78000,
-      "impliedMove": "+4% to +8%",
-      "scoreDate": "2026-03-16",
-      "result": "partial",
-      "actualHigh": 74901.86,
-      "actualLow": 70339.59,
-      "actualClose": 74861.09
-    },
-    {
-      "id": "2026-03-13-C-VIX",
-      "date": "2026-03-13",
-      "session": "intelligence",
-      "scenario": "C",
-      "scenarioName": "Risk Asset Bounce",
-      "ticker": "VIX",
-      "type": "scenario_target",
-      "rangeMin": 20,
-      "rangeMax": 23,
-      "impliedMove": "-20% to -26%",
-      "scoreDate": "2026-03-16",
-      "result": "partial",
-      "actualHigh": 28.47,
-      "actualLow": 23.23,
-      "actualClose": 23.51
-    },
-    {
       "id": "2026-03-12-A-BTC",
       "date": "2026-03-12",
       "session": "intelligence",
@@ -7056,5 +7005,5 @@
       "actualClose": 5146.1
     }
   ],
-  "lastScored": "2026-04-25T01:30:03.900Z"
+  "lastScored": "2026-04-25T04:30:03.879Z"
 }
