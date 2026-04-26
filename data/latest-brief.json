@@ -1,57 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-04-26",
-  "time": "15:15 UTC",
-  "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH 1d:ACCUMULATION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:BEAR_REGIME",
+  "time": "21:15 UTC",
+  "headline": "Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopoliti…",
+  "headlineColor": "#A78BFA",
+  "desc": "OVERHEATING. 15 news items. 5 scenario shifts.",
   "tags": [
     {
-      "t": "WHALE ALERT",
-      "c": "blue"
+      "t": "BEARISH SKEW",
+      "c": "red"
     },
     {
-      "t": "ORCA 678% APR",
-      "c": "green"
+      "t": "US Change in ADP employment (t",
+      "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "ACCUMULATION",
-          "c": "green"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "ACCUMULATION",
-          "c": "green"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 12
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$89M BTC",
-          "v": "transferred from #Ok",
+          "k": "US Change in ADP employment (thousands",
+          "v": "May 6",
           "c": "blue"
         },
         {
-          "k": "$168M USDT",
-          "v": "transferred from #Ce",
+          "k": "EU Producer Price Index (YoY)(Mar)",
+          "v": "May 6",
+          "c": "blue"
+        },
+        {
+          "k": " Caixin Services Purchasing Managers",
+          "v": "May 6",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Apr 26, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,100</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n• ETH: <b>$2,347</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$86.44</b> — 1d: ACCUMULATION | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 1,146 BTC ($88,972,569)\n  <i>transferred from #Okex to unknown wallet</i>\n• 168,328,525 USDT ($168,362,190)\n  <i>transferred from #Ceffu to unknown wallet</i>\n• 663 BTC ($51,312,768)\n  <i>transferred from unknown wallet to #Coinbase</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ORCA</b>: 992% net APR (0.0774% rate)\n  Long Binance / Short Bybit | OI: $12.7M | Spread: -0.92%\n• <b>MASK</b>: 367% net APR (0.1893% rate)\n  Long Binance / Short Bybit | OI: $5.2M | Spread: 0.07%\n• <b>CL</b>: 162% net APR (0.1659% rate)\n  Long OKX / Short Binance | OI: $12.6M | Spread: 0.47%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $17,265,737 | Longs: 30% | L/S: 0.4:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>INTEL</b>\n▲ Bitcoin Institutional Momentum [BTC, GBTC, IBIT]\n— Altcoin Rotation Delays [ETH, XRP, SOL]\n▼ Bond Market Pressure [TLT, TYO, BTC]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 319
+  "telegramText": "<b>MARKET WRAP</b> — Apr 26, 2026\n\n<i>Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopolitical tensions and weakening consumer sentiment drove defensive positioning. The combination of speculative excess in digital assets alongside growing recession fears and stagflation risks suggests an economy running hot but losing fundamental support.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$78,292</b> · ETH: <b>$2,368</b> · SOL: <b>$86.99</b> · GOLD: <b>$4,715</b> · SPY: <b>$713.94</b> (+0.4%) · QQQ: <b>$664.02</b> (+1.4%) · VIX: <b>$18.71</b> (-3.1%) · TLT: <b>$86.71</b> (-0.0%) · DXY: <b>$98.51</b> (+0.0%) · OIL: <b>$94.4</b> (+0.0%)\n\n<b>EVENING NEWS</b>\n▲ Strategy's Michael Saylor again hints at impending BTC purchase\n▲ MicroStrategy’s Bitcoin Holdings Hit $63.46 Billion Record\n▲ Risk-On Surge Lifts Crypto Outlook as Equity ETFs Hit Record $7.5 Billion Daily Pace\n▲ Bitcoin Leverage Builds as Price Stalls Below $80,000\n▲ Can Bitcoin Price Continue Its Push To The Upside? Varntix Investors Buyout 24% Savings Pl\n▼ Israeli airstrikes in Lebanon complicate diplomacy as Iran negotiates in Oman\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong crypto institutional flows and technical momentum\n▲ Recession: Record low consumer sentiment and economic stress signals\n▼ Goldilocks: Geopolitical tensions and consumer weakness disrupt benign conditions\n▲ Stagflation: Energy disruption risks and rising yields amid growth concerns\n▲ Hegemony: Iran diplomatic breakdown escalates Middle East tensions\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 11.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n Caixin Services Purchasing Managers Index(Apr) — May 6, 01:45 AM UTC (prev: 52.1)\nUS New home sales (AAMR)(Mar) — May 5, 02:00 PM UTC (prev: 1.8%)\nUS Trade Balance (billion USD)(Mar) — May 5, 12:30 PM UTC (prev: -57.3)\nUS Durable goods orders (MoM) (Revised) (Mar) — May 4, 02:00 PM UTC\n\n<b>CONTRARIAN</b>\n• Bitcoin's institutional surge might be late-cycle euphoria rather than sustainable adoption, especia\n• Energy crisis fears may be overblown - markets are pricing in worst-case scenarios while diplomatic \n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 320
 }

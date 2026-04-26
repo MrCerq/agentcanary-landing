@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — Apr 26, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/26#evening</link>
+      <description>Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopoliti… — OVERHEATING. 15 news items. 5 scenario shifts.</description>
+      <pubDate>Sun, 26 Apr 2026 21:15:05 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/26#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — Apr 26, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/26#midday</link>
       <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h distribution · ETH daily accumulation, 4h ignition · SOL daily accumulation, 4h bearish</description>
@@ -348,13 +355,6 @@
       <description>BTC Ignition · 100 whale moves — BTC daily ignition, 4h ignition · ETH daily ignition, 4h ignition · SOL daily ignition, 4h ignition</description>
       <pubDate>Tue, 14 Apr 2026 15:15:02 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/14#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Apr 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/14#intelligence</link>
-      <description>SIGNAL SCAN — Apr 14, 2026 — Risk 0/100 · 8 movers</description>
-      <pubDate>Tue, 14 Apr 2026 09:15:24 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/14#intelligence</guid>
     </item>
   </channel>
 </rss>

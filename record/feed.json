@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-26-evening",
+      "url": "https://agentcanary.ai/record/2026/04/26#evening",
+      "title": "Evening Wrap — Apr 26, 2026",
+      "content_text": "Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopoliti… OVERHEATING. 15 news items. 5 scenario shifts.",
+      "summary": "Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopoliti…",
+      "date_published": "2026-04-26T21:15:05.545Z",
+      "tags": [
+        "bearish-skew",
+        "us-change-in-adp-employment-(t"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-26-midday",
       "url": "https://agentcanary.ai/record/2026/04/26#midday",
       "title": "Market Pulse — Apr 26, 2026",
@@ -747,21 +762,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-14-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/14#intelligence",
-      "title": "Signal Scan — Apr 14, 2026",
-      "content_text": "SIGNAL SCAN — Apr 14, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 14, 2026",
-      "date_published": "2026-04-14T09:15:24.830Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
