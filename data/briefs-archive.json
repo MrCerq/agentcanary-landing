@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-04-26",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — Apr 26, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 11.8/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 12
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "MOH",
+            "v": "+15.0%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+6.9%",
+            "c": "green"
+          },
+          {
+            "k": "SMH",
+            "v": "+6.2%",
+            "c": "green"
+          },
+          {
+            "k": "BRENT",
+            "v": "-5.7%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 318,
+    "telegramText": "<b>SIGNAL SCAN</b> — April 26, 2026\n\n<b>SNAPSHOT</b>\nRisk-on resilience dominates despite Iran-Pakistan diplomatic breakdown. Semiconductor surge leads tech higher while institutional crypto flows hit 13-day streak. Cross-asset divergence emerging as yields test 4% amid geopolitical premium fade.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 11.8/100 (Calm)\nRegime: OVERHEATING — Financial conditions easing (-4.0) as inflation expectations rise\nSPY: +0.38% | QQQ: +1.34% | VIX: -3.1% | TLT: -0.03% | DXY: flat | OIL: flat\nICSA: 214K (slight uptick, trend UP)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Crisis Escalation\nSPY: $678-$692 (-3% to -5%)\nBTC: $74K-$76K (-3% to -5%)\nOIL: $102-$108 (+8% to +14%)\n\n<b>SCENARIO B</b> — Semiconductor Momentum Extension\nQQQ: $690-$710 (+4% to +7%)\nSOXX: $485-$505 (+5% to +9%)\nSPY: $735-$750 (+3% to +5%)\n\n<b>SCENARIO C</b> — Yield Shock Above 4%\nTLT: $82-$84 (-3% to -5%)\nSPY: $685-$700 (-2% to -4%)\nBTC: $72K-$75K (-5% to -8%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +6.2%) — explosive\n2. Utilities (XLU +2.9%) — defensive bid\n3. Consumer Staples (XLP +1.4%) — rotating\n4. Technology (XLK +1.4%) — strong\n5. Real Estate (XLRE +0.9%) — yield play\n\n<b>BIG MOVES + DRIVERS</b>\nMOH $175.94 (+15%) — Q1 earnings beat, guidance reaffirm, Medicare Advantage exit\nSOXX $461.60 (+6.9%) — Tech earnings optimism amid global uncertainty\nBRENT $99.13 (-5.7%) — $20M whale 5x leveraged long amid Iran talk uncertainty\nRTX $174.26 (-3.7%) — Defense sector rotation out as diplomatic tensions ease\nTON $1.31 (-2.2%) — Crypto rotation into institutional favorites\n<i>Semiconductors absorbing tech flows while energy whales position for geopolitical premium despite diplomatic setbacks.</i>\n\n<b>POSITIONING</b>\nBTC whale longs $46.5M vs shorts $28.2M with +$5.4M PnL across 4 positions (max 40x leverage). ETH whales pure long $30.6M. BTC ETF flows: +$531M (13-day inflow streak, high significance). Energy: $20M leveraged Brent long suggests institutional positioning for Iran escalation despite current price weakness.\n\n<b>IMPLICATION</b>\nTactical semiconductor overweight warranted on earnings momentum and institutional flows. Crypto positioning attractive on ETF strength, but hedge geopolitical tail risk through energy exposure or VIX calls if Iran tensions resurface.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-04-26",
     "time": "03:15 UTC",
