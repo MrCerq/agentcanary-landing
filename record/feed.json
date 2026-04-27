@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-27-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/27#intelligence",
+      "title": "Signal Scan — Apr 27, 2026",
+      "content_text": "SIGNAL SCAN — Apr 27, 2026 Risk 11.8/100 · 8 movers",
+      "summary": "SIGNAL SCAN — Apr 27, 2026",
+      "date_published": "2026-04-27T09:15:24.997Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-27-morning",
       "url": "https://agentcanary.ai/record/2026/04/27#morning",
       "title": "Morning Brief — Apr 27, 2026",
@@ -746,21 +761,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-14-evening",
-      "url": "https://agentcanary.ai/record/2026/04/14#evening",
-      "title": "Evening Wrap — Apr 14, 2026",
-      "content_text": "Markets displayed late-cycle exuberance with Bitcoin surging past $74K as risk assets rallied despit… OVERHEATING. 16 news items. 4 scenario shifts.",
-      "summary": "Markets displayed late-cycle exuberance with Bitcoin surging past $74K as risk assets rallied despit…",
-      "date_published": "2026-04-14T21:15:07.123Z",
-      "tags": [
-        "bearish-skew",
-        "us-unseasonally-adjusted-consu"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
