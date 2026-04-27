@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-04-26",
-  "time": "21:15 UTC",
-  "headline": "Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopoliti…",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 15 news items. 5 scenario shifts.",
+  "session": "morning",
+  "date": "2026-04-27",
+  "time": "03:15 UTC",
+  "headline": "▲ Risk-On · Neutral · Gauge 11.8/100",
+  "headlineColor": "#34D399",
+  "desc": "OVERHEATING. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
-      "c": "red"
+      "t": "Risk-On · Neutral",
+      "c": "green"
     },
     {
-      "t": "US Change in ADP employment (t",
-      "c": "blue"
+      "t": "GAUGE 11.8",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 12
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Change in ADP employment (thousands",
-          "v": "May 6",
-          "c": "blue"
-        },
-        {
-          "k": "EU Producer Price Index (YoY)(Mar)",
-          "v": "May 6",
-          "c": "blue"
-        },
-        {
-          "k": " Caixin Services Purchasing Managers",
-          "v": "May 6",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Apr 26, 2026\n\n<i>Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopolitical tensions and weakening consumer sentiment drove defensive positioning. The combination of speculative excess in digital assets alongside growing recession fears and stagflation risks suggests an economy running hot but losing fundamental support.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$78,292</b> · ETH: <b>$2,368</b> · SOL: <b>$86.99</b> · GOLD: <b>$4,715</b> · SPY: <b>$713.94</b> (+0.4%) · QQQ: <b>$664.02</b> (+1.4%) · VIX: <b>$18.71</b> (-3.1%) · TLT: <b>$86.71</b> (-0.0%) · DXY: <b>$98.51</b> (+0.0%) · OIL: <b>$94.4</b> (+0.0%)\n\n<b>EVENING NEWS</b>\n▲ Strategy's Michael Saylor again hints at impending BTC purchase\n▲ MicroStrategy’s Bitcoin Holdings Hit $63.46 Billion Record\n▲ Risk-On Surge Lifts Crypto Outlook as Equity ETFs Hit Record $7.5 Billion Daily Pace\n▲ Bitcoin Leverage Builds as Price Stalls Below $80,000\n▲ Can Bitcoin Price Continue Its Push To The Upside? Varntix Investors Buyout 24% Savings Pl\n▼ Israeli airstrikes in Lebanon complicate diplomacy as Iran negotiates in Oman\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong crypto institutional flows and technical momentum\n▲ Recession: Record low consumer sentiment and economic stress signals\n▼ Goldilocks: Geopolitical tensions and consumer weakness disrupt benign conditions\n▲ Stagflation: Energy disruption risks and rising yields amid growth concerns\n▲ Hegemony: Iran diplomatic breakdown escalates Middle East tensions\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 11.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n Caixin Services Purchasing Managers Index(Apr) — May 6, 01:45 AM UTC (prev: 52.1)\nUS New home sales (AAMR)(Mar) — May 5, 02:00 PM UTC (prev: 1.8%)\nUS Trade Balance (billion USD)(Mar) — May 5, 12:30 PM UTC (prev: -57.3)\nUS Durable goods orders (MoM) (Revised) (Mar) — May 4, 02:00 PM UTC\n\n<b>CONTRARIAN</b>\n• Bitcoin's institutional surge might be late-cycle euphoria rather than sustainable adoption, especia\n• Energy crisis fears may be overblown - markets are pricing in worst-case scenarios while diplomatic \n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 320
+  "telegramText": "<b>MACRO RADAR</b> — Apr 27, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 11.8/100\n\n• BTC: <b>$79,129</b>\n• ETH: <b>$2,392</b>\n• SOL: <b>$87.84</b>\n• GOLD: <b>$4,715</b>\nSPY: <b>$713.94</b> (+0.4%)\nQQQ: <b>$664.02</b> (+1.4%)\nVIX: <b>18.7</b> (-3.1%)\nTLT: <b>$86.71</b> (-0.0%)\nDXY: <b>98.4</b> (-0.1%)\nOIL: <b>$95.26</b> (+0.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.07%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTREGEN: +2.29σ\n▼ 10Y Breakeven Inflation: +1.83σ\n▼ Fed Balance Sheet: +1.73σ\n▲ DTWEXBGS: -1.68σ\n— CPI: +1.38σ\n\n<b>TOP MOVERS</b>\n▲ PENGU $0.009951 (+15.9%)\n▲ MOH $176 (+15.0%)\n▲ AERO $0.4794 (+11.4%)\n▲ RSETH $2,348 (+11.0%)\n▲ SOXX $462 (+6.9%)\n▲ SMH $506 (+6.2%)\n▼ BRENT $100 (-4.8%)\n▼ RTX $174 (-3.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n<i>No signals firing — multipolar thesis intact</i>\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 321
 }

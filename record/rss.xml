@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — Apr 27, 2026</title>
+      <link>https://agentcanary.ai/record/2026/04/27#morning</link>
+      <description>▲ Risk-On · Neutral · Gauge 11.8/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
+      <pubDate>Mon, 27 Apr 2026 03:15:05 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/04/27#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — Apr 26, 2026</title>
       <link>https://agentcanary.ai/record/2026/04/26#evening</link>
       <description>Markets reflected late-cycle dynamics as crypto surged on institutional flows while rising geopoliti… — OVERHEATING. 15 news items. 5 scenario shifts.</description>
@@ -348,13 +355,6 @@
       <description>Markets displayed late-cycle exuberance with Bitcoin surging past $74K as risk assets rallied despit… — OVERHEATING. 16 news items. 4 scenario shifts.</description>
       <pubDate>Tue, 14 Apr 2026 21:15:07 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/14#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — Apr 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/14#midday</link>
-      <description>BTC Ignition · 100 whale moves — BTC daily ignition, 4h ignition · ETH daily ignition, 4h ignition · SOL daily ignition, 4h ignition</description>
-      <pubDate>Tue, 14 Apr 2026 15:15:02 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/14#midday</guid>
     </item>
   </channel>
 </rss>
