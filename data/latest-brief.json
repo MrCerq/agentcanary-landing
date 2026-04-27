@@ -1,53 +1,57 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-04-27",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — Apr 27, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 11.8/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:BEAR_REGIME",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "OVERHEATING",
-      "c": "blue"
+      "t": "GWEI 320% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 12
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "MOH",
-          "v": "+15.0%",
+          "k": "BTC 1D",
+          "v": "BULL_REGIME",
           "c": "green"
         },
         {
-          "k": "INJ",
-          "v": "+9.1%",
+          "k": "ETH 1D",
+          "v": "BULL_REGIME",
           "c": "green"
         },
         {
-          "k": "PENDLE",
-          "v": "+7.1%",
+          "k": "SOL 1D",
+          "v": "BULL_REGIME",
           "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$50M USDC",
+          "v": "burned at USDC Treas",
+          "c": "blue"
         },
         {
-          "k": "SOXX",
-          "v": "+6.9%",
-          "c": "green"
+          "k": "$250M USDC",
+          "v": "minted at USDC Treas",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — April 27, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with geopolitical shock colliding against institutional crypto accumulation. Iran talks collapsed, corporate layoffs surge, yet semiconductors rip +6% on tech optimism. Cross-asset dislocation widening as oil spikes while bonds flat.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 11.8/100 (Low)\nRegime: OVERHEATING — financial conditions loosening despite geopolitical stress\nKey prices: SPY +0.4%, QQQ +1.4%, VIX +2.0%, TLT -0.03%, DXY -0.3%, OIL +1.9%\nICSA: 214K claims (+0.27 z-score, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Conflict Escalation\nBTC: $70-74K (-7% to -5%)\nOIL: $105-115 (+9% to +19%)\nSPY: $675-695 (-5% to -3%)\n\n<b>SCENARIO B</b> — Tech Rally Extension\nQQQ: $700-725 (+5% to +9%)\nSMH: $490-520 (+6% to +12%)\nVIX: $15-17 (-21% to -11%)\n\n<b>SCENARIO C</b> — Layoff Contagion\nSPY: $650-680 (-9% to -5%)\nTLT: $90-93 (+4% to +7%)\nBTC: $72-76K (-7% to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +6.2%) — strong\n2. Utilities (XLU +2.9%) — bid\n3. Consumer Staples (XLP +1.4%) — defensive\n4. Technology (XLK +1.4%) — rotating\n5. Uranium (URA -4.2%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH +15% �� Q1 beat, guidance reaffirmation, Medicare Advantage Part D exit\nSOXX +6.9% — semiconductor rally on AI demand revival\nPENDLE +7.1% — DeFi yield farming resurgence \nBRENT -4.8% — Iran supply disruption fears fade intraday\nAAVE +5.2% — Arbitrum DAO vote on ETH utilization proposal\nRTX -3.7% — defense sector rotation amid geopolitical uncertainty\n\n<i>Tech euphoria conflicts with energy volatility as markets fragment between growth optimism and supply shock fears.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M (13-day inflow streak) — institutional FOMO accelerating\nWhale BTC: $29M long vs $25M short, underwater -$766K at current levels\nWhale ETH: $28M long vs $12M short, +$547K PnL suggesting momentum\n\n<b>IMPLICATION</b>\nTactical long semiconductors vs energy beta if geopolitical premium fades. BTC institutional flows suggest momentum but whale underwater positions signal potential distribution risk above $80K.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 322
+  "telegramText": "<b>MARKET PULSE</b> — Apr 27, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$77,466</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,298</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$84.83</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 50,039,500.05 USDC ($50,032,870)\n  <i>burned at USDC Treasury</i>\n• 250,000,000 USDC ($250,007,103)\n  <i>minted at USDC Treasury</i>\n• 250,000,000 USDC ($249,960,125)\n  <i>minted at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>GWEI</b>: 207% net APR (0.1462% rate)\n  Long Binance / Short Bitget | OI: $7.0M | Spread: 0.23%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $95,985,441 | Longs: 42% | L/S: 0.7:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Corporate Bitcoin Strategy Momentum [BTC, MSTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 323
 }
