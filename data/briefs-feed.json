@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-27",
+    "time": "21:15 UTC",
+    "headline": "Markets displayed classic late-cycle fragmentation as Bitcoin's institutional adoption story drove c…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 17 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "EU Retail Sales (MoM)(Mar)",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 12
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "EU Retail Sales (MoM)(Mar)",
+            "v": "May 7",
+            "c": "blue"
+          },
+          {
+            "k": "US Change in ADP employment (thousands",
+            "v": "May 6",
+            "c": "blue"
+          },
+          {
+            "k": "EU Producer Price Index (YoY)(Mar)",
+            "v": "May 6",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 27, 2026\n\n<i>Markets displayed classic late-cycle fragmentation as Bitcoin's institutional adoption story drove crypto higher while geopolitical tensions sparked defensive rotations into gold and bonds. The divergence between risk-on crypto momentum and safe-haven flows reflects growing macro uncertainty despite surface-level optimism.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,980</b> · ETH: <b>$2,292</b> · SOL: <b>$84.24</b> · GOLD: <b>$4,680</b> · SPY: <b>$715.17</b> (+0.9%) · QQQ: <b>$664.23</b> (+2.0%) · VIX: <b>$18.02</b> (-3.7%) · TLT: <b>$86.28</b> (-0.3%) · DXY: <b>$98.47</b> (-0.1%) · OIL: <b>$96.68</b> (+2.4%)\n\n<b>EVENING NEWS</b>\n▲ The South Korean bank powering Upbit is testing Ripple integration for cross-border paymen\n▲ Bitcoin Rally Builds on Leverage as Spot Demand Lags\n▲ Clean Energy ETF Pulls In Giant Inflows This Year: ESG Investing\n▼ FXToday: US Dollar falls as markets brace for central bank week and Iran headlines\n▲ US declared ‘crypto capital of the world’ by CFTC chair Mike Selig\n▲ Crypto Funds Add $1.2B as Bitcoin Hits Two-Month High\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Central bank policy uncertainty and manufacturing weakness signal cycle maturity\n▲ Recession: Manufacturing contraction and geopolitical stress increase recession probability\n▼ Goldilocks: Geopolitical tensions and policy divergence disrupt stable growth narrative\n▲ Stagflation: Energy disruption from Iran conflict threatens inflation resurgence\n▲ Displacement: Crypto adoption and AI infrastructure shifts accelerate technological transformation\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 11.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n Caixin Services Purchasing Managers Index(Apr) — May 6, 01:45 AM UTC (prev: 52.1)\nUS New home sales (AAMR)(Mar) — May 5, 02:00 PM UTC (prev: 1.8%)\nUS Trade Balance (billion USD)(Mar) — May 5, 12:30 PM UTC (prev: -57.3)\n\n<b>CONTRARIAN</b>\n• Gold's weakness during major geopolitical crisis suggests traditional safe haven narrative is breaki\n• Crypto institutional adoption may be over-hyped as price action remains volatile despite positive re\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 324
+  },
+  {
     "session": "midday",
     "date": "2026-04-27",
     "time": "15:15 UTC",
@@ -1427,58 +1475,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 20, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$74,980</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,290</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$84.81</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 199,860,097 USDT ($199,940,041)\n  <i>transferred from unknown wallet to #Ethena</i>\n• 200,500,000 USDT ($200,558,144)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 222,000,000 USDT ($222,097,680)\n  <i>transferred from Tether Treasury to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>SKYAI</b>: 932% net APR (0.4123% rate)\n  Long Binance / Short Bitget | OI: $20.8M | Spread: -0.16%\n• <b>RAVE</b>: 653% net APR (0.0875% rate)\n  Long Bitget / Short OKX | OI: $8.1M | Spread: 0.23%\n• <b>PIEVERSE</b>: 245% net APR (0.2502% rate)\n  Long Bybit / Short Bitget | OI: $8.7M | Spread: 0.77%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $131,957,518 | Longs: 71% | L/S: 2.4:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n— Bitcoin Testing Critical Support [BTC, MSTR, COIN]\n▲ Cryptocurrency Ecosystem Expansion [XRP, SHIB, USDT]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 295
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-20",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 20, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 0/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 0
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "HYPE",
-            "v": "-5.5%",
-            "c": "red"
-          },
-          {
-            "k": "PENDLE",
-            "v": "-5.2%",
-            "c": "red"
-          },
-          {
-            "k": "MNT",
-            "v": "-5.2%",
-            "c": "red"
-          },
-          {
-            "k": "EWY",
-            "v": "+5.1%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 20, 2026\n\n<b>SNAPSHOT</b>\nMixed risk regime as equities rally despite Persian Gulf shipping crisis. Tech leadership emerges while energy underperforms paradoxically. Crypto divergence suggests institutional flows overriding geopolitical risk.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expanding +3.4 despite financial conditions tightening\nSPY +1.5% | QQQ +1.8% | VIX flat 17.48 | TLT +0.3% | DXY +0.2% | OIL flat 82.59\nICSA: 207K (trend UP, below normal)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Hormuz Escalation\nBTC: $67-70K (-7% to -11%)\nSPY: $675-690 (-5% to -3%)\nOIL: $95-105 (+15% to +27%)\n\n<b>SCENARIO B</b> — Tech Momentum\nQQQ: $680-720 (+5% to +11%)\nBTC: $78-82K (+4% to +9%)\nTLT: $85-87 (-2% to flat)\n\n<b>SCENARIO C</b> — BOJ Pivot\nSPY: $690-700 (-3% to -1%)\nDXY: $101-104 (+3% to +6%)\nGOLD: $435-450 (-2% to +1%)\n\n<b>SECTOR STRENGTH</b>\n1. Technology (XLK +2.7%) — strong\n2. Real Estate (XLRE +2.5%) — rotating\n3. Semiconductors (SMH +2.5%) — bid\n4. Consumer Disc (XLY +1.9%) — strong\n5. Energy (XLE -1.3%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nHYPE $40.97 (-5.5%) — Ethereum thesis weakening as Solana dominates retail, Hyperliquid captures perps flow\nEWY $152.33 (+5.1%) — South Korea benefiting from tech rotation\nSOXX $415.71 (+3.4%) — Semiconductor strength on AI demand\nPENDLE $1.27 (-5.2%) — DeFi yield protocol caught in ETH weakness\nXLK $154.35 (+2.7%) — Tech leadership despite geopolitical backdrop\n<i>Risk assets ignoring energy disruption signals liquidity-driven rally trumping fundamentals.</i>\n\n<b>POSITIONING</b>\nBTC whales: 52.7M long vs 11.6M short, -$880K PnL suggests recent pain\nETH whales: 33.9M long vs 12.2M short, +$419K PnL on positioning\nHYPE: 29.1M short exposure, +$456K gains on decline\nBTC ETFs: +$531M net inflows, 13-day streak — institutional demand persists through volatility\n\n<b>IMPLICATION</b>\nDivergence between geopolitical risk and asset performance suggests late-cycle liquidity dominance. Tactical opportunity in tech vs energy spread if Persian Gulf tensions fade, but hedge via oil exposure given supply risk.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 294
   }
 ]
