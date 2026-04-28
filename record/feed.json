@@ -15,6 +15,20 @@
   ],
   "items": [
     {
+      "id": "2026-04-28-midday",
+      "url": "https://agentcanary.ai/record/2026/04/28#midday",
+      "title": "Market Pulse — Apr 28, 2026",
+      "content_text": "BTC Distribution · 100 whale moves BTC daily distribution, 4h risk-off · ETH daily bearish, 4h accumulation · SOL daily bearish, 4h accumulation",
+      "summary": "BTC Distribution · 100 whale moves",
+      "date_published": "2026-04-28T15:15:01.179Z",
+      "tags": [
+        "whale-alert"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-04-28-intelligence",
       "url": "https://agentcanary.ai/record/2026/04/28#intelligence",
       "title": "Signal Scan — Apr 28, 2026",
@@ -746,21 +760,6 @@
       ],
       "_agentcanary": {
         "session": "signal"
-      }
-    },
-    {
-      "id": "2026-04-16-morning",
-      "url": "https://agentcanary.ai/record/2026/04/16#morning",
-      "title": "Morning Brief — Apr 16, 2026",
-      "content_text": "▲ Risk-On · Neutral · Gauge —/100 Overheating regime · Fear & Greed: neutral · NORMAL",
-      "summary": "▲ Risk-On · Neutral · Gauge —/100",
-      "date_published": "2026-04-16T03:15:04.127Z",
-      "tags": [
-        "risk-on-·-neutral",
-        "gauge-—"
-      ],
-      "_agentcanary": {
-        "session": "morning"
       }
     }
   ]
