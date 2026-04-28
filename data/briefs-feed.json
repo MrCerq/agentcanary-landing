@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-28",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break sig…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 17 news items. 6 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US University of Michigan Cons",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 23
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "May 8",
+            "c": "blue"
+          },
+          {
+            "k": "US Unemployment Rate(Apr)",
+            "v": "May 8",
+            "c": "blue"
+          },
+          {
+            "k": "US Seasonally adjusted changes in non-",
+            "v": "May 8",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 28, 2026\n\n<i>Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break signaled speculative froth unwinding, while traditional assets held steady amid rising recession/stagflation concerns. The divergence suggests institutional rotation from risk assets as central bank policy inflection points loom.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,442</b> · ETH: <b>$2,296</b> · SOL: <b>$83.79</b> · GOLD: <b>$4,596</b> · SPY: <b>$711.69</b> (-0.3%) · QQQ: <b>$657.55</b> (-1.0%) · VIX: <b>$17.83</b> (-1.1%) · TLT: <b>$86.37</b> (-0.4%) · DXY: <b>$98.63</b> (+0.2%) · OIL: <b>$99.62</b> (+3.4%)\n\n<b>EVENING NEWS</b>\n▼ Robinhood Shares Slide on 34% Decrease in Crypto Revenue\n▲ Powell gets high marks on pandemic, weaker grade on inflation, Bullard says\n▼ Hollywood Gear Supplier Quixote to Exit Atlanta Operations\n▲ Bitcoin Flashes Bearish Signal. Is 10% Drop Imminent? \n▲ Bitwise CIO says Strategy’s STRC could keep fueling Bitcoin’s latest rally\n▲ Blockchain Association pushes to remove reputation risk from bank supervision\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto stress and inflation persistence suggest late-cycle dynamics strengthening\n▲ Recession: Crypto liquidations and asset quality concerns point to potential downturn risks\n▼ Goldilocks: Multiple stress signals and policy uncertainty reduce goldilocks probability\n▲ Stagflation: Inflation persistence concerns and defense spending increases support stagflationary pressures\n▲ Hegemony: European defense acceleration and geopolitical tensions reinforce hegemonic competition themes\n▲ Displacement: Mining industry AI transition exemplifies ongoing technological displacement accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n\n<b>CONTRARIAN</b>\n• The $1.2B crypto ETP inflows during market stress suggest institutional accumulation may be setting \n• European defense spending acceleration could signal strength rather than desperation, positioning EU\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 328
+  },
+  {
     "session": "midday",
     "date": "2026-04-28",
     "time": "15:15 UTC",
@@ -1423,58 +1471,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 21, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$75,784</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• ETH: <b>$2,305</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n• SOL: <b>$85.97</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 1,029 BTC ($78,553,401)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 1,368 BTC ($104,364,580)\n  <i>transferred from unknown wallet to #Kraken</i>\n• 88,000,000 USDC ($87,973,820)\n  <i>burned at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 2606% net APR (0.3029% rate)\n  Long Bybit / Short MEXC | OI: $7.4M | Spread: 0.09%\n• <b>LAB</b>: 380% net APR (0.1019% rate)\n  Long Binance / Short Bitget | OI: $8.8M | Spread: -0.51%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $108,643,217 | Longs: 19% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Institutional Crypto Adoption Surge [BTC, ETH, SOL]\n▼ DeFi Security Crisis [DeFi tokens, ETH, SOL]\n▼ Geopolitical Escalation [GLD, VIX, ETH]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 299
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-21",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 21, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 0/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 0
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "TKMS",
-            "v": "+4.8%",
-            "c": "green"
-          },
-          {
-            "k": "PENDLE",
-            "v": "-3.6%",
-            "c": "red"
-          },
-          {
-            "k": "SOXX",
-            "v": "+2.9%",
-            "c": "green"
-          },
-          {
-            "k": "XLE",
-            "v": "-2.7%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 21, 2026\n\n<b>SNAPSHOT</b>\nRisk-on equities amid overheating macro regime, driven by expanding liquidity (+3.4) despite tightening financial conditions. Crypto surging on institutional flows while energy sells off on geopolitical de-escalation signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion overcomes real yield headwinds\nKey prices: SPY +1.0% | QQQ +1.0% | VIX +0.95% | TLT +0.89% | DXY +0.22% | OIL -2.5%\nICSA: 207K (trending up, -0.4 z-score)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Liquidity Peak\nSPY: $740-765 (+4-8%)\nBTC: $82K-88K (+7-15%)\nOIL: $75-80 (-9-14%)\n\n<b>SCENARIO B</b> — Geopolitical Flare\nOIL: $95-105 (+9-20%)\nVIX: $28-35 (+47-84%)\nTLT: $92-96 (+6-10%)\n\n<b>SECTOR STRENGTH</b>\n1. Industrials (XLI +2.1%) — strong\n2. Semiconductors (SMH +2.0%) — bid\n3. Consumer Disc (XLY +1.9%) — rotating\n4. Real Estate (XLRE +1.9%) — strong\n5. Energy (XLE -2.7%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTKMS $89 (+4.8%) — earnings beat on defense contracts\nSOXX $418 (+2.9%) — semiconductor momentum on AI demand\nPENDLE $1.32 (-3.6%) — STRC dividend impact on apyUSD market mechanics\nOIL $87.35 (-2.5%) — UAE yuan settlement threat amid Iran conflict de-escalation\nXLE $55.07 (-2.7%) — energy sector rotation on peace hopes\nUNI $3.22 (-2.1%) — Iran-US negotiation uncertainty weighing on risk assets\n\n<i>Cross-asset divergence as institutional crypto flows offset commodity geopolitical premium fade.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) — institutional adoption accelerating\nWhale positioning: ETH longs $33.5M vs $12.3M shorts (+$807K PnL), BTC mixed with $31.9M long/$23.3M short (-$649K PnL)\n\n<b>IMPLICATION</b>\nOverheating regime with calm risk gauge suggests late-cycle melt-up conditions favoring growth over value. Energy weakness creates tactical opportunity if geopolitical tensions re-emerge.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 298
   }
 ]

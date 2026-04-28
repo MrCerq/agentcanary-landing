@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-28",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break sig…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 17 news items. 6 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US University of Michigan Cons",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 23
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "May 8",
+            "c": "blue"
+          },
+          {
+            "k": "US Unemployment Rate(Apr)",
+            "v": "May 8",
+            "c": "blue"
+          },
+          {
+            "k": "US Seasonally adjusted changes in non-",
+            "v": "May 8",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 328,
+    "telegramText": "<b>MARKET WRAP</b> — Apr 28, 2026\n\n<i>Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break signaled speculative froth unwinding, while traditional assets held steady amid rising recession/stagflation concerns. The divergence suggests institutional rotation from risk assets as central bank policy inflection points loom.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,442</b> · ETH: <b>$2,296</b> · SOL: <b>$83.79</b> · GOLD: <b>$4,596</b> · SPY: <b>$711.69</b> (-0.3%) · QQQ: <b>$657.55</b> (-1.0%) · VIX: <b>$17.83</b> (-1.1%) · TLT: <b>$86.37</b> (-0.4%) · DXY: <b>$98.63</b> (+0.2%) · OIL: <b>$99.62</b> (+3.4%)\n\n<b>EVENING NEWS</b>\n▼ Robinhood Shares Slide on 34% Decrease in Crypto Revenue\n▲ Powell gets high marks on pandemic, weaker grade on inflation, Bullard says\n▼ Hollywood Gear Supplier Quixote to Exit Atlanta Operations\n▲ Bitcoin Flashes Bearish Signal. Is 10% Drop Imminent? \n▲ Bitwise CIO says Strategy’s STRC could keep fueling Bitcoin’s latest rally\n▲ Blockchain Association pushes to remove reputation risk from bank supervision\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto stress and inflation persistence suggest late-cycle dynamics strengthening\n▲ Recession: Crypto liquidations and asset quality concerns point to potential downturn risks\n▼ Goldilocks: Multiple stress signals and policy uncertainty reduce goldilocks probability\n▲ Stagflation: Inflation persistence concerns and defense spending increases support stagflationary pressures\n▲ Hegemony: European defense acceleration and geopolitical tensions reinforce hegemonic competition themes\n▲ Displacement: Mining industry AI transition exemplifies ongoing technological displacement accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n\n<b>CONTRARIAN</b>\n• The $1.2B crypto ETP inflows during market stress suggest institutional accumulation may be setting \n• European defense spending acceleration could signal strength rather than desperation, positioning EU\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-04-28",
     "time": "15:15 UTC",
