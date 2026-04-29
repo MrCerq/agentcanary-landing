@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-29",
+    "time": "21:15 UTC",
+    "headline": "Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioni…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 17 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "US Trade Balance (billion USD)",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 23
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Trade Balance (billion USD)(Apr)",
+            "v": "May 9",
+            "c": "blue"
+          },
+          {
+            "k": " Trade Balance (billion USD)(Apr)",
+            "v": "May 8",
+            "c": "blue"
+          },
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "May 8",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 332,
+    "telegramText": "<b>MARKET WRAP</b> — Apr 29, 2026\n\n<i>Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioning, with Bitcoin emerging as an unconventional safe haven amid geopolitical stress. The divergence between risk assets and traditional hedges like gold signals growing institutional concern over macro stability and potential regime shifts ahead.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$75,699</b> · ETH: <b>$2,243</b> · SOL: <b>$82.64</b> · GOLD: <b>$4,548</b> · SPY: <b>$711.58</b> (-0.5%) · QQQ: <b>$661.57</b> (-0.4%) · VIX: <b>$18.81</b> (+5.5%) · TLT: <b>$85.7</b> (-0.7%) · DXY: <b>$98.94</b> (+0.3%) · OIL: <b>$108.49</b> (+8.6%)\n\n<b>EVENING NEWS</b>\n▼ The U.S. produces the most oil in the world. So why are gasoline prices so high?\n▲ Bitcoin ETFs see $823M inflows led by BlackRock’s IBIT amid US-Iran tensions\n▲ Trump Blockade, Macklem Comments Cause Canada Bonds to Tumble\n▲ Paul Tudor Jones: Bitcoin’s value is rising amid dollar decline, predicting $200,000 to $3\n▼ Celsius Founder Alex Mashinsky Banned From Crypto Industry in $10 Million FTC Settlement\n▼ Bitcoin Dips Under $76K as Fed Holds Rates in Rare 8-4 Split\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed split decision suggests policy uncertainty typical of cycle peaks\n▼ Goldilocks: Fed split and geopolitical tensions disrupt balanced growth narrative\n▲ Stagflation: High energy prices despite production capacity plus rate policy uncertainty\n▲ Hegemony: US-Iran tensions and dollar dynamics reinforce power competition themes\n▲ Displacement: Bitcoin institutional adoption accelerates amid traditional system stress\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's dip to $75K on Fed news may be temporary noise - institutional flows and geopolitical dema\n• High gas prices despite US oil leadership might signal domestic refining bottlenecks rather than sup\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-04-29",
     "time": "15:15 UTC",

@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-29",
+    "time": "21:15 UTC",
+    "headline": "Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioni…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 17 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "MIXED",
+        "c": "yellow"
+      },
+      {
+        "t": "US Trade Balance (billion USD)",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 23
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Trade Balance (billion USD)(Apr)",
+            "v": "May 9",
+            "c": "blue"
+          },
+          {
+            "k": " Trade Balance (billion USD)(Apr)",
+            "v": "May 8",
+            "c": "blue"
+          },
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "May 8",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 29, 2026\n\n<i>Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioning, with Bitcoin emerging as an unconventional safe haven amid geopolitical stress. The divergence between risk assets and traditional hedges like gold signals growing institutional concern over macro stability and potential regime shifts ahead.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$75,699</b> · ETH: <b>$2,243</b> · SOL: <b>$82.64</b> · GOLD: <b>$4,548</b> · SPY: <b>$711.58</b> (-0.5%) · QQQ: <b>$661.57</b> (-0.4%) · VIX: <b>$18.81</b> (+5.5%) · TLT: <b>$85.7</b> (-0.7%) · DXY: <b>$98.94</b> (+0.3%) · OIL: <b>$108.49</b> (+8.6%)\n\n<b>EVENING NEWS</b>\n▼ The U.S. produces the most oil in the world. So why are gasoline prices so high?\n▲ Bitcoin ETFs see $823M inflows led by BlackRock’s IBIT amid US-Iran tensions\n▲ Trump Blockade, Macklem Comments Cause Canada Bonds to Tumble\n▲ Paul Tudor Jones: Bitcoin’s value is rising amid dollar decline, predicting $200,000 to $3\n▼ Celsius Founder Alex Mashinsky Banned From Crypto Industry in $10 Million FTC Settlement\n▼ Bitcoin Dips Under $76K as Fed Holds Rates in Rare 8-4 Split\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed split decision suggests policy uncertainty typical of cycle peaks\n▼ Goldilocks: Fed split and geopolitical tensions disrupt balanced growth narrative\n▲ Stagflation: High energy prices despite production capacity plus rate policy uncertainty\n▲ Hegemony: US-Iran tensions and dollar dynamics reinforce power competition themes\n▲ Displacement: Bitcoin institutional adoption accelerates amid traditional system stress\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's dip to $75K on Fed news may be temporary noise - institutional flows and geopolitical dema\n• High gas prices despite US oil leadership might signal domestic refining bottlenecks rather than sup\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 332
+  },
+  {
     "session": "midday",
     "date": "2026-04-29",
     "time": "15:15 UTC",
@@ -1423,58 +1471,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 22, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,992</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,400</b> — 1d: IGNITION | 4h: IGNITION\n• SOL: <b>$88.53</b> — 1d: IGNITION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 200,000,000 USDC ($199,925,300)\n  <i>transferred from USDC Treasury to #Coinbase</i>\n• 200,000,000 USDC ($199,927,500)\n  <i>minted at USDC Treasury</i>\n• 635 BTC ($50,080,084)\n  <i>transferred from unknown wallet to #Robinhood</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 265% net APR (0.0256% rate)\n  Long Bybit / Short Binance | OI: $17.4M | Spread: -0.17%\n• <b>CHIP</b>: 71% net APR (0.0956% rate)\n  Long Bybit / Short Bitget | OI: $12.7M | Spread: 0.32%\n• <b>M</b>: 105% net APR (0.0912% rate)\n  Long Bitget / Short Bybit | OI: $18.3M | Spread: 0.20%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $207,110,269 | Longs: 13% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Bitcoin institutional adoption accelerates [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 303
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-22",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 22, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 0/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 0
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "SLV",
-            "v": "-7.0%",
-            "c": "red"
-          },
-          {
-            "k": "TKMS",
-            "v": "-5.4%",
-            "c": "red"
-          },
-          {
-            "k": "RTX",
-            "v": "-4.7%",
-            "c": "red"
-          },
-          {
-            "k": "ITA",
-            "v": "-3.8%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 22, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with crypto-led risk appetite amid overheating signals. Bitcoin surged past $77K on institutional flows while traditional assets diverge — gold dumping despite Iran tensions. Macro regime shows overheating but cross-asset dislocations suggest transitional dynamics.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expanding but financial conditions tightening\nKey prices: SPY -0.9% | QQQ -0.7% | VIX -1.6% | TLT -0.6% | DXY -0.1% | OIL -1.5%\nICSA: 207K (trending up, low stress)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Crypto Institutional Breakout\nBTC: $82-86K (+5-10%)\nETH: $2,600-2,750 (+9-15%)\nSPY: $710-730 (+1-4%)\n\n<b>SCENARIO B</b> — Geopolitical Risk Premium\nOIL: $95-105 (+5-16%)\nGLD: $4,850-5,100 (+4-9%)\nDXY: 100-102 (+2-4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $670-690 (-5-2%)\nTLT: $90-94 (+4-9%)\nVIX: $25-30 (+30-56%)\n\n<b>SECTOR STRENGTH</b>\n1. Energy (XLE +1.5%) — strong\n2. Industrials (XLI -1.2%) — weak\n3. Consumer Disc (XLY -1.2%) — rotating\n4. Real Estate (XLRE -1.6%) — dump\n5. Defense (ITA -3.8%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV -7.0% — US-Iran tensions paradoxically pressuring precious metals as crypto absorbs safe haven flows\nRTX -4.7% — defense sector rotation despite geopolitical tensions\nITA -3.8% — Capital One loan loss provisions signal broader credit stress hitting defense ETF\nPEPE +3.7% — ETH bullish triangle formation driving meme coin speculation \nONDO +3.5% — RWA narrative accelerating on SEC Reg Crypto framework anticipation\n<i>Traditional safe havens failing while crypto captures institutional flows, suggesting paradigm shift in risk asset hierarchy.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $17.7M long vs $28.8M short, +$5M PnL with 13-day ETF inflow streak at +$531M daily. ETH more balanced at $24.7M/$23.7M but +$976K PnL. HYPE seeing $23M short interest with -$278K losses.\nInstitutional crypto adoption accelerating while traditional hedges underperform.\n\n<b>IMPLICATION</b>\nTactical opportunity in crypto beta vs traditional defensives as institutional adoption creates structural bid. Monitor credit stress signals from financials while geopolitical premium fades from traditional safe havens.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 302
   }
 ]

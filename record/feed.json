@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-29-evening",
+      "url": "https://agentcanary.ai/record/2026/04/29#evening",
+      "title": "Evening Wrap — Apr 29, 2026",
+      "content_text": "Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioni… OVERHEATING. 17 news items. 5 scenario shifts.",
+      "summary": "Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioni…",
+      "date_published": "2026-04-29T21:15:04.488Z",
+      "tags": [
+        "mixed",
+        "us-trade-balance-(billion-usd)"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-29-midday",
       "url": "https://agentcanary.ai/record/2026/04/29#midday",
       "title": "Market Pulse — Apr 29, 2026",
@@ -745,21 +760,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-17-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/17#intelligence",
-      "title": "Signal Scan — Apr 17, 2026",
-      "content_text": "SIGNAL SCAN — Apr 17, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 17, 2026",
-      "date_published": "2026-04-17T09:15:30.678Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
