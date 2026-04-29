@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-29-intelligence",
+      "url": "https://agentcanary.ai/record/2026/04/29#intelligence",
+      "title": "Signal Scan — Apr 29, 2026",
+      "content_text": "SIGNAL SCAN — Apr 29, 2026 Risk 23/100 · 7 movers",
+      "summary": "SIGNAL SCAN — Apr 29, 2026",
+      "date_published": "2026-04-29T09:15:27.231Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-04-29-morning",
       "url": "https://agentcanary.ai/record/2026/04/29#morning",
       "title": "Morning Brief — Apr 29, 2026",
@@ -745,21 +760,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-16-evening",
-      "url": "https://agentcanary.ai/record/2026/04/16#evening",
-      "title": "Evening Wrap — Apr 16, 2026",
-      "content_text": "Markets displayed cautious euphoria as Bitcoin's institutional adoption drive pushed it toward $75K,… OVERHEATING. 18 news items. 5 scenario shifts.",
-      "summary": "Markets displayed cautious euphoria as Bitcoin's institutional adoption drive pushed it toward $75K,…",
-      "date_published": "2026-04-16T21:15:04.868Z",
-      "tags": [
-        "mixed",
-        "us-unseasonally-adjusted-consu"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
