@@ -1,61 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-04-30",
-  "time": "15:15 UTC",
-  "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:RISK_OFF 4h:RISK_OFF · ETH 1d:RISK_OFF 4h:RISK_OFF · SOL 1d:BEAR_REGIME 4h:ACCUMULATION",
+  "time": "21:15 UTC",
+  "headline": "Risk-On · Neutral · Gauge 22.6/100",
+  "headlineColor": "#A78BFA",
+  "desc": "OVERHEATING. 17 news items. 6 scenario shifts.",
   "tags": [
     {
-      "t": "RISK_OFF",
+      "t": "BEARISH SKEW",
       "c": "red"
     },
     {
-      "t": "WHALE ALERT",
+      "t": "US Trade Balance (billion USD)",
       "c": "blue"
-    },
-    {
-      "t": "MEGA 210% APR",
-      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "RISK_OFF",
-          "c": "red"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "RISK_OFF",
-          "c": "red"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "BEAR_REGIME",
-          "c": "red"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 23
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$50M BTC",
-          "v": "transferred from unk",
+          "k": "US Trade Balance (billion USD)(Apr)",
+          "v": "May 9",
           "c": "blue"
         },
         {
-          "k": "$50M BTC",
-          "v": "transferred from #Ro",
+          "k": " Trade Balance (billion USD)(Apr)",
+          "v": "May 8",
+          "c": "blue"
+        },
+        {
+          "k": "US University of Michigan Consumer Con",
+          "v": "May 8",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Apr 30, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$76,300</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$2,262</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$83.18</b> — 1d: BEAR_REGIME | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 656 BTC ($50,074,339)\n  <i>transferred from unknown wallet to #Robinhood</i>\n• 656 BTC ($50,128,619)\n  <i>transferred from #Robinhood to unknown wallet</i>\n• 656 BTC ($50,211,929)\n  <i>transferred from #Robinhood to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>MEGA</b>: 134% net APR (0.0961% rate)\n  Long Binance / Short Bybit | OI: $6.5M | Spread: 0.15%\n• <b>NAORIS</b>: 158% net APR (0.0771% rate)\n  Long Bitget / Short Bybit | OI: $6.0M | Spread: -0.03%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $113,719,921 | Longs: 86% | L/S: 6.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Fed Policy Divergence and Rate Hold [DXY, EUR/USD, GBP/USD]\n▼ Bitcoin ETF Volatility and Whale Activity [BTC, COIN, MSTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 335
+  "telegramText": "<b>MARKET WRAP</b> — Apr 30, 2026\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,491</b> · ETH: <b>$2,264</b> · SOL: <b>$83.08</b> · GOLD: <b>$4,616</b> · SPY: <b>$718.66</b> (+1.0%) · QQQ: <b>$667.74</b> (+1.5%) · VIX: <b>$16.89</b> (-10.2%) · TLT: <b>$85.62</b> (-0.9%) · DXY: <b>$98.1</b> (-0.8%) · OIL: <b>$105.41</b> (-1.4%)\n\n<b>EVENING NEWS</b>\n▲ Apple credits ‘most popular’ ever iPhone for booming sales\n▲ AIG Profit Jumps as CEO Zaffino’s Strategic Deals Take Effect\n▼ Citi’s Bhatia Warns of Private Credit ‘Tourists’ Forced to Sell\n▲ Eli Lilly profits more than double as weight-loss revenue soars\n▲ Fitch Warns US Debt Burden Is ‘Far Above’ Other AA Rated Nations\n▲ Binance Draws Industry Praise For MegaETH’s MEGA Token Listing\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed split and policy uncertainty with EM stress signals cycle maturity\n▲ Recession: EM weakness and slowing growth in major economies\n▼ Goldilocks: Fed uncertainty and geopolitical tensions disrupt balanced growth\n▲ Stagflation: Energy price pressures persist despite Fed hawkishness\n▲ Hegemony: UAE-OPEC exit shows US energy influence, dollar strength continues\n▲ Displacement: Institutional crypto adoption accelerating despite price volatility\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 22.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's whale selling at $78K resistance might signal smart money preparing for Paul Tudor Jones's\n• The Fed's 8-4 split could actually reduce policy uncertainty by forcing clearer communication rather\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 336
 }

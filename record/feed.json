@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-04-30-evening",
+      "url": "https://agentcanary.ai/record/2026/04/30#evening",
+      "title": "Evening Wrap — Apr 30, 2026",
+      "content_text": "Risk-On · Neutral · Gauge 22.6/100 OVERHEATING. 17 news items. 6 scenario shifts.",
+      "summary": "Risk-On · Neutral · Gauge 22.6/100",
+      "date_published": "2026-04-30T21:15:01.784Z",
+      "tags": [
+        "bearish-skew",
+        "us-trade-balance-(billion-usd)"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-04-30-midday",
       "url": "https://agentcanary.ai/record/2026/04/30#midday",
       "title": "Market Pulse — Apr 30, 2026",
@@ -746,21 +761,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-18-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/18#intelligence",
-      "title": "Signal Scan — Apr 18, 2026",
-      "content_text": "SIGNAL SCAN — Apr 18, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 18, 2026",
-      "date_published": "2026-04-18T09:15:27.808Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

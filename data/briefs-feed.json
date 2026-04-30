@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-04-30",
+    "time": "21:15 UTC",
+    "headline": "Risk-On · Neutral · Gauge 22.6/100",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 17 news items. 6 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Trade Balance (billion USD)",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 23
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Trade Balance (billion USD)(Apr)",
+            "v": "May 9",
+            "c": "blue"
+          },
+          {
+            "k": " Trade Balance (billion USD)(Apr)",
+            "v": "May 8",
+            "c": "blue"
+          },
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "May 8",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — Apr 30, 2026\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,491</b> · ETH: <b>$2,264</b> · SOL: <b>$83.08</b> · GOLD: <b>$4,616</b> · SPY: <b>$718.66</b> (+1.0%) · QQQ: <b>$667.74</b> (+1.5%) · VIX: <b>$16.89</b> (-10.2%) · TLT: <b>$85.62</b> (-0.9%) · DXY: <b>$98.1</b> (-0.8%) · OIL: <b>$105.41</b> (-1.4%)\n\n<b>EVENING NEWS</b>\n▲ Apple credits ‘most popular’ ever iPhone for booming sales\n▲ AIG Profit Jumps as CEO Zaffino’s Strategic Deals Take Effect\n▼ Citi’s Bhatia Warns of Private Credit ‘Tourists’ Forced to Sell\n▲ Eli Lilly profits more than double as weight-loss revenue soars\n▲ Fitch Warns US Debt Burden Is ‘Far Above’ Other AA Rated Nations\n▲ Binance Draws Industry Praise For MegaETH’s MEGA Token Listing\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed split and policy uncertainty with EM stress signals cycle maturity\n▲ Recession: EM weakness and slowing growth in major economies\n▼ Goldilocks: Fed uncertainty and geopolitical tensions disrupt balanced growth\n▲ Stagflation: Energy price pressures persist despite Fed hawkishness\n▲ Hegemony: UAE-OPEC exit shows US energy influence, dollar strength continues\n▲ Displacement: Institutional crypto adoption accelerating despite price volatility\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 22.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's whale selling at $78K resistance might signal smart money preparing for Paul Tudor Jones's\n• The Fed's 8-4 split could actually reduce policy uncertainty by forcing clearer communication rather\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 336
+  },
+  {
     "session": "midday",
     "date": "2026-04-30",
     "time": "15:15 UTC",
@@ -1423,58 +1471,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 23, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,091</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,329</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$85.91</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($249,923,375)\n  <i>minted at USDC Treasury</i>\n• 780 BTC ($60,504,141)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 350,000,000 USDT ($350,261,876)\n  <i>minted at Tether Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 75% net APR (0.0336% rate)\n  Long Bitget / Short Bybit | OI: $15.3M | Spread: 0.54%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $75,459,061 | Longs: 45% | L/S: 0.8:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Crypto Market Stabilization [BTC, ETH, crypto sector]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 307
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-23",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 23, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 0/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 0
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "RTX",
-            "v": "-7.6%",
-            "c": "red"
-          },
-          {
-            "k": "TKMS",
-            "v": "-6.9%",
-            "c": "red"
-          },
-          {
-            "k": "ITA",
-            "v": "-5.5%",
-            "c": "red"
-          },
-          {
-            "k": "BRENT",
-            "v": "+4.8%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 23, 2026\n\n<b>SNAPSHOT</b>\nRisk-on regime with tech/energy leading amid geopolitical tensions. Markets pricing overheating dynamics as liquidity expands despite rising VIX. Cross-asset divergence emerging as defensive sectors get dumped while commodities surge on supply concerns.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 0.0/100 (Calm)\nRegime: OVERHEATING — liquidity expansion driving risk assets despite geopolitical backdrop\nSPY +0.35% | QQQ +1.29% | VIX +4.12% | TLT -0.36% | DXY +0.10% | OIL +2.62%\nICSA: 207K (trending up, -0.43 sigma)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Energy Crisis Escalation\nSPY: $640-675 (-10% to -5%)\nOIL: $110-125 (+15% to +31%)\nVIX: $28-35 (+42% to +78%)\n\n<b>SCENARIO B</b> — Tech Momentum Continuation  \nQQQ: $705-735 (+8% to +12%)\nSPY: $740-770 (+4% to +8%)\nVIX: $14-17 (-29% to -14%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $620-660 (-13% to -7%)\nTLT: $92-96 (+6% to +11%)\nDXY: $103-107 (+4% to +8%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +3.0%) — bid\n2. Semiconductors (SMH +2.77%) — strong  \n3. Energy (XLE +2.67%) — strong\n4. Technology (XLK +2.28%) — rotating\n5. Defense (ITA -5.48%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nRTX $180.91 (-7.6%) — Q1 beat overshadowed by commercial aerospace headwinds, BofA downgrade\nBRENT $103.19 (+4.8%) — Middle East tensions as Greek cargo ship attacked near Hormuz Strait\nVIX $19.7 (+4.1%) — geopolitical premium despite risk-on flows\nUNI $3.27 (-2.7%) — United Airlines hiking ticket prices 15-20% on fuel costs pressuring travel tokens\nXMR $362.35 (-3.7%) — privacy coin rotation amid regulatory uncertainty\n<i>Energy supply shock fears driving commodity surge while defense selloff suggests market pricing tactical rather than strategic conflict escalation.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531.0M inflow (13-day streak) — institutional accumulation accelerating\nWhale activity: BTC shorts $47.7M vs zero longs, ETH mixed $9.3M long/$12.3M short\nContrarian signal: Tokyo property decline may indicate healthy correction vs economic warning\n\n<b>IMPLICATION</b>\nEnergy supply premium creating tactical long opportunity in XLE vs defensive sectors, while sustained crypto inflows suggest institutional portfolio allocation continuing. Consider oil/defense spread as market prices geopolitical risk selectively.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 306
   }
 ]
