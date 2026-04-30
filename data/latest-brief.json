@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-04-30",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge 22.6/100",
-  "headlineColor": "#34D399",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Apr 30, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 22.6/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE 22.6",
-      "c": "green"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1/6 NORMAL",
+          "k": "MOH",
+          "v": "+9.6%",
           "c": "green"
+        },
+        {
+          "k": "WTI",
+          "v": "+8.5%",
+          "c": "green"
+        },
+        {
+          "k": "TKMS",
+          "v": "+6.0%",
+          "c": "green"
+        },
+        {
+          "k": "SLV",
+          "v": "-5.1%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Apr 30, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 22.6/100\n\n• BTC: <b>$75,724</b>\n• ETH: <b>$2,246</b>\n• SOL: <b>$82.98</b>\n• GOLD: <b>$4,548</b>\nSPY: <b>$711.58</b> (-0.5%)\nQQQ: <b>$661.57</b> (-0.4%)\nVIX: <b>18.8</b> (+5.5%)\nTLT: <b>$85.7</b> (-0.7%)\nDXY: <b>99.0</b> (+0.4%)\nOIL: <b>$108.27</b> (+8.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.15T</b> (YoY -3.09%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ Gold: -2.38σ\n▼ 30Y Treasury: +2.33σ\n▼ WTREGEN: +2.21σ\n▼ 10Y Breakeven Inflation: +2.19σ\n▼ 10Y Treasury: +1.70σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +13.4%\n\n<b>TOP MOVERS</b>\n▲ MOH $196 (+9.6%)\n▲ WTI $108 (+8.5%)\n▲ OIL $108 (+8.3%) — The U.S. produces the most oil in the world. So why are gaso\n▲ TKMS $84.80 (+6.0%)\n▲ VIX $18.81 (+5.5%)\n▼ PI $0.1812 (-4.2%)\n▲ DOGE $0.1054 (+3.2%)\n▲ APT $1.01 (+2.9%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4548 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 333
+  "telegramText": "<b>SIGNAL SCAN</b> — April 30, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with energy-led rotation masking broad risk-off undertones. Fed's 8-4 split decision creates policy uncertainty while BTC whale distribution at $78K resistance signals institutional caution. Cross-asset divergence as commodities reprice geopolitical premiums while growth assets fade.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 22.6/100 (Low)\nRegime: OVERHEATING — inflation expectations rising amid tightening financial conditions\nKey prices: SPY -0.5% | QQQ -0.4% | VIX -1.9% | TLT -0.7% | DXY -0.1% | OIL +1.0%\nICSA: 214K (neutral, slight uptick)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Fed Clarity Rally\nSPY: $740-760 (+4-7%)\nBTC: $78-82K (+3-8%)\nTLT: $88-91 (+3-6%)\n\n<b>SCENARIO B</b> — Geopolitical Energy Shock\nOIL: $115-125 (+7-16%)\nSPY: $675-690 (-3-5%)\nDXY: $101-103 (+2-4%)\n\n<b>SCENARIO C</b> — Late Cycle Unwind\nVIX: $25-30 (+35-60%)\nBTC: $68-72K (-5-11%)\nTLT: $90-95 (+5-11%)\n\n<b>SECTOR STRENGTH</b>\n1. ENERGY (XLE +4.0%) — strong\n2. STAPLES (XLP +0.7%) — rotating\n3. REAL ESTATE (XLRE +0.3%) — bid\n4. BIOTECH (XBI -3.1%) — dump\n5. URANIUM (URA -6.7%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH +9.6% — Medicaid headwinds ending, Q1 premium beats across health insurers\nWTI +8.5% — Record producer profits expected, Trump rejects Iran blockade offers\nXLE +4.0% — O&G producers \"insanely undervalued\" per analyst coverage\nSLV -5.1% — Industrial metals selloff on growth concerns\nTKMS +6.0% — Defense rotation continues\nPENDLE -3.1% — DeFi yield protocols under pressure\n<i>Energy dominance masking broader defensive rotation as late-cycle signals intensify.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M (13-day streak) despite price resistance at $78K. Whale data shows mixed signals: $82M BTC longs vs $526K realized losses, suggesting distribution. ETH positioning bullish with $16.7M long bias, zero shorts.\n\n<b>IMPLICATION</b>\nTactical energy overweight justified but watch for reversal if geopolitical premiums fade. BTC's institutional inflow streak against whale selling suggests retail FOMO — fade strength above $78K resistance.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 334
 }
