@@ -1,53 +1,57 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-05-01",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — May 1, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 33.8/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC ACCUMULATION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:ACCUMULATION 4h:IGNITION · ETH 1d:ACCUMULATION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:IGNITION",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "OVERHEATING",
-      "c": "blue"
+      "t": "B 286% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 34
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "BRENT",
-          "v": "-5.4%",
-          "c": "red"
-        },
-        {
-          "k": "SOXX",
-          "v": "+5.2%",
+          "k": "BTC 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "MOH",
-          "v": "+4.9%",
+          "k": "ETH 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "+4.1%",
+          "k": "SOL 1D",
+          "v": "ACCUMULATION",
           "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$50M BTC",
+          "v": "transferred from #Ro",
+          "c": "blue"
+        },
+        {
+          "k": "$50M BTC",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — May 1, 2026\n\n<b>SNAPSHOT</b>\nRisk-on regime with overheating signals as tech and energy lead broad equity rally. Fed hawkishness supports dollar while crypto faces institutional selling pressure with $490M ETF outflows. Cross-asset divergence emerging between strong risk assets and defensive crypto positioning.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 33.8/100 (Low)\nRegime: OVERHEATING — inflation expectations rising while real yields fall\nSPY +0.98% | QQQ +1.55% | VIX +1.12% | TLT -0.87% | DXY -0.05% | OIL +1.03%\nICSA: 189K (trending down, employment strength)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Momentum Extension\nSPY: $740-760 (+3-6%)\nQQQ: $695-715 (+4-7%)\nVIX: $14-16 (-18-6%)\n\n<b>SCENARIO B</b> — Overheating Correction\nSPY: $680-700 (-5-3%)\nTLT: $88-92 (+3-7%)\nDXY: $100-102 (+2-4%)\n\n<b>SCENARIO C</b> — Crypto Capitulation\nBTC: $70-74K (-9-4%)\nETH: $2050-2180 (-10-5%)\nSOL: $75-80 (-11-5%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +4.04%) — strong\n2. Energy (XLE +3.36%) — rotating\n3. Semiconductors (SMH +3.16%) — bid\n4. Industrials (XLI +2.11%) — rotating\n5. Healthcare (XLV +1.49%) — defensive\n\n<b>BIG MOVES + DRIVERS</b>\nBRENT $111.68 (-5.4%) — California gas hits $6, Iran conflict premium unwinding\nSOXX $461.44 (+5.2%) — tech sector ETF momentum as Nasdaq posts best month since 2020\nMOH $194.62 (+4.9%) — healthcare defensive rotation amid macro uncertainty\nHYPE $40.35 (+2.6%) — DeFi infrastructure narrative gaining traction\nPENDLE $1.40 (+2.2%) — yield protocol benefiting from DeFi revival\n\n<i>Energy volatility contrasts with persistent tech strength as markets reprice geopolitical premiums while chasing growth.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak continues despite crypto whale shorting)\nWhale divergence: Large HYPE shorts ($33M) vs BTC longs ($36.3M) suggest rotation within crypto\nETH institutional shorts ($47.5M) signal defensive positioning ahead of potential correction\n\n<b>IMPLICATION</b>\nTactical opportunity in long tech/short energy spread if geopolitical premium continues fading. Consider crypto exposure reduction given institutional outflow pressure despite ETF inflows. Healthcare offers defensive positioning while maintaining growth exposure through semis.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 338
+  "telegramText": "<b>MARKET PULSE</b> — May 1, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,398</b> — 1d: ACCUMULATION | 4h: IGNITION\n• ETH: <b>$2,309</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$84.23</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 639 BTC ($50,251,425)\n  <i>transferred from #Robinhood to unknown wallet</i>\n• 639 BTC ($50,077,064)\n  <i>transferred from unknown wallet to #Robinhood</i>\n• 639 BTC ($50,077,064)\n  <i>transferred from unknown wallet to #Robinhood</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>B</b>: 362% net APR (0.1304% rate)\n  Long Bybit / Short Binance | OI: $7.2M | Spread: -0.27%\n• <b>SKYAI</b>: 327% net APR (0.1110% rate)\n  Long Binance / Short Bitget | OI: $48.2M | Spread: -0.31%\n• <b>UB</b>: 211% net APR (0.0978% rate)\n  Long OKX / Short Bybit | OI: $7.2M | Spread: -0.05%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $128,954,265 | Longs: 8% | L/S: 0.1:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto Market Stress [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 339
 }
