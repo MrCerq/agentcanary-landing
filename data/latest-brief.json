@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-04-30",
-  "time": "21:15 UTC",
-  "headline": "Risk-On · Neutral · Gauge 22.6/100",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 17 news items. 6 scenario shifts.",
+  "session": "morning",
+  "date": "2026-05-01",
+  "time": "03:15 UTC",
+  "headline": "▲ Risk-On · Neutral · Gauge 33.8/100",
+  "headlineColor": "#34D399",
+  "desc": "OVERHEATING. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
-      "c": "red"
+      "t": "Risk-On · Neutral",
+      "c": "green"
     },
     {
-      "t": "US Trade Balance (billion USD)",
-      "c": "blue"
+      "t": "GAUGE 33.8",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 23
+        "value": 34
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Trade Balance (billion USD)(Apr)",
-          "v": "May 9",
-          "c": "blue"
-        },
-        {
-          "k": " Trade Balance (billion USD)(Apr)",
-          "v": "May 8",
-          "c": "blue"
-        },
-        {
-          "k": "US University of Michigan Consumer Con",
-          "v": "May 8",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0.5/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Apr 30, 2026\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,491</b> · ETH: <b>$2,264</b> · SOL: <b>$83.08</b> · GOLD: <b>$4,616</b> · SPY: <b>$718.66</b> (+1.0%) · QQQ: <b>$667.74</b> (+1.5%) · VIX: <b>$16.89</b> (-10.2%) · TLT: <b>$85.62</b> (-0.9%) · DXY: <b>$98.1</b> (-0.8%) · OIL: <b>$105.41</b> (-1.4%)\n\n<b>EVENING NEWS</b>\n▲ Apple credits ‘most popular’ ever iPhone for booming sales\n▲ AIG Profit Jumps as CEO Zaffino’s Strategic Deals Take Effect\n▼ Citi’s Bhatia Warns of Private Credit ‘Tourists’ Forced to Sell\n▲ Eli Lilly profits more than double as weight-loss revenue soars\n▲ Fitch Warns US Debt Burden Is ‘Far Above’ Other AA Rated Nations\n▲ Binance Draws Industry Praise For MegaETH’s MEGA Token Listing\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed split and policy uncertainty with EM stress signals cycle maturity\n▲ Recession: EM weakness and slowing growth in major economies\n▼ Goldilocks: Fed uncertainty and geopolitical tensions disrupt balanced growth\n▲ Stagflation: Energy price pressures persist despite Fed hawkishness\n▲ Hegemony: UAE-OPEC exit shows US energy influence, dollar strength continues\n▲ Displacement: Institutional crypto adoption accelerating despite price volatility\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 22.6/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's whale selling at $78K resistance might signal smart money preparing for Paul Tudor Jones's\n• The Fed's 8-4 split could actually reduce policy uncertainty by forcing clearer communication rather\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 336
+  "telegramText": "<b>MACRO RADAR</b> — May 1, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 33.8/100\n\n• BTC: <b>$76,537</b>\n• ETH: <b>$2,266</b>\n• SOL: <b>$83.56</b>\n• GOLD: <b>$4,616</b>\nSPY: <b>$718.66</b> (+1.0%)\nQQQ: <b>$667.74</b> (+1.5%)\nVIX: <b>16.9</b> (-10.2%)\nTLT: <b>$85.62</b> (-0.9%)\nDXY: <b>98.1</b> (-0.8%)\nOIL: <b>$105.5</b> (-1.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.14T</b> (YoY -3.03%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 2Y Treasury: +2.80σ\n▼ 10Y Treasury: +2.79σ\n▼ 30Y Treasury: +2.33σ\n▼ 10Y Breakeven Inflation: +2.19σ\n▲ Jobless Claims: -2.17σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.5%\n▲ SOL: +0.6%\n\n<b>TOP MOVERS</b>\n▼ VIX $16.89 (-10.2%)\n▼ BRENT $112 (-5.4%) — ECB sees two rate hikes if Brent stays above $100 – Reuters\n▲ SOXX $461 (+5.2%)\n▲ MOH $195 (+4.9%)\n▲ EWY $161 (+4.1%)\n▲ KHYPE $41.04 (+2.7%)\n▼ ZEC $345 (-2.6%)\n▲ HYPE $40.35 (+2.6%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 337
 }

@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-01",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge 33.8/100",
+    "headlineColor": "#34D399",
+    "desc": "OVERHEATING. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 33.8",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 34
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — May 1, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 33.8/100\n\n• BTC: <b>$76,537</b>\n• ETH: <b>$2,266</b>\n• SOL: <b>$83.56</b>\n• GOLD: <b>$4,616</b>\nSPY: <b>$718.66</b> (+1.0%)\nQQQ: <b>$667.74</b> (+1.5%)\nVIX: <b>16.9</b> (-10.2%)\nTLT: <b>$85.62</b> (-0.9%)\nDXY: <b>98.1</b> (-0.8%)\nOIL: <b>$105.5</b> (-1.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.14T</b> (YoY -3.03%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 2Y Treasury: +2.80σ\n▼ 10Y Treasury: +2.79σ\n▼ 30Y Treasury: +2.33σ\n▼ 10Y Breakeven Inflation: +2.19σ\n▲ Jobless Claims: -2.17σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.5%\n▲ SOL: +0.6%\n\n<b>TOP MOVERS</b>\n▼ VIX $16.89 (-10.2%)\n▼ BRENT $112 (-5.4%) — ECB sees two rate hikes if Brent stays above $100 – Reuters\n▲ SOXX $461 (+5.2%)\n▲ MOH $195 (+4.9%)\n▲ EWY $161 (+4.1%)\n▲ KHYPE $41.04 (+2.7%)\n▼ ZEC $345 (-2.6%)\n▲ HYPE $40.35 (+2.6%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 337
+  },
+  {
     "session": "evening",
     "date": "2026-04-30",
     "time": "21:15 UTC",
@@ -1414,62 +1452,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — Apr 23, 2026\n\n<i>Markets displayed classic late-cycle dynamics as crypto's institutional wave pushed BTC near $78K while traditional risk assets showed fatigue amid rising geopolitical tensions. The Fed's hawkish pivot is creating cracks in the Goldilocks narrative, with displacement themes gaining traction as central bank coordination weakens.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$77,885</b> · ETH: <b>$2,324</b> · SOL: <b>$85.66</b> · GOLD: <b>$4,699</b> · SPY: <b>$708.45</b> (+0.6%) · QQQ: <b>$651.42</b> (+1.1%) · VIX: <b>$19.31</b> (+2.1%) · TLT: <b>$86.55</b> (-0.0%) · DXY: <b>$98.79</b> (+0.2%) · OIL: <b>$97</b> (+4.3%)\n\n<b>EVENING NEWS</b>\n▲ Saylor’s Strategy Secures $18M Capital For STRC Despite Peter Schiff’s Ponzi Claims\n▼ Pantera Urges Satsuma to Sell $50M Bitcoin Holdings\n▼ Canadian Stocks Tick Lower As Iran Declines Peace Talks Despite U.S. Extending Ceasefire \n▲ South Korea: Growth surge and BoK hike risks – ING\n▲ While Popular Cryptos ADA and LTC Slump, Crypto Enthusiasts Move to Spartans.com Following\n▲ Fed’s Bowman Cautions Wall Street CEOs Against Capital Gripes\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Central bank tightening amid growth and crypto speculation signals late cycle dynamics\n▼ Goldilocks: Rising rates, geopolitical tensions, and regulatory pressure challenge soft landing narrative\n▲ Stagflation: Geopolitical tensions threaten energy supplies while central banks remain hawkish\n▲ Hegemony: Iran rejecting peace talks and continued Middle East tensions challenge U.S. influence\n▲ Displacement: Crypto institutional adoption continues despite regulatory headwinds, suggesting structural shift\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS ISM Manufacturing Purchasing Managers Index(Apr) — May 1, 02:00 PM UTC (prev: 52.7)\n Producer Price Index (YoY)(Q1) — May 1, 01:30 AM UTC (prev: 3.5%)\nUS Personal consumption expenditure price index (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.4%)\nUS Personal consumption expenditure price index (AQR)(Preliminary)(Q1) — Apr 30, 12:30 PM UTC\nUS Personal income (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: -0.1%)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 30, 12:30 PM UTC (prev: 55.4)\n\n<b>CONTRARIAN</b>\n• Pantera's push for Satsuma to sell $50M in Bitcoin could signal institutional profit-taking at poten\n• South Korea's growth surge amid global uncertainty may be unsustainable and could reverse quickly if\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 308
-  },
-  {
-    "session": "midday",
-    "date": "2026-04-23",
-    "time": "15:15 UTC",
-    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:DISTRIBUTION 4h:RISK_OFF",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "RAVE 294% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$250M USDC",
-            "v": "minted at USDC Treas",
-            "c": "blue"
-          },
-          {
-            "k": "$61M BTC",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — Apr 23, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,091</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,329</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$85.91</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n\n\n<b>WHALE ALERTS</b>\n• 250,000,000 USDC ($249,923,375)\n  <i>minted at USDC Treasury</i>\n• 780 BTC ($60,504,141)\n  <i>transferred from unknown wallet to Coinbase Institutional</i>\n• 350,000,000 USDT ($350,261,876)\n  <i>minted at Tether Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>RAVE</b>: 75% net APR (0.0336% rate)\n  Long Bitget / Short Bybit | OI: $15.3M | Spread: 0.54%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $75,459,061 | Longs: 45% | L/S: 0.8:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Crypto Market Stabilization [BTC, ETH, crypto sector]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 307
   }
 ]
