@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-01",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 1, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 33.8/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 34
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "BRENT",
+            "v": "-5.4%",
+            "c": "red"
+          },
+          {
+            "k": "SOXX",
+            "v": "+5.2%",
+            "c": "green"
+          },
+          {
+            "k": "MOH",
+            "v": "+4.9%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "+4.1%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 1, 2026\n\n<b>SNAPSHOT</b>\nRisk-on regime with overheating signals as tech and energy lead broad equity rally. Fed hawkishness supports dollar while crypto faces institutional selling pressure with $490M ETF outflows. Cross-asset divergence emerging between strong risk assets and defensive crypto positioning.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 33.8/100 (Low)\nRegime: OVERHEATING — inflation expectations rising while real yields fall\nSPY +0.98% | QQQ +1.55% | VIX +1.12% | TLT -0.87% | DXY -0.05% | OIL +1.03%\nICSA: 189K (trending down, employment strength)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Momentum Extension\nSPY: $740-760 (+3-6%)\nQQQ: $695-715 (+4-7%)\nVIX: $14-16 (-18-6%)\n\n<b>SCENARIO B</b> — Overheating Correction\nSPY: $680-700 (-5-3%)\nTLT: $88-92 (+3-7%)\nDXY: $100-102 (+2-4%)\n\n<b>SCENARIO C</b> — Crypto Capitulation\nBTC: $70-74K (-9-4%)\nETH: $2050-2180 (-10-5%)\nSOL: $75-80 (-11-5%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +4.04%) — strong\n2. Energy (XLE +3.36%) — rotating\n3. Semiconductors (SMH +3.16%) — bid\n4. Industrials (XLI +2.11%) — rotating\n5. Healthcare (XLV +1.49%) — defensive\n\n<b>BIG MOVES + DRIVERS</b>\nBRENT $111.68 (-5.4%) — California gas hits $6, Iran conflict premium unwinding\nSOXX $461.44 (+5.2%) — tech sector ETF momentum as Nasdaq posts best month since 2020\nMOH $194.62 (+4.9%) — healthcare defensive rotation amid macro uncertainty\nHYPE $40.35 (+2.6%) — DeFi infrastructure narrative gaining traction\nPENDLE $1.40 (+2.2%) — yield protocol benefiting from DeFi revival\n\n<i>Energy volatility contrasts with persistent tech strength as markets reprice geopolitical premiums while chasing growth.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak continues despite crypto whale shorting)\nWhale divergence: Large HYPE shorts ($33M) vs BTC longs ($36.3M) suggest rotation within crypto\nETH institutional shorts ($47.5M) signal defensive positioning ahead of potential correction\n\n<b>IMPLICATION</b>\nTactical opportunity in long tech/short energy spread if geopolitical premium continues fading. Consider crypto exposure reduction given institutional outflow pressure despite ETF inflows. Healthcare offers defensive positioning while maintaining growth exposure through semis.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 338
+  },
+  {
     "session": "morning",
     "date": "2026-05-01",
     "time": "03:15 UTC",
@@ -1404,53 +1457,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 24, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 8.9/100\n\n• BTC: <b>$78,154</b>\n• ETH: <b>$2,320</b>\n• SOL: <b>$85.92</b>\n• GOLD: <b>$4,699</b>\nSPY: <b>$708.45</b> (+0.6%)\nQQQ: <b>$651.42</b> (+1.1%)\nVIX: <b>19.3</b> (+2.1%)\nTLT: <b>$86.55</b> (-0.0%)\nDXY: <b>98.9</b> (+0.3%)\nOIL: <b>$96.61</b> (+3.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.07%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>284bps</b> CALM (5d: -1bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTREGEN: +2.29σ\n▼ 10Y Breakeven Inflation: +2.08σ\n▼ Fed Balance Sheet: +1.73σ\n▲ DTWEXBGS: -1.68σ\n— CPI: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +8.3%\n\n<b>TOP MOVERS</b>\n▲ MOH $175 (+15.7%)\n▲ M $4.69 (+9.8%)\n▼ RSETH $2,077 (-4.9%)\n▲ SOXX $441 (+4.8%)\n▼ RTX $179 (-4.2%)\n▲ OIL $96.61 (+3.9%) — Japan’s Inflation Picks Up as Oil Clouds Outlook Ahead of BO\n▲ BRENT $106 (+3.9%)\n▲ PENGU $0.008699 (+3.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $101 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 309
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-23",
-    "time": "21:15 UTC",
-    "headline": "Markets displayed classic late-cycle dynamics as crypto's institutional wave pushed BTC near $78K wh…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 16 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "US ISM Manufacturing Purchasin",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 50
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US ISM Manufacturing Purchasing Manage",
-            "v": "May 1",
-            "c": "blue"
-          },
-          {
-            "k": " Producer Price Index (YoY)(Q1)",
-            "v": "May 1",
-            "c": "blue"
-          },
-          {
-            "k": "US Personal consumption expenditure pr",
-            "v": "Apr 30",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 23, 2026\n\n<i>Markets displayed classic late-cycle dynamics as crypto's institutional wave pushed BTC near $78K while traditional risk assets showed fatigue amid rising geopolitical tensions. The Fed's hawkish pivot is creating cracks in the Goldilocks narrative, with displacement themes gaining traction as central bank coordination weakens.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$77,885</b> · ETH: <b>$2,324</b> · SOL: <b>$85.66</b> · GOLD: <b>$4,699</b> · SPY: <b>$708.45</b> (+0.6%) · QQQ: <b>$651.42</b> (+1.1%) · VIX: <b>$19.31</b> (+2.1%) · TLT: <b>$86.55</b> (-0.0%) · DXY: <b>$98.79</b> (+0.2%) · OIL: <b>$97</b> (+4.3%)\n\n<b>EVENING NEWS</b>\n▲ Saylor’s Strategy Secures $18M Capital For STRC Despite Peter Schiff’s Ponzi Claims\n▼ Pantera Urges Satsuma to Sell $50M Bitcoin Holdings\n▼ Canadian Stocks Tick Lower As Iran Declines Peace Talks Despite U.S. Extending Ceasefire \n▲ South Korea: Growth surge and BoK hike risks – ING\n▲ While Popular Cryptos ADA and LTC Slump, Crypto Enthusiasts Move to Spartans.com Following\n▲ Fed’s Bowman Cautions Wall Street CEOs Against Capital Gripes\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Central bank tightening amid growth and crypto speculation signals late cycle dynamics\n▼ Goldilocks: Rising rates, geopolitical tensions, and regulatory pressure challenge soft landing narrative\n▲ Stagflation: Geopolitical tensions threaten energy supplies while central banks remain hawkish\n▲ Hegemony: Iran rejecting peace talks and continued Middle East tensions challenge U.S. influence\n▲ Displacement: Crypto institutional adoption continues despite regulatory headwinds, suggesting structural shift\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 0/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS ISM Manufacturing Purchasing Managers Index(Apr) — May 1, 02:00 PM UTC (prev: 52.7)\n Producer Price Index (YoY)(Q1) — May 1, 01:30 AM UTC (prev: 3.5%)\nUS Personal consumption expenditure price index (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: 0.4%)\nUS Personal consumption expenditure price index (AQR)(Preliminary)(Q1) — Apr 30, 12:30 PM UTC\nUS Personal income (MoM)(Mar) — Apr 30, 12:30 PM UTC (prev: -0.1%)\n Caixin Composite Purchasing Managers Index(Mar) — Apr 30, 12:30 PM UTC (prev: 55.4)\n\n<b>CONTRARIAN</b>\n• Pantera's push for Satsuma to sell $50M in Bitcoin could signal institutional profit-taking at poten\n• South Korea's growth surge amid global uncertainty may be unsustainable and could reverse quickly if\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 308
   }
 ]
