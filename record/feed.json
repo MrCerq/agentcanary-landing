@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-01-evening",
+      "url": "https://agentcanary.ai/record/2026/05/01#evening",
+      "title": "Evening Wrap — May 1, 2026",
+      "content_text": "Markets entered overheating territory as late-cycle dynamics intensified, with crypto infrastructure… OVERHEATING. 18 news items. 6 scenario shifts.",
+      "summary": "Markets entered overheating territory as late-cycle dynamics intensified, with crypto infrastructure…",
+      "date_published": "2026-05-01T21:15:04.533Z",
+      "tags": [
+        "bearish-skew",
+        "us-nar-seasonally-adjusted-exi"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-01-midday",
       "url": "https://agentcanary.ai/record/2026/05/01#midday",
       "title": "Market Pulse — May 1, 2026",
@@ -746,21 +761,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-19-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/19#intelligence",
-      "title": "Signal Scan — Apr 19, 2026",
-      "content_text": "SIGNAL SCAN — Apr 19, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 19, 2026",
-      "date_published": "2026-04-19T09:15:26.875Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-01",
+    "time": "21:15 UTC",
+    "headline": "Markets entered overheating territory as late-cycle dynamics intensified, with crypto infrastructure…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 18 news items. 6 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US NAR seasonally adjusted exi",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 34
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US NAR seasonally adjusted existing ho",
+            "v": "May 11",
+            "c": "blue"
+          },
+          {
+            "k": " Consumer Price Index for Residents ",
+            "v": "May 11",
+            "c": "blue"
+          },
+          {
+            "k": "US Trade Balance (billion USD)(Apr)",
+            "v": "May 9",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 340,
+    "telegramText": "<b>MARKET WRAP</b> — May 1, 2026\n\n<i>Markets entered overheating territory as late-cycle dynamics intensified, with crypto infrastructure gains offset by mounting debt concerns and stagflationary pressures. Despite regulatory tailwinds for digital assets, the convergence of hegemonic shifts and displacement risks kept traditional safe havens bid while equity resilience showed cracks.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$77,831</b> · ETH: <b>$2,284</b> · SOL: <b>$83.44</b> · GOLD: <b>$4,612</b> · SPY: <b>$720.65</b> (+1.3%) · QQQ: <b>$674.15</b> (+1.9%) · VIX: <b>$16.99</b> (+0.6%) · TLT: <b>$85.61</b> (-0.1%) · DXY: <b>$98.21</b> (+0.1%) · OIL: <b>$102.5</b> (-2.4%)\n\n<b>EVENING NEWS</b>\n▲ Bitcoin miner Riot's shares jump 8% after expanding AMD data center deal, signaling AI piv\n▲ Bitcoin Holds $78K as ETF Inflows Return and Ethereum Outflows Persist\n▲ CFTC to legalize crypto perpetuals in US, boosting regulatory clarity\n▲ Stocks set to keep rallying despite Fed and oil concerns: SA analyst\n▲ Civeo raises 2026 revenue guidance floor to $675M while keeping adjusted EBITDA at $85M-$9\n▼ Bitcoin drops as leverage liquidations drive structural downside\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto AI pivot and equity resilience suggest continued expansion\n▲ Recession: Energy inflation and debt concerns increase recessionary risks\n▼ Goldilocks: Debt milestone and inflation pressures challenge benign scenario\n▲ Stagflation: Debt-to-GDP breach and energy inflation support stagflationary thesis\n▲ Hegemony: Fiscal constraints and crypto alternative narratives challenge dollar dominance\n▲ Displacement: Crypto infrastructure evolution and regulatory clarity accelerate adoption\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 33.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS NAR seasonally adjusted existing home sales (AAMR)(Apr) — May 11, 02:00 PM UTC (prev: -3.6%)\n Consumer Price Index for Residents (YoY)(Apr) — May 11, 01:30 AM UTC (prev: 1.0%)\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\n\n<b>CONTRARIAN</b>\n• Crypto miner AI pivots may be late-cycle desperation moves rather than strategic positioning, sugges\n• Equity market resilience despite macro concerns could indicate dangerous complacency rather than fun\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-05-01",
     "time": "15:15 UTC",
