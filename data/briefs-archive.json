@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-02",
+    "time": "21:15 UTC",
+    "headline": "Markets shrugged off Iran conflict escalation as energy disruption fears drove oil above $100, while…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 16 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Unseasonally Adjusted Consu",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Unseasonally Adjusted Consumer Pric",
+            "v": "May 12",
+            "c": "blue"
+          },
+          {
+            "k": "US Core Consumer Price Index (Unseason",
+            "v": "May 12",
+            "c": "blue"
+          },
+          {
+            "k": "US NAR seasonally adjusted existing ho",
+            "v": "May 11",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 344,
+    "telegramText": "<b>MARKET WRAP</b> — May 2, 2026\n\n<i>Markets shrugged off Iran conflict escalation as energy disruption fears drove oil above $100, while crypto rallied on institutional momentum despite Fed hawkishness. The late-cycle rotation accelerated with investors positioning for Trump trade war policies, suggesting risk assets are pricing in geopolitical resilience over monetary tightening concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$78,475</b> · ETH: <b>$2,311</b> · SOL: <b>$84.17</b> · GOLD: <b>$4,612</b> · SPY: <b>$720.65</b> (+1.3%) · QQQ: <b>$674.15</b> (+1.9%) · VIX: <b>$16.99</b> (+0.6%) · TLT: <b>$85.61</b> (-0.1%) · DXY: <b>$98.21</b> (+0.1%) · OIL: <b>$101.94</b> (-3.0%)\n\n<b>EVENING NEWS</b>\n▼ Just-In: Michael Saylor’s STRC Team Fires Back At Peter Schiff Over Bitcoin Criticism\n▼ XRP Exchange Reserves on Binance Fall to 2.75B as Selling Pressure Eases\n▼ Recent inflation data was 'bad news,' Fed's Goolsbee says \n▼ World Liberty Financial Faces Scrutiny Over 5.9B Token Sales and Vesting Rules\n▲ Berkshire Cash Hits Record $397 Billion as Abel Keeps Buffett’s Anti-Bitcoin Stance\n▼ Spirit Airlines Shuts Down at Airports Across US\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto institutional adoption and AI convergence offset Fed hawkishness\n▼ Goldilocks: Energy shocks, trade wars, and persistent inflation undermine balanced growth\n▲ Stagflation: Energy disruptions and trade tariffs driving inflation while growth slows\n▲ Hegemony: US military escalation and trade war tactics signal assertive power projection\n▲ Displacement: Institutional crypto adoption and AI-blockchain convergence accelerating\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 3.3%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\nUS NAR seasonally adjusted existing home sales (AAMR)(Apr) — May 11, 02:00 PM UTC (prev: -3.6%)\n Consumer Price Index for Residents (YoY)(Apr) — May 11, 01:30 AM UTC (prev: 1.0%)\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\n\n<b>CONTRARIAN</b>\n• Crypto's resilience during geopolitical stress suggests it's becoming a safe haven asset rather than\n• Energy shocks may accelerate renewable transition faster than expected, making oil volatility short-\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-05-02",
     "time": "15:15 UTC",

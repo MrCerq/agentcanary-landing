@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-02-evening",
+      "url": "https://agentcanary.ai/record/2026/05/02#evening",
+      "title": "Evening Wrap — May 2, 2026",
+      "content_text": "Markets shrugged off Iran conflict escalation as energy disruption fears drove oil above $100, while… OVERHEATING. 16 news items. 5 scenario shifts.",
+      "summary": "Markets shrugged off Iran conflict escalation as energy disruption fears drove oil above $100, while…",
+      "date_published": "2026-05-02T21:15:04.826Z",
+      "tags": [
+        "bearish-skew",
+        "us-unseasonally-adjusted-consu"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-02-midday",
       "url": "https://agentcanary.ai/record/2026/05/02#midday",
       "title": "Market Pulse — May 2, 2026",
@@ -747,21 +762,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-20-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/20#intelligence",
-      "title": "Signal Scan — Apr 20, 2026",
-      "content_text": "SIGNAL SCAN — Apr 20, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 20, 2026",
-      "date_published": "2026-04-20T09:15:25.823Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
