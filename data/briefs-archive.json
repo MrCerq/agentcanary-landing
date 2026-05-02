@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-02",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 2, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 48.1/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "SLV",
+            "v": "+5.3%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "+5.2%",
+            "c": "green"
+          },
+          {
+            "k": "BRENT",
+            "v": "-4.5%",
+            "c": "red"
+          },
+          {
+            "k": "TKMS",
+            "v": "+3.6%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 342,
+    "telegramText": "<b>SIGNAL SCAN</b> — May 2, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum despite geopolitical shocks as markets compartmentalize energy disruptions while crypto rallies on institutional adoption. Regime transition signals emerging with Strait of Hormuz \"100% shut down\" yet BTC holding $78K and SPY up 1.3%. Cross-asset dislocation widening between energy weakness and tech strength.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Low)\nRegime: OVERHEATING — inflation expectations rising amid financial conditions loosening\nKey prices: SPY +1.3%, QQQ +1.9%, VIX +0.6%, TLT -0.1%, DXY +0.1%, OIL -3.0%\nICSA: 189K (trending down, -2.2σ below trend)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Energy Shock Contagion\nSPY: $650-680 (-5% to -10%)\nBTC: $70-74K (-6% to -10%)\nOIL: $110-125 (+8% to +23%)\n\n<b>SCENARIO B</b> — Geopolitical Fade Rally\nSPY: $740-770 (+3% to +7%)\nBTC: $85-92K (+9% to +18%)\nOIL: $85-95 (-17% to -7%)\n\n<b>SCENARIO C</b> — Stagflation Transition\nTLT: $75-80 (-12% to -7%)\nGLD: $450-480 (+6% to +13%)\nDXY: $103-108 (+5% to +10%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.6%) — bid\n2. Semiconductors (SMH +2.1%) — strong\n3. Utilities (XLU +1.9%) — rotating\n4. Industrials (XLI +1.8%) — strong\n5. Technology (XLK +1.7%) — bid\n\n<b>BIG MOVES + DRIVERS</b>\nSLV +5.3% — ETF rotation into precious metals amid geopolitical premium\nEWY +5.2% — South Korea becoming 8th largest stock market, ETF inflows accelerating\nBRENT -4.5% — Trump \"war will end, oil will come tumbling down\" comments\nSOXX +3.5% — semiconductor strength on AI infrastructure pivot narrative\nTKMS +3.6% — defense contractor bid on escalating military tensions\n<i>Energy selling on peace premium expectations while tech/defense absorb geopolitical hedge flows — regime uncertainty driving asset rotation.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13th consecutive day) — institutional accumulation accelerating despite volatility\nWhale activity: ETH heavily shorted ($35M vs $10.8M long) while BTC balanced ($22.8M/$22.9M) — divergence suggests ETH vulnerability if crypto momentum fades\n\n<b>IMPLICATION</b>\nTactical opportunity in energy mean reversion vs crypto momentum if geopolitical premium normalizes. Consider hedging tech exposure with utilities given late-cycle positioning and rising inflation expectations creating defensive rotation setup.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-05-02",
     "time": "03:15 UTC",
