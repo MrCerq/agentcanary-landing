@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-03-evening",
+      "url": "https://agentcanary.ai/record/2026/05/03#evening",
+      "title": "Evening Wrap — May 3, 2026",
+      "content_text": "Markets exhibited classic late-cycle schizophrenia today, with geopolitical tensions driving defensi… OVERHEATING. 15 news items. 5 scenario shifts.",
+      "summary": "Markets exhibited classic late-cycle schizophrenia today, with geopolitical tensions driving defensi…",
+      "date_published": "2026-05-03T21:15:06.441Z",
+      "tags": [
+        "bullish-skew",
+        "us-producer-price-index-(yoy)("
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-03-midday",
       "url": "https://agentcanary.ai/record/2026/05/03#midday",
       "title": "Market Pulse — May 3, 2026",
@@ -748,21 +763,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-21-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/21#intelligence",
-      "title": "Signal Scan — Apr 21, 2026",
-      "content_text": "SIGNAL SCAN — Apr 21, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 21, 2026",
-      "date_published": "2026-04-21T09:15:25.936Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
