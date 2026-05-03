@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-03",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 3, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 48.1/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "SLV",
+            "v": "+5.3%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "+5.2%",
+            "c": "green"
+          },
+          {
+            "k": "BRENT",
+            "v": "-5.1%",
+            "c": "red"
+          },
+          {
+            "k": "PENDLE",
+            "v": "+3.9%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 3, 2026\n\n<b>SNAPSHOT</b>\nRisk-on with cross-asset divergence. Tech leading equities (+1.9% QQQ) while precious metals surge (SLV +5.3%, GLD +1.4%) on stagflation fears. VIX subdued despite oil weakness suggesting equity complacency amid geopolitical noise.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Low)\nRegime: OVERHEATING — inflation expectations rising while financial conditions remain accommodative\nKey prices: SPY +1.27% | QQQ +1.90% | VIX +0.59% | TLT -0.11% | DXY flat | OIL flat\nICSA: 189K (trend DOWN, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Stagflation Breakout\nSPY: $650-680 (-5% to -10%)\nBTC: $70-75K (-5% to -10%)\nGLD: $460-480 (+8% to +13%)\n\n<b>SCENARIO B</b> — Tech Momentum Extension  \nQQQ: $720-750 (+7% to +11%)\nBTC: $85-90K (+8% to +15%)\nTLT: $78-82 (-9% to -4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $630-660 (-8% to -12%)\nVIX: $25-35 (+47% to +106%)\nDXY: $102-105 (+4% to +7%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.6%) — explosive\n2. Semiconductors (SMH +2.1%) — strong  \n3. Utilities (XLU +1.9%) — defensive bid\n4. Industrials (XLI +1.8%) — rotating\n5. Technology (XLK +1.7%) — sustained\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $68.29 (+5.3%) — ETF flows amid stagflation positioning\nEWY $162 (+5.2%) — South Korea overtakes UK as 8th largest equity market\nBRENT $108.17 (-5.1%) — Middle East ceasefire hopes reducing geopolitical premium\nPENDLE $1.60 (+3.9%) — RWA adoption driving DeFi TVL to $151M\nONDO $0.279 (+3.4%) — proxy voting feature launch for tokenized assets\n<i>Precious metals diverging from risk assets suggests institutional hedging against overheating regime persistence.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $52.9M short vs $12.1M long (+$4.8M PnL)\nBTC ETF flows: +$531M net inflow (13-day streak)\nContrarian setup: Whale shorts against institutional buying suggests potential squeeze on geopolitical resolution or Fed dovish pivot.\n\n<b>IMPLICATION</b>\nTactical long precious metals vs tech beta captures stagflation hedge while momentum persists. Monitor whale BTC short unwind catalyst — ceasefire news or Fed pause could trigger rapid covering into institutional bid.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 346
+  },
+  {
     "session": "morning",
     "date": "2026-05-03",
     "time": "03:15 UTC",
@@ -1408,53 +1461,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 26, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 11.8/100\n\n• BTC: <b>$77,506</b>\n• ETH: <b>$2,315</b>\n• SOL: <b>$86.21</b>\n• GOLD: <b>$4,715</b>\nSPY: <b>$713.94</b> (+0.4%)\nQQQ: <b>$663.88</b> (+1.3%)\nVIX: <b>18.7</b> (-3.1%)\nTLT: <b>$86.71</b> (-0.0%)\nDXY: <b>98.5</b> (-0.3%)\nOIL: <b>$94.4</b> (-1.5%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.07%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTREGEN: +2.29σ\n▼ 10Y Breakeven Inflation: +2.08σ\n▼ Fed Balance Sheet: +1.73σ\n▲ DTWEXBGS: -1.68σ\n— CPI: +1.38σ\n\n<b>TOP MOVERS</b>\n▲ MOH $176 (+15.0%)\n▼ TRUMP $2.65 (-8.9%) — Trump Scraps US Trip for Iran Talks, Leaving Ceasefire in Li\n▲ DEXE $13.80 (+7.8%)\n▲ SOXX $462 (+6.9%)\n▼ RSETH $2,116 (-6.7%)\n▲ SMH $506 (+6.2%)\n▼ BRENT $99.13 (-5.7%)\n▼ RTX $174 (-3.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n<i>No signals firing — multipolar thesis intact</i>\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 317
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-25",
-    "time": "21:15 UTC",
-    "headline": "Markets displayed classic late-cycle bifurcation as crypto surged on institutional adoption while tr…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 14 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US New home sales (AAMR)(Mar)",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 9
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US New home sales (AAMR)(Mar)",
-            "v": "May 5",
-            "c": "blue"
-          },
-          {
-            "k": "US Trade Balance (billion USD)(Mar)",
-            "v": "May 5",
-            "c": "blue"
-          },
-          {
-            "k": "US Durable goods orders (MoM) (Revised",
-            "v": "May 4",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 25, 2026\n\n<i>Markets displayed classic late-cycle bifurcation as crypto surged on institutional adoption while traditional assets stayed defensive amid Middle East tensions. Bitcoin's institutional flows contrasted with cautious equity positioning as geopolitical risk drove energy security concerns and displacement themes higher.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$77,529</b> · ETH: <b>$2,317</b> · SOL: <b>$86.06</b> · GOLD: <b>$4,715</b> · SPY: <b>$713.94</b> (+0.4%) · QQQ: <b>$663.88</b> (+1.3%) · VIX: <b>$18.71</b> (-3.1%) · TLT: <b>$86.71</b> (-0.0%) · DXY: <b>$98.51</b> (-0.3%) · OIL: <b>$94.4</b> (-1.5%)\n\n<b>EVENING NEWS</b>\n▲ XRP Ledger Beats Ethereum in 30-Day Capital Flows With $1.1B in Net Inflows\n▲ Altcoin season index rises to 41 – Analyst predicts a 60% upside\n▲ Next Crypto to Explode in 2026: Pepeto Tops the Board as Solana Hosts Tokenized SpaceX Sto\n▲ Bitcoin dominance rises above 60% – Weak altcoin demand delays rotation\n▼ Bitcoin Falls as Trump Cancels U.S. Trip to Pakistan for Iran Peace Talks\n▲ Bitcoin Hit Its Highest Price Since January—Why VanEck Analysts See More Potential Gains\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto surge and monetary tightening cycles suggest advanced expansion phase\n▼ Goldilocks: Geopolitical tensions and energy price volatility disrupt benign conditions\n▲ Stagflation: Energy shock risks and monetary tightening amid growth concerns\n▲ Hegemony: US naval expansion and market outperformance vs Europe strengthens dominance\n▲ Displacement: Crypto institutional adoption and quantum computing threats accelerate financial transformation\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 8.9/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS New home sales (AAMR)(Mar) — May 5, 02:00 PM UTC (prev: 1.8%)\nUS Trade Balance (billion USD)(Mar) — May 5, 12:30 PM UTC (prev: -57.3)\nUS Durable goods orders (MoM) (Revised) (Mar) — May 4, 02:00 PM UTC\nEU Markit Manufacturing Purchasing Managers Index (Final)(Apr) — May 4, 08:00 AM UTC (prev: 52.2)\nUS ISM Manufacturing Purchasing Managers Index(Apr) — May 1, 02:00 PM UTC (prev: 52.7)\n Producer Price Index (YoY)(Q1) — May 1, 01:30 AM UTC (prev: 3.5%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's crisis rally may be liquidity-driven rather than safe haven adoption, vulnerable to revers\n• Energy security fears are overblown given military escort availability and alternative supply routes\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 316
   }
 ]

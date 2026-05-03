@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — May 3, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/03#intelligence</link>
+      <description>SIGNAL SCAN — May 3, 2026 — Risk 48.1/100 · 8 movers</description>
+      <pubDate>Sun, 03 May 2026 09:15:25 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/03#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — May 3, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/03#morning</link>
       <description>— Neutral · Neutral · Gauge 48.1/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -348,13 +355,6 @@
       <description>▲ Risk-On · Neutral · Gauge —/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Tue, 21 Apr 2026 03:15:04 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/21#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Apr 20, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/20#evening</link>
-      <description>Markets displayed classic late-cycle exuberance with Bitcoin surging past $76K on institutional infl… — OVERHEATING. 16 news items. 4 scenario shifts.</description>
-      <pubDate>Mon, 20 Apr 2026 21:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/20#evening</guid>
     </item>
   </channel>
 </rss>

@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-05-03",
-  "time": "03:15 UTC",
-  "headline": "— Neutral · Neutral · Gauge 48.1/100",
-  "headlineColor": "#FFC53D",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — May 3, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 48.1/100 · 8 movers",
   "tags": [
     {
-      "t": "Neutral · Neutral",
-      "c": "yellow"
+      "t": "LOW",
+      "c": "green"
     },
     {
-      "t": "GAUGE 48.1",
-      "c": "yellow"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
+          "k": "SLV",
+          "v": "+5.3%",
+          "c": "green"
+        },
+        {
+          "k": "EWY",
+          "v": "+5.2%",
+          "c": "green"
+        },
+        {
+          "k": "BRENT",
+          "v": "-5.1%",
+          "c": "red"
+        },
+        {
+          "k": "PENDLE",
+          "v": "+3.9%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — May 3, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n• BTC: <b>$78,137</b>\n• ETH: <b>$2,302</b>\n• SOL: <b>$83.6</b>\n• GOLD: <b>$4,612</b>\nSPY: <b>$720.65</b> (+1.3%)\nQQQ: <b>$674.15</b> (+1.9%)\nVIX: <b>17.0</b> (+0.6%)\nTLT: <b>$85.61</b> (-0.1%)\nDXY: <b>98.2</b> (+0.1%)\nOIL: <b>$101.94</b> (-3.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.14T</b> (YoY -3.03%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>283bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▼ 10Y Breakeven Inflation: +2.03σ\n▼ 10Y Treasury: +1.92σ\n▼ 2Y Treasury: +1.67σ\n\n<b>TOP MOVERS</b>\n▲ LUNC $0.00008465 (+20.8%)\n▲ SLV $68.29 (+5.3%)\n▲ EWY $162 (+5.2%)\n▼ BRENT $108 (-5.1%)\n▼ JST $0.08206 (-4.6%)\n▲ VIRTUAL $0.7317 (+4.6%)\n▲ TKMS $86.90 (+3.6%)\n▲ SOXX $466 (+3.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 345
+  "telegramText": "<b>SIGNAL SCAN</b> — May 3, 2026\n\n<b>SNAPSHOT</b>\nRisk-on with cross-asset divergence. Tech leading equities (+1.9% QQQ) while precious metals surge (SLV +5.3%, GLD +1.4%) on stagflation fears. VIX subdued despite oil weakness suggesting equity complacency amid geopolitical noise.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Low)\nRegime: OVERHEATING — inflation expectations rising while financial conditions remain accommodative\nKey prices: SPY +1.27% | QQQ +1.90% | VIX +0.59% | TLT -0.11% | DXY flat | OIL flat\nICSA: 189K (trend DOWN, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Stagflation Breakout\nSPY: $650-680 (-5% to -10%)\nBTC: $70-75K (-5% to -10%)\nGLD: $460-480 (+8% to +13%)\n\n<b>SCENARIO B</b> — Tech Momentum Extension  \nQQQ: $720-750 (+7% to +11%)\nBTC: $85-90K (+8% to +15%)\nTLT: $78-82 (-9% to -4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $630-660 (-8% to -12%)\nVIX: $25-35 (+47% to +106%)\nDXY: $102-105 (+4% to +7%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.6%) — explosive\n2. Semiconductors (SMH +2.1%) — strong  \n3. Utilities (XLU +1.9%) — defensive bid\n4. Industrials (XLI +1.8%) — rotating\n5. Technology (XLK +1.7%) — sustained\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $68.29 (+5.3%) — ETF flows amid stagflation positioning\nEWY $162 (+5.2%) — South Korea overtakes UK as 8th largest equity market\nBRENT $108.17 (-5.1%) — Middle East ceasefire hopes reducing geopolitical premium\nPENDLE $1.60 (+3.9%) — RWA adoption driving DeFi TVL to $151M\nONDO $0.279 (+3.4%) — proxy voting feature launch for tokenized assets\n<i>Precious metals diverging from risk assets suggests institutional hedging against overheating regime persistence.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $52.9M short vs $12.1M long (+$4.8M PnL)\nBTC ETF flows: +$531M net inflow (13-day streak)\nContrarian setup: Whale shorts against institutional buying suggests potential squeeze on geopolitical resolution or Fed dovish pivot.\n\n<b>IMPLICATION</b>\nTactical long precious metals vs tech beta captures stagflation hedge while momentum persists. Monitor whale BTC short unwind catalyst — ceasefire news or Fed pause could trigger rapid covering into institutional bid.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 346
 }
