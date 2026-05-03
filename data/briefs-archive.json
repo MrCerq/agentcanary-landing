@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-03",
+    "time": "03:15 UTC",
+    "headline": "— Neutral · Neutral · Gauge 48.1/100",
+    "headlineColor": "#FFC53D",
+    "desc": "OVERHEATING. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Neutral · Neutral",
+        "c": "yellow"
+      },
+      {
+        "t": "GAUGE 48.1",
+        "c": "yellow"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 345,
+    "telegramText": "<b>MACRO RADAR</b> — May 3, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n• BTC: <b>$78,137</b>\n• ETH: <b>$2,302</b>\n• SOL: <b>$83.6</b>\n• GOLD: <b>$4,612</b>\nSPY: <b>$720.65</b> (+1.3%)\nQQQ: <b>$674.15</b> (+1.9%)\nVIX: <b>17.0</b> (+0.6%)\nTLT: <b>$85.61</b> (-0.1%)\nDXY: <b>98.2</b> (+0.1%)\nOIL: <b>$101.94</b> (-3.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.14T</b> (YoY -3.03%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>283bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▼ 10Y Breakeven Inflation: +2.03σ\n▼ 10Y Treasury: +1.92σ\n▼ 2Y Treasury: +1.67σ\n\n<b>TOP MOVERS</b>\n▲ LUNC $0.00008465 (+20.8%)\n▲ SLV $68.29 (+5.3%)\n▲ EWY $162 (+5.2%)\n▼ BRENT $108 (-5.1%)\n▼ JST $0.08206 (-4.6%)\n▲ VIRTUAL $0.7317 (+4.6%)\n▲ TKMS $86.90 (+3.6%)\n▲ SOXX $466 (+3.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-05-02",
     "time": "21:15 UTC",
