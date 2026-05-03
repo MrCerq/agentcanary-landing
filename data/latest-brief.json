@@ -1,53 +1,61 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-05-03",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — May 3, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 48.1/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC IGNITION on daily.\n100 whale moves detected.",
+  "headlineColor": "#34D399",
+  "desc": "BTC 1d:IGNITION 4h:IGNITION · ETH 1d:ACCUMULATION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:IGNITION",
   "tags": [
     {
-      "t": "LOW",
+      "t": "IGNITION",
       "c": "green"
     },
     {
-      "t": "OVERHEATING",
+      "t": "WHALE ALERT",
       "c": "blue"
+    },
+    {
+      "t": "ORCA 547% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 48
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "SLV",
-          "v": "+5.3%",
+          "k": "BTC 1D",
+          "v": "IGNITION",
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "+5.2%",
+          "k": "ETH 1D",
+          "v": "ACCUMULATION",
           "c": "green"
         },
         {
-          "k": "BRENT",
-          "v": "-5.1%",
-          "c": "red"
+          "k": "SOL 1D",
+          "v": "ACCUMULATION",
+          "c": "green"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$331M USDT",
+          "v": "transferred from unk",
+          "c": "blue"
         },
         {
-          "k": "PENDLE",
-          "v": "+3.9%",
-          "c": "green"
+          "k": "$150M USDT",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — May 3, 2026\n\n<b>SNAPSHOT</b>\nRisk-on with cross-asset divergence. Tech leading equities (+1.9% QQQ) while precious metals surge (SLV +5.3%, GLD +1.4%) on stagflation fears. VIX subdued despite oil weakness suggesting equity complacency amid geopolitical noise.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Low)\nRegime: OVERHEATING — inflation expectations rising while financial conditions remain accommodative\nKey prices: SPY +1.27% | QQQ +1.90% | VIX +0.59% | TLT -0.11% | DXY flat | OIL flat\nICSA: 189K (trend DOWN, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Stagflation Breakout\nSPY: $650-680 (-5% to -10%)\nBTC: $70-75K (-5% to -10%)\nGLD: $460-480 (+8% to +13%)\n\n<b>SCENARIO B</b> — Tech Momentum Extension  \nQQQ: $720-750 (+7% to +11%)\nBTC: $85-90K (+8% to +15%)\nTLT: $78-82 (-9% to -4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $630-660 (-8% to -12%)\nVIX: $25-35 (+47% to +106%)\nDXY: $102-105 (+4% to +7%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.6%) — explosive\n2. Semiconductors (SMH +2.1%) — strong  \n3. Utilities (XLU +1.9%) — defensive bid\n4. Industrials (XLI +1.8%) — rotating\n5. Technology (XLK +1.7%) — sustained\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $68.29 (+5.3%) — ETF flows amid stagflation positioning\nEWY $162 (+5.2%) — South Korea overtakes UK as 8th largest equity market\nBRENT $108.17 (-5.1%) — Middle East ceasefire hopes reducing geopolitical premium\nPENDLE $1.60 (+3.9%) — RWA adoption driving DeFi TVL to $151M\nONDO $0.279 (+3.4%) — proxy voting feature launch for tokenized assets\n<i>Precious metals diverging from risk assets suggests institutional hedging against overheating regime persistence.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $52.9M short vs $12.1M long (+$4.8M PnL)\nBTC ETF flows: +$531M net inflow (13-day streak)\nContrarian setup: Whale shorts against institutional buying suggests potential squeeze on geopolitical resolution or Fed dovish pivot.\n\n<b>IMPLICATION</b>\nTactical long precious metals vs tech beta captures stagflation hedge while momentum persists. Monitor whale BTC short unwind catalyst — ceasefire news or Fed pause could trigger rapid covering into institutional bid.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 346
+  "telegramText": "<b>MARKET PULSE</b> — May 3, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,721</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,328</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$84.24</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 331,462,197 USDT ($331,336,655)\n  <i>transferred from unknown wallet to #Kraken</i>\n• 149,544,528 USDT ($149,502,880)\n  <i>transferred from unknown wallet to #Okex</i>\n• 1,053 BTC ($82,638,624)\n  <i>transferred from unknown wallet to #Kraken</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ORCA</b>: 700% net APR (0.0624% rate)\n  Long Bitget / Short Bybit | OI: $5.6M | Spread: -0.48%\n• <b>CL</b>: 294% net APR (0.2226% rate)\n  Long Bybit / Short OKX | OI: $13.8M | Spread: 0.47%\n• <b>LAB</b>: 626% net APR (0.2209% rate)\n  Long OKX / Short Bitget | OI: $10.5M | Spread: -0.47%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $37,781,932 | Longs: 15% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Middle East Volatility Drives Risk Asset Swings [BTC, ETH, XRP]\n▲ Crypto Infrastructure Maturation Accelerates [BTC, ETH, XRP]\n▲ Taiwan Bitcoin Reserve Proposal Signals Sovereign Adoption [BTC, GLD, TWD]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 347
 }
