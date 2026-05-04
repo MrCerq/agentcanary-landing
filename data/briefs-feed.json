@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-04",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $8…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 15 news items. 4 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US Federal Funds Benchmark Rat",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Federal Funds Benchmark Rate",
+            "v": "May 15",
+            "c": "blue"
+          },
+          {
+            "k": "US Retail sales (MoM)(Apr)",
+            "v": "May 14",
+            "c": "blue"
+          },
+          {
+            "k": "US Producer Price Index (YoY)(Apr)",
+            "v": "May 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — May 4, 2026\n\n<i>Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $80K while traditional assets lagged, signaling institutional appetite shifting toward digital assets amid rising stagflation concerns. The divergence suggests investors are positioning for monetary regime change rather than sustained goldilocks conditions.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$79,924</b> · ETH: <b>$2,350</b> · SOL: <b>$84.06</b> · GOLD: <b>$4,517</b> · SPY: <b>$718.01</b> (-0.1%) · QQQ: <b>$672.88</b> (+0.8%) · VIX: <b>$18.29</b> (+7.7%) · TLT: <b>$84.96</b> (-0.8%) · DXY: <b>$98.45</b> (+0.3%) · OIL: <b>$105.14</b> (+3.1%)\n\n<b>EVENING NEWS</b>\n▲ Ethereum gas limit increased 3.3x for Glamsterdam upgrade, boosting scalability\n▲ USD/SGD: Two-way trade with sell-on-rally bias – OCBC\n▲ Tom Lee Declares Crypto Spring as Bitmine Buys $238M ETH\n▲ Indonesia: Stable inflation outlook with oil risks – UOB\n▲ If GameStop buys eBay, Bitcoin payments could suddenly have a 135M-buyer marketplace test \n▼ K Wave Media (KWM) Stock Plunges 27% After Abandoning Bitcoin for AI Strategy\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto institutional adoption and infrastructure upgrades suggest continued risk appetite\n▲ Goldilocks: Stable Asian inflation outlook supports continued moderate growth\n▲ Stagflation: Oil risk warnings from Indonesia suggest commodity pressure building\n▲ Displacement: Major crypto infrastructure upgrades and corporate adoption accelerating\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• Ethereum's gas limit increase might create new centralization risks that the market is ignoring\n• The crypto spring narrative could be premature given regulatory uncertainties still unresolved\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 352
+  },
+  {
     "session": "midday",
     "date": "2026-05-04",
     "time": "15:15 UTC",
@@ -1435,58 +1483,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 27, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$77,466</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,298</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$84.83</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 50,039,500.05 USDC ($50,032,870)\n  <i>burned at USDC Treasury</i>\n• 250,000,000 USDC ($250,007,103)\n  <i>minted at USDC Treasury</i>\n• 250,000,000 USDC ($249,960,125)\n  <i>minted at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>GWEI</b>: 207% net APR (0.1462% rate)\n  Long Binance / Short Bitget | OI: $7.0M | Spread: 0.23%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $95,985,441 | Longs: 42% | L/S: 0.7:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Corporate Bitcoin Strategy Momentum [BTC, MSTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 323
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-27",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 27, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 11.8/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 12
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "MOH",
-            "v": "+15.0%",
-            "c": "green"
-          },
-          {
-            "k": "INJ",
-            "v": "+9.1%",
-            "c": "green"
-          },
-          {
-            "k": "PENDLE",
-            "v": "+7.1%",
-            "c": "green"
-          },
-          {
-            "k": "SOXX",
-            "v": "+6.9%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 27, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with geopolitical shock colliding against institutional crypto accumulation. Iran talks collapsed, corporate layoffs surge, yet semiconductors rip +6% on tech optimism. Cross-asset dislocation widening as oil spikes while bonds flat.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 11.8/100 (Low)\nRegime: OVERHEATING — financial conditions loosening despite geopolitical stress\nKey prices: SPY +0.4%, QQQ +1.4%, VIX +2.0%, TLT -0.03%, DXY -0.3%, OIL +1.9%\nICSA: 214K claims (+0.27 z-score, trending up)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Conflict Escalation\nBTC: $70-74K (-7% to -5%)\nOIL: $105-115 (+9% to +19%)\nSPY: $675-695 (-5% to -3%)\n\n<b>SCENARIO B</b> — Tech Rally Extension\nQQQ: $700-725 (+5% to +9%)\nSMH: $490-520 (+6% to +12%)\nVIX: $15-17 (-21% to -11%)\n\n<b>SCENARIO C</b> — Layoff Contagion\nSPY: $650-680 (-9% to -5%)\nTLT: $90-93 (+4% to +7%)\nBTC: $72-76K (-7% to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +6.2%) — strong\n2. Utilities (XLU +2.9%) — bid\n3. Consumer Staples (XLP +1.4%) — defensive\n4. Technology (XLK +1.4%) — rotating\n5. Uranium (URA -4.2%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH +15% �� Q1 beat, guidance reaffirmation, Medicare Advantage Part D exit\nSOXX +6.9% — semiconductor rally on AI demand revival\nPENDLE +7.1% — DeFi yield farming resurgence \nBRENT -4.8% — Iran supply disruption fears fade intraday\nAAVE +5.2% — Arbitrum DAO vote on ETH utilization proposal\nRTX -3.7% — defense sector rotation amid geopolitical uncertainty\n\n<i>Tech euphoria conflicts with energy volatility as markets fragment between growth optimism and supply shock fears.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M (13-day inflow streak) — institutional FOMO accelerating\nWhale BTC: $29M long vs $25M short, underwater -$766K at current levels\nWhale ETH: $28M long vs $12M short, +$547K PnL suggesting momentum\n\n<b>IMPLICATION</b>\nTactical long semiconductors vs energy beta if geopolitical premium fades. BTC institutional flows suggest momentum but whale underwater positions signal potential distribution risk above $80K.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 322
   }
 ]

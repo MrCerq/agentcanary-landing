@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-04",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $8…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 15 news items. 4 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US Federal Funds Benchmark Rat",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Federal Funds Benchmark Rate",
+            "v": "May 15",
+            "c": "blue"
+          },
+          {
+            "k": "US Retail sales (MoM)(Apr)",
+            "v": "May 14",
+            "c": "blue"
+          },
+          {
+            "k": "US Producer Price Index (YoY)(Apr)",
+            "v": "May 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 352,
+    "telegramText": "<b>MARKET WRAP</b> — May 4, 2026\n\n<i>Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $80K while traditional assets lagged, signaling institutional appetite shifting toward digital assets amid rising stagflation concerns. The divergence suggests investors are positioning for monetary regime change rather than sustained goldilocks conditions.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$79,924</b> · ETH: <b>$2,350</b> · SOL: <b>$84.06</b> · GOLD: <b>$4,517</b> · SPY: <b>$718.01</b> (-0.1%) · QQQ: <b>$672.88</b> (+0.8%) · VIX: <b>$18.29</b> (+7.7%) · TLT: <b>$84.96</b> (-0.8%) · DXY: <b>$98.45</b> (+0.3%) · OIL: <b>$105.14</b> (+3.1%)\n\n<b>EVENING NEWS</b>\n▲ Ethereum gas limit increased 3.3x for Glamsterdam upgrade, boosting scalability\n▲ USD/SGD: Two-way trade with sell-on-rally bias – OCBC\n▲ Tom Lee Declares Crypto Spring as Bitmine Buys $238M ETH\n▲ Indonesia: Stable inflation outlook with oil risks – UOB\n▲ If GameStop buys eBay, Bitcoin payments could suddenly have a 135M-buyer marketplace test \n▼ K Wave Media (KWM) Stock Plunges 27% After Abandoning Bitcoin for AI Strategy\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto institutional adoption and infrastructure upgrades suggest continued risk appetite\n▲ Goldilocks: Stable Asian inflation outlook supports continued moderate growth\n▲ Stagflation: Oil risk warnings from Indonesia suggest commodity pressure building\n▲ Displacement: Major crypto infrastructure upgrades and corporate adoption accelerating\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• Ethereum's gas limit increase might create new centralization risks that the market is ignoring\n• The crypto spring narrative could be premature given regulatory uncertainties still unresolved\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-05-04",
     "time": "15:15 UTC",

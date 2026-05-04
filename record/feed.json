@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-04-evening",
+      "url": "https://agentcanary.ai/record/2026/05/04#evening",
+      "title": "Evening Wrap — May 4, 2026",
+      "content_text": "Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $8… OVERHEATING. 15 news items. 4 scenario shifts.",
+      "summary": "Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $8…",
+      "date_published": "2026-05-04T21:15:10.774Z",
+      "tags": [
+        "bullish-skew",
+        "us-federal-funds-benchmark-rat"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-04-midday",
       "url": "https://agentcanary.ai/record/2026/05/04#midday",
       "title": "Market Pulse — May 4, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-22-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/22#intelligence",
-      "title": "Signal Scan — Apr 22, 2026",
-      "content_text": "SIGNAL SCAN — Apr 22, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 22, 2026",
-      "date_published": "2026-04-22T09:15:26.110Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
