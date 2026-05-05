@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-05",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 5, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 48.1/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TON",
+            "v": "+17.6%",
+            "c": "green"
+          },
+          {
+            "k": "MORPHO",
+            "v": "+4.0%",
+            "c": "green"
+          },
+          {
+            "k": "VIX",
+            "v": "-3.1%",
+            "c": "red"
+          },
+          {
+            "k": "OIL",
+            "v": "-2.5%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 5, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with tech leading (+1.6%) while energy/industrials dump on oil's -2.5% slide despite geopolitical headlines. Bitcoin institutional flows driving crypto strength as VIX compression (-3.1%) suggests complacency amid overheating macro conditions.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Elevated)\nRegime: OVERHEATING — inflation expectations rising while financial conditions ease\nKey prices: SPY -0.09% | QQQ +0.77% | VIX -3.1% | TLT -0.77% | DXY +0.02% | OIL -2.5%\nICSA: 189k (trend DOWN, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Escalation Premium\nBTC: $72k-$76k (-6% to -10%)\nOIL: $115-$125 (+11% to +20%)\nVIX: $22-$28 (+24% to +58%)\n\n<b>SCENARIO B</b> — Late Cycle Melt-Up\nBTC: $85k-$92k (+5% to +14%)\nQQQ: $705-$740 (+5% to +10%)\nVIX: $14-$16 (-21% to -10%)\n\n<b>SECTOR STRENGTH</b>\n1. BIOTECH (XBI +1.7%) — strong\n2. TECH (XLK +1.6%) — rotating\n3. ENERGY (XLE -0.4%) — weak\n4. INDUSTRIALS (XLI -2.1%) — dump\n5. COPPER MINERS (COPX -3.7%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTON +17.6% — Durov announces Telegram will become largest TON validator, replacing foundation\nMORPHO +4.0% — DeFi lending market share surge from 9% to 24% year-over-year\nOIL -2.5% — Contradictory Iran headlines create whipsaw despite UAE attack reports\nVIX -3.1% — Complacency rally as markets ignore geopolitical noise\nGLD -2.1% — Risk-on rotation despite safe haven demand from Middle East tensions\n\n<i>Cross-asset divergence as crypto absorbs institutional flows while commodities reprice conflicting geopolitical signals.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $86.6M long vs $36.3M short with $4.2M unrealized gains\nBTC ETF flows: +$531M net inflow (13-day streak) — institutional accumulation accelerating\nETH whales net short $20M — rotation from ETH to BTC continues\n\n<b>IMPLICATION</b>\nTactical long crypto vs energy beta if geopolitical premium fades, but hedge via VIX calls given compressed volatility in overheating regime. Late-cycle dynamics favor growth over value while institutional Bitcoin flows provide structural bid.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 354
+  },
+  {
     "session": "morning",
     "date": "2026-05-05",
     "time": "03:15 UTC",
@@ -1416,53 +1469,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 28, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n• BTC: <b>$76,841</b>\n• ETH: <b>$2,287</b>\n• SOL: <b>$84.11</b>\n• GOLD: <b>$4,680</b>\nSPY: <b>$715.17</b> (+0.9%)\nQQQ: <b>$664.23</b> (+2.0%)\nVIX: <b>18.0</b> (-3.7%)\nTLT: <b>$86.28</b> (-0.3%)\nDXY: <b>98.5</b> (+0.0%)\nOIL: <b>$97.27</b> (+0.9%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.15T</b> (YoY -3.07%)\n   US M2: $22.67T (YoY +4.88%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ WTREGEN: +2.29σ\n▼ 10Y Breakeven Inflation: +2.11σ\n▼ Fed Balance Sheet: +1.73σ\n— CPI: +1.38σ\n— RSAFS: +1.37σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +17.5%\n\n<b>TOP MOVERS</b>\n▼ TKMS $80.00 (-5.3%)\n▲ SMH $506 (+5.1%)\n▲ EWY $157 (+4.1%)\n▲ PI $0.1884 (+3.9%)\n▼ M $3.70 (-3.9%)\n▼ VIX $18.02 (-3.7%)\n▼ RTX $173 (-3.3%)\n▲ RSETH $2,331 (+2.9%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n<i>No signals firing — multipolar thesis intact</i>\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 325
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-27",
-    "time": "21:15 UTC",
-    "headline": "Markets displayed classic late-cycle fragmentation as Bitcoin's institutional adoption story drove c…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 17 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "EU Retail Sales (MoM)(Mar)",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 12
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "EU Retail Sales (MoM)(Mar)",
-            "v": "May 7",
-            "c": "blue"
-          },
-          {
-            "k": "US Change in ADP employment (thousands",
-            "v": "May 6",
-            "c": "blue"
-          },
-          {
-            "k": "EU Producer Price Index (YoY)(Mar)",
-            "v": "May 6",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 27, 2026\n\n<i>Markets displayed classic late-cycle fragmentation as Bitcoin's institutional adoption story drove crypto higher while geopolitical tensions sparked defensive rotations into gold and bonds. The divergence between risk-on crypto momentum and safe-haven flows reflects growing macro uncertainty despite surface-level optimism.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,980</b> · ETH: <b>$2,292</b> · SOL: <b>$84.24</b> · GOLD: <b>$4,680</b> · SPY: <b>$715.17</b> (+0.9%) · QQQ: <b>$664.23</b> (+2.0%) · VIX: <b>$18.02</b> (-3.7%) · TLT: <b>$86.28</b> (-0.3%) · DXY: <b>$98.47</b> (-0.1%) · OIL: <b>$96.68</b> (+2.4%)\n\n<b>EVENING NEWS</b>\n▲ The South Korean bank powering Upbit is testing Ripple integration for cross-border paymen\n▲ Bitcoin Rally Builds on Leverage as Spot Demand Lags\n▲ Clean Energy ETF Pulls In Giant Inflows This Year: ESG Investing\n▼ FXToday: US Dollar falls as markets brace for central bank week and Iran headlines\n▲ US declared ‘crypto capital of the world’ by CFTC chair Mike Selig\n▲ Crypto Funds Add $1.2B as Bitcoin Hits Two-Month High\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Central bank policy uncertainty and manufacturing weakness signal cycle maturity\n▲ Recession: Manufacturing contraction and geopolitical stress increase recession probability\n▼ Goldilocks: Geopolitical tensions and policy divergence disrupt stable growth narrative\n▲ Stagflation: Energy disruption from Iran conflict threatens inflation resurgence\n▲ Displacement: Crypto adoption and AI infrastructure shifts accelerate technological transformation\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 11.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n Caixin Services Purchasing Managers Index(Apr) — May 6, 01:45 AM UTC (prev: 52.1)\nUS New home sales (AAMR)(Mar) — May 5, 02:00 PM UTC (prev: 1.8%)\nUS Trade Balance (billion USD)(Mar) — May 5, 12:30 PM UTC (prev: -57.3)\n\n<b>CONTRARIAN</b>\n• Gold's weakness during major geopolitical crisis suggests traditional safe haven narrative is breaki\n• Crypto institutional adoption may be over-hyped as price action remains volatile despite positive re\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 324
   }
 ]

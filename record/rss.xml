@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — May 5, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/05#intelligence</link>
+      <description>SIGNAL SCAN — May 5, 2026 — Risk 48.1/100 · 8 movers</description>
+      <pubDate>Tue, 05 May 2026 09:15:26 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/05#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — May 5, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/05#morning</link>
       <description>— Neutral · Neutral · Gauge 48.1/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -348,13 +355,6 @@
       <description>▲ Risk-On · Neutral · Gauge —/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Thu, 23 Apr 2026 03:15:02 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/23#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Apr 22, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/22#evening</link>
-      <description>Markets reflected growing institutional acceptance of crypto as a legitimate asset class, with Bitco… — OVERHEATING. 15 news items. 5 scenario shifts.</description>
-      <pubDate>Wed, 22 Apr 2026 21:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/22#evening</guid>
     </item>
   </channel>
 </rss>

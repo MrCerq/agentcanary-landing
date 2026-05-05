@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-05",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 5, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 48.1/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TON",
+            "v": "+17.6%",
+            "c": "green"
+          },
+          {
+            "k": "MORPHO",
+            "v": "+4.0%",
+            "c": "green"
+          },
+          {
+            "k": "VIX",
+            "v": "-3.1%",
+            "c": "red"
+          },
+          {
+            "k": "OIL",
+            "v": "-2.5%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 354,
+    "telegramText": "<b>SIGNAL SCAN</b> — May 5, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with tech leading (+1.6%) while energy/industrials dump on oil's -2.5% slide despite geopolitical headlines. Bitcoin institutional flows driving crypto strength as VIX compression (-3.1%) suggests complacency amid overheating macro conditions.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Elevated)\nRegime: OVERHEATING — inflation expectations rising while financial conditions ease\nKey prices: SPY -0.09% | QQQ +0.77% | VIX -3.1% | TLT -0.77% | DXY +0.02% | OIL -2.5%\nICSA: 189k (trend DOWN, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Iran Escalation Premium\nBTC: $72k-$76k (-6% to -10%)\nOIL: $115-$125 (+11% to +20%)\nVIX: $22-$28 (+24% to +58%)\n\n<b>SCENARIO B</b> — Late Cycle Melt-Up\nBTC: $85k-$92k (+5% to +14%)\nQQQ: $705-$740 (+5% to +10%)\nVIX: $14-$16 (-21% to -10%)\n\n<b>SECTOR STRENGTH</b>\n1. BIOTECH (XBI +1.7%) — strong\n2. TECH (XLK +1.6%) — rotating\n3. ENERGY (XLE -0.4%) — weak\n4. INDUSTRIALS (XLI -2.1%) — dump\n5. COPPER MINERS (COPX -3.7%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTON +17.6% — Durov announces Telegram will become largest TON validator, replacing foundation\nMORPHO +4.0% — DeFi lending market share surge from 9% to 24% year-over-year\nOIL -2.5% — Contradictory Iran headlines create whipsaw despite UAE attack reports\nVIX -3.1% — Complacency rally as markets ignore geopolitical noise\nGLD -2.1% — Risk-on rotation despite safe haven demand from Middle East tensions\n\n<i>Cross-asset divergence as crypto absorbs institutional flows while commodities reprice conflicting geopolitical signals.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $86.6M long vs $36.3M short with $4.2M unrealized gains\nBTC ETF flows: +$531M net inflow (13-day streak) — institutional accumulation accelerating\nETH whales net short $20M — rotation from ETH to BTC continues\n\n<b>IMPLICATION</b>\nTactical long crypto vs energy beta if geopolitical premium fades, but hedge via VIX calls given compressed volatility in overheating regime. Late-cycle dynamics favor growth over value while institutional Bitcoin flows provide structural bid.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-05-05",
     "time": "03:15 UTC",
