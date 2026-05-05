@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-05-evening",
+      "url": "https://agentcanary.ai/record/2026/05/05#evening",
+      "title": "Evening Wrap — May 5, 2026",
+      "content_text": "Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anch… OVERHEATING. 18 news items. 4 scenario shifts.",
+      "summary": "Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anch…",
+      "date_published": "2026-05-05T21:15:09.245Z",
+      "tags": [
+        "bearish-skew",
+        "us-federal-funds-benchmark-rat"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-05-midday",
       "url": "https://agentcanary.ai/record/2026/05/05#midday",
       "title": "Market Pulse — May 5, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-23-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/23#intelligence",
-      "title": "Signal Scan — Apr 23, 2026",
-      "content_text": "SIGNAL SCAN — Apr 23, 2026 Risk 0/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 23, 2026",
-      "date_published": "2026-04-23T09:15:27.031Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

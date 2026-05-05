@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-05",
+    "time": "21:15 UTC",
+    "headline": "Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anch…",
+    "headlineColor": "#A78BFA",
+    "desc": "OVERHEATING. 18 news items. 4 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "US Federal Funds Benchmark Rat",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Federal Funds Benchmark Rate",
+            "v": "May 15",
+            "c": "blue"
+          },
+          {
+            "k": "US Retail sales (MoM)(Apr)",
+            "v": "May 14",
+            "c": "blue"
+          },
+          {
+            "k": "US Producer Price Index (YoY)(Apr)",
+            "v": "May 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — May 5, 2026\n\n<i>Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anchor while Fed hawkishness and emerging market inflation pressures weighed on traditional assets. The late-cycle rotation accelerated with crypto resilience offsetting broader macro headwinds, leaving equities range-bound despite underlying stagflationary concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,633</b> · ETH: <b>$2,383</b> · SOL: <b>$86.6</b> · GOLD: <b>$4,553</b> · SPY: <b>$723.77</b> (+0.4%) · QQQ: <b>$681.61</b> (+1.1%) · VIX: <b>$17.38</b> (-5.0%) · TLT: <b>$85.43</b> (-0.2%) · DXY: <b>$98.49</b> (+0.0%) · OIL: <b>$102.68</b> (-3.5%)\n\n<b>EVENING NEWS</b>\n▲ Traders Ramp Up Bets Warsh’s Fed Could Hike Rates Before Cutting\n▼ Strategy Q1 Loss Widens On Higher Unrealized Bitcoin Losses \n▼ MicroStrategy Posts $12.5 Billion Q1 2026 Loss on Bitcoin Slide\n▲ XRP sentiment hits two-year high with Rakuten Wallet integration\n▲ India’s Modi celebrates a return to dominance \n▲ Indonesia: Growth outlook steady with fiscal constraints – UOB\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed hawkishness and bond attractiveness signal late-cycle dynamics\n▼ Goldilocks: Fed pivot toward hawkishness reduces soft landing probability\n▲ Stagflation: EM inflation surge and potential Fed hikes amid growth\n▲ Displacement: Continued crypto institutional adoption despite volatility\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• MicroStrategy's massive Bitcoin losses might actually signal a buying opportunity as weak hands capi\n• The Fed hawkish pivot expectations could be overblown given that actual policy changes haven't occur\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 356
+  },
+  {
     "session": "midday",
     "date": "2026-05-05",
     "time": "15:15 UTC",
@@ -1439,58 +1487,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 28, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$75,996</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n• ETH: <b>$2,274</b> — 1d: BEAR_REGIME | 4h: ACCUMULATION\n• SOL: <b>$83.37</b> — 1d: BEAR_REGIME | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 51,388,817.36 USDC ($51,379,850)\n  <i>burned at USDC Treasury</i>\n• 73,400 ETH ($166,417,179)\n  <i>transferred from unknown wallet to #Binance</i>\n• 725 BTC ($55,194,048)\n  <i>transferred from unknown wallet to #Kraken</i>\n\n<b>FUNDING ARB</b>\n<i>No quality arbs today (all below OI/spread filters)</i>\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $118,394,656 | Longs: 93% | L/S: 13.9:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n— Crypto Institutional Adoption [BTC, ETH, SOL]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 327
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-28",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 28, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 23/100 · 7 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 23
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "TKMS",
-            "v": "-5.3%",
-            "c": "red"
-          },
-          {
-            "k": "SMH",
-            "v": "+5.1%",
-            "c": "green"
-          },
-          {
-            "k": "EWY",
-            "v": "+4.1%",
-            "c": "green"
-          },
-          {
-            "k": "SOXX",
-            "v": "+3.3%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 28, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum in tech/crypto despite geopolitical tensions. Fed/BoE decisions create positioning stasis while Iran-Hormuz concerns drive oil +3.2% but gold paradoxically down. Cross-asset divergence signals regime transition underway.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 23.0/100 (Low)\nRegime: OVERHEATING — financial conditions loosening as inflation expectations rise\nSPY +0.9% | QQQ +2.0% | VIX +1.1% | TLT -0.3% | DXY +0.2% | OIL +3.2%\nICSA: 214K (trending up, neutral signal)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Fed Dovish Pivot\nSPY: $750-780 (+5-9%)\nQQQ: $720-750 (+8-13%)\nBTC: $82K-88K (+7-14%)\n\n<b>SCENARIO B</b> — Iran Escalation\nOIL: $110-120 (+11-21%)\nGOLD: $4900-5100 (+5-9%)\nSPY: $680-700 (-5 to -2%)\n\n<b>SCENARIO C</b> — Tech Momentum Reversal\nQQQ: $580-620 (-13 to -7%)\nSMH: $450-480 (-11 to -5%)\nTLT: $92-96 (+7-11%)\n\n<b>SECTOR STRENGTH</b>\n1. Semiconductors (SMH +5.1%) — breakout\n2. Technology (XLK +3.0%) — strong\n3. Uranium (URA +0.4%) — bid\n4. Healthcare (XLV -1.9%) — rotating\n5. Defense (ITA -1.4%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nSMH +5.1% — NVIDIA reclaims $5T market cap, chip rally broadening\nEWY +4.1% — Korea exposure to semiconductor momentum\nRTX -3.3% — defense rotation out amid geopolitical uncertainty\nOIL +3.2% — Iran Hormuz Strait control tensions escalate\nSOXX +3.3% — semiconductor ETF momentum play\n<i>Tech leadership diverging from defensive sectors as markets price growth over safety despite geopolitical noise.</i>\n\n<b>POSITIONING</b>\nBTC whales net short with 40x leverage at $76K, suggesting distribution near resistance. ETH longs accumulating $34.9M exposure. BTC ETF flows +$531M (13-day streak) showing institutional conviction despite whale caution.\n\n<b>IMPLICATION</b>\nTactical long tech/crypto vs energy complex if Iran tensions fade by Fed decision. Cross-asset divergence creates spread opportunities between growth momentum and geopolitical hedges.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 326
   }
 ]
