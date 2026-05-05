@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-05",
+    "time": "03:15 UTC",
+    "headline": "— Neutral · Neutral · Gauge 48.1/100",
+    "headlineColor": "#FFC53D",
+    "desc": "OVERHEATING. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Neutral · Neutral",
+        "c": "yellow"
+      },
+      {
+        "t": "GAUGE 48.1",
+        "c": "yellow"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 48
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — May 5, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n• BTC: <b>$80,477</b>\n• ETH: <b>$2,365</b>\n• SOL: <b>$84.43</b>\n• GOLD: <b>$4,517</b>\nSPY: <b>$718.01</b> (-0.1%)\nQQQ: <b>$672.88</b> (+0.8%)\nVIX: <b>18.3</b> (+7.7%)\nTLT: <b>$84.96</b> (-0.8%)\nDXY: <b>98.5</b> (+0.3%)\nOIL: <b>$104.18</b> (-2.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.06%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>283bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▲ Gold: -2.10σ\n▼ 10Y Breakeven Inflation: +2.03σ\n▼ 10Y Treasury: +1.92σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +7.6%\n▲ BTC: +0.7%\n▲ ETH: +0.7%\n\n<b>TOP MOVERS</b>\n▲ TON $1.74 (+17.6%)\n▲ VIX $18.29 (+7.7%)\n▲ PENGU $0.01061 (+6.0%)\n▲ MORPHO $2.07 (+4.0%)\n▼ WTI $104 (-2.1%)\n▼ GLD $415 (-2.1%)\n▼ OIL $104 (-2.1%)\n▼ XLI $171 (-2.1%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4517 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 353
+  },
+  {
     "session": "evening",
     "date": "2026-05-04",
     "time": "21:15 UTC",
@@ -1426,62 +1464,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — Apr 27, 2026\n\n<i>Markets displayed classic late-cycle fragmentation as Bitcoin's institutional adoption story drove crypto higher while geopolitical tensions sparked defensive rotations into gold and bonds. The divergence between risk-on crypto momentum and safe-haven flows reflects growing macro uncertainty despite surface-level optimism.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,980</b> · ETH: <b>$2,292</b> · SOL: <b>$84.24</b> · GOLD: <b>$4,680</b> · SPY: <b>$715.17</b> (+0.9%) · QQQ: <b>$664.23</b> (+2.0%) · VIX: <b>$18.02</b> (-3.7%) · TLT: <b>$86.28</b> (-0.3%) · DXY: <b>$98.47</b> (-0.1%) · OIL: <b>$96.68</b> (+2.4%)\n\n<b>EVENING NEWS</b>\n▲ The South Korean bank powering Upbit is testing Ripple integration for cross-border paymen\n▲ Bitcoin Rally Builds on Leverage as Spot Demand Lags\n▲ Clean Energy ETF Pulls In Giant Inflows This Year: ESG Investing\n▼ FXToday: US Dollar falls as markets brace for central bank week and Iran headlines\n▲ US declared ‘crypto capital of the world’ by CFTC chair Mike Selig\n▲ Crypto Funds Add $1.2B as Bitcoin Hits Two-Month High\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Central bank policy uncertainty and manufacturing weakness signal cycle maturity\n▲ Recession: Manufacturing contraction and geopolitical stress increase recession probability\n▼ Goldilocks: Geopolitical tensions and policy divergence disrupt stable growth narrative\n▲ Stagflation: Energy disruption from Iran conflict threatens inflation resurgence\n▲ Displacement: Crypto adoption and AI infrastructure shifts accelerate technological transformation\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 11.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n Caixin Services Purchasing Managers Index(Apr) — May 6, 01:45 AM UTC (prev: 52.1)\nUS New home sales (AAMR)(Mar) — May 5, 02:00 PM UTC (prev: 1.8%)\nUS Trade Balance (billion USD)(Mar) — May 5, 12:30 PM UTC (prev: -57.3)\n\n<b>CONTRARIAN</b>\n• Gold's weakness during major geopolitical crisis suggests traditional safe haven narrative is breaki\n• Crypto institutional adoption may be over-hyped as price action remains volatile despite positive re\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 324
-  },
-  {
-    "session": "midday",
-    "date": "2026-04-27",
-    "time": "15:15 UTC",
-    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:BULL_REGIME 4h:BEAR_REGIME · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:BEAR_REGIME",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "GWEI 320% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$50M USDC",
-            "v": "burned at USDC Treas",
-            "c": "blue"
-          },
-          {
-            "k": "$250M USDC",
-            "v": "minted at USDC Treas",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — Apr 27, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$77,466</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• ETH: <b>$2,298</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$84.83</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n\n\n<b>WHALE ALERTS</b>\n• 50,039,500.05 USDC ($50,032,870)\n  <i>burned at USDC Treasury</i>\n• 250,000,000 USDC ($250,007,103)\n  <i>minted at USDC Treasury</i>\n• 250,000,000 USDC ($249,960,125)\n  <i>minted at USDC Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>GWEI</b>: 207% net APR (0.1462% rate)\n  Long Binance / Short Bitget | OI: $7.0M | Spread: 0.23%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $95,985,441 | Longs: 42% | L/S: 0.7:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Corporate Bitcoin Strategy Momentum [BTC, MSTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 323
   }
 ]

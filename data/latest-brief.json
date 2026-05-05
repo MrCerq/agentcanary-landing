@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-05-04",
-  "time": "21:15 UTC",
-  "headline": "Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $8…",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 15 news items. 4 scenario shifts.",
+  "session": "morning",
+  "date": "2026-05-05",
+  "time": "03:15 UTC",
+  "headline": "— Neutral · Neutral · Gauge 48.1/100",
+  "headlineColor": "#FFC53D",
+  "desc": "OVERHEATING. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BULLISH SKEW",
-      "c": "green"
+      "t": "Neutral · Neutral",
+      "c": "yellow"
     },
     {
-      "t": "US Federal Funds Benchmark Rat",
-      "c": "blue"
+      "t": "GAUGE 48.1",
+      "c": "yellow"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 48
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Federal Funds Benchmark Rate",
-          "v": "May 15",
-          "c": "blue"
-        },
-        {
-          "k": "US Retail sales (MoM)(Apr)",
-          "v": "May 14",
-          "c": "blue"
-        },
-        {
-          "k": "US Producer Price Index (YoY)(Apr)",
-          "v": "May 13",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 4, 2026\n\n<i>Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $80K while traditional assets lagged, signaling institutional appetite shifting toward digital assets amid rising stagflation concerns. The divergence suggests investors are positioning for monetary regime change rather than sustained goldilocks conditions.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$79,924</b> · ETH: <b>$2,350</b> · SOL: <b>$84.06</b> · GOLD: <b>$4,517</b> · SPY: <b>$718.01</b> (-0.1%) · QQQ: <b>$672.88</b> (+0.8%) · VIX: <b>$18.29</b> (+7.7%) · TLT: <b>$84.96</b> (-0.8%) · DXY: <b>$98.45</b> (+0.3%) · OIL: <b>$105.14</b> (+3.1%)\n\n<b>EVENING NEWS</b>\n▲ Ethereum gas limit increased 3.3x for Glamsterdam upgrade, boosting scalability\n▲ USD/SGD: Two-way trade with sell-on-rally bias – OCBC\n▲ Tom Lee Declares Crypto Spring as Bitmine Buys $238M ETH\n▲ Indonesia: Stable inflation outlook with oil risks – UOB\n▲ If GameStop buys eBay, Bitcoin payments could suddenly have a 135M-buyer marketplace test \n▼ K Wave Media (KWM) Stock Plunges 27% After Abandoning Bitcoin for AI Strategy\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto institutional adoption and infrastructure upgrades suggest continued risk appetite\n▲ Goldilocks: Stable Asian inflation outlook supports continued moderate growth\n▲ Stagflation: Oil risk warnings from Indonesia suggest commodity pressure building\n▲ Displacement: Major crypto infrastructure upgrades and corporate adoption accelerating\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• Ethereum's gas limit increase might create new centralization risks that the market is ignoring\n• The crypto spring narrative could be premature given regulatory uncertainties still unresolved\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 352
+  "telegramText": "<b>MACRO RADAR</b> — May 5, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n• BTC: <b>$80,477</b>\n• ETH: <b>$2,365</b>\n• SOL: <b>$84.43</b>\n• GOLD: <b>$4,517</b>\nSPY: <b>$718.01</b> (-0.1%)\nQQQ: <b>$672.88</b> (+0.8%)\nVIX: <b>18.3</b> (+7.7%)\nTLT: <b>$84.96</b> (-0.8%)\nDXY: <b>98.5</b> (+0.3%)\nOIL: <b>$104.18</b> (-2.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.06%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>283bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▲ Gold: -2.10σ\n▼ 10Y Breakeven Inflation: +2.03σ\n▼ 10Y Treasury: +1.92σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +7.6%\n▲ BTC: +0.7%\n▲ ETH: +0.7%\n\n<b>TOP MOVERS</b>\n▲ TON $1.74 (+17.6%)\n▲ VIX $18.29 (+7.7%)\n▲ PENGU $0.01061 (+6.0%)\n▲ MORPHO $2.07 (+4.0%)\n▼ WTI $104 (-2.1%)\n▼ GLD $415 (-2.1%)\n▼ OIL $104 (-2.1%)\n▼ XLI $171 (-2.1%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4517 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 353
 }
