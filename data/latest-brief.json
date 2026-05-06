@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-05-05",
-  "time": "21:15 UTC",
-  "headline": "Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anch…",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 18 news items. 4 scenario shifts.",
+  "session": "morning",
+  "date": "2026-05-06",
+  "time": "03:15 UTC",
+  "headline": "— Neutral · Neutral · Gauge 43.8/100",
+  "headlineColor": "#34D399",
+  "desc": "OVERHEATING. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
-      "c": "red"
+      "t": "Neutral · Neutral",
+      "c": "green"
     },
     {
-      "t": "US Federal Funds Benchmark Rat",
-      "c": "blue"
+      "t": "GAUGE 43.8",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 48
+        "value": 44
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Federal Funds Benchmark Rate",
-          "v": "May 15",
-          "c": "blue"
-        },
-        {
-          "k": "US Retail sales (MoM)(Apr)",
-          "v": "May 14",
-          "c": "blue"
-        },
-        {
-          "k": "US Producer Price Index (YoY)(Apr)",
-          "v": "May 13",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "1/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 5, 2026\n\n<i>Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anchor while Fed hawkishness and emerging market inflation pressures weighed on traditional assets. The late-cycle rotation accelerated with crypto resilience offsetting broader macro headwinds, leaving equities range-bound despite underlying stagflationary concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,633</b> · ETH: <b>$2,383</b> · SOL: <b>$86.6</b> · GOLD: <b>$4,553</b> · SPY: <b>$723.77</b> (+0.4%) · QQQ: <b>$681.61</b> (+1.1%) · VIX: <b>$17.38</b> (-5.0%) · TLT: <b>$85.43</b> (-0.2%) · DXY: <b>$98.49</b> (+0.0%) · OIL: <b>$102.68</b> (-3.5%)\n\n<b>EVENING NEWS</b>\n▲ Traders Ramp Up Bets Warsh’s Fed Could Hike Rates Before Cutting\n▼ Strategy Q1 Loss Widens On Higher Unrealized Bitcoin Losses \n▼ MicroStrategy Posts $12.5 Billion Q1 2026 Loss on Bitcoin Slide\n▲ XRP sentiment hits two-year high with Rakuten Wallet integration\n▲ India’s Modi celebrates a return to dominance \n▲ Indonesia: Growth outlook steady with fiscal constraints – UOB\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed hawkishness and bond attractiveness signal late-cycle dynamics\n▼ Goldilocks: Fed pivot toward hawkishness reduces soft landing probability\n▲ Stagflation: EM inflation surge and potential Fed hikes amid growth\n▲ Displacement: Continued crypto institutional adoption despite volatility\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• MicroStrategy's massive Bitcoin losses might actually signal a buying opportunity as weak hands capi\n• The Fed hawkish pivot expectations could be overblown given that actual policy changes haven't occur\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 356
+  "telegramText": "<b>MACRO RADAR</b> — May 6, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 43.8/100\n\n• BTC: <b>$81,413</b>\n• ETH: <b>$2,371</b>\n• SOL: <b>$87.03</b>\n• GOLD: <b>$4,553</b>\nSPY: <b>$723.77</b> (+0.4%)\nQQQ: <b>$681.61</b> (+1.1%)\nVIX: <b>17.4</b> (-5.0%)\nTLT: <b>$85.43</b> (-0.2%)\nDXY: <b>98.3</b> (-0.2%)\nOIL: <b>$100.85</b> (-5.2%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.06%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.55σ\n▼ 2Y Treasury: +2.39σ\n▼ 10Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▼ WTREGEN: +1.64σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +6.5%\n\n<b>TOP MOVERS</b>\n▲ B $0.4694 (+17.0%)\n▲ ZEC $528 (+8.3%)\n▲ EWY $173 (+7.1%)\n▼ BRENT $108 (-5.7%)\n▲ FIL $1.04 (+5.6%)\n▼ WTI $101 (-5.5%)\n▼ OIL $101 (-5.2%) — US-Iran deal hopes boost Bitcoin sentiment, oil market cauti\n▼ VIX $17.38 (-5.0%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4553 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 357
 }

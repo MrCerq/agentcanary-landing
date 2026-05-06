@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-06-morning",
+      "url": "https://agentcanary.ai/record/2026/05/06#morning",
+      "title": "Morning Brief — May 6, 2026",
+      "content_text": "— Neutral · Neutral · Gauge 43.8/100 Overheating regime · Fear & Greed: neutral · NORMAL",
+      "summary": "— Neutral · Neutral · Gauge 43.8/100",
+      "date_published": "2026-05-06T03:15:01.255Z",
+      "tags": [
+        "neutral-·-neutral",
+        "gauge-43.8"
+      ],
+      "_agentcanary": {
+        "session": "morning"
+      }
+    },
+    {
       "id": "2026-05-05-evening",
       "url": "https://agentcanary.ai/record/2026/05/05#evening",
       "title": "Evening Wrap — May 5, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "evening"
-      }
-    },
-    {
-      "id": "2026-04-23-midday",
-      "url": "https://agentcanary.ai/record/2026/04/23#midday",
-      "title": "Market Pulse — Apr 23, 2026",
-      "content_text": "BTC Bullish · 100 whale moves BTC daily bullish, 4h bearish · ETH daily bullish, 4h bearish · SOL daily distribution, 4h risk-off",
-      "summary": "BTC Bullish · 100 whale moves",
-      "date_published": "2026-04-23T15:15:03.884Z",
-      "tags": [
-        "whale-alert",
-        "rave-294%-apr"
-      ],
-      "_agentcanary": {
-        "session": "midday"
       }
     }
   ]

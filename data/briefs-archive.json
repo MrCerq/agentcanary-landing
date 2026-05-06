@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-06",
+    "time": "03:15 UTC",
+    "headline": "— Neutral · Neutral · Gauge 43.8/100",
+    "headlineColor": "#34D399",
+    "desc": "OVERHEATING. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Neutral · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 43.8",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 44
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "1/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 357,
+    "telegramText": "<b>MACRO RADAR</b> — May 6, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 43.8/100\n\n• BTC: <b>$81,413</b>\n• ETH: <b>$2,371</b>\n• SOL: <b>$87.03</b>\n• GOLD: <b>$4,553</b>\nSPY: <b>$723.77</b> (+0.4%)\nQQQ: <b>$681.61</b> (+1.1%)\nVIX: <b>17.4</b> (-5.0%)\nTLT: <b>$85.43</b> (-0.2%)\nDXY: <b>98.3</b> (-0.2%)\nOIL: <b>$100.85</b> (-5.2%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.06%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.55σ\n▼ 2Y Treasury: +2.39σ\n▼ 10Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▼ WTREGEN: +1.64σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +6.5%\n\n<b>TOP MOVERS</b>\n▲ B $0.4694 (+17.0%)\n▲ ZEC $528 (+8.3%)\n▲ EWY $173 (+7.1%)\n▼ BRENT $108 (-5.7%)\n▲ FIL $1.04 (+5.6%)\n▼ WTI $101 (-5.5%)\n▼ OIL $101 (-5.2%) — US-Iran deal hopes boost Bitcoin sentiment, oil market cauti\n▼ VIX $17.38 (-5.0%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4553 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-05-05",
     "time": "21:15 UTC",
