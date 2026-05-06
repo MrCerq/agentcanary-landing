@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-06-evening",
+      "url": "https://agentcanary.ai/record/2026/05/06#evening",
+      "title": "Evening Wrap — May 6, 2026",
+      "content_text": "Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted … OVERHEATING. 16 news items. 5 scenario shifts.",
+      "summary": "Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted …",
+      "date_published": "2026-05-06T21:15:05.146Z",
+      "tags": [
+        "bearish-skew",
+        "us-federal-funds-benchmark-rat"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-06-midday",
       "url": "https://agentcanary.ai/record/2026/05/06#midday",
       "title": "Market Pulse — May 6, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-24-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/24#intelligence",
-      "title": "Signal Scan — Apr 24, 2026",
-      "content_text": "SIGNAL SCAN — Apr 24, 2026 Risk 8.9/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 24, 2026",
-      "date_published": "2026-04-24T09:15:25.564Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
