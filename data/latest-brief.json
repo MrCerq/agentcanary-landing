@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-05-06",
-  "time": "03:15 UTC",
-  "headline": "— Neutral · Neutral · Gauge 43.8/100",
-  "headlineColor": "#34D399",
-  "desc": "OVERHEATING. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — May 6, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 43.8/100 · 8 movers",
   "tags": [
     {
-      "t": "Neutral · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE 43.8",
-      "c": "green"
+      "t": "OVERHEATING",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "1/6 NORMAL",
+          "k": "EWY",
+          "v": "+7.1%",
           "c": "green"
+        },
+        {
+          "k": "OIL",
+          "v": "-6.2%",
+          "c": "red"
+        },
+        {
+          "k": "BRENT",
+          "v": "-5.7%",
+          "c": "red"
+        },
+        {
+          "k": "WTI",
+          "v": "-5.5%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — May 6, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 43.8/100\n\n• BTC: <b>$81,413</b>\n• ETH: <b>$2,371</b>\n• SOL: <b>$87.03</b>\n• GOLD: <b>$4,553</b>\nSPY: <b>$723.77</b> (+0.4%)\nQQQ: <b>$681.61</b> (+1.1%)\nVIX: <b>17.4</b> (-5.0%)\nTLT: <b>$85.43</b> (-0.2%)\nDXY: <b>98.3</b> (-0.2%)\nOIL: <b>$100.85</b> (-5.2%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.06%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.55σ\n▼ 2Y Treasury: +2.39σ\n▼ 10Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▼ WTREGEN: +1.64σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +6.5%\n\n<b>TOP MOVERS</b>\n▲ B $0.4694 (+17.0%)\n▲ ZEC $528 (+8.3%)\n▲ EWY $173 (+7.1%)\n▼ BRENT $108 (-5.7%)\n▲ FIL $1.04 (+5.6%)\n▼ WTI $101 (-5.5%)\n▼ OIL $101 (-5.2%) — US-Iran deal hopes boost Bitcoin sentiment, oil market cauti\n▼ VIX $17.38 (-5.0%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4553 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 357
+  "telegramText": "<b>SIGNAL SCAN</b> — May 6, 2026\n\n<b>SNAPSHOT</b>\nRisk-on with selective cross-asset rotation as diplomatic progress on Iran creates energy/crypto divergence. Tech leading on semiconductor strength while oil collapses -6% on deal hopes. Institutional Bitcoin accumulation continues 13-day streak despite macro overheating signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 43.8/100 (Low)\nRegime: OVERHEATING — HY spreads tightening while inflation expectations rise\nKey prices: SPY +0.4% | QQQ +1.1% | VIX -3.3% | TLT -0.2% | DXY -0.6% | OIL -6.2%\nICSA: 189K (trending down, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Diplomatic Breakthrough\nBTC: $87K-$94K (+6-15%)\nOIL: $86-$91 (-10-5%)\nQQQ: $720-$750 (+6-10%)\n\n<b>SCENARIO B</b> — China Growth Acceleration  \nFXI: $32-$35 (+8-18%)\nVALE: $14-$16 (+12-28%)\nBTC: $78K-$85K (-5-+4%)\n\n<b>SCENARIO C</b> — Geopolitical Reversal\nOIL: $105-$115 (+10-20%)\nBTC: $74K-$79K (-10-3%)\nTLT: $88-$91 (+3-7%)\n\n<b>SECTOR STRENGTH</b>\n1. Biotech (XBI +2.6%) — strong\n2. Semiconductors (SMH +2.5%) — bid  \n3. Technology (XLK +2.3%) — rotating\n4. Energy (XLE +1.0%) — mixed\n5. Uranium (URA -2.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nEWY +7.1% — South Korea tops UK as 8th largest stock market, emerging markets rotation\nOIL -6.2% — US-Iran diplomatic progress reduces Hormuz premium\nSOXX +3.6% — semiconductor strength on AI infrastructure demand\nPENDLE +3.1% — STRC-related assets drive $230M TVL growth in two months\nBRENT -5.7% — Mideast war premium unwinding on deal optimism\n<i>Diplomatic hopes drive classic risk rotation: crypto/tech absorbing energy geopolitical premium.</i>\n\n<b>POSITIONING</b>\nBTC whales long $87.9M vs $13.9M short (+$9M PnL). ETH whales heavily short $47.2M (max 25x leverage).\nBTC ETF flows: +$531M inflow (13-day streak) — institutions buying 6x daily supply.\nSOL/HYPE shorts building with $549K/$1.5M negative PnL suggesting capitulation risk.\n\n<b>IMPLICATION</b>\nTactical rotation from energy into crypto/tech as geopolitical risk reprices. Consider long BTC vs energy spread if diplomatic progress sustains, but hedge Hormuz reversal risk given institutional positioning extremes.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 358
 }

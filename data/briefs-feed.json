@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-06",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 6, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 43.8/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 44
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "EWY",
+            "v": "+7.1%",
+            "c": "green"
+          },
+          {
+            "k": "OIL",
+            "v": "-6.2%",
+            "c": "red"
+          },
+          {
+            "k": "BRENT",
+            "v": "-5.7%",
+            "c": "red"
+          },
+          {
+            "k": "WTI",
+            "v": "-5.5%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 6, 2026\n\n<b>SNAPSHOT</b>\nRisk-on with selective cross-asset rotation as diplomatic progress on Iran creates energy/crypto divergence. Tech leading on semiconductor strength while oil collapses -6% on deal hopes. Institutional Bitcoin accumulation continues 13-day streak despite macro overheating signals.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 43.8/100 (Low)\nRegime: OVERHEATING — HY spreads tightening while inflation expectations rise\nKey prices: SPY +0.4% | QQQ +1.1% | VIX -3.3% | TLT -0.2% | DXY -0.6% | OIL -6.2%\nICSA: 189K (trending down, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Diplomatic Breakthrough\nBTC: $87K-$94K (+6-15%)\nOIL: $86-$91 (-10-5%)\nQQQ: $720-$750 (+6-10%)\n\n<b>SCENARIO B</b> — China Growth Acceleration  \nFXI: $32-$35 (+8-18%)\nVALE: $14-$16 (+12-28%)\nBTC: $78K-$85K (-5-+4%)\n\n<b>SCENARIO C</b> — Geopolitical Reversal\nOIL: $105-$115 (+10-20%)\nBTC: $74K-$79K (-10-3%)\nTLT: $88-$91 (+3-7%)\n\n<b>SECTOR STRENGTH</b>\n1. Biotech (XBI +2.6%) — strong\n2. Semiconductors (SMH +2.5%) — bid  \n3. Technology (XLK +2.3%) — rotating\n4. Energy (XLE +1.0%) — mixed\n5. Uranium (URA -2.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nEWY +7.1% — South Korea tops UK as 8th largest stock market, emerging markets rotation\nOIL -6.2% — US-Iran diplomatic progress reduces Hormuz premium\nSOXX +3.6% — semiconductor strength on AI infrastructure demand\nPENDLE +3.1% — STRC-related assets drive $230M TVL growth in two months\nBRENT -5.7% — Mideast war premium unwinding on deal optimism\n<i>Diplomatic hopes drive classic risk rotation: crypto/tech absorbing energy geopolitical premium.</i>\n\n<b>POSITIONING</b>\nBTC whales long $87.9M vs $13.9M short (+$9M PnL). ETH whales heavily short $47.2M (max 25x leverage).\nBTC ETF flows: +$531M inflow (13-day streak) — institutions buying 6x daily supply.\nSOL/HYPE shorts building with $549K/$1.5M negative PnL suggesting capitulation risk.\n\n<b>IMPLICATION</b>\nTactical rotation from energy into crypto/tech as geopolitical risk reprices. Consider long BTC vs energy spread if diplomatic progress sustains, but hedge Hormuz reversal risk given institutional positioning extremes.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 358
+  },
+  {
     "session": "morning",
     "date": "2026-05-06",
     "time": "03:15 UTC",
@@ -1424,53 +1477,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 29, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n• BTC: <b>$76,551</b>\n• ETH: <b>$2,289</b>\n• SOL: <b>$84.07</b>\n• GOLD: <b>$4,596</b>\nSPY: <b>$711.69</b> (-0.3%)\nQQQ: <b>$657.55</b> (-1.0%)\nVIX: <b>17.8</b> (-1.1%)\nTLT: <b>$86.37</b> (-0.4%)\nDXY: <b>98.6</b> (+0.2%)\nOIL: <b>$99.24</b> (+3.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.15T</b> (YoY -3.09%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 2s10s Curve: +2.75σ\n▼ 30Y Treasury: +2.33σ\n▼ WTREGEN: +2.29σ\n▲ Gold: -2.14σ\n▼ 10Y Breakeven Inflation: +1.92σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +15.8%\n\n<b>TOP MOVERS</b>\n▲ MOH $185 (+5.4%)\n▼ SOXX $439 (-5.0%)\n▲ TKMS $83.90 (+4.9%)\n▼ BRENT $104 (-3.9%)\n▼ DEXE $12.47 (-3.8%)\n▼ SLV $66.20 (-3.8%)\n▼ PENGU $0.01000 (-3.3%)\n▲ PUMP $0.001868 (+2.8%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4596 (&lt;$4,600)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 329
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-28",
-    "time": "21:15 UTC",
-    "headline": "Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break sig…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 17 news items. 6 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "US University of Michigan Cons",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 23
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US University of Michigan Consumer Con",
-            "v": "May 8",
-            "c": "blue"
-          },
-          {
-            "k": "US Unemployment Rate(Apr)",
-            "v": "May 8",
-            "c": "blue"
-          },
-          {
-            "k": "US Seasonally adjusted changes in non-",
-            "v": "May 8",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 28, 2026\n\n<i>Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break signaled speculative froth unwinding, while traditional assets held steady amid rising recession/stagflation concerns. The divergence suggests institutional rotation from risk assets as central bank policy inflection points loom.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$76,442</b> · ETH: <b>$2,296</b> · SOL: <b>$83.79</b> · GOLD: <b>$4,596</b> · SPY: <b>$711.69</b> (-0.3%) · QQQ: <b>$657.55</b> (-1.0%) · VIX: <b>$17.83</b> (-1.1%) · TLT: <b>$86.37</b> (-0.4%) · DXY: <b>$98.63</b> (+0.2%) · OIL: <b>$99.62</b> (+3.4%)\n\n<b>EVENING NEWS</b>\n▼ Robinhood Shares Slide on 34% Decrease in Crypto Revenue\n▲ Powell gets high marks on pandemic, weaker grade on inflation, Bullard says\n▼ Hollywood Gear Supplier Quixote to Exit Atlanta Operations\n▲ Bitcoin Flashes Bearish Signal. Is 10% Drop Imminent? \n▲ Bitwise CIO says Strategy’s STRC could keep fueling Bitcoin’s latest rally\n▲ Blockchain Association pushes to remove reputation risk from bank supervision\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto stress and inflation persistence suggest late-cycle dynamics strengthening\n▲ Recession: Crypto liquidations and asset quality concerns point to potential downturn risks\n▼ Goldilocks: Multiple stress signals and policy uncertainty reduce goldilocks probability\n▲ Stagflation: Inflation persistence concerns and defense spending increases support stagflationary pressures\n▲ Hegemony: European defense acceleration and geopolitical tensions reinforce hegemonic competition themes\n▲ Displacement: Mining industry AI transition exemplifies ongoing technological displacement accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\nUS Change in ADP employment (thousands)(Apr) — May 6, 12:15 PM UTC (prev: 62.0)\nEU Producer Price Index (YoY)(Mar) — May 6, 09:00 AM UTC (prev: -3.0%)\n\n<b>CONTRARIAN</b>\n• The $1.2B crypto ETP inflows during market stress suggest institutional accumulation may be setting \n• European defense spending acceleration could signal strength rather than desperation, positioning EU\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 328
   }
 ]

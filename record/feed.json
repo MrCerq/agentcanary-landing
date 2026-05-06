@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-06-intelligence",
+      "url": "https://agentcanary.ai/record/2026/05/06#intelligence",
+      "title": "Signal Scan — May 6, 2026",
+      "content_text": "SIGNAL SCAN — May 6, 2026 Risk 43.8/100 · 8 movers",
+      "summary": "SIGNAL SCAN — May 6, 2026",
+      "date_published": "2026-05-06T09:15:28.173Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-05-06-morning",
       "url": "https://agentcanary.ai/record/2026/05/06#morning",
       "title": "Morning Brief — May 6, 2026",
@@ -749,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-23-evening",
-      "url": "https://agentcanary.ai/record/2026/04/23#evening",
-      "title": "Evening Wrap — Apr 23, 2026",
-      "content_text": "Markets displayed classic late-cycle dynamics as crypto's institutional wave pushed BTC near $78K wh… OVERHEATING. 16 news items. 5 scenario shifts.",
-      "summary": "Markets displayed classic late-cycle dynamics as crypto's institutional wave pushed BTC near $78K wh…",
-      "date_published": "2026-04-23T21:15:05.021Z",
-      "tags": [
-        "bearish-skew",
-        "us-ism-manufacturing-purchasin"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
