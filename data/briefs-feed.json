@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-07",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 7, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 43.2/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 43
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TON",
+            "v": "+12.2%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "+11.2%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+9.7%",
+            "c": "green"
+          },
+          {
+            "k": "SMH",
+            "v": "+8.5%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 7, 2026\n\n<b>SNAPSHOT</b>\nRisk-on surge driven by crypto institutional mania and Iran truce optimism, with BTC breaching $82K on massive ETF inflows. Cross-asset divergence emerging as inflation warnings create underlying tension despite euphoric sentiment. Tech and materials leading while energy dumps on geopolitical premium fade.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 43.2/100 (Low)\nRegime: EXPANSION — HY spreads tightening but financial conditions tightening on policy flows\nKey prices: SPY +2.2% | QQQ +3.4% | VIX +0.6% | TLT +1.3% | DXY -0.1% | OIL -2.3%\nICSA: 189K (-2.1σ, trending down)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Crypto Mania Peak\nBTC: $75K-$85K (±5%)\nSPY: $720-$750 (±2%)\n\n<b>SCENARIO B</b> — Inflation Shock\nTLT: $82-$88 (±3%)\nQQQ: $650-$680 (-5%)\n\n<b>SCENARIO C</b> — Geopolitical Flare\nOIL: $100-$110 (+12%)\nVIX: $22-$28 (+45%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+9.0%) — strong\n2. SMH (+8.5%) — rotating\n3. URA (+6.4%) — bid\n4. XLK (+4.9%) — strong\n5. XLE (-4.0%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTON +12.2% — crypto momentum spillover from BTC institutional surge\nEWY +11.2% — South Korea becomes 8th largest stock market, institutional flows\nSOXX +9.7% — semiconductor strength on AI compute expansion\nBRENT -7.3% — Iran truce headlines crushing geopolitical premium\nWTI -6.5% — peace proposal selling, Trump timeline uncertainty\n<i>Cross-asset rotation from geopolitical hedges into risk assets as crypto euphoria drives tech leadership.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: 46.8M long vs 80.2M short, +$3.6M PnL on 5 positions\nBTC ETF flows: +$531M inflow (13th consecutive day) — institutional FOMO accelerating\nETH whales: 11M long vs 28.4M short, suggesting caution on alt momentum\n\n<b>IMPLICATION</b>\nTactical opportunity in long tech/short energy spread if geopolitical premium continues fading. Consider crypto exposure reduction on parabolic signals while maintaining semiconductor overweight on AI infrastructure buildout.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 362
+  },
+  {
     "session": "morning",
     "date": "2026-05-07",
     "time": "03:15 UTC",
@@ -1424,53 +1477,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — Apr 30, 2026\n\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 22.6/100\n\n• BTC: <b>$75,724</b>\n• ETH: <b>$2,246</b>\n• SOL: <b>$82.98</b>\n• GOLD: <b>$4,548</b>\nSPY: <b>$711.58</b> (-0.5%)\nQQQ: <b>$661.57</b> (-0.4%)\nVIX: <b>18.8</b> (+5.5%)\nTLT: <b>$85.7</b> (-0.7%)\nDXY: <b>99.0</b> (+0.4%)\nOIL: <b>$108.27</b> (+8.3%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.15T</b> (YoY -3.09%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>286bps</b> CALM (5d: 0bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ Gold: -2.38σ\n▼ 30Y Treasury: +2.33σ\n▼ WTREGEN: +2.21σ\n▼ 10Y Breakeven Inflation: +2.19σ\n▼ 10Y Treasury: +1.70σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +13.4%\n\n<b>TOP MOVERS</b>\n▲ MOH $196 (+9.6%)\n▲ WTI $108 (+8.5%)\n▲ OIL $108 (+8.3%) — The U.S. produces the most oil in the world. So why are gaso\n▲ TKMS $84.80 (+6.0%)\n▲ VIX $18.81 (+5.5%)\n▼ PI $0.1812 (-4.2%)\n▲ DOGE $0.1054 (+3.2%)\n▲ APT $1.01 (+2.9%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4548 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 333
-  },
-  {
-    "session": "evening",
-    "date": "2026-04-29",
-    "time": "21:15 UTC",
-    "headline": "Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioni…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 17 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "MIXED",
-        "c": "yellow"
-      },
-      {
-        "t": "US Trade Balance (billion USD)",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 23
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Trade Balance (billion USD)(Apr)",
-            "v": "May 9",
-            "c": "blue"
-          },
-          {
-            "k": " Trade Balance (billion USD)(Apr)",
-            "v": "May 8",
-            "c": "blue"
-          },
-          {
-            "k": "US University of Michigan Consumer Con",
-            "v": "May 8",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — Apr 29, 2026\n\n<i>Markets displayed late-cycle characteristics as Fed policy uncertainty triggered defensive positioning, with Bitcoin emerging as an unconventional safe haven amid geopolitical stress. The divergence between risk assets and traditional hedges like gold signals growing institutional concern over macro stability and potential regime shifts ahead.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$75,699</b> · ETH: <b>$2,243</b> · SOL: <b>$82.64</b> · GOLD: <b>$4,548</b> · SPY: <b>$711.58</b> (-0.5%) · QQQ: <b>$661.57</b> (-0.4%) · VIX: <b>$18.81</b> (+5.5%) · TLT: <b>$85.7</b> (-0.7%) · DXY: <b>$98.94</b> (+0.3%) · OIL: <b>$108.49</b> (+8.6%)\n\n<b>EVENING NEWS</b>\n▼ The U.S. produces the most oil in the world. So why are gasoline prices so high?\n▲ Bitcoin ETFs see $823M inflows led by BlackRock’s IBIT amid US-Iran tensions\n▲ Trump Blockade, Macklem Comments Cause Canada Bonds to Tumble\n▲ Paul Tudor Jones: Bitcoin’s value is rising amid dollar decline, predicting $200,000 to $3\n▼ Celsius Founder Alex Mashinsky Banned From Crypto Industry in $10 Million FTC Settlement\n▼ Bitcoin Dips Under $76K as Fed Holds Rates in Rare 8-4 Split\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed split decision suggests policy uncertainty typical of cycle peaks\n▼ Goldilocks: Fed split and geopolitical tensions disrupt balanced growth narrative\n▲ Stagflation: High energy prices despite production capacity plus rate policy uncertainty\n▲ Hegemony: US-Iran tensions and dollar dynamics reinforce power competition themes\n▲ Displacement: Bitcoin institutional adoption accelerates amid traditional system stress\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 23/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Unemployment Rate(Apr) — May 8, 12:30 PM UTC (prev: 4.3%)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\nEU Retail Sales (MoM)(Mar) — May 7, 09:00 AM UTC (prev: -0.2%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's dip to $75K on Fed news may be temporary noise - institutional flows and geopolitical dema\n• High gas prices despite US oil leadership might signal domestic refining bottlenecks rather than sup\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 332
   }
 ]

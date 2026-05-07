@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-07-intelligence",
+      "url": "https://agentcanary.ai/record/2026/05/07#intelligence",
+      "title": "Signal Scan — May 7, 2026",
+      "content_text": "SIGNAL SCAN — May 7, 2026 Risk 43.2/100 · 8 movers",
+      "summary": "SIGNAL SCAN — May 7, 2026",
+      "date_published": "2026-05-07T09:15:23.214Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-05-07-morning",
       "url": "https://agentcanary.ai/record/2026/05/07#morning",
       "title": "Morning Brief — May 7, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-24-evening",
-      "url": "https://agentcanary.ai/record/2026/04/24#evening",
-      "title": "Evening Wrap — Apr 24, 2026",
-      "content_text": "Markets shrugged off Middle East naval escalation and energy disruptions, with US equities hitting f… OVERHEATING. 17 news items. 5 scenario shifts.",
-      "summary": "Markets shrugged off Middle East naval escalation and energy disruptions, with US equities hitting f…",
-      "date_published": "2026-04-24T21:15:06.900Z",
-      "tags": [
-        "bullish-skew",
-        "us-durable-goods-orders-(mom)-"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

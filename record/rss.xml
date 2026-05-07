@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — May 7, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/07#intelligence</link>
+      <description>SIGNAL SCAN — May 7, 2026 — Risk 43.2/100 · 8 movers</description>
+      <pubDate>Thu, 07 May 2026 09:15:23 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/07#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — May 7, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/07#morning</link>
       <description>— Neutral · Neutral · Gauge 43.2/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -348,13 +355,6 @@
       <description>▲ Risk-On · Neutral · Gauge 8.9/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Sat, 25 Apr 2026 03:15:05 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/25#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Apr 24, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/24#evening</link>
-      <description>Markets shrugged off Middle East naval escalation and energy disruptions, with US equities hitting f… — OVERHEATING. 17 news items. 5 scenario shifts.</description>
-      <pubDate>Fri, 24 Apr 2026 21:15:06 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/24#evening</guid>
     </item>
   </channel>
 </rss>

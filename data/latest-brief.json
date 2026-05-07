@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-05-07",
-  "time": "03:15 UTC",
-  "headline": "— Neutral · Neutral · Gauge 43.2/100",
-  "headlineColor": "#34D399",
-  "desc": "EXPANSION. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — May 7, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 43.2/100 · 8 movers",
   "tags": [
     {
-      "t": "Neutral · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE 43.2",
-      "c": "green"
+      "t": "EXPANSION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
+          "k": "TON",
+          "v": "+12.2%",
+          "c": "green"
+        },
+        {
+          "k": "EWY",
+          "v": "+11.2%",
+          "c": "green"
+        },
+        {
+          "k": "SOXX",
+          "v": "+9.7%",
+          "c": "green"
+        },
+        {
+          "k": "SMH",
+          "v": "+8.5%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — May 7, 2026\n\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 43.2/100\n\n• BTC: <b>$81,052</b>\n• ETH: <b>$2,320</b>\n• SOL: <b>$88.1</b>\n• GOLD: <b>$4,696</b>\nSPY: <b>$733.83</b> (+2.2%)\nQQQ: <b>$695.77</b> (+3.4%)\nVIX: <b>17.4</b> (+0.1%)\nTLT: <b>$86.08</b> (+1.3%)\nDXY: <b>98.0</b> (-0.5%)\nOIL: <b>$95.77</b> (-6.4%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.21T</b> (YoY -3.08%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.55σ\n▲ Jobless Claims: -2.13σ\n▼ 2Y Treasury: +1.79σ\n▼ 10Y Treasury: +1.72σ\n▲ IG Credit Spread: -1.67σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +12.9%\n▼ ETH: -1.2%\n▼ SOL: -1.1%\n\n<b>TOP MOVERS</b>\n▼ LUNC $0.00008817 (-14.4%)\n▲ TON $2.67 (+12.2%)\n▲ EWY $182 (+11.2%)\n▲ SOXX $507 (+9.7%)\n▲ SMH $550 (+8.5%)\n▼ DASH $50.59 (-8.1%)\n▼ BRENT $102 (-7.3%)\n▼ WTI $95.64 (-6.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 361
+  "telegramText": "<b>SIGNAL SCAN</b> — May 7, 2026\n\n<b>SNAPSHOT</b>\nRisk-on surge driven by crypto institutional mania and Iran truce optimism, with BTC breaching $82K on massive ETF inflows. Cross-asset divergence emerging as inflation warnings create underlying tension despite euphoric sentiment. Tech and materials leading while energy dumps on geopolitical premium fade.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 43.2/100 (Low)\nRegime: EXPANSION — HY spreads tightening but financial conditions tightening on policy flows\nKey prices: SPY +2.2% | QQQ +3.4% | VIX +0.6% | TLT +1.3% | DXY -0.1% | OIL -2.3%\nICSA: 189K (-2.1σ, trending down)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Crypto Mania Peak\nBTC: $75K-$85K (±5%)\nSPY: $720-$750 (±2%)\n\n<b>SCENARIO B</b> — Inflation Shock\nTLT: $82-$88 (±3%)\nQQQ: $650-$680 (-5%)\n\n<b>SCENARIO C</b> — Geopolitical Flare\nOIL: $100-$110 (+12%)\nVIX: $22-$28 (+45%)\n\n<b>SECTOR STRENGTH</b>\n1. COPX (+9.0%) — strong\n2. SMH (+8.5%) — rotating\n3. URA (+6.4%) — bid\n4. XLK (+4.9%) — strong\n5. XLE (-4.0%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTON +12.2% — crypto momentum spillover from BTC institutional surge\nEWY +11.2% — South Korea becomes 8th largest stock market, institutional flows\nSOXX +9.7% — semiconductor strength on AI compute expansion\nBRENT -7.3% — Iran truce headlines crushing geopolitical premium\nWTI -6.5% — peace proposal selling, Trump timeline uncertainty\n<i>Cross-asset rotation from geopolitical hedges into risk assets as crypto euphoria drives tech leadership.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: 46.8M long vs 80.2M short, +$3.6M PnL on 5 positions\nBTC ETF flows: +$531M inflow (13th consecutive day) — institutional FOMO accelerating\nETH whales: 11M long vs 28.4M short, suggesting caution on alt momentum\n\n<b>IMPLICATION</b>\nTactical opportunity in long tech/short energy spread if geopolitical premium continues fading. Consider crypto exposure reduction on parabolic signals while maintaining semiconductor overweight on AI infrastructure buildout.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 362
 }
