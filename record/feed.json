@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-07-evening",
+      "url": "https://agentcanary.ai/record/2026/05/07#evening",
+      "title": "Evening Wrap — May 7, 2026",
+      "content_text": "Markets traded in conflicted fashion as robust US consumer data reinforced late-cycle dynamics while… EXPANSION. 17 news items. 4 scenario shifts.",
+      "summary": "Markets traded in conflicted fashion as robust US consumer data reinforced late-cycle dynamics while…",
+      "date_published": "2026-05-07T21:15:04.650Z",
+      "tags": [
+        "bullish-skew",
+        "us-federal-funds-benchmark-rat"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-07-midday",
       "url": "https://agentcanary.ai/record/2026/05/07#midday",
       "title": "Market Pulse — May 7, 2026",
@@ -396,8 +411,8 @@
       "id": "2026-05-01-intelligence",
       "url": "https://agentcanary.ai/record/2026/05/01#intelligence",
       "title": "Signal Scan — May 1, 2026",
-      "content_text": "SIGNAL SCAN — May 1, 2026 Risk 33.8/100 · 8 movers",
-      "summary": "SIGNAL SCAN — May 1, 2026",
+      "content_text": "SIGNAL SCAN �� May 1, 2026 Risk 33.8/100 · 8 movers",
+      "summary": "SIGNAL SCAN �� May 1, 2026",
       "date_published": "2026-05-01T09:15:24.646Z",
       "tags": [
         "low",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-25-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/25#intelligence",
-      "title": "Signal Scan — Apr 25, 2026",
-      "content_text": "SIGNAL SCAN — Apr 25, 2026 Risk 8.9/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 25, 2026",
-      "date_published": "2026-04-25T09:15:26.750Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

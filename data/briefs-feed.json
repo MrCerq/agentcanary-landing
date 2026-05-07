@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-07",
+    "time": "21:15 UTC",
+    "headline": "Markets traded in conflicted fashion as robust US consumer data reinforced late-cycle dynamics while…",
+    "headlineColor": "#A78BFA",
+    "desc": "EXPANSION. 17 news items. 4 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US Federal Funds Benchmark Rat",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 43
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US Federal Funds Benchmark Rate",
+            "v": "May 15",
+            "c": "blue"
+          },
+          {
+            "k": "US Retail sales (MoM)(Apr)",
+            "v": "May 14",
+            "c": "blue"
+          },
+          {
+            "k": "US Unseasonally Adjusted Consumer Pric",
+            "v": "May 13",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — May 7, 2026\n\n<i>Markets traded in conflicted fashion as robust US consumer data reinforced late-cycle dynamics while crypto volatility and UK political uncertainty created cross-currents. Central bank dovish pivots supported risk assets, but mixed regime signals kept positioning cautious ahead of potential displacement scenarios.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$79,884</b> · ETH: <b>$2,289</b> · SOL: <b>$88.09</b> · GOLD: <b>$4,708</b> · SPY: <b>$731.58</b> (+1.1%) · QQQ: <b>$694.94</b> (+2.0%) · VIX: <b>$17.08</b> (-1.8%) · TLT: <b>$85.65</b> (+0.3%) · DXY: <b>$98.24</b> (+0.2%) · OIL: <b>$97.66</b> (+2.7%)\n\n<b>EVENING NEWS</b>\n▲ Starmer braces for heavy Labour losses in elections as counting begins\n▲ DraftKings Profit Beats Estimates as Sportsbook Sales Grow\n▲ Bitcoin falls under $80K but four-month high in weekly BTC ETF inflows may curb selling\n▲ Stellar expands role in crypto payments stack as Mesh selects it for settlement layer\n▲ Banxico cuts rates 25 bps to 6.50% as expected\n▲ US Consumer Borrowing Increased in March by Most Since 2022\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong consumer borrowing and crypto institutional adoption signal continued expansion\n▲ Recession: UK political instability raises recession risks in major economy\n▲ Goldilocks: US consumer strength, Mexico easing, and sector growth support soft landing narrative\n▲ Displacement: Crypto payment infrastructure adoption shows technological disruption accelerating\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 43.2/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Apr) — May 13, 06:30 PM UTC (prev: 3.3%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\n\n<b>CONTRARIAN</b>\n• Strong consumer borrowing might indicate desperation rather than confidence, suggesting upcoming cre\n• Crypto ETF inflows could be institutional distribution to retail, not genuine institutional adoption\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 364
+  },
+  {
     "session": "midday",
     "date": "2026-05-07",
     "time": "15:15 UTC",
@@ -1443,58 +1491,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — Apr 30, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$76,300</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• ETH: <b>$2,262</b> — 1d: RISK_OFF | 4h: RISK_OFF\n• SOL: <b>$83.18</b> — 1d: BEAR_REGIME | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 656 BTC ($50,074,339)\n  <i>transferred from unknown wallet to #Robinhood</i>\n• 656 BTC ($50,128,619)\n  <i>transferred from #Robinhood to unknown wallet</i>\n• 656 BTC ($50,211,929)\n  <i>transferred from #Robinhood to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>MEGA</b>: 134% net APR (0.0961% rate)\n  Long Binance / Short Bybit | OI: $6.5M | Spread: 0.15%\n• <b>NAORIS</b>: 158% net APR (0.0771% rate)\n  Long Bitget / Short Bybit | OI: $6.0M | Spread: -0.03%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $113,719,921 | Longs: 86% | L/S: 6.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Fed Policy Divergence and Rate Hold [DXY, EUR/USD, GBP/USD]\n▼ Bitcoin ETF Volatility and Whale Activity [BTC, COIN, MSTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 335
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-04-30",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — Apr 30, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 22.6/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 23
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "MOH",
-            "v": "+9.6%",
-            "c": "green"
-          },
-          {
-            "k": "WTI",
-            "v": "+8.5%",
-            "c": "green"
-          },
-          {
-            "k": "TKMS",
-            "v": "+6.0%",
-            "c": "green"
-          },
-          {
-            "k": "SLV",
-            "v": "-5.1%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — April 30, 2026\n\n<b>SNAPSHOT</b>\nMixed regime with energy-led rotation masking broad risk-off undertones. Fed's 8-4 split decision creates policy uncertainty while BTC whale distribution at $78K resistance signals institutional caution. Cross-asset divergence as commodities reprice geopolitical premiums while growth assets fade.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 22.6/100 (Low)\nRegime: OVERHEATING — inflation expectations rising amid tightening financial conditions\nKey prices: SPY -0.5% | QQQ -0.4% | VIX -1.9% | TLT -0.7% | DXY -0.1% | OIL +1.0%\nICSA: 214K (neutral, slight uptick)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Fed Clarity Rally\nSPY: $740-760 (+4-7%)\nBTC: $78-82K (+3-8%)\nTLT: $88-91 (+3-6%)\n\n<b>SCENARIO B</b> — Geopolitical Energy Shock\nOIL: $115-125 (+7-16%)\nSPY: $675-690 (-3-5%)\nDXY: $101-103 (+2-4%)\n\n<b>SCENARIO C</b> — Late Cycle Unwind\nVIX: $25-30 (+35-60%)\nBTC: $68-72K (-5-11%)\nTLT: $90-95 (+5-11%)\n\n<b>SECTOR STRENGTH</b>\n1. ENERGY (XLE +4.0%) — strong\n2. STAPLES (XLP +0.7%) — rotating\n3. REAL ESTATE (XLRE +0.3%) — bid\n4. BIOTECH (XBI -3.1%) — dump\n5. URANIUM (URA -6.7%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nMOH +9.6% — Medicaid headwinds ending, Q1 premium beats across health insurers\nWTI +8.5% — Record producer profits expected, Trump rejects Iran blockade offers\nXLE +4.0% — O&G producers \"insanely undervalued\" per analyst coverage\nSLV -5.1% — Industrial metals selloff on growth concerns\nTKMS +6.0% — Defense rotation continues\nPENDLE -3.1% — DeFi yield protocols under pressure\n<i>Energy dominance masking broader defensive rotation as late-cycle signals intensify.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M (13-day streak) despite price resistance at $78K. Whale data shows mixed signals: $82M BTC longs vs $526K realized losses, suggesting distribution. ETH positioning bullish with $16.7M long bias, zero shorts.\n\n<b>IMPLICATION</b>\nTactical energy overweight justified but watch for reversal if geopolitical premiums fade. BTC's institutional inflow streak against whale selling suggests retail FOMO — fade strength above $78K resistance.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 334
   }
 ]
