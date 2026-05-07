@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-05-06",
-  "time": "21:15 UTC",
-  "headline": "Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted …",
-  "headlineColor": "#A78BFA",
-  "desc": "OVERHEATING. 16 news items. 5 scenario shifts.",
+  "session": "morning",
+  "date": "2026-05-07",
+  "time": "03:15 UTC",
+  "headline": "— Neutral · Neutral · Gauge 43.2/100",
+  "headlineColor": "#34D399",
+  "desc": "EXPANSION. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
-      "c": "red"
+      "t": "Neutral · Neutral",
+      "c": "green"
     },
     {
-      "t": "US Federal Funds Benchmark Rat",
-      "c": "blue"
+      "t": "GAUGE 43.2",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 44
+        "value": 43
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "US Federal Funds Benchmark Rate",
-          "v": "May 15",
-          "c": "blue"
-        },
-        {
-          "k": "US Retail sales (MoM)(Apr)",
-          "v": "May 14",
-          "c": "blue"
-        },
-        {
-          "k": "US Producer Price Index (YoY)(Apr)",
-          "v": "May 13",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0.5/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 6, 2026\n\n<i>Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted sharply with Treasury weakness and rising inflation signals. The divergence between risk-on crypto adoption and deteriorating macro foundations suggests investors are hedging traditional system vulnerabilities through digital assets.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,399</b> · ETH: <b>$2,349</b> · SOL: <b>$89.06</b> · GOLD: <b>$4,696</b> · SPY: <b>$733.83</b> (+2.2%) · QQQ: <b>$695.77</b> (+3.4%) · VIX: <b>$17.39</b> (+0.1%) · TLT: <b>$86.08</b> (+1.3%) · DXY: <b>$98.03</b> (-0.5%) · OIL: <b>$96.21</b> (-5.9%)\n\n<b>EVENING NEWS</b>\n▲ Fed’s Goolsbee Sounds Warning on Inflation, Consumer Behavior\n▲ Europe’s Dealmakers Race Past $450 Billion\n▲ Stablecoins Are Becoming Everyday Money In Europe, OKX Report\n▲ XRP ETFs Record $81.59M Inflows as Institutional Demand Grows\n▲ Foreign Demand for Treasury Debt Is Stalling, Trade Group Says\n▲ USD/PHP: Inflation shock drives underperformance risk – MUFG\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed warnings and crypto speculation suggest advanced cycle dynamics\n▼ Goldilocks: Inflation warnings and Treasury demand issues challenge benign conditions\n▲ Stagflation: Multiple inflation signals with weakening Treasury demand\n▼ Hegemony: Foreign Treasury demand stalling threatens dollar dominance\n▲ Displacement: Accelerating crypto adoption as alternative monetary system\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 43.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• Stablecoin adoption in Europe might indicate weakness in traditional banking rather than crypto stre\n• Foreign Treasury selling could be tactical diversification rather than systemic dollar rejection\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 360
+  "telegramText": "<b>MACRO RADAR</b> — May 7, 2026\n\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 43.2/100\n\n• BTC: <b>$81,052</b>\n• ETH: <b>$2,320</b>\n• SOL: <b>$88.1</b>\n• GOLD: <b>$4,696</b>\nSPY: <b>$733.83</b> (+2.2%)\nQQQ: <b>$695.77</b> (+3.4%)\nVIX: <b>17.4</b> (+0.1%)\nTLT: <b>$86.08</b> (+1.3%)\nDXY: <b>98.0</b> (-0.5%)\nOIL: <b>$95.77</b> (-6.4%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.21T</b> (YoY -3.08%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.55σ\n▲ Jobless Claims: -2.13σ\n▼ 2Y Treasury: +1.79σ\n▼ 10Y Treasury: +1.72σ\n▲ IG Credit Spread: -1.67σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +12.9%\n▼ ETH: -1.2%\n▼ SOL: -1.1%\n\n<b>TOP MOVERS</b>\n▼ LUNC $0.00008817 (-14.4%)\n▲ TON $2.67 (+12.2%)\n▲ EWY $182 (+11.2%)\n▲ SOXX $507 (+9.7%)\n▲ SMH $550 (+8.5%)\n▼ DASH $50.59 (-8.1%)\n▼ BRENT $102 (-7.3%)\n▼ WTI $95.64 (-6.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 361
 }
