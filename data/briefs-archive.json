@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-08",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge 32.5/100",
+    "headlineColor": "#34D399",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 32.5",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 33
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 365,
+    "telegramText": "<b>MACRO RADAR</b> — May 8, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 32.5/100\n\n• BTC: <b>$79,303</b>\n• ETH: <b>$2,273</b>\n• SOL: <b>$87.8</b>\n• GOLD: <b>$4,708</b>\nSPY: <b>$731.58</b> (+1.1%)\nQQQ: <b>$694.94</b> (+2.0%)\nVIX: <b>17.1</b> (-1.8%)\nTLT: <b>$85.65</b> (+0.3%)\nDXY: <b>98.2</b> (+0.2%)\nOIL: <b>$95.61</b> (+0.6%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ IG Credit Spread: -1.67σ\n— 2s10s Curve: -1.46σ\n— Fed Balance Sheet: +1.42σ\n— 30Y Mortgage Rate: +1.24σ\n— HY Credit Spread: -1.23σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +14.7%\n▼ BTC: -0.7%\n▼ ETH: -0.7%\n\n<b>TOP MOVERS</b>\n▲ SLV $71.60 (+8.6%)\n▼ XLE $55.95 (-5.9%)\n▲ LUNC $0.00009286 (+5.1%)\n▲ STX $0.2604 (+4.6%)\n▲ KWEB $29.52 (+3.5%)\n▲ SMH $540 (+3.3%)\n▲ ITA $223 (+3.3%)\n▲ QNT $73.09 (+3.2%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-05-07",
     "time": "21:15 UTC",

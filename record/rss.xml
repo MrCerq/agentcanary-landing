@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — May 8, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/08#morning</link>
+      <description>▲ Risk-On · Neutral · Gauge 32.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
+      <pubDate>Fri, 08 May 2026 03:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/08#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — May 7, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/07#evening</link>
       <description>Markets traded in conflicted fashion as robust US consumer data reinforced late-cycle dynamics while… — EXPANSION. 17 news items. 4 scenario shifts.</description>
@@ -191,7 +198,7 @@
     <item>
       <title>Signal Scan — May 1, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/01#intelligence</link>
-      <description>SIGNAL SCAN �� May 1, 2026 — Risk 33.8/100 · 8 movers</description>
+      <description>SIGNAL SCAN — May 1, 2026 — Risk 33.8/100 · 8 movers</description>
       <pubDate>Fri, 01 May 2026 09:15:24 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/05/01#intelligence</guid>
     </item>
@@ -348,13 +355,6 @@
       <description>Markets displayed classic late-cycle bifurcation as crypto surged on institutional adoption while tr… — OVERHEATING. 14 news items. 5 scenario shifts.</description>
       <pubDate>Sat, 25 Apr 2026 21:15:04 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/25#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — Apr 25, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/25#midday</link>
-      <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily accumulation, 4h distribution</description>
-      <pubDate>Sat, 25 Apr 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/25#midday</guid>
     </item>
   </channel>
 </rss>
