@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-08",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k whi…",
+    "headlineColor": "#A78BFA",
+    "desc": "EXPANSION. 15 news items. 4 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": " Total retail sales of consume",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 33
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": " Total retail sales of consumer good",
+            "v": "May 18",
+            "c": "blue"
+          },
+          {
+            "k": "US Federal Funds Benchmark Rate",
+            "v": "May 15",
+            "c": "blue"
+          },
+          {
+            "k": "US Retail sales (MoM)(Apr)",
+            "v": "May 14",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 368,
+    "telegramText": "<b>MARKET WRAP</b> — May 8, 2026\n\n<i>Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k while USD weakness ahead of CPI data lifted risk assets. The displacement theme gained momentum as traditional late-cycle dynamics evolved, though muted VIX suggests investors remain selective rather than euphoric.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$80,102</b> · ETH: <b>$2,306</b> · SOL: <b>$92.08</b> · GOLD: <b>$4,724</b> · SPY: <b>$737.62</b> (+0.5%) · QQQ: <b>$711.23</b> (+2.2%) · VIX: <b>$17.19</b> (+0.6%) · TLT: <b>$86.08</b> (+0.0%) · DXY: <b>$97.84</b> (-0.4%) · OIL: <b>$94.68</b> (-0.1%)\n\n<b>EVENING NEWS</b>\n▼ TeraWulf's AI Compute Revenue Outpaces Bitcoin Mining Amid $427 Million Loss\n▲ Fed Calls Risks Tied to Private Credit Redemptions ‘Manageable’\n▲ BitMine Stock Faces Risk as Tom Lee Cools on Ethereum Buying\n▼ Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches\n▲ Hungary: Inflation path stays contained – ING\n— Is Regis Resources (ASX:RRL) Still Attractive After Its Strong Three Year Share Price Run\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: USD weakness and crypto infrastructure evolution signal mature cycle dynamics\n▲ Goldilocks: Dollar weakness and contained inflation in Hungary support soft landing thesis\n▼ Stagflation: USD weakness reduces stagflation probability ahead of CPI data\n▲ Displacement: AI infrastructure displacing traditional crypto mining models accelerates\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 32.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Total retail sales of consumer goods (YoY)(Apr) — May 18, 02:00 AM UTC (prev: 1.7%)\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Apr) — May 13, 06:30 PM UTC (prev: 3.3%)\nUS EIA crude oil inventory transmutation last week (10,000 barrels)(to 0508) — May 13, 02:30 PM UTC (prev: -231.3)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\n\n<b>CONTRARIAN</b>\n• TeraWulf's AI pivot success might mask fundamental Bitcoin mining oversupply that could trigger sect\n• Fed's sanguine view on private credit risks could be mistimed as redemption pressures haven't been t\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-05-08",
     "time": "15:15 UTC",

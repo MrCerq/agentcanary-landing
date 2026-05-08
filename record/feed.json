@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-08-evening",
+      "url": "https://agentcanary.ai/record/2026/05/08#evening",
+      "title": "Evening Wrap — May 8, 2026",
+      "content_text": "Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k whi… EXPANSION. 15 news items. 4 scenario shifts.",
+      "summary": "Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k whi…",
+      "date_published": "2026-05-08T21:15:06.368Z",
+      "tags": [
+        "bullish-skew",
+        "-total-retail-sales-of-consume"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-08-midday",
       "url": "https://agentcanary.ai/record/2026/05/08#midday",
       "title": "Market Pulse — May 8, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-26-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/26#intelligence",
-      "title": "Signal Scan — Apr 26, 2026",
-      "content_text": "SIGNAL SCAN — Apr 26, 2026 Risk 11.8/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 26, 2026",
-      "date_published": "2026-04-26T09:15:26.614Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
