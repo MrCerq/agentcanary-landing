@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-05-08",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge 32.5/100",
-  "headlineColor": "#34D399",
-  "desc": "EXPANSION. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — May 8, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 32.5/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE 32.5",
-      "c": "green"
+      "t": "EXPANSION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
+          "k": "SLV",
+          "v": "+8.6%",
+          "c": "green"
+        },
+        {
+          "k": "XLE",
+          "v": "-5.9%",
+          "c": "red"
+        },
+        {
+          "k": "KWEB",
+          "v": "+3.5%",
+          "c": "green"
+        },
+        {
+          "k": "SMH",
+          "v": "+3.3%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — May 8, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 32.5/100\n\n• BTC: <b>$79,303</b>\n• ETH: <b>$2,273</b>\n• SOL: <b>$87.8</b>\n• GOLD: <b>$4,708</b>\nSPY: <b>$731.58</b> (+1.1%)\nQQQ: <b>$694.94</b> (+2.0%)\nVIX: <b>17.1</b> (-1.8%)\nTLT: <b>$85.65</b> (+0.3%)\nDXY: <b>98.2</b> (+0.2%)\nOIL: <b>$95.61</b> (+0.6%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ IG Credit Spread: -1.67σ\n— 2s10s Curve: -1.46σ\n— Fed Balance Sheet: +1.42σ\n— 30Y Mortgage Rate: +1.24σ\n— HY Credit Spread: -1.23σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +14.7%\n▼ BTC: -0.7%\n▼ ETH: -0.7%\n\n<b>TOP MOVERS</b>\n▲ SLV $71.60 (+8.6%)\n▼ XLE $55.95 (-5.9%)\n▲ LUNC $0.00009286 (+5.1%)\n▲ STX $0.2604 (+4.6%)\n▲ KWEB $29.52 (+3.5%)\n▲ SMH $540 (+3.3%)\n▲ ITA $223 (+3.3%)\n▲ QNT $73.09 (+3.2%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 365
+  "telegramText": "<b>SIGNAL SCAN</b> — May 8, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum in equities with QQQ +2.0% led by semiconductors and defense, but energy sector dumps -5.9% on Hormuz tensions. Precious metals surge (SLV +8.6%, GLD +3.2%) signals inflation hedging amid geopolitical premium. Cross-asset divergence widening as crypto consolidates below $80K despite record ETF inflows.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 32.5/100 (Low)\nRegime: EXPANSION — Financial conditions flowing supportive, HY spreads tightening\nSPY: +1.1% | QQQ: +2.0% | VIX: +0.3% | TLT: +0.3% | DXY: -0.3% | OIL: -0.4%\nICSA: 200K (flat trend, below historical average)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Tensions Escalate\nSPY: $695-715 (-5% to -2%)\nOIL: $105-115 (+11% to +22%)\nGLD: $450-470 (+4% to +9%)\n\n<b>SCENARIO B</b> — Geopolitical Fade\nSPY: $750-780 (+3% to +7%)\nOIL: $85-90 (-10% to -5%)\nBTC: $85-95K (+6% to +19%)\n\n<b>SCENARIO C</b> — Fed Hawkish Pivot\nTLT: $78-82 (-9% to -4%)\nDXY: $102-105 (+4% to +7%)\nQQQ: $650-680 (-6% to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +5.6%) — strong\n2. Uranium (URA +3.8%) — strong  \n3. Semiconductors (SMH +3.3%) — rotating\n4. Defense (ITA +3.3%) — bid\n5. Energy (XLE -5.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV +8.6% — State Street forecasts 12X metals inflow targeting silver miners\nXLE -5.9% — Energy sector slide on US-Iran Hormuz clash straining ceasefire\nKWEB +3.5% — China-linked tokenized equities explode 2,850% on BNB Chain\nSMH +3.3% — Semiconductor strength on AI capex demand narrative\nITA +3.3% — Defense rally on escalating Middle East tensions\n<i>Metals surge and energy dump reflects geopolitical hedging while tech maintains AI-driven momentum.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M (13-day inflow streak, highest significance)\nWhale activity: ETH heavy short exposure $42.3M vs no longs, BTC mixed with $24.5M long/$34.8M short\nLarge specs positioning for volatility expansion while institutions accumulate crypto systematically\n\n<b>IMPLICATION</b>\nTactical opportunity in long precious metals vs energy if geopolitical premium fades from Hormuz tensions. Consider semiconductor overweight on sustained AI capex cycle, but hedge equity beta with metals exposure given inflation risks from commodity disruption.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 366
 }

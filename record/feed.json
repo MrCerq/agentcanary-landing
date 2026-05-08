@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-08-intelligence",
+      "url": "https://agentcanary.ai/record/2026/05/08#intelligence",
+      "title": "Signal Scan — May 8, 2026",
+      "content_text": "SIGNAL SCAN — May 8, 2026 Risk 32.5/100 · 8 movers",
+      "summary": "SIGNAL SCAN — May 8, 2026",
+      "date_published": "2026-05-08T09:15:34.862Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-05-08-morning",
       "url": "https://agentcanary.ai/record/2026/05/08#morning",
       "title": "Morning Brief — May 8, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-25-evening",
-      "url": "https://agentcanary.ai/record/2026/04/25#evening",
-      "title": "Evening Wrap — Apr 25, 2026",
-      "content_text": "Markets displayed classic late-cycle bifurcation as crypto surged on institutional adoption while tr… OVERHEATING. 14 news items. 5 scenario shifts.",
-      "summary": "Markets displayed classic late-cycle bifurcation as crypto surged on institutional adoption while tr…",
-      "date_published": "2026-04-25T21:15:04.645Z",
-      "tags": [
-        "mixed",
-        "us-new-home-sales-(aamr)(mar)"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
