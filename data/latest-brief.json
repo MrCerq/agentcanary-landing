@@ -1,53 +1,57 @@
 {
-  "session": "intelligence",
+  "session": "midday",
   "date": "2026-05-08",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — May 8, 2026",
-  "headlineColor": "#60A5FA",
-  "desc": "Risk 32.5/100 · 8 movers",
+  "time": "15:15 UTC",
+  "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+  "headlineColor": "#F87171",
+  "desc": "BTC 1d:DISTRIBUTION 4h:ACCUMULATION · ETH 1d:DISTRIBUTION 4h:RISK_OFF · SOL 1d:DISTRIBUTION 4h:ACCUMULATION",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
+      "t": "WHALE ALERT",
+      "c": "blue"
     },
     {
-      "t": "EXPANSION",
-      "c": "blue"
+      "t": "JTO 745% APR",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 33
-      }
-    },
-    {
-      "label": "TOP MOVERS",
+      "label": "SIGNAL STATES",
       "rows": [
         {
-          "k": "SLV",
-          "v": "+8.6%",
-          "c": "green"
-        },
-        {
-          "k": "XLE",
-          "v": "-5.9%",
+          "k": "BTC 1D",
+          "v": "DISTRIBUTION",
           "c": "red"
         },
         {
-          "k": "KWEB",
-          "v": "+3.5%",
-          "c": "green"
+          "k": "ETH 1D",
+          "v": "DISTRIBUTION",
+          "c": "red"
         },
         {
-          "k": "SMH",
-          "v": "+3.3%",
-          "c": "green"
+          "k": "SOL 1D",
+          "v": "DISTRIBUTION",
+          "c": "red"
+        }
+      ]
+    },
+    {
+      "label": "TOP WHALE",
+      "rows": [
+        {
+          "k": "$310M USDC",
+          "v": "transferred from #Et",
+          "c": "blue"
+        },
+        {
+          "k": "$178M ETH",
+          "v": "transferred from unk",
+          "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — May 8, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum in equities with QQQ +2.0% led by semiconductors and defense, but energy sector dumps -5.9% on Hormuz tensions. Precious metals surge (SLV +8.6%, GLD +3.2%) signals inflation hedging amid geopolitical premium. Cross-asset divergence widening as crypto consolidates below $80K despite record ETF inflows.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 32.5/100 (Low)\nRegime: EXPANSION — Financial conditions flowing supportive, HY spreads tightening\nSPY: +1.1% | QQQ: +2.0% | VIX: +0.3% | TLT: +0.3% | DXY: -0.3% | OIL: -0.4%\nICSA: 200K (flat trend, below historical average)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Tensions Escalate\nSPY: $695-715 (-5% to -2%)\nOIL: $105-115 (+11% to +22%)\nGLD: $450-470 (+4% to +9%)\n\n<b>SCENARIO B</b> — Geopolitical Fade\nSPY: $750-780 (+3% to +7%)\nOIL: $85-90 (-10% to -5%)\nBTC: $85-95K (+6% to +19%)\n\n<b>SCENARIO C</b> — Fed Hawkish Pivot\nTLT: $78-82 (-9% to -4%)\nDXY: $102-105 (+4% to +7%)\nQQQ: $650-680 (-6% to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +5.6%) — strong\n2. Uranium (URA +3.8%) — strong  \n3. Semiconductors (SMH +3.3%) — rotating\n4. Defense (ITA +3.3%) — bid\n5. Energy (XLE -5.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV +8.6% — State Street forecasts 12X metals inflow targeting silver miners\nXLE -5.9% — Energy sector slide on US-Iran Hormuz clash straining ceasefire\nKWEB +3.5% — China-linked tokenized equities explode 2,850% on BNB Chain\nSMH +3.3% — Semiconductor strength on AI capex demand narrative\nITA +3.3% — Defense rally on escalating Middle East tensions\n<i>Metals surge and energy dump reflects geopolitical hedging while tech maintains AI-driven momentum.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M (13-day inflow streak, highest significance)\nWhale activity: ETH heavy short exposure $42.3M vs no longs, BTC mixed with $24.5M long/$34.8M short\nLarge specs positioning for volatility expansion while institutions accumulate crypto systematically\n\n<b>IMPLICATION</b>\nTactical opportunity in long precious metals vs energy if geopolitical premium fades from Hormuz tensions. Consider semiconductor overweight on sustained AI capex cycle, but hedge equity beta with metals exposure given inflation risks from commodity disruption.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 366
+  "telegramText": "<b>MARKET PULSE</b> — May 8, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$79,892</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n• ETH: <b>$2,281</b> — 1d: DISTRIBUTION | 4h: RISK_OFF\n• SOL: <b>$88.9</b> — 1d: DISTRIBUTION | 4h: ACCUMULATION\n\n\n<b>WHALE ALERTS</b>\n• 310,000,000 USDC ($309,981,710)\n  <i>transferred from #Ethena to unknown wallet</i>\n• 78,076 ETH ($177,872,518)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 222,000,000 USDT ($221,974,100)\n  <i>transferred from unknown wallet to #Wintermute</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>JTO</b>: 709% net APR (0.3403% rate)\n  Long OKX / Short Bybit | OI: $7.3M | Spread: 0.04%\n• <b>CL</b>: 363% net APR (0.2057% rate)\n  Long OKX / Short Bybit | OI: $9.5M | Spread: 0.18%\n• <b>GWEI</b>: 244% net APR (0.1347% rate)\n  Long Binance / Short Bitget | OI: $7.8M | Spread: 0.06%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $60,831,990 | Longs: 77% | L/S: 3.3:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n— Crypto Market Divergence [BTC, COIN, ETH]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 367
 }
