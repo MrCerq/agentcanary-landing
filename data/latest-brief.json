@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-05-08",
-  "time": "21:15 UTC",
-  "headline": "Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k whi…",
-  "headlineColor": "#A78BFA",
-  "desc": "EXPANSION. 15 news items. 4 scenario shifts.",
+  "session": "morning",
+  "date": "2026-05-09",
+  "time": "03:15 UTC",
+  "headline": "▲ Risk-On · Neutral · Gauge 36.5/100",
+  "headlineColor": "#34D399",
+  "desc": "EXPANSION. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BULLISH SKEW",
+      "t": "Risk-On · Neutral",
       "c": "green"
     },
     {
-      "t": " Total retail sales of consume",
-      "c": "blue"
+      "t": "GAUGE 36.5",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
-        "value": 33
+        "value": 37
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": " Total retail sales of consumer good",
-          "v": "May 18",
-          "c": "blue"
-        },
-        {
-          "k": "US Federal Funds Benchmark Rate",
-          "v": "May 15",
-          "c": "blue"
-        },
-        {
-          "k": "US Retail sales (MoM)(Apr)",
-          "v": "May 14",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0.5/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 8, 2026\n\n<i>Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k while USD weakness ahead of CPI data lifted risk assets. The displacement theme gained momentum as traditional late-cycle dynamics evolved, though muted VIX suggests investors remain selective rather than euphoric.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$80,102</b> · ETH: <b>$2,306</b> · SOL: <b>$92.08</b> · GOLD: <b>$4,724</b> · SPY: <b>$737.62</b> (+0.5%) · QQQ: <b>$711.23</b> (+2.2%) · VIX: <b>$17.19</b> (+0.6%) · TLT: <b>$86.08</b> (+0.0%) · DXY: <b>$97.84</b> (-0.4%) · OIL: <b>$94.68</b> (-0.1%)\n\n<b>EVENING NEWS</b>\n▼ TeraWulf's AI Compute Revenue Outpaces Bitcoin Mining Amid $427 Million Loss\n▲ Fed Calls Risks Tied to Private Credit Redemptions ‘Manageable’\n▲ BitMine Stock Faces Risk as Tom Lee Cools on Ethereum Buying\n▼ Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches\n▲ Hungary: Inflation path stays contained – ING\n— Is Regis Resources (ASX:RRL) Still Attractive After Its Strong Three Year Share Price Run\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: USD weakness and crypto infrastructure evolution signal mature cycle dynamics\n▲ Goldilocks: Dollar weakness and contained inflation in Hungary support soft landing thesis\n▼ Stagflation: USD weakness reduces stagflation probability ahead of CPI data\n▲ Displacement: AI infrastructure displacing traditional crypto mining models accelerates\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 32.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Total retail sales of consumer goods (YoY)(Apr) — May 18, 02:00 AM UTC (prev: 1.7%)\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Apr) — May 13, 06:30 PM UTC (prev: 3.3%)\nUS EIA crude oil inventory transmutation last week (10,000 barrels)(to 0508) — May 13, 02:30 PM UTC (prev: -231.3)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\n\n<b>CONTRARIAN</b>\n• TeraWulf's AI pivot success might mask fundamental Bitcoin mining oversupply that could trigger sect\n• Fed's sanguine view on private credit risks could be mistimed as redemption pressures haven't been t\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 368
+  "telegramText": "<b>MACRO RADAR</b> — May 9, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n• BTC: <b>$80,377</b>\n• ETH: <b>$2,316</b>\n• SOL: <b>$93.45</b>\n• GOLD: <b>$4,724</b>\nSPY: <b>$737.62</b> (+0.5%)\nQQQ: <b>$711.23</b> (+2.2%)\nVIX: <b>17.2</b> (+0.6%)\nTLT: <b>$86.08</b> (+0.0%)\nDXY: <b>97.8</b> (-0.4%)\nOIL: <b>$94.68</b> (-0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ IG Credit Spread: -1.67σ\n— Silver: +1.45σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n— 2Y Treasury: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +16.7%\n▲ SOL: +1.5%\n\n<b>TOP MOVERS</b>\n▲ ICP $3.88 (+12.1%)\n▼ TKMS $78.70 (-8.1%)\n▲ DASH $51.51 (+7.4%)\n▲ SUI $1.09 (+6.7%)\n▼ MOH $186 (-5.8%)\n▲ EWY $190 (+4.5%)\n▲ SLV $73.01 (+4.1%)\n▲ XLK $176 (+3.2%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 369
 }
