@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-09",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 9, 2026",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 36.5/100 · 8 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "ICP",
+            "v": "+12.1%",
+            "c": "green"
+          },
+          {
+            "k": "TKMS",
+            "v": "-8.1%",
+            "c": "red"
+          },
+          {
+            "k": "SUI",
+            "v": "+6.7%",
+            "c": "green"
+          },
+          {
+            "k": "MOH",
+            "v": "-5.8%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 9, 2026\n\n<b>SNAPSHOT</b>\nRisk-on tech momentum meets crypto capitulation as Apple/Intel deal drives semis while Bitcoin breaks $80K on massive ETF outflows. Global inflation surprises building policy pressure, but equity momentum intact with SPX hitting fresh 7,400 ATH.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 36.5/100 (Low)\nRegime: EXPANSION — HY spreads tightening despite inflation upticks\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT 0% | DXY -0.4% | OIL +0.6%\nICSA: 200K (flat trend, below historical avg)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Tech Consolidation Accelerates\nSPY: $760-780 (+3-6%)\nQQQ: $750-780 (+5-10%)\nBTC: $75K-78K (-6-3%)\n\n<b>SCENARIO B</b> — Inflation Shock Repricing\nSPY: $700-720 (-5-2%)\nTLT: $82-84 (-5-2%)\nDXY: $102-105 (+4-7%)\n\n<b>SCENARIO C</b> — Crypto Capitulation Complete\nBTC: $85K-90K (+6-12%)\nETH: $2450-2600 (+6-12%)\nQQQ: $690-710 (-3-0%)\n\n<b>SECTOR STRENGTH</b>\n1. Technology (XLK +3.2%) — momentum\n2. Semiconductors (SMH +3.1%) — bid\n3. Copper Miners (COPX +2.9%) — strong\n4. Energy (XLE -2.3%) — weak\n5. Uranium (URA -5.3%) ��� dump\n\n<b>BIG MOVES + DRIVERS</b>\nICP +12.1% — broader crypto rotation despite BTC weakness\nTKMS -8.1% — European undervaluation concerns per analyst coverage\nSUI +6.7% — software narrative gaining traction vs infrastructure tokens\nTON +5.6% — AI robotics hype and altcoin momentum surge\nEWY +4.5% — Korea exposure benefiting from tech consolidation\nSLV +4.1% — precious metals catching inflation hedge bid\n\n<i>Cross-asset dislocation emerging as tech consolidation drives equity strength while crypto faces institutional outflow pressure.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) — institutional accumulation continues despite price weakness creating entry opportunity\nWhale activity: ZEC longs profitable (+$4.7M), HYPE shorts underwater (-$4.1M), mixed crypto positioning suggests uncertainty\n\n<b>IMPLICATION</b>\nTech momentum sustainable with Apple/Intel validation of reshoring theme, but crypto weakness creates tactical entry if ETF flows persist. Consider long semis vs crypto beta trade while monitoring inflation repricing risk.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 370
+  },
+  {
     "session": "morning",
     "date": "2026-05-09",
     "time": "03:15 UTC",
@@ -1420,53 +1473,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — May 2, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n• BTC: <b>$78,341</b>\n• ETH: <b>$2,304</b>\n• SOL: <b>$83.89</b>\n• GOLD: <b>$4,612</b>\nSPY: <b>$720.65</b> (+1.3%)\nQQQ: <b>$674.15</b> (+1.9%)\nVIX: <b>17.0</b> (+0.6%)\nTLT: <b>$85.61</b> (-0.1%)\nDXY: <b>98.2</b> (+0.1%)\nOIL: <b>$102.5</b> (-2.4%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.14T</b> (YoY -3.03%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>283bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.35σ\n▲ Jobless Claims: -2.17σ\n▼ 10Y Breakeven Inflation: +2.03σ\n▼ 10Y Treasury: +1.92σ\n▼ 2Y Treasury: +1.67σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +7.8%\n▲ ETH: +0.9%\n▲ BTC: +0.7%\n▲ SOL: +0.5%\n\n<b>TOP MOVERS</b>\n▲ SLV $68.29 (+5.3%)\n▲ EWY $162 (+5.2%)\n▼ BRENT $109 (-4.5%)\n▲ TKMS $86.90 (+3.6%)\n▲ SOXX $466 (+3.5%)\n▼ WLFI $0.05330 (-3.5%)\n▼ TRUMP $2.27 (-2.2%) — Trump’s Iran war leaves US with sharpest fuel shock in G7\n▲ DASH $37.76 (+1.7%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 341
-  },
-  {
-    "session": "evening",
-    "date": "2026-05-01",
-    "time": "21:15 UTC",
-    "headline": "Markets entered overheating territory as late-cycle dynamics intensified, with crypto infrastructure…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 18 news items. 6 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "US NAR seasonally adjusted exi",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 34
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US NAR seasonally adjusted existing ho",
-            "v": "May 11",
-            "c": "blue"
-          },
-          {
-            "k": " Consumer Price Index for Residents ",
-            "v": "May 11",
-            "c": "blue"
-          },
-          {
-            "k": "US Trade Balance (billion USD)(Apr)",
-            "v": "May 9",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — May 1, 2026\n\n<i>Markets entered overheating territory as late-cycle dynamics intensified, with crypto infrastructure gains offset by mounting debt concerns and stagflationary pressures. Despite regulatory tailwinds for digital assets, the convergence of hegemonic shifts and displacement risks kept traditional safe havens bid while equity resilience showed cracks.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$77,831</b> · ETH: <b>$2,284</b> · SOL: <b>$83.44</b> · GOLD: <b>$4,612</b> · SPY: <b>$720.65</b> (+1.3%) · QQQ: <b>$674.15</b> (+1.9%) · VIX: <b>$16.99</b> (+0.6%) · TLT: <b>$85.61</b> (-0.1%) · DXY: <b>$98.21</b> (+0.1%) · OIL: <b>$102.5</b> (-2.4%)\n\n<b>EVENING NEWS</b>\n▲ Bitcoin miner Riot's shares jump 8% after expanding AMD data center deal, signaling AI piv\n▲ Bitcoin Holds $78K as ETF Inflows Return and Ethereum Outflows Persist\n▲ CFTC to legalize crypto perpetuals in US, boosting regulatory clarity\n▲ Stocks set to keep rallying despite Fed and oil concerns: SA analyst\n▲ Civeo raises 2026 revenue guidance floor to $675M while keeping adjusted EBITDA at $85M-$9\n▼ Bitcoin drops as leverage liquidations drive structural downside\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto AI pivot and equity resilience suggest continued expansion\n▲ Recession: Energy inflation and debt concerns increase recessionary risks\n▼ Goldilocks: Debt milestone and inflation pressures challenge benign scenario\n▲ Stagflation: Debt-to-GDP breach and energy inflation support stagflationary thesis\n▲ Hegemony: Fiscal constraints and crypto alternative narratives challenge dollar dominance\n▲ Displacement: Crypto infrastructure evolution and regulatory clarity accelerate adoption\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · OVERHEATING · Gauge: 33.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS NAR seasonally adjusted existing home sales (AAMR)(Apr) — May 11, 02:00 PM UTC (prev: -3.6%)\n Consumer Price Index for Residents (YoY)(Apr) — May 11, 01:30 AM UTC (prev: 1.0%)\nUS Trade Balance (billion USD)(Apr) — May 9, 12:30 PM UTC\n Trade Balance (billion USD)(Apr) — May 8, 04:05 PM UTC (prev: 51.13)\nUS University of Michigan Consumer Confidence Index (Preliminary)(May) — May 8, 02:00 PM UTC (prev: 49.8)\nUS Seasonally adjusted changes in non-agricultural employment population (thousands)(Apr) — May 8, 12:30 PM UTC (prev: 178)\n\n<b>CONTRARIAN</b>\n• Crypto miner AI pivots may be late-cycle desperation moves rather than strategic positioning, sugges\n• Equity market resilience despite macro concerns could indicate dangerous complacency rather than fun\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 340
   }
 ]

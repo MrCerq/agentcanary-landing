@@ -1,18 +1,18 @@
 {
-  "session": "morning",
+  "session": "intelligence",
   "date": "2026-05-09",
-  "time": "03:15 UTC",
-  "headline": "▲ Risk-On · Neutral · Gauge 36.5/100",
-  "headlineColor": "#34D399",
-  "desc": "EXPANSION. F&G: —. NORMAL.",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — May 9, 2026",
+  "headlineColor": "#60A5FA",
+  "desc": "Risk 36.5/100 · 8 movers",
   "tags": [
     {
-      "t": "Risk-On · Neutral",
+      "t": "LOW",
       "c": "green"
     },
     {
-      "t": "GAUGE 36.5",
-      "c": "green"
+      "t": "EXPANSION",
+      "c": "blue"
     }
   ],
   "panels": [
@@ -23,16 +23,31 @@
       }
     },
     {
-      "label": "HEGEMONY",
+      "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "Snapback",
-          "v": "0.5/6 NORMAL",
+          "k": "ICP",
+          "v": "+12.1%",
           "c": "green"
+        },
+        {
+          "k": "TKMS",
+          "v": "-8.1%",
+          "c": "red"
+        },
+        {
+          "k": "SUI",
+          "v": "+6.7%",
+          "c": "green"
+        },
+        {
+          "k": "MOH",
+          "v": "-5.8%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — May 9, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n• BTC: <b>$80,377</b>\n• ETH: <b>$2,316</b>\n• SOL: <b>$93.45</b>\n• GOLD: <b>$4,724</b>\nSPY: <b>$737.62</b> (+0.5%)\nQQQ: <b>$711.23</b> (+2.2%)\nVIX: <b>17.2</b> (+0.6%)\nTLT: <b>$86.08</b> (+0.0%)\nDXY: <b>97.8</b> (-0.4%)\nOIL: <b>$94.68</b> (-0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ IG Credit Spread: -1.67σ\n— Silver: +1.45σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n— 2Y Treasury: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +16.7%\n▲ SOL: +1.5%\n\n<b>TOP MOVERS</b>\n▲ ICP $3.88 (+12.1%)\n▼ TKMS $78.70 (-8.1%)\n▲ DASH $51.51 (+7.4%)\n▲ SUI $1.09 (+6.7%)\n▼ MOH $186 (-5.8%)\n▲ EWY $190 (+4.5%)\n▲ SLV $73.01 (+4.1%)\n▲ XLK $176 (+3.2%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 369
+  "telegramText": "<b>SIGNAL SCAN</b> — May 9, 2026\n\n<b>SNAPSHOT</b>\nRisk-on tech momentum meets crypto capitulation as Apple/Intel deal drives semis while Bitcoin breaks $80K on massive ETF outflows. Global inflation surprises building policy pressure, but equity momentum intact with SPX hitting fresh 7,400 ATH.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 36.5/100 (Low)\nRegime: EXPANSION — HY spreads tightening despite inflation upticks\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT 0% | DXY -0.4% | OIL +0.6%\nICSA: 200K (flat trend, below historical avg)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Tech Consolidation Accelerates\nSPY: $760-780 (+3-6%)\nQQQ: $750-780 (+5-10%)\nBTC: $75K-78K (-6-3%)\n\n<b>SCENARIO B</b> — Inflation Shock Repricing\nSPY: $700-720 (-5-2%)\nTLT: $82-84 (-5-2%)\nDXY: $102-105 (+4-7%)\n\n<b>SCENARIO C</b> — Crypto Capitulation Complete\nBTC: $85K-90K (+6-12%)\nETH: $2450-2600 (+6-12%)\nQQQ: $690-710 (-3-0%)\n\n<b>SECTOR STRENGTH</b>\n1. Technology (XLK +3.2%) — momentum\n2. Semiconductors (SMH +3.1%) — bid\n3. Copper Miners (COPX +2.9%) — strong\n4. Energy (XLE -2.3%) — weak\n5. Uranium (URA -5.3%) ��� dump\n\n<b>BIG MOVES + DRIVERS</b>\nICP +12.1% — broader crypto rotation despite BTC weakness\nTKMS -8.1% — European undervaluation concerns per analyst coverage\nSUI +6.7% — software narrative gaining traction vs infrastructure tokens\nTON +5.6% — AI robotics hype and altcoin momentum surge\nEWY +4.5% — Korea exposure benefiting from tech consolidation\nSLV +4.1% — precious metals catching inflation hedge bid\n\n<i>Cross-asset dislocation emerging as tech consolidation drives equity strength while crypto faces institutional outflow pressure.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) — institutional accumulation continues despite price weakness creating entry opportunity\nWhale activity: ZEC longs profitable (+$4.7M), HYPE shorts underwater (-$4.1M), mixed crypto positioning suggests uncertainty\n\n<b>IMPLICATION</b>\nTech momentum sustainable with Apple/Intel validation of reshoring theme, but crypto weakness creates tactical entry if ETF flows persist. Consider long semis vs crypto beta trade while monitoring inflation repricing risk.\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 370
 }
