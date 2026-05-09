@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-09-evening",
+      "url": "https://agentcanary.ai/record/2026/05/09#evening",
+      "title": "Evening Wrap — May 9, 2026",
+      "content_text": "Markets reflected late-cycle dynamics as geopolitical tensions drove energy higher while crypto face… EXPANSION. 16 news items. 5 scenario shifts.",
+      "summary": "Markets reflected late-cycle dynamics as geopolitical tensions drove energy higher while crypto face…",
+      "date_published": "2026-05-09T21:15:04.850Z",
+      "tags": [
+        "bearish-skew",
+        "-real-gdp-(aqr)-(preliminary)("
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-09-midday",
       "url": "https://agentcanary.ai/record/2026/05/09#midday",
       "title": "Market Pulse — May 9, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-27-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/27#intelligence",
-      "title": "Signal Scan — Apr 27, 2026",
-      "content_text": "SIGNAL SCAN — Apr 27, 2026 Risk 11.8/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 27, 2026",
-      "date_published": "2026-04-27T09:15:24.997Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
