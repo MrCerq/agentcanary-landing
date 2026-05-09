@@ -1,5 +1,62 @@
 [
   {
+    "session": "midday",
+    "date": "2026-05-09",
+    "time": "15:15 UTC",
+    "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:DISTRIBUTION 4h:DISTRIBUTION · ETH 1d:DISTRIBUTION 4h:DISTRIBUTION · SOL 1d:BULL_REGIME 4h:DISTRIBUTION",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "LAB 281% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "BULL_REGIME",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$158M ETH",
+            "v": "transferred from unk",
+            "c": "blue"
+          },
+          {
+            "k": "$69M ETH",
+            "v": "transferred from unk",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 371,
+    "telegramText": "<b>MARKET PULSE</b> — May 9, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$80,237</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• ETH: <b>$2,302</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• SOL: <b>$92.58</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 68,159 ETH ($157,608,425)\n  <i>transferred from unknown wallet to #Binance</i>\n• 30,000 ETH ($69,374,545)\n  <i>transferred from unknown wallet to #Binance</i>\n• 199,997,999 USDT ($199,978,326)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>LAB</b>: 380% net APR (0.1285% rate)\n  Long Binance / Short Bitget | OI: $94.8M | Spread: -0.35%\n• <b>SAHARA</b>: 255% net APR (0.1131% rate)\n  Long OKX / Short Bitget | OI: $8.1M | Spread: -0.10%\n• <b>SIREN</b>: 304% net APR (0.0957% rate)\n  Long Bitget / Short Bybit | OI: $9.4M | Spread: -0.32%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $12,568,320 | Longs: 31% | L/S: 0.5:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto Institutional Selling Pressure [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "intelligence",
     "date": "2026-05-09",
     "time": "09:15 UTC",
