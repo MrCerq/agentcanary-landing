@@ -2,19 +2,112 @@
   {
     "session": "intelligence",
     "date": "2026-05-10",
-    "time": "10:20 UTC",
+    "time": "15:49 UTC",
     "headline": "SIGNAL SCAN — May 10",
     "headlineColor": "#60A5FA",
-    "desc": "compiled (6 atoms, validator=pass)",
+    "desc": "Risk 37/100 · 6 movers",
     "tags": [
       {
-        "t": "COMPILED",
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
         "c": "blue"
       }
     ],
-    "panels": [],
-    "telegramText": "<b>SIGNAL SCAN</b> — May 10, 2026\n\n<b>SNAPSHOT</b>\nCrypto ETFs face sharp daily outflows despite strong weekly inflows, suggesting institutional profit-taking after recent gains. Risk appetite remains fragile as investors rotate between momentum plays and defensive positioning amid cross-asset volatility.\nBTC at $80,783, above $80K.\nBTC ETF flows: -$151M outflow on May 8 (Fri close), after +$1.4B inflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 36.5/100 (Low). Regime: EXPANSION.\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT flat | DXY -0.4% | OIL +0.6%\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.2%, SMH +3.0%, COPX +2.9%, XLE -2.3%, URA -5.3%.\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$151M outflow on May 8 (Fri close) (FBTC -$98M, IBIT -$27M, ARKB -$27M). Trailing 5-trading-day net: +$1.4B inflow. $96B AUM across 10 funds.\nWhale positioning (Hyperliquid, top 2 by notional): BTC: $21M long / $21M short (flat, -$1.2M PnL); ETH: $0M long / $26M short (net short $26M, -$78K PnL).\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "ICP",
+            "v": "-9.3%",
+            "c": "red"
+          },
+          {
+            "k": "ONDO",
+            "v": "-9.2%",
+            "c": "red"
+          },
+          {
+            "k": "TKMS",
+            "v": "-8.1%",
+            "c": "red"
+          },
+          {
+            "k": "MOH",
+            "v": "-5.8%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 10, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum continues with tech and semiconductors leading equities higher while crypto faces selective pressure. Cross-asset flows show tactical rotation toward growth sectors despite crypto ETF outflows signaling potential divergence in digital asset sentiment.\nBTC at $80,783, above $80K.\nBTC ETF flows: -$151M outflow on May 8 (Fri close), after +$1.4B inflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nRisk Gauge: 36.5/100 (Low). Regime: EXPANSION.\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT flat | DXY -0.4% | OIL +0.6%\nICSA: 200K (DOWN trend, -1.06z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Rally Extension\nSPY: $759.75-774.50 (+3-5%)\nQQQ: $746.79-768.13 (+5-8%)\nBTC: $84,822-88,861 (+5-10%)\n\n<b>SCENARIO B</b> — Crypto Decoupling\nBTC: $87,246-92,900 (+8-15%)\nTLT: $83.50-85.22 (-3 to -1%)\nQQQ: $689.89-704.12 (-3 to -1%)\n\n<b>SCENARIO C</b> — Risk-off Rotation\nTLT: $88.66-90.38 (+3-5%)\nDXY: $98.82-100.78 (+1-3%)\nSPY: $715.49-722.87 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.2%, SMH +3.0%, COPX +2.9%, XLE -2.3%, URA -5.3%.\n\n1. Technology (XLK +3.2%) — strong\n2. Semiconductors (SMH +3.0%) — strong\n3. Copper Miners (COPX +2.9%) — bid\n4. Energy (XLE -2.3%) — weak\n5. Uranium (URA -5.3%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: ICP -9.3%, ONDO -9.2%, TKMS -8.1%, MOH -5.8%, INJ -4.8%, EWY +4.5%.\n\nICP $3.52 (-9.3%) — Broader crypto weakness amid risk-off sentiment in digital assets space\nONDO $0.41 (-9.2%) — Real-world asset token faces selling pressure alongside broader crypto decline\nTKMS $78.70 (-8.1%) — Earnings disappointment triggers sharp selloff in medtech name\nMOH $185.94 (-5.8%) — Healthcare sector rotation continues as growth names face profit-taking\nINJ $4.14 (-4.8%) — DeFi protocol caught in crypto sector weakness and leverage unwinding\nEWY $190.20 (+4.5%) — South Korea ETF benefits from emerging market rotation and tech exposure\n\n<i>Crypto weakness contrasts with equity strength as markets digest diverging flows between digital assets and traditional risk-on sectors.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$151M outflow on May 8 (Fri close) (FBTC -$98M, IBIT -$27M, ARKB -$27M). Trailing 5-trading-day net: +$1.4B inflow. $96B AUM across 10 funds.\nWhale positioning (Hyperliquid, top 2 by notional): BTC: $21M long / $21M short (flat, -$1.2M PnL); ETH: $0M long / $26M short (net short $26M, -$78K PnL).\n\n<b>IMPLICATION</b>\nThe divergence between crypto weakness and equity strength suggests selective risk appetite rather than broad risk-off positioning. Technology leadership alongside emerging market strength points toward continued growth rotation, though crypto ETF outflows warrant monitoring for spillover effects into broader risk assets.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": null
+  },
+  {
+    "session": "midday",
+    "date": "2026-05-10",
+    "time": "15:15 UTC",
+    "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
+    "headlineColor": "#F87171",
+    "desc": "BTC 1d:DISTRIBUTION 4h:DISTRIBUTION · ETH 1d:DISTRIBUTION 4h:BULL_REGIME · SOL 1d:IGNITION 4h:IGNITION",
+    "tags": [
+      {
+        "t": "WHALE ALERT",
+        "c": "blue"
+      },
+      {
+        "t": "XAG 498% APR",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "SIGNAL STATES",
+        "rows": [
+          {
+            "k": "BTC 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "ETH 1D",
+            "v": "DISTRIBUTION",
+            "c": "red"
+          },
+          {
+            "k": "SOL 1D",
+            "v": "IGNITION",
+            "c": "green"
+          }
+        ]
+      },
+      {
+        "label": "TOP WHALE",
+        "rows": [
+          {
+            "k": "$58M ETH",
+            "v": "transferred from #Ar",
+            "c": "blue"
+          },
+          {
+            "k": "$400M USDT",
+            "v": "transferred from Tet",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — May 10, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$80,980</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• ETH: <b>$2,334</b> — 1d: DISTRIBUTION | 4h: BULL_REGIME\n• SOL: <b>$94.09</b> — 1d: IGNITION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 25,000 ETH ($58,238,954)\n  <i>transferred from #Arbitrum to #Binance</i>\n• 400,000,000 USDT ($399,808,755)\n  <i>transferred from Tether Treasury to #Bitfinex</i>\n• 400,000,000 USDT ($399,844,266)\n  <i>transferred from #Bitfinex to Tether Treasury</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>XAG</b>: 363% net APR (0.2273% rate)\n  Long Bitget / Short Bybit | OI: $12.6M | Spread: 0.31%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $20,107,209 | Longs: 8% | L/S: 0.1:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Crypto Institutional Adoption Accelerates [BTC, ETH, XRP]\n— Central Bank Policy Divergence Creates Uncertainty [USD, EUR, BTC]\n▲ AI Infrastructure Investment Surge [NVDA, SOL, TAO]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 376
   },
   {
     "session": "morning",
@@ -1399,43 +1492,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — May 3, 2026\n\n<b>SNAPSHOT</b>\nRisk-on with cross-asset divergence. Tech leading equities (+1.9% QQQ) while precious metals surge (SLV +5.3%, GLD +1.4%) on stagflation fears. VIX subdued despite oil weakness suggesting equity complacency amid geopolitical noise.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Low)\nRegime: OVERHEATING — inflation expectations rising while financial conditions remain accommodative\nKey prices: SPY +1.27% | QQQ +1.90% | VIX +0.59% | TLT -0.11% | DXY flat | OIL flat\nICSA: 189K (trend DOWN, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Stagflation Breakout\nSPY: $650-680 (-5% to -10%)\nBTC: $70-75K (-5% to -10%)\nGLD: $460-480 (+8% to +13%)\n\n<b>SCENARIO B</b> — Tech Momentum Extension  \nQQQ: $720-750 (+7% to +11%)\nBTC: $85-90K (+8% to +15%)\nTLT: $78-82 (-9% to -4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $630-660 (-8% to -12%)\nVIX: $25-35 (+47% to +106%)\nDXY: $102-105 (+4% to +7%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.6%) — explosive\n2. Semiconductors (SMH +2.1%) — strong  \n3. Utilities (XLU +1.9%) — defensive bid\n4. Industrials (XLI +1.8%) — rotating\n5. Technology (XLK +1.7%) — sustained\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $68.29 (+5.3%) — ETF flows amid stagflation positioning\nEWY $162 (+5.2%) — South Korea overtakes UK as 8th largest equity market\nBRENT $108.17 (-5.1%) — Middle East ceasefire hopes reducing geopolitical premium\nPENDLE $1.60 (+3.9%) — RWA adoption driving DeFi TVL to $151M\nONDO $0.279 (+3.4%) — proxy voting feature launch for tokenized assets\n<i>Precious metals diverging from risk assets suggests institutional hedging against overheating regime persistence.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $52.9M short vs $12.1M long (+$4.8M PnL)\nBTC ETF flows: +$531M net inflow (13-day streak)\nContrarian setup: Whale shorts against institutional buying suggests potential squeeze on geopolitical resolution or Fed dovish pivot.\n\n<b>IMPLICATION</b>\nTactical long precious metals vs tech beta captures stagflation hedge while momentum persists. Monitor whale BTC short unwind catalyst — ceasefire news or Fed pause could trigger rapid covering into institutional bid.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 346
-  },
-  {
-    "session": "morning",
-    "date": "2026-05-03",
-    "time": "03:15 UTC",
-    "headline": "— Neutral · Neutral · Gauge 48.1/100",
-    "headlineColor": "#FFC53D",
-    "desc": "OVERHEATING. F&G: —. NORMAL.",
-    "tags": [
-      {
-        "t": "Neutral · Neutral",
-        "c": "yellow"
-      },
-      {
-        "t": "GAUGE 48.1",
-        "c": "yellow"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 48
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "0.5/6 NORMAL",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — May 3, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n• BTC: <b>$78,137</b>\n• ETH: <b>$2,302</b>\n• SOL: <b>$83.6</b>\n• GOLD: <b>$4,612</b>\nSPY: <b>$720.65</b> (+1.3%)\nQQQ: <b>$674.15</b> (+1.9%)\nVIX: <b>17.0</b> (+0.6%)\nTLT: <b>$85.61</b> (-0.1%)\nDXY: <b>98.2</b> (+0.1%)\nOIL: <b>$101.94</b> (-3.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.14T</b> (YoY -3.03%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>283bps</b> CALM (5d: -3bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▼ 10Y Breakeven Inflation: +2.03σ\n▼ 10Y Treasury: +1.92σ\n▼ 2Y Treasury: +1.67σ\n\n<b>TOP MOVERS</b>\n▲ LUNC $0.00008465 (+20.8%)\n▲ SLV $68.29 (+5.3%)\n▲ EWY $162 (+5.2%)\n▼ BRENT $108 (-5.1%)\n▼ JST $0.08206 (-4.6%)\n▲ VIRTUAL $0.7317 (+4.6%)\n▲ TKMS $86.90 (+3.6%)\n▲ SOXX $466 (+3.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 345
   }
 ]

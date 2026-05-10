@@ -1,17 +1,53 @@
 {
   "session": "intelligence",
   "date": "2026-05-10",
-  "time": "10:20 UTC",
+  "time": "15:49 UTC",
   "headline": "SIGNAL SCAN — May 10",
   "headlineColor": "#60A5FA",
-  "desc": "compiled (6 atoms, validator=pass)",
+  "desc": "Risk 37/100 · 6 movers",
   "tags": [
     {
-      "t": "COMPILED",
+      "t": "LOW",
+      "c": "green"
+    },
+    {
+      "t": "EXPANSION",
       "c": "blue"
     }
   ],
-  "panels": [],
-  "telegramText": "<b>SIGNAL SCAN</b> — May 10, 2026\n\n<b>SNAPSHOT</b>\nCrypto ETFs face sharp daily outflows despite strong weekly inflows, suggesting institutional profit-taking after recent gains. Risk appetite remains fragile as investors rotate between momentum plays and defensive positioning amid cross-asset volatility.\nBTC at $80,783, above $80K.\nBTC ETF flows: -$151M outflow on May 8 (Fri close), after +$1.4B inflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 36.5/100 (Low). Regime: EXPANSION.\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT flat | DXY -0.4% | OIL +0.6%\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.2%, SMH +3.0%, COPX +2.9%, XLE -2.3%, URA -5.3%.\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$151M outflow on May 8 (Fri close) (FBTC -$98M, IBIT -$27M, ARKB -$27M). Trailing 5-trading-day net: +$1.4B inflow. $96B AUM across 10 funds.\nWhale positioning (Hyperliquid, top 2 by notional): BTC: $21M long / $21M short (flat, -$1.2M PnL); ETH: $0M long / $26M short (net short $26M, -$78K PnL).\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "panels": [
+    {
+      "label": "RISK GAUGE",
+      "gauge": {
+        "value": 37
+      }
+    },
+    {
+      "label": "TOP MOVERS",
+      "rows": [
+        {
+          "k": "ICP",
+          "v": "-9.3%",
+          "c": "red"
+        },
+        {
+          "k": "ONDO",
+          "v": "-9.2%",
+          "c": "red"
+        },
+        {
+          "k": "TKMS",
+          "v": "-8.1%",
+          "c": "red"
+        },
+        {
+          "k": "MOH",
+          "v": "-5.8%",
+          "c": "red"
+        }
+      ]
+    }
+  ],
+  "telegramText": "<b>SIGNAL SCAN</b> — May 10, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum continues with tech and semiconductors leading equities higher while crypto faces selective pressure. Cross-asset flows show tactical rotation toward growth sectors despite crypto ETF outflows signaling potential divergence in digital asset sentiment.\nBTC at $80,783, above $80K.\nBTC ETF flows: -$151M outflow on May 8 (Fri close), after +$1.4B inflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nRisk Gauge: 36.5/100 (Low). Regime: EXPANSION.\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT flat | DXY -0.4% | OIL +0.6%\nICSA: 200K (DOWN trend, -1.06z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Rally Extension\nSPY: $759.75-774.50 (+3-5%)\nQQQ: $746.79-768.13 (+5-8%)\nBTC: $84,822-88,861 (+5-10%)\n\n<b>SCENARIO B</b> — Crypto Decoupling\nBTC: $87,246-92,900 (+8-15%)\nTLT: $83.50-85.22 (-3 to -1%)\nQQQ: $689.89-704.12 (-3 to -1%)\n\n<b>SCENARIO C</b> — Risk-off Rotation\nTLT: $88.66-90.38 (+3-5%)\nDXY: $98.82-100.78 (+1-3%)\nSPY: $715.49-722.87 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.2%, SMH +3.0%, COPX +2.9%, XLE -2.3%, URA -5.3%.\n\n1. Technology (XLK +3.2%) — strong\n2. Semiconductors (SMH +3.0%) — strong\n3. Copper Miners (COPX +2.9%) — bid\n4. Energy (XLE -2.3%) — weak\n5. Uranium (URA -5.3%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: ICP -9.3%, ONDO -9.2%, TKMS -8.1%, MOH -5.8%, INJ -4.8%, EWY +4.5%.\n\nICP $3.52 (-9.3%) — Broader crypto weakness amid risk-off sentiment in digital assets space\nONDO $0.41 (-9.2%) — Real-world asset token faces selling pressure alongside broader crypto decline\nTKMS $78.70 (-8.1%) — Earnings disappointment triggers sharp selloff in medtech name\nMOH $185.94 (-5.8%) — Healthcare sector rotation continues as growth names face profit-taking\nINJ $4.14 (-4.8%) — DeFi protocol caught in crypto sector weakness and leverage unwinding\nEWY $190.20 (+4.5%) — South Korea ETF benefits from emerging market rotation and tech exposure\n\n<i>Crypto weakness contrasts with equity strength as markets digest diverging flows between digital assets and traditional risk-on sectors.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$151M outflow on May 8 (Fri close) (FBTC -$98M, IBIT -$27M, ARKB -$27M). Trailing 5-trading-day net: +$1.4B inflow. $96B AUM across 10 funds.\nWhale positioning (Hyperliquid, top 2 by notional): BTC: $21M long / $21M short (flat, -$1.2M PnL); ETH: $0M long / $26M short (net short $26M, -$78K PnL).\n\n<b>IMPLICATION</b>\nThe divergence between crypto weakness and equity strength suggests selective risk appetite rather than broad risk-off positioning. Technology leadership alongside emerging market strength points toward continued growth rotation, though crypto ETF outflows warrant monitoring for spillover effects into broader risk assets.\n\nagentcanary.ai | <i>Not financial advice</i>",
   "telegramMessageId": null
 }
