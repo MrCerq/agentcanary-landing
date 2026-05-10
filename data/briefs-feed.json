@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-10",
+    "time": "21:15 UTC",
+    "headline": "Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed …",
+    "headlineColor": "#A78BFA",
+    "desc": "EXPANSION. 16 news items. 5 scenario shifts.",
+    "tags": [
+      {
+        "t": "BEARISH SKEW",
+        "c": "red"
+      },
+      {
+        "t": "EU Consumer Price Index (YoY)(",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "EU Consumer Price Index (YoY)(Final)(A",
+            "v": "May 20",
+            "c": "blue"
+          },
+          {
+            "k": "EU Consumer Price Index (MoM)(Final)(A",
+            "v": "May 20",
+            "c": "blue"
+          },
+          {
+            "k": " Real GDP(billion yen)(Preliminary)(",
+            "v": "May 18",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — May 10, 2026\n\n<i>Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed by record ETF inflows signaling institutional adoption. The risk-on backdrop favored growth over bonds, while rising stagflation and hegemony concerns suggest investors are positioning for a more complex macro environment ahead.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$80,632</b> · ETH: <b>$2,326</b> · SOL: <b>$94.82</b> · GOLD: <b>$4,724</b> · SPY: <b>$737.62</b> (+0.5%) · QQQ: <b>$711.06</b> (+2.2%) · VIX: <b>$17.19</b> (+0.6%) · TLT: <b>$86.08</b> (+0.0%) · DXY: <b>$97.84</b> (+0.0%) · OIL: <b>$95.42</b> (+0.0%)\n\n<b>EVENING NEWS</b>\n▲ Bitcoin Set for New ATH Within 12 Months, Says VanEck\n▲ “I’m Pretty Confident That Was the Bottom at $60K,” Says Pompliano as Bitcoin Surges\n▲ Digital Asset Eyes $300M Raise at $2B Valuation With a16z Crypto Leading the Round\n▲ Saylor signals another Bitcoin buy, after hinting at selling in Q1 earnings call\n▼ Bitcoin’s Realized Cap Turns Positive, Signaling Fresh Capital Inflows After February Slum\n▼ Ethereum down 35% versus Bitcoin in a year: Will the ETH price downtrend continue?\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong jobs data and institutional crypto adoption signal continued expansion\n▼ Goldilocks: Persistent inflation pressure reduces soft landing probability\n▲ Stagflation: Inflation concerns persist despite strong jobs, geopolitical tensions add pressure\n▲ Hegemony: Middle East escalation and UK political instability challenge Western stability\n▲ Displacement: AI infrastructure boom and crypto institutional adoption accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Consumer Price Index (YoY)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 3.0%)\nEU Consumer Price Index (MoM)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 1.0%)\n Real GDP(billion yen)(Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 591856.70)\n Real GDP (AQR) (Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 1.3%)\n starting value of nominal GDP annum (billion yen)(Q1) — May 18, 11:50 PM UTC (prev: 671554.90)\n Real GDP(QoQ)(Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 0.3%)\n\n<b>CONTRARIAN</b>\n• Record Bitcoin ETF inflows may be late-cycle FOMO rather than smart money, as holder count decline s\n• Strong jobs data could be masking underlying economic weakness as companies delay layoffs ahead of p\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 377
+  },
+  {
     "session": "intelligence",
     "date": "2026-05-10",
     "time": "15:49 UTC",
@@ -1439,58 +1487,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — May 3, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,721</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,328</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$84.24</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 331,462,197 USDT ($331,336,655)\n  <i>transferred from unknown wallet to #Kraken</i>\n• 149,544,528 USDT ($149,502,880)\n  <i>transferred from unknown wallet to #Okex</i>\n• 1,053 BTC ($82,638,624)\n  <i>transferred from unknown wallet to #Kraken</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ORCA</b>: 700% net APR (0.0624% rate)\n  Long Bitget / Short Bybit | OI: $5.6M | Spread: -0.48%\n• <b>CL</b>: 294% net APR (0.2226% rate)\n  Long Bybit / Short OKX | OI: $13.8M | Spread: 0.47%\n• <b>LAB</b>: 626% net APR (0.2209% rate)\n  Long OKX / Short Bitget | OI: $10.5M | Spread: -0.47%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $37,781,932 | Longs: 15% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Middle East Volatility Drives Risk Asset Swings [BTC, ETH, XRP]\n▲ Crypto Infrastructure Maturation Accelerates [BTC, ETH, XRP]\n▲ Taiwan Bitcoin Reserve Proposal Signals Sovereign Adoption [BTC, GLD, TWD]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 347
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-05-03",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — May 3, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 48.1/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "OVERHEATING",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 48
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "SLV",
-            "v": "+5.3%",
-            "c": "green"
-          },
-          {
-            "k": "EWY",
-            "v": "+5.2%",
-            "c": "green"
-          },
-          {
-            "k": "BRENT",
-            "v": "-5.1%",
-            "c": "red"
-          },
-          {
-            "k": "PENDLE",
-            "v": "+3.9%",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — May 3, 2026\n\n<b>SNAPSHOT</b>\nRisk-on with cross-asset divergence. Tech leading equities (+1.9% QQQ) while precious metals surge (SLV +5.3%, GLD +1.4%) on stagflation fears. VIX subdued despite oil weakness suggesting equity complacency amid geopolitical noise.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 48.1/100 (Low)\nRegime: OVERHEATING — inflation expectations rising while financial conditions remain accommodative\nKey prices: SPY +1.27% | QQQ +1.90% | VIX +0.59% | TLT -0.11% | DXY flat | OIL flat\nICSA: 189K (trend DOWN, -2.1σ)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Stagflation Breakout\nSPY: $650-680 (-5% to -10%)\nBTC: $70-75K (-5% to -10%)\nGLD: $460-480 (+8% to +13%)\n\n<b>SCENARIO B</b> — Tech Momentum Extension  \nQQQ: $720-750 (+7% to +11%)\nBTC: $85-90K (+8% to +15%)\nTLT: $78-82 (-9% to -4%)\n\n<b>SCENARIO C</b> — Overheating Correction\nSPY: $630-660 (-8% to -12%)\nVIX: $25-35 (+47% to +106%)\nDXY: $102-105 (+4% to +7%)\n\n<b>SECTOR STRENGTH</b>\n1. Uranium (URA +5.6%) — explosive\n2. Semiconductors (SMH +2.1%) — strong  \n3. Utilities (XLU +1.9%) — defensive bid\n4. Industrials (XLI +1.8%) — rotating\n5. Technology (XLK +1.7%) — sustained\n\n<b>BIG MOVES + DRIVERS</b>\nSLV $68.29 (+5.3%) — ETF flows amid stagflation positioning\nEWY $162 (+5.2%) — South Korea overtakes UK as 8th largest equity market\nBRENT $108.17 (-5.1%) — Middle East ceasefire hopes reducing geopolitical premium\nPENDLE $1.60 (+3.9%) — RWA adoption driving DeFi TVL to $151M\nONDO $0.279 (+3.4%) — proxy voting feature launch for tokenized assets\n<i>Precious metals diverging from risk assets suggests institutional hedging against overheating regime persistence.</i>\n\n<b>POSITIONING</b>\nBTC whale positioning: $52.9M short vs $12.1M long (+$4.8M PnL)\nBTC ETF flows: +$531M net inflow (13-day streak)\nContrarian setup: Whale shorts against institutional buying suggests potential squeeze on geopolitical resolution or Fed dovish pivot.\n\n<b>IMPLICATION</b>\nTactical long precious metals vs tech beta captures stagflation hedge while momentum persists. Monitor whale BTC short unwind catalyst — ceasefire news or Fed pause could trigger rapid covering into institutional bid.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 346
   }
 ]

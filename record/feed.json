@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-10-evening",
+      "url": "https://agentcanary.ai/record/2026/05/10#evening",
+      "title": "Evening Wrap — May 10, 2026",
+      "content_text": "Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed … EXPANSION. 16 news items. 5 scenario shifts.",
+      "summary": "Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed …",
+      "date_published": "2026-05-10T21:15:06.426Z",
+      "tags": [
+        "bearish-skew",
+        "eu-consumer-price-index-(yoy)("
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-10-intelligence",
       "url": "https://agentcanary.ai/record/2026/05/10#intelligence",
       "title": "Signal Scan — May 10, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-28-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/28#intelligence",
-      "title": "Signal Scan — Apr 28, 2026",
-      "content_text": "SIGNAL SCAN — Apr 28, 2026 Risk 23/100 · 7 movers",
-      "summary": "SIGNAL SCAN — Apr 28, 2026",
-      "date_published": "2026-04-28T09:15:25.491Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]

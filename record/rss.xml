@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — May 10, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/10#evening</link>
+      <description>Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed … — EXPANSION. 16 news items. 5 scenario shifts.</description>
+      <pubDate>Sun, 10 May 2026 21:15:06 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/10#evening</guid>
+    </item>
+    <item>
       <title>Signal Scan — May 10, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/10#intelligence</link>
       <description>SIGNAL SCAN — May 10 — Risk 37/100 · 6 movers</description>
@@ -348,13 +355,6 @@
       <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h risk-off · ETH daily bearish, 4h accumulation · SOL daily bearish, 4h accumulation</description>
       <pubDate>Tue, 28 Apr 2026 15:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/28#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Apr 28, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/28#intelligence</link>
-      <description>SIGNAL SCAN — Apr 28, 2026 — Risk 23/100 · 7 movers</description>
-      <pubDate>Tue, 28 Apr 2026 09:15:25 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/28#intelligence</guid>
     </item>
   </channel>
 </rss>
