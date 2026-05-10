@@ -15,6 +15,20 @@
   ],
   "items": [
     {
+      "id": "2026-05-10-intelligence",
+      "url": "https://agentcanary.ai/record/2026/05/10#intelligence",
+      "title": "Signal Scan — May 10, 2026",
+      "content_text": "SIGNAL SCAN — May 10 compiled (6 atoms, validator=pass)",
+      "summary": "SIGNAL SCAN — May 10",
+      "date_published": "2026-05-10T10:29:08.739Z",
+      "tags": [
+        "compiled"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-05-10-morning",
       "url": "https://agentcanary.ai/record/2026/05/10#morning",
       "title": "Morning Brief — May 10, 2026",
@@ -750,21 +764,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-27-evening",
-      "url": "https://agentcanary.ai/record/2026/04/27#evening",
-      "title": "Evening Wrap — Apr 27, 2026",
-      "content_text": "Markets displayed classic late-cycle fragmentation as Bitcoin's institutional adoption story drove c… OVERHEATING. 17 news items. 5 scenario shifts.",
-      "summary": "Markets displayed classic late-cycle fragmentation as Bitcoin's institutional adoption story drove c…",
-      "date_published": "2026-04-27T21:15:04.455Z",
-      "tags": [
-        "bearish-skew",
-        "eu-retail-sales-(mom)(mar)"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]

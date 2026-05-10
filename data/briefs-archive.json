@@ -1,5 +1,22 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-10",
+    "time": "10:20 UTC",
+    "headline": "SIGNAL SCAN — May 10",
+    "headlineColor": "#60A5FA",
+    "desc": "compiled (6 atoms, validator=pass)",
+    "tags": [
+      {
+        "t": "COMPILED",
+        "c": "blue"
+      }
+    ],
+    "panels": [],
+    "telegramMessageId": null,
+    "telegramText": "<b>SIGNAL SCAN</b> — May 10, 2026\n\n<b>SNAPSHOT</b>\nCrypto ETFs face sharp daily outflows despite strong weekly inflows, suggesting institutional profit-taking after recent gains. Risk appetite remains fragile as investors rotate between momentum plays and defensive positioning amid cross-asset volatility.\nBTC at $80,783, above $80K.\nBTC ETF flows: -$151M outflow on May 8 (Fri close), after +$1.4B inflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 36.5/100 (Low). Regime: EXPANSION.\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT flat | DXY -0.4% | OIL +0.6%\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.2%, SMH +3.0%, COPX +2.9%, XLE -2.3%, URA -5.3%.\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$151M outflow on May 8 (Fri close) (FBTC -$98M, IBIT -$27M, ARKB -$27M). Trailing 5-trading-day net: +$1.4B inflow. $96B AUM across 10 funds.\nWhale positioning (Hyperliquid, top 2 by notional): BTC: $21M long / $21M short (flat, -$1.2M PnL); ETH: $0M long / $26M short (net short $26M, -$78K PnL).\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-05-10",
     "time": "03:15 UTC",
