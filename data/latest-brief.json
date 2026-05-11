@@ -1,48 +1,38 @@
 {
-  "session": "evening",
-  "date": "2026-05-10",
-  "time": "21:15 UTC",
-  "headline": "Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed …",
-  "headlineColor": "#A78BFA",
-  "desc": "EXPANSION. 16 news items. 5 scenario shifts.",
+  "session": "morning",
+  "date": "2026-05-11",
+  "time": "03:15 UTC",
+  "headline": "▲ Risk-On · Neutral · Gauge 36.5/100",
+  "headlineColor": "#34D399",
+  "desc": "EXPANSION. F&G: —. NORMAL.",
   "tags": [
     {
-      "t": "BEARISH SKEW",
-      "c": "red"
+      "t": "Risk-On · Neutral",
+      "c": "green"
     },
     {
-      "t": "EU Consumer Price Index (YoY)(",
-      "c": "blue"
+      "t": "GAUGE 36.5",
+      "c": "green"
     }
   ],
   "panels": [
     {
-      "label": "REGIME",
+      "label": "RISK GAUGE",
       "gauge": {
         "value": 37
       }
     },
     {
-      "label": "CALENDAR",
+      "label": "HEGEMONY",
       "rows": [
         {
-          "k": "EU Consumer Price Index (YoY)(Final)(A",
-          "v": "May 20",
-          "c": "blue"
-        },
-        {
-          "k": "EU Consumer Price Index (MoM)(Final)(A",
-          "v": "May 20",
-          "c": "blue"
-        },
-        {
-          "k": " Real GDP(billion yen)(Preliminary)(",
-          "v": "May 18",
-          "c": "blue"
+          "k": "Snapback",
+          "v": "0.5/6 NORMAL",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 10, 2026\n\n<i>Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed by record ETF inflows signaling institutional adoption. The risk-on backdrop favored growth over bonds, while rising stagflation and hegemony concerns suggest investors are positioning for a more complex macro environment ahead.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$80,632</b> · ETH: <b>$2,326</b> · SOL: <b>$94.82</b> · GOLD: <b>$4,724</b> · SPY: <b>$737.62</b> (+0.5%) · QQQ: <b>$711.06</b> (+2.2%) · VIX: <b>$17.19</b> (+0.6%) · TLT: <b>$86.08</b> (+0.0%) · DXY: <b>$97.84</b> (+0.0%) · OIL: <b>$95.42</b> (+0.0%)\n\n<b>EVENING NEWS</b>\n▲ Bitcoin Set for New ATH Within 12 Months, Says VanEck\n▲ “I’m Pretty Confident That Was the Bottom at $60K,” Says Pompliano as Bitcoin Surges\n▲ Digital Asset Eyes $300M Raise at $2B Valuation With a16z Crypto Leading the Round\n▲ Saylor signals another Bitcoin buy, after hinting at selling in Q1 earnings call\n▼ Bitcoin’s Realized Cap Turns Positive, Signaling Fresh Capital Inflows After February Slum\n▼ Ethereum down 35% versus Bitcoin in a year: Will the ETH price downtrend continue?\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Strong jobs data and institutional crypto adoption signal continued expansion\n▼ Goldilocks: Persistent inflation pressure reduces soft landing probability\n▲ Stagflation: Inflation concerns persist despite strong jobs, geopolitical tensions add pressure\n▲ Hegemony: Middle East escalation and UK political instability challenge Western stability\n▲ Displacement: AI infrastructure boom and crypto institutional adoption accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Consumer Price Index (YoY)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 3.0%)\nEU Consumer Price Index (MoM)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 1.0%)\n Real GDP(billion yen)(Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 591856.70)\n Real GDP (AQR) (Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 1.3%)\n starting value of nominal GDP annum (billion yen)(Q1) — May 18, 11:50 PM UTC (prev: 671554.90)\n Real GDP(QoQ)(Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 0.3%)\n\n<b>CONTRARIAN</b>\n• Record Bitcoin ETF inflows may be late-cycle FOMO rather than smart money, as holder count decline s\n• Strong jobs data could be masking underlying economic weakness as companies delay layoffs ahead of p\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 377
+  "telegramText": "<b>MACRO RADAR</b> — May 11, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n• BTC: <b>$81,126</b>\n• ETH: <b>$2,343</b>\n• SOL: <b>$95.21</b>\n• GOLD: <b>$4,724</b>\nSPY: <b>$737.62</b> (+0.5%)\nQQQ: <b>$711.06</b> (+2.2%)\nVIX: <b>17.2</b> (+0.6%)\nTLT: <b>$86.08</b> (+0.0%)\nDXY: <b>98.1</b> (+0.3%)\nOIL: <b>$100.04</b> (+4.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n— Silver: +1.45σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n— VIX: -1.41σ\n— 2Y Treasury: +1.38σ\n\n<b>TOP MOVERS</b>\n▲ SUI $1.30 (+19.2%)\n▲ XDC $0.03265 (+8.6%)\n▼ TKMS $78.70 (-8.1%)\n▲ LUNC $0.0001003 (+7.9%)\n▼ MOH $186 (-5.8%)\n▲ OIL $100 (+4.8%)\n▲ WTI $99.75 (+4.5%)\n▲ EWY $190 (+4.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 378
 }

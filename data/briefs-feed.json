@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-11",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge 36.5/100",
+    "headlineColor": "#34D399",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 36.5",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — May 11, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n• BTC: <b>$81,126</b>\n• ETH: <b>$2,343</b>\n• SOL: <b>$95.21</b>\n• GOLD: <b>$4,724</b>\nSPY: <b>$737.62</b> (+0.5%)\nQQQ: <b>$711.06</b> (+2.2%)\nVIX: <b>17.2</b> (+0.6%)\nTLT: <b>$86.08</b> (+0.0%)\nDXY: <b>98.1</b> (+0.3%)\nOIL: <b>$100.04</b> (+4.8%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n— Silver: +1.45σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n— VIX: -1.41σ\n— 2Y Treasury: +1.38σ\n\n<b>TOP MOVERS</b>\n▲ SUI $1.30 (+19.2%)\n▲ XDC $0.03265 (+8.6%)\n▼ TKMS $78.70 (-8.1%)\n▲ LUNC $0.0001003 (+7.9%)\n▼ MOH $186 (-5.8%)\n▲ OIL $100 (+4.8%)\n▲ WTI $99.75 (+4.5%)\n▲ EWY $190 (+4.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 378
+  },
+  {
     "session": "evening",
     "date": "2026-05-10",
     "time": "21:15 UTC",
@@ -1426,66 +1464,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — May 3, 2026\n\n<i>Markets exhibited classic late-cycle schizophrenia today, with geopolitical tensions driving defensive flows into gold while crypto surged on institutional adoption momentum. The Fed pause narrative kept equities supported despite rising stagflation concerns, creating an uneasy equilibrium between risk-on and risk-off positioning.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$79,010</b> · ETH: <b>$2,332</b> · SOL: <b>$84.43</b> · GOLD: <b>$4,612</b> · SPY: <b>$720.65</b> (+1.3%) · QQQ: <b>$674.18</b> (+1.9%) · VIX: <b>$16.99</b> (+0.6%) · TLT: <b>$85.62</b> (-0.1%) · DXY: <b>$98.21</b> (+0.0%) · OIL: <b>$101.94</b> (+0.0%)\n\n<b>EVENING NEWS</b>\n▲ Chainlink snags multiple billion-dollar partnerships, triggering ultra-bullish predictions\n▲ Strategy Pauses Bitcoin Purchases for First Time in Weeks, Holds 818,334 BTC\n▼ US pullback on long-range missiles leaves Europe exposed\n▲ Private Credit Could Spark Psychological Contagion, Barr Warns\n▲ LUNC Surges 100% as Token Burns and Network Upgrade Vote Fuel Fresh Bullish Momentum\n▲ Investors are flooding into these ETFs; Time to buy?\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed pause expectations and institutional cash hoarding signal cycle maturity\n▼ Goldilocks: Geopolitical volatility and inflation concerns disrupt balanced growth narrative\n▲ Stagflation: Middle East tensions threaten energy prices while Fed remains dovish\n▲ Hegemony: US-Iran tensions and Taiwan Bitcoin proposal highlight dollar system stress\n▲ Displacement: Accelerating crypto institutionalization and stablecoin payment adoption\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 3.3%)\nUS NAR seasonally adjusted existing home sales (AAMR)(Apr) — May 11, 02:00 PM UTC (prev: -3.6%)\n\n<b>CONTRARIAN</b>\n• Bitcoin's geopolitical volatility might be masking its growing role as a genuine safe haven asset, w\n• The market may be underestimating stagflation risks as Middle East tensions could drive sustained en\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 348
-  },
-  {
-    "session": "midday",
-    "date": "2026-05-03",
-    "time": "15:15 UTC",
-    "headline": "BTC IGNITION on daily.\n100 whale moves detected.",
-    "headlineColor": "#34D399",
-    "desc": "BTC 1d:IGNITION 4h:IGNITION · ETH 1d:ACCUMULATION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:IGNITION",
-    "tags": [
-      {
-        "t": "IGNITION",
-        "c": "green"
-      },
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "ORCA 547% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "IGNITION",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$331M USDT",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$150M USDT",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — May 3, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$78,721</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,328</b> — 1d: ACCUMULATION | 4h: IGNITION\n• SOL: <b>$84.24</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 331,462,197 USDT ($331,336,655)\n  <i>transferred from unknown wallet to #Kraken</i>\n• 149,544,528 USDT ($149,502,880)\n  <i>transferred from unknown wallet to #Okex</i>\n• 1,053 BTC ($82,638,624)\n  <i>transferred from unknown wallet to #Kraken</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>ORCA</b>: 700% net APR (0.0624% rate)\n  Long Bitget / Short Bybit | OI: $5.6M | Spread: -0.48%\n• <b>CL</b>: 294% net APR (0.2226% rate)\n  Long Bybit / Short OKX | OI: $13.8M | Spread: 0.47%\n• <b>LAB</b>: 626% net APR (0.2209% rate)\n  Long OKX / Short Bitget | OI: $10.5M | Spread: -0.47%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $37,781,932 | Longs: 15% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Middle East Volatility Drives Risk Asset Swings [BTC, ETH, XRP]\n▲ Crypto Infrastructure Maturation Accelerates [BTC, ETH, XRP]\n▲ Taiwan Bitcoin Reserve Proposal Signals Sovereign Adoption [BTC, GLD, TWD]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 347
   }
 ]
