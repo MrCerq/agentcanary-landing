@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — May 11, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/11#midday</link>
+      <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h distribution · ETH daily bullish, 4h bearish · SOL daily bullish, 4h distribution</description>
+      <pubDate>Mon, 11 May 2026 15:15:01 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/11#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — May 11, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/11#intelligence</link>
       <description>SIGNAL SCAN — May 11 — Risk 37/100 · 6 movers</description>
@@ -348,13 +355,6 @@
       <description>SIGNAL SCAN — Apr 29, 2026 — Risk 23/100 · 7 movers</description>
       <pubDate>Wed, 29 Apr 2026 09:15:27 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/29#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — Apr 29, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/29#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 23/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Wed, 29 Apr 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/29#morning</guid>
     </item>
   </channel>
 </rss>
