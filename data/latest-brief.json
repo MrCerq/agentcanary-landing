@@ -1,57 +1,48 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-05-11",
-  "time": "15:15 UTC",
-  "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-  "headlineColor": "#F87171",
-  "desc": "BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:DISTRIBUTION",
+  "time": "21:15 UTC",
+  "headline": "Markets displayed classic late-cycle behavior as crypto surged on institutional adoption hopes while…",
+  "headlineColor": "#A78BFA",
+  "desc": "EXPANSION. 18 news items. 6 scenario shifts.",
   "tags": [
     {
-      "t": "WHALE ALERT",
-      "c": "blue"
+      "t": "BEARISH SKEW",
+      "c": "red"
     },
     {
-      "t": "GWEI 383% APR",
-      "c": "green"
+      "t": "EU Markit Manufacturing Purcha",
+      "c": "blue"
     }
   ],
   "panels": [
     {
-      "label": "SIGNAL STATES",
-      "rows": [
-        {
-          "k": "BTC 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
-        },
-        {
-          "k": "ETH 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
-        },
-        {
-          "k": "SOL 1D",
-          "v": "BULL_REGIME",
-          "c": "green"
-        }
-      ]
+      "label": "REGIME",
+      "gauge": {
+        "value": 37
+      }
     },
     {
-      "label": "TOP WHALE",
+      "label": "CALENDAR",
       "rows": [
         {
-          "k": "$81M BTC",
-          "v": "transferred from #Me",
+          "k": "EU Markit Manufacturing Purchasing Man",
+          "v": "May 21",
           "c": "blue"
         },
         {
-          "k": "$205M USDC",
-          "v": "transferred from #Et",
+          "k": " Seasonally adjusted unemployment ra",
+          "v": "May 21",
+          "c": "blue"
+        },
+        {
+          "k": "EU Consumer Price Index (MoM)(Final)(A",
+          "v": "May 20",
           "c": "blue"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — May 11, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$80,961</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n• ETH: <b>$2,319</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$95.23</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 1,000 BTC ($81,067,944)\n  <i>transferred from #Mexc to unknown wallet</i>\n• 205,000,000 USDC ($204,994,567)\n  <i>transferred from #Ethena to #Paxos</i>\n• 115,000,000 USDT ($114,956,530)\n  <i>transferred from Tether Treasury to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>GWEI</b>: 317% net APR (0.1748% rate)\n  Long Binance / Short Bitget | OI: $7.6M | Spread: 0.10%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $133,612,424 | Longs: 35% | L/S: 0.5:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Bitcoin Institutional Momentum [BTC, MSTR, COIN]\n▲ Crypto Risk Appetite Revival [ETH, NFT, ALT]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 380
+  "telegramText": "<b>MARKET WRAP</b> — May 11, 2026\n\n<i>Markets displayed classic late-cycle behavior as crypto surged on institutional adoption hopes while traditional havens like gold held elevated levels amid Iran tensions and resurging inflation expectations. The risk-on regime masked underlying concerns about stagflation and geopolitical displacement, creating a fragile expansion narrative.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,803</b> · ETH: <b>$2,337</b> · SOL: <b>$97.64</b> · GOLD: <b>$4,734</b> · SPY: <b>$739.3</b> (+1.1%) · QQQ: <b>$713.29</b> (+2.6%) · VIX: <b>$18.38</b> (+6.9%) · TLT: <b>$85.56</b> (-0.1%) · DXY: <b>$97.93</b> (+0.0%) · OIL: <b>$98.25</b> (+3.0%)\n\n<b>EVENING NEWS</b>\n▲ Strategy CEO Suggests Potential Bitcoin Sales As BTC Price Reclaims $80,000\n▲ BTC, ETH &amp; XRP Top Institutional Flows As Crypto Rebound Strengthens\n▼ Tron in Trouble? ‘Glaring Divergence’ Flagged Behind TRX’s Latest Surge\n▲ European Council restores full trade ties with Syria after 14 years\n▲ Healthcare Firm Accendra Inks Discount Debt Exchange, New Funds\n▼ Schroders Stays Clear of UK Bonds, Citing Risk Starmer Is Ousted\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Rising inflation forcing hawkish central bank pivots\n▲ Recession: Political instability and policy uncertainty growing\n▼ Goldilocks: Inflation resurgence ending benign macro conditions\n▲ Stagflation: Oil crisis driving inflation while growth concerns persist\n▲ Hegemony: Iran tensions and political instability challenging established order\n▲ Displacement: Massive crypto institutional adoption accelerating\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(May) — May 21, 08:00 AM UTC (prev: 52.2)\n Seasonally adjusted unemployment rate(Apr) — May 21, 01:30 AM UTC (prev: 4.3%)\nEU Consumer Price Index (MoM)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 1.0%)\nEU Consumer Price Index (YoY)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 3.0%)\n Real GDP (AQR) (Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 1.3%)\n starting value of nominal GDP annum (billion yen)(Q1) — May 18, 11:50 PM UTC (prev: 671554.90)\n\n<b>CONTRARIAN</b>\n• The crypto rally may be a liquidity-driven head fake as institutions are actually preparing to distr\n• Rising oil prices could force faster green energy adoption, making this energy crisis shorter than m\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 381
 }
