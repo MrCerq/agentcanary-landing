@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-11-intelligence",
+      "url": "https://agentcanary.ai/record/2026/05/11#intelligence",
+      "title": "Signal Scan — May 11, 2026",
+      "content_text": "SIGNAL SCAN — May 11 Risk 37/100 · 6 movers",
+      "summary": "SIGNAL SCAN — May 11",
+      "date_published": "2026-05-11T09:15:22.382Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "signal"
+      }
+    },
+    {
       "id": "2026-05-11-morning",
       "url": "https://agentcanary.ai/record/2026/05/11#morning",
       "title": "Morning Brief — May 11, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "morning"
-      }
-    },
-    {
-      "id": "2026-04-28-evening",
-      "url": "https://agentcanary.ai/record/2026/04/28#evening",
-      "title": "Evening Wrap — Apr 28, 2026",
-      "content_text": "Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break sig… OVERHEATING. 17 news items. 6 scenario shifts.",
-      "summary": "Markets reflected late-cycle anxiety as crypto liquidations ($342M) and Bitcoin's sub-$76K break sig…",
-      "date_published": "2026-04-28T21:15:04.709Z",
-      "tags": [
-        "bearish-skew",
-        "us-university-of-michigan-cons"
-      ],
-      "_agentcanary": {
-        "session": "evening"
       }
     }
   ]
