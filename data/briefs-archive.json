@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-12",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 12",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 37/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "TKMS",
+            "v": "-10.4%",
+            "c": "red"
+          },
+          {
+            "k": "EWY",
+            "v": "+9.1%",
+            "c": "green"
+          },
+          {
+            "k": "SLV",
+            "v": "+8.9%",
+            "c": "green"
+          },
+          {
+            "k": "SOXX",
+            "v": "+8.2%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 383,
+    "telegramText": "<b>SIGNAL SCAN</b> — May 12, 2026\n\n<b>SNAPSHOT</b>\nRisk-on tone dominates with semiconductors and metals leading while volatility spikes create cross-currents. Tech rallying alongside defensive rotation signals mixed conviction amid positioning flows.\nBTC at $81,204, above $80K.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Mon close, crypto live.</i>\nRisk Gauge: 36.5/100 (Low). Regime: EXPANSION.\nSPY +1.1% | QQQ +2.6% | VIX +6.9% | TLT -0.1% | DXY +0.2% | OIL +1.0%\nICSA: 200K (DOWN trend, -1.06z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Tech Rally Extension\nSPY: $763.28-779.27 (+3-5%)\nQQQ: $751.85-774.99 (+5-9%)\nBTC: $85,594-89,984 (+5-11%)\n\n<b>SCENARIO B</b> — Crypto Rotation Peaks\nBTC: $88,228-94,373 (+9-16%)\nTLT: $82.78-84.63 (-3 to -1%)\nQQQ: $690.15-705.58 (-3 to -1%)\n\n<b>SCENARIO C</b> — Defensive Rotation Bid\nTLT: $88.34-90.19 (+3-5%)\nDXY: $99.16-101.28 (+1-3%)\nSPY: $715.32-723.31 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: SMH +6.7%, COPX +6.0%, XLK +4.8%, XLV -1.2%, XLC -1.5%.\n\n1. Semiconductors (SMH +6.7%) — strong\n2. Copper Miners (COPX +6.0%) — strong\n3. Technology (XLK +4.8%) — strong\n4. Healthcare (XLV -1.2%) — weak\n5. Comm Services (XLC -1.5%) — weak\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: TKMS -10.4%, EWY +9.1%, SLV +8.9%, SOXX +8.2%, VIX +6.9%, RENDER -2.5%.\n\nTKMS $73.50 (-10.4%) — Earnings miss and guidance cut trigger sharp selloff in post-market trading session\nEWY $192.85 (+9.1%) — South Korea ETF rallies on renewed foreign inflow and won strength against dollar\nSLV $78.00 (+8.9%) — Silver surge on industrial demand expectations and precious metals momentum trade\nSOXX $532.76 (+8.2%) — Semiconductor rally driven by AI infrastructure spending and chip demand outlook\nVIX $18.38 (+6.9%) — Volatility spike reflects hedging demand despite broader risk-on equity flows\nRENDER $1.92 (-2.5%) — Profit-taking in AI tokens after recent run-up dampens decentralized compute narrative\n\n<i>Tech and metals bid while crypto consolidates, reflecting selective risk appetite with volatility hedging</i>\n\n<b>POSITIONING</b>\nWhale positioning (Hyperliquid, top 1 by notional): ETH: $0M long / $47M short (net short $46M, +$265K PnL).\n\n<b>IMPLICATION</b>\nCyclical leadership in semiconductors and copper miners suggests reflationary positioning while healthcare and communication services lag. Volatility spike amid equity strength indicates cautious optimism. Focus on momentum in industrial metals and chip names while monitoring defensive sector weakness for broader risk sentiment shifts.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-05-12",
     "time": "03:15 UTC",
