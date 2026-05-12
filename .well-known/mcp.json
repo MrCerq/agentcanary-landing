@@ -1,6 +1,6 @@
 {
   "name": "agentcanary",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Macro market intelligence — regime, indicators, briefs, narratives, scored predictions",
   "homepage": "https://agentcanary.ai",
   "install": {
@@ -13,14 +13,20 @@
     }
   },
   "tools": [
-    {"name": "get_briefs", "description": "Daily market intelligence briefs (4x/day)"},
-    {"name": "get_indicators", "description": "50+ market indicators (VIX, F&G, funding rates, ETF flows)"},
-    {"name": "get_regime", "description": "Macro regime classification + transition probabilities"},
-    {"name": "get_predictions", "description": "Prediction market data (Polymarket, Kalshi)"},
-    {"name": "get_narratives", "description": "Narrative momentum scores (AI, energy, defense, crypto)"},
-    {"name": "get_news", "description": "Aggregated market news, filterable by ticker"},
-    {"name": "get_scores", "description": "Prediction scoring results (hit/miss/partial rates)"},
-    {"name": "get_scenario_analysis", "description": "Forward scenarios with price targets"}
+    {"name": "get_briefs",            "description": "Daily market intelligence briefs (4x/day)"},
+    {"name": "get_indicators",        "description": "50+ market indicators (VIX, F&G, funding rates, ETF flows)"},
+    {"name": "get_regime",            "description": "Macro regime classification + transition probabilities"},
+    {"name": "get_predictions",       "description": "Prediction market data (Polymarket, Kalshi)"},
+    {"name": "get_narratives",        "description": "Narrative momentum scores (AI, energy, defense, crypto)"},
+    {"name": "get_news",              "description": "Aggregated market news, filterable by ticker"},
+    {"name": "get_scores",            "description": "Prediction scoring results (hit/miss/partial rates)"},
+    {"name": "get_scenario_analysis", "description": "Forward scenarios with price targets"},
+    {"name": "get_signals",           "description": "Trading signals — whale alerts, funding rates, BTC ETF flows, VIX, sector rotation"},
+    {"name": "get_defi",              "description": "DeFi intelligence — yields, PE ratios, stablecoin flows, perp funding"},
+    {"name": "get_btc_options",       "description": "BTC options — max pain, volatility skew, put/call ratios"},
+    {"name": "get_central_banks",     "description": "Central bank balance sheets, gold/BTC reserves, TIC flows"},
+    {"name": "get_expectations",      "description": "Market expectations — crowded trades, early-stage narratives, rotation"},
+    {"name": "get_macro",             "description": "Macro snapshot — 30+ FRED series, business cycle, global liquidity, US M2"}
   ],
   "pricing": {
     "free_tier": true,
