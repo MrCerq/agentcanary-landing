@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — May 12, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/12#evening</link>
+      <description>Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushi… — EXPANSION. 16 news items. 4 scenario shifts.</description>
+      <pubDate>Tue, 12 May 2026 21:15:04 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/12#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — May 12, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/12#midday</link>
       <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily bullish, 4h bearish</description>
@@ -348,13 +355,6 @@
       <description>BTC Risk-Off · 100 whale moves — BTC daily risk-off, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily bearish, 4h accumulation</description>
       <pubDate>Thu, 30 Apr 2026 15:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/04/30#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — Apr 30, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/30#intelligence</link>
-      <description>SIGNAL SCAN — Apr 30, 2026 — Risk 22.6/100 · 8 movers</description>
-      <pubDate>Thu, 30 Apr 2026 09:15:25 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/30#intelligence</guid>
     </item>
   </channel>
 </rss>

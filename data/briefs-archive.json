@@ -1,5 +1,53 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-12",
+    "time": "21:15 UTC",
+    "headline": "Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushi…",
+    "headlineColor": "#A78BFA",
+    "desc": "EXPANSION. 16 news items. 4 scenario shifts.",
+    "tags": [
+      {
+        "t": "BULLISH SKEW",
+        "c": "green"
+      },
+      {
+        "t": "US University of Michigan Cons",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "REGIME",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "CALENDAR",
+        "rows": [
+          {
+            "k": "US University of Michigan Consumer Con",
+            "v": "May 22",
+            "c": "blue"
+          },
+          {
+            "k": " National Consumer Price Index (YoY)",
+            "v": "May 21",
+            "c": "blue"
+          },
+          {
+            "k": "EU Markit Manufacturing Purchasing Man",
+            "v": "May 21",
+            "c": "blue"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 385,
+    "telegramText": "<b>MARKET WRAP</b> — May 12, 2026\n\n<i>Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushing yields higher and forcing risk assets to contend with late-cycle dynamics. The persistent price pressures are shifting the narrative from goldilocks growth toward stagflation concerns, even as expansion momentum holds.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$80,664</b> · ETH: <b>$2,284</b> · SOL: <b>$94.7</b> · GOLD: <b>$4,714</b> · SPY: <b>$738.18</b> (+0.1%) · QQQ: <b>$707.24</b> (-0.6%) · VIX: <b>$17.99</b> (-2.1%) · TLT: <b>$84.99</b> (-1.3%) · DXY: <b>$98.32</b> (+0.4%) · OIL: <b>$102.05</b> (+4.1%)\n\n<b>EVENING NEWS</b>\n▲ Bond Bears Reload Fed Rate Hike Wagers on Stubborn Inflation\n▲ Taiwan: Mild tightening path revised – DBS\n▲ Bitcoin Suisse Expands Global Footprint with Regulatory Approvals in Bermuda\n▲ Forex Today: Hot US CPI boosts US Dollar as Treasury yields climb\n▼ Fed: Neutral stance as inflation stabilizes – TD Securities\n▲ Cantor8 Doubles Down on Africa, Targeting Mobile Money Growth Through Yiksi Limited\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed repricing and Asian tightening signal mature cycle dynamics\n▼ Goldilocks: Hot inflation data undermines soft landing narrative\n▲ Stagflation: Persistent inflation despite growth concerns gaining traction\n▲ Displacement: Continued crypto and fintech infrastructure buildout\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS University of Michigan Consumer Confidence Index (Final)(May) — May 22, 02:00 PM UTC (prev: 48.2)\n National Consumer Price Index (YoY)(Apr) — May 21, 11:30 PM UTC (prev: 1.5%)\nEU Markit Manufacturing Purchasing Managers Index (Preliminary)(May) — May 21, 08:00 AM UTC (prev: 52.2)\n Seasonally adjusted unemployment rate(Apr) — May 21, 01:30 AM UTC (prev: 4.3%)\nEU Consumer Price Index (YoY)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 3.0%)\nEU Consumer Price Index (MoM)(Final)(Apr) — May 20, 09:00 AM UTC (prev: 1.0%)\n\n<b>CONTRARIAN</b>\n• Market may be overreacting to single CPI print while Fed maintains measured approach\n• Asian tightening could prove more supportive for regional currencies than feared\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-05-12",
     "time": "15:15 UTC",

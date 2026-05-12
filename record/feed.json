@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-12-evening",
+      "url": "https://agentcanary.ai/record/2026/05/12#evening",
+      "title": "Evening Wrap — May 12, 2026",
+      "content_text": "Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushi… EXPANSION. 16 news items. 4 scenario shifts.",
+      "summary": "Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushi…",
+      "date_published": "2026-05-12T21:15:04.372Z",
+      "tags": [
+        "bullish-skew",
+        "us-university-of-michigan-cons"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-12-midday",
       "url": "https://agentcanary.ai/record/2026/05/12#midday",
       "title": "Market Pulse — May 12, 2026",
@@ -751,21 +766,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-04-30-intelligence",
-      "url": "https://agentcanary.ai/record/2026/04/30#intelligence",
-      "title": "Signal Scan — Apr 30, 2026",
-      "content_text": "SIGNAL SCAN — Apr 30, 2026 Risk 22.6/100 · 8 movers",
-      "summary": "SIGNAL SCAN — Apr 30, 2026",
-      "date_published": "2026-04-30T09:15:25.464Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
