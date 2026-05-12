@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-12",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge 36.5/100",
+    "headlineColor": "#34D399",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 36.5",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — May 12, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n• BTC: <b>$81,204</b>\n• ETH: <b>$2,314</b>\n• SOL: <b>$96.5</b>\n• GOLD: <b>$4,734</b>\nSPY: <b>$739.3</b> (+1.1%)\nQQQ: <b>$713.29</b> (+2.6%)\nVIX: <b>18.4</b> (+6.9%)\nTLT: <b>$85.56</b> (-0.1%)\nDXY: <b>98.1</b> (+0.3%)\nOIL: <b>$99.06</b> (+1.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.24T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Silver: +2.61σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n— VIX: -1.41σ\n— 2Y Treasury: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +18.9%\n▼ SOL: -1.2%\n▼ ETH: -1.0%\n▼ BTC: -0.7%\n\n<b>TOP MOVERS</b>\n▼ TKMS $73.50 (-10.4%)\n▲ EWY $193 (+9.1%)\n▲ SLV $78.00 (+8.9%)\n▲ SOXX $533 (+8.2%)\n▲ VIX $18.38 (+6.9%)\n▼ PUMP $0.002042 (-2.8%)\n▼ ENA $0.1264 (-2.6%)\n▼ DASH $45.60 (-2.6%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 382
+  },
+  {
     "session": "evening",
     "date": "2026-05-11",
     "time": "21:15 UTC",
@@ -1422,66 +1460,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — May 4, 2026\n\n<i>Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $80K while traditional assets lagged, signaling institutional appetite shifting toward digital assets amid rising stagflation concerns. The divergence suggests investors are positioning for monetary regime change rather than sustained goldilocks conditions.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$79,924</b> · ETH: <b>$2,350</b> · SOL: <b>$84.06</b> · GOLD: <b>$4,517</b> · SPY: <b>$718.01</b> (-0.1%) · QQQ: <b>$672.88</b> (+0.8%) · VIX: <b>$18.29</b> (+7.7%) · TLT: <b>$84.96</b> (-0.8%) · DXY: <b>$98.45</b> (+0.3%) · OIL: <b>$105.14</b> (+3.1%)\n\n<b>EVENING NEWS</b>\n▲ Ethereum gas limit increased 3.3x for Glamsterdam upgrade, boosting scalability\n▲ USD/SGD: Two-way trade with sell-on-rally bias – OCBC\n▲ Tom Lee Declares Crypto Spring as Bitmine Buys $238M ETH\n▲ Indonesia: Stable inflation outlook with oil risks – UOB\n▲ If GameStop buys eBay, Bitcoin payments could suddenly have a 135M-buyer marketplace test \n▼ K Wave Media (KWM) Stock Plunges 27% After Abandoning Bitcoin for AI Strategy\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto institutional adoption and infrastructure upgrades suggest continued risk appetite\n▲ Goldilocks: Stable Asian inflation outlook supports continued moderate growth\n▲ Stagflation: Oil risk warnings from Indonesia suggest commodity pressure building\n▲ Displacement: Major crypto infrastructure upgrades and corporate adoption accelerating\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• Ethereum's gas limit increase might create new centralization risks that the market is ignoring\n• The crypto spring narrative could be premature given regulatory uncertainties still unresolved\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 352
-  },
-  {
-    "session": "midday",
-    "date": "2026-05-04",
-    "time": "15:15 UTC",
-    "headline": "BTC RISK_OFF on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:RISK_OFF 4h:DISTRIBUTION · ETH 1d:RISK_OFF 4h:DISTRIBUTION · SOL 1d:RISK_OFF 4h:DISTRIBUTION",
-    "tags": [
-      {
-        "t": "RISK_OFF",
-        "c": "red"
-      },
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "SKYAI 362% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "RISK_OFF",
-            "c": "red"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "RISK_OFF",
-            "c": "red"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "RISK_OFF",
-            "c": "red"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$50M BTC",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$50M BTC",
-            "v": "transferred from #Ro",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — May 4, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$80,015</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n• ETH: <b>$2,365</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n• SOL: <b>$84.84</b> — 1d: RISK_OFF | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 632 BTC ($50,157,773)\n  <i>transferred from unknown wallet to #Robinhood</i>\n• 632 BTC ($50,002,310)\n  <i>transferred from #Robinhood to unknown wallet</i>\n• 632 BTC ($50,002,310)\n  <i>transferred from #Robinhood to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>SKYAI</b>: 383% net APR (0.1651% rate)\n  Long Binance / Short Bitget | OI: $91.4M | Spread: -0.14%\n• <b>LAB</b>: 434% net APR (0.1297% rate)\n  Long Bybit / Short Bitget | OI: $19.7M | Spread: -0.47%\n• <b>B</b>: 96% net APR (0.1054% rate)\n  Long Bitget / Short Bybit | OI: $8.7M | Spread: 0.31%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $237,619,216 | Longs: 21% | L/S: 0.3:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Bitcoin Institutional Breakthrough [BTC, COIN, MSTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 351
   }
 ]

@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-12",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge 36.5/100",
+    "headlineColor": "#34D399",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 36.5",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 37
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 382,
+    "telegramText": "<b>MACRO RADAR</b> — May 12, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n• BTC: <b>$81,204</b>\n• ETH: <b>$2,314</b>\n• SOL: <b>$96.5</b>\n• GOLD: <b>$4,734</b>\nSPY: <b>$739.3</b> (+1.1%)\nQQQ: <b>$713.29</b> (+2.6%)\nVIX: <b>18.4</b> (+6.9%)\nTLT: <b>$85.56</b> (-0.1%)\nDXY: <b>98.1</b> (+0.3%)\nOIL: <b>$99.06</b> (+1.0%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.24T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Silver: +2.61σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n— VIX: -1.41σ\n— 2Y Treasury: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +18.9%\n▼ SOL: -1.2%\n▼ ETH: -1.0%\n▼ BTC: -0.7%\n\n<b>TOP MOVERS</b>\n▼ TKMS $73.50 (-10.4%)\n▲ EWY $193 (+9.1%)\n▲ SLV $78.00 (+8.9%)\n▲ SOXX $533 (+8.2%)\n▲ VIX $18.38 (+6.9%)\n▼ PUMP $0.002042 (-2.8%)\n▼ ENA $0.1264 (-2.6%)\n▼ DASH $45.60 (-2.6%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-05-11",
     "time": "21:15 UTC",
