@@ -1,5 +1,58 @@
 [
   {
+    "session": "midday",
+    "date": "2026-05-13",
+    "time": "15:15 UTC",
+    "headline": "MARKET PULSE — May 13",
+    "headlineColor": "#F87171",
+    "desc": "Risk 40/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 40
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "INJ",
+            "v": "+8.4%",
+            "c": "green"
+          },
+          {
+            "k": "SLV",
+            "v": "+7.6%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "-6.2%",
+            "c": "red"
+          },
+          {
+            "k": "WPP",
+            "v": "-5.6%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 388,
+    "telegramText": "<b>MARKET PULSE</b> — May 13, 2026\n\n<b>CRYPTO</b>\nBTC: $81,042 — 1d:BEAR_REGIME · 4h:ACCUMULATION · above $80K\nETH: $2,294 — 1d:BEAR_REGIME · 4h:ACCUMULATION\nSOL: $95.18 — 1d:DISTRIBUTION · 4h:ACCUMULATION\nCrypto sentiment: 42 (Fear, 7d avg 44).\n\n<b>WHALE ALERTS</b>\n• 3,954 BTC ($302.2M) — transferred from unknown wallet to Coinbase Institutional\n• 3,802 BTC ($288.7M) — transferred from unknown wallet to Coinbase Institutional\n• 3,615 BTC ($281.7M) — transferred from unknown wallet to Coinbase Institutional\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• SKYAI: 101% net APR (0.0462% rate) · Long Binance / Short Bitget · OI $61.3M · Spread -0.19%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported) (last update Fri May 8 — no fresh data since): -$151M outflow (FBTC -$98M, IBIT -$27M, ARKB -$27M). $96B AUM across 10 funds.\nBTC options — BEARISH: max pain $79,000 (15MAY26), P/C 0.64 OI / 0.62 vol, put skew +20.5 IV.\nPerp funding (8h, cross-exchange mean): BTC -0.1083% (10/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $21M long / $83M short (net short $62M, +$736K PnL); ETH: $14M long / $75M short (net short $61M, +$3.4M PnL); HYPE: $10M long / $26M short (net short $16M, +$633K PnL).\nLiquidations: 24h total $58.9M; latest 4h $6.3M long-dominant (631 events).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n▼ Central Bank Tightening Acceleration [JPY, JGB, TOPIX, USDJPY]\n▲ Crypto Institutional Adoption Wave [BTC, XRP, MSTR, COIN]\n▼ Supply Chain Energy Disruption [CRUDE, DIESEL, INR, SENSEX]\n\n<b>IMPLICATION</b>\nCommodity strength suggests inflation hedge positioning while discretionary weakness signals growth concerns. Watch for continuation of this rotation or reversal if risk appetite returns. Energy and metals offer tactical upside, but monitor consumer discretionary for oversold bounce opportunities in a growth recovery scenario.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "intelligence",
     "date": "2026-05-13",
     "time": "09:15 UTC",

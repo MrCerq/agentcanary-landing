@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-13-midday",
+      "url": "https://agentcanary.ai/record/2026/05/13#midday",
+      "title": "Market Pulse — May 13, 2026",
+      "content_text": "MARKET PULSE — May 13 Risk 40/100 · 6 movers",
+      "summary": "MARKET PULSE — May 13",
+      "date_published": "2026-05-13T15:15:12.641Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-05-13-intelligence",
       "url": "https://agentcanary.ai/record/2026/05/13#intelligence",
       "title": "Signal Scan — May 13, 2026",
@@ -27,21 +42,6 @@
       ],
       "_agentcanary": {
         "session": "signal"
-      }
-    },
-    {
-      "id": "2026-05-13-midday",
-      "url": "https://agentcanary.ai/record/2026/05/13#midday",
-      "title": "Market Pulse — May 13, 2026",
-      "content_text": "MARKET PULSE — May 13 Risk 40/100 · 6 movers",
-      "summary": "MARKET PULSE — May 13",
-      "date_published": "2026-05-13T06:15:34.290Z",
-      "tags": [
-        "low",
-        "expansion"
-      ],
-      "_agentcanary": {
-        "session": "midday"
       }
     },
     {
