@@ -1,5 +1,58 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-13",
+    "time": "21:15 UTC",
+    "headline": "MARKET WRAP — May 13",
+    "headlineColor": "#A78BFA",
+    "desc": "Risk 40/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 40
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "VNET",
+            "v": "+25.2%",
+            "c": "green"
+          },
+          {
+            "k": "ENPH",
+            "v": "+12.3%",
+            "c": "green"
+          },
+          {
+            "k": "ON",
+            "v": "+11.2%",
+            "c": "green"
+          },
+          {
+            "k": "STM",
+            "v": "+9.6%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 389,
+    "telegramText": "<b>MARKET WRAP</b> — May 13, 2026\n\nToday's session highlighted sector-specific rotation rather than broad risk themes, with copper and healthcare advancing while uranium faced heavy selling. The contrast between crypto fund outflows and continued altcoin strength suggests underlying institutional caution despite retail momentum. Tomorrow's setup favors watching for continuation in defensive healthcare rotation versus any rebound in beaten-down uranium names.\n\n<b>CLOSING PRICES</b>\nSPY +0.4% | QQQ +0.2% | VIX -0.7% | TLT -0.9% | DXY +0.2% | OIL -1.3%\n\n<b>vs MORNING</b>\nSPY +0.3% | QQQ +0.8% | VIX +1.5% | TLT +0.4% | DXY -0.2% | OIL -4.6%\n\n<b>EVENING NEWS</b>\n▲ Malaysia: Manageable subsidy costs and resilient funding – BNP Paribas\n▲ Forex Today: Hot US inflation data lifts US Dollar as markets brace for Retail Sales and UK GDP\n▲ Kevin Warsh confirmed as Fed chair amid pressure over rates and Fed independence\n▲ ECB’s Lagarde Sees Make-or-Break Moment to Reform European Union\n▲ Coinbase CEO Unpacks The Crypto Bill’s Biggest Promise For The US Financial System\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 39.5/100 (Low). Regime: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +4.9%, XLV +2.6%, XLP +1.6%, XLU -1.0%, URA -6.8%.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] GDP(MoM)(Mar) — May 14 06:00 UTC (prev: 0.5%)\n[UK] GDP(QoQ)(Preliminary)(Q1) — May 14 06:00 UTC (prev: 0.1%)\n[UK] GDP(YoY)(Preliminary)(Q1) — May 14 06:00 UTC (prev: 1.0%)\n[UK] NIESR Three-Month GDP Estimate (YoY)(Mar) — May 14 06:00 UTC (prev: 0.5%)\n[USA] Core retail sales (MoM)(Apr) — May 14 12:30 UTC (prev: 1.9%)\n[USA] Core retail sales (US$100 million)(Apr) — May 14 12:30 UTC (prev: 6124.36)\n\n<b>CONTRARIAN</b>\n• Fed chair pressure might actually lead to more market-friendly policies than expected\n• Gold weakness on dollar strength could be temporary as geopolitical tensions remain elevated\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-05-13",
     "time": "15:15 UTC",
