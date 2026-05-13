@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-13",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 13",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 40/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 40
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "INJ",
+            "v": "+8.4%",
+            "c": "green"
+          },
+          {
+            "k": "SLV",
+            "v": "+7.6%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "-6.2%",
+            "c": "red"
+          },
+          {
+            "k": "WPP",
+            "v": "-5.6%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 387,
+    "telegramText": "<b>SIGNAL SCAN</b> — May 13, 2026\n\n<b>SNAPSHOT</b>\nMetals and energy leading a selective risk-on session while discretionary lags, suggesting rotation into commodity plays rather than broad growth momentum. Cross-asset flows show mixed conviction with crypto experiencing notable outflows despite select altcoin strength.\nBTC at $81,042, above $80K.\nCrypto sentiment: 42 (Fear, 7d avg 44).\nBTC ETF flows (last update Fri May 8 — no fresh data since): -$151M outflow.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Tue close, crypto live.</i>\nRisk Gauge: 39.5/100 (Low). Regime: EXPANSION.\nSPY +0.1% | QQQ -0.6% | VIX -2.1% | TLT -1.3% | DXY +0.4% | OIL +3.3%\nICSA: 200K (DOWN trend, -1.06z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Commodity Rally Extension\nSPY: $761.62-777.24 (+3-5%)\nQQQ: $744.66-767.11 (+5-8%)\nBTC: $85,330-89,618 (+5-11%)\n\n<b>SCENARIO B</b> — Crypto Selective Rotation\nBTC: $87,903-93,906 (+8-16%)\nTLT: $82.29-84.09 (-3 to -1%)\nQQQ: $684.79-699.76 (-3 to -1%)\n\n<b>SCENARIO C</b> — Defensive Sector Bid\nTLT: $87.69-89.49 (+3-5%)\nDXY: $99.34-101.42 (+1-3%)\nSPY: $714.74-722.56 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: COPX +5.6%, XLE +3.4%, XLV +1.6%, URA -1.5%, XLY -1.6%.\n\n1. Copper Miners (COPX +5.6%) — strong\n2. Energy (XLE +3.4%) — bid\n3. Healthcare (XLV +1.6%) — rotating\n4. Uranium (URA -1.5%) — weak\n5. Consumer Disc (XLY -1.6%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: INJ +8.4%, SLV +7.6%, EWY -6.2%, WPP -5.6%, TKMS -5.5%, PENDLE +4.9%.\n\nINJ $5.14 (+8.4%) — protocol upgrade momentum driving DeFi positioning flows\nSLV $78.55 (+7.6%) — precious metals bid on industrial demand outlook\nEWY $178.50 (-6.2%) — Korea equity weakness on regional growth concerns\nWPP $259.50 (-5.6%) — advertising spend outlook pressuring marketing services\nTKMS $74.40 (-5.5%) — defense contractor rotation out of momentum names\nPENDLE $2.13 (+4.9%) — yield farming narrative driving DeFi protocol flows\n\n<i>Commodity strength and crypto selectivity highlight rotation away from traditional growth into yield-focused plays</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported) (last update Fri May 8 — no fresh data since): -$151M outflow (FBTC -$98M, IBIT -$27M, ARKB -$27M). $96B AUM across 10 funds.\nBTC options — BEARISH: max pain $79,000 (15MAY26), P/C 0.64 OI / 0.62 vol, put skew +20.5 IV.\nPerp funding (8h, cross-exchange mean): BTC -0.1083% (10/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $21M long / $83M short (net short $62M, +$736K PnL); ETH: $14M long / $75M short (net short $61M, +$3.4M PnL); HYPE: $10M long / $26M short (net short $16M, +$633K PnL).\n\n<b>IMPLICATION</b>\nThis commodity-led rotation with defensive healthcare participation suggests positioning for late-cycle dynamics rather than growth acceleration. Watch energy and metals momentum for sustainability while fading discretionary weakness on oversold bounces. Crypto outflows amid selective altcoin strength indicates institution rotation, not broad digital asset capitulation.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "morning",
     "date": "2026-05-13",
     "time": "03:15 UTC",

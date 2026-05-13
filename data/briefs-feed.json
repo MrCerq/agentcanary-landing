@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-13",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 13",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 40/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 40
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "INJ",
+            "v": "+8.4%",
+            "c": "green"
+          },
+          {
+            "k": "SLV",
+            "v": "+7.6%",
+            "c": "green"
+          },
+          {
+            "k": "EWY",
+            "v": "-6.2%",
+            "c": "red"
+          },
+          {
+            "k": "WPP",
+            "v": "-5.6%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 13, 2026\n\n<b>SNAPSHOT</b>\nMetals and energy leading a selective risk-on session while discretionary lags, suggesting rotation into commodity plays rather than broad growth momentum. Cross-asset flows show mixed conviction with crypto experiencing notable outflows despite select altcoin strength.\nBTC at $81,042, above $80K.\nCrypto sentiment: 42 (Fear, 7d avg 44).\nBTC ETF flows (last update Fri May 8 — no fresh data since): -$151M outflow.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Tue close, crypto live.</i>\nRisk Gauge: 39.5/100 (Low). Regime: EXPANSION.\nSPY +0.1% | QQQ -0.6% | VIX -2.1% | TLT -1.3% | DXY +0.4% | OIL +3.3%\nICSA: 200K (DOWN trend, -1.06z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Commodity Rally Extension\nSPY: $761.62-777.24 (+3-5%)\nQQQ: $744.66-767.11 (+5-8%)\nBTC: $85,330-89,618 (+5-11%)\n\n<b>SCENARIO B</b> — Crypto Selective Rotation\nBTC: $87,903-93,906 (+8-16%)\nTLT: $82.29-84.09 (-3 to -1%)\nQQQ: $684.79-699.76 (-3 to -1%)\n\n<b>SCENARIO C</b> — Defensive Sector Bid\nTLT: $87.69-89.49 (+3-5%)\nDXY: $99.34-101.42 (+1-3%)\nSPY: $714.74-722.56 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: COPX +5.6%, XLE +3.4%, XLV +1.6%, URA -1.5%, XLY -1.6%.\n\n1. Copper Miners (COPX +5.6%) — strong\n2. Energy (XLE +3.4%) — bid\n3. Healthcare (XLV +1.6%) — rotating\n4. Uranium (URA -1.5%) — weak\n5. Consumer Disc (XLY -1.6%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: INJ +8.4%, SLV +7.6%, EWY -6.2%, WPP -5.6%, TKMS -5.5%, PENDLE +4.9%.\n\nINJ $5.14 (+8.4%) — protocol upgrade momentum driving DeFi positioning flows\nSLV $78.55 (+7.6%) — precious metals bid on industrial demand outlook\nEWY $178.50 (-6.2%) — Korea equity weakness on regional growth concerns\nWPP $259.50 (-5.6%) — advertising spend outlook pressuring marketing services\nTKMS $74.40 (-5.5%) — defense contractor rotation out of momentum names\nPENDLE $2.13 (+4.9%) — yield farming narrative driving DeFi protocol flows\n\n<i>Commodity strength and crypto selectivity highlight rotation away from traditional growth into yield-focused plays</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported) (last update Fri May 8 — no fresh data since): -$151M outflow (FBTC -$98M, IBIT -$27M, ARKB -$27M). $96B AUM across 10 funds.\nBTC options — BEARISH: max pain $79,000 (15MAY26), P/C 0.64 OI / 0.62 vol, put skew +20.5 IV.\nPerp funding (8h, cross-exchange mean): BTC -0.1083% (10/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $21M long / $83M short (net short $62M, +$736K PnL); ETH: $14M long / $75M short (net short $61M, +$3.4M PnL); HYPE: $10M long / $26M short (net short $16M, +$633K PnL).\n\n<b>IMPLICATION</b>\nThis commodity-led rotation with defensive healthcare participation suggests positioning for late-cycle dynamics rather than growth acceleration. Watch energy and metals momentum for sustainability while fading discretionary weakness on oversold bounces. Crypto outflows amid selective altcoin strength indicates institution rotation, not broad digital asset capitulation.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 387
+  },
+  {
     "session": "morning",
     "date": "2026-05-13",
     "time": "03:15 UTC",
@@ -1408,53 +1461,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — May 6, 2026\n\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 43.8/100\n\n• BTC: <b>$81,413</b>\n• ETH: <b>$2,371</b>\n• SOL: <b>$87.03</b>\n• GOLD: <b>$4,553</b>\nSPY: <b>$723.77</b> (+0.4%)\nQQQ: <b>$681.61</b> (+1.1%)\nVIX: <b>17.4</b> (-5.0%)\nTLT: <b>$85.43</b> (-0.2%)\nDXY: <b>98.3</b> (-0.2%)\nOIL: <b>$100.85</b> (-5.2%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.06%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.55σ\n▼ 2Y Treasury: +2.39σ\n▼ 10Y Treasury: +2.35σ\n▲ Jobless Claims: -2.13σ\n▼ WTREGEN: +1.64σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +6.5%\n\n<b>TOP MOVERS</b>\n▲ B $0.4694 (+17.0%)\n▲ ZEC $528 (+8.3%)\n▲ EWY $173 (+7.1%)\n▼ BRENT $108 (-5.7%)\n▲ FIL $1.04 (+5.6%)\n▼ WTI $101 (-5.5%)\n▼ OIL $101 (-5.2%) — US-Iran deal hopes boost Bitcoin sentiment, oil market cauti\n▼ VIX $17.38 (-5.0%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 1/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Gold: $4553 (&lt;$4,600)\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 357
-  },
-  {
-    "session": "evening",
-    "date": "2026-05-05",
-    "time": "21:15 UTC",
-    "headline": "Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anch…",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 18 news items. 4 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "US Federal Funds Benchmark Rat",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 48
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Federal Funds Benchmark Rate",
-            "v": "May 15",
-            "c": "blue"
-          },
-          {
-            "k": "US Retail sales (MoM)(Apr)",
-            "v": "May 14",
-            "c": "blue"
-          },
-          {
-            "k": "US Producer Price Index (YoY)(Apr)",
-            "v": "May 13",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — May 5, 2026\n\n<i>Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anchor while Fed hawkishness and emerging market inflation pressures weighed on traditional assets. The late-cycle rotation accelerated with crypto resilience offsetting broader macro headwinds, leaving equities range-bound despite underlying stagflationary concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,633</b> · ETH: <b>$2,383</b> · SOL: <b>$86.6</b> · GOLD: <b>$4,553</b> · SPY: <b>$723.77</b> (+0.4%) · QQQ: <b>$681.61</b> (+1.1%) · VIX: <b>$17.38</b> (-5.0%) · TLT: <b>$85.43</b> (-0.2%) · DXY: <b>$98.49</b> (+0.0%) · OIL: <b>$102.68</b> (-3.5%)\n\n<b>EVENING NEWS</b>\n▲ Traders Ramp Up Bets Warsh’s Fed Could Hike Rates Before Cutting\n▼ Strategy Q1 Loss Widens On Higher Unrealized Bitcoin Losses \n▼ MicroStrategy Posts $12.5 Billion Q1 2026 Loss on Bitcoin Slide\n▲ XRP sentiment hits two-year high with Rakuten Wallet integration\n▲ India’s Modi celebrates a return to dominance \n▲ Indonesia: Growth outlook steady with fiscal constraints – UOB\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed hawkishness and bond attractiveness signal late-cycle dynamics\n▼ Goldilocks: Fed pivot toward hawkishness reduces soft landing probability\n▲ Stagflation: EM inflation surge and potential Fed hikes amid growth\n▲ Displacement: Continued crypto institutional adoption despite volatility\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• MicroStrategy's massive Bitcoin losses might actually signal a buying opportunity as weak hands capi\n• The Fed hawkish pivot expectations could be overblown given that actual policy changes haven't occur\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 356
   }
 ]

@@ -7,6 +7,20 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — May 13, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/13#intelligence</link>
+      <description>SIGNAL SCAN — May 13 — Risk 40/100 · 6 movers</description>
+      <pubDate>Wed, 13 May 2026 09:15:12 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/13#intelligence</guid>
+    </item>
+    <item>
+      <title>Market Pulse — May 13, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/13#midday</link>
+      <description>MARKET PULSE — May 13 — Risk 40/100 · 6 movers</description>
+      <pubDate>Wed, 13 May 2026 06:15:34 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/13#midday</guid>
+    </item>
+    <item>
       <title>Morning Brief — May 13, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/13#morning</link>
       <description>▲ Risk-On · Neutral · Gauge 39.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
@@ -341,20 +355,6 @@
       <description>SIGNAL SCAN — May 1, 2026 — Risk 33.8/100 · 8 movers</description>
       <pubDate>Fri, 01 May 2026 09:15:24 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/05/01#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — May 1, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/01#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 33.8/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Fri, 01 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/01#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — Apr 30, 2026</title>
-      <link>https://agentcanary.ai/record/2026/04/30#evening</link>
-      <description>Risk-On · Neutral · Gauge 22.6/100 — OVERHEATING. 17 news items. 6 scenario shifts.</description>
-      <pubDate>Thu, 30 Apr 2026 21:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/04/30#evening</guid>
     </item>
   </channel>
 </rss>
