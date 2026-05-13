@@ -1,5 +1,43 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-13",
+    "time": "03:15 UTC",
+    "headline": "▲ Risk-On · Neutral · Gauge 39.5/100",
+    "headlineColor": "#34D399",
+    "desc": "EXPANSION. F&G: —. NORMAL.",
+    "tags": [
+      {
+        "t": "Risk-On · Neutral",
+        "c": "green"
+      },
+      {
+        "t": "GAUGE 39.5",
+        "c": "green"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 40
+        }
+      },
+      {
+        "label": "HEGEMONY",
+        "rows": [
+          {
+            "k": "Snapback",
+            "v": "0.5/6 NORMAL",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — May 13, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 39.5/100\n\n• BTC: <b>$81,042</b>\n• ETH: <b>$2,294</b>\n• SOL: <b>$95.18</b>\n• GOLD: <b>$4,714</b>\nSPY: <b>$738.18</b> (+0.1%)\nQQQ: <b>$707.24</b> (-0.6%)\nVIX: <b>18.0</b> (-2.1%)\nTLT: <b>$84.99</b> (-1.3%)\nDXY: <b>98.3</b> (+0.4%)\nOIL: <b>$101.19</b> (+3.2%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.23T</b> (YoY -3.04%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: +1bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ Silver: +2.31σ\n▲ 2s10s Curve: -1.84σ\n▼ 2Y Treasury: +1.51σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +19.6%\n▲ SOL: +0.5%\n\n<b>TOP MOVERS</b>\n▲ INJ $5.14 (+8.4%)\n▲ SLV $78.55 (+7.6%)\n▼ B $0.5924 (-7.1%)\n▲ ZEC $588 (+6.7%)\n▼ EWY $179 (-6.2%)\n▼ WPP $260 (-5.6%)\n▼ TKMS $74.40 (-5.5%)\n▲ XLE $57.57 (+3.4%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 386
+  },
+  {
     "session": "evening",
     "date": "2026-05-12",
     "time": "21:15 UTC",
@@ -1418,66 +1456,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — May 5, 2026\n\n<i>Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anchor while Fed hawkishness and emerging market inflation pressures weighed on traditional assets. The late-cycle rotation accelerated with crypto resilience offsetting broader macro headwinds, leaving equities range-bound despite underlying stagflationary concerns.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,633</b> · ETH: <b>$2,383</b> · SOL: <b>$86.6</b> · GOLD: <b>$4,553</b> · SPY: <b>$723.77</b> (+0.4%) · QQQ: <b>$681.61</b> (+1.1%) · VIX: <b>$17.38</b> (-5.0%) · TLT: <b>$85.43</b> (-0.2%) · DXY: <b>$98.49</b> (+0.0%) · OIL: <b>$102.68</b> (-3.5%)\n\n<b>EVENING NEWS</b>\n▲ Traders Ramp Up Bets Warsh’s Fed Could Hike Rates Before Cutting\n▼ Strategy Q1 Loss Widens On Higher Unrealized Bitcoin Losses \n▼ MicroStrategy Posts $12.5 Billion Q1 2026 Loss on Bitcoin Slide\n▲ XRP sentiment hits two-year high with Rakuten Wallet integration\n▲ India’s Modi celebrates a return to dominance \n▲ Indonesia: Growth outlook steady with fiscal constraints – UOB\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed hawkishness and bond attractiveness signal late-cycle dynamics\n▼ Goldilocks: Fed pivot toward hawkishness reduces soft landing probability\n▲ Stagflation: EM inflation surge and potential Fed hikes amid growth\n▲ Displacement: Continued crypto institutional adoption despite volatility\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 48.1/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• MicroStrategy's massive Bitcoin losses might actually signal a buying opportunity as weak hands capi\n• The Fed hawkish pivot expectations could be overblown given that actual policy changes haven't occur\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 356
-  },
-  {
-    "session": "midday",
-    "date": "2026-05-05",
-    "time": "15:15 UTC",
-    "headline": "BTC IGNITION on daily.\n100 whale moves detected.",
-    "headlineColor": "#34D399",
-    "desc": "BTC 1d:IGNITION 4h:IGNITION · ETH 1d:IGNITION 4h:IGNITION · SOL 1d:ACCUMULATION 4h:IGNITION",
-    "tags": [
-      {
-        "t": "IGNITION",
-        "c": "green"
-      },
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "SKYAI 322% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "IGNITION",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "IGNITION",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "ACCUMULATION",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$86M BTC",
-            "v": "transferred from #Kr",
-            "c": "blue"
-          },
-          {
-            "k": "$53M BTC",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — May 5, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$81,581</b> — 1d: IGNITION | 4h: IGNITION\n• ETH: <b>$2,385</b> — 1d: IGNITION | 4h: IGNITION\n• SOL: <b>$85.77</b> — 1d: ACCUMULATION | 4h: IGNITION\n\n\n<b>WHALE ALERTS</b>\n• 1,053 BTC ($85,700,763)\n  <i>transferred from #Kraken to unknown wallet</i>\n• 650 BTC ($52,999,925)\n  <i>transferred from unknown wallet to #Coinbase</i>\n• 2,000 BTC ($162,191,711)\n  <i>transferred from #Kraken to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>SKYAI</b>: 402% net APR (0.1470% rate)\n  Long MEXC / Short Bitget | OI: $5.6M | Spread: -0.28%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $150,288,297 | Longs: 10% | L/S: 0.1:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Bitcoin Institutional Adoption Surge [BTC, COIN, MSTR]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 355
   }
 ]
