@@ -1,5 +1,58 @@
 [
   {
+    "session": "midday",
+    "date": "2026-05-14",
+    "time": "15:15 UTC",
+    "headline": "MARKET PULSE — May 14",
+    "headlineColor": "#F87171",
+    "desc": "Risk 39/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 39
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "WPP",
+            "v": "-6.0%",
+            "c": "red"
+          },
+          {
+            "k": "EWZ",
+            "v": "-4.9%",
+            "c": "red"
+          },
+          {
+            "k": "MOH",
+            "v": "+3.7%",
+            "c": "green"
+          },
+          {
+            "k": "KWEB",
+            "v": "+3.4%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 392,
+    "telegramText": "<b>MARKET PULSE</b> — May 14, 2026\n\n<b>CRYPTO</b>\nBTC: $79,389 — 1d:BEAR_REGIME · 4h:ACCUMULATION · below $80K\nETH: $2,253 — 1d:BEAR_REGIME · 4h:ACCUMULATION\nSOL: $90.60 — 1d:DISTRIBUTION · 4h:ACCUMULATION\nCrypto sentiment: 34 (Fear, 7d avg 42) (falling).\n\n<b>WHALE ALERTS</b>\n• 3,954 BTC ($302.2M) — transferred from unknown wallet to Coinbase Institutional\n• 3,802 BTC ($288.7M) — transferred from unknown wallet to Coinbase Institutional\n• 3,615 BTC ($281.7M) — transferred from unknown wallet to Coinbase Institutional\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$630M outflow on May 14 (Thu close) (IBIT -$285M, ARKB -$177M, FBTC -$133M). Trailing 5-trading-day net: -$0.6B outflow. $0B AUM across 12 funds.\nBTC options — BEARISH: max pain $80,000 (15MAY26), P/C 0.66 OI / 0.96 vol, put skew +19.3 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.2339% (14/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $82M long / $96M short (net short $14M, +$1.5M PnL); ETH: $7M long / $57M short (net short $50M, +$1.3M PnL); HYPE: $6M long / $27M short (net short $21M, -$3.2M PnL).\nLiquidations: 24h total $104.2M; latest 4h $46K balanced (12 events).\nETH stake APY 2.45% vs T-bill 3.61% (spread -1.16, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Rising US Inflation Pressures [USD, TNX, GLD, SPY]\n▲ Crypto Regulatory Clarity and Institutional Adoption [BTC, ETH, SOL, COIN]\n▼ Geopolitical Risk from Iran Conflict [OIL, GLD, XLE]\n\n<b>IMPLICATION</b>\nDefensive positioning accelerating as institutional flows rotate from growth into healthcare and staples. Copper strength suggests selective commodity exposure while uranium weakness reflects nuclear sentiment shift. Watch for continuation of this quality rotation theme, particularly if crypto outflows persist and defensive sectors maintain momentum.\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "intelligence",
     "date": "2026-05-14",
     "time": "09:15 UTC",
