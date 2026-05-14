@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-14",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 14",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 39/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 39
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "WPP",
+            "v": "-6.0%",
+            "c": "red"
+          },
+          {
+            "k": "EWZ",
+            "v": "-4.9%",
+            "c": "red"
+          },
+          {
+            "k": "MOH",
+            "v": "+3.7%",
+            "c": "green"
+          },
+          {
+            "k": "KWEB",
+            "v": "+3.4%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 14, 2026\n\n<b>SNAPSHOT</b>\nDefensive sectors bid while crypto faces pressure from institutional outflows. Risk-off undertone emerging as metals rotate mixed and healthcare leads.\nBTC at $79,389, below $80K.\nCrypto sentiment: 34 (Fear, 7d avg 42) (falling).\nEquity sentiment (CNN F&G): 65.8 (Greed), 7d avg 66.4, 30d avg 47.3.\nBTC ETF flows: -$630M outflow on May 14 (Thu close), after -$0.6B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Wed close, crypto live.</i>\nRisk Gauge: 38.5/100 (Low). Regime: EXPANSION.\nSPY +0.4% | QQQ +0.2% | VIX -0.7% | TLT -0.9% | DXY +0.2% | OIL -0.7%\nICSA: 200K (DOWN trend, -1.06z)\nComposite Risk: 32.3/100 (MODERATE).\nCAPE: 42.3 (BUBBLE_TERRITORY, 99th %ile, +147% vs mean).\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Risk-on Extension\nSPY: $765.72-781.32 (+3-5%)\nQQQ: $752.27-774.81 (+5-8%)\nBTC: $83,562-87,734 (+5-11%)\n\n<b>SCENARIO B</b> — Crypto Decoupling\nBTC: $86,065-91,907 (+8-16%)\nTLT: $82.13-83.91 (-3 to -1%)\nQQQ: $692.17-707.20 (-3 to -1%)\n\n<b>SCENARIO C</b> — Defensive Bid\nTLT: $87.47-89.26 (+3-5%)\nDXY: 99.53-101.60 (+1-3%)\nSPY: $718.90-726.70 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: COPX +4.9%, XLV +2.6%, XLP +1.6%, XLU -1.0%, URA -6.8%.\n\n1. Copper Miners (COPX +4.9%) — strong\n2. Healthcare (XLV +2.6%) — bid\n3. Consumer Staples (XLP +1.6%) — rotating\n4. Utilities (XLU -1.0%) — weak\n5. Uranium (URA -6.8%) — dump\n\n<b>NARRATIVES</b>\n↓ BTC: 0.472 (Δ -0.028, CORE)\n↓ China (Short): 0.482 (Δ -0.027, MIXED)\n↓ Defense: 0.579 (Δ -0.023, CORE)\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: WPP -6.0%, EWZ -4.9%, MOH +3.7%, KWEB +3.4%, INJ -3.1%, ATOM -2.9%.\n\nWPP $253.90 (-6.0%) — advertising spend concerns weigh on sentiment\nEWZ $36.78 (-4.9%) — emerging market rotation out continues\nMOH $191.97 (+3.7%) — healthcare defensive bid amid risk-off tone\nKWEB $30.59 (+3.4%) — china tech recovery play gains traction\nINJ $4.96 (-3.1%) — institutional outflow pressure weighs on altcoins\nATOM $2.02 (-2.9%) — crypto ecosystem weakness spreads to smaller caps\n\n<i>Defensive rotation accelerating while crypto faces institutional selling pressure</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$630M outflow on May 14 (Thu close) (IBIT -$285M, ARKB -$177M, FBTC -$133M). Trailing 5-trading-day net: -$0.6B outflow. $0B AUM across 12 funds.\nBTC options — BEARISH: max pain $80,000 (15MAY26), P/C 0.66 OI / 0.96 vol, put skew +19.3 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.2339% (14/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $82M long / $96M short (net short $14M, +$1.5M PnL); ETH: $7M long / $57M short (net short $50M, +$1.3M PnL); HYPE: $6M long / $27M short (net short $21M, -$3.2M PnL).\n\n<b>INTEL</b>\n▼ Inflation Resurgence Pressures Fed Policy [USD, DXY, TNX, GLD]\n▲ Crypto Regulatory Clarity Drives Selective Optimism [BTC, ETH, SOL, COIN]\n▼ Geopolitical Tensions Reshape Risk Assessment [GLD, WTI, VIX, IEF]\n\n<b>IMPLICATION</b>\nDefensive positioning looks prudent as institutional crypto flows turn negative and risk assets show divergence. Watch for further rotation into healthcare and staples if risk-off sentiment persists. Copper strength suggests selective commodity plays may offer refuge from broader volatility.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 391
+  },
+  {
     "session": "morning",
     "date": "2026-05-14",
     "time": "03:15 UTC",
@@ -1424,53 +1477,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — May 7, 2026\n\n— <b>Neutral · Neutral</b> · EXPANSION · Gauge: 43.2/100\n\n• BTC: <b>$81,052</b>\n• ETH: <b>$2,320</b>\n• SOL: <b>$88.1</b>\n• GOLD: <b>$4,696</b>\nSPY: <b>$733.83</b> (+2.2%)\nQQQ: <b>$695.77</b> (+3.4%)\nVIX: <b>17.4</b> (+0.1%)\nTLT: <b>$86.08</b> (+1.3%)\nDXY: <b>98.0</b> (-0.5%)\nOIL: <b>$95.77</b> (-6.4%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.21T</b> (YoY -3.08%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▼ 30Y Treasury: +2.55σ\n▲ Jobless Claims: -2.13σ\n▼ 2Y Treasury: +1.79σ\n▼ 10Y Treasury: +1.72σ\n▲ IG Credit Spread: -1.67σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +12.9%\n▼ ETH: -1.2%\n▼ SOL: -1.1%\n\n<b>TOP MOVERS</b>\n▼ LUNC $0.00008817 (-14.4%)\n▲ TON $2.67 (+12.2%)\n▲ EWY $182 (+11.2%)\n▲ SOXX $507 (+9.7%)\n▲ SMH $550 (+8.5%)\n▼ DASH $50.59 (-8.1%)\n▼ BRENT $102 (-7.3%)\n▼ WTI $95.64 (-6.5%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 361
-  },
-  {
-    "session": "evening",
-    "date": "2026-05-06",
-    "time": "21:15 UTC",
-    "headline": "Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted …",
-    "headlineColor": "#A78BFA",
-    "desc": "OVERHEATING. 16 news items. 5 scenario shifts.",
-    "tags": [
-      {
-        "t": "BEARISH SKEW",
-        "c": "red"
-      },
-      {
-        "t": "US Federal Funds Benchmark Rat",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 44
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": "US Federal Funds Benchmark Rate",
-            "v": "May 15",
-            "c": "blue"
-          },
-          {
-            "k": "US Retail sales (MoM)(Apr)",
-            "v": "May 14",
-            "c": "blue"
-          },
-          {
-            "k": "US Producer Price Index (YoY)(Apr)",
-            "v": "May 13",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — May 6, 2026\n\n<i>Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted sharply with Treasury weakness and rising inflation signals. The divergence between risk-on crypto adoption and deteriorating macro foundations suggests investors are hedging traditional system vulnerabilities through digital assets.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,399</b> · ETH: <b>$2,349</b> · SOL: <b>$89.06</b> · GOLD: <b>$4,696</b> · SPY: <b>$733.83</b> (+2.2%) · QQQ: <b>$695.77</b> (+3.4%) · VIX: <b>$17.39</b> (+0.1%) · TLT: <b>$86.08</b> (+1.3%) · DXY: <b>$98.03</b> (-0.5%) · OIL: <b>$96.21</b> (-5.9%)\n\n<b>EVENING NEWS</b>\n▲ Fed’s Goolsbee Sounds Warning on Inflation, Consumer Behavior\n▲ Europe’s Dealmakers Race Past $450 Billion\n▲ Stablecoins Are Becoming Everyday Money In Europe, OKX Report\n▲ XRP ETFs Record $81.59M Inflows as Institutional Demand Grows\n▲ Foreign Demand for Treasury Debt Is Stalling, Trade Group Says\n▲ USD/PHP: Inflation shock drives underperformance risk – MUFG\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed warnings and crypto speculation suggest advanced cycle dynamics\n▼ Goldilocks: Inflation warnings and Treasury demand issues challenge benign conditions\n▲ Stagflation: Multiple inflation signals with weakening Treasury demand\n▼ Hegemony: Foreign Treasury demand stalling threatens dollar dominance\n▲ Displacement: Accelerating crypto adoption as alternative monetary system\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 43.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• Stablecoin adoption in Europe might indicate weakness in traditional banking rather than crypto stre\n• Foreign Treasury selling could be tactical diversification rather than systemic dollar rejection\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 360
   }
 ]
