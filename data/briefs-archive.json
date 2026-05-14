@@ -1,5 +1,58 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-14",
+    "time": "21:15 UTC",
+    "headline": "MARKET WRAP — May 14",
+    "headlineColor": "#A78BFA",
+    "desc": "Risk 39/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 39
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "ONDS",
+            "v": "+25.1%",
+            "c": "green"
+          },
+          {
+            "k": "ENPH",
+            "v": "+14.1%",
+            "c": "green"
+          },
+          {
+            "k": "HYPE",
+            "v": "+13.5%",
+            "c": "green"
+          },
+          {
+            "k": "BTDR",
+            "v": "+11.3%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 393,
+    "telegramText": "<b>MARKET WRAP</b> — May 14, 2026\n\nTechnology leadership dominated today's session while commodities faced broad-based selling pressure, creating a clear risk-on versus defensive rotation pattern. The divergence between crypto spot strength and persistent ETF outflows highlights the complexity of current cross-asset flows. Tomorrow's setup favors continued momentum plays in growth sectors while watching for potential commodity oversold bounces.\n\n<b>CLOSING PRICES</b>\nSPY +1.4% | QQQ +1.8% | VIX -3.4% | TLT -0.1% | DXY +0.4% | OIL +1.0%\n\n<b>vs MORNING</b>\nSPY +0.9% | QQQ +1.6% | VIX -2.7% | TLT +0.8% | DXY +0.2% | OIL +1.7%\n\n<b>EVENING NEWS</b>\n▼ Fed Governor Stephen Miran resigns\n▲ Bitcoin trades at a 'discount' on Coinbase: Is a $76K retest next?\n▲ Apollo’s Insurance Unit Is FHLB System’s Third-Biggest Borrower\n▲ Crypto Rallies as Senate Committee Advances Market Structure Bill to Full Senate\n▲ Volume Shows Big Players Are Reloading On Solana As They Push For 4-Month Highs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 38.5/100 (Low). Regime: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +3.0%, XLK +2.5%, XLC +1.1%, COPX -1.5%, URA -3.4%.\nSector dispersion: 72 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] GDP(MoM)(Feb) — May 15 06:00 UTC (prev: 0.0%)\n[ITA] Consumer Price Index (MoM)(Final)(Apr) — May 15 08:00 UTC (prev: 1.2%)\n[ITA] Consumer Price Index (YoY)(Final)(Apr) — May 15 08:00 UTC (prev: 1.7%)\n[ITA] Harmonized Consumer Price Index (MoM)(Final)(Apr) — May 15 08:00 UTC (prev: 2.8%)\n[ITA] Harmonized Consumer Price Index (YoY)(Final)(Apr) — May 15 08:00 UTC (prev: 2.9%)\n[USA] New York Federal Reserve Manufacturing Price Gain Index(May) — May 15 12:30 UTC (prev: 21.8)\n\n<b>CONTRARIAN</b>\n• Fed leadership change might actually provide more dovish policy as markets are overly focused on inflation hawkishness rather than growth concerns\n• Crypto rally could be short-lived if institutional players are front-running regulatory approval that might not materialize as expected\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "midday",
     "date": "2026-05-14",
     "time": "15:15 UTC",

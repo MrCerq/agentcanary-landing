@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-14-evening",
+      "url": "https://agentcanary.ai/record/2026/05/14#evening",
+      "title": "Evening Wrap — May 14, 2026",
+      "content_text": "MARKET WRAP — May 14 Risk 39/100 · 6 movers",
+      "summary": "MARKET WRAP — May 14",
+      "date_published": "2026-05-14T21:15:13.815Z",
+      "tags": [
+        "low",
+        "expansion"
+      ],
+      "_agentcanary": {
+        "session": "evening"
+      }
+    },
+    {
       "id": "2026-05-14-midday",
       "url": "https://agentcanary.ai/record/2026/05/14#midday",
       "title": "Market Pulse — May 14, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "midday"
-      }
-    },
-    {
-      "id": "2026-05-02-intelligence",
-      "url": "https://agentcanary.ai/record/2026/05/02#intelligence",
-      "title": "Signal Scan — May 2, 2026",
-      "content_text": "SIGNAL SCAN — May 2, 2026 Risk 48.1/100 · 6 movers",
-      "summary": "SIGNAL SCAN — May 2, 2026",
-      "date_published": "2026-05-02T09:15:25.527Z",
-      "tags": [
-        "low",
-        "overheating"
-      ],
-      "_agentcanary": {
-        "session": "signal"
       }
     }
   ]
