@@ -1,5 +1,58 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-14",
+    "time": "03:15 UTC",
+    "headline": "MACRO RADAR — May 14",
+    "headlineColor": "#FB923C",
+    "desc": "Risk 39/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "EXPANSION",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 39
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "WPP",
+            "v": "-6.0%",
+            "c": "red"
+          },
+          {
+            "k": "EWZ",
+            "v": "-4.9%",
+            "c": "red"
+          },
+          {
+            "k": "MOH",
+            "v": "+3.7%",
+            "c": "green"
+          },
+          {
+            "k": "KWEB",
+            "v": "+3.4%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — May 14, 2026\n\nRisk Gauge: 38.5/100 (Low). Regime: EXPANSION.\n\nBTC: $79,389 · ETH: $2,253 · SOL: $90.60\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.23T (YoY -3.04%) — fed $6.71T · ecb $7.28T · boj $4.23T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 282bps NORMAL (composite: CAUTION)\n\n<b>KEY PRICES</b>\nSPY +0.4% | QQQ +0.2% | VIX -0.7% | TLT -0.9% | DXY +0.2% | OIL -0.7%\n\nCrypto sentiment: 34 (Fear, 7d avg 42) (falling).\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ URA: -6.8%\n▼ WPP: -6.0%\n▲ COPX: +4.9%\n▼ EWZ: -4.9%\n▲ MOH: +3.7%\n▲ KWEB: +3.4%\n\n<b>TOP MOVERS</b>\nTop movers: WPP -6.0%, EWZ -4.9%, MOH +3.7%, KWEB +3.4%, INJ -3.1%, ATOM -2.9%.\n\n<b>HEGEMONY SNAPBACK</b>\n👀 1.5/6 — WATCH\n\n<b>NOTABLE Z-SCORES</b>\n[+] Silver: +2.31σ\n[-] 2s10s Curve: -1.84σ\n[+] 2Y Treasury: +1.51σ\n[~] WTI Crude Oil: +1.43σ\n[~] Fed Balance Sheet: +1.42σ\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 390
+  },
+  {
     "session": "evening",
     "date": "2026-05-13",
     "time": "21:15 UTC",
@@ -1419,62 +1472,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — May 6, 2026\n\n<i>Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted sharply with Treasury weakness and rising inflation signals. The divergence between risk-on crypto adoption and deteriorating macro foundations suggests investors are hedging traditional system vulnerabilities through digital assets.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$81,399</b> · ETH: <b>$2,349</b> · SOL: <b>$89.06</b> · GOLD: <b>$4,696</b> · SPY: <b>$733.83</b> (+2.2%) · QQQ: <b>$695.77</b> (+3.4%) · VIX: <b>$17.39</b> (+0.1%) · TLT: <b>$86.08</b> (+1.3%) · DXY: <b>$98.03</b> (-0.5%) · OIL: <b>$96.21</b> (-5.9%)\n\n<b>EVENING NEWS</b>\n▲ Fed’s Goolsbee Sounds Warning on Inflation, Consumer Behavior\n▲ Europe’s Dealmakers Race Past $450 Billion\n▲ Stablecoins Are Becoming Everyday Money In Europe, OKX Report\n▲ XRP ETFs Record $81.59M Inflows as Institutional Demand Grows\n▲ Foreign Demand for Treasury Debt Is Stalling, Trade Group Says\n▲ USD/PHP: Inflation shock drives underperformance risk – MUFG\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Fed warnings and crypto speculation suggest advanced cycle dynamics\n▼ Goldilocks: Inflation warnings and Treasury demand issues challenge benign conditions\n▲ Stagflation: Multiple inflation signals with weakening Treasury demand\n▼ Hegemony: Foreign Treasury demand stalling threatens dollar dominance\n▲ Displacement: Accelerating crypto adoption as alternative monetary system\n\n<b>REGIME CHECK</b>\n— <b>Neutral · Neutral</b> · OVERHEATING · Gauge: 43.8/100\n\n<b>UPCOMING — HIGH IMPACT</b>\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\nEU GDP(QoQ) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.1%)\nEU GDP(YoY) (Revised) (Q1) — May 13, 09:00 AM UTC (prev: 0.8%)\nUS Core Consumer Price Index (Unseasonally Adjusted) (YoY)(Apr) — May 12, 12:30 PM UTC (prev: 2.6%)\n\n<b>CONTRARIAN</b>\n• Stablecoin adoption in Europe might indicate weakness in traditional banking rather than crypto stre\n• Foreign Treasury selling could be tactical diversification rather than systemic dollar rejection\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 360
-  },
-  {
-    "session": "midday",
-    "date": "2026-05-06",
-    "time": "15:15 UTC",
-    "headline": "BTC BULL_REGIME on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH 1d:BULL_REGIME 4h:BEAR_REGIME · SOL 1d:BULL_REGIME 4h:DISTRIBUTION",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "LAB 348% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$24M WETH",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$394M ETH",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — May 6, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$81,442</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n• ETH: <b>$2,358</b> — 1d: BULL_REGIME | 4h: BEAR_REGIME\n• SOL: <b>$88.44</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 10,000 WETH ($23,628,607)\n  <i>transferred from unknown wallet to #Aave</i>\n• 165,021 ETH ($393,517,242)\n  <i>transferred from unknown wallet to unknown wallet</i>\n• 28,038 ETH ($67,321,046)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>LAB</b>: 392% net APR (0.1590% rate)\n  Long Bybit / Short Bitget | OI: $46.5M | Spread: -0.18%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $182,316,631 | Longs: 15% | L/S: 0.2:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Geopolitical Risk Premium [BTC, OIL, GOLD]\n▲ Institutional Bitcoin Accumulation [BTC, MSTR, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 359
   }
 ]

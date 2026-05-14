@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — May 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/14#morning</link>
+      <description>MACRO RADAR — May 14 — Risk 39/100 · 6 movers</description>
+      <pubDate>Thu, 14 May 2026 03:15:12 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/14#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — May 13, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/13#evening</link>
       <description>MARKET WRAP — May 13 — Risk 40/100 · 6 movers</description>
@@ -348,13 +355,6 @@
       <description>Markets entered overheating territory as late-cycle dynamics intensified, with crypto infrastructure… — OVERHEATING. 18 news items. 6 scenario shifts.</description>
       <pubDate>Fri, 01 May 2026 21:15:04 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/05/01#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — May 1, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/01#midday</link>
-      <description>BTC Accumulation · 100 whale moves — BTC daily accumulation, 4h ignition · ETH daily accumulation, 4h ignition · SOL daily accumulation, 4h ignition</description>
-      <pubDate>Fri, 01 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/01#midday</guid>
     </item>
   </channel>
 </rss>
