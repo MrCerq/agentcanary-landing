@@ -1,6 +1,6 @@
 {
   "name": "agentcanary",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Macro market intelligence — regime, indicators, briefs, narratives, scored predictions",
   "homepage": "https://agentcanary.ai",
   "install": {
@@ -22,8 +22,9 @@
     {"name": "get_scores",            "description": "Prediction scoring results (hit/miss/partial rates)"},
     {"name": "get_scenario_analysis", "description": "Forward scenarios with price targets"},
     {"name": "get_signals",           "description": "Trading signals — pass type= for one of 20 sub-types: whale-alerts, fear-greed, funding-rates, btc-etf-flows, vix, credit-stress, sector-rotation, insider-activity, correlations, dxy, oil, yield-curve, market-structure, stablecoin-dominance, whale-positions, cftc-cot, bofa-fms, dispersion, geopolitical-risk, decision-engine (default)"},
+    {"name": "get_market_structure",  "description": "Market structure & exchange data — pass view= for one of: orderbook (depth across exchanges, default), liquidation-heatmap (BTC leverage liquidation map), liquidation-ranges, exchange-assets (token listings by venue), exchange-volumes, coinbase. Covers leverage/depth/venue data complementing directional signals from get_signals."},
     {"name": "get_defi",              "description": "DeFi intelligence — pass category= for one of: yields, pe-ratios, stablecoins, chains, unlocks, perps, signals, intelligence (default)"},
-    {"name": "get_btc_options",       "description": "BTC options — pass view= for maxpain or skew. Omit for overview (max pain, volatility skew, put/call ratios)"},
+    {"name": "get_btc_options",       "description": "BTC options — pass view= for maxpain (max pain price) or skew (volatility skew). Omit for overview (max pain + skew + put/call ratios). Key for institutional positioning."},
     {"name": "get_central_banks",     "description": "Central bank data — pass view= for one of: balance-sheets, gold, btc, stablecoins, reserves, tic. Omit for overview"},
     {"name": "get_expectations",      "description": "Market expectations — pass view= for one of: crowded, early, rotation. Omit for overview"},
     {"name": "get_macro",             "description": "Macro data — pass view= for one of: snapshot (30+ FRED series), business-cycle, global-liquidity, us-m2, supply-chain, calendar-high-impact (high-impact economic events), risk-score, signals. Omit for regime"}
