@@ -1,9 +1,9 @@
 {
-  "session": "midday",
+  "session": "evening",
   "date": "2026-05-15",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — May 15",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — May 15",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 36/100 · 6 movers",
   "tags": [
     {
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "EWY",
-          "v": "+6.7%",
-          "c": "green"
-        },
-        {
-          "k": "HYPE",
-          "v": "+5.5%",
-          "c": "green"
-        },
-        {
-          "k": "PENDLE",
-          "v": "+4.0%",
-          "c": "green"
-        },
-        {
           "k": "SLV",
-          "v": "-3.9%",
+          "v": "-13.0%",
+          "c": "red"
+        },
+        {
+          "k": "ENPH",
+          "v": "+10.2%",
+          "c": "green"
+        },
+        {
+          "k": "BLSH",
+          "v": "-9.5%",
+          "c": "red"
+        },
+        {
+          "k": "IREN",
+          "v": "-9.3%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — May 15, 2026\n\n<b>CRYPTO</b>\nBTC: $81,240 — 1d:IGNITION · 4h:IGNITION · above $80K\nETH: $2,276 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade\nSOL: $92.34 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade\nCrypto sentiment: 43 (Fear, 7d avg 43).\n\n<b>WHALE ALERTS</b>\n• 1,288 BTC ($104.3M) — transferred from Coinbase Institutional to unknown wallet\n• 1,104 BTC ($89.4M) — transferred from unknown wallet to Coinbase Institutional\n• 1,087 BTC ($88.7M) — transferred from Coinbase Institutional to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 270M USDC ($270M) — transferred from unknown wallet to #Coinbase\n• 250M USDC ($250M) — minted at USDC Treasury\n• 216M USDC ($216M) — transferred from unknown wallet to #Coinbase\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): +$131M inflow on May 15 (Fri close) (IBIT +$144M, GBTC -$32M, BITB +$18M). Trailing 5-trading-day net: -$1.0B outflow.\nBTC options — BEARISH: max pain $80,000 (15MAY26), P/C 0.67 OI / 0.75 vol, put skew +16.4 IV.\nPerp funding (8h, cross-exchange mean): BTC -0.2037% (5/21 positive, short-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $90M long / $37M short (net long $53M, +$2.4M PnL); ETH: $42M long / $50M short (net short $8M, +$711K PnL); HYPE: $20M long / $43M short (net short $23M, -$2.7M PnL).\nLiquidations: 24h total $81.5M; latest 4h $9K short-dominant (1 events).\nETH stake APY 2.47% vs T-bill 0.00% (spread +2.47, STAKING_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Fed Policy Tightening Cycle Accelerates [DXY, TNX, GBP, EUR]\n▲ Crypto Regulatory Breakthrough [BTC, DOGE, HYPE, SOL]\n▼ Global Inflation Divergence [JPY, ARS, EM, BONDS]\n\n<b>IMPLICATION</b>\nMid-session flows favor growth over defensives with tech and crypto leading the charge. Bitcoin ETF inflows suggest institutional appetite remains despite weekly outflows. Watch for momentum continuation into close or profit-taking rotation as volatility stays compressed.\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 396
+  "telegramText": "<b>MARKET WRAP</b> — May 15, 2026\n\nMarkets closed with stark sector divergence as energy surged while metals faced broad-based selling pressure. The disconnect between crypto ETF inflows and miner weakness highlighted infrastructure headwinds beyond pure exposure plays. Tomorrow's session hinges on whether commodity weakness spreads to broader risk assets or remains sector-contained.\n\n<b>CLOSING PRICES</b>\nSPY -0.4% | QQQ -0.8% | VIX +6.8% | TLT -1.3% | DXY +0.4% | OIL flat\n\n<b>vs MORNING</b>\nSPY -1.8% | QQQ -2.6% | VIX +10.2% | TLT -1.3% | DXY -0.1% | OIL -1.3%\n\n<b>EVENING NEWS</b>\n▲ Malaysia: Growth risks and steady rates – UOB\n▲ China Allows Exports for 425 US Beef Plants, Trade Group Says\n▼ THORChain exploit raises fresh concerns over MPC wallet security\n▼ Gold sinks 2% as Iran war fuels fresh inflation shock\n▲ US Dollar Index climbs to five-week high as hawkish Fed bets gather pace\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 36.1/100 (Low). Regime: OVERHEATING.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLE +3.1%, XLF +0.2%, URA -6.3%, COPX -9.6%.\nSector dispersion: 70 (EXTREME, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Real GDP (AQR) (Preliminary)(Q1) — May 17 18:50 UTC (prev: 1.3%)\n[CHN] Total retail sales of consumer goods (MoM)(Apr) (+1 variants) — May 18 02:00 UTC (prev: 0.14%)\n[UK] CBI retail sales difference(May) — May 18 10:00 UTC (prev: -68)\n[UK] CBI Retail Sales Expectation Index(May) — May 18 10:00 UTC (prev: -60)\n\n<b>CONTRARIAN</b>\n• Fed may be behind the curve but markets are overreacting - inflation could prove transitory again if supply chains normalize\n• Dollar strength may be self-limiting as it eventually hurts US exports and corporate earnings, potentially forcing Fed dovishness\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 397
 }
