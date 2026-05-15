@@ -1,5 +1,58 @@
 [
   {
+    "session": "midday",
+    "date": "2026-05-15",
+    "time": "15:15 UTC",
+    "headline": "MARKET PULSE — May 15",
+    "headlineColor": "#F87171",
+    "desc": "Risk 36/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 36
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "EWY",
+            "v": "+6.7%",
+            "c": "green"
+          },
+          {
+            "k": "HYPE",
+            "v": "+5.5%",
+            "c": "green"
+          },
+          {
+            "k": "PENDLE",
+            "v": "+4.0%",
+            "c": "green"
+          },
+          {
+            "k": "SLV",
+            "v": "-3.9%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET PULSE</b> — May 15, 2026\n\n<b>CRYPTO</b>\nBTC: $81,240 — 1d:IGNITION · 4h:IGNITION · above $80K\nETH: $2,276 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade\nSOL: $92.34 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade\nCrypto sentiment: 43 (Fear, 7d avg 43).\n\n<b>WHALE ALERTS</b>\n• 1,288 BTC ($104.3M) — transferred from Coinbase Institutional to unknown wallet\n• 1,104 BTC ($89.4M) — transferred from unknown wallet to Coinbase Institutional\n• 1,087 BTC ($88.7M) — transferred from Coinbase Institutional to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 270M USDC ($270M) — transferred from unknown wallet to #Coinbase\n• 250M USDC ($250M) — minted at USDC Treasury\n• 216M USDC ($216M) — transferred from unknown wallet to #Coinbase\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): +$131M inflow on May 15 (Fri close) (IBIT +$144M, GBTC -$32M, BITB +$18M). Trailing 5-trading-day net: -$1.0B outflow.\nBTC options — BEARISH: max pain $80,000 (15MAY26), P/C 0.67 OI / 0.75 vol, put skew +16.4 IV.\nPerp funding (8h, cross-exchange mean): BTC -0.2037% (5/21 positive, short-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $90M long / $37M short (net long $53M, +$2.4M PnL); ETH: $42M long / $50M short (net short $8M, +$711K PnL); HYPE: $20M long / $43M short (net short $23M, -$2.7M PnL).\nLiquidations: 24h total $81.5M; latest 4h $9K short-dominant (1 events).\nETH stake APY 2.47% vs T-bill 0.00% (spread +2.47, STAKING_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Fed Policy Tightening Cycle Accelerates [DXY, TNX, GBP, EUR]\n▲ Crypto Regulatory Breakthrough [BTC, DOGE, HYPE, SOL]\n▼ Global Inflation Divergence [JPY, ARS, EM, BONDS]\n\n<b>IMPLICATION</b>\nMid-session flows favor growth over defensives with tech and crypto leading the charge. Bitcoin ETF inflows suggest institutional appetite remains despite weekly outflows. Watch for momentum continuation into close or profit-taking rotation as volatility stays compressed.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 396
+  },
+  {
     "session": "intelligence",
     "date": "2026-05-15",
     "time": "09:15 UTC",
@@ -1455,43 +1508,5 @@
     ],
     "telegramText": "<b>SIGNAL SCAN</b> — May 8, 2026\n\n<b>SNAPSHOT</b>\nRisk-on momentum in equities with QQQ +2.0% led by semiconductors and defense, but energy sector dumps -5.9% on Hormuz tensions. Precious metals surge (SLV +8.6%, GLD +3.2%) signals inflation hedging amid geopolitical premium. Cross-asset divergence widening as crypto consolidates below $80K despite record ETF inflows.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 32.5/100 (Low)\nRegime: EXPANSION — Financial conditions flowing supportive, HY spreads tightening\nSPY: +1.1% | QQQ: +2.0% | VIX: +0.3% | TLT: +0.3% | DXY: -0.3% | OIL: -0.4%\nICSA: 200K (flat trend, below historical average)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Iran Tensions Escalate\nSPY: $695-715 (-5% to -2%)\nOIL: $105-115 (+11% to +22%)\nGLD: $450-470 (+4% to +9%)\n\n<b>SCENARIO B</b> — Geopolitical Fade\nSPY: $750-780 (+3% to +7%)\nOIL: $85-90 (-10% to -5%)\nBTC: $85-95K (+6% to +19%)\n\n<b>SCENARIO C</b> — Fed Hawkish Pivot\nTLT: $78-82 (-9% to -4%)\nDXY: $102-105 (+4% to +7%)\nQQQ: $650-680 (-6% to -2%)\n\n<b>SECTOR STRENGTH</b>\n1. Copper Miners (COPX +5.6%) — strong\n2. Uranium (URA +3.8%) — strong  \n3. Semiconductors (SMH +3.3%) — rotating\n4. Defense (ITA +3.3%) — bid\n5. Energy (XLE -5.9%) — dump\n\n<b>BIG MOVES + DRIVERS</b>\nSLV +8.6% — State Street forecasts 12X metals inflow targeting silver miners\nXLE -5.9% — Energy sector slide on US-Iran Hormuz clash straining ceasefire\nKWEB +3.5% — China-linked tokenized equities explode 2,850% on BNB Chain\nSMH +3.3% — Semiconductor strength on AI capex demand narrative\nITA +3.3% — Defense rally on escalating Middle East tensions\n<i>Metals surge and energy dump reflects geopolitical hedging while tech maintains AI-driven momentum.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M (13-day inflow streak, highest significance)\nWhale activity: ETH heavy short exposure $42.3M vs no longs, BTC mixed with $24.5M long/$34.8M short\nLarge specs positioning for volatility expansion while institutions accumulate crypto systematically\n\n<b>IMPLICATION</b>\nTactical opportunity in long precious metals vs energy if geopolitical premium fades from Hormuz tensions. Consider semiconductor overweight on sustained AI capex cycle, but hedge equity beta with metals exposure given inflation risks from commodity disruption.\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 366
-  },
-  {
-    "session": "morning",
-    "date": "2026-05-08",
-    "time": "03:15 UTC",
-    "headline": "▲ Risk-On · Neutral · Gauge 32.5/100",
-    "headlineColor": "#34D399",
-    "desc": "EXPANSION. F&G: —. NORMAL.",
-    "tags": [
-      {
-        "t": "Risk-On · Neutral",
-        "c": "green"
-      },
-      {
-        "t": "GAUGE 32.5",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 33
-        }
-      },
-      {
-        "label": "HEGEMONY",
-        "rows": [
-          {
-            "k": "Snapback",
-            "v": "0.5/6 NORMAL",
-            "c": "green"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MACRO RADAR</b> — May 8, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 32.5/100\n\n• BTC: <b>$79,303</b>\n• ETH: <b>$2,273</b>\n• SOL: <b>$87.8</b>\n• GOLD: <b>$4,708</b>\nSPY: <b>$731.58</b> (+1.1%)\nQQQ: <b>$694.94</b> (+2.0%)\nVIX: <b>17.1</b> (-1.8%)\nTLT: <b>$85.65</b> (+0.3%)\nDXY: <b>98.2</b> (+0.2%)\nOIL: <b>$95.61</b> (+0.6%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>278bps</b> CALM (5d: -6bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ IG Credit Spread: -1.67σ\n— 2s10s Curve: -1.46σ\n— Fed Balance Sheet: +1.42σ\n— 30Y Mortgage Rate: +1.24σ\n— HY Credit Spread: -1.23σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +14.7%\n▼ BTC: -0.7%\n▼ ETH: -0.7%\n\n<b>TOP MOVERS</b>\n▲ SLV $71.60 (+8.6%)\n▼ XLE $55.95 (-5.9%)\n▲ LUNC $0.00009286 (+5.1%)\n▲ STX $0.2604 (+4.6%)\n▲ KWEB $29.52 (+3.5%)\n▲ SMH $540 (+3.3%)\n▲ ITA $223 (+3.3%)\n▲ QNT $73.09 (+3.2%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $100 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 365
   }
 ]

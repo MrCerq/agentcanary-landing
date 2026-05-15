@@ -15,6 +15,21 @@
   ],
   "items": [
     {
+      "id": "2026-05-15-midday",
+      "url": "https://agentcanary.ai/record/2026/05/15#midday",
+      "title": "Market Pulse — May 15, 2026",
+      "content_text": "MARKET PULSE — May 15 Risk 36/100 · 6 movers",
+      "summary": "MARKET PULSE — May 15",
+      "date_published": "2026-05-15T15:15:12.666Z",
+      "tags": [
+        "low",
+        "overheating"
+      ],
+      "_agentcanary": {
+        "session": "midday"
+      }
+    },
+    {
       "id": "2026-05-15-intelligence",
       "url": "https://agentcanary.ai/record/2026/05/15#intelligence",
       "title": "Signal Scan — May 15, 2026",
@@ -750,21 +765,6 @@
       ],
       "_agentcanary": {
         "session": "signal"
-      }
-    },
-    {
-      "id": "2026-05-03-morning",
-      "url": "https://agentcanary.ai/record/2026/05/03#morning",
-      "title": "Morning Brief — May 3, 2026",
-      "content_text": "— Neutral · Neutral · Gauge 48.1/100 Overheating regime · Fear & Greed: neutral · NORMAL",
-      "summary": "— Neutral · Neutral · Gauge 48.1/100",
-      "date_published": "2026-05-03T03:15:01.966Z",
-      "tags": [
-        "neutral-·-neutral",
-        "gauge-48.1"
-      ],
-      "_agentcanary": {
-        "session": "morning"
       }
     }
   ]
