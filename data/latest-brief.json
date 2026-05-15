@@ -1,17 +1,17 @@
 {
-  "session": "evening",
-  "date": "2026-05-14",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 14",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 39/100 · 6 movers",
+  "session": "morning",
+  "date": "2026-05-15",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 15",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 36/100 · 6 movers",
   "tags": [
     {
       "t": "LOW",
       "c": "green"
     },
     {
-      "t": "EXPANSION",
+      "t": "OVERHEATING",
       "c": "blue"
     }
   ],
@@ -19,35 +19,35 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 39
+        "value": 36
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "ONDS",
-          "v": "+25.1%",
-          "c": "green"
-        },
-        {
-          "k": "ENPH",
-          "v": "+14.1%",
+          "k": "EWY",
+          "v": "+6.7%",
           "c": "green"
         },
         {
           "k": "HYPE",
-          "v": "+13.5%",
+          "v": "+5.5%",
           "c": "green"
         },
         {
-          "k": "BTDR",
-          "v": "+11.3%",
+          "k": "PENDLE",
+          "v": "+4.0%",
           "c": "green"
+        },
+        {
+          "k": "SLV",
+          "v": "-3.9%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 14, 2026\n\nTechnology leadership dominated today's session while commodities faced broad-based selling pressure, creating a clear risk-on versus defensive rotation pattern. The divergence between crypto spot strength and persistent ETF outflows highlights the complexity of current cross-asset flows. Tomorrow's setup favors continued momentum plays in growth sectors while watching for potential commodity oversold bounces.\n\n<b>CLOSING PRICES</b>\nSPY +1.4% | QQQ +1.8% | VIX -3.4% | TLT -0.1% | DXY +0.4% | OIL +1.0%\n\n<b>vs MORNING</b>\nSPY +0.9% | QQQ +1.6% | VIX -2.7% | TLT +0.8% | DXY +0.2% | OIL +1.7%\n\n<b>EVENING NEWS</b>\n▼ Fed Governor Stephen Miran resigns\n▲ Bitcoin trades at a 'discount' on Coinbase: Is a $76K retest next?\n▲ Apollo’s Insurance Unit Is FHLB System’s Third-Biggest Borrower\n▲ Crypto Rallies as Senate Committee Advances Market Structure Bill to Full Senate\n▲ Volume Shows Big Players Are Reloading On Solana As They Push For 4-Month Highs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 38.5/100 (Low). Regime: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +3.0%, XLK +2.5%, XLC +1.1%, COPX -1.5%, URA -3.4%.\nSector dispersion: 72 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] GDP(MoM)(Feb) — May 15 06:00 UTC (prev: 0.0%)\n[ITA] Consumer Price Index (MoM)(Final)(Apr) — May 15 08:00 UTC (prev: 1.2%)\n[ITA] Consumer Price Index (YoY)(Final)(Apr) — May 15 08:00 UTC (prev: 1.7%)\n[ITA] Harmonized Consumer Price Index (MoM)(Final)(Apr) — May 15 08:00 UTC (prev: 2.8%)\n[ITA] Harmonized Consumer Price Index (YoY)(Final)(Apr) — May 15 08:00 UTC (prev: 2.9%)\n[USA] New York Federal Reserve Manufacturing Price Gain Index(May) — May 15 12:30 UTC (prev: 21.8)\n\n<b>CONTRARIAN</b>\n• Fed leadership change might actually provide more dovish policy as markets are overly focused on inflation hawkishness rather than growth concerns\n• Crypto rally could be short-lived if institutional players are front-running regulatory approval that might not materialize as expected\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 393
+  "telegramText": "<b>MACRO RADAR</b> — May 15, 2026\n\nRisk Gauge: 36.1/100 (Low). Regime: OVERHEATING.\nComposite Risk: 29.4/100 (MODERATE).\nGeopolitical risk: 49/100 (MODERATE). Top: Russia-Ukraine 55/100 (ELEVATED, natural_gas bullish).\n\nBTC: $81,240 · ETH: $2,276 · SOL: $92.34\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.24T (YoY -2.95%) — fed $6.73T · ecb $7.28T · boj $4.23T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 282bps NORMAL (composite: CAUTION)\nBDRY: $12.95 (+23.9% 30d, UP — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 452.9M bbl, refinery 91.7%, SPR 384M.\n\n<b>KEY PRICES</b>\nSPY +1.4% | QQQ +1.8% | VIX -3.4% | TLT -0.1% | DXY +0.5% | OIL +1.3%\n\nCrypto sentiment: 43 (Fear, 7d avg 43).\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ EWY: +6.7%\n▼ SLV: -3.9%\n▼ VIX: -3.4%\n▼ URA: -3.4%\n▲ SMH: +3.0%\n▼ TKMS: -3.0%\n\n<b>TOP MOVERS</b>\nTop movers: EWY +6.7%, HYPE +5.5%, PENDLE +4.0%, SLV -3.9%, VIX -3.4%, SMH +3.0%.\n\n<b>HEGEMONY SNAPBACK</b>\n👀 1.5/6 — WATCH\n\n<b>NOTABLE Z-SCORES</b>\n[+] Silver: +2.12σ\n[+] 30Y Treasury: +1.98σ\n[-] 2s10s Curve: -1.96σ\n[+] 2Y Treasury: +1.87σ\n[+] 10Y Treasury: +1.65σ\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 394
 }

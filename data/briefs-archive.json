@@ -1,5 +1,58 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-15",
+    "time": "03:15 UTC",
+    "headline": "MACRO RADAR — May 15",
+    "headlineColor": "#FB923C",
+    "desc": "Risk 36/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 36
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "EWY",
+            "v": "+6.7%",
+            "c": "green"
+          },
+          {
+            "k": "HYPE",
+            "v": "+5.5%",
+            "c": "green"
+          },
+          {
+            "k": "PENDLE",
+            "v": "+4.0%",
+            "c": "green"
+          },
+          {
+            "k": "SLV",
+            "v": "-3.9%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramMessageId": 394,
+    "telegramText": "<b>MACRO RADAR</b> — May 15, 2026\n\nRisk Gauge: 36.1/100 (Low). Regime: OVERHEATING.\nComposite Risk: 29.4/100 (MODERATE).\nGeopolitical risk: 49/100 (MODERATE). Top: Russia-Ukraine 55/100 (ELEVATED, natural_gas bullish).\n\nBTC: $81,240 · ETH: $2,276 · SOL: $92.34\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.24T (YoY -2.95%) — fed $6.73T · ecb $7.28T · boj $4.23T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 282bps NORMAL (composite: CAUTION)\nBDRY: $12.95 (+23.9% 30d, UP — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 452.9M bbl, refinery 91.7%, SPR 384M.\n\n<b>KEY PRICES</b>\nSPY +1.4% | QQQ +1.8% | VIX -3.4% | TLT -0.1% | DXY +0.5% | OIL +1.3%\n\nCrypto sentiment: 43 (Fear, 7d avg 43).\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ EWY: +6.7%\n▼ SLV: -3.9%\n▼ VIX: -3.4%\n▼ URA: -3.4%\n▲ SMH: +3.0%\n▼ TKMS: -3.0%\n\n<b>TOP MOVERS</b>\nTop movers: EWY +6.7%, HYPE +5.5%, PENDLE +4.0%, SLV -3.9%, VIX -3.4%, SMH +3.0%.\n\n<b>HEGEMONY SNAPBACK</b>\n👀 1.5/6 — WATCH\n\n<b>NOTABLE Z-SCORES</b>\n[+] Silver: +2.12σ\n[+] 30Y Treasury: +1.98σ\n[-] 2s10s Curve: -1.96σ\n[+] 2Y Treasury: +1.87σ\n[+] 10Y Treasury: +1.65σ\n\nagentcanary.ai | <i>Not financial advice</i>"
+  },
+  {
     "session": "evening",
     "date": "2026-05-14",
     "time": "21:15 UTC",

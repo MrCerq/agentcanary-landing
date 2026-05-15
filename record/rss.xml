@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Morning Brief — May 15, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/15#morning</link>
+      <description>MACRO RADAR — May 15 — Risk 36/100 · 6 movers</description>
+      <pubDate>Fri, 15 May 2026 03:15:13 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/15#morning</guid>
+    </item>
+    <item>
       <title>Evening Wrap — May 14, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/14#evening</link>
       <description>MARKET WRAP — May 14 — Risk 39/100 · 6 movers</description>
@@ -348,13 +355,6 @@
       <description>Markets shrugged off Iran conflict escalation as energy disruption fears drove oil above $100, while… — OVERHEATING. 16 news items. 5 scenario shifts.</description>
       <pubDate>Sat, 02 May 2026 21:15:04 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/05/02#evening</guid>
-    </item>
-    <item>
-      <title>Market Pulse — May 2, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/02#midday</link>
-      <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h distribution · ETH daily accumulation, 4h ignition · SOL daily accumulation, 4h accumulation</description>
-      <pubDate>Sat, 02 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/02#midday</guid>
     </item>
   </channel>
 </rss>
