@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Market Pulse — May 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/16#midday</link>
+      <description>MARKET PULSE — May 16 — Risk 14/100 · 6 movers</description>
+      <pubDate>Sat, 16 May 2026 15:15:17 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/16#midday</guid>
+    </item>
+    <item>
       <title>Signal Scan — May 16, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/16#intelligence</link>
       <description>SIGNAL SCAN — May 16 — Risk 14/100 · 6 movers</description>
@@ -348,13 +355,6 @@
       <description>SIGNAL SCAN — May 4, 2026 — Risk 48.1/100 · 8 movers</description>
       <pubDate>Mon, 04 May 2026 09:15:22 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/05/04#intelligence</guid>
-    </item>
-    <item>
-      <title>Morning Brief — May 4, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/04#morning</link>
-      <description>— Neutral · Neutral · Gauge 48.1/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Mon, 04 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/04#morning</guid>
     </item>
   </channel>
 </rss>
