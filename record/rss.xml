@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Evening Wrap — May 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/16#evening</link>
+      <description>MARKET WRAP — May 16 — Risk 14/100 · 6 movers</description>
+      <pubDate>Sat, 16 May 2026 21:15:13 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/16#evening</guid>
+    </item>
+    <item>
       <title>Market Pulse — May 16, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/16#midday</link>
       <description>MARKET PULSE — May 16 — Risk 14/100 · 6 movers</description>
@@ -348,13 +355,6 @@
       <description>BTC Risk-Off · 100 whale moves — BTC daily risk-off, 4h distribution · ETH daily risk-off, 4h distribution · SOL daily risk-off, 4h distribution</description>
       <pubDate>Mon, 04 May 2026 15:15:02 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/05/04#midday</guid>
-    </item>
-    <item>
-      <title>Signal Scan — May 4, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/04#intelligence</link>
-      <description>SIGNAL SCAN — May 4, 2026 — Risk 48.1/100 · 8 movers</description>
-      <pubDate>Mon, 04 May 2026 09:15:22 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/04#intelligence</guid>
     </item>
   </channel>
 </rss>

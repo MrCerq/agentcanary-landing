@@ -1,5 +1,58 @@
 [
   {
+    "session": "evening",
+    "date": "2026-05-16",
+    "time": "21:15 UTC",
+    "headline": "MARKET WRAP — May 16",
+    "headlineColor": "#A78BFA",
+    "desc": "Risk 14/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 14
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "SLV",
+            "v": "-13.0%",
+            "c": "red"
+          },
+          {
+            "k": "KWEB",
+            "v": "-7.9%",
+            "c": "red"
+          },
+          {
+            "k": "VIX",
+            "v": "+6.8%",
+            "c": "green"
+          },
+          {
+            "k": "FXI",
+            "v": "-5.4%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MARKET WRAP</b> — May 16, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session crystallized a clear risk-off pivot as Asian markets led a broad retreat while metals suffered their worst selloff in months. Energy's lone resilience highlighted divergent commodity dynamics, but the volatility spike and crypto outflows painted a picture of growing investor caution. Tomorrow's focus shifts to whether this defensive rotation gains momentum or proves a temporary setback.\n\n<b>CLOSING PRICES</b>\nSPY -0.4% | QQQ -0.8% | VIX +6.8% | TLT -1.3% | DXY +0.4% | OIL flat\n\n<b>vs MORNING</b>\nSPY -0.8% | QQQ -0.7% | TLT -0.1%\n\n<b>EVENING NEWS</b>\n▼ Latest Inflation Report: What It Could Mean For Bitcoin, Ethereum, And Solana Ahead\n▲ Precious metals plunge on U.S. inflation fears, rising Treasury yields\n▲ Dollar Rallies as Inflation Risks Push Bond Yields Higher\n▲ Japan: Energy shock lifts inflation more than GDP – ING\n▲ Forecasting the upcoming week: Markets shift focus to PMIs and central bank events\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation\n\n<b>REGIME CHECK</b>\nRisk Gauge: 13.8/100 (Calm). Phase: OVERHEATING.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLE +3.1%, XLF +0.2%, URA -6.3%, COPX -9.6%.\nSector dispersion: 71 (EXTREME, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Real GDP (AQR) (Preliminary)(Q1) (+3 variants) — May 17 18:50 UTC (prev: 1.3%)\n[CHN] Total retail sales of consumer goods (MoM)(Apr) (+1 variants) — May 18 02:00 UTC (prev: 0.14%)\n[NZ] Producer Price Input Index (QoQ)(Q1) (+1 variants) — May 18 22:45 UTC (prev: -0.5%)\n[NZ] Producer price Output index (QoQ)(Q1) (+1 variants) — May 18 22:45 UTC (prev: 0.1%)\n[JPN] GDP deflator (YoY)(Preliminary)(Q1) — May 18 23:50 UTC (prev: 3.4%)\n[JPN] Nominal GDP(QoQ)(Preliminary)(Q1) — May 18 23:50 UTC (prev: 0.9%)\n\n<b>CONTRARIAN</b>\n• SLV's 13% plunge may be overdone - if this inflation spike proves transitory, silver could snap back hard as industrial demand remains strong\n• COPX's 9.6% drop could signal peak pessimism on China - any stimulus announcement could trigger violent reversal in industrial metals\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":13.8,\"sectorDispersion\":71,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"XLE\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+    "telegramMessageId": 401
+  },
+  {
     "session": "midday",
     "date": "2026-05-16",
     "time": "15:15 UTC",
@@ -1471,58 +1524,5 @@
     ],
     "telegramText": "<b>MARKET PULSE</b> — May 9, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$80,237</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• ETH: <b>$2,302</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• SOL: <b>$92.58</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 68,159 ETH ($157,608,425)\n  <i>transferred from unknown wallet to #Binance</i>\n• 30,000 ETH ($69,374,545)\n  <i>transferred from unknown wallet to #Binance</i>\n• 199,997,999 USDT ($199,978,326)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>LAB</b>: 380% net APR (0.1285% rate)\n  Long Binance / Short Bitget | OI: $94.8M | Spread: -0.35%\n• <b>SAHARA</b>: 255% net APR (0.1131% rate)\n  Long OKX / Short Bitget | OI: $8.1M | Spread: -0.10%\n• <b>SIREN</b>: 304% net APR (0.0957% rate)\n  Long Bitget / Short Bybit | OI: $9.4M | Spread: -0.32%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $12,568,320 | Longs: 31% | L/S: 0.5:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto Institutional Selling Pressure [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 371
-  },
-  {
-    "session": "intelligence",
-    "date": "2026-05-09",
-    "time": "09:15 UTC",
-    "headline": "SIGNAL SCAN — May 9, 2026",
-    "headlineColor": "#60A5FA",
-    "desc": "Risk 36.5/100 · 8 movers",
-    "tags": [
-      {
-        "t": "LOW",
-        "c": "green"
-      },
-      {
-        "t": "EXPANSION",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "RISK GAUGE",
-        "gauge": {
-          "value": 37
-        }
-      },
-      {
-        "label": "TOP MOVERS",
-        "rows": [
-          {
-            "k": "ICP",
-            "v": "+12.1%",
-            "c": "green"
-          },
-          {
-            "k": "TKMS",
-            "v": "-8.1%",
-            "c": "red"
-          },
-          {
-            "k": "SUI",
-            "v": "+6.7%",
-            "c": "green"
-          },
-          {
-            "k": "MOH",
-            "v": "-5.8%",
-            "c": "red"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>SIGNAL SCAN</b> — May 9, 2026\n\n<b>SNAPSHOT</b>\nRisk-on tech momentum meets crypto capitulation as Apple/Intel deal drives semis while Bitcoin breaks $80K on massive ETF outflows. Global inflation surprises building policy pressure, but equity momentum intact with SPX hitting fresh 7,400 ATH.\n\n<b>MACRO RISK DASHBOARD</b>\nRisk Gauge: 36.5/100 (Low)\nRegime: EXPANSION — HY spreads tightening despite inflation upticks\nSPY +0.5% | QQQ +2.2% | VIX +0.6% | TLT 0% | DXY -0.4% | OIL +0.6%\nICSA: 200K (flat trend, below historical avg)\n\n<b>FORWARD SCENARIOS</b>\n\n<b>SCENARIO A</b> — Tech Consolidation Accelerates\nSPY: $760-780 (+3-6%)\nQQQ: $750-780 (+5-10%)\nBTC: $75K-78K (-6-3%)\n\n<b>SCENARIO B</b> — Inflation Shock Repricing\nSPY: $700-720 (-5-2%)\nTLT: $82-84 (-5-2%)\nDXY: $102-105 (+4-7%)\n\n<b>SCENARIO C</b> — Crypto Capitulation Complete\nBTC: $85K-90K (+6-12%)\nETH: $2450-2600 (+6-12%)\nQQQ: $690-710 (-3-0%)\n\n<b>SECTOR STRENGTH</b>\n1. Technology (XLK +3.2%) — momentum\n2. Semiconductors (SMH +3.1%) — bid\n3. Copper Miners (COPX +2.9%) — strong\n4. Energy (XLE -2.3%) — weak\n5. Uranium (URA -5.3%) ��� dump\n\n<b>BIG MOVES + DRIVERS</b>\nICP +12.1% — broader crypto rotation despite BTC weakness\nTKMS -8.1% — European undervaluation concerns per analyst coverage\nSUI +6.7% — software narrative gaining traction vs infrastructure tokens\nTON +5.6% — AI robotics hype and altcoin momentum surge\nEWY +4.5% — Korea exposure benefiting from tech consolidation\nSLV +4.1% — precious metals catching inflation hedge bid\n\n<i>Cross-asset dislocation emerging as tech consolidation drives equity strength while crypto faces institutional outflow pressure.</i>\n\n<b>POSITIONING</b>\nBTC ETF flows: +$531M inflow (13-day streak) — institutional accumulation continues despite price weakness creating entry opportunity\nWhale activity: ZEC longs profitable (+$4.7M), HYPE shorts underwater (-$4.1M), mixed crypto positioning suggests uncertainty\n\n<b>IMPLICATION</b>\nTech momentum sustainable with Apple/Intel validation of reshoring theme, but crypto weakness creates tactical entry if ETF flows persist. Consider long semis vs crypto beta trade while monitoring inflation repricing risk.\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 370
   }
 ]
