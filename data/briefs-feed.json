@@ -1,5 +1,58 @@
 [
   {
+    "session": "intelligence",
+    "date": "2026-05-16",
+    "time": "09:15 UTC",
+    "headline": "SIGNAL SCAN — May 16",
+    "headlineColor": "#60A5FA",
+    "desc": "Risk 14/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 14
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "SLV",
+            "v": "-13.0%",
+            "c": "red"
+          },
+          {
+            "k": "KWEB",
+            "v": "-7.9%",
+            "c": "red"
+          },
+          {
+            "k": "VIX",
+            "v": "+6.8%",
+            "c": "green"
+          },
+          {
+            "k": "FXI",
+            "v": "-5.4%",
+            "c": "red"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>SIGNAL SCAN</b> — May 16, 2026\n\n<b>SNAPSHOT</b>\nCross-asset rotation driven by commodity weakness and emerging market selloff, while energy shows resilience amid broader defensive positioning. Volatility spike signals risk-off undertone despite pockets of strength.\nBTC at $79,111, below $80K.\nCrypto sentiment: 31 (Fear, 7d avg 42) (falling).\nEquity sentiment (CNN F&G): 62.9 (Greed), 7d avg 66.7, 30d avg 56.2.\nBTC ETF flows: -$290M outflow on May 15 (Fri close), after -$1.0B outflow trailing 5-trading-day.\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLE +3.1%, XLF +0.2%, URA -6.3%, COPX -9.6%.\n\n1. Energy (XLE +3.1%) — strong\n2. Financials (XLF +0.2%) — mixed\n3. Uranium (URA -6.3%) — weak\n4. Copper Miners (COPX -9.6%) — dump\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nRisk Gauge: 13.8/100 (Calm). Regime: OVERHEATING.\nSPY -0.4% | QQQ -0.8% | VIX +6.8% | TLT -1.3% | DXY +0.4% | OIL flat\nComposite Risk: 27.9/100 (MODERATE).\nCAPE: 41.7 (BUBBLE_TERRITORY, 99th %ile, +144% vs mean).\nGeopolitical risk: 45/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, oil bullish).\n\n<b>RATES + CYCLE</b>\nICSA: 211K (FLAT trend, +0.04z)\nBusiness cycle: LEI 99.85 (STABLE), claims ↑211K, 2s10s +0.50.\nFed implied: -1.5 cuts (HIKES_PRICED); 10Y breakeven 2.49% (NORMAL).\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — Energy Led Rally\nSPY: $763.21-779.24 (+3-5%)\nQQQ: $747.36-770.42 (+5-9%)\nBTC: $83,399-87,688 (+5-11%)\n\n<b>SCENARIO B</b> — Crypto Decoupling\nBTC: $85,972-91,976 (+9-16%)\nTLT: $80.94-82.75 (-3 to -1%)\nQQQ: $685.87-701.24 (-3 to -1%)\n\n<b>SCENARIO C</b> — Risk-off Rotation\nTLT: $86.38-88.19 (+3-5%)\nDXY: 100.35-102.50 (+1-3%)\nSPY: $715.13-723.14 (-3 to -2%)\n\n<b>NARRATIVES</b>\n↓ DeFi: 0.439 (Δ -0.033, EARLY)\n↓ Geopolitical Risk: 0.474 (Δ -0.026, MIXED)\n↓ Crypto★: 0.462 (Δ -0.023, EARLY)\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: SLV -13.0%, KWEB -7.9%, VIX +6.8%, FXI -5.4%, EWY -5.2%, RENDER +3.8%.\n\nSLV $69.04 (-13.0%) — Silver under pressure from industrial demand concerns and dollar strength\nKWEB $28.17 (-7.9%) — China internet names hit by regulatory headwinds and growth fears\nVIX 18.43 (+6.8%) — Fear gauge elevated on cross-asset volatility and risk-off flows\nFXI $36.20 (-5.4%) — Large-cap China selloff extends on economic data disappointment\nEWY $178.86 (-5.2%) — South Korea weakness follows regional EM rotation out\nRENDER $1.91 (+3.8%) — AI token rallies on compute infrastructure demand narrative\n\n<i>Metals and emerging markets lead risk-off while crypto shows divergent strength</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$290M outflow on May 15 (Fri close) (IBIT -$136M, ARKB -$53M, GBTC -$44M). Trailing 5-trading-day net: -$1.0B outflow.\nBTC options — NEUTRAL: max pain $79,500 (16MAY26), P/C 0.69 OI / 0.96 vol.\nPerp funding (8h, cross-exchange mean): BTC +0.1604% (12/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $11M long / $107M short (net short $96M, +$5.8M PnL); HYPE: $25M long / $92M short (net short $67M, -$982K PnL); BTC: $67M long / $46M short (net long $21M, -$1.1M PnL).\nCopper #1 (COMEX): +73.5K net, Δ +10.4K (ADDING_LONGS)\nGold (COMEX): +100.6K net, Δ +5.0K (ADDING_LONGS)\n\n<b>INTEL</b>\n▼ Inflation Surge Sparks Fed Hawkishness [DXY, TLT, SPY, QQQ]\n▼ Crypto Faces Dual Headwinds [BTC, ETH, SOL]\n▼ Commodities Crater on Dollar Strength [GLD, SLV, DJP]\nCongress (last 3 pages): 25 buys / 10 sells [D:18B/5S, R:7B/5S]. Top: INTU(3), HOLX(2), CMG(2), LLY(2).\n\n<b>IMPLICATION</b>\nEnergy's outperformance suggests selective risk-on flows persist despite broader commodity weakness. Focus on defensive positioning while monitoring whether crypto divergence signals broader risk appetite recovery. Watch for stabilization in metals before adding cyclical exposure.\n\nagentcanary.ai | <i>Not financial advice</i>",
+    "telegramMessageId": 399
+  },
+  {
     "session": "morning",
     "date": "2026-05-16",
     "time": "03:15 UTC",
@@ -1456,53 +1509,5 @@
     ],
     "telegramText": "<b>MACRO RADAR</b> — May 9, 2026\n\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n• BTC: <b>$80,377</b>\n• ETH: <b>$2,316</b>\n• SOL: <b>$93.45</b>\n• GOLD: <b>$4,724</b>\nSPY: <b>$737.62</b> (+0.5%)\nQQQ: <b>$711.23</b> (+2.2%)\nVIX: <b>17.2</b> (+0.6%)\nTLT: <b>$86.08</b> (+0.0%)\nDXY: <b>97.8</b> (-0.4%)\nOIL: <b>$94.68</b> (-0.1%)\n\n\n<b>LIQUIDITY & CREDIT</b>\n▼ Global CB Liquidity: <b>$18.22T</b> (YoY -3.05%)\n   US M2: $22.69T (YoY +4.57%)\n▲ HY Credit Spreads: <b>279bps</b> CALM (5d: -4bps)\n\n<b>NOTABLE Z-SCORES</b>\n▲ IG Credit Spread: -1.67σ\n— Silver: +1.45σ\n— WTI Crude Oil: +1.43σ\n— Fed Balance Sheet: +1.42σ\n— 2Y Treasury: +1.38σ\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NVDA: +16.7%\n▲ SOL: +1.5%\n\n<b>TOP MOVERS</b>\n▲ ICP $3.88 (+12.1%)\n▼ TKMS $78.70 (-8.1%)\n▲ DASH $51.51 (+7.4%)\n▲ SUI $1.09 (+6.7%)\n▼ MOH $186 (-5.8%)\n▲ EWY $190 (+4.5%)\n▲ SLV $73.01 (+4.1%)\n▲ XLK $176 (+3.2%)\n\n<b>HEGEMONY SNAPBACK</b> ▲: 0.5/6 — <b>NORMAL</b>\n<i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i>\n— Oil: $110 (&gt;$95)\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 369
-  },
-  {
-    "session": "evening",
-    "date": "2026-05-08",
-    "time": "21:15 UTC",
-    "headline": "Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k whi…",
-    "headlineColor": "#A78BFA",
-    "desc": "EXPANSION. 15 news items. 4 scenario shifts.",
-    "tags": [
-      {
-        "t": "BULLISH SKEW",
-        "c": "green"
-      },
-      {
-        "t": " Total retail sales of consume",
-        "c": "blue"
-      }
-    ],
-    "panels": [
-      {
-        "label": "REGIME",
-        "gauge": {
-          "value": 33
-        }
-      },
-      {
-        "label": "CALENDAR",
-        "rows": [
-          {
-            "k": " Total retail sales of consumer good",
-            "v": "May 18",
-            "c": "blue"
-          },
-          {
-            "k": "US Federal Funds Benchmark Rate",
-            "v": "May 15",
-            "c": "blue"
-          },
-          {
-            "k": "US Retail sales (MoM)(Apr)",
-            "v": "May 14",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET WRAP</b> — May 8, 2026\n\n<i>Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k while USD weakness ahead of CPI data lifted risk assets. The displacement theme gained momentum as traditional late-cycle dynamics evolved, though muted VIX suggests investors remain selective rather than euphoric.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$80,102</b> · ETH: <b>$2,306</b> · SOL: <b>$92.08</b> · GOLD: <b>$4,724</b> · SPY: <b>$737.62</b> (+0.5%) · QQQ: <b>$711.23</b> (+2.2%) · VIX: <b>$17.19</b> (+0.6%) · TLT: <b>$86.08</b> (+0.0%) · DXY: <b>$97.84</b> (-0.4%) · OIL: <b>$94.68</b> (-0.1%)\n\n<b>EVENING NEWS</b>\n▼ TeraWulf's AI Compute Revenue Outpaces Bitcoin Mining Amid $427 Million Loss\n▲ Fed Calls Risks Tied to Private Credit Redemptions ‘Manageable’\n▲ BitMine Stock Faces Risk as Tom Lee Cools on Ethereum Buying\n▼ Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches\n▲ Hungary: Inflation path stays contained – ING\n— Is Regis Resources (ASX:RRL) Still Attractive After Its Strong Three Year Share Price Run\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: USD weakness and crypto infrastructure evolution signal mature cycle dynamics\n▲ Goldilocks: Dollar weakness and contained inflation in Hungary support soft landing thesis\n▼ Stagflation: USD weakness reduces stagflation probability ahead of CPI data\n▲ Displacement: AI infrastructure displacing traditional crypto mining models accelerates\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 32.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Total retail sales of consumer goods (YoY)(Apr) — May 18, 02:00 AM UTC (prev: 1.7%)\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\nUS Retail sales (MoM)(Apr) — May 14, 12:30 PM UTC (prev: 1.7%)\nUS Unseasonally Adjusted Consumer Price Index (YoY)(Apr) — May 13, 06:30 PM UTC (prev: 3.3%)\nUS EIA crude oil inventory transmutation last week (10,000 barrels)(to 0508) — May 13, 02:30 PM UTC (prev: -231.3)\nUS Producer Price Index (YoY)(Apr) — May 13, 12:30 PM UTC (prev: 4.0%)\n\n<b>CONTRARIAN</b>\n• TeraWulf's AI pivot success might mask fundamental Bitcoin mining oversupply that could trigger sect\n• Fed's sanguine view on private credit risks could be mistimed as redemption pressures haven't been t\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 368
   }
 ]

@@ -7,6 +7,13 @@
     <language>en</language>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Signal Scan — May 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/16#intelligence</link>
+      <description>SIGNAL SCAN — May 16 — Risk 14/100 · 6 movers</description>
+      <pubDate>Sat, 16 May 2026 09:15:28 GMT</pubDate>
+      <guid>https://agentcanary.ai/record/2026/05/16#intelligence</guid>
+    </item>
+    <item>
       <title>Morning Brief — May 16, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/16#morning</link>
       <description>MACRO RADAR — May 16 — Risk 14/100 · 6 movers</description>
@@ -348,13 +355,6 @@
       <description>— Neutral · Neutral · Gauge 48.1/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
       <pubDate>Mon, 04 May 2026 03:15:01 GMT</pubDate>
       <guid>https://agentcanary.ai/record/2026/05/04#morning</guid>
-    </item>
-    <item>
-      <title>Evening Wrap — May 3, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/03#evening</link>
-      <description>Markets exhibited classic late-cycle schizophrenia today, with geopolitical tensions driving defensi… — OVERHEATING. 15 news items. 5 scenario shifts.</description>
-      <pubDate>Sun, 03 May 2026 21:15:06 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/03#evening</guid>
     </item>
   </channel>
 </rss>
