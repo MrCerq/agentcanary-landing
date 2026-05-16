@@ -1,10 +1,10 @@
 {
-  "session": "evening",
-  "date": "2026-05-15",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 15",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 36/100 · 6 movers",
+  "session": "morning",
+  "date": "2026-05-16",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 16",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 14/100 · 6 movers",
   "tags": [
     {
       "t": "LOW",
@@ -19,7 +19,7 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 36
+        "value": 14
       }
     },
     {
@@ -31,23 +31,23 @@
           "c": "red"
         },
         {
-          "k": "ENPH",
-          "v": "+10.2%",
-          "c": "green"
-        },
-        {
-          "k": "BLSH",
-          "v": "-9.5%",
+          "k": "KWEB",
+          "v": "-7.9%",
           "c": "red"
         },
         {
-          "k": "IREN",
-          "v": "-9.3%",
+          "k": "VIX",
+          "v": "+6.8%",
+          "c": "green"
+        },
+        {
+          "k": "FXI",
+          "v": "-5.4%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 15, 2026\n\nMarkets closed with stark sector divergence as energy surged while metals faced broad-based selling pressure. The disconnect between crypto ETF inflows and miner weakness highlighted infrastructure headwinds beyond pure exposure plays. Tomorrow's session hinges on whether commodity weakness spreads to broader risk assets or remains sector-contained.\n\n<b>CLOSING PRICES</b>\nSPY -0.4% | QQQ -0.8% | VIX +6.8% | TLT -1.3% | DXY +0.4% | OIL flat\n\n<b>vs MORNING</b>\nSPY -1.8% | QQQ -2.6% | VIX +10.2% | TLT -1.3% | DXY -0.1% | OIL -1.3%\n\n<b>EVENING NEWS</b>\n▲ Malaysia: Growth risks and steady rates – UOB\n▲ China Allows Exports for 425 US Beef Plants, Trade Group Says\n▼ THORChain exploit raises fresh concerns over MPC wallet security\n▼ Gold sinks 2% as Iran war fuels fresh inflation shock\n▲ US Dollar Index climbs to five-week high as hawkish Fed bets gather pace\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 36.1/100 (Low). Regime: OVERHEATING.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLE +3.1%, XLF +0.2%, URA -6.3%, COPX -9.6%.\nSector dispersion: 70 (EXTREME, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Real GDP (AQR) (Preliminary)(Q1) — May 17 18:50 UTC (prev: 1.3%)\n[CHN] Total retail sales of consumer goods (MoM)(Apr) (+1 variants) — May 18 02:00 UTC (prev: 0.14%)\n[UK] CBI retail sales difference(May) — May 18 10:00 UTC (prev: -68)\n[UK] CBI Retail Sales Expectation Index(May) — May 18 10:00 UTC (prev: -60)\n\n<b>CONTRARIAN</b>\n• Fed may be behind the curve but markets are overreacting - inflation could prove transitory again if supply chains normalize\n• Dollar strength may be self-limiting as it eventually hurts US exports and corporate earnings, potentially forcing Fed dovishness\n\nagentcanary.ai | <i>Not financial advice</i>",
-  "telegramMessageId": 397
+  "telegramText": "<b>MACRO RADAR</b> — May 16, 2026\n\nRisk Gauge: 13.8/100 (Calm). Regime: OVERHEATING.\nComposite Risk: 27.9/100 (MODERATE).\nGeopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 53/100 (ELEVATED, natural_gas bullish).\n\nBTC: $79,111 · ETH: $2,229 · SOL: $89.16\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.24T (YoY -2.95%) — fed $6.73T · ecb $7.28T · boj $4.23T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 276bps NORMAL (composite: CAUTION)\nBDRY: $13.03 (+31.1% 30d, UP — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 452.9M bbl, refinery 91.7%, SPR 384M.\n\n<b>KEY PRICES</b>\nSPY -0.4% | QQQ -0.8% | VIX +6.8% | TLT -1.3% | DXY +0.4% | OIL flat\n\nCrypto sentiment: 31 (Fear, 7d avg 42) (falling).\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ SLV: -13.0%\n▼ COPX: -9.6%\n▼ KWEB: -7.9%\n▲ VIX: +6.8%\n▼ URA: -6.3%\n▼ FXI: -5.4%\n\n<b>TOP MOVERS</b>\nTop movers: SLV -13.0%, KWEB -7.9%, VIX +6.8%, FXI -5.4%, EWY -5.2%, RENDER +3.8%.\n\n<b>HEGEMONY SNAPBACK</b>\n👀 1.5/6 — WATCH\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -1.96σ\n[+] 30Y Treasury: +1.74σ\n[+] 10Y Treasury: +1.65σ\n\n<b>US OPEN SETUP</b>\n<i>Energy outperformance suggests commodity rotation intact despite metals weakness. Watch for US session follow-through on Asia risk-off tone or potential reversal if volatility spike proves overdone.</i>\n\nagentcanary.ai | <i>Not financial advice</i>",
+  "telegramMessageId": 398
 }
