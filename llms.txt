@@ -9,8 +9,8 @@ equities, commodities, and forex. Every prediction is scored
 against actual prices 72 hours later.
 
 ## How Agents Can Use This
-- **MCP Server**: `npx agentcanary-mcp` — 8 tools for Claude, Cursor, Windsurf, any MCP client
-- **REST API**: api.agentcanary.ai — JSON endpoints with API key auth
+- **MCP Server**: `npx agentcanary-mcp` — 17 tools for Claude, Cursor, Windsurf, any MCP client
+- **REST API**: api.agentcanary.ai — JSON endpoints with API key auth, OpenAPI spec at /api/docs
 - **JSON Feed**: agentcanary.ai/record/feed.json (JSON Feed 1.1)
 - **RSS Feed**: agentcanary.ai/record/rss.xml (RSS 2.0)
 - **Structured Data**: JSON-LD on every page
@@ -38,7 +38,11 @@ Base URL: https://api.agentcanary.ai/api
 - GET /news?limit=20 — Aggregated market news
 - GET /scenarios — Forward scenario analysis
 - GET /sentiment — Market sentiment composite
-Auth: x-api-key header
+- GET /derivatives/oi — Cross-exchange open interest (43 perps, aggregate + top by USD + 4h Δ% shifters)
+- GET /derivatives/oi/top — Top symbols by OI USD size
+- GET /derivatives/oi/shifters — Intraday OI movers (top by |4h Δ%|)
+- GET /derivatives/liquidations — 24h totals + 4h long/short split + per-side event counts
+Auth: x-api-key header. Full OpenAPI spec: https://api.agentcanary.ai/api/docs
 
 ## MCP Server Setup
 ```json
@@ -54,7 +58,7 @@ Auth: x-api-key header
 ```
 
 ## Data Available
-- Daily briefs: 4x per day (04:15, 10:15, 16:15, 22:15 UTC)
+- Daily briefs: 4x per day (03:15, 09:15, 15:15, 21:15 UTC — Radar / Signal / Pulse / Wrap)
 - Regime tracking: expansion, stagflation, late-cycle, recession, displacement, neutral
 - Risk gauge: 0-100 continuous score
 - Whale alerts: on-chain large transactions

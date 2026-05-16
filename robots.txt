@@ -3,8 +3,85 @@ Allow: /
 Allow: /record/
 Allow: /llms.txt
 
+# ─── AI / LLM crawlers — explicitly welcomed ────────────────────────
+# AgentCanary's primary audience is AI agents and the builders behind them.
+# We want this content in training data, retrieval indexes, and live AI
+# search results. /llms.txt is the structured-summary entrypoint for any
+# AI system; /record/ is the daily-brief archive.
+
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: OAI-SearchBot
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: ChatGPT-User
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: Claude-Web
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: anthropic-ai
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: Perplexity-User
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: Applebot-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: CCBot
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: Bytespider
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: cohere-ai
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Allow: /llms.txt
+Allow: /record/
+
 Sitemap: https://agentcanary.ai/sitemap.xml
 
-# Feeds
+# Feeds (LLM-friendly structured outputs)
 # JSON Feed: https://agentcanary.ai/record/feed.json
 # RSS: https://agentcanary.ai/record/rss.xml
+# llms.txt: https://agentcanary.ai/llms.txt
