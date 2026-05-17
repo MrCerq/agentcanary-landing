@@ -410,42 +410,28 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <div style="font-family:var(--mono);font-size:11px;color:var(--t3);">28 briefs · 7 day rolling feed</div>
   </div>
 
-<script>
-(function(){
-  var THEMES={radar:{accent:'var(--o)',border:'var(--o)',bg:'var(--o-glow)',glow:'rgba(251,146,60,.08)',label:'MACRO RADAR'},signal:{accent:'var(--b)',border:'var(--b)',bg:'rgba(96,165,250,.1)',glow:'rgba(96,165,250,.08)',label:'SIGNAL SCAN'},pulse:{accent:'var(--y)',border:'var(--y)',bg:'var(--y-glow)',glow:'rgba(255,197,61,.08)',label:'MARKET PULSE'},wrap:{accent:'var(--p)',border:'var(--p)',bg:'rgba(167,139,250,.1)',glow:'rgba(167,139,250,.08)',label:'MARKET WRAP'},cycle:{accent:'var(--g)',border:'var(--g)',bg:'var(--g-glow)',glow:'rgba(52,211,153,.08)',label:'CYCLE REPORT'}};
-  var TAG_COLORS={red:{c:'var(--r)',bg:'rgba(248,113,113,.06)',b:'rgba(248,113,113,.2)'},yellow:{c:'var(--y)',bg:'var(--y-glow)',b:'rgba(255,197,61,.2)'},green:{c:'var(--g)',bg:'rgba(52,211,153,.06)',b:'rgba(52,211,153,.2)'},blue:{c:'var(--b)',bg:'rgba(96,165,250,.06)',b:'rgba(96,165,250,.2)'},purple:{c:'var(--p)',bg:'rgba(167,139,250,.06)',b:'rgba(167,139,250,.2)'}};
-  var ROW_COLORS={red:'var(--r)',yellow:'var(--y)',green:'var(--g)',blue:'var(--b)',purple:'var(--p)'};
+<script type="module">
+import { renderCard } from '/lib/card.mjs';
 
-  var REGIME_LABELS={BULL_REGIME:'Bullish',BEAR_REGIME:'Bearish',DISTRIBUTION:'Distribution',ACCUMULATION:'Accumulation',IGNITION:'Ignition',RISK_OFF:'Risk-Off',RISK_ON:'Risk-On',CAPITULATION:'Capitulation'};
-  function humanize(s){if(!s)return s;var out=s;Object.keys(REGIME_LABELS).forEach(function(k){out=out.replace(new RegExp('\\b'+k+'\\b','g'),REGIME_LABELS[k]);});out=out.replace(/\b(from|to)\s+unk\b/gi,'$1 unknown');out=out.replace(/\b1d:/g,'Daily:').replace(/\b4h:/g,'4h:');return out;}
-  function cleanHeadline(b){var h=b.headline||'';if(b.session==='pulse'){var m=h.match(/^(BTC|ETH|SOL)\s+(\w+)\s+on\s+daily/);if(m){var parts=[m[1]+' '+(REGIME_LABELS[m[2]]||m[2])];var w=h.match(/(\d+)\s+whale\s+moves/);if(w)parts.push(w[1]+' whale moves');return parts.join(' · ');}};if(b.session==='wrap'&&/^\d+\s+bullish/.test(h)){var d=b.desc||'';var fs=d.replace(/^MARKET WRAP[^.]*\.\s*/i,'').split(/[.!]\s/)[0];if(fs&&fs.length>20)return fs.slice(0,100)+(fs.length>100?'…':'');}return h;}
-  function cleanDesc(b){var d=b.desc||'';if(b.session==='pulse')return humanize(d);if(b.session==='radar'){d=d.replace(/^(STAGFLATION|EXPANSION|LATE_CYCLE|RECESSION|NEUTRAL)\.?\s*/i,function(_,r){return r.charAt(0)+r.slice(1).toLowerCase().replace(/_/g,' ')+' regime · ';});d=d.replace(/F&G:\s*—\.?\s*/i,'Fear & Greed: neutral · ');d=d.replace(/F&G:\s*(\d+)\.?\s*/i,'Fear & Greed: $1 · ');d=d.replace(/\.\s*(NORMAL|WATCH|ALERT|CRITICAL)\.?\s*$/i,function(_,l){return ' · '+l.charAt(0)+l.slice(1).toLowerCase();});d=d.replace(/[·\s.]+$/,'');}return d;}
-
-  fetch('https://api.agentcanary.ai/api/briefs/latest?v='+Date.now()).then(function(r){return r.json()}).then(function(b){
-    if(!b.session){document.getElementById('brief-card').innerHTML='<div style="padding:60px 36px;text-align:center;font-family:var(--mono);font-size:13px;color:var(--t3);">First brief posts at 08:00 UTC tomorrow.</div>';return;}
-    var t=THEMES[b.session]||THEMES.radar;
-    document.getElementById('brief-glow').style.background='radial-gradient(circle,'+t.glow+' 0%,transparent 65%)';
-    document.getElementById('brief-header').innerHTML='<div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid '+t.border+';color:'+t.accent+';background:'+t.bg+';display:flex;align-items:center;gap:6px;"><span style="width:6px;height:6px;background:'+t.accent+';border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>'+t.label+'</div><span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Latest Brief</span>';
-
-    var cleanedHL=cleanHeadline(b);
-    var hl=cleanedHL.split('\n');
-    document.getElementById('brief-headline').innerHTML=hl[0]+(hl[1]?'<br><span style="color:'+(b.headlineColor||t.accent)+';">'+hl[1]+'</span>':'');
-    document.getElementById('brief-desc').textContent=cleanDesc(b);
-    document.getElementById('brief-tags').innerHTML=(b.tags||[]).map(function(tg){var tc=TAG_COLORS[tg.c]||TAG_COLORS.yellow;return '<span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid '+tc.b+';background:'+tc.bg+';color:'+tc.c+';">'+tg.t+'</span>';}).join('');
-    // Panels
-    var ph=(b.panels||[]).map(function(p){
-      var rows=(p.rows||[]).map(function(r){return '<div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">'+r.k+'</span><span style="color:'+(ROW_COLORS[r.c]||'var(--t2)')+';">'+humanize(r.v)+'</span></div>';}).join('');
-      return '<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;"><div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">'+p.label+'</div><div style="display:flex;flex-direction:column;gap:4px;">'+rows+'</div></div>';
-    }).join('');
-    document.getElementById('brief-panels').innerHTML=ph;
-    // Telegram direct link
-    if(b.telegramMessageId){
-      var tgLink=document.getElementById('brief-tg-link');tgLink.href='https://t.me/agentcanary/'+b.telegramMessageId;tgLink.style.display='inline-flex';
-      var hlEl=document.getElementById('brief-headline');hlEl.style.cursor='pointer';hlEl.onclick=function(){window.open('https://t.me/agentcanary/'+b.telegramMessageId,'_blank');};hlEl.onmouseover=function(){this.style.color='var(--y)'};hlEl.onmouseout=function(){this.style.color=''};
+try {
+  const r = await fetch('https://api.agentcanary.ai/api/briefs/latest?v=' + Date.now());
+  const b = await r.json();
+  const target = document.getElementById('brief-card');
+  if (!b || !b.session && !b.slot) {
+    target.innerHTML = '<div style="padding:60px 36px;text-align:center;font-family:var(--mono);font-size:13px;color:var(--t3)">First brief posts at 03:15 UTC tomorrow.</div>';
+  } else {
+    // renderCard accepts legacy `session` field via resolveSlot bridge.
+    target.innerHTML = renderCard(b, 'card', {});
+    // Set the wrapper link to the per-brief permalink so click jumps direct.
+    if (b.slot && b.date) {
+      const [y, m, d] = b.date.split('-');
+      const link = document.getElementById('brief-card-link');
+      if (link) link.href = '/record/' + y + '/' + m + '/' + d + '/' + b.slot + '/';
     }
-
-  }).catch(function(){});
-})();
+  }
+} catch (e) {
+  console.error('brief-card render failed:', e);
+}
 </script>
 </section>
 
