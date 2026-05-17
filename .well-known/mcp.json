@@ -79,7 +79,7 @@
     "payment": "USDC/USDT on Base, Arbitrum, Optimism, Polygon, Ethereum"
   },
   "links": {
-    "docs": "https://agentcanary.ai/docs",
+    "docs": "https://api.agentcanary.ai/api/docs",
     "api": "https://api.agentcanary.ai/api",
     "telegram": "https://t.me/AgentCanary",
     "github": "https://github.com/MrCerq/agentcanary-skill"
