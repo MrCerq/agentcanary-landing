@@ -200,8 +200,7 @@ nav.ac-top {
 .ac-pill-purple { color: var(--purple); background: rgba(167,139,250,0.06); border-color: rgba(167,139,250,0.2); }
 .ac-pill-purple .dot { background: var(--purple); box-shadow: 0 0 5px var(--purple); }
 
-.ac-card-body { display: grid; grid-template-columns: 1fr 220px; gap: 24px; margin-top: 14px; }
-@media (max-width: 720px) { .ac-card-body { grid-template-columns: 1fr; gap: 18px; } }
+.ac-card-body { margin-top: 14px; }
 
 .ac-toggle summary { cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
   font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.14em; color: var(--text-2);
