@@ -1,5 +1,58 @@
 [
   {
+    "session": "morning",
+    "date": "2026-05-17",
+    "time": "03:15 UTC",
+    "headline": "MACRO RADAR — May 17",
+    "headlineColor": "#FB923C",
+    "desc": "Risk 14/100 · 6 movers",
+    "tags": [
+      {
+        "t": "LOW",
+        "c": "green"
+      },
+      {
+        "t": "OVERHEATING",
+        "c": "blue"
+      }
+    ],
+    "panels": [
+      {
+        "label": "RISK GAUGE",
+        "gauge": {
+          "value": 14
+        }
+      },
+      {
+        "label": "TOP MOVERS",
+        "rows": [
+          {
+            "k": "SLV",
+            "v": "-13.0%",
+            "c": "red"
+          },
+          {
+            "k": "PENDLE",
+            "v": "-9.0%",
+            "c": "red"
+          },
+          {
+            "k": "KWEB",
+            "v": "-7.9%",
+            "c": "red"
+          },
+          {
+            "k": "VIX",
+            "v": "+6.8%",
+            "c": "green"
+          }
+        ]
+      }
+    ],
+    "telegramText": "<b>MACRO RADAR</b> — May 17, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 13.8/100 (Calm). Phase: OVERHEATING.\nComposite Risk: 28.7/100 (MODERATE).\nGeopolitical risk: 35/100 (MODERATE). Top: Middle East / Red Sea 38/100 (MODERATE, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $77,862 · ETH: $2,173 · SOL: $85.95\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.24T (YoY -2.95%) — fed $6.73T · ecb $7.28T · boj $4.23T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 276bps NORMAL (composite: CAUTION)\nBDRY: $13.18 (+32.6% 30d, UP — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 452.9M bbl, refinery 91.7%, SPR 384M.\n\n<b>KEY PRICES</b>\nSPY -0.4% | QQQ -0.8% | VIX +6.8% | TLT -1.3% | DXY +0.4% | OIL -0.1%\n\nCrypto sentiment: 27 (Fear, 7d avg 39) (falling).\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ SLV: -13.0%\n▼ COPX: -9.6%\n▼ KWEB: -7.9%\n▲ VIX: +6.8%\n▼ URA: -6.3%\n▼ FXI: -5.4%\n\n<b>HEGEMONY SNAPBACK</b>\n👀 2/6 — WATCH\nUSD Index 118.0392 (R), Gold $4547 (Y), Oil $102 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] IG Credit Spread: -2.11σ\n[+] 10Y Real Rate: +2.02σ\n[+] Fed Balance Sheet: +1.62σ\n[-] HY Credit Spread: -1.57σ\n[-] Gold: -1.50σ\n\n<b>US OPEN SETUP</b>\n<i>Energy's divergent strength signals selective sector rotation rather than broad risk-off. Watch for bounce in oversold metals and crypto names if volatility peaks here.</i>\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":13.8,\"compositeRisk\":28.7,\"geoRisk\":35}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+    "telegramMessageId": 402
+  },
+  {
     "session": "evening",
     "date": "2026-05-16",
     "time": "21:15 UTC",
@@ -1467,62 +1520,5 @@
     ],
     "telegramText": "<b>MARKET WRAP</b> — May 9, 2026\n\n<i>Markets reflected late-cycle dynamics as geopolitical tensions drove energy higher while crypto faced institutional headwinds despite solid price levels. The goldilocks scenario weakened amid persistent inflation pressures and rising stagflation risks, creating a cautious risk-on environment with elevated uncertainty across asset classes.</i>\n\n\n<b>CLOSING PRICES</b>\nBTC: <b>$80,854</b> · ETH: <b>$2,331</b> · SOL: <b>$93.33</b> · GOLD: <b>$4,724</b> · SPY: <b>$737.62</b> (+0.5%) · QQQ: <b>$711.23</b> (+2.2%) · VIX: <b>$17.19</b> (+0.6%) · TLT: <b>$86.08</b> (+0.0%) · DXY: <b>$97.84</b> (-0.4%) · OIL: <b>$95.42</b> (+0.6%)\n\n<b>EVENING NEWS</b>\n▲ Trump-Backed American Bitcoin Posts $82M Loss Despite Record BTC Mining Output\n▲ Anza reports first successful Alpenswitch on Alpenglow cluster, Solana finalization time i\n▲ Inflation Drumbeat Persists for Unnerved US Consumer\n▲ China’s April exports rebound 14.1% as trade surplus widens ahead of Trump visit\n▼ TeraWulf doubles AI revenue but posts $427M quarterly loss as mining income declines\n▲ Bittensor’s TAO token launches on Solana as Grayscale opens Bittensor Trust for private pl\n\n<b>SCENARIO SHIFTS</b>\n▲ Late Cycle: Crypto institutional adoption and inflation pressures signal mature cycle dynamics\n▼ Goldilocks: Inflation persistence and geopolitical tensions challenge benign conditions\n▲ Stagflation: Energy disruption and persistent inflation amid growth concerns\n▲ Hegemony: Geopolitical tensions and political instability challenge existing order\n▲ Displacement: Tech consolidation and crypto institutional shift show structural changes\n\n<b>REGIME CHECK</b>\n▲ <b>Risk-On · Neutral</b> · EXPANSION · Gauge: 36.5/100\n\n<b>UPCOMING — HIGH IMPACT</b>\n Real GDP (AQR) (Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 1.3%)\n Real GDP(QoQ)(Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 0.3%)\n Real GDP(billion yen)(Preliminary)(Q1) — May 18, 11:50 PM UTC (prev: 591856.70)\n starting value of nominal GDP annum (billion yen)(Q1) — May 18, 11:50 PM UTC (prev: 671554.90)\n Total retail sales of consumer goods (YoY)(Apr) — May 18, 02:00 AM UTC (prev: 1.7%)\nUS Federal Funds Benchmark Rate — May 15, 07:00 PM UTC (prev: 3.50% - 3.75%)\n\n<b>CONTRARIAN</b>\n• Bitcoin ETF outflows might signal healthy consolidation before next leg up, not institutional abando\n• Energy supply disruptions could accelerate renewable transition faster than expected, benefiting cle\n\nagentcanary.ai | <i>Not financial advice</i>",
     "telegramMessageId": 372
-  },
-  {
-    "session": "midday",
-    "date": "2026-05-09",
-    "time": "15:15 UTC",
-    "headline": "BTC DISTRIBUTION on daily.\n100 whale moves detected.",
-    "headlineColor": "#F87171",
-    "desc": "BTC 1d:DISTRIBUTION 4h:DISTRIBUTION · ETH 1d:DISTRIBUTION 4h:DISTRIBUTION · SOL 1d:BULL_REGIME 4h:DISTRIBUTION",
-    "tags": [
-      {
-        "t": "WHALE ALERT",
-        "c": "blue"
-      },
-      {
-        "t": "LAB 281% APR",
-        "c": "green"
-      }
-    ],
-    "panels": [
-      {
-        "label": "SIGNAL STATES",
-        "rows": [
-          {
-            "k": "BTC 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          },
-          {
-            "k": "ETH 1D",
-            "v": "DISTRIBUTION",
-            "c": "red"
-          },
-          {
-            "k": "SOL 1D",
-            "v": "BULL_REGIME",
-            "c": "green"
-          }
-        ]
-      },
-      {
-        "label": "TOP WHALE",
-        "rows": [
-          {
-            "k": "$158M ETH",
-            "v": "transferred from unk",
-            "c": "blue"
-          },
-          {
-            "k": "$69M ETH",
-            "v": "transferred from unk",
-            "c": "blue"
-          }
-        ]
-      }
-    ],
-    "telegramText": "<b>MARKET PULSE</b> — May 9, 2026\n\n<b>CRYPTO</b>\n• BTC: <b>$80,237</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• ETH: <b>$2,302</b> — 1d: DISTRIBUTION | 4h: DISTRIBUTION\n• SOL: <b>$92.58</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION\n\n\n<b>WHALE ALERTS</b>\n• 68,159 ETH ($157,608,425)\n  <i>transferred from unknown wallet to #Binance</i>\n• 30,000 ETH ($69,374,545)\n  <i>transferred from unknown wallet to #Binance</i>\n• 199,997,999 USDT ($199,978,326)\n  <i>transferred from #Binance to unknown wallet</i>\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i>\n• <b>LAB</b>: 380% net APR (0.1285% rate)\n  Long Binance / Short Bitget | OI: $94.8M | Spread: -0.35%\n• <b>SAHARA</b>: 255% net APR (0.1131% rate)\n  Long OKX / Short Bitget | OI: $8.1M | Spread: -0.10%\n• <b>SIREN</b>: 304% net APR (0.0957% rate)\n  Long Bitget / Short Bybit | OI: $9.4M | Spread: -0.32%\n\n<b>LIQUIDATIONS (24h)</b>\n• Total: $12,568,320 | Longs: 31% | L/S: 0.5:1\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓ Goldilocks · ↑ Stagflation · ↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto Institutional Selling Pressure [BTC, ETH, COIN]\n\n\nagentcanary.ai | <i>Not financial advice</i>",
-    "telegramMessageId": 371
   }
 ]
