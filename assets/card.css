@@ -200,8 +200,10 @@ nav.ac-top {
 .ac-pill-purple { color: var(--purple); background: rgba(167,139,250,0.06); border-color: rgba(167,139,250,0.2); }
 .ac-pill-purple .dot { background: var(--purple); box-shadow: 0 0 5px var(--purple); }
 
-.ac-card-body { display: grid; grid-template-columns: 1fr 220px; gap: 24px; margin-top: 14px; }
+.ac-card-body { display: grid; grid-template-columns: 1fr 220px; gap: 32px; margin-top: 14px; align-items: start; }
 .ac-card-body:not(:has(.ac-side)) { display: block; }
+.ac-card-main { min-width: 0; }
+.ac-card-main .ac-toggle { margin-top: 16px; }
 @media (max-width: 720px) { .ac-card-body { grid-template-columns: 1fr; gap: 18px; } }
 
 .ac-toggle summary { cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
