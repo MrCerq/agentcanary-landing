@@ -321,3 +321,79 @@ h3 {
   .ac-card-body { flex-direction: column; gap: 20px }
   .ac-card-panels { min-width: 0 }
 }
+
+/* ─── Page top row (breadcrumb left + day-nav right) ──────────── */
+
+.ac-page-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ac-day-nav {
+  display: flex;
+  gap: 12px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+}
+
+.ac-day-nav a {
+  color: #8a9abc;
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.02);
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.ac-day-nav a:hover {
+  color: #e4e9f2;
+  border-color: rgba(255, 197, 61, 0.30);
+  opacity: 1;
+}
+
+/* ─── Body collapse (<details> + summary toggle) ──────────────── */
+
+.ac-page-body-wrap {
+  margin-top: 20px;
+}
+
+.ac-page-body-toggle {
+  cursor: pointer;
+  padding: 12px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #8a9abc;
+  list-style: none;
+  display: inline-block;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.ac-page-body-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.ac-page-body-toggle:hover {
+  color: #e4e9f2;
+  border-color: rgba(255, 197, 61, 0.30);
+}
+
+.ac-page-body-wrap[open] .ac-page-body-toggle::after {
+  content: " — collapse ▴";
+}
+
+.ac-page-body-wrap[open] .ac-page-body-toggle {
+  margin-bottom: 12px;
+}
+
+.ac-page-body-wrap .ac-page-body-toggle {
+  /* Override the inline arrow when collapsed: replace "Expand brief content ▾" with friendlier label could go here */
+}
