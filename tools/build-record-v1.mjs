@@ -278,6 +278,35 @@ ${urls.map(u => `  <url><loc>${u.loc}</loc><priority>${u.priority}</priority></u
   writeFile('sitemap.xml', xml);
 }
 
+// ─── Update index.html brief-card-link to the latest brief permalink ───
+// Eliminates the race where a fast click hits the static /record/ href
+// before the runtime fetch updates the link. JS still re-resolves on top
+// after the API responds, so this is a fast-path optimization.
+const latestBrief = [...archive].sort((a, b) => {
+  const dA = a.date, dB = b.date;
+  if (dA !== dB) return dB.localeCompare(dA);
+  return SLOTS.indexOf(resolveSlot(b)) - SLOTS.indexOf(resolveSlot(a));
+})[0];
+if (latestBrief) {
+  const latestPermalink = briefPermalink(latestBrief, resolveSlot(latestBrief));
+  const indexPath = path.join(ROOT, 'index.html');
+  const indexSrc = fs.readFileSync(indexPath, 'utf8');
+  const updated = indexSrc.replace(
+    /(<a href=")\/record\/(" id="brief-card-link")/,
+    `$1${latestPermalink}$2`
+  );
+  if (updated !== indexSrc) {
+    if (DRY) {
+      console.log(`  [DRY] would update index.html brief-card-link \u2192 ${latestPermalink}`);
+    } else {
+      fs.writeFileSync(indexPath, updated);
+      console.log(`[build-v1] index.html brief-card-link baked to ${latestPermalink}`);
+    }
+  } else {
+    console.log(`[build-v1] index.html brief-card-link already at ${latestPermalink} (or anchor not found)`);
+  }
+}
+
 // ─── Report ────────────────────────────────────────────────────────
 
 console.log(`\n[build-v1] ${DRY ? 'DRY-RUN' : 'COMMIT'} complete.`);
