@@ -170,4 +170,22 @@ This is by design (track record is a transparency surface, not a metered product
 
 ---
 
+## Changelog
+
+### Bundle 1.3.1 — 2026-05-16
+- Polished sparse tool descriptions: `get_news`, `get_central_banks`, `get_expectations`, `get_macro` (clearer enumeration of sub-views + categories the underlying npm server accepts).
+- `server.json` synced to MCP Registry official schema for the OIDC publish path.
+
+### Bundle 1.3.0 — 2026-05-16
+- **New tool — `get_open_interest`** — live derivatives signal across 43 tracked perps (Binance, Bybit, Bitget, MEXC, OKX). `view=top` returns the leaderboard by aggregate OI USD; `view=shifters` returns the 4h Δ%-sorted intraday movers (positioning unwinds + fresh builds). Total aggregate OI returned in both views.
+- **New tool — `get_liquidations`** — 24h aggregate + latest-4h breakdown with long/short USD split, per-side event counts, long%/short%, dominant-direction label.
+- Brief integration: same atoms now power the pulse brief's `OPEN INTEREST` section + expanded `Liquidations` line under POSITIONING.
+- Tool count: 15 → 17.
+
+### Bundle 1.2.0 — 2026-05-15
+- **New tool — `get_market_structure`** — leverage / depth / venue data. `view=` selects one of: `orderbook`, `liquidation-heatmap`, `liquidation-ranges`, `exchange-assets`, `exchange-volumes`, `coinbase`. Complements directional signals from `get_signals`.
+- Manifest description improvements: 7 of 14 tools (`get_indicators`, `get_signals`, `get_defi`, `get_btc_options`, `get_central_banks`, `get_expectations`, `get_macro`) now enumerate the sub-types / views / categories the underlying npm server accepts.
+
+---
+
 *AgentCanary provides market data and intelligence for informational purposes only. Nothing constitutes financial advice.*
