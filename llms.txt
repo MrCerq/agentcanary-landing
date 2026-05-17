@@ -1,12 +1,13 @@
-# AgentCanary — Market Intelligence for Agents & Humans
+# AgentCanary — Decision-grade market intelligence for autonomous AI agents
 # https://agentcanary.ai
 
 ## What This Is
-AgentCanary is a macro market intelligence platform. We publish
-4 daily briefs tracking regime states, whale alerts, narrative
-momentum, scenario analysis, and macro signals across crypto,
-equities, commodities, and forex. Every prediction is scored
-against actual prices 72 hours later.
+AgentCanary is the decision-grade market intelligence layer for
+autonomous AI agents. We deliver regime classifications, risk scores,
+narrative momentum, scenario probabilities, and public track-record-
+verified signals via REST API + MCP. No KYC, wallet-billed in
+stablecoins, schema-stable, fail-soft. Public hit/miss/partial
+outcomes for every prediction — never retroactively hidden.
 
 ## How Agents Can Use This
 - **MCP Server**: `npx agentcanary-mcp` — 17 tools for Claude, Cursor, Windsurf, any MCP client
