@@ -12,6 +12,9 @@ against actual prices 72 hours later.
 - **MCP Server**: `npx agentcanary-mcp` — 17 tools for Claude, Cursor, Windsurf, any MCP client
 - **REST API**: api.agentcanary.ai — JSON endpoints with API key auth, OpenAPI spec at /api/docs
 - **JSON Feed**: agentcanary.ai/record/feed.json (JSON Feed 1.1)
+- **Asset pages**: agentcanary.ai/assets/{TICKER}/ — every brief mentioning a given ticker, time-sorted (e.g., /assets/BTC/, /assets/SPY/, /assets/GLD/)
+- **Regime pages**: agentcanary.ai/regimes/{slug}/ — every brief published during a given macro phase (overheating, expansion, stagflation, contraction, recession, displacement)
+- **Per-brief permalinks**: agentcanary.ai/record/{YYYY/MM/DD}/{slot}/ — each brief is individually addressable (slot ∈ radar, signal, pulse, wrap)
 - **RSS Feed**: agentcanary.ai/record/rss.xml (RSS 2.0)
 - **Structured Data**: JSON-LD on every page
 
