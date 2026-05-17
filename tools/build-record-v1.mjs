@@ -145,9 +145,18 @@ console.log('[build-v1] /record/ (collection)');
     briefs: byDate.get(date).slice().sort((a, b) =>
       SLOTS.indexOf(resolveSlot(a)) - SLOTS.indexOf(resolveSlot(b))),
   }));
+  // Months ledger (desc): every month covered, with brief count
+  const months = [...byMonth.entries()]
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .map(([key, dateSet]) => {
+      const [y, m] = key.split('-');
+      const briefCount = [...dateSet].reduce((acc, d) => acc + byDate.get(d).length, 0);
+      return { year: y, month: m, briefCount };
+    });
   const html = renderIndex({
     type: 'collection',
     days,
+    months,
     scorecardHtml: renderScorecard(),
   });
   writeFile('record/index.html', html);
