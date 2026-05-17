@@ -1,407 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>March 15, 2026 — The Record | AgentCanary</title>
-  <meta name="description" content="4 market intelligence briefs for March 15, 2026. Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressurin…">
-  <meta property="og:title" content="March 15, 2026 — The Record">
-  <meta property="og:description" content="4 market intelligence briefs for March 15, 2026. Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressurin…">
-  <meta property="og:url" content="https://agentcanary.ai/record/2026/03/15">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="AgentCanary">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://agentcanary.ai/record/2026/03/15">
-  <link rel="ai-info" href="/llms.txt">
-  <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
-  <link rel="alternate" type="application/rss+xml" href="/record/rss.xml" title="The Record">
-  <link rel="icon" href="/favicon.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"March 15, 2026 — Market Intelligence | The Record","datePublished":"2026-03-15","dateModified":"2026-03-15","author":{"@id":"https://agentcanary.ai/#org"},"publisher":{"@type":"Organization","name":"AgentCanary","url":"https://agentcanary.ai"},"url":"https://agentcanary.ai/record/2026/03/15","mainEntityOfPage":"https://agentcanary.ai/record/2026/03/15","description":"4 market intelligence briefs for March 15, 2026. Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressurin…","keywords":["MIXED","EU Markit Manufact","WHALE ALERT","IR 2323% APR","HIGH","STAGFLATION","Risk-Off · Neutral","GAUGE 93.6"],"articleSection":"Market Intelligence","inLanguage":"en","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The Record","item":"https://agentcanary.ai/record/"},{"@type":"ListItem","position":2,"name":"2026","item":"https://agentcanary.ai/record/2026/"},{"@type":"ListItem","position":3,"name":"March","item":"https://agentcanary.ai/record/2026/03/"},{"@type":"ListItem","position":4,"name":"March 15, 2026","item":"https://agentcanary.ai/record/2026/03/15"}]},"about":{"@type":"StructuredValue","name":"MarketIntelligence","description":"Structured market data snapshot for March 15, 2026","additionalProperty":[{"@type":"PropertyValue","name":"briefs_count","value":"4"}]}}</script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600;700;800&display=swap');
-    @keyframes fadeSlideIn { from { opacity:0; transform:translateY(12px) } to { opacity:1; transform:translateY(0) } }
-    @keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
-    @keyframes pulseGlow { 0%,100% { opacity:0.07 } 50% { opacity:0.12 } }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    ::-webkit-scrollbar { width:6px }
-    ::-webkit-scrollbar-track { background:transparent }
-    ::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:3px }
-    html { scroll-behavior:smooth }
-    body {
-      min-height:100vh;
-      background:#04070c;
-      font-family:'Instrument Sans',sans-serif;
-      color:#e4e9f2;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-    }
-    a { color:#ffc53d; text-decoration:none; transition:opacity 0.2s }
-    a:hover { opacity:0.8 }
-    .mono { font-family:'JetBrains Mono',monospace }
-    .container { max-width:1200px; margin:0 auto; padding:0 32px; position:relative; z-index:1 }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>March 15, 2026 — The Record | AgentCanary</title>
+<meta name="description" content="4 market intelligence briefs for March 15, 2026. 🔴 Risk-Off · Neutral · Gauge 93.6/100">
 
-    .bg-grid {
-      position:fixed; inset:0; z-index:0;
-      background-image:
-        linear-gradient(rgba(167,139,250,0.02) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(167,139,250,0.02) 1px, transparent 1px);
-      background-size:48px 48px;
-    }
-    .glow-tl {
-      position:fixed; width:900px; height:900px; top:-400px; left:-200px; z-index:0;
-      background:radial-gradient(circle,rgba(255,197,61,0.06),transparent 60%);
-      animation:pulseGlow 8s ease-in-out infinite;
-    }
-    .glow-br {
-      position:fixed; width:700px; height:700px; bottom:-300px; right:-100px; z-index:0;
-      background:radial-gradient(circle,rgba(167,139,250,0.04),transparent 60%);
-    }
-
-    /* Top Bar */
-    .topbar {
-      display:flex; align-items:center; justify-content:space-between;
-      padding:24px 0; border-bottom:1px solid rgba(255,255,255,0.06);
-      animation:fadeIn 0.6s ease 0.1s both;
-    }
-    .logo { display:flex; align-items:center; gap:10px }
-    .logo-dot { width:10px; height:10px; background:#ffc53d; border-radius:50%; box-shadow:0 0 12px #ffc53d40 }
-    .logo-text { font-size:13px; font-weight:700; letter-spacing:2px }
-    .nav-links { display:flex; align-items:center; gap:24px; font-size:11px; color:#4a5a7a; letter-spacing:1px }
-
-    /* Session Card */
-    .card {
-      background:#080d16;
-      border:1px solid rgba(255,255,255,0.06);
-      border-radius:16px;
-      padding:28px 32px;
-      transition:all 0.3s ease;
-      position:relative;
-      overflow:hidden;
-    }
-    .card:hover {
-      border-color:rgba(255,255,255,0.10);
-      transform:translateY(-2px);
-    }
-    .card-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:20px; flex-wrap:wrap; gap:8px }
-    .session-badge {
-      font-size:11px; font-weight:700; letter-spacing:1.5px;
-      padding:7px 16px; border-radius:100px;
-      display:inline-flex; align-items:center; gap:8px;
-    }
-    .card-time { font-size:11px; color:#4a5a7a }
-    .card-headline {
-      font-family:'Instrument Sans',sans-serif;
-      font-weight:800; font-size:24px; line-height:1.2;
-      letter-spacing:-0.5px; margin-bottom:16px;
-    }
-    .card-desc {
-      font-size:14px; line-height:1.6; color:#8a9abc; margin-bottom:16px;
-    }
-    .card-tags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px }
-    .tag {
-      font-size:10px; font-weight:600; letter-spacing:0.5px;
-      padding:5px 12px; border-radius:100px;
-    }
-    .card-content {
-      font-size:13px; line-height:1.7; color:#8a9abc;
-      border-top:1px solid rgba(255,255,255,0.06); padding-top:16px;
-      display:none;
-    }
-    .card-content.open { display:block }
-    .card-content b, .card-content strong { color:#e4e9f2; font-weight:600 }
-    .card-expand {
-      font-size:11px; color:#4a5a7a; cursor:pointer;
-      padding:8px 0; letter-spacing:0.5px;
-      border:none; background:none; font-family:'JetBrains Mono',monospace;
-    }
-    .card-expand:hover { color:#e4e9f2 }
-
-    /* Panels */
-    .panels { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:12px; margin-bottom:16px }
-    .panel {
-      background:rgba(255,255,255,0.02);
-      border:1px solid rgba(255,255,255,0.06);
-      border-radius:12px; padding:16px;
-    }
-    .panel-label { font-size:9px; font-weight:700; letter-spacing:1.5px; color:#4a5a7a; margin-bottom:10px }
-    .panel-row { display:flex; justify-content:space-between; padding:4px 0; font-size:12px }
-    .panel-key { color:#8a9abc }
-    .panel-val { font-weight:600 }
-    .gauge-bar {
-      width:100%; height:6px; background:rgba(255,255,255,0.06);
-      border-radius:3px; overflow:hidden; margin-top:8px;
-    }
-    .gauge-fill { height:100%; border-radius:3px; transition:width 1s ease }
-
-    /* Footer */
-    .footer {
-      border-top:1px solid rgba(255,255,255,0.06);
-      padding:24px 0; display:flex; justify-content:space-between;
-      align-items:center; flex-wrap:wrap; gap:12px;
-      animation:fadeIn 0.5s ease 0.8s both;
-    }
-    .footer span { font-size:12px; color:#4a5a7a; letter-spacing:1px }
-
-    /* Responsive */
-    @media (max-width:768px) {
-      .container { padding:0 16px }
-      .card { padding:20px }
-      .card-headline { font-size:20px }
-      .hero-title { font-size:36px !important }
-      .main-grid { grid-template-columns:1fr !important }
-      .topbar { flex-wrap:wrap; gap:12px }
-      .hero-top { flex-direction:column !important; gap:24px !important }
-    }
-  
-    .daily-layout { display:flex; gap:24px; padding-bottom:60px }
-    .daily-cards { flex:0 0 65%; min-width:0; display:flex; flex-direction:column; gap:20px }
-    .ticker-sidebar { flex:0 0 calc(35% - 24px) }
-    @media (max-width:768px) {
-      .daily-layout { flex-direction:column-reverse }
-      .daily-cards { flex:1 1 auto }
-      .ticker-sidebar { position:static !important; flex:1 1 auto; border-left:none !important; border-bottom:1px solid rgba(255,255,255,0.06) }
-    }
-  </style>
+<link rel="canonical" href="https://agentcanary.ai/record/2026/03/15/">
+<link rel="prev" href="/record/2026/03/14/">
+<link rel="next" href="/record/2026/03/16/">
+<meta property="og:title" content="March 15, 2026 — The Record | AgentCanary">
+<meta property="og:description" content="4 market intelligence briefs for March 15, 2026. 🔴 Risk-Off · Neutral · Gauge 93.6/100">
+<meta property="og:url" content="https://agentcanary.ai/record/2026/03/15/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AgentCanary">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record (JSON Feed)">
+<link rel="alternate" type="application/rss+xml" href="/record/rss.xml" title="The Record (RSS)">
+<link rel="ai-info" href="/llms.txt">
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/assets/card.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"March 15, 2026 — The Record","url":"https://agentcanary.ai/record/2026/03/15/","datePublished":"2026-03-15","dateModified":"2026-03-15","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"The Record","item":"https://agentcanary.ai/record/"},{"@type":"ListItem","position":2,"name":"2026","item":"https://agentcanary.ai/record/2026/"},{"@type":"ListItem","position":3,"name":"March","item":"https://agentcanary.ai/record/2026/03/"},{"@type":"ListItem","position":4,"name":"March 15, 2026"}]},"mainEntity":{"@type":"ItemList","numberOfItems":4,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"NewsArticle","headline":"🔴 Risk-Off · Neutral · Gauge 93.6/100","description":"STAGFLATION. F&G: —. NORMAL.","datePublished":"2026-03-15T04:15:00Z","url":"https://agentcanary.ai/record/2026/03/15/radar/","author":{"@id":"https://agentcanary.ai/#org"},"publisher":{"@type":"Organization","name":"AgentCanary","url":"https://agentcanary.ai"},"keywords":"Risk-Off · Neutral, GAUGE 93.6"}},{"@type":"ListItem","position":2,"item":{"@type":"NewsArticle","headline":"SIGNAL SCAN — Mar 15, 2026","description":"Risk 93.6/100 · 8 movers","datePublished":"2026-03-15T10:15:00Z","url":"https://agentcanary.ai/record/2026/03/15/signal/","author":{"@id":"https://agentcanary.ai/#org"},"publisher":{"@type":"Organization","name":"AgentCanary","url":"https://agentcanary.ai"},"keywords":"HIGH, STAGFLATION"}},{"@type":"ListItem","position":3,"item":{"@type":"NewsArticle","headline":"BTC BULL_REGIME on daily.\n100 whale moves detected.","description":"BTC 1d:BULL_REGIME 4h:DISTRIBUTION · ETH 1d:BULL_REGIME 4h:DISTRIBUTION · SOL 1d:BULL_REGIME 4h:DISTRIBUTION","datePublished":"2026-03-15T16:15:00Z","url":"https://agentcanary.ai/record/2026/03/15/pulse/","author":{"@id":"https://agentcanary.ai/#org"},"publisher":{"@type":"Organization","name":"AgentCanary","url":"https://agentcanary.ai"},"keywords":"WHALE ALERT, IR 2323% APR"}},{"@type":"ListItem","position":4,"item":{"@type":"NewsArticle","headline":"0 bullish / 0 bearish signals.","description":"MARKET WRAP — Mar 15, 2026\n\nMarkets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressuring equities with SPY down to 662. The dollar's strength above 100 weighed","datePublished":"2026-03-15T22:15:00Z","url":"https://agentcanary.ai/record/2026/03/15/wrap/","author":{"@id":"https://agentcanary.ai/#org"},"publisher":{"@type":"Organization","name":"AgentCanary","url":"https://agentcanary.ai"},"keywords":"MIXED, EU Markit Manufact"}}]}}</script>
 </head>
-<body>
-  <div class="bg-grid"></div>
-  <div class="glow-tl"></div>
-  <div class="glow-br"></div>
-
-  <div class="container">
-    
-    <div class="topbar">
-      <a href="/" class="logo">
-        <div class="logo-dot"></div>
-        <span class="logo-text mono">AGENT<span style="color:#ffc53d">CANARY</span></span>
-      </a>
-      <div class="nav-links mono">
-        <a href="/record/2026/03/14/" class="mono" style="color:#4a5a7a">&larr; Mar 14</a>
-        <span style="color:#4a5a7a">|</span>
-        <a href="/record/" style="color:#4a5a7a">Archive</a>
-        <span style="color:#4a5a7a">|</span>
-        <a href="/record/2026/03/16/" class="mono" style="color:#4a5a7a">Mar 16 &rarr;</a>
-      </div>
-    </div>
-
-    <!-- Hero -->
-    <div style="padding:48px 0 40px;animation:fadeSlideIn 0.6s ease 0.2s both">
-      <div class="hero-top" style="display:flex;align-items:flex-start;justify-content:space-between;gap:40px">
-        <div>
-          <div class="mono" style="font-size:11px;color:#4a5a7a;letter-spacing:2px;margin-bottom:12px">THE RECORD</div>
-          <h1 class="hero-title" style="font-family:'Instrument Sans',sans-serif;font-size:56px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin-bottom:16px">
-            <span style="color:#e4e9f2">Sunday, March </span><span style="color:#ffc53d">15</span><span style="color:#4a5a7a">, 2026</span>
-          </h1>
-          <p style="font-family:'Instrument Sans',sans-serif;font-size:16px;line-height:1.7;color:#8a9abc;margin-top:20px">Markets reacted to stagflationary fears as the VIX surged to 27 and SPY fell to 662, while oil hovered near $99 and the dollar's strength above 100 weighed on European manufacturing data. Bitcoin showed bullish momentum with 100 whale movements and 4-hour distribution, contrasting sharply with the risk-off sentiment captured by the 93.6/100 gauge. The tension between BTC's 4-hour distribution and the 2323% APR whale alert suggests a volatile environment where macro risks persist alongside crypto volatility.</p>
-          <p style="font-size:14px;color:#4a5a7a;margin-top:8px;line-height:1.6">4 briefs published · Regime: STAGFLATION · Risk gauge: 94/100</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Scorecard + Cards + Sidebar -->
-    <div style="margin-bottom:24px">
-    <div class="card" style="animation:fadeSlideIn 0.5s ease 0.15s both;border-color:rgba(255,197,61,0.15)">
-      <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
-        <span class="session-badge mono" style="color:#ffc53d;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.25);font-size:11px;font-weight:700;letter-spacing:1.5px;padding:7px 16px;border-radius:100px">
-          &#9733; SCORECARD
-        </span>
-        <span style="font-size:12px;color:#8a9abc">9 predictions · 2 hit · 4 partial · 3 miss</span>
-        <span class="mono" style="font-size:20px;font-weight:800;color:#f87171;margin-left:auto">22%</span>
-      </div>
-      <div style="font-size:10px;font-weight:600;letter-spacing:1px;color:#4a5a7a;margin:12px 0 6px;font-family:'JetBrains Mono',monospace">SCENARIO A — Fed Pivot Hopes</div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#ffc53d;font-weight:700;width:16px;text-align:center">◐</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">BTC</span>
-        <span style="color:#8a9abc">$76K–80K <span style="color:#4a5a7a;font-size:11px">(+6-11%)</span></span>
-        <span style="color:#ffc53d;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Direction ✓, closed $73922.48</span>
-      </div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#34d399;font-weight:700;width:16px;text-align:center">✓</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">ETH</span>
-        <span style="color:#8a9abc">$2.3K–2.5K <span style="color:#4a5a7a;font-size:11px">(+9-18%)</span></span>
-        <span style="color:#34d399;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Hit at $2318.05</span>
-      </div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#f87171;font-weight:700;width:16px;text-align:center">✗</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">SPY</span>
-        <span style="color:#8a9abc">$680–700 <span style="color:#4a5a7a;font-size:11px">(+3-6%)</span></span>
-        <span style="color:#f87171;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Closed $661.43</span>
-      </div><div style="font-size:10px;font-weight:600;letter-spacing:1px;color:#4a5a7a;margin:12px 0 6px;font-family:'JetBrains Mono',monospace">SCENARIO B — Stagflation Deepens</div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#f87171;font-weight:700;width:16px;text-align:center">✗</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">BTC</span>
-        <span style="color:#8a9abc">$64K–68K <span style="color:#4a5a7a;font-size:11px">(-10-5%)</span></span>
-        <span style="color:#f87171;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Closed $73922.48</span>
-      </div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#f87171;font-weight:700;width:16px;text-align:center">✗</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">ETH</span>
-        <span style="color:#8a9abc">$1.8K–2.0K <span style="color:#4a5a7a;font-size:11px">(-15-5%)</span></span>
-        <span style="color:#f87171;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Closed $2318.05</span>
-      </div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#ffc53d;font-weight:700;width:16px;text-align:center">◐</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">SPY</span>
-        <span style="color:#8a9abc">$600–630 <span style="color:#4a5a7a;font-size:11px">(-9-5%)</span></span>
-        <span style="color:#ffc53d;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Direction ✓, closed $661.43</span>
-      </div><div style="font-size:10px;font-weight:600;letter-spacing:1px;color:#4a5a7a;margin:12px 0 6px;font-family:'JetBrains Mono',monospace">SCENARIO C — Dollar Breakout</div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#ffc53d;font-weight:700;width:16px;text-align:center">◐</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">DXY</span>
-        <span style="color:#8a9abc">$103–106 <span style="color:#4a5a7a;font-size:11px">(+3-5%)</span></span>
-        <span style="color:#ffc53d;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Direction ✓, closed $100.09</span>
-      </div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#34d399;font-weight:700;width:16px;text-align:center">✓</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">GLD</span>
-        <span style="color:#8a9abc">$430–450 <span style="color:#4a5a7a;font-size:11px">(-7-2%)</span></span>
-        <span style="color:#34d399;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Hit at $444.74</span>
-      </div><div style="display:flex;align-items:center;gap:10px;padding:5px 0;font-size:13px">
-        <span style="color:#ffc53d;font-weight:700;width:16px;text-align:center">◐</span>
-        <span style="color:#e4e9f2;font-weight:600;min-width:50px" class="mono">TLT</span>
-        <span style="color:#8a9abc">$82–85 <span style="color:#4a5a7a;font-size:11px">(-5-2%)</span></span>
-        <span style="color:#ffc53d;font-size:12px;margin-left:auto;white-space:nowrap" class="mono">→ Direction ✓, closed $86.96</span>
-      </div>
-    </div></div>
-
-    <div class="daily-layout">
-      <div class="daily-cards">
-        
-    <div class="card" id="morning" style="animation:fadeSlideIn 0.5s ease 0.2s both">
-      <div class="card-header">
-        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-          <span class="session-badge mono" style="color:#fb923c;background:rgba(251,146,60,0.08);border:1px solid rgba(251,146,60,0.25)">
-            <span>&#10035;</span> MORNING BRIEF
-          </span>
-          <span class="card-time mono">04:15 UTC</span>
-        </div>
-      </div>
-
-      <div class="card-headline" style="color:#F87171">🔴 Risk-Off · Neutral · Gauge 93.6/100</div>
-
-      <div class="card-tags"><span class="tag mono" style="color:#f87171;border:1px solid rgba(248,113,113,0.25);background:rgba(248,113,113,0.05)">Risk-Off · Neutral</span><span class="tag mono" style="color:#f87171;border:1px solid rgba(248,113,113,0.25);background:rgba(248,113,113,0.05)">GAUGE 93.6</span></div>
-
-      <div class="card-desc">Stagflation regime · Fear &amp; Greed: neutral · NORMAL</div>
-
-      <div class="panels"><div class="panel"><div class="panel-label mono">RISK GAUGE</div>
-        <div style="font-size:24px;font-weight:800;color:#f87171">94</div>
-        <div class="gauge-bar"><div class="gauge-fill" style="width:94%;background:linear-gradient(90deg,#f8717160,#f87171)"></div></div></div><div class="panel"><div class="panel-label mono">HEGEMONY</div><div class="panel-row"><span class="panel-key">Snapback</span><span class="panel-val" style="color:#34d399">1/6 NORMAL</span></div></div></div>
-
-      
-        <button class="card-expand mono" onclick="document.getElementById('card-morning-0').classList.toggle('open');this.textContent=this.textContent.includes('EXPAND')?'COLLAPSE ▲':'EXPAND ▼'">EXPAND ▼</button>
-        <div class="card-content" id="card-morning-0"><b>MACRO RADAR</b> — Mar 15, 2026<br><br>🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100<br><br>• BTC: <b>$71,357</b><br>• ETH: <b>$2,097</b><br>• SOL: <b>$87.83</b><br>• GOLD: <b>$5,023</b><br>SPY: <b>$662.29</b> (-2.1%)<br>QQQ: <b>$593.72</b> (-2.3%)<br>VIX: <b>27.2</b> (-0.4%)<br>TLT: <b>$86.54</b> (-0.7%)<br>DXY: <b>100.5</b> (+0.1%)<br>OIL: <b>$98.71</b> (+0.0%)<br><br><br><b>LIQUIDITY & CREDIT</b><br>[-] Global CB Liquidity: <b>$18.15T</b> (YoY -3.43%)<br>   US M2: $22.44T (YoY +4.29%)<br>[+] HY Credit Spreads: <b>317bps</b> CALM (5d: +17bps)<br><br><b>NOTABLE Z-SCORES</b><br>[-] 2Y Treasury: +2.92σ<br>[-] WTI Crude Oil: +2.80σ<br>[-] 10Y Real Rate: +2.75σ<br>[-] 30Y Treasury: +2.72σ<br>[-] 10Y Treasury: +2.70σ<br><br><b>TOP MOVERS</b><br>[+] MNT $0.7908 (+10.8%)<br>[+] RENDER $1.92 (+7.3%)<br>[-] WPP $238 (-6.8%)<br>[-] SLV $72.69 (-6.7%)<br>[-] EWY $124 (-6.5%)<br>[+] FET $0.1914 (+6.1%)<br>[-] EWZ $35.49 (-5.6%)<br>[-] ILF $33.15 (-5.1%)<br><br><b>HEGEMONY SNAPBACK</b> 🟢: 1/6 — <b>NORMAL</b><br><i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker gold, short rates, and EM rotation unwinds</i><br>[-] USD Index: 119.491 (&gt;110)<br><br>agentcanary.ai | <i>Not financial advice</i></div>
-      
-    </div>
-    <div class="card" id="midday" style="animation:fadeSlideIn 0.5s ease 0.30000000000000004s both">
-      <div class="card-header">
-        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-          <span class="session-badge mono" style="color:#ffc53d;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.25)">
-            <span>&#9680;</span> MARKET PULSE
-          </span>
-          <span class="card-time mono">16:15 UTC</span>
-        </div>
-      </div>
-
-      <div class="card-headline" style="color:#F87171">BTC Bullish · 100 whale moves</div>
-
-      <div class="card-tags"><span class="tag mono" style="color:#60a5fa;border:1px solid rgba(96,165,250,0.25);background:rgba(96,165,250,0.05)">WHALE ALERT</span><span class="tag mono" style="color:#34d399;border:1px solid rgba(52,211,153,0.25);background:rgba(52,211,153,0.05)">IR 2323% APR</span></div>
-
-      <div class="card-desc">BTC daily bullish, <strong style="color:#e4e9f2;font-weight:600">4</strong>h distribution · ETH daily bullish, <strong style="color:#e4e9f2;font-weight:600">4</strong>h distribution · SOL daily bullish, <strong style="color:#e4e9f2;font-weight:600">4</strong>h distribution</div>
-
-      <div class="panels"><div class="panel"><div class="panel-label mono">SIGNAL STATES</div><div class="panel-row"><span class="panel-key">BTC 1D</span><span class="panel-val" style="color:#34d399">Bullish</span></div><div class="panel-row"><span class="panel-key">ETH 1D</span><span class="panel-val" style="color:#34d399">Bullish</span></div><div class="panel-row"><span class="panel-key">SOL 1D</span><span class="panel-val" style="color:#34d399">Bullish</span></div></div><div class="panel"><div class="panel-label mono">TOP WHALE</div><div class="panel-row"><span class="panel-key">$300M USDC</span><span class="panel-val" style="color:#60a5fa">transferred from unknown</span></div><div class="panel-row"><span class="panel-key">$397M USDC</span><span class="panel-val" style="color:#60a5fa">transferred from unknown</span></div></div></div>
-
-      
-        <button class="card-expand mono" onclick="document.getElementById('card-midday-1').classList.toggle('open');this.textContent=this.textContent.includes('EXPAND')?'COLLAPSE ▲':'EXPAND ▼'">EXPAND ▼</button>
-        <div class="card-content" id="card-midday-1"><b>MARKET PULSE</b> — Mar 15, 2026<br><br><b>CRYPTO</b><br>• BTC: <b>$71,562</b> — Daily: Bullish | 4h: Distribution<br>• ETH: <b>$2,098</b> — Daily: Bullish | 4h: Distribution<br>• SOL: <b>$88.01</b> — Daily: Bullish | 4h: Distribution<br><br><br><b>WHALE ALERTS</b><br>• 300,000,000 USDC ($299,965,650)<br>  <i>transferred from unknown wallet to unknown wallet</i><br>• 396,666,076 USDC ($396,621,252)<br>  <i>transferred from unknown wallet to unknown wallet</i><br>• 396,666,036 USDC ($396,588,686)<br>  <i>transferred from unknown wallet to unknown wallet</i><br><br><b>FUNDING ARB</b> <i>(OI&gt;$5M, spread&lt;1%)</i><br>• <b>LYN</b>: 2271% net APR (0.1685% rate)<br>  Long Binance / Short Bybit | OI: $7.4M | Spread: -2.24%<br>• <b>NEO</b>: 691% net APR (0.6608% rate)<br>  Long Binance / Short Bybit | OI: $5.7M | Spread: 0.03%<br>• <b>TAO</b>: 464% net APR (0.2485% rate)<br>  Long OKX / Short Bitget | OI: $19.5M | Spread: 0.14%<br><br><b>LIQUIDATIONS (24h)</b><br>• Total: $18,581,875 | Longs: 22% | L/S: 0.3:1<br><br><br>agentcanary.ai | <i>Not financial advice</i></div>
-      
-    </div>
-    <div class="card" id="intelligence" style="animation:fadeSlideIn 0.5s ease 0.4s both">
-      <div class="card-header">
-        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-          <span class="session-badge mono" style="color:#34d399;background:rgba(52,211,153,0.08);border:1px solid rgba(52,211,153,0.25)">
-            <span>&#9680;</span> SIGNAL SCAN
-          </span>
-          <span class="card-time mono">10:15 UTC</span>
-        </div>
-      </div>
-
-      <div class="card-headline" style="color:#60A5FA">SIGNAL SCAN — Mar 15, 2026</div>
-
-      <div class="card-tags"><span class="tag mono" style="color:#f87171;border:1px solid rgba(248,113,113,0.25);background:rgba(248,113,113,0.05)">HIGH</span><span class="tag mono" style="color:#60a5fa;border:1px solid rgba(96,165,250,0.25);background:rgba(96,165,250,0.05)">STAGFLATION</span></div>
-
-      <div class="card-desc">Risk <strong style="color:#e4e9f2;font-weight:600">93.6</strong>/<strong style="color:#e4e9f2;font-weight:600">100</strong> · <strong style="color:#e4e9f2;font-weight:600">8</strong> movers</div>
-
-      <div class="panels"><div class="panel"><div class="panel-label mono">RISK GAUGE</div>
-        <div style="font-size:24px;font-weight:800;color:#f87171">94</div>
-        <div class="gauge-bar"><div class="gauge-fill" style="width:94%;background:linear-gradient(90deg,#f8717160,#f87171)"></div></div></div><div class="panel"><div class="panel-label mono">TOP MOVERS</div><div class="panel-row"><span class="panel-key">MNT</span><span class="panel-val" style="color:#34d399">+10.8%</span></div><div class="panel-row"><span class="panel-key">RENDER</span><span class="panel-val" style="color:#34d399">+7.3%</span></div><div class="panel-row"><span class="panel-key">WPP</span><span class="panel-val" style="color:#f87171">-6.8%</span></div><div class="panel-row"><span class="panel-key">SLV</span><span class="panel-val" style="color:#f87171">-6.7%</span></div></div></div>
-
-      
-        <button class="card-expand mono" onclick="document.getElementById('card-intelligence-2').classList.toggle('open');this.textContent=this.textContent.includes('EXPAND')?'COLLAPSE ▲':'EXPAND ▼'">EXPAND ▼</button>
-        <div class="card-content" id="card-intelligence-2"><b>SIGNAL SCAN</b> — March 15, 2026<br><br><b>SNAPSHOT</b><br>Stagflation regime deepens with risk-off equities (-2% SPY/QQQ) while defensive utilities rally +1.7%. Real yields climbing amid USD strength creates cross-asset dislocation — precious metals crushed while crypto shows selective strength. Classic late-cycle divergence pattern.<br><br><b>MACRO RISK DASHBOARD</b><br>Risk Gauge: 93.6/100 (Critical)<br>Regime: STAGFLATION — real yields rising while financial conditions remain loose<br>Key prices: SPY -2.1% | QQQ -2.3% | VIX +27.19 (-0.4%) | TLT -0.7% | DXY +0.1% | OIL flat<br>ICSA: 213K (flat trend, no labor stress)<br><br><b>FORWARD SCENARIOS</b><br><br><b>SCENARIO A</b> — Fed Pivot Hopes<br>BTC: $76-80K (+6-11%)<br>ETH: $2.3-2.5K (+9-18%)<br>SPY: $680-700 (+3-6%)<br><br><b>SCENARIO B</b> — Stagflation Deepens<br>BTC: $64-68K (-10-5%)<br>ETH: $1.8-2.0K (-15-5%)<br>SPY: $600-630 (-9-5%)<br><br><b>SCENARIO C</b> — Dollar Breakout<br>DXY: $103-106 (+3-5%)<br>GLD: $430-450 (-7-2%)<br>TLT: $82-85 (-5-2%)<br><br><b>SECTOR STRENGTH</b><br>1. Utilities (XLU +1.7%) — defensive bid<br>2. Energy (XLE +1.3%) — inflation hedge<br>3. Materials (XLB -1.3%) — rotating out<br>4. Technology (XLK -2.6%) — growth dump<br>5. Semiconductors (SMH -3.4%) — tech wreck<br><br><b>BIG MOVES + DRIVERS</b><br>MNT +10.8% — crypto momentum continuation<br>RENDER +7.3% — AI narrative resilience despite broader tech selloff<br>SLV -6.7% — precious metals crushed on real yield spike<br>EWY -6.5% — Korea exposure to China slowdown fears<br>WPP -6.8% — advertising spend concerns in stagflation environment<br>FET +6.1% — AI token strength bucking sector weakness<br><br><i>Defensive rotation accelerating as commodity currencies weaken while select crypto maintains bid — liquidity seeking yield-insensitive assets.</i><br><br><b>POSITIONING</b><br>BTC whales: $52M long vs $102M short, net bearish positioning with $387K PnL suggests distribution<br>ETH: $41M short-heavy, -$328K PnL indicates capitulation phase<br>BTC ETF flows: +$125M inflow (3-day streak) — institutional accumulation contra whale positioning<br><br><b>IMPLICATION</b><br>Tactical defensive tilt warranted — utilities/energy vs growth. BTC ETF inflows against whale shorts suggests institutional accumulation opportunity on weakness. Monitor real yield ceiling around 2.8% for reversal catalyst.<br><br>agentcanary.ai | <i>Not financial advice</i></div>
-      
-    </div>
-    <div class="card" id="evening" style="animation:fadeSlideIn 0.5s ease 0.5s both">
-      <div class="card-header">
-        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-          <span class="session-badge mono" style="color:#a78bfa;background:rgba(167,139,250,0.08);border:1px solid rgba(167,139,250,0.25)">
-            <span>&#9681;</span> EVENING WRAP
-          </span>
-          <span class="card-time mono">22:15 UTC</span>
-        </div>
-      </div>
-
-      <div class="card-headline" style="color:#A78BFA">Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressurin…</div>
-
-      <div class="card-tags"><span class="tag mono" style="color:#ffc53d;border:1px solid rgba(255,197,61,0.25);background:rgba(255,197,61,0.05)">MIXED</span><span class="tag mono" style="color:#60a5fa;border:1px solid rgba(96,165,250,0.25);background:rgba(96,165,250,0.05)">EU Markit Manufact</span></div>
-
-      <div class="card-desc">MARKET WRAP — Mar <strong style="color:#e4e9f2;font-weight:600">15,</strong> <strong style="color:#e4e9f2;font-weight:600">2026</strong>
-
-Markets reflected stagflationary concerns as the VIX spiked to <strong style="color:#e4e9f2;font-weight:600">27</strong> while oil held near <strong style="color:#e4e9f2;font-weight:600">$99,</strong> pressuring equities with SPY down to <strong style="color:#e4e9f2;font-weight:600">662.</strong> The dollar's strength above <strong style="color:#e4e9f2;font-weight:600">100</strong> weighed</div>
-
-      <div class="panels"><div class="panel"><div class="panel-label mono">REGIME</div>
-        <div style="font-size:24px;font-weight:800;color:#f87171">94</div>
-        <div class="gauge-bar"><div class="gauge-fill" style="width:94%;background:linear-gradient(90deg,#f8717160,#f87171)"></div></div></div><div class="panel"><div class="panel-label mono">CALENDAR</div><div class="panel-row"><span class="panel-key">EU Markit Manufacturing</span><span class="panel-val" style="color:#60a5fa">Mar 24</span></div><div class="panel-row"><span class="panel-key"> National Consumer Pr</span><span class="panel-val" style="color:#60a5fa">Mar 23</span></div><div class="panel-row"><span class="panel-key">US New home sales (AAMR</span><span class="panel-val" style="color:#60a5fa">Mar 19</span></div></div></div>
-
-      
-        <button class="card-expand mono" onclick="document.getElementById('card-evening-3').classList.toggle('open');this.textContent=this.textContent.includes('EXPAND')?'COLLAPSE ▲':'EXPAND ▼'">EXPAND ▼</button>
-        <div class="card-content" id="card-evening-3"><b>MARKET WRAP</b> — Mar 15, 2026<br><br><i>Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressuring equities with SPY down to 662. The dollar's strength above 100 weighed on risk assets, though crypto showed relative resilience with Bitcoin holding above $71K. Flight-to-quality flows lifted bonds as growth fears intensified.</i><br><br><br><b>CLOSING PRICES</b><br>BTC: <b>$71,845</b> · ETH: <b>$2,132</b> · SOL: <b>$90.32</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · QQQ: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (-0.4%) · TLT: <b>$86.54</b> (-0.7%) · DXY: <b>$100.39</b> (+0.0%) · OIL: <b>$98.71</b> (+0.0%)<br><br><b>SECTOR CLOSE</b><br>▲ XLE (Energy) +2.5% · XLU (Utilities) +0.2% · XLC (Communication) -2.6%<br>▼ COPX (Copper Miners) -7.1% · XLB (Materials) -1.6% · XLI (Industrials) -3.7%<br><br><b>SIGNALS</b><br>🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH<br>🟡 AI / Tech (intensity 61) — NVDA, MSFT, GOOGL<br>🟡 Defense / Geopolitics (intensity 48) — ITA, LMT, RTX<br>🟡 Oil / Energy (intensity 41) — XLE, USO, OXY<br><br><b>EVENING NEWS</b><br>🟢 Bitcoin Whale Activity Hits Six-Year High as Retail Participation Stays Near Cycle Lows<br>🟢 Ethereum Users Warned as USDT Dust Attacks Jump 612%<br>🟢 Bitcoin Outperforms S&P 500, Indicating Possible Shift Toward Digital Gold<br>🟢 India hails talks with Iran to open Strait of Hormuz<br>🔴 RBA to Deliver Back-to-Back Hikes as Iran War Refuels Inflation<br>🟢 Bitcoin ETF Inflows Stay Strong as Whales Accumulate During Market Dips<br><br><b>REGIME CHECK</b><br>🔴 <b>Risk-Off · Neutral</b> · STAGFLATION · Gauge: 93.6/100<br><br><b>UPCOMING — HIGH IMPACT</b><br>EU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)<br> National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)<br>US New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)<br> GDP(YoY)(Q4) — Mar 19, 12:03 PM UTC (prev: 2.1%)<br> Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)<br>US Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC<br><br>agentcanary.ai | <i>Not financial advice</i></div>
-      
-    </div>
-      </div>
-      <aside class="ticker-sidebar" style="background:#080d16;border-left:1px solid rgba(255,255,255,0.06);padding:16px;border-radius:12px;position:sticky;top:80px;align-self:flex-start">
-    <div style="margin-bottom:24px">
-      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">RISK GAUGE</div>
-      <div style="font-family:'JetBrains Mono',monospace;font-size:40px;font-weight:800;color:#f87171;line-height:1">94</div>
-      <div class="gauge-bar" style="margin-top:8px"><div class="gauge-fill" style="width:94%;background:linear-gradient(90deg,#f8717160,#f87171)"></div></div>
-    </div><div style="margin-bottom:24px">
-      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">REGIME</div>
-      <span class="mono" style="font-size:13px;font-weight:700;color:#60a5fa;background:rgba(96,165,250,0.08);border:1px solid rgba(96,165,250,0.25);padding:5px 12px;border-radius:100px">STAGFLATION</span>
-    </div><div>
-      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;text-transform:uppercase;margin-bottom:10px">TOP MOVERS</div>
-      <div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
-        <span style="color:#8a9abc">MNT</span>
-        <span style="font-weight:600;color:#34d399">+10.8%</span>
-      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
-        <span style="color:#8a9abc">RENDER</span>
-        <span style="font-weight:600;color:#34d399">+7.3%</span>
-      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
-        <span style="color:#8a9abc">WPP</span>
-        <span style="font-weight:600;color:#f87171">-6.8%</span>
-      </div><div style="display:flex;justify-content:space-between;padding:4px 0;font-family:'JetBrains Mono',monospace;font-size:13px">
-        <span style="color:#8a9abc">SLV</span>
-        <span style="font-weight:600;color:#f87171">-6.7%</span>
-      </div>
-    </div>
-  </aside>
-    </div>
-
-    <!-- CTA -->
-    <div style="text-align:center;padding:40px 0 20px;animation:fadeIn 0.5s ease 0.7s both">
-      <p style="font-size:14px;color:#8a9abc;margin-bottom:16px">Want this data in your AI workflow?</p>
-      <a href="https://agentcanary.ai/#pricing" class="mono" style="display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:rgba(255,197,61,0.08);border:1px solid rgba(255,197,61,0.25);color:#ffc53d;font-size:12px;font-weight:700;letter-spacing:1px;border-radius:100px;transition:all 0.2s" onmouseover="this.style.background='rgba(255,197,61,0.15)'" onmouseout="this.style.background='rgba(255,197,61,0.08)'">
-        GET API KEY &rarr;
-      </a>
-      <span style="display:block;margin-top:10px;font-size:11px;color:#4a5a7a">Free tier available &middot; MCP server for Claude, Cursor &amp; more</span>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-      <span class="mono"><a href="/" style="color:#4a5a7a">agentcanary.ai</a></span>
-      <span class="mono"><a href="/record/" style="color:#4a5a7a">Archive</a> &middot; <a href="/record/feed.json" style="color:#4a5a7a">Feed</a> &middot; <a href="https://github.com/MrCerq/agentcanary-skill" style="color:#4a5a7a">MCP</a></span>
-    </div>
+<body style="background:#04070c;color:#e4e9f2;font-family:'Instrument Sans',sans-serif;margin:0;padding:0;-webkit-font-smoothing:antialiased">
+<div class="ac-page-container" style="max-width:1200px;margin:0 auto;padding:32px">
+  <nav class="ac-breadcrumb" aria-label="Breadcrumb" style="display:flex;gap:8px;align-items:center;font-family:'JetBrains Mono',monospace;font-size:11px;margin-bottom:16px"><a href="/record/" style="color:#8a9abc">The Record</a><span style="color:#4a5a7a">/</span><a href="/record/2026/" style="color:#8a9abc">2026</a><span style="color:#4a5a7a">/</span><a href="/record/2026/03/" style="color:#8a9abc">March</a><span style="color:#4a5a7a">/</span><span style="color:#e4e9f2">March 15, 2026</span></nav>
+  <h1 style="font-size:clamp(28px, 4vw, 44px);font-weight:800;letter-spacing:-1.5px;line-height:1.05;margin-bottom:24px">March 15, 2026 — The Record</h1>
+  <article class="ac-page" id="brief-radar-2026-03-15" style="margin-bottom:32px">
+  <div class="ac-card" style="padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:linear-gradient(135deg,rgba(8,13,22,1) 0%,rgba(4,7,12,1) 100%);max-width:1000px;position:relative;overflow:hidden">
+  <div class="ac-card-header" style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+    <span class="ac-slot-badge mono" style="font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;padding:5px 12px;border-radius:100px;border:1px solid #fb923c40;color:#fb923c;background:#fb923c10">MACRO RADAR</span>
+    <span class="mono" style="font-size:11px;color:#4a5a7a">03:15 UTC</span>
   </div>
+  <div class="ac-card-body" style="display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap">
+    <div style="flex:1;min-width:280px">
+      <h2 class="ac-card-headline" style="font-size:clamp(22px, 3vw, 32px);font-weight:700;line-height:1.2;letter-spacing:-1px;margin-bottom:12px;color:#fb923c">🔴 Risk-Off · Neutral · Gauge 93.6/100</h2>
+      <p class="ac-card-desc" style="font-size:13px;color:#8a9abc;line-height:1.7;margin-bottom:16px">STAGFLATION. F&amp;G: —. NORMAL.</p>
+      <div class="ac-card-tags" style="display:flex;gap:8px;flex-wrap:wrap"><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #f8717140;background:#f8717110;color:#f87171">Risk-Off · Neutral</span><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #f8717140;background:#f8717110;color:#f87171">GAUGE 93.6</span></div>
+    </div>
+    <div class="ac-card-panels" style="display:flex;flex-direction:column;gap:8px;min-width:240px"><div class="ac-panel ac-panel-gauge" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">RISK GAUGE</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:24px;font-weight:800;color:#f87171;line-height:1">94</div>
+    </div><div class="ac-panel ac-panel-rows" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">HEGEMONY</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">Snapback</span><span style="color:#34d399">1/6 NORMAL</span></div></div>
+    </div></div>
+  </div>
+</div>
+  <div class="ac-page-body" style="margin-top:20px;padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:rgba(255,255,255,0.01);font-family:'JetBrains Mono',monospace;font-size:13px;line-height:1.7;color:#c3cee0"><b>MACRO RADAR</b> — Mar 15, 2026<br><br>🔴 <b>Risk-Off · Neutral</b> · <a href="/regimes/stagflation/" class="entity-link entity-regime">stagflation</a> · Gauge: 93.6/100<br><br>• <a href="/assets/BTC/" class="entity-link entity-asset">BTC</a>: <b>$71,357</b><br>• <a href="/assets/ETH/" class="entity-link entity-asset">ETH</a>: <b>$2,097</b><br>• <a href="/assets/SOL/" class="entity-link entity-asset">SOL</a>: <b>$87.83</b><br>• GOLD: <b>$5,023</b><br><a href="/assets/SPY/" class="entity-link entity-asset">SPY</a>: <b>$662.29</b> (-2.1%)<br><a href="/assets/QQQ/" class="entity-link entity-asset">QQQ</a>: <b>$593.72</b> (-2.3%)<br><a href="/assets/VIX/" class="entity-link entity-asset">VIX</a>: <b>27.2</b> (-0.4%)<br><a href="/assets/TLT/" class="entity-link entity-asset">TLT</a>: <b>$86.54</b> (-0.7%)<br><a href="/assets/DXY/" class="entity-link entity-asset">DXY</a>: <b>100.5</b> (+0.1%)<br>OIL: <b>$98.71</b> (+0.0%)<br><br><br><b>LIQUIDITY & CREDIT</b><br>[-] Global CB Liquidity: <b>$18.15T</b> (YoY -3.43%)<br>   US M2: $22.44T (YoY +4.29%)<br>[+] HY Credit Spreads: <b>317bps</b> CALM (5d: +17bps)<br><br><b>NOTABLE Z-SCORES</b><br>[-] 2Y Treasury: +2.92σ<br>[-] <a href="/assets/USO/" class="entity-link entity-asset">USO</a> Crude Oil: +2.80σ<br>[-] 10Y Real Rate: +2.75σ<br>[-] 30Y Treasury: +2.72σ<br>[-] 10Y Treasury: +2.70σ<br><br><b>TOP MOVERS</b><br>[+] <a href="/assets/MNT/" class="entity-link entity-asset">MNT</a> $0.7908 (+10.8%)<br>[+] <a href="/assets/RENDER/" class="entity-link entity-asset">RENDER</a> $1.92 (+7.3%)<br>[-] WPP $238 (-6.8%)<br>[-] <a href="/assets/SLV/" class="entity-link entity-asset">SLV</a> $72.69 (-6.7%)<br>[-] <a href="/assets/EWY/" class="entity-link entity-asset">EWY</a> $124 (-6.5%)<br>[+] <a href="/assets/FET/" class="entity-link entity-asset">FET</a> $0.1914 (+6.1%)<br>[-] <a href="/assets/EWZ/" class="entity-link entity-asset">EWZ</a> $35.49 (-5.6%)<br>[-] ILF $33.15 (-5.1%)<br><br><b>HEGEMONY SNAPBACK</b> 🟢: 1/6 — <b>NORMAL</b><br><i>If the US topples adversarial regimes and reasserts hegemony, the multipolar mega-trade reverses — stronger dollar, weaker <a href="/assets/GLD/" class="entity-link entity-asset">GLD</a>, short rates, and EM rotation unwinds</i><br>[-] USD Index: 119.491 (&gt;110)<br><br>agentcanary.ai | <i>Not financial advice</i></div>
+</article>
+<article class="ac-page" id="brief-signal-2026-03-15" style="margin-bottom:32px">
+  <div class="ac-card" style="padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:linear-gradient(135deg,rgba(8,13,22,1) 0%,rgba(4,7,12,1) 100%);max-width:1000px;position:relative;overflow:hidden">
+  <div class="ac-card-header" style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+    <span class="ac-slot-badge mono" style="font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;padding:5px 12px;border-radius:100px;border:1px solid #60a5fa40;color:#60a5fa;background:#60a5fa10">SIGNAL SCAN</span>
+    <span class="mono" style="font-size:11px;color:#4a5a7a">09:15 UTC</span>
+  </div>
+  <div class="ac-card-body" style="display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap">
+    <div style="flex:1;min-width:280px">
+      <h2 class="ac-card-headline" style="font-size:clamp(22px, 3vw, 32px);font-weight:700;line-height:1.2;letter-spacing:-1px;margin-bottom:12px;color:#60a5fa">SIGNAL SCAN — Mar 15, 2026</h2>
+      <p class="ac-card-desc" style="font-size:13px;color:#8a9abc;line-height:1.7;margin-bottom:16px">Risk 93.6/100 · 8 movers</p>
+      <div class="ac-card-tags" style="display:flex;gap:8px;flex-wrap:wrap"><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #f8717140;background:#f8717110;color:#f87171">HIGH</span><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #60a5fa40;background:#60a5fa10;color:#60a5fa">STAGFLATION</span></div>
+    </div>
+    <div class="ac-card-panels" style="display:flex;flex-direction:column;gap:8px;min-width:240px"><div class="ac-panel ac-panel-gauge" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">RISK GAUGE</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:24px;font-weight:800;color:#f87171;line-height:1">94</div>
+    </div><div class="ac-panel ac-panel-rows" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">TOP MOVERS</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">MNT</span><span style="color:#34d399">+10.8%</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">RENDER</span><span style="color:#34d399">+7.3%</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">WPP</span><span style="color:#f87171">-6.8%</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">SLV</span><span style="color:#f87171">-6.7%</span></div></div>
+    </div></div>
+  </div>
+</div>
+  <div class="ac-page-body" style="margin-top:20px;padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:rgba(255,255,255,0.01);font-family:'JetBrains Mono',monospace;font-size:13px;line-height:1.7;color:#c3cee0"><b>SIGNAL SCAN</b> — March 15, 2026<br><br><b>SNAPSHOT</b><br><a href="/regimes/stagflation/" class="entity-link entity-regime">stagflation</a> regime deepens with risk-off equities (-2% <a href="/assets/SPY/" class="entity-link entity-asset">SPY</a>/<a href="/assets/QQQ/" class="entity-link entity-asset">QQQ</a>) while defensive utilities rally +1.7%. Real yields climbing amid USD strength creates cross-asset dislocation — precious metals crushed while crypto shows selective strength. Classic late-cycle divergence pattern.<br><br><b>MACRO RISK DASHBOARD</b><br>Risk Gauge: 93.6/100 (Critical)<br>Regime: STAGFLATION — real yields rising while financial conditions remain loose<br>Key prices: SPY -2.1% | QQQ -2.3% | <a href="/assets/VIX/" class="entity-link entity-asset">VIX</a> +27.19 (-0.4%) | <a href="/assets/TLT/" class="entity-link entity-asset">TLT</a> -0.7% | <a href="/assets/DXY/" class="entity-link entity-asset">DXY</a> +0.1% | OIL flat<br>ICSA: 213K (flat trend, no labor stress)<br><br><b>FORWARD SCENARIOS</b><br><br><b>SCENARIO A</b> — Fed Pivot Hopes<br><a href="/assets/BTC/" class="entity-link entity-asset">BTC</a>: $76-80K (+6-11%)<br><a href="/assets/ETH/" class="entity-link entity-asset">ETH</a>: $2.3-2.5K (+9-18%)<br>SPY: $680-700 (+3-6%)<br><br><b>SCENARIO B</b> — Stagflation Deepens<br>BTC: $64-68K (-10-5%)<br>ETH: $1.8-2.0K (-15-5%)<br>SPY: $600-630 (-9-5%)<br><br><b>SCENARIO C</b> — Dollar Breakout<br>DXY: $103-106 (+3-5%)<br><a href="/assets/GLD/" class="entity-link entity-asset">GLD</a>: $430-450 (-7-2%)<br>TLT: $82-85 (-5-2%)<br><br><b>SECTOR STRENGTH</b><br>1. Utilities (<a href="/assets/XLU/" class="entity-link entity-asset">XLU</a> +1.7%) — defensive bid<br>2. <a href="/assets/XLE/" class="entity-link entity-asset">XLE</a> (XLE +1.3%) — inflation hedge<br>3. Materials (<a href="/assets/XLB/" class="entity-link entity-asset">XLB</a> -1.3%) — rotating out<br>4. Technology (<a href="/assets/XLK/" class="entity-link entity-asset">XLK</a> -2.6%) — growth dump<br>5. Semiconductors (SMH -3.4%) — tech wreck<br><br><b>BIG MOVES + DRIVERS</b><br><a href="/assets/MNT/" class="entity-link entity-asset">MNT</a> +10.8% — crypto momentum continuation<br><a href="/assets/RENDER/" class="entity-link entity-asset">RENDER</a> +7.3% — AI narrative resilience despite broader tech selloff<br><a href="/assets/SLV/" class="entity-link entity-asset">SLV</a> -6.7% — precious metals crushed on real yield spike<br><a href="/assets/EWY/" class="entity-link entity-asset">EWY</a> -6.5% — Korea exposure to China slowdown fears<br>WPP -6.8% — advertising spend concerns in stagflation environment<br><a href="/assets/FET/" class="entity-link entity-asset">FET</a> +6.1% — AI token strength bucking sector weakness<br><br><i>Defensive rotation accelerating as commodity currencies weaken while select crypto maintains bid — liquidity seeking yield-insensitive assets.</i><br><br><b>POSITIONING</b><br>BTC whales: $52M long vs $102M short, net bearish positioning with $387K PnL suggests distribution<br>ETH: $41M short-heavy, -$328K PnL indicates capitulation phase<br>BTC ETF flows: +$125M inflow (3-day streak) — institutional accumulation contra whale positioning<br><br><b>IMPLICATION</b><br>Tactical defensive tilt warranted — utilities/energy vs growth. BTC ETF inflows against whale shorts suggests institutional accumulation opportunity on weakness. Monitor real yield ceiling around 2.8% for reversal catalyst.<br><br>agentcanary.ai | <i>Not financial advice</i></div>
+</article>
+<article class="ac-page" id="brief-pulse-2026-03-15" style="margin-bottom:32px">
+  <div class="ac-card" style="padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:linear-gradient(135deg,rgba(8,13,22,1) 0%,rgba(4,7,12,1) 100%);max-width:1000px;position:relative;overflow:hidden">
+  <div class="ac-card-header" style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+    <span class="ac-slot-badge mono" style="font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;padding:5px 12px;border-radius:100px;border:1px solid #ffc53d40;color:#ffc53d;background:#ffc53d10">MARKET PULSE</span>
+    <span class="mono" style="font-size:11px;color:#4a5a7a">15:15 UTC</span>
+  </div>
+  <div class="ac-card-body" style="display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap">
+    <div style="flex:1;min-width:280px">
+      <h2 class="ac-card-headline" style="font-size:clamp(22px, 3vw, 32px);font-weight:700;line-height:1.2;letter-spacing:-1px;margin-bottom:12px;color:#ffc53d">BTC BULL_REGIME on daily.
+100 whale moves detected.</h2>
+      <p class="ac-card-desc" style="font-size:13px;color:#8a9abc;line-height:1.7;margin-bottom:16px">BTC 1d:Bullish 4h:Distribution · ETH 1d:Bullish 4h:Distribution · SOL 1d:Bullish 4h:Distribution</p>
+      <div class="ac-card-tags" style="display:flex;gap:8px;flex-wrap:wrap"><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #60a5fa40;background:#60a5fa10;color:#60a5fa">WHALE ALERT</span><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #34d39940;background:#34d39910;color:#34d399">IR 2323% APR</span></div>
+    </div>
+    <div class="ac-card-panels" style="display:flex;flex-direction:column;gap:8px;min-width:240px"><div class="ac-panel ac-panel-rows" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">SIGNAL STATES</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">BTC 1D</span><span style="color:#34d399">Bullish</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">ETH 1D</span><span style="color:#34d399">Bullish</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">SOL 1D</span><span style="color:#34d399">Bullish</span></div></div>
+    </div><div class="ac-panel ac-panel-rows" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">TOP WHALE</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">$300M USDC</span><span style="color:#60a5fa">transferred from unknown</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">$397M USDC</span><span style="color:#60a5fa">transferred from unknown</span></div></div>
+    </div></div>
+  </div>
+</div>
+  <div class="ac-page-body" style="margin-top:20px;padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:rgba(255,255,255,0.01);font-family:'JetBrains Mono',monospace;font-size:13px;line-height:1.7;color:#c3cee0"><b>MARKET PULSE</b> — Mar 15, 2026<br><br><b>CRYPTO</b><br>• <a href="/assets/BTC/" class="entity-link entity-asset">BTC</a>: <b>$71,562</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION<br>• <a href="/assets/ETH/" class="entity-link entity-asset">ETH</a>: <b>$2,098</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION<br>• <a href="/assets/SOL/" class="entity-link entity-asset">SOL</a>: <b>$88.01</b> — 1d: BULL_REGIME | 4h: DISTRIBUTION<br><br><br><b>WHALE ALERTS</b><br>• 300,000,000 <a href="/assets/USDC/" class="entity-link entity-asset">USDC</a> ($299,965,650)<br>  <i>transferred from unknown wallet to unknown wallet</i><br>• 396,666,076 USDC ($396,621,252)<br>  <i>transferred from unknown wallet to unknown wallet</i><br>• 396,666,036 USDC ($396,588,686)<br>  <i>transferred from unknown wallet to unknown wallet</i><br><br><b>FUNDING <a href="/assets/ARB/" class="entity-link entity-asset">ARB</a></b> <i>(OI&gt;$5M, spread&lt;1%)</i><br>• <b>LYN</b>: 2271% net APR (0.1685% rate)<br>  Long Binance / Short Bybit | OI: $7.4M | Spread: -2.24%<br>• <b>NEO</b>: 691% net APR (0.6608% rate)<br>  Long Binance / Short Bybit | OI: $5.7M | Spread: 0.03%<br>• <b>TAO</b>: 464% net APR (0.2485% rate)<br>  Long OKX / Short Bitget | OI: $19.5M | Spread: 0.14%<br><br><b>LIQUIDATIONS (24h)</b><br>• Total: $18,581,875 | Longs: 22% | L/S: 0.3:1<br><br><br>agentcanary.ai | <i>Not financial advice</i></div>
+</article>
+<article class="ac-page" id="brief-wrap-2026-03-15" style="margin-bottom:32px">
+  <div class="ac-card" style="padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:linear-gradient(135deg,rgba(8,13,22,1) 0%,rgba(4,7,12,1) 100%);max-width:1000px;position:relative;overflow:hidden">
+  <div class="ac-card-header" style="display:flex;align-items:center;gap:12px;margin-bottom:20px">
+    <span class="ac-slot-badge mono" style="font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:600;padding:5px 12px;border-radius:100px;border:1px solid #a78bfa40;color:#a78bfa;background:#a78bfa10">MARKET WRAP</span>
+    <span class="mono" style="font-size:11px;color:#4a5a7a">21:15 UTC</span>
+  </div>
+  <div class="ac-card-body" style="display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap">
+    <div style="flex:1;min-width:280px">
+      <h2 class="ac-card-headline" style="font-size:clamp(22px, 3vw, 32px);font-weight:700;line-height:1.2;letter-spacing:-1px;margin-bottom:12px;color:#a78bfa">0 bullish / 0 bearish signals.</h2>
+      <p class="ac-card-desc" style="font-size:13px;color:#8a9abc;line-height:1.7;margin-bottom:16px">MARKET WRAP — Mar 15, 2026
+
+Markets reflected stagflationary concerns as the VIX spiked to 27 while oil held near $99, pressuring equities with SPY down to 662. The dollar&#39;s strength above 100 weighed</p>
+      <div class="ac-card-tags" style="display:flex;gap:8px;flex-wrap:wrap"><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #ffc53d40;background:#ffc53d10;color:#ffc53d">MIXED</span><span class="ac-tag mono" style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid #60a5fa40;background:#60a5fa10;color:#60a5fa">EU Markit Manufact</span></div>
+    </div>
+    <div class="ac-card-panels" style="display:flex;flex-direction:column;gap:8px;min-width:240px"><div class="ac-panel ac-panel-gauge" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">REGIME</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:24px;font-weight:800;color:#f87171;line-height:1">94</div>
+    </div><div class="ac-panel ac-panel-rows" style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.06);border-radius:8px;padding:14px 16px">
+      <div class="ac-panel-label mono" style="font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#4a5a7a;margin-bottom:8px">CALENDAR</div>
+      <div style="display:flex;flex-direction:column;gap:4px"><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">EU Markit Manufacturing</span><span style="color:#60a5fa">Mar 24</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc"> National Consumer Pr</span><span style="color:#60a5fa">Mar 23</span></div><div style="display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:12px"><span style="color:#8a9abc">US New home sales (AAMR</span><span style="color:#60a5fa">Mar 19</span></div></div>
+    </div></div>
+  </div>
+</div>
+  <div class="ac-page-body" style="margin-top:20px;padding:32px 36px;border:1px solid rgba(255,255,255,0.06);border-radius:14px;background:rgba(255,255,255,0.01);font-family:'JetBrains Mono',monospace;font-size:13px;line-height:1.7;color:#c3cee0"><b>MARKET WRAP</b> — Mar 15, 2026<br><br><i>Markets reflected stagflationary concerns as the <a href="/assets/VIX/" class="entity-link entity-asset">VIX</a> spiked to 27 while oil held near $99, pressuring equities with SPY down to 662. The dollar's strength above 100 weighed on risk assets, though crypto showed relative resilience with <a href="/assets/BTC/" class="entity-link entity-asset">BTC</a> holding above $71K. Flight-to-quality flows lifted bonds as growth fears intensified.</i><br><br><br><b>CLOSING PRICES</b><br>BTC: <b>$71,845</b> · ETH: <b>$2,132</b> · <a href="/assets/SOL/" class="entity-link entity-asset">SOL</a>: <b>$90.32</b> · GOLD: <b>$5,023</b> · SPY: <b>$662.29</b> (-2.1%) · <a href="/assets/QQQ/" class="entity-link entity-asset">QQQ</a>: <b>$593.72</b> (-2.3%) · VIX: <b>$27.19</b> (-0.4%) · <a href="/assets/TLT/" class="entity-link entity-asset">TLT</a>: <b>$86.54</b> (-0.7%) · <a href="/assets/DXY/" class="entity-link entity-asset">DXY</a>: <b>$100.39</b> (+0.0%) · OIL: <b>$98.71</b> (+0.0%)<br><br><b>SECTOR CLOSE</b><br>▲ XLE (<a href="/assets/XLE/" class="entity-link entity-asset">XLE</a>) +2.5% · <a href="/assets/XLU/" class="entity-link entity-asset">XLU</a> (Utilities) +0.2% · <a href="/assets/XLC/" class="entity-link entity-asset">XLC</a> (Communication) -2.6%<br>▼ COPX (<a href="/assets/COPX/" class="entity-link entity-asset">COPX</a> Miners) -7.1% · <a href="/assets/XLB/" class="entity-link entity-asset">XLB</a> (Materials) -1.6% · <a href="/assets/XLI/" class="entity-link entity-asset">XLI</a> (Industrials) -3.7%<br><br><b>SIGNALS</b><br>🟡 Crypto / Bitcoin (intensity 100) — BTC, ETH<br>🟡 AI / Tech (intensity 61) — <a href="/assets/NVDA/" class="entity-link entity-asset">NVDA</a>, MSFT, GOOGL<br>🟡 Defense / Geopolitics (intensity 48) — ITA, LMT, RTX<br>🟡 Oil / Energy (intensity 41) — XLE, <a href="/assets/USO/" class="entity-link entity-asset">USO</a>, OXY<br><br><b>EVENING NEWS</b><br>🟢 Bitcoin Whale Activity Hits Six-Year High as Retail Participation Stays Near Cycle Lows<br>🟢 <a href="/assets/ETH/" class="entity-link entity-asset">ETH</a> Users Warned as <a href="/assets/USDT/" class="entity-link entity-asset">USDT</a> Dust Attacks Jump 612%<br>🟢 Bitcoin Outperforms <a href="/assets/SPY/" class="entity-link entity-asset">SPY</a>, Indicating Possible Shift Toward Digital <a href="/assets/GLD/" class="entity-link entity-asset">GLD</a><br>🟢 India hails talks with Iran to open Strait of Hormuz<br>🔴 RBA to Deliver Back-to-Back Hikes as Iran War Refuels Inflation<br>🟢 Bitcoin ETF Inflows Stay Strong as Whales Accumulate During Market Dips<br><br><b>REGIME CHECK</b><br>🔴 <b>Risk-Off · Neutral</b> · <a href="/regimes/stagflation/" class="entity-link entity-regime">stagflation</a> · Gauge: 93.6/100<br><br><b>UPCOMING — HIGH IMPACT</b><br>EU Markit Manufacturing Purchasing Managers Index (Preliminary)(Mar) — Mar 24, 09:00 AM UTC (prev: 50.8)<br> National Consumer Price Index (YoY)(Feb) — Mar 23, 11:30 PM UTC (prev: 1.5%)<br>US New home sales (AAMR)(Jan) — Mar 19, 02:00 PM UTC (prev: -1.7%)<br> GDP(YoY)(Q4) — Mar 19, 12:03 PM UTC (prev: 2.1%)<br> Seasonally adjusted unemployment rate(Feb) — Mar 19, 12:30 AM UTC (prev: 4.1%)<br>US Producer Price Index (YoY)(Feb) — Mar 18, 11:08 PM UTC<br><br>agentcanary.ai | <i>Not financial advice</i></div>
+</article>
+</div>
 </body>
 </html>
