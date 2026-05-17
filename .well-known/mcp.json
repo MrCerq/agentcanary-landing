@@ -72,6 +72,14 @@
     {
       "name": "get_macro",
       "description": "Macro data \u2014 pass view= for one of: snapshot (30+ FRED series), business-cycle, global-liquidity, us-m2, supply-chain, calendar-high-impact (high-impact economic events), risk-score, signals. Omit for regime"
+    },
+    {
+      "name": "get_open_interest",
+      "description": "Cross-exchange open-interest snapshot for crypto perps \u2014 aggregate OI across 43 symbols + top-N by USD size + top-N by absolute 4h \u0394% (intraday OI shifters). Pass view= for one of: top, shifters. Omit for full snapshot. Builder tier+."
+    },
+    {
+      "name": "get_liquidations",
+      "description": "Crypto perp liquidations. 24h total + latest-4h breakdown with long/short USD split, per-side event counts, long%/short%, and dominant-direction label. Builder tier+."
     }
   ],
   "pricing": {
