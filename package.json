@@ -1,0 +1,13 @@
+{
+  "name": "agentcanary-landing",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AgentCanary marketing site + The Record archive",
+  "scripts": {
+    "build": "node tools/build-record-v1.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

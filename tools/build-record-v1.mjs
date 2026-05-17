@@ -33,6 +33,7 @@ const LIB = path.resolve(ROOT, 'lib');
 
 const renderUtils = await import(path.join(LIB, 'render-utils.mjs'));
 const { renderCard, briefPermalink } = await import(path.join(LIB, 'card.mjs'));
+const { renderOgPng, ogPngPath } = await import(path.join(LIB, 'og-card.mjs'));
 const { renderIndex } = await import(path.join(LIB, 'page.mjs'));
 const assetMapData = JSON.parse(fs.readFileSync(path.join(LIB, 'asset-map.json'), 'utf8'));
 const assetMap = assetMapData.assets;
@@ -212,6 +213,18 @@ for (let i = 0; i < allDatesSorted.length; i++) {
     const prev = idx > 0 ? sameSlot[idx - 1] : null;
     const next = idx < sameSlot.length - 1 ? sameSlot[idx + 1] : null;
     const html = renderIndex({ type: 'brief', brief, prev, next, assetMap });
+    // Per-brief social card (OG image)
+    const ogRel = ogPngPath(brief);
+    if (ogRel) {
+      const ogBuf = renderOgPng(brief);
+      const ogDest = path.join(ROOT, ogRel.replace(/^\//, ''));
+      fs.mkdirSync(path.dirname(ogDest), { recursive: true });
+      if (DRY) {
+        console.log(`  [DRY] would write ${ogRel} (${ogBuf.length} bytes)`);
+      } else {
+        fs.writeFileSync(ogDest, ogBuf);
+      }
+    }
     writeFile(`record/${year}/${month}/${day}/${slot}/index.html`, html);
   }
 }
