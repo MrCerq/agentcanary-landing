@@ -5,7 +5,8 @@
   "type": "module",
   "description": "AgentCanary marketing site + The Record archive",
   "scripts": {
-    "build": "node tools/build-record-v1.mjs"
+    "build": "node tools/build-record-v1.mjs",
+    "test": "node --test lib/*.test.mjs"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2"
