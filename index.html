@@ -464,11 +464,11 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     }
     document.getElementById('brief-excerpt').textContent = excerpt;
     // Set the wrapper link to the per-brief permalink so clicking jumps direct.
-    if(b.date && (b.slot || b.session)){
-      var slot = b.slot || b.session;
+    var linkSlot = deriveSlot(b);
+    if(b.date && linkSlot){
       var parts = b.date.split('-');
       var link = document.getElementById('brief-card-link');
-      if(link) link.href = '/record/' + parts[0] + '/' + parts[1] + '/' + parts[2] + '/' + slot + '/';
+      if(link) link.href = '/record/' + parts[0] + '/' + parts[1] + '/' + parts[2] + '/' + linkSlot + '/';
     }
     if(b.telegramMessageId){
       var tgLink=document.getElementById('brief-tg-link');if(tgLink){tgLink.href='https://t.me/agentcanary/'+b.telegramMessageId;tgLink.style.display='inline-flex';}
