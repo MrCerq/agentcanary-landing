@@ -33,7 +33,7 @@ const LIB = path.resolve(ROOT, 'lib');
 
 const renderUtils = await import(path.join(LIB, 'render-utils.mjs'));
 const { renderCard, briefPermalink } = await import(path.join(LIB, 'card.mjs'));
-const { renderOgPng, ogPngPath } = await import(path.join(LIB, 'og-card.mjs'));
+const { renderOgPng, ogPngPath, renderOgPngDay, ogPngPathDay } = await import(path.join(LIB, 'og-card.mjs'));
 const { renderIndex } = await import(path.join(LIB, 'page.mjs'));
 const assetMapData = JSON.parse(fs.readFileSync(path.join(LIB, 'asset-map.json'), 'utf8'));
 const assetMap = assetMapData.assets;
@@ -201,6 +201,18 @@ for (let i = 0; i < allDatesSorted.length; i++) {
     type: 'day', date, briefs, prevDate, nextDate, assetMap,
   });
   writeFile(`record/${year}/${month}/${day}/index.html`, dayHtml);
+  // Per-day social card
+  const dayOgRel = ogPngPathDay(date);
+  if (dayOgRel) {
+    const dayOgBuf = renderOgPngDay(date, briefs);
+    const dayOgDest = path.join(ROOT, dayOgRel.replace(/^\//, ''));
+    fs.mkdirSync(path.dirname(dayOgDest), { recursive: true });
+    if (DRY) {
+      console.log(`  [DRY] would write ${dayOgRel} (${dayOgBuf.length} bytes)`);
+    } else {
+      fs.writeFileSync(dayOgDest, dayOgBuf);
+    }
+  }
 
   // Per-brief permalinks — use renderIndex 'brief' for proper chrome
   for (const brief of briefs) {
