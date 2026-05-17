@@ -372,6 +372,7 @@ h2.ac-tile-headline { font-size: 15px; font-weight: 600; line-height: 1.3; margi
   font-weight: 700; margin-bottom: 16px;
 }
 .rc-h1 em, .rc-h2 em {
+  font-family: 'Iowan Old Style', 'Charter', Georgia, serif;
   font-style: italic; font-weight: 400;
   color: var(--yellow);
 }
