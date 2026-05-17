@@ -19,7 +19,7 @@
     },
     {
       "name": "get_indicators",
-      "description": "50+ market indicators (VIX, F&G, funding rates, ETF flows). Pass name= for one indicator, category= to filter."
+      "description": "36 market indicators (Bull Market Support Band, Pi Cycle, Wyckoff, Stablecoin Composite, Composite Risk Score + 31 more). Pass name= for one indicator, category= to filter."
     },
     {
       "name": "get_regime",
