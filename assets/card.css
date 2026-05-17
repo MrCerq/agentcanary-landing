@@ -66,7 +66,7 @@ nav.ac-top {
 .ac-nav-links a:hover { color: var(--text-1); }
 
 /* BREADCRUMB ROW */
-.ac-breadcrumb-row {
+.ac-breadcrumb-row { min-height: 72px;
   padding: 28px 32px 16px;
   max-width: 1100px; margin: 0 auto;
   display: flex; align-items: center; justify-content: space-between;
