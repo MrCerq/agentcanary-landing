@@ -192,32 +192,17 @@ for (let i = 0; i < allDatesSorted.length; i++) {
   });
   writeFile(`record/${year}/${month}/${day}/index.html`, dayHtml);
 
-  // Per-brief permalinks
+  // Per-brief permalinks — use renderIndex 'brief' for proper chrome
   for (const brief of briefs) {
     const slot = resolveSlot(brief);
     if (!slot) continue;
-    const meta = slotMeta(slot);
-    // Find prev/next same-slot briefs in chronological order
     const sameSlot = archive
       .filter(b => resolveSlot(b) === slot)
       .sort((a, b) => a.date.localeCompare(b.date));
     const idx = sameSlot.findIndex(b => b.date === date);
     const prev = idx > 0 ? sameSlot[idx - 1] : null;
     const next = idx < sameSlot.length - 1 ? sameSlot[idx + 1] : null;
-    const cardHtml = renderCard(brief, 'page', { assetMap });
-    const breadcrumb = [
-      { name: 'The Record', href: '/record/' },
-      { name: year, href: `/record/${year}/` },
-      { name: monthName(parseInt(month, 10)), href: `/record/${year}/${month}/` },
-      { name: `${monthName(parseInt(month, 10))} ${parseInt(day, 10)}, ${year}`, href: `/record/${year}/${month}/${day}/` },
-      { name: meta.label },
-    ];
-    const html = wrapBriefPage({
-      brief, slot, meta,
-      breadcrumb,
-      prev, next,
-      cardHtml,
-    });
+    const html = renderIndex({ type: 'brief', brief, prev, next, assetMap });
     writeFile(`record/${year}/${month}/${day}/${slot}/index.html`, html);
   }
 }
