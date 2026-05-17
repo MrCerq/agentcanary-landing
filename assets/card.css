@@ -98,13 +98,18 @@ nav.ac-top {
 .ac-hero-sub .mono { font-family: 'JetBrains Mono', monospace; color: var(--text-1); }
 
 /* DAY SUMMARY CARD */
+.ac-day-card-row {
+  display: grid; grid-template-columns: 88px 1fr; gap: 0; margin-bottom: 32px;
+}
+.ac-day-card-gutter { /* empty — mirrors timeline time-column to align day-card left edge with brief cards */ }
 .ac-day-card {
-  max-width: 1216px; margin: 16px auto 32px; position: relative; z-index: 1;
   background: var(--surface); border: 1px solid var(--border);
   border-radius: 16px; padding: 28px 32px;
   display: grid; grid-template-columns: auto 1fr 280px; gap: 32px;
   align-items: center;
+  position: relative; z-index: 1;
 }
+@media (max-width: 640px) { .ac-day-card-row { grid-template-columns: 64px 1fr; } }
 @media (max-width: 900px) {
   .ac-day-card { grid-template-columns: 1fr; gap: 24px; }
   .ac-day-card .ac-day-movers { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 20px; }
