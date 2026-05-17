@@ -1,7 +1,7 @@
 {
   "name": "agentcanary",
-  "version": "1.2.0",
-  "description": "Macro market intelligence — regime, indicators, briefs, narratives, scored predictions",
+  "version": "1.3.1",
+  "description": "Decision-grade market intelligence for autonomous AI agents. Regime classifications, risk scores, narrative momentum, scenario probabilities, and public track-record-verified signals via simple API + MCP.",
   "homepage": "https://agentcanary.ai",
   "install": {
     "npm": "npx agentcanary-mcp",
@@ -13,21 +13,66 @@
     }
   },
   "tools": [
-    {"name": "get_briefs",            "description": "Daily market intelligence briefs (4x/day)"},
-    {"name": "get_indicators",        "description": "50+ market indicators (VIX, F&G, funding rates, ETF flows). Pass name= for one indicator, category= to filter."},
-    {"name": "get_regime",            "description": "Macro regime classification + transition probabilities"},
-    {"name": "get_predictions",       "description": "Prediction market data (Polymarket, Kalshi)"},
-    {"name": "get_narratives",        "description": "Narrative momentum scores (AI, energy, defense, crypto)"},
-    {"name": "get_news",              "description": "Aggregated market news, filterable by ticker"},
-    {"name": "get_scores",            "description": "Prediction scoring results (hit/miss/partial rates)"},
-    {"name": "get_scenario_analysis", "description": "Forward scenarios with price targets"},
-    {"name": "get_signals",           "description": "Trading signals — pass type= for one of 20 sub-types: whale-alerts, fear-greed, funding-rates, btc-etf-flows, vix, credit-stress, sector-rotation, insider-activity, correlations, dxy, oil, yield-curve, market-structure, stablecoin-dominance, whale-positions, cftc-cot, bofa-fms, dispersion, geopolitical-risk, decision-engine (default)"},
-    {"name": "get_market_structure",  "description": "Market structure & exchange data — pass view= for one of: orderbook (depth across exchanges, default), liquidation-heatmap (BTC leverage liquidation map), liquidation-ranges, exchange-assets (token listings by venue), exchange-volumes, coinbase. Covers leverage/depth/venue data complementing directional signals from get_signals."},
-    {"name": "get_defi",              "description": "DeFi intelligence — pass category= for one of: yields, pe-ratios, stablecoins, chains, unlocks, perps, signals, intelligence (default)"},
-    {"name": "get_btc_options",       "description": "BTC options — pass view= for maxpain (max pain price) or skew (volatility skew). Omit for overview (max pain + skew + put/call ratios). Key for institutional positioning."},
-    {"name": "get_central_banks",     "description": "Central bank data — pass view= for one of: balance-sheets, gold, btc, stablecoins, reserves, tic. Omit for overview"},
-    {"name": "get_expectations",      "description": "Market expectations — pass view= for one of: crowded, early, rotation. Omit for overview"},
-    {"name": "get_macro",             "description": "Macro data — pass view= for one of: snapshot (30+ FRED series), business-cycle, global-liquidity, us-m2, supply-chain, calendar-high-impact (high-impact economic events), risk-score, signals. Omit for regime"}
+    {
+      "name": "get_briefs",
+      "description": "Daily market intelligence briefs (4x/day)"
+    },
+    {
+      "name": "get_indicators",
+      "description": "50+ market indicators (VIX, F&G, funding rates, ETF flows). Pass name= for one indicator, category= to filter."
+    },
+    {
+      "name": "get_regime",
+      "description": "Macro regime classification + transition probabilities"
+    },
+    {
+      "name": "get_predictions",
+      "description": "Prediction market data (Polymarket, Kalshi)"
+    },
+    {
+      "name": "get_narratives",
+      "description": "Narrative momentum scores (AI, energy, defense, crypto)"
+    },
+    {
+      "name": "get_news",
+      "description": "Aggregated market news, filterable by ticker"
+    },
+    {
+      "name": "get_scores",
+      "description": "Prediction scoring results (hit/miss/partial rates)"
+    },
+    {
+      "name": "get_scenario_analysis",
+      "description": "Forward scenarios with price targets"
+    },
+    {
+      "name": "get_signals",
+      "description": "Trading signals \u2014 pass type= for one of 20 sub-types: whale-alerts, fear-greed, funding-rates, btc-etf-flows, vix, credit-stress, sector-rotation, insider-activity, correlations, dxy, oil, yield-curve, market-structure, stablecoin-dominance, whale-positions, cftc-cot, bofa-fms, dispersion, geopolitical-risk, decision-engine (default)"
+    },
+    {
+      "name": "get_market_structure",
+      "description": "Market structure & exchange data \u2014 pass view= for one of: orderbook (depth across exchanges, default), liquidation-heatmap (BTC leverage liquidation map), liquidation-ranges, exchange-assets (token listings by venue), exchange-volumes, coinbase. Covers leverage/depth/venue data complementing directional signals from get_signals."
+    },
+    {
+      "name": "get_defi",
+      "description": "DeFi intelligence \u2014 pass category= for one of: yields, pe-ratios, stablecoins, chains, unlocks, perps, signals, intelligence (default)"
+    },
+    {
+      "name": "get_btc_options",
+      "description": "BTC options \u2014 pass view= for maxpain (max pain price) or skew (volatility skew). Omit for overview (max pain + skew + put/call ratios). Key for institutional positioning."
+    },
+    {
+      "name": "get_central_banks",
+      "description": "Central bank data \u2014 pass view= for one of: balance-sheets, gold, btc, stablecoins, reserves, tic. Omit for overview"
+    },
+    {
+      "name": "get_expectations",
+      "description": "Market expectations \u2014 pass view= for one of: crowded, early, rotation. Omit for overview"
+    },
+    {
+      "name": "get_macro",
+      "description": "Macro data \u2014 pass view= for one of: snapshot (30+ FRED series), business-cycle, global-liquidity, us-m2, supply-chain, calendar-high-impact (high-impact economic events), risk-score, signals. Omit for regime"
+    }
   ],
   "pricing": {
     "free_tier": true,

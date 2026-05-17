@@ -2,8 +2,8 @@
   "schema_version": "v1",
   "name_for_human": "AgentCanary",
   "name_for_model": "agentcanary",
-  "description_for_human": "Macro market intelligence — regime tracking, indicators, briefs, narratives, and scored predictions across crypto, equities, and commodities.",
-  "description_for_model": "AgentCanary provides macro market intelligence. Use it to get the current market regime (expansion/stagflation/recession), risk gauge (0-100), 36 proprietary indicators (Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, CAPE ratio, Hindenburg omen + 30 more), narrative momentum scores, whale alerts, forward scenario analysis with price targets, and scored prediction accuracy. 121 endpoints covering crypto, equities, commodities, and forex. 4 daily AI briefs. Wallet-based auth, USDC/USDT deposits.",
+  "description_for_human": "Decision-grade market intelligence for autonomous AI agents. Regime classifications, risk scores, narrative momentum, and public track-record-verified predictions across crypto, equities, commodities, and forex.",
+  "description_for_model": "AgentCanary is the decision-grade market intelligence layer for autonomous AI agents. Use it to fetch the current macro regime (expansion/stagflation/recession/overheating/contraction/displacement), risk gauge (0-100), 50+ proprietary indicators (Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, CAPE ratio, Hindenburg omen + 44 more), narrative momentum scores, whale alerts, forward scenario probabilities with price targets, and public track-record-verified prediction outcomes. 4 daily briefs at 03:15/09:15/15:15/21:15 UTC. Schema-stable JSON, fail-soft. Wallet-authenticated, USDC/USDT-billed in stablecoins. No KYC.",
   "auth": {
     "type": "service_http",
     "authorization_type": "bearer",
@@ -13,7 +13,7 @@
     "type": "openapi",
     "url": "https://api.agentcanary.ai/api/openapi.yaml"
   },
-  "logo_url": "https://agentcanary.ai/favicon.png",
+  "logo_url": "https://agentcanary.ai/og-image.png",
   "contact_email": "api@agentcanary.ai",
   "legal_info_url": "https://agentcanary.ai"
 }
