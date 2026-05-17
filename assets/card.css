@@ -59,11 +59,9 @@ nav.ac-top {
   max-width: 1100px; margin: 0 auto; padding: 0 32px;
   height: 64px; display: flex; align-items: center; justify-content: space-between;
 }
-.ac-brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: inherit; }
-.ac-brand:hover .ac-brand-text { color: var(--yellow); }
+.ac-brand { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 17px; letter-spacing: -0.5px; text-decoration: none; color: var(--text-1); transition: color 0.15s; }
+.ac-brand:hover { color: var(--yellow); }
 .ac-brand-accent { color: var(--yellow); }
-.ac-brand-dot { width: 12px; height: 12px; border-radius: 50%; background: var(--yellow); box-shadow: 0 0 12px #ffc53d40; }
-.ac-brand-text { font-weight: 600; font-size: 14px; letter-spacing: 3px; }
 .ac-nav-links { display: flex; align-items: center; gap: 28px; font-size: 13px; font-weight: 500; color: var(--text-2); }
 .ac-nav-links a:hover { color: var(--text-1); }
 
