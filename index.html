@@ -383,15 +383,16 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     <div id="brief-card" style="width:100%;background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 100%);position:relative;overflow:hidden;cursor:pointer;">
       <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none;"></div>
       <div id="brief-glow" style="position:absolute;top:20%;right:10%;width:400px;height:300px;pointer-events:none;"></div>
-      <div style="position:relative;padding:32px 36px;width:100%;max-width:1000px;">
+      <div style="position:relative;padding:32px 36px;width:100%;">
         <div id="brief-body" class="brief-card-layout" style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
-          <div style="flex:1;min-width:280px;">
+          <div style="flex:1;min-width:280px;max-width:680px;">
             <div id="brief-header" style="display:flex;align-items:center;gap:10px;margin-bottom:20px;"></div>
             <div id="brief-headline" style="font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-1px;line-height:1.2;margin-bottom:12px;"></div>
             <div id="brief-desc" style="font-size:13px;color:var(--t2);line-height:1.7;"></div>
+            <div id="brief-excerpt" style="font-size:13px;color:var(--t2);line-height:1.7;margin-top:14px;"></div>
             <div id="brief-tags" style="display:flex;gap:6px;margin-top:16px;flex-wrap:wrap;"></div>
           </div>
-          <div id="brief-panels" class="brief-panels-right" style="display:flex;flex-direction:column;gap:8px;min-width:240px;"></div>
+          <div id="brief-panels" class="brief-panels-right" style="display:flex;flex-direction:column;gap:8px;min-width:260px;max-width:280px;"></div>
         </div>
         <div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.04);">
           <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">AGENTCANARY · api.agentcanary.ai · Not financial advice</div>
@@ -435,11 +436,33 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
     document.getElementById('brief-headline').innerHTML=hl[0]+(hl[1]?'<br><span style="color:'+(b.headlineColor||t.accent)+';">'+hl[1]+'</span>':'');
     document.getElementById('brief-desc').textContent=cleanDesc(b);
     document.getElementById('brief-tags').innerHTML=(b.tags||[]).map(function(tg){var tc=TAG_COLORS[tg.c]||TAG_COLORS.yellow;return '<span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid '+tc.b+';background:'+tc.bg+';color:'+tc.c+';">'+tg.t+'</span>';}).join('');
+    function gaugeColor(v){var n=Number(v);if(isNaN(n))return 'var(--t2)';if(n<30)return 'var(--g)';if(n<60)return 'var(--y)';return 'var(--r)';}
+    function gaugeLevel(v){var n=Number(v);if(isNaN(n))return '';if(n<30)return 'LOW';if(n<60)return 'ELEVATED';if(n<80)return 'HIGH';return 'CRITICAL';}
     var ph=(b.panels||[]).map(function(p){
-      var rows=(p.rows||[]).map(function(r){return '<div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">'+r.k+'</span><span style="color:'+(ROW_COLORS[r.c]||'var(--t2)')+';">'+humanize(r.v)+'</span></div>';}).join('');
-      return '<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;"><div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">'+p.label+'</div><div style="display:flex;flex-direction:column;gap:4px;">'+rows+'</div></div>';
+      var body;
+      if(p.gauge){
+        var v=p.gauge.value;
+        body='<div style="display:flex;align-items:baseline;gap:6px;"><span style="font-family:var(--mono);font-size:28px;font-weight:700;color:'+gaugeColor(v)+';">'+v+'</span><span style="font-family:var(--mono);font-size:11px;color:var(--t3);">/ 100</span></div><div style="font-family:var(--mono);font-size:10px;color:'+gaugeColor(v)+';margin-top:2px;letter-spacing:.5px;">'+gaugeLevel(v)+'</div>';
+      } else {
+        body='<div style="display:flex;flex-direction:column;gap:4px;">'+(p.rows||[]).map(function(r){return '<div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">'+r.k+'</span><span style="color:'+(ROW_COLORS[r.c]||'var(--t2)')+';">'+humanize(r.v)+'</span></div>';}).join('')+'</div>';
+      }
+      return '<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;"><div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">'+p.label+'</div>'+body+'</div>';
     }).join('');
     document.getElementById('brief-panels').innerHTML=ph;
+    // Pull SNAPSHOT paragraph from body as the preview excerpt
+    var bodyRaw = b.body || b.telegramText || b.content || '';
+    var excerpt = '';
+    if(bodyRaw){
+      var bMatch = bodyRaw.match(/<b>SNAPSHOT<\/b>\s*([\s\S]*?)(?=<b>|$)/i);
+      if(bMatch){
+        excerpt = bMatch[1].replace(/<[^>]+>/g,'').trim().split('\n').filter(function(l){return l.trim();}).slice(0,2).join(' ');
+      } else {
+        // Fallback: first paragraph after intro
+        excerpt = bodyRaw.replace(/<[^>]+>/g,'').replace(/^[\s\S]*?\n\n/,'').split('\n').filter(function(l){return l.trim();})[0]||'';
+      }
+      if(excerpt.length>280) excerpt = excerpt.slice(0,277)+'…';
+    }
+    document.getElementById('brief-excerpt').textContent = excerpt;
     // Set the wrapper link to the per-brief permalink so clicking jumps direct.
     if(b.date && (b.slot || b.session)){
       var slot = b.slot || b.session;
