@@ -4,3 +4,5 @@ node_modules/
 
 *.swp
 *.swo
+data/briefs-archive.json
+data/briefs-feed.json
