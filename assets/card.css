@@ -169,8 +169,8 @@ nav.ac-top {
 
 /* CARD */
 .ac-card { position: relative; background: var(--surface); border: 1px solid var(--border);
-  border-radius: 12px; padding: 20px 22px; transition: all 0.2s;
-  display: grid; grid-template-columns: 1fr 220px; gap: 32px; align-items: start; }
+  border-radius: 12px; padding: 18px 22px; transition: all 0.2s;
+  display: grid; grid-template-columns: 1fr 200px; gap: 24px; align-items: start; }
 .ac-card:not(:has(.ac-side)) { display: block; }
 .ac-card:hover { border-color: var(--border-2); transform: translateY(-1px); }
 @media (max-width: 720px) { .ac-card { grid-template-columns: 1fr; gap: 18px; } }
@@ -183,10 +183,10 @@ nav.ac-top {
   text-decoration: none; transition: opacity 0.15s; margin-left: auto; }
 .ac-card-perma:hover { opacity: 1; }
 .ac-card-headline { font-size: 22px; line-height: 1.2; font-weight: 700; letter-spacing: -0.02em;
-  margin: 10px 0 6px; color: var(--text-1); }
+  margin: 0 0 6px; color: var(--text-1); }
 .ac-card-desc { font-size: 14px; color: var(--text-2); margin: 0; line-height: 1.5; }
 
-.ac-card-pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px; }
+.ac-card-pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
 .ac-pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px;
   font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.12em; border: 1px solid; }
 .ac-pill .dot { width: 5px; height: 5px; border-radius: 50%; }
@@ -204,8 +204,8 @@ nav.ac-top {
 .ac-pill-purple .dot { background: var(--purple); box-shadow: 0 0 5px var(--purple); }
 
 .ac-card-main { min-width: 0; }
-.ac-card-main .ac-toggle { margin-top: 16px; }
-.ac-card-main .ac-card-head { margin-bottom: 12px; }
+.ac-card-main .ac-toggle { margin-top: 12px; }
+.ac-card-main .ac-card-head { margin-bottom: 8px; }
 
 .ac-toggle summary { cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 8px;
   font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.14em; color: var(--text-2);
