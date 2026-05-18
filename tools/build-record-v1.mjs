@@ -50,6 +50,15 @@ if (!Array.isArray(archive)) {
 console.log(`[build-v1] ${archive.length} briefs loaded`);
 
 // Predictions (for scorecard)
+// Run scorer first so predictions.json is fresh before we read it.
+console.log('[build-v1] Scoring predictions...');
+try {
+  const { execSync } = await import('node:child_process');
+  execSync('node ' + path.join(__dirname, 'score-predictions.mjs'), { stdio: 'inherit' });
+} catch (e) {
+  console.error('[build-v1] Scorer failed (continuing build with stale predictions):', e.message);
+}
+
 let predictions = { predictions: [] };
 const predictionsPath = path.join(ROOT, 'record', 'data', 'predictions.json');
 if (fs.existsSync(predictionsPath)) {
