@@ -549,3 +549,101 @@ h2.ac-tile-headline { font-size: 15px; font-weight: 600; line-height: 1.3; margi
 @media (max-width: 480px) {
   .rc-briefs-grid { grid-template-columns: 1fr; }
 }
+
+
+/* ─── 72H TRACK RECORD scorecard (day page) ─── */
+.ac-scorecard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px 32px;
+  margin-top: 40px;
+}
+.ac-scorecard-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.ac-scorecard-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-1);
+  margin: 0;
+}
+.ac-scorecard-meta {
+  font-size: 13px;
+  color: var(--text-2);
+  margin: 6px 0 0;
+}
+.ac-scorecard-aggs {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.ac-agg-pill {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 8px 16px;
+  min-width: 82px;
+  text-align: center;
+  background: rgba(255,255,255,0.02);
+}
+.ac-agg-pill-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+}
+.ac-agg-pill-count {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 2px;
+  line-height: 1;
+}
+.ac-scorecard-rows {
+  border-top: 1px solid var(--border);
+}
+.ac-score-row {
+  display: grid;
+  grid-template-columns: 140px 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+.ac-score-row:last-child { border-bottom: none; }
+.ac-score-slot {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--text-3);
+}
+.ac-score-summary {
+  font-size: 14px;
+  color: var(--text-1);
+  line-height: 1.4;
+}
+.ac-score-chip {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .ac-scorecard { padding: 24px 20px; margin-top: 28px; }
+  .ac-scorecard-head { flex-direction: column; }
+  .ac-scorecard-aggs { width: 100%; justify-content: space-between; }
+  .ac-agg-pill { flex: 1; min-width: 0; }
+  .ac-score-row { grid-template-columns: 1fr auto; gap: 4px 16px; padding: 16px 0; }
+  .ac-score-slot { grid-column: 1; }
+  .ac-score-summary { grid-column: 1 / -1; order: 3; font-size: 13px; }
+  .ac-score-chip { grid-column: 2; grid-row: 1; }
+}

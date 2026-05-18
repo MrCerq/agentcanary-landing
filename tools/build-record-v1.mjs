@@ -199,6 +199,7 @@ for (let i = 0; i < allDatesSorted.length; i++) {
   // Day page
   const dayHtml = renderIndex({
     type: 'day', date, briefs, prevDate, nextDate, assetMap,
+    predictions: predictions.predictions || [],
   });
   writeFile(`record/${year}/${month}/${day}/index.html`, dayHtml);
   // Per-day social card
