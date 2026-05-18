@@ -185,6 +185,7 @@ console.log('[build-v1] /record/ (collection)');
     days,
     months,
     scorecardHtml: renderScorecard(),
+    predictions: predictions.predictions || [],
   });
   writeFile('record/index.html', html);
 }

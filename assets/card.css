@@ -653,3 +653,58 @@ h2.ac-tile-headline { font-size: 15px; font-weight: 600; line-height: 1.3; margi
   .ac-score-summary { grid-column: 1 / -1; order: 3; font-size: 13px; line-height: 1.35; }
   .ac-score-chip { grid-column: 2; grid-row: 1; }
 }
+
+
+/* ─── Per-asset hit rate table (rc collection page) ─── */
+.rc-section-sub {
+  font-size: 13px;
+  color: var(--text-2);
+  margin: 0 0 20px;
+  max-width: 760px;
+  line-height: 1.5;
+}
+.rc-asset-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.rc-asset-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.rc-asset-table th {
+  text-align: left;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}
+.rc-asset-table th.num { text-align: right; }
+.rc-asset-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  color: var(--text-2);
+}
+.rc-asset-table tr:last-child td { border-bottom: none; }
+.rc-asset-table td.num { text-align: right; font-family: 'JetBrains Mono', monospace; }
+.rc-asset-table td.num.good { color: #34d399; }
+.rc-asset-table td.num.mid { color: var(--yellow); }
+.rc-asset-table td.num.low { color: var(--text-3); }
+.rc-asset-link {
+  color: var(--text-1);
+  text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.rc-asset-link:hover { color: var(--yellow); }
+@media (max-width: 640px) {
+  .rc-asset-table th, .rc-asset-table td { padding: 10px 12px; }
+  .rc-asset-table { font-size: 13px; }
+}
