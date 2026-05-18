@@ -366,8 +366,11 @@ function extractPulseCalls(brief) {
 
 // Map raw direction tags to canonical {up, down, flat}.
 function normalizePulseDirection(d) {
-  const up = ['RISK_ON', 'IGNITION', 'ACCUMULATION', 'BREAKOUT', 'BULLISH'];
-  const down = ['RISK_OFF', 'DISTRIBUTION', 'EXHAUSTION', 'BREAKDOWN', 'BEARISH'];
+  // Enumerated against actual pulse archive (2026-02 -> 2026-05): tags used
+  // are DISTRIBUTION (50), BULL_REGIME (49), ACCUMULATION (38), RISK_OFF (31),
+  // IGNITION (26), BEAR_REGIME (23). Theoretical synonyms kept for safety.
+  const up = ['RISK_ON', 'IGNITION', 'ACCUMULATION', 'BREAKOUT', 'BULLISH', 'BULL_REGIME'];
+  const down = ['RISK_OFF', 'DISTRIBUTION', 'EXHAUSTION', 'BREAKDOWN', 'BEARISH', 'BEAR_REGIME'];
   if (up.includes(d)) return 'up';
   if (down.includes(d)) return 'down';
   if (d === 'SAME' || d === 'NEUTRAL') return 'flat';
@@ -390,24 +393,48 @@ async function scorePulse(date, briefs, briefsByDate, priceCache) {
       results.push({ ...call, dir, result: 'no_data' });
       continue;
     }
-    const cacheKey = `${call.ticker}:${date}:${date}`;
+    // Widen fetch window ±1 day — Yahoo's chart API often returns empty for
+    // exact same-day windows. Cache by widened window, find the candle that
+    // matches `date` by timestamp.
+    const wStart = (() => { const d = new Date(date + 'T00:00:00Z'); d.setDate(d.getDate() - 1); return d.toISOString().slice(0, 10); })();
+    const wEnd   = (() => { const d = new Date(date + 'T00:00:00Z'); d.setDate(d.getDate() + 1); return d.toISOString().slice(0, 10); })();
+    const cacheKey = `${call.ticker}:${wStart}:${wEnd}`;
     let prices = priceCache[cacheKey];
+    if (prices && (!prices.opens || prices.opens.length === 0)) {
+      prices = null;
+    }
     if (!prices) {
-      prices = await fetchYahooPrices(call.ticker, date, date);
+      prices = await fetchYahooPrices(call.ticker, wStart, wEnd);
       if (prices) priceCache[cacheKey] = prices;
     }
     if (!prices) {
       results.push({ ...call, dir, result: 'no_data' });
       continue;
     }
-    const validOpens = (prices.opens || []).filter(v => v != null);
-    const validCloses = prices.closes.filter(v => v != null);
-    if (validOpens.length === 0 || validCloses.length === 0) {
+    // Find the candle whose timestamp falls within `date`'s UTC day.
+    const dayStart = Math.floor(new Date(date + 'T00:00:00Z').getTime() / 1000);
+    const dayEnd   = dayStart + 86400;
+    let idx = -1;
+    for (let i = 0; i < (prices.timestamps || []).length; i++) {
+      const ts = prices.timestamps[i];
+      if (ts >= dayStart && ts < dayEnd) { idx = i; break; }
+    }
+    if (idx === -1) {
+      // No exact match — fall back to closest available candle within window.
+      const validOpens = (prices.opens || []).filter(v => v != null);
+      const validCloses = prices.closes.filter(v => v != null);
+      if (validOpens.length === 0 || validCloses.length === 0) {
+        results.push({ ...call, dir, result: 'no_data' });
+        continue;
+      }
+      idx = (prices.opens || []).findIndex(v => v != null);
+    }
+    const open = prices.opens[idx];
+    const close = prices.closes[idx];
+    if (open == null || close == null) {
       results.push({ ...call, dir, result: 'no_data' });
       continue;
     }
-    const open = validOpens[0];
-    const close = validCloses[validCloses.length - 1];
     const pctChange = (close - open) / open;
     const actualDir = pctChange > 0.005 ? 'up' : pctChange < -0.005 ? 'down' : 'flat';
     let result;

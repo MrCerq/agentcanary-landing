@@ -114,27 +114,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 79066,
+              "close": 78131.4375,
+              "pctChange": -1.18,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2223.33837890625,
+              "close": 2179.751953125,
+              "pctChange": -1.96,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 89.20050811767578,
+              "close": 86.53648376464844,
+              "pctChange": -2.99,
+              "result": "hit"
             }
           ]
         }
@@ -181,8 +197,8 @@
         "details": {
           "hits": 0,
           "partials": 0,
-          "misses": 2,
-          "noData": 1,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -207,8 +223,12 @@
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 92.14762878417969,
+              "close": 89.20035552978516,
+              "pctChange": -3.2,
+              "result": "miss"
             }
           ]
         }
@@ -255,20 +275,28 @@
         "details": {
           "hits": 0,
           "partials": 0,
-          "misses": 1,
-          "noData": 2,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 79276.9453125,
+              "close": 81051.25,
+              "pctChange": 2.24,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2257.57177734375,
+              "close": 2280.934814453125,
+              "pctChange": 1.03,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
@@ -320,25 +348,33 @@
         }
       },
       "pulse": {
-        "status": "partial",
-        "summary": "1 hit, 0 partial of 3",
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
-          "hits": 1,
+          "hits": 3,
           "partials": 0,
           "misses": 0,
-          "noData": 2,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 80476.7890625,
+              "close": 79277.1171875,
+              "pctChange": -1.49,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2274.591796875,
+              "close": 2257.576416015625,
+              "pctChange": -0.75,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
@@ -394,8 +430,8 @@
         "details": {
           "hits": 2,
           "partials": 0,
-          "misses": 0,
-          "noData": 1,
+          "misses": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -420,8 +456,12 @@
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 97.34989166259766,
+              "close": 94.28429412841797,
+              "pctChange": -3.15,
+              "result": "miss"
             }
           ]
         }
@@ -462,27 +502,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
         "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 2,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 82139.046875,
+              "close": 81728.296875,
+              "pctChange": -0.5,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2369.193359375,
+              "close": 2339.36083984375,
+              "pctChange": -1.26,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 96.42698669433594,
+              "close": 97.35015106201172,
+              "pctChange": 0.96,
+              "result": "hit"
             }
           ]
         }
@@ -600,13 +656,13 @@
         }
       },
       "pulse": {
-        "status": "miss",
-        "summary": "0/3 directional calls hit",
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
         "details": {
-          "hits": 0,
+          "hits": 1,
           "partials": 0,
           "misses": 2,
-          "noData": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -631,8 +687,12 @@
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 91.94982147216797,
+              "close": 93.14551544189453,
+              "pctChange": 1.3,
+              "result": "hit"
             }
           ]
         }
@@ -750,27 +810,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
         "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 81428.8515625,
+              "close": 80009.9921875,
+              "pctChange": -1.74,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2350.8525390625,
+              "close": 2291.107666015625,
+              "pctChange": -2.54,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 89.14566802978516,
+              "close": 88.40478515625,
+              "pctChange": -0.83,
+              "result": "miss"
             }
           ]
         }
@@ -811,27 +887,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
         "details": {
+          "hits": 2,
+          "partials": 1,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 80930.734375,
+              "close": 81427.53125,
+              "pctChange": 0.61,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 2361.290771484375,
+              "close": 2350.802001953125,
+              "pctChange": -0.44,
+              "result": "partial"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 86.31890106201172,
+              "close": 89.14501953125,
+              "pctChange": 3.27,
+              "result": "hit"
             }
           ]
         }
@@ -1104,18 +1196,22 @@
       },
       "pulse": {
         "status": "hit",
-        "summary": "2/3 crypto directional calls hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
-          "hits": 2,
+          "hits": 3,
           "partials": 0,
           "misses": 0,
-          "noData": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 78177.75,
+              "close": 78657.25,
+              "pctChange": 0.61,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
@@ -1253,13 +1349,13 @@
         }
       },
       "pulse": {
-        "status": "miss",
-        "summary": "0/3 directional calls hit",
+        "status": "partial",
+        "summary": "0 hit, 2 partial of 3",
         "details": {
           "hits": 0,
-          "partials": 1,
+          "partials": 2,
           "misses": 1,
-          "noData": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -1284,8 +1380,12 @@
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 83.0271224975586,
+              "close": 83.02375793457031,
+              "pctChange": 0,
+              "result": "partial"
             }
           ]
         }
@@ -1403,13 +1503,13 @@
         }
       },
       "pulse": {
-        "status": "partial",
-        "summary": "1 hit, 0 partial of 3",
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
-          "hits": 1,
+          "hits": 3,
           "partials": 0,
           "misses": 0,
-          "noData": 2,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -1424,14 +1524,22 @@
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2303.079833984375,
+              "close": 2289.419677734375,
+              "pctChange": -0.59,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 84.81807708740234,
+              "close": 84.03897857666016,
+              "pctChange": -0.92,
+              "result": "hit"
             }
           ]
         }
@@ -1472,27 +1580,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
         "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 78661.015625,
+              "close": 77366.625,
+              "pctChange": -1.65,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2369.841796875,
+              "close": 2303.06396484375,
+              "pctChange": -2.82,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 86.97071838378906,
+              "close": 84.81778717041016,
+              "pctChange": -2.48,
+              "result": "miss"
             }
           ]
         }
@@ -1534,18 +1658,22 @@
       },
       "pulse": {
         "status": "hit",
-        "summary": "2/3 crypto directional calls hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
-          "hits": 2,
+          "hits": 3,
           "partials": 0,
           "misses": 0,
-          "noData": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 77613.1171875,
+              "close": 78657.5390625,
+              "pctChange": 1.35,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
@@ -1683,13 +1811,13 @@
         }
       },
       "pulse": {
-        "status": "partial",
-        "summary": "1 hit, 1 partial of 3",
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
         "details": {
-          "hits": 1,
+          "hits": 2,
           "partials": 1,
           "misses": 0,
-          "noData": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -1704,8 +1832,12 @@
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2331.56884765625,
+              "close": 2315.690185546875,
+              "pctChange": -0.68,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
@@ -1757,24 +1889,32 @@
       },
       "pulse": {
         "status": "partial",
-        "summary": "1 hit, 0 partial of 3",
+        "summary": "1 hit, 1 partial of 3",
         "details": {
           "hits": 1,
-          "partials": 0,
-          "misses": 0,
-          "noData": 2,
+          "partials": 1,
+          "misses": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 78203.875,
+              "close": 78268.953125,
+              "pctChange": 0.08,
+              "result": "partial"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2376.087890625,
+              "close": 2331.513916015625,
+              "pctChange": -1.88,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
@@ -1979,27 +2119,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 73854.25,
+              "close": 75872.5234375,
+              "pctChange": 2.73,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2264.87353515625,
+              "close": 2315.21240234375,
+              "pctChange": 2.22,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 83.5799560546875,
+              "close": 85.33295440673828,
+              "pctChange": 2.1,
+              "result": "hit"
             }
           ]
         }
@@ -2122,20 +2278,28 @@
         "details": {
           "hits": 1,
           "partials": 0,
-          "misses": 0,
-          "noData": 2,
+          "misses": 2,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 77136.046875,
+              "close": 75726.2109375,
+              "pctChange": -1.83,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2421.102294921875,
+              "close": 2351.1005859375,
+              "pctChange": -2.89,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
@@ -2263,27 +2427,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "partial",
+        "summary": "1 hit, 2 partial of 3",
         "details": {
+          "hits": 1,
+          "partials": 2,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 74810.875,
+              "close": 75152.1328125,
+              "pctChange": 0.46,
+              "result": "partial"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 2359.70458984375,
+              "close": 2348.64501953125,
+              "pctChange": -0.47,
+              "result": "partial"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 84.91986083984375,
+              "close": 88.99420928955078,
+              "pctChange": 4.8,
+              "result": "hit"
             }
           ]
         }
@@ -2329,8 +2509,8 @@
         "details": {
           "hits": 0,
           "partials": 0,
-          "misses": 2,
-          "noData": 1,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -2355,8 +2535,12 @@
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 83.77422332763672,
+              "close": 84.9193344116211,
+              "pctChange": 1.37,
+              "result": "miss"
             }
           ]
         }
@@ -2479,8 +2663,8 @@
         "details": {
           "hits": 0,
           "partials": 0,
-          "misses": 2,
-          "noData": 1,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -2505,8 +2689,12 @@
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 81.53523254394531,
+              "close": 86.65656280517578,
+              "pctChange": 6.28,
+              "result": "miss"
             }
           ]
         }
@@ -2552,8 +2740,8 @@
         "details": {
           "hits": 2,
           "partials": 0,
-          "misses": 0,
-          "noData": 1,
+          "misses": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -2568,8 +2756,12 @@
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2285.43017578125,
+              "close": 2192.201171875,
+              "pctChange": -4.08,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
@@ -2620,27 +2812,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "partial",
+        "summary": "1 hit, 2 partial of 3",
         "details": {
+          "hits": 1,
+          "partials": 2,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 72976.125,
+              "close": 73054.2734375,
+              "pctChange": 0.11,
+              "result": "partial"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2245.1044921875,
+              "close": 2285.39013671875,
+              "pctChange": 1.79,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 84.82858276367188,
+              "close": 84.94876861572266,
+              "pctChange": 0.14,
+              "result": "partial"
             }
           ]
         }
@@ -2989,27 +3197,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "partial",
+        "summary": "0 hit, 2 partial of 3",
         "details": {
+          "hits": 0,
+          "partials": 2,
+          "misses": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 68982.9140625,
+              "close": 68859.828125,
+              "pctChange": -0.18,
+              "result": "partial"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 2108.935791015625,
+              "close": 2107.761474609375,
+              "pctChange": -0.06,
+              "result": "partial"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 81.8546371459961,
+              "close": 80.15157318115234,
+              "pctChange": -2.08,
+              "result": "miss"
             }
           ]
         }
@@ -3050,25 +3274,33 @@
         }
       },
       "pulse": {
-        "status": "partial",
-        "summary": "1 hit, 0 partial of 3",
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
-          "hits": 1,
+          "hits": 3,
           "partials": 0,
           "misses": 0,
-          "noData": 2,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 67291.1953125,
+              "close": 68981.8984375,
+              "pctChange": 2.51,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2065.37060546875,
+              "close": 2108.99560546875,
+              "pctChange": 2.11,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
@@ -3427,27 +3659,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
         "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 66694.5859375,
+              "close": 68233.3125,
+              "pctChange": 2.31,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2023.5206298828125,
+              "close": 2104.708251953125,
+              "pctChange": 4.01,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 82.44381713867188,
+              "close": 83.10646057128906,
+              "pctChange": 0.8,
+              "result": "miss"
             }
           ]
         }
@@ -3801,14 +4049,18 @@
         "details": {
           "hits": 0,
           "partials": 0,
-          "misses": 1,
-          "noData": 2,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 71310.1171875,
+              "close": 68791.625,
+              "pctChange": -3.53,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
@@ -3823,8 +4075,12 @@
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 91.70822143554688,
+              "close": 86.44393157958984,
+              "pctChange": -5.74,
+              "result": "miss"
             }
           ]
         }
@@ -4019,27 +4275,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
         "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 67843,
+              "close": 70914.859375,
+              "pctChange": 4.53,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2052.953125,
+              "close": 2152.14599609375,
+              "pctChange": 4.83,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 86.12869262695312,
+              "close": 91.42407989501953,
+              "pctChange": 6.15,
+              "result": "miss"
             }
           ]
         }
@@ -4470,8 +4742,8 @@
         "details": {
           "hits": 1,
           "partials": 0,
-          "misses": 1,
-          "noData": 1,
+          "misses": 2,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -4486,8 +4758,12 @@
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2351.134765625,
+              "close": 2318.053466796875,
+              "pctChange": -1.41,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
@@ -4538,27 +4814,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 72798.171875,
+              "close": 74861.0859375,
+              "pctChange": 2.83,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2177.782958984375,
+              "close": 2351.176025390625,
+              "pctChange": 7.96,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 92.25813293457031,
+              "close": 96.22372436523438,
+              "pctChange": 4.3,
+              "result": "hit"
             }
           ]
         }
@@ -4599,27 +4891,43 @@
         }
       },
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
         "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 71213.6796875,
+              "close": 72789.9140625,
+              "pctChange": 2.21,
+              "result": "hit"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2096.880859375,
+              "close": 2177.476318359375,
+              "pctChange": 3.84,
+              "result": "hit"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "up",
+              "open": 88.0704345703125,
+              "close": 92.25182342529297,
+              "pctChange": 4.75,
+              "result": "hit"
             }
           ]
         }
@@ -4644,27 +4952,43 @@
     "2026-03-14": {
       "radar": null,
       "pulse": {
-        "status": "no_data",
-        "summary": "Could not score any pulse asset",
+        "status": "partial",
+        "summary": "0 hit, 3 partial of 3",
         "details": {
+          "hits": 0,
+          "partials": 3,
+          "misses": 0,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 70965.3828125,
+              "close": 71214.625,
+              "pctChange": 0.35,
+              "result": "partial"
             },
             {
               "ticker": "ETH",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 2092.558349609375,
+              "close": 2097.086669921875,
+              "pctChange": 0.22,
+              "result": "partial"
             },
             {
               "ticker": "SOL",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 88.15412902832031,
+              "close": 88.07068634033203,
+              "pctChange": -0.09,
+              "result": "partial"
             }
           ]
         }
@@ -4931,20 +5255,28 @@
         "details": {
           "hits": 1,
           "partials": 0,
-          "misses": 0,
-          "noData": 2,
+          "misses": 2,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 68402.71875,
+              "close": 69926.921875,
+              "pctChange": 2.23,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 1992.986083984375,
+              "close": 2037.1204833984375,
+              "pctChange": 2.21,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
@@ -5000,8 +5332,8 @@
         "details": {
           "hits": 0,
           "partials": 0,
-          "misses": 1,
-          "noData": 2,
+          "misses": 3,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
@@ -5016,14 +5348,22 @@
             {
               "ticker": "ETH",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 1936.637451171875,
+              "close": 1992.938232421875,
+              "pctChange": 2.91,
+              "result": "miss"
             },
             {
               "ticker": "SOL",
               "direction1d": "BEAR_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "down",
+              "actualDir": "up",
+              "open": 81.62455749511719,
+              "close": 84.93617248535156,
+              "pctChange": 4.06,
+              "result": "miss"
             }
           ]
         }
@@ -5200,14 +5540,18 @@
         "details": {
           "hits": 2,
           "partials": 0,
-          "misses": 0,
-          "noData": 1,
+          "misses": 1,
+          "noData": 0,
           "results": [
             {
               "ticker": "BTC",
               "direction1d": "BULL_REGIME",
-              "dir": null,
-              "result": "no_data"
+              "dir": "up",
+              "actualDir": "down",
+              "open": 72712.65625,
+              "close": 70841.125,
+              "pctChange": -2.57,
+              "result": "miss"
             },
             {
               "ticker": "ETH",
@@ -5385,5 +5729,5 @@
       }
     }
   },
-  "lastScored": "2026-05-18T10:30:03.053Z"
+  "lastScored": "2026-05-18T12:26:34.572Z"
 }
