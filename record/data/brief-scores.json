@@ -1,0 +1,1610 @@
+{
+  "scores": {
+    "2026-05-18": {
+      "radar": {
+        "status": "pending",
+        "summary": "Regime OVERHEATING called — awaiting next radar",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-17": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held all day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-16": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held all day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-15": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held all day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 36.1,
+            "riskLabel": "Low"
+          },
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 36.1,
+            "riskLabel": "Low"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-14": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held all day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 38.5,
+            "riskLabel": "Low"
+          },
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": 38.5,
+            "riskLabel": "Low"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-13": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held all day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 39.5,
+            "riskLabel": null
+          },
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": 39.5,
+            "riskLabel": "Low"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-12": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 39.5,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-11": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-10": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-09": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-08": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 32.5,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-07": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 43.2,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 32.5,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-06": {
+      "radar": {
+        "status": "miss",
+        "summary": "Regime flipped: OVERHEATING → EXPANSION",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 43.8,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 43.2,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-05": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 43.8,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-04": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-03": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-02": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-05-01": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 33.8,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-30": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 22.6,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 33.8,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-29": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 23,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 22.6,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-28": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 23,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 23,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-27": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 11.8,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 23,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-26": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 11.8,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 11.8,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-25": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 8.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 11.8,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-24": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 8.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 8.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-23": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 8.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-22": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-21": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-20": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-19": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-18": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-17": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-16": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-15": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-14": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-13": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held into next day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-12": {
+      "radar": {
+        "status": "miss",
+        "summary": "Regime flipped: EXPANSION → OVERHEATING",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-11": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-10": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-09": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 25.6,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-08": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 60,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 25.6,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-07": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 26.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 60,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-06": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 42.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 26.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-05": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 42.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 42.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-04": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 47.3,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 42.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-03": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 93,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 47.3,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-02": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime EXPANSION held into next day",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 93,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 93,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-04-01": {
+      "radar": {
+        "status": "miss",
+        "summary": "Regime flipped: RECOVERY → EXPANSION",
+        "details": {
+          "morning": {
+            "phase": "RECOVERY",
+            "riskGauge": 95.2,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "EXPANSION",
+            "riskGauge": 93,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-31": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime RECOVERY held into next day",
+        "details": {
+          "morning": {
+            "phase": "RECOVERY",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "RECOVERY",
+            "riskGauge": 95.2,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-30": {
+      "radar": {
+        "status": "miss",
+        "summary": "Regime flipped: STAGFLATION → RECOVERY",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "RECOVERY",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-29": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-28": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-27": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 69.7,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-26": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 81.2,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 69.7,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-25": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 84.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 81.2,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-24": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 84.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 84.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-23": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 84.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-22": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-21": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-20": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78.7,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-19": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 77.9,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78.7,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-18": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.5,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 77.9,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-17": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 100,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.5,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-16": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.6,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 100,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-15": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.6,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.6,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-14": {
+      "radar": null,
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-13": {
+      "radar": {
+        "status": "pending",
+        "summary": "Regime STAGFLATION called — awaiting next radar",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-12": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-11": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 85,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-10": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 85,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 85,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-09": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 49.4,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 85,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-08": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 49.4,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 49.4,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-07": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime STAGFLATION held into next day",
+        "details": {
+          "morning": {
+            "phase": "STAGFLATION",
+            "riskGauge": 49.4,
+            "riskLabel": null
+          },
+          "nextDay": {
+            "phase": "STAGFLATION",
+            "riskGauge": 49.4,
+            "riskLabel": null
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-06": {
+      "radar": null,
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-05": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-04": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-03": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-02": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-03-01": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-02-28": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-02-27": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-02-26": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-02-25": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-02-24": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
+    "2026-02-23": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    }
+  },
+  "lastScored": "2026-05-18T07:02:57.442Z"
+}

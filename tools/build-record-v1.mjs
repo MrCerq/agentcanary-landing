@@ -67,6 +67,15 @@ if (fs.existsSync(predictionsPath)) {
   } catch (e) { console.error('predictions.json parse failed:', e.message); }
 }
 
+// Brief scores (radar regime grading; pulse/wrap pending steps 3/4)
+let briefScores = { scores: {} };
+const briefScoresPath = path.join(ROOT, 'record', 'data', 'brief-scores.json');
+if (fs.existsSync(briefScoresPath)) {
+  try {
+    briefScores = JSON.parse(fs.readFileSync(briefScoresPath, 'utf8'));
+  } catch (e) { console.error('brief-scores.json parse failed:', e.message); }
+}
+
 // ─── Index briefs ──────────────────────────────────────────────────
 
 // Group briefs by date for day pages
@@ -209,6 +218,7 @@ for (let i = 0; i < allDatesSorted.length; i++) {
   const dayHtml = renderIndex({
     type: 'day', date, briefs, prevDate, nextDate, assetMap,
     predictions: predictions.predictions || [],
+    briefScores: briefScores.scores || {},
   });
   writeFile(`record/${year}/${month}/${day}/index.html`, dayHtml);
   // Per-day social card

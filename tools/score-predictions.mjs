@@ -219,6 +219,144 @@ async function scorePredictions(predictions, priceCache) {
   return { scoredCount, noDataCount };
 }
 
+
+// ─── radar regime grading ───────────────────────────────────────
+
+const BRIEF_SCORES_PATH = path.join(ROOT, 'record', 'data', 'brief-scores.json');
+
+function extractRadarCall(brief) {
+  const body = brief.body || brief.content || brief.telegramText || '';
+  // Two formats live in the archive:
+  //   New (post v1): "Phase: OVERHEATING" or "Regime: OVERHEATING"
+  //   Old:           inline ". . . Risk-On · Neutral · EXPANSION · Gauge: 39.5/100"
+  let phase = body.match(/(?:Phase|Regime):\s*([A-Z_]+)/);
+  if (!phase) {
+    phase = body.match(/([A-Z]{4,})\s*·\s*Gauge:/);
+  }
+  let gauge = body.match(/Risk Gauge:\s*([\d.]+)\/100\s*\(([\w-]+)\)/);
+  if (!gauge) {
+    gauge = body.match(/Gauge:\s*([\d.]+)\/100/);  // old format, no label
+  }
+  if (!phase) return null;
+  return {
+    phase: phase[1],
+    riskGauge: gauge ? parseFloat(gauge[1]) : null,
+    riskLabel: gauge && gauge[2] ? gauge[2] : null,
+  };
+}
+
+function extractWrapRegimeCheck(brief) {
+  const body = brief.body || brief.content || brief.telegramText || '';
+  // Newer wraps have explicit "<b>REGIME CHECK</b>" section. Older ones have
+  // inline regime in the header area like radar.
+  const section = body.match(/<b>REGIME CHECK<\/b>\s*([\s\S]{0,400}?)(?=<b>|$)/i);
+  const target = section ? section[1] : body;
+  let phase = target.match(/(?:Phase|Regime):\s*([A-Z_]+)/);
+  if (!phase) {
+    phase = target.match(/([A-Z]{4,})\s*·\s*Gauge:/);
+  }
+  let gauge = target.match(/Risk Gauge:\s*([\d.]+)\/100\s*\(([\w-]+)\)/);
+  if (!gauge) {
+    gauge = target.match(/Gauge:\s*([\d.]+)\/100/);
+  }
+  if (!phase) return null;
+  return {
+    phase: phase[1],
+    riskGauge: gauge ? parseFloat(gauge[1]) : null,
+    riskLabel: gauge && gauge[2] ? gauge[2] : null,
+  };
+}
+
+function addDays(dateStr, n) {
+  const d = new Date(dateStr + 'T12:00:00Z');
+  d.setDate(d.getDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
+function scoreRadar(date, briefs, briefsByDate) {
+  const radar = briefs.find(b => b.session === 'morning');
+  if (!radar) return null;
+  const radarCall = extractRadarCall(radar);
+  if (!radarCall) {
+    return { status: 'no_data', summary: 'Could not parse radar regime call' };
+  }
+
+  // Preferred: same-day wrap REGIME CHECK (newer briefs have it, older don't).
+  const wrap = briefs.find(b => b.session === 'evening');
+  if (wrap) {
+    const wrapCheck = extractWrapRegimeCheck(wrap);
+    if (wrapCheck) {
+      const dGauge = (wrapCheck.riskGauge != null && radarCall.riskGauge != null)
+        ? Math.round((wrapCheck.riskGauge - radarCall.riskGauge) * 10) / 10
+        : null;
+      if (radarCall.phase === wrapCheck.phase) {
+        return {
+          status: 'hit',
+          summary: `Regime ${radarCall.phase} held all day`,
+          details: { morning: radarCall, wrap: wrapCheck, gaugeDelta: dGauge, source: 'same-day-wrap' },
+        };
+      }
+      return {
+        status: 'miss',
+        summary: `Regime flipped: ${radarCall.phase} \u2192 ${wrapCheck.phase}`,
+        details: { morning: radarCall, wrap: wrapCheck, source: 'same-day-wrap' },
+      };
+    }
+  }
+
+  // Fallback: compare to next-day radar (handles all old briefs).
+  const nextDate = addDays(date, 1);
+  const nextDayBriefs = briefsByDate ? briefsByDate[nextDate] : null;
+  const nextRadar = nextDayBriefs ? nextDayBriefs.find(b => b.session === 'morning') : null;
+  if (!nextRadar) {
+    return {
+      status: 'pending',
+      summary: `Regime ${radarCall.phase} called \u2014 awaiting next radar`,
+      details: { morning: radarCall, source: 'next-day-radar' },
+    };
+  }
+  const nextCall = extractRadarCall(nextRadar);
+  if (!nextCall) {
+    return {
+      status: 'no_data',
+      summary: 'Next-day radar unparseable',
+      details: { morning: radarCall, source: 'next-day-radar' },
+    };
+  }
+  if (radarCall.phase === nextCall.phase) {
+    return {
+      status: 'hit',
+      summary: `Regime ${radarCall.phase} held into next day`,
+      details: { morning: radarCall, nextDay: nextCall, source: 'next-day-radar' },
+    };
+  }
+  return {
+    status: 'miss',
+    summary: `Regime flipped: ${radarCall.phase} \u2192 ${nextCall.phase}`,
+    details: { morning: radarCall, nextDay: nextCall, source: 'next-day-radar' },
+  };
+}
+
+function scoreAllBriefs(briefs) {
+  // Group by date
+  const byDate = {};
+  for (const b of briefs) {
+    const d = b.date;
+    if (!d) continue;
+    if (!byDate[d]) byDate[d] = [];
+    byDate[d].push(b);
+  }
+  const scores = {};
+  for (const [date, dayBriefs] of Object.entries(byDate)) {
+    scores[date] = {
+      radar: scoreRadar(date, dayBriefs, byDate),
+      pulse: null,  // step 3
+      wrap: null,   // step 4
+    };
+  }
+  return scores;
+}
+
 // ─── main ───────────────────────────────────────────────────────
 
 async function main() {
@@ -263,6 +401,20 @@ async function main() {
   const noData = all.filter(p => p.result === 'no_data').length;
   console.log(`[score] totals — hit:${hits} partial:${partials} miss:${misses} pending:${pending} no_data:${noData}`);
 
+  // Score all briefs (radar regime for now; pulse/wrap pending)
+  console.log('[score] grading briefs (radar regime)...');
+  const briefScores = scoreAllBriefs(briefs);
+  const briefScoresEnvelope = {
+    scores: briefScores,
+    lastScored: new Date().toISOString(),
+  };
+  const radarStatuses = Object.values(briefScores).map(s => s.radar?.status).filter(Boolean);
+  const rHits = radarStatuses.filter(s => s === 'hit').length;
+  const rMisses = radarStatuses.filter(s => s === 'miss').length;
+  const rPending = radarStatuses.filter(s => s === 'pending').length;
+  const rNoData = radarStatuses.filter(s => s === 'no_data').length;
+  console.log(`[score] radar totals — hit:${rHits} miss:${rMisses} pending:${rPending} no_data:${rNoData}`);
+
   // Update lastScored
   predictionsData.lastScored = new Date().toISOString();
 
@@ -273,7 +425,8 @@ async function main() {
   }
   fs.writeFileSync(PREDICTIONS_PATH, JSON.stringify(predictionsData, null, 2));
   fs.writeFileSync(PRICE_CACHE_PATH, JSON.stringify(priceCache, null, 2));
-  console.log(`[score] wrote ${PREDICTIONS_PATH} + ${PRICE_CACHE_PATH}`);
+  fs.writeFileSync(BRIEF_SCORES_PATH, JSON.stringify(briefScoresEnvelope, null, 2));
+  console.log(`[score] wrote ${PREDICTIONS_PATH} + ${PRICE_CACHE_PATH} + ${BRIEF_SCORES_PATH}`);
 }
 
 main().catch((e) => {
