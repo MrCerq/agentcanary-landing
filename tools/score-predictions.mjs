@@ -224,6 +224,7 @@ async function scorePredictions(predictions, priceCache) {
 // ─── radar regime grading ───────────────────────────────────────
 
 const BRIEF_SCORES_PATH = path.join(ROOT, 'record', 'data', 'brief-scores.json');
+const SCORE_AGGREGATES_PATH = path.join(ROOT, 'record', 'data', 'score-aggregates.json');
 
 function extractRadarCall(brief) {
   const body = brief.body || brief.content || brief.telegramText || '';
@@ -546,6 +547,61 @@ async function scoreAllBriefs(briefs, priceCache) {
   return scores;
 }
 
+// ─── aggregate accuracy stats ───────────────────────────────────
+
+function computeAggregates(briefScoresMap, predictionsArr) {
+  // Per-slot stats from brief-scores: hit / partial / miss / pending / no_data
+  const slots = ['radar', 'signal', 'pulse', 'wrap'];
+  const out = { perSlot: {}, signalPredictions: null, overall: null, computedAt: new Date().toISOString() };
+
+  // Brief-scores per slot
+  for (const slot of slots) {
+    const counts = { hit: 0, partial: 0, miss: 0, pending: 0, no_data: 0, absent: 0 };
+    for (const day of Object.values(briefScoresMap)) {
+      const s = day[slot];
+      if (!s) { counts.absent++; continue; }
+      counts[s.status] = (counts[s.status] || 0) + 1;
+    }
+    const scored = counts.hit + counts.partial + counts.miss;
+    out.perSlot[slot] = {
+      ...counts,
+      scored,
+      hitRate: scored ? Math.round((counts.hit / scored) * 1000) / 10 : null,
+      weightedAccuracy: scored ? Math.round(((counts.hit + 0.5 * counts.partial) / scored) * 1000) / 10 : null,
+    };
+  }
+
+  // Signal predictions (per-target, finer-grained than per-brief)
+  const sp = { hit: 0, partial: 0, miss: 0, pending: 0, no_data: 0 };
+  for (const p of (predictionsArr || [])) {
+    if (sp[p.result] !== undefined) sp[p.result]++;
+  }
+  const spScored = sp.hit + sp.partial + sp.miss;
+  out.signalPredictions = {
+    ...sp,
+    scored: spScored,
+    hitRate: spScored ? Math.round((sp.hit / spScored) * 1000) / 10 : null,
+    weightedAccuracy: spScored ? Math.round(((sp.hit + 0.5 * sp.partial) / spScored) * 1000) / 10 : null,
+  };
+
+  // Overall: sum of all 4 slot scores + signal predictions
+  let oH = 0, oP = 0, oM = 0;
+  for (const slot of slots) {
+    oH += out.perSlot[slot].hit;
+    oP += out.perSlot[slot].partial;
+    oM += out.perSlot[slot].miss;
+  }
+  oH += sp.hit; oP += sp.partial; oM += sp.miss;
+  const oScored = oH + oP + oM;
+  out.overall = {
+    hit: oH, partial: oP, miss: oM, scored: oScored,
+    hitRate: oScored ? Math.round((oH / oScored) * 1000) / 10 : null,
+    weightedAccuracy: oScored ? Math.round(((oH + 0.5 * oP) / oScored) * 1000) / 10 : null,
+  };
+
+  return out;
+}
+
 // ─── main ───────────────────────────────────────────────────────
 
 async function main() {
@@ -618,7 +674,10 @@ async function main() {
   fs.writeFileSync(PREDICTIONS_PATH, JSON.stringify(predictionsData, null, 2));
   fs.writeFileSync(PRICE_CACHE_PATH, JSON.stringify(priceCache, null, 2));
   fs.writeFileSync(BRIEF_SCORES_PATH, JSON.stringify(briefScoresEnvelope, null, 2));
-  console.log(`[score] wrote ${PREDICTIONS_PATH} + ${PRICE_CACHE_PATH} + ${BRIEF_SCORES_PATH}`);
+  const aggregates = computeAggregates(briefScores, predictionsData.predictions);
+  fs.writeFileSync(SCORE_AGGREGATES_PATH, JSON.stringify(aggregates, null, 2));
+  console.log(`[score] aggregates: overall ${aggregates.overall.weightedAccuracy}% weighted (${aggregates.overall.hit}H/${aggregates.overall.partial}P/${aggregates.overall.miss}M scored)`);
+  console.log(`[score] wrote ${PREDICTIONS_PATH} + ${PRICE_CACHE_PATH} + ${BRIEF_SCORES_PATH} + ${SCORE_AGGREGATES_PATH}`);
 }
 
 main().catch((e) => {

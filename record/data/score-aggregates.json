@@ -1,0 +1,67 @@
+{
+  "perSlot": {
+    "radar": {
+      "hit": 66,
+      "partial": 0,
+      "miss": 4,
+      "pending": 2,
+      "no_data": 11,
+      "absent": 2,
+      "scored": 70,
+      "hitRate": 94.3,
+      "weightedAccuracy": 94.3
+    },
+    "signal": {
+      "hit": 0,
+      "partial": 0,
+      "miss": 0,
+      "pending": 0,
+      "no_data": 0,
+      "absent": 85,
+      "scored": 0,
+      "hitRate": null,
+      "weightedAccuracy": null
+    },
+    "pulse": {
+      "hit": 32,
+      "partial": 20,
+      "miss": 21,
+      "pending": 0,
+      "no_data": 10,
+      "absent": 2,
+      "scored": 73,
+      "hitRate": 43.8,
+      "weightedAccuracy": 57.5
+    },
+    "wrap": {
+      "hit": 64,
+      "partial": 0,
+      "miss": 6,
+      "pending": 2,
+      "no_data": 10,
+      "absent": 3,
+      "scored": 70,
+      "hitRate": 91.4,
+      "weightedAccuracy": 91.4
+    }
+  },
+  "signalPredictions": {
+    "hit": 119,
+    "partial": 218,
+    "miss": 257,
+    "pending": 9,
+    "no_data": 4,
+    "scored": 594,
+    "hitRate": 20,
+    "weightedAccuracy": 38.4
+  },
+  "overall": {
+    "hit": 281,
+    "partial": 238,
+    "miss": 288,
+    "scored": 807,
+    "hitRate": 34.8,
+    "weightedAccuracy": 49.6
+  },
+  "computedAt": "2026-05-18T12:29:39.284Z"
+}
