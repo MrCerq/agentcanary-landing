@@ -51,6 +51,14 @@ console.log(`[build-v1] ${archive.length} briefs loaded`);
 
 // Predictions (for scorecard)
 // Run scorer first so predictions.json is fresh before we read it.
+// Indicator-count drift check (non-blocking warning)
+try {
+  const { execSync } = await import('node:child_process');
+  execSync('node ' + path.join(__dirname, 'check-indicator-counts.mjs'), { stdio: 'inherit' });
+} catch (e) {
+  console.error('[build-v1] indicator-count check errored (non-fatal):', e.message);
+}
+
 console.log('[build-v1] Scoring predictions...');
 try {
   const { execSync } = await import('node:child_process');
