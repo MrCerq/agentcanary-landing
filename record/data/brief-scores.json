@@ -5928,7 +5928,10 @@
       }
     },
     "2026-03-06": {
-      "radar": null,
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
       "pulse": {
         "status": "hit",
         "summary": "3/3 crypto directional calls hit",
@@ -6021,8 +6024,8 @@
         }
       },
       "wrap": {
-        "status": "pending",
-        "summary": "Wrap framed STAGFLATION — awaiting next-day open",
+        "status": "no_data",
+        "summary": "Next-day radar unparseable",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -6173,5 +6176,5 @@
       }
     }
   },
-  "lastScored": "2026-05-18T12:31:51.013Z"
+  "lastScored": "2026-05-18T12:45:14.236Z"
 }

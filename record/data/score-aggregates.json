@@ -5,8 +5,8 @@
       "partial": 0,
       "miss": 4,
       "pending": 2,
-      "no_data": 11,
-      "absent": 2,
+      "no_data": 12,
+      "absent": 1,
       "scored": 70,
       "hitRate": 94.3,
       "weightedAccuracy": 94.3
@@ -37,8 +37,8 @@
       "hit": 58,
       "partial": 8,
       "miss": 4,
-      "pending": 2,
-      "no_data": 10,
+      "pending": 1,
+      "no_data": 11,
       "absent": 3,
       "scored": 70,
       "hitRate": 82.9,
@@ -63,5 +63,5 @@
     "hitRate": 34.1,
     "weightedAccuracy": 49.3
   },
-  "computedAt": "2026-05-18T12:31:51.030Z"
+  "computedAt": "2026-05-18T12:45:14.241Z"
 }

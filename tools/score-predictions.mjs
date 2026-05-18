@@ -76,7 +76,7 @@ function scoreDate(dateStr) {
 function extractPredictions(briefs) {
   const predictions = [];
   for (const b of briefs) {
-    if (b.session !== 'intelligence' && b.session !== 'signal') continue;
+    if (canonicalSlot(b) !== 'signal') continue;
     const content = b.body || b.content || b.telegramText || '';
     const blocks = content.split(/<b>SCENARIO/i);
     if (blocks.length <= 1) continue;
@@ -275,8 +275,28 @@ function addDays(dateStr, n) {
   return d.toISOString().slice(0, 10);
 }
 
+// Canonicalize brief's slot identifier. Accepts both:
+//   - v1 slot names (radar/signal/pulse/wrap) — set directly on brief.slot
+//   - legacy session names (morning/intelligence/midday/evening) — on brief.session
+// Returns the canonical v1 slot or null. Future-proofs against ac-compute
+// writer migration (when SLOT_PUBLISH_META switches from legacy to v1).
+const LEGACY_SESSION_TO_SLOT = {
+  morning: 'radar',
+  intelligence: 'signal',
+  midday: 'pulse',
+  evening: 'wrap',
+};
+const V1_SLOTS = new Set(['radar', 'signal', 'pulse', 'wrap']);
+
+function canonicalSlot(b) {
+  if (b.slot && V1_SLOTS.has(b.slot)) return b.slot;
+  if (V1_SLOTS.has(b.session)) return b.session;
+  return LEGACY_SESSION_TO_SLOT[b.session] || null;
+}
+
+
 function scoreRadar(date, briefs, briefsByDate) {
-  const radar = briefs.find(b => b.session === 'morning');
+  const radar = briefs.find(b => canonicalSlot(b) === 'radar');
   if (!radar) return null;
   const radarCall = extractRadarCall(radar);
   if (!radarCall) {
@@ -284,7 +304,7 @@ function scoreRadar(date, briefs, briefsByDate) {
   }
 
   // Preferred: same-day wrap REGIME CHECK (newer briefs have it, older don't).
-  const wrap = briefs.find(b => b.session === 'evening');
+  const wrap = briefs.find(b => canonicalSlot(b) === 'wrap');
   if (wrap) {
     const wrapCheck = extractWrapRegimeCheck(wrap);
     if (wrapCheck) {
@@ -309,7 +329,7 @@ function scoreRadar(date, briefs, briefsByDate) {
   // Fallback: compare to next-day radar (handles all old briefs).
   const nextDate = addDays(date, 1);
   const nextDayBriefs = briefsByDate ? briefsByDate[nextDate] : null;
-  const nextRadar = nextDayBriefs ? nextDayBriefs.find(b => b.session === 'morning') : null;
+  const nextRadar = nextDayBriefs ? nextDayBriefs.find(b => canonicalSlot(b) === 'radar') : null;
   if (!nextRadar) {
     return {
       status: 'pending',
@@ -379,7 +399,7 @@ function normalizePulseDirection(d) {
 }
 
 async function scorePulse(date, briefs, briefsByDate, priceCache) {
-  const pulse = briefs.find(b => b.session === 'midday');
+  const pulse = briefs.find(b => canonicalSlot(b) === 'pulse');
   if (!pulse) return null;
   const calls = extractPulseCalls(pulse);
   if (calls.length === 0) {
@@ -531,7 +551,7 @@ async function checkWrapDirection(date, wrapPhase, priceCache) {
 }
 
 async function scoreWrap(date, briefs, briefsByDate, priceCache) {
-  const wrap = briefs.find(b => b.session === 'evening');
+  const wrap = briefs.find(b => canonicalSlot(b) === 'wrap');
   if (!wrap) return null;
   const wrapCall = extractWrapRegimeOrSynthesis(wrap);
   if (!wrapCall) {
@@ -539,7 +559,7 @@ async function scoreWrap(date, briefs, briefsByDate, priceCache) {
   }
   const nextDate = addDays(date, 1);
   const nextDayBriefs = briefsByDate ? briefsByDate[nextDate] : null;
-  const nextRadar = nextDayBriefs ? nextDayBriefs.find(b => b.session === 'morning') : null;
+  const nextRadar = nextDayBriefs ? nextDayBriefs.find(b => canonicalSlot(b) === 'radar') : null;
   if (!nextRadar) {
     return {
       status: 'pending',
