@@ -146,6 +146,7 @@ function fetchYahooPrices(ticker, startDate, endDate) {
           const quotes = result.indicators?.quote?.[0];
           if (!quotes) return resolve(null);
           resolve({
+            opens: quotes.open || [],
             highs: quotes.high || [],
             lows: quotes.low || [],
             closes: quotes.close || [],
@@ -337,7 +338,168 @@ function scoreRadar(date, briefs, briefsByDate) {
   };
 }
 
-function scoreAllBriefs(briefs) {
+
+// ─── pulse directional grading ──────────────────────────────────
+
+function extractPulseCalls(brief) {
+  const body = brief.body || brief.content || brief.telegramText || '';
+  // Tolerate <b>, $, commas, anything between TICKER: and — 1d:DIRECTION
+  const calls = [];
+  const re1 = /(BTC|ETH|SOL):[^\u2014\n]{0,120}\u2014\s*1d:?\s*([A-Z_]+)/gi;
+  let m;
+  while ((m = re1.exec(body)) !== null) {
+    const t = m[1].toUpperCase();
+    if (!calls.some(c => c.ticker === t)) {
+      calls.push({ ticker: t, direction1d: m[2].toUpperCase() });
+    }
+  }
+  // Catch "(same)" cases — TICKER: ... · (same)
+  const re2 = /(BTC|ETH|SOL):[^\u00b7\n]{0,120}\u00b7\s*\(same\)/gi;
+  while ((m = re2.exec(body)) !== null) {
+    const t = m[1].toUpperCase();
+    if (!calls.some(c => c.ticker === t)) {
+      calls.push({ ticker: t, direction1d: 'SAME' });
+    }
+  }
+  return calls;
+}
+
+// Map raw direction tags to canonical {up, down, flat}.
+function normalizePulseDirection(d) {
+  const up = ['RISK_ON', 'IGNITION', 'ACCUMULATION', 'BREAKOUT', 'BULLISH'];
+  const down = ['RISK_OFF', 'DISTRIBUTION', 'EXHAUSTION', 'BREAKDOWN', 'BEARISH'];
+  if (up.includes(d)) return 'up';
+  if (down.includes(d)) return 'down';
+  if (d === 'SAME' || d === 'NEUTRAL') return 'flat';
+  return null;  // unknown tag
+}
+
+async function scorePulse(date, briefs, briefsByDate, priceCache) {
+  const pulse = briefs.find(b => b.session === 'midday');
+  if (!pulse) return null;
+  const calls = extractPulseCalls(pulse);
+  if (calls.length === 0) {
+    return { status: 'no_data', summary: 'Could not parse pulse directional calls' };
+  }
+
+  // Score each per-asset against same-day Yahoo open→close.
+  const results = [];
+  for (const call of calls) {
+    const dir = normalizePulseDirection(call.direction1d);
+    if (!dir) {
+      results.push({ ...call, dir, result: 'no_data' });
+      continue;
+    }
+    const cacheKey = `${call.ticker}:${date}:${date}`;
+    let prices = priceCache[cacheKey];
+    if (!prices) {
+      prices = await fetchYahooPrices(call.ticker, date, date);
+      if (prices) priceCache[cacheKey] = prices;
+    }
+    if (!prices) {
+      results.push({ ...call, dir, result: 'no_data' });
+      continue;
+    }
+    const validOpens = (prices.opens || []).filter(v => v != null);
+    const validCloses = prices.closes.filter(v => v != null);
+    if (validOpens.length === 0 || validCloses.length === 0) {
+      results.push({ ...call, dir, result: 'no_data' });
+      continue;
+    }
+    const open = validOpens[0];
+    const close = validCloses[validCloses.length - 1];
+    const pctChange = (close - open) / open;
+    const actualDir = pctChange > 0.005 ? 'up' : pctChange < -0.005 ? 'down' : 'flat';
+    let result;
+    if (dir === actualDir) result = 'hit';
+    else if (dir === 'flat' || actualDir === 'flat') result = 'partial';
+    else result = 'miss';  // opposite directions
+    results.push({ ticker: call.ticker, direction1d: call.direction1d, dir, actualDir, open, close, pctChange: Math.round(pctChange * 10000) / 100, result });
+  }
+
+  // Aggregate per-asset results into pulse-level grade
+  const hits = results.filter(r => r.result === 'hit').length;
+  const partials = results.filter(r => r.result === 'partial').length;
+  const misses = results.filter(r => r.result === 'miss').length;
+  const noData = results.filter(r => r.result === 'no_data').length;
+
+  if (hits + partials + misses === 0) {
+    return { status: 'no_data', summary: 'Could not score any pulse asset', details: { results } };
+  }
+
+  let status;
+  let summary;
+  if (hits >= 2) {
+    status = 'hit';
+    summary = `${hits}/${results.length} crypto directional calls hit`;
+  } else if (hits === 1 || partials >= 2) {
+    status = 'partial';
+    summary = `${hits} hit, ${partials} partial of ${results.length}`;
+  } else {
+    status = 'miss';
+    summary = `${hits}/${results.length} directional calls hit`;
+  }
+  return { status, summary, details: { hits, partials, misses, noData, results } };
+}
+
+// ─── wrap next-day-setup grading ────────────────────────────────
+
+function extractWrapRegimeOrSynthesis(brief) {
+  // Try REGIME CHECK first (newer). Fallback: scan synthesis prose for regime keywords.
+  const explicit = extractWrapRegimeCheck(brief);
+  if (explicit) return explicit;
+  const body = brief.body || brief.content || brief.telegramText || '';
+  // Look for uppercase regime token in body or "regime" mention
+  const REGIMES = ['EXPANSION', 'OVERHEATING', 'STAGFLATION', 'CONTRACTION', 'RECESSION', 'DISPLACEMENT'];
+  // Prefer first uppercase occurrence
+  const upperMatch = body.match(/\b(EXPANSION|OVERHEATING|STAGFLATION|CONTRACTION|RECESSION|DISPLACEMENT)\b/);
+  if (upperMatch) return { phase: upperMatch[1], riskGauge: null, riskLabel: null };
+  // Lower-case mention in prose (synthesis)
+  const lowerMatch = body.toLowerCase().match(/\b(expansion|overheating|stagflation|contraction|recession|displacement)\b/);
+  if (lowerMatch) return { phase: lowerMatch[1].toUpperCase(), riskGauge: null, riskLabel: null };
+  return null;
+}
+
+function scoreWrap(date, briefs, briefsByDate) {
+  const wrap = briefs.find(b => b.session === 'evening');
+  if (!wrap) return null;
+  const wrapCall = extractWrapRegimeOrSynthesis(wrap);
+  if (!wrapCall) {
+    return { status: 'no_data', summary: 'Could not extract wrap regime framing' };
+  }
+  const nextDate = addDays(date, 1);
+  const nextDayBriefs = briefsByDate ? briefsByDate[nextDate] : null;
+  const nextRadar = nextDayBriefs ? nextDayBriefs.find(b => b.session === 'morning') : null;
+  if (!nextRadar) {
+    return {
+      status: 'pending',
+      summary: `Wrap framed ${wrapCall.phase} \u2014 awaiting next-day open`,
+      details: { wrap: wrapCall },
+    };
+  }
+  const nextCall = extractRadarCall(nextRadar);
+  if (!nextCall) {
+    return {
+      status: 'no_data',
+      summary: 'Next-day radar unparseable',
+      details: { wrap: wrapCall },
+    };
+  }
+  if (wrapCall.phase === nextCall.phase) {
+    return {
+      status: 'hit',
+      summary: `Next-day open consistent with ${wrapCall.phase} framing`,
+      details: { wrap: wrapCall, nextRadar: nextCall },
+    };
+  }
+  return {
+    status: 'miss',
+    summary: `Regime flipped overnight: ${wrapCall.phase} \u2192 ${nextCall.phase}`,
+    details: { wrap: wrapCall, nextRadar: nextCall },
+  };
+}
+
+async function scoreAllBriefs(briefs, priceCache) {
   // Group by date
   const byDate = {};
   for (const b of briefs) {
@@ -350,8 +512,8 @@ function scoreAllBriefs(briefs) {
   for (const [date, dayBriefs] of Object.entries(byDate)) {
     scores[date] = {
       radar: scoreRadar(date, dayBriefs, byDate),
-      pulse: null,  // step 3
-      wrap: null,   // step 4
+      pulse: await scorePulse(date, dayBriefs, byDate, priceCache),
+      wrap: scoreWrap(date, dayBriefs, byDate),
     };
   }
   return scores;
@@ -401,19 +563,22 @@ async function main() {
   const noData = all.filter(p => p.result === 'no_data').length;
   console.log(`[score] totals — hit:${hits} partial:${partials} miss:${misses} pending:${pending} no_data:${noData}`);
 
-  // Score all briefs (radar regime for now; pulse/wrap pending)
-  console.log('[score] grading briefs (radar regime)...');
-  const briefScores = scoreAllBriefs(briefs);
+  // Score all briefs (radar regime + pulse direction + wrap next-day setup)
+  console.log('[score] grading briefs (radar + pulse + wrap)...');
+  const briefScores = await scoreAllBriefs(briefs, priceCache);
   const briefScoresEnvelope = {
     scores: briefScores,
     lastScored: new Date().toISOString(),
   };
-  const radarStatuses = Object.values(briefScores).map(s => s.radar?.status).filter(Boolean);
-  const rHits = radarStatuses.filter(s => s === 'hit').length;
-  const rMisses = radarStatuses.filter(s => s === 'miss').length;
-  const rPending = radarStatuses.filter(s => s === 'pending').length;
-  const rNoData = radarStatuses.filter(s => s === 'no_data').length;
-  console.log(`[score] radar totals — hit:${rHits} miss:${rMisses} pending:${rPending} no_data:${rNoData}`);
+  for (const slot of ['radar', 'pulse', 'wrap']) {
+    const sts = Object.values(briefScores).map(s => s[slot]?.status).filter(Boolean);
+    const h = sts.filter(s => s === 'hit').length;
+    const p = sts.filter(s => s === 'partial').length;
+    const m = sts.filter(s => s === 'miss').length;
+    const pe = sts.filter(s => s === 'pending').length;
+    const nd = sts.filter(s => s === 'no_data').length;
+    console.log(`[score] ${slot} — hit:${h} partial:${p} miss:${m} pending:${pe} no_data:${nd}`);
+  }
 
   // Update lastScored
   predictionsData.lastScored = new Date().toISOString();

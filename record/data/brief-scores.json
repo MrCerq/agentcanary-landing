@@ -35,8 +35,64 @@
           "source": "same-day-wrap"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 2 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 2,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 78133.5859375,
+              "close": 77429.3515625,
+              "pctChange": -0.9,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "SAME",
+              "dir": "flat",
+              "actualDir": "down",
+              "open": 2179.8544921875,
+              "close": 2127.645263671875,
+              "pctChange": -2.4,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "SAME",
+              "dir": "flat",
+              "actualDir": "down",
+              "open": 86.53648376464844,
+              "close": 85.1729507446289,
+              "pctChange": -1.58,
+              "result": "partial"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          }
+        }
+      }
     },
     "2026-05-16": {
       "radar": {
@@ -57,8 +113,48 @@
           "source": "same-day-wrap"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          }
+        }
+      }
     },
     "2026-05-15": {
       "radar": {
@@ -79,8 +175,60 @@
           "source": "same-day-wrap"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 2,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 81046.8671875,
+              "close": 79065.6796875,
+              "pctChange": -2.44,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2280.933349609375,
+              "close": 2223.328857421875,
+              "pctChange": -2.53,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 36.1,
+            "riskLabel": "Low"
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          }
+        }
+      }
     },
     "2026-05-14": {
       "radar": {
@@ -101,8 +249,56 @@
           "source": "same-day-wrap"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 1,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 91.08574676513672,
+              "close": 92.14872741699219,
+              "pctChange": 1.17,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "miss",
+        "summary": "Regime flipped overnight: EXPANSION → OVERHEATING",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": 38.5,
+            "riskLabel": "Low"
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 36.1,
+            "riskLabel": "Low"
+          }
+        }
+      }
     },
     "2026-05-13": {
       "radar": {
@@ -123,8 +319,56 @@
           "source": "same-day-wrap"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 0,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 94.28395080566406,
+              "close": 91.0854721069336,
+              "pctChange": -3.39,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": 39.5,
+            "riskLabel": "Low"
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 38.5,
+            "riskLabel": "Low"
+          }
+        }
+      }
     },
     "2026-05-12": {
       "radar": {
@@ -144,8 +388,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 0,
+          "misses": 0,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 81725.3515625,
+              "close": 80477.4921875,
+              "pctChange": -1.53,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2339.287109375,
+              "close": 2274.6435546875,
+              "pctChange": -2.76,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 39.5,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-11": {
       "radar": {
@@ -165,8 +461,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-10": {
       "radar": {
@@ -186,8 +522,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 80665.609375,
+              "close": 82138.9296875,
+              "pctChange": 1.83,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2326.744384765625,
+              "close": 2369.0439453125,
+              "pctChange": 1.82,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 93.14557647705078,
+              "close": 96.42698669433594,
+              "pctChange": 3.52,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-09": {
       "radar": {
@@ -207,8 +599,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 2,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 80187.7421875,
+              "close": 80664.3671875,
+              "pctChange": 0.59,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2307.069580078125,
+              "close": 2326.727294921875,
+              "pctChange": 0.85,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-08": {
       "radar": {
@@ -228,8 +672,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 80009.625,
+              "close": 80186.765625,
+              "pctChange": 0.22,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2291.07568359375,
+              "close": 2306.97216796875,
+              "pctChange": 0.69,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 88.40478515625,
+              "close": 91.94982147216797,
+              "pctChange": 4.01,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 36.5,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-07": {
       "radar": {
@@ -249,8 +749,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 32.5,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-06": {
       "radar": {
@@ -270,8 +810,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "miss",
+        "summary": "Regime flipped overnight: OVERHEATING → EXPANSION",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 43.2,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-05": {
       "radar": {
@@ -291,8 +871,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 79823.53125,
+              "close": 80927.0546875,
+              "pctChange": 1.38,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2346.4150390625,
+              "close": 2361.1826171875,
+              "pctChange": 0.63,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 84.08901977539062,
+              "close": 86.3191909790039,
+              "pctChange": 2.65,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 43.8,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-04": {
       "radar": {
@@ -312,8 +948,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 78540.2890625,
+              "close": 79827.90625,
+              "pctChange": 1.64,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2321.81640625,
+              "close": 2346.39697265625,
+              "pctChange": 1.06,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 83.89957427978516,
+              "close": 84.08985900878906,
+              "pctChange": 0.23,
+              "result": "partial"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-03": {
       "radar": {
@@ -333,8 +1025,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "0 hit, 3 partial of 3",
+        "details": {
+          "hits": 0,
+          "partials": 3,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 78656.7265625,
+              "close": 78538.2265625,
+              "pctChange": -0.15,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 2316.2109375,
+              "close": 2321.6357421875,
+              "pctChange": 0.23,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 84.27677917480469,
+              "close": 83.89957427978516,
+              "pctChange": -0.45,
+              "result": "partial"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-02": {
       "radar": {
@@ -354,8 +1102,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 0,
+          "misses": 0,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2295.04443359375,
+              "close": 2316.23193359375,
+              "pctChange": 0.92,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 83.72327423095703,
+              "close": 84.276611328125,
+              "pctChange": 0.66,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-05-01": {
       "radar": {
@@ -375,8 +1175,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 76305.0546875,
+              "close": 78179,
+              "pctChange": 2.46,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2256.344970703125,
+              "close": 2295.09375,
+              "pctChange": 1.72,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 83.02366638183594,
+              "close": 83.72350311279297,
+              "pctChange": 0.84,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 48.1,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-30": {
       "radar": {
@@ -396,8 +1252,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 1,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 75778.6328125,
+              "close": 76304.3203125,
+              "pctChange": 0.69,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 2253.484375,
+              "close": 2256.251220703125,
+              "pctChange": 0.12,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 33.8,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-29": {
       "radar": {
@@ -417,8 +1325,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 76350.6875,
+              "close": 75776.1328125,
+              "pctChange": -0.75,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2289.412109375,
+              "close": 2253.415771484375,
+              "pctChange": -1.57,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 84.0380630493164,
+              "close": 83.02687072753906,
+              "pctChange": -1.2,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 22.6,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-28": {
       "radar": {
@@ -438,8 +1402,56 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 0,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 77368.1171875,
+              "close": 76350.671875,
+              "pctChange": -1.32,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 23,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-27": {
       "radar": {
@@ -459,8 +1471,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 23,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-26": {
       "radar": {
@@ -480,8 +1532,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 0,
+          "misses": 0,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2318.906494140625,
+              "close": 2369.72900390625,
+              "pctChange": 2.19,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 86.15117645263672,
+              "close": 86.97038269042969,
+              "pctChange": 0.95,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 11.8,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-25": {
       "radar": {
@@ -501,8 +1605,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "0 hit, 3 partial of 3",
+        "details": {
+          "hits": 0,
+          "partials": 3,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 77457.2109375,
+              "close": 77612.015625,
+              "pctChange": 0.2,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 2315.741455078125,
+              "close": 2318.8291015625,
+              "pctChange": 0.13,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 86.23165130615234,
+              "close": 86.15117645263672,
+              "pctChange": -0.09,
+              "result": "partial"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 11.8,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-24": {
       "radar": {
@@ -522,8 +1682,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 1 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 1,
+          "misses": 0,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 78263.8203125,
+              "close": 77455.3125,
+              "pctChange": -1.03,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 86.14019012451172,
+              "close": 86.23188018798828,
+              "pctChange": 0.11,
+              "result": "partial"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 8.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-23": {
       "radar": {
@@ -543,8 +1755,56 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 0,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 86.91651916503906,
+              "close": 86.14105987548828,
+              "pctChange": -0.89,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 8.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-22": {
       "radar": {
@@ -564,8 +1824,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 76354.21875,
+              "close": 78203.1015625,
+              "pctChange": 2.42,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2327.96484375,
+              "close": 2376.088134765625,
+              "pctChange": 2.07,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 86.02954864501953,
+              "close": 86.91582489013672,
+              "pctChange": 1.03,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-21": {
       "radar": {
@@ -585,8 +1901,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 75872.828125,
+              "close": 76352.7734375,
+              "pctChange": 0.63,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2315.178466796875,
+              "close": 2327.970458984375,
+              "pctChange": 0.55,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 85.33198547363281,
+              "close": 86.02946472167969,
+              "pctChange": 0.82,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-20": {
       "radar": {
@@ -606,8 +1978,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-19": {
       "radar": {
@@ -627,8 +2039,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 75723.6953125,
+              "close": 73856.3515625,
+              "pctChange": -2.47,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2350.86181640625,
+              "close": 2264.9169921875,
+              "pctChange": -3.66,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 86.2026138305664,
+              "close": 83.58094787597656,
+              "pctChange": -3.04,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-18": {
       "radar": {
@@ -648,8 +2116,56 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 0,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 88.87432861328125,
+              "close": 86.20271301269531,
+              "pctChange": -3.01,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-17": {
       "radar": {
@@ -669,8 +2185,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 75164.0390625,
+              "close": 77126.875,
+              "pctChange": 2.61,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2348.85498046875,
+              "close": 2421.07177734375,
+              "pctChange": 3.07,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 88.99522399902344,
+              "close": 88.87416076660156,
+              "pctChange": -0.14,
+              "result": "partial"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-16": {
       "radar": {
@@ -690,8 +2262,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-15": {
       "radar": {
@@ -711,8 +2323,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 2,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 74182.0234375,
+              "close": 74805.078125,
+              "pctChange": 0.84,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2323.34326171875,
+              "close": 2359.43701171875,
+              "pctChange": 1.55,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-14": {
       "radar": {
@@ -732,8 +2396,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 74478.3984375,
+              "close": 74181.609375,
+              "pctChange": -0.4,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2370.314453125,
+              "close": 2323.30859375,
+              "pctChange": -1.98,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 86.65412139892578,
+              "close": 83.77462768554688,
+              "pctChange": -3.32,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-13": {
       "radar": {
@@ -753,8 +2473,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 2,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 70757.6171875,
+              "close": 74484.640625,
+              "pctChange": 5.27,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2192.33154296875,
+              "close": 2370.71484375,
+              "pctChange": 8.14,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with OVERHEATING framing",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-12": {
       "radar": {
@@ -774,8 +2546,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 0,
+          "misses": 0,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 73056.046875,
+              "close": 70753.40625,
+              "pctChange": -3.15,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 84.94941711425781,
+              "close": 81.53523254394531,
+              "pctChange": -4.02,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "miss",
+        "summary": "Regime flipped overnight: EXPANSION → OVERHEATING",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-11": {
       "radar": {
@@ -795,8 +2619,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-10": {
       "radar": {
@@ -816,8 +2680,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 71774.3671875,
+              "close": 72979.046875,
+              "pctChange": 1.68,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2189.380859375,
+              "close": 2245.148681640625,
+              "pctChange": 2.55,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 83.2974853515625,
+              "close": 84.82847595214844,
+              "pctChange": 1.84,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-09": {
       "radar": {
@@ -837,8 +2757,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 71120.5703125,
+              "close": 71767.828125,
+              "pctChange": 0.91,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 2190.33251953125,
+              "close": 2189.14404296875,
+              "pctChange": -0.05,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 82.58191680908203,
+              "close": 83.2977294921875,
+              "pctChange": 0.87,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 0,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-08": {
       "radar": {
@@ -858,8 +2834,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 71950.1484375,
+              "close": 71123.359375,
+              "pctChange": -1.15,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2242.276611328125,
+              "close": 2190.33544921875,
+              "pctChange": -2.32,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 85.64922332763672,
+              "close": 82.58169555664062,
+              "pctChange": -3.58,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 25.6,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-07": {
       "radar": {
@@ -879,8 +2911,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 68859.375,
+              "close": 71940.703125,
+              "pctChange": 4.47,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2107.784912109375,
+              "close": 2241.806640625,
+              "pctChange": 6.36,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 80.14375305175781,
+              "close": 85.64801025390625,
+              "pctChange": 6.87,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 60,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-06": {
       "radar": {
@@ -900,8 +2988,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 26.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-05": {
       "radar": {
@@ -921,8 +3049,56 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 0,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 80.80895233154297,
+              "close": 81.8544921875,
+              "pctChange": 1.29,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 42.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-04": {
       "radar": {
@@ -942,8 +3118,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 66938.6484375,
+              "close": 67290.515625,
+              "pctChange": 0.53,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2053.58447265625,
+              "close": 2065.3515625,
+              "pctChange": 0.57,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 80.3687515258789,
+              "close": 80.80838012695312,
+              "pctChange": 0.55,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 42.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-03": {
       "radar": {
@@ -963,8 +3195,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 2 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 2,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 66889.015625,
+              "close": 66931.1015625,
+              "pctChange": 0.06,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 2056.704833984375,
+              "close": 2053.38525390625,
+              "pctChange": -0.16,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 78.9513168334961,
+              "close": 80.36854553222656,
+              "pctChange": 1.8,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 47.3,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-02": {
       "radar": {
@@ -984,8 +3272,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 0,
+          "misses": 1,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 68077.8984375,
+              "close": 66888.5703125,
+              "pctChange": -1.75,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2138.7236328125,
+              "close": 2056.8525390625,
+              "pctChange": -3.83,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 81.19540405273438,
+              "close": 78.9513168334961,
+              "pctChange": -2.76,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with EXPANSION framing",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 93,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-04-01": {
       "radar": {
@@ -1005,8 +3349,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 1 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 1,
+          "misses": 1,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 68232.890625,
+              "close": 68078.5546875,
+              "pctChange": -0.23,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2104.717529296875,
+              "close": 2138.737060546875,
+              "pctChange": 1.62,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 83.10919952392578,
+              "close": 81.19525909423828,
+              "pctChange": -2.3,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "miss",
+        "summary": "Regime flipped overnight: RECESSION → EXPANSION",
+        "details": {
+          "wrap": {
+            "phase": "RECESSION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 93,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-31": {
       "radar": {
@@ -1026,8 +3426,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "miss",
+        "summary": "Regime flipped overnight: STAGFLATION → RECOVERY",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "RECOVERY",
+            "riskGauge": 95.2,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-30": {
       "radar": {
@@ -1047,8 +3487,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 65958.3515625,
+              "close": 66691.4453125,
+              "pctChange": 1.11,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 1982.5506591796875,
+              "close": 2023.514892578125,
+              "pctChange": 2.07,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 81.42201232910156,
+              "close": 82.44405364990234,
+              "pctChange": 1.26,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "miss",
+        "summary": "Regime flipped overnight: STAGFLATION → RECOVERY",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "RECOVERY",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-29": {
       "radar": {
@@ -1068,8 +3564,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 3,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 66319.6953125,
+              "close": 65954.921875,
+              "pctChange": -0.55,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 1992.69384765625,
+              "close": 1982.5596923828125,
+              "pctChange": -0.51,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 82.01568603515625,
+              "close": 81.42240142822266,
+              "pctChange": -0.72,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-28": {
       "radar": {
@@ -1089,8 +3641,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 2 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 2,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 66338.5,
+              "close": 66319.6953125,
+              "pctChange": -0.03,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 1991.283447265625,
+              "close": 1992.694580078125,
+              "pctChange": 0.07,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 83.0184555053711,
+              "close": 82.0156021118164,
+              "pctChange": -1.21,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-27": {
       "radar": {
@@ -1110,8 +3718,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 68790.8359375,
+              "close": 66338.375,
+              "pctChange": -3.57,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2059.44873046875,
+              "close": 1991.27197265625,
+              "pctChange": -3.31,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 86.4457015991211,
+              "close": 83.01882934570312,
+              "pctChange": -3.96,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 71.4,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-26": {
       "radar": {
@@ -1131,8 +3795,56 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 1,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 2168.02880859375,
+              "close": 2059.578369140625,
+              "pctChange": -5,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 69.7,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-25": {
       "radar": {
@@ -1152,8 +3864,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 70520.046875,
+              "close": 71309.8828125,
+              "pctChange": 1.12,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2155.719482421875,
+              "close": 2168.021484375,
+              "pctChange": 0.57,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 90.82242584228516,
+              "close": 91.70822143554688,
+              "pctChange": 0.98,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 81.2,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-24": {
       "radar": {
@@ -1173,8 +3941,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 70912.671875,
+              "close": 70517.859375,
+              "pctChange": -0.56,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 2152.114501953125,
+              "close": 2155.704345703125,
+              "pctChange": 0.17,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 91.42520904541016,
+              "close": 90.82242584228516,
+              "pctChange": -0.66,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 84.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-23": {
       "radar": {
@@ -1194,8 +4018,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 84.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-22": {
       "radar": {
@@ -1215,8 +4079,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 68737.4453125,
+              "close": 67845.2109375,
+              "pctChange": -1.3,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2077.201171875,
+              "close": 2053.04833984375,
+              "pctChange": -1.16,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 87.46663665771484,
+              "close": 86.12834930419922,
+              "pctChange": -1.53,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-21": {
       "radar": {
@@ -1236,8 +4156,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 0,
+          "misses": 1,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 70522.46875,
+              "close": 68711.5234375,
+              "pctChange": -2.57,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2146.7099609375,
+              "close": 2076.68994140625,
+              "pctChange": -3.26,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 89.8543701171875,
+              "close": 87.46537017822266,
+              "pctChange": -2.66,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-20": {
       "radar": {
@@ -1257,8 +4233,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 1,
+          "misses": 2,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 69911.53125,
+              "close": 70522.5859375,
+              "pctChange": 0.87,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 2137.394287109375,
+              "close": 2146.4970703125,
+              "pctChange": 0.43,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 88.91725158691406,
+              "close": 89.85356903076172,
+              "pctChange": 1.05,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 91.3,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-19": {
       "radar": {
@@ -1278,8 +4310,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 71250.3515625,
+              "close": 69912.7890625,
+              "pctChange": -1.88,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2203.478759765625,
+              "close": 2137.423828125,
+              "pctChange": -3,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 90.06442260742188,
+              "close": 88.9178466796875,
+              "pctChange": -1.27,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78.7,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-18": {
       "radar": {
@@ -1299,8 +4387,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 73936.8515625,
+              "close": 71245.578125,
+              "pctChange": -3.64,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2318.556884765625,
+              "close": 2203.671630859375,
+              "pctChange": -4.96,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 94.70464324951172,
+              "close": 90.06571960449219,
+              "pctChange": -4.9,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 77.9,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-17": {
       "radar": {
@@ -1320,8 +4464,60 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 1,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 74855.296875,
+              "close": 73922.4765625,
+              "pctChange": -1.25,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 96.22423553466797,
+              "close": 94.70597076416016,
+              "pctChange": -1.58,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.5,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-16": {
       "radar": {
@@ -1341,8 +4537,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 100,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-15": {
       "radar": {
@@ -1362,13 +4598,93 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.6,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-14": {
       "radar": null,
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not score any pulse asset",
+        "details": {
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 93.6,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-13": {
       "radar": {
@@ -1383,8 +4699,59 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 70497.046875,
+              "close": 70968.265625,
+              "pctChange": 0.67,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2073.289306640625,
+              "close": 2092.5634765625,
+              "pctChange": 0.93,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 86.86770629882812,
+              "close": 88.15328979492188,
+              "pctChange": 1.48,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "pending",
+        "summary": "Wrap framed STAGFLATION — awaiting next-day open",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-12": {
       "radar": {
@@ -1404,8 +4771,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "0 hit, 2 partial of 3",
+        "details": {
+          "hits": 0,
+          "partials": 2,
+          "misses": 1,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 70209.765625,
+              "close": 70493.4609375,
+              "pctChange": 0.4,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 2051.7666015625,
+              "close": 2073.13623046875,
+              "pctChange": 1.04,
+              "result": "miss"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 86.56668090820312,
+              "close": 86.86779022216797,
+              "pctChange": 0.35,
+              "result": "partial"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-11": {
       "radar": {
@@ -1425,8 +4848,64 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 1,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 69931.25,
+              "close": 70204.8828125,
+              "pctChange": 0.39,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 2037.1212158203125,
+              "close": 2051.5732421875,
+              "pctChange": 0.71,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 85.8381576538086,
+              "close": 86.56493377685547,
+              "pctChange": 0.85,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 78,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-10": {
       "radar": {
@@ -1446,8 +4925,56 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 0 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 0,
+          "misses": 0,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 84.93749237060547,
+              "close": 85.83822631835938,
+              "pctChange": 1.06,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 85,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-09": {
       "radar": {
@@ -1467,8 +4994,56 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "miss",
+        "summary": "0/3 directional calls hit",
+        "details": {
+          "hits": 0,
+          "partials": 0,
+          "misses": 1,
+          "noData": 2,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "up",
+              "open": 65969.5859375,
+              "close": 68402.3828125,
+              "pctChange": 3.69,
+              "result": "miss"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "BEAR_REGIME",
+              "dir": null,
+              "result": "no_data"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 85,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-08": {
       "radar": {
@@ -1509,12 +5084,109 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 1 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 1,
+          "misses": 1,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 68136.6875,
+              "close": 67272.59375,
+              "pctChange": -1.27,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 1978.6905517578125,
+              "close": 1969.4554443359375,
+              "pctChange": -0.47,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "down",
+              "open": 84.68055725097656,
+              "close": 83.1799545288086,
+              "pctChange": -1.77,
+              "result": "miss"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "hit",
+        "summary": "Next-day open consistent with STAGFLATION framing",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          },
+          "nextRadar": {
+            "phase": "STAGFLATION",
+            "riskGauge": 49.4,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-06": {
       "radar": null,
-      "pulse": null,
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 70842.15625,
+              "close": 68136.4921875,
+              "pctChange": -3.82,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2072.025634765625,
+              "close": 1978.751220703125,
+              "pctChange": -4.5,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 88.69347381591797,
+              "close": 84.68180084228516,
+              "pctChange": -4.52,
+              "result": "hit"
+            }
+          ]
+        }
+      },
       "wrap": null
     },
     "2026-03-05": {
@@ -1522,89 +5194,196 @@
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "hit",
+        "summary": "2/3 crypto directional calls hit",
+        "details": {
+          "hits": 2,
+          "partials": 0,
+          "misses": 0,
+          "noData": 1,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BULL_REGIME",
+              "dir": null,
+              "result": "no_data"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 2126.560546875,
+              "close": 2071.60546875,
+              "pctChange": -2.58,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "DISTRIBUTION",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 90.83426666259766,
+              "close": 88.69110870361328,
+              "pctChange": -2.36,
+              "result": "hit"
+            }
+          ]
+        }
+      },
+      "wrap": {
+        "status": "pending",
+        "summary": "Wrap framed STAGFLATION — awaiting next-day open",
+        "details": {
+          "wrap": {
+            "phase": "STAGFLATION",
+            "riskGauge": null,
+            "riskLabel": null
+          }
+        }
+      }
     },
     "2026-03-04": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-03-03": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-03-02": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-03-01": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-02-28": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-02-27": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-02-26": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-02-25": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-02-24": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-02-23": {
       "radar": {
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
-      "wrap": null
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     }
   },
-  "lastScored": "2026-05-18T07:02:57.442Z"
+  "lastScored": "2026-05-18T07:27:00.620Z"
 }
