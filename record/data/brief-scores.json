@@ -79,7 +79,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -90,7 +90,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 13.8,
             "riskLabel": "Calm"
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -157,7 +160,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -168,7 +171,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 13.8,
             "riskLabel": "Calm"
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -235,7 +241,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -246,7 +252,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 13.8,
             "riskLabel": "Calm"
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -313,7 +322,7 @@
       },
       "wrap": {
         "status": "miss",
-        "summary": "Regime flipped overnight: EXPANSION → OVERHEATING",
+        "summary": "Regime flipped + price direction off (EXPANSION→OVERHEATING, SPY -0.85%)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -324,7 +333,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 36.1,
             "riskLabel": "Low"
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_off",
+            "gapPct": -0.85,
+            "wrapClose": 748.1699829101562,
+            "nextOpen": 741.7899780273438
+          },
+          "regimeMatched": false,
+          "directionMatched": false
         }
       }
     },
@@ -391,7 +409,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held + SPY overnight +0.18% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -402,7 +420,16 @@
             "phase": "EXPANSION",
             "riskGauge": 38.5,
             "riskLabel": "Low"
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.18,
+            "wrapClose": 742.3099975585938,
+            "nextOpen": 743.6500244140625
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -468,7 +495,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held + SPY overnight +0.04% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -479,7 +506,16 @@
             "phase": "EXPANSION",
             "riskGauge": 39.5,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.04,
+            "wrapClose": 738.1799926757812,
+            "nextOpen": 738.469970703125
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -544,8 +580,8 @@
         }
       },
       "wrap": {
-        "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "status": "partial",
+        "summary": "Regime held but SPY overnight -0.33% — contradicts risk_on bias",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -556,7 +592,16 @@
             "phase": "EXPANSION",
             "riskGauge": 36.5,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_off",
+            "gapPct": -0.33,
+            "wrapClose": 739.2999877929688,
+            "nextOpen": 736.8900146484375
+          },
+          "regimeMatched": true,
+          "directionMatched": false
         }
       }
     },
@@ -622,7 +667,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -633,7 +678,10 @@
             "phase": "EXPANSION",
             "riskGauge": 36.5,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -699,7 +747,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -710,7 +758,10 @@
             "phase": "EXPANSION",
             "riskGauge": 36.5,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -776,7 +827,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -787,7 +838,10 @@
             "phase": "EXPANSION",
             "riskGauge": 36.5,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -853,7 +907,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held + SPY overnight +0.46% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -864,7 +918,16 @@
             "phase": "EXPANSION",
             "riskGauge": 32.5,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.46,
+            "wrapClose": 731.5800170898438,
+            "nextOpen": 734.9299926757812
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -929,8 +992,8 @@
         }
       },
       "wrap": {
-        "status": "miss",
-        "summary": "Regime flipped overnight: OVERHEATING → EXPANSION",
+        "status": "partial",
+        "summary": "Regime flipped OVERHEATING→EXPANSION but price direction flat held",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -941,7 +1004,16 @@
             "phase": "EXPANSION",
             "riskGauge": 43.2,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.17,
+            "wrapClose": 733.8300170898438,
+            "nextOpen": 735.0499877929688
+          },
+          "regimeMatched": false,
+          "directionMatched": true
         }
       }
     },
@@ -1007,7 +1079,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.61% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1018,7 +1090,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 43.8,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.61,
+            "wrapClose": 723.77001953125,
+            "nextOpen": 728.1599731445312
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -1084,7 +1165,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.52% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1095,7 +1176,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 48.1,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.52,
+            "wrapClose": 718.010009765625,
+            "nextOpen": 721.77001953125
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -1161,7 +1251,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1172,7 +1262,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 48.1,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -1238,7 +1331,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1249,7 +1342,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 48.1,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -1315,7 +1411,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1326,7 +1422,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 48.1,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -1392,7 +1491,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.36% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1403,7 +1502,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 33.8,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.36,
+            "wrapClose": 718.6599731445312,
+            "nextOpen": 721.25
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -1469,7 +1577,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.43% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1480,7 +1588,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 22.6,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.43,
+            "wrapClose": 711.5800170898438,
+            "nextOpen": 714.6300048828125
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -1546,7 +1663,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight -0.1% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1557,7 +1674,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 23,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": -0.1,
+            "wrapClose": 711.6900024414062,
+            "nextOpen": 711
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -1622,8 +1748,8 @@
         }
       },
       "wrap": {
-        "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "status": "partial",
+        "summary": "Regime held but SPY overnight -0.47% — contradicts risk_on bias",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1634,7 +1760,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 23,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_off",
+            "gapPct": -0.47,
+            "wrapClose": 715.1699829101562,
+            "nextOpen": 711.8200073242188
+          },
+          "regimeMatched": true,
+          "directionMatched": false
         }
       }
     },
@@ -1700,7 +1835,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1711,7 +1846,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 11.8,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -1777,7 +1915,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1788,7 +1926,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 11.8,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -1854,7 +1995,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1865,7 +2006,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 8.9,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -1931,7 +2075,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.32% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -1942,7 +2086,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 8.9,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.32,
+            "wrapClose": 708.4500122070312,
+            "nextOpen": 710.75
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2008,7 +2161,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight -0.24% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2019,7 +2172,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": -0.24,
+            "wrapClose": 711.2100219726562,
+            "nextOpen": 709.5
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2085,7 +2247,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.72% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2096,7 +2258,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.72,
+            "wrapClose": 704.0800170898438,
+            "nextOpen": 709.1500244140625
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2162,7 +2333,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.22% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2173,7 +2344,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.22,
+            "wrapClose": 708.719970703125,
+            "nextOpen": 710.280029296875
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2239,7 +2419,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2250,7 +2430,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -2316,7 +2499,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2327,7 +2510,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -2393,7 +2579,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2404,7 +2590,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -2470,7 +2659,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.64% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2481,7 +2670,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 0.64,
+            "wrapClose": 701.6599731445312,
+            "nextOpen": 706.1400146484375
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2547,7 +2745,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.16% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2558,7 +2756,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.16,
+            "wrapClose": 699.9400024414062,
+            "nextOpen": 701.0599975585938
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2624,7 +2831,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.12% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2635,7 +2842,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.12,
+            "wrapClose": 694.4600219726562,
+            "nextOpen": 695.260009765625
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2701,7 +2917,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with OVERHEATING framing",
+        "summary": "Regime OVERHEATING held + SPY overnight +0.23% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
@@ -2712,7 +2928,16 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.23,
+            "wrapClose": 686.0999755859375,
+            "nextOpen": 687.6900024414062
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -2789,7 +3014,10 @@
             "phase": "OVERHEATING",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": false,
+          "directionMatched": null
         }
       }
     },
@@ -2855,7 +3083,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -2866,7 +3094,10 @@
             "phase": "EXPANSION",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -2932,7 +3163,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -2943,7 +3174,10 @@
             "phase": "EXPANSION",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -3009,7 +3243,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held + SPY overnight +0.21% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3020,7 +3254,16 @@
             "phase": "EXPANSION",
             "riskGauge": 0,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": 0.21,
+            "wrapClose": 679.9099731445312,
+            "nextOpen": 681.3200073242188
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -3086,7 +3329,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held + SPY overnight -0.17% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3097,7 +3340,16 @@
             "phase": "EXPANSION",
             "riskGauge": 25.6,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "flat",
+            "gapPct": -0.17,
+            "wrapClose": 676.010009765625,
+            "nextOpen": 674.8400268554688
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -3163,7 +3415,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held + SPY overnight +2.6% consistent with risk_on",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3174,7 +3426,16 @@
             "phase": "EXPANSION",
             "riskGauge": 60,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_on",
+            "gapPct": 2.6,
+            "wrapClose": 659.219970703125,
+            "nextOpen": 676.3900146484375
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -3239,8 +3500,8 @@
         }
       },
       "wrap": {
-        "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "status": "partial",
+        "summary": "Regime held but SPY overnight -0.35% — contradicts risk_on bias",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3251,7 +3512,16 @@
             "phase": "EXPANSION",
             "riskGauge": 26.9,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_on",
+            "actual": "risk_off",
+            "gapPct": -0.35,
+            "wrapClose": 658.9299926757812,
+            "nextOpen": 656.6500244140625
+          },
+          "regimeMatched": true,
+          "directionMatched": false
         }
       }
     },
@@ -3317,7 +3587,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3328,7 +3598,10 @@
             "phase": "EXPANSION",
             "riskGauge": 42.9,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -3394,7 +3667,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3405,7 +3678,10 @@
             "phase": "EXPANSION",
             "riskGauge": 42.9,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -3471,7 +3747,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3482,7 +3758,10 @@
             "phase": "EXPANSION",
             "riskGauge": 47.3,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -3548,7 +3827,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with EXPANSION framing",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
@@ -3559,7 +3838,10 @@
             "phase": "EXPANSION",
             "riskGauge": 93,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -3624,8 +3906,8 @@
         }
       },
       "wrap": {
-        "status": "miss",
-        "summary": "Regime flipped overnight: RECESSION → EXPANSION",
+        "status": "partial",
+        "summary": "Regime flipped RECESSION→EXPANSION but price direction risk_off held",
         "details": {
           "wrap": {
             "phase": "RECESSION",
@@ -3636,7 +3918,16 @@
             "phase": "EXPANSION",
             "riskGauge": 93,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -1.35,
+            "wrapClose": 655.239990234375,
+            "nextOpen": 646.4199829101562
+          },
+          "regimeMatched": false,
+          "directionMatched": true
         }
       }
     },
@@ -3702,7 +3993,7 @@
       },
       "wrap": {
         "status": "miss",
-        "summary": "Regime flipped overnight: STAGFLATION → RECOVERY",
+        "summary": "Regime flipped + price direction off (STAGFLATION→RECOVERY, SPY +0.55%)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -3713,7 +4004,16 @@
             "phase": "RECOVERY",
             "riskGauge": 95.2,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_on",
+            "gapPct": 0.55,
+            "wrapClose": 650.3400268554688,
+            "nextOpen": 653.9000244140625
+          },
+          "regimeMatched": false,
+          "directionMatched": false
         }
       }
     },
@@ -3779,7 +4079,7 @@
       },
       "wrap": {
         "status": "miss",
-        "summary": "Regime flipped overnight: STAGFLATION → RECOVERY",
+        "summary": "Regime flipped + price direction off (STAGFLATION→RECOVERY, SPY +1.1%)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -3790,7 +4090,16 @@
             "phase": "RECOVERY",
             "riskGauge": 71.4,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_on",
+            "gapPct": 1.1,
+            "wrapClose": 631.969970703125,
+            "nextOpen": 638.9400024414062
+          },
+          "regimeMatched": false,
+          "directionMatched": false
         }
       }
     },
@@ -3856,7 +4165,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -3867,7 +4176,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 71.4,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -3933,7 +4245,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -3944,7 +4256,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 71.4,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -4010,7 +4325,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4021,7 +4336,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 71.4,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -4087,7 +4405,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.4% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4098,7 +4416,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 69.7,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -0.4,
+            "wrapClose": 645.0900268554688,
+            "nextOpen": 642.5
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -4164,7 +4491,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.72% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4175,7 +4502,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 81.2,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -0.72,
+            "wrapClose": 656.8200073242188,
+            "nextOpen": 652.0599975585938
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -4240,8 +4576,8 @@
         }
       },
       "wrap": {
-        "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "status": "partial",
+        "summary": "Regime held but SPY overnight +0.84% — contradicts risk_off bias",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4252,7 +4588,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 84.9,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_on",
+            "gapPct": 0.84,
+            "wrapClose": 653.1799926757812,
+            "nextOpen": 658.6699829101562
+          },
+          "regimeMatched": true,
+          "directionMatched": false
         }
       }
     },
@@ -4318,7 +4663,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.62% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4329,7 +4674,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 84.9,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -0.62,
+            "wrapClose": 655.3800048828125,
+            "nextOpen": 651.3200073242188
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -4395,7 +4749,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4406,7 +4760,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 91.3,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -4472,7 +4829,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4483,7 +4840,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 91.3,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -4549,7 +4909,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4560,7 +4920,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 91.3,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -4626,7 +4989,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.5% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4637,7 +5000,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 78.7,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -0.5,
+            "wrapClose": 659.7999877929688,
+            "nextOpen": 656.510009765625
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -4703,7 +5075,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.67% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4714,7 +5086,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 77.9,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -0.67,
+            "wrapClose": 661.4299926757812,
+            "nextOpen": 656.969970703125
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -4780,7 +5161,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.36% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4791,7 +5172,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 93.5,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -0.36,
+            "wrapClose": 670.7899780273438,
+            "nextOpen": 668.3599853515625
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -4856,8 +5246,8 @@
         }
       },
       "wrap": {
-        "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "status": "partial",
+        "summary": "Regime held but SPY overnight +0.5% — contradicts risk_off bias",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4868,7 +5258,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 100,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_on",
+            "gapPct": 0.5,
+            "wrapClose": 669.030029296875,
+            "nextOpen": 672.3900146484375
+          },
+          "regimeMatched": true,
+          "directionMatched": false
         }
       }
     },
@@ -4934,7 +5333,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -4945,7 +5344,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 93.6,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -4995,7 +5397,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -5006,7 +5408,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 93.6,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -5138,8 +5543,8 @@
         }
       },
       "wrap": {
-        "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "status": "partial",
+        "summary": "Regime held but SPY overnight +0.48% — contradicts risk_off bias",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -5150,7 +5555,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 78,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_on",
+            "gapPct": 0.48,
+            "wrapClose": 666.0599975585938,
+            "nextOpen": 669.27001953125
+          },
+          "regimeMatched": true,
+          "directionMatched": false
         }
       }
     },
@@ -5216,7 +5630,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.76% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -5227,7 +5641,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 78,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "risk_off",
+            "gapPct": -0.76,
+            "wrapClose": 676.3300170898438,
+            "nextOpen": 671.1599731445312
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -5293,7 +5716,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight +0.06% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -5304,7 +5727,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 85,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "flat",
+            "gapPct": 0.06,
+            "wrapClose": 677.1799926757812,
+            "nextOpen": 677.5800170898438
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -5370,7 +5802,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held + SPY overnight -0.08% consistent with risk_off",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -5381,7 +5813,16 @@
             "phase": "STAGFLATION",
             "riskGauge": 85,
             "riskLabel": null
-          }
+          },
+          "direction": {
+            "bias": "risk_off",
+            "actual": "flat",
+            "gapPct": -0.08,
+            "wrapClose": 678.27001953125,
+            "nextOpen": 677.719970703125
+          },
+          "regimeMatched": true,
+          "directionMatched": true
         }
       }
     },
@@ -5468,7 +5909,7 @@
       },
       "wrap": {
         "status": "hit",
-        "summary": "Next-day open consistent with STAGFLATION framing",
+        "summary": "Regime STAGFLATION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "STAGFLATION",
@@ -5479,7 +5920,10 @@
             "phase": "STAGFLATION",
             "riskGauge": 49.4,
             "riskLabel": null
-          }
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -5729,5 +6173,5 @@
       }
     }
   },
-  "lastScored": "2026-05-18T12:29:39.278Z"
+  "lastScored": "2026-05-18T12:31:51.013Z"
 }

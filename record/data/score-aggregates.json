@@ -34,15 +34,15 @@
       "weightedAccuracy": 57.5
     },
     "wrap": {
-      "hit": 64,
-      "partial": 0,
-      "miss": 6,
+      "hit": 58,
+      "partial": 8,
+      "miss": 4,
       "pending": 2,
       "no_data": 10,
       "absent": 3,
       "scored": 70,
-      "hitRate": 91.4,
-      "weightedAccuracy": 91.4
+      "hitRate": 82.9,
+      "weightedAccuracy": 88.6
     }
   },
   "signalPredictions": {
@@ -56,12 +56,12 @@
     "weightedAccuracy": 38.4
   },
   "overall": {
-    "hit": 281,
-    "partial": 238,
-    "miss": 288,
+    "hit": 275,
+    "partial": 246,
+    "miss": 286,
     "scored": 807,
-    "hitRate": 34.8,
-    "weightedAccuracy": 49.6
+    "hitRate": 34.1,
+    "weightedAccuracy": 49.3
   },
-  "computedAt": "2026-05-18T12:29:39.284Z"
+  "computedAt": "2026-05-18T12:31:51.030Z"
 }

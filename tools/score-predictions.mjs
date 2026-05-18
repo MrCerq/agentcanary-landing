@@ -488,7 +488,49 @@ function extractWrapRegimeOrSynthesis(brief) {
   return null;
 }
 
-function scoreWrap(date, briefs, briefsByDate) {
+function regimeRiskBias(phase) {
+  // Map regime → risk-on/risk-off bias. Used for wrap's directional axis.
+  const riskOn = ['EXPANSION', 'OVERHEATING'];
+  const riskOff = ['STAGFLATION', 'RECESSION', 'CONTRACTION', 'DISPLACEMENT'];
+  if (riskOn.includes(phase)) return 'risk_on';
+  if (riskOff.includes(phase)) return 'risk_off';
+  return null;
+}
+
+async function checkWrapDirection(date, wrapPhase, priceCache) {
+  // Fetch SPY for wrap day + next day, compute overnight gap, compare to bias.
+  const bias = regimeRiskBias(wrapPhase);
+  if (!bias) return null;
+  const nextDate = addDays(date, 1);
+  const wStart = (() => { const d = new Date(date + 'T00:00:00Z'); d.setDate(d.getDate() - 1); return d.toISOString().slice(0, 10); })();
+  const wEnd   = (() => { const d = new Date(date + 'T00:00:00Z'); d.setDate(d.getDate() + 3); return d.toISOString().slice(0, 10); })();
+  const cacheKey = `SPY:${wStart}:${wEnd}`;
+  let prices = priceCache[cacheKey];
+  if (prices && (!prices.opens || prices.opens.length === 0)) prices = null;
+  if (!prices) {
+    prices = await fetchYahooPrices('SPY', wStart, wEnd);
+    if (prices) priceCache[cacheKey] = prices;
+  }
+  if (!prices) return null;
+  const wrapDayStart = Math.floor(new Date(date + 'T00:00:00Z').getTime() / 1000);
+  const nextDayStart = Math.floor(new Date(nextDate + 'T00:00:00Z').getTime() / 1000);
+  let wrapIdx = -1, nextIdx = -1;
+  for (let i = 0; i < (prices.timestamps || []).length; i++) {
+    const ts = prices.timestamps[i];
+    if (ts >= wrapDayStart && ts < wrapDayStart + 86400) wrapIdx = i;
+    if (ts >= nextDayStart && ts < nextDayStart + 86400) nextIdx = i;
+  }
+  if (wrapIdx === -1 || nextIdx === -1) return null;
+  const wrapClose = prices.closes[wrapIdx];
+  const nextOpen = prices.opens[nextIdx];
+  if (wrapClose == null || nextOpen == null) return null;
+  const gap = (nextOpen - wrapClose) / wrapClose;
+  const gapPct = Math.round(gap * 10000) / 100;
+  const actual = gap > 0.003 ? 'risk_on' : gap < -0.003 ? 'risk_off' : 'flat';
+  return { bias, actual, gapPct, wrapClose, nextOpen };
+}
+
+async function scoreWrap(date, briefs, briefsByDate, priceCache) {
   const wrap = briefs.find(b => b.session === 'evening');
   if (!wrap) return null;
   const wrapCall = extractWrapRegimeOrSynthesis(wrap);
@@ -513,17 +555,42 @@ function scoreWrap(date, briefs, briefsByDate) {
       details: { wrap: wrapCall },
     };
   }
-  if (wrapCall.phase === nextCall.phase) {
-    return {
-      status: 'hit',
-      summary: `Next-day open consistent with ${wrapCall.phase} framing`,
-      details: { wrap: wrapCall, nextRadar: nextCall },
-    };
+  const regimeMatched = wrapCall.phase === nextCall.phase;
+  // Directional axis: compare wrap's regime bias to SPY overnight gap
+  const direction = await checkWrapDirection(date, wrapCall.phase, priceCache);
+  const directionMatched = direction
+    ? (direction.bias === direction.actual || direction.actual === 'flat')
+    : null;
+
+  // Combine: HIT if both pass (or direction unavailable + regime held).
+  // PARTIAL if exactly one passes. MISS if both fail.
+  let status, summary;
+  if (directionMatched === null) {
+    // No price data — fall back to regime-only
+    if (regimeMatched) {
+      status = 'hit';
+      summary = `Regime ${wrapCall.phase} held overnight (no SPY data for direction check)`;
+    } else {
+      status = 'miss';
+      summary = `Regime flipped overnight: ${wrapCall.phase} \u2192 ${nextCall.phase}`;
+    }
+  } else if (regimeMatched && directionMatched) {
+    status = 'hit';
+    summary = `Regime ${wrapCall.phase} held + SPY overnight ${direction.gapPct >= 0 ? '+' : ''}${direction.gapPct}% consistent with ${direction.bias}`;
+  } else if (regimeMatched && !directionMatched) {
+    status = 'partial';
+    summary = `Regime held but SPY overnight ${direction.gapPct >= 0 ? '+' : ''}${direction.gapPct}% \u2014 contradicts ${direction.bias} bias`;
+  } else if (!regimeMatched && directionMatched) {
+    status = 'partial';
+    summary = `Regime flipped ${wrapCall.phase}\u2192${nextCall.phase} but price direction ${direction.actual} held`;
+  } else {
+    status = 'miss';
+    summary = `Regime flipped + price direction off (${wrapCall.phase}\u2192${nextCall.phase}, SPY ${direction.gapPct >= 0 ? '+' : ''}${direction.gapPct}%)`;
   }
   return {
-    status: 'miss',
-    summary: `Regime flipped overnight: ${wrapCall.phase} \u2192 ${nextCall.phase}`,
-    details: { wrap: wrapCall, nextRadar: nextCall },
+    status,
+    summary,
+    details: { wrap: wrapCall, nextRadar: nextCall, direction, regimeMatched, directionMatched },
   };
 }
 
@@ -541,7 +608,7 @@ async function scoreAllBriefs(briefs, priceCache) {
     scores[date] = {
       radar: scoreRadar(date, dayBriefs, byDate),
       pulse: await scorePulse(date, dayBriefs, byDate, priceCache),
-      wrap: scoreWrap(date, dayBriefs, byDate),
+      wrap: await scoreWrap(date, dayBriefs, byDate, priceCache),
     };
   }
   return scores;
