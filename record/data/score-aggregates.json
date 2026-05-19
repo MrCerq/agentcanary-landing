@@ -63,7 +63,7 @@
     "hitRate": 34,
     "weightedAccuracy": 49.2
   },
-  "computedAt": "2026-05-19T16:30:03.625Z",
+  "computedAt": "2026-05-19T19:30:05.846Z",
   "brierStats": {
     "n": 603,
     "meanBrier": 0.1621,
