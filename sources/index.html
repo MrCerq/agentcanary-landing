@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Source Contracts — 28 datasets, freshness SLAs | AgentCanary</title>
+<meta name="description" content="What every AgentCanary data source promises: cadence, freshness SLA, origin. 28 datasets, public reference for agent gating logic.">
+<link rel="canonical" href="https://agentcanary.ai/sources/">
+<meta property="og:title" content="Source Contracts — AgentCanary">
+<meta property="og:description" content="What every AgentCanary data source promises: cadence, freshness SLA, origin. 28 datasets.">
+<meta property="og:url" content="https://agentcanary.ai/sources/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://agentcanary.ai/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="ai-info" href="/llms.txt">
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/card.css">
+<style>
+  .src-hero { max-width: 880px; margin: 32px auto 24px; padding: 0 24px; }
+  .src-hero h1 { font-size: 38px; line-height: 1.1; margin: 8px 0 16px; }
+  .src-hero h1 em { font-family: 'Iowan Old Style', 'Charter', Georgia, serif; font-style: italic; font-weight: 500; }
+  .src-hero p { color: var(--text-2); font-size: 16px; line-height: 1.55; }
+  .src-eyebrow { font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:0.18em; text-transform:uppercase; color: var(--yellow); }
+  .src-cat { max-width: 1100px; margin: 32px auto; padding: 0 24px; }
+  .src-cat-h { font-size: 20px; margin: 0 0 12px; color: var(--text-1); }
+  .src-table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+  .src-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .src-table th { text-align: left; font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-3); padding: 14px 16px; border-bottom: 1px solid var(--border); }
+  .src-table th.num { text-align: right; }
+  .src-table td { padding: 12px 16px; border-bottom: 1px solid rgba(255,255,255,0.03); color: var(--text-2); vertical-align: top; }
+  .src-table tr:last-child td { border-bottom: none; }
+  .src-table td.num { text-align: right; font-family: 'JetBrains Mono', monospace; color: var(--text-1); }
+  .src-table code.ds-name { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--yellow); background: transparent; padding: 0; }
+  .src-table td.src { font-size: 13px; color: var(--text-3); }
+  .src-footer { max-width: 880px; margin: 48px auto; padding: 0 24px; color: var(--text-3); font-size: 14px; line-height: 1.6; }
+  .src-footer code { font-family: 'JetBrains Mono', monospace; background: rgba(255,255,255,0.04); padding: 2px 6px; border-radius: 4px; }
+  @media (max-width: 640px) {
+    .src-hero h1 { font-size: 28px; }
+    .src-table th, .src-table td { padding: 10px 12px; }
+    .src-table { font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+<div class="grid-bg"></div>
+<div class="glow-tl"></div>
+<div class="glow-br"></div>
+<nav class="ac-top">
+  <div class="ac-nav-inner">
+    <a href="/" class="ac-brand" aria-label="AgentCanary home">Agent<span class="ac-brand-accent">Canary</span></a>
+    <div class="ac-nav-links">
+      <a href="/record/">The Record</a>
+      <a href="/sources/">Sources</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="https://api.agentcanary.ai/api/docs">Docs</a>
+      <a href="https://github.com/MrCerq">GitHub</a>
+    </div>
+  </div>
+</nav>
+<div class="ac-breadcrumb-row">
+  <div class="ac-crumb"><a href="/">AgentCanary</a><span class="slash">/</span><span class="cur">Source Contracts</span></div>
+</div>
+
+<header class="src-hero">
+  <div class="src-eyebrow">Public reference · agent gating logic</div>
+  <h1>Source <em>contracts.</em></h1>
+  <p>28 datasets, each with a published freshness SLA. <strong>Fresh</strong> = age &lt; SLA. <strong>Degraded</strong> = SLA ≤ age &lt; 2×SLA. <strong>Stale</strong> = age ≥ 2×SLA.</p>
+  <p>Every <code style="font-family:'JetBrains Mono',monospace;background:rgba(255,255,255,0.04);padding:2px 6px;border-radius:4px">/api/data/:name</code> response includes a <code style="font-family:'JetBrains Mono',monospace;background:rgba(255,255,255,0.04);padding:2px 6px;border-radius:4px">provenance</code> field with <code style="font-family:'JetBrains Mono',monospace;background:rgba(255,255,255,0.04);padding:2px 6px;border-radius:4px">observed_at</code>, <code style="font-family:'JetBrains Mono',monospace;background:rgba(255,255,255,0.04);padding:2px 6px;border-radius:4px">age_seconds</code>, and <code style="font-family:'JetBrains Mono',monospace;background:rgba(255,255,255,0.04);padding:2px 6px;border-radius:4px">freshness_status</code>. Agents should gate on status before consuming.</p>
+</header>
+
+<section class="src-cat">
+  <h2 class="src-cat-h">Prices</h2>
+  <div class="src-table-wrap">
+    <table class="src-table">
+      <thead><tr>
+        <th>Dataset</th>
+        <th>What it covers</th>
+        <th class="num">Freshness SLA</th>
+        <th>Origin</th>
+      </tr></thead>
+      <tbody><tr>
+            <td><code class="ds-name">realtime-prices</code></td>
+            <td>Real-time crypto prices (100+ tokens)</td>
+            <td class="num"><strong>5min</strong></td>
+            <td class="src">CoinGecko + exchange APIs</td>
+          </tr><tr>
+            <td><code class="ds-name">yahoo-quotes</code></td>
+            <td>SPY/QQQ/VIX/TLT/DXY + 16 sector ETFs</td>
+            <td class="num"><strong>15min</strong></td>
+            <td class="src">Yahoo Finance</td>
+          </tr><tr>
+            <td><code class="ds-name">exchange-volumes</code></td>
+            <td>Exchange trading volumes</td>
+            <td class="num"><strong>30min</strong></td>
+            <td class="src">CoinGecko aggregated</td>
+          </tr></tbody>
+    </table>
+  </div>
+</section><section class="src-cat">
+  <h2 class="src-cat-h">Macro</h2>
+  <div class="src-table-wrap">
+    <table class="src-table">
+      <thead><tr>
+        <th>Dataset</th>
+        <th>What it covers</th>
+        <th class="num">Freshness SLA</th>
+        <th>Origin</th>
+      </tr></thead>
+      <tbody><tr>
+            <td><code class="ds-name">macro-snapshot</code></td>
+            <td>30+ FRED series, regime, risk gauge, z-scores</td>
+            <td class="num"><strong>6h</strong></td>
+            <td class="src">FRED (St. Louis Fed)</td>
+          </tr><tr>
+            <td><code class="ds-name">vix-term-structure</code></td>
+            <td>VIX term structure (contango/backwardation)</td>
+            <td class="num"><strong>15min</strong></td>
+            <td class="src">CBOE via Yahoo</td>
+          </tr><tr>
+            <td><code class="ds-name">cftc-cot</code></td>
+            <td>CFTC Commitment of Traders positioning</td>
+            <td class="num"><strong>7d</strong></td>
+            <td class="src">CFTC weekly Friday</td>
+          </tr><tr>
+            <td><code class="ds-name">treasury-stats</code></td>
+            <td>US Treasury statistics</td>
+            <td class="num"><strong>1d</strong></td>
+            <td class="src">US Treasury Direct</td>
+          </tr></tbody>
+    </table>
+  </div>
+</section><section class="src-cat">
+  <h2 class="src-cat-h">Crypto</h2>
+  <div class="src-table-wrap">
+    <table class="src-table">
+      <thead><tr>
+        <th>Dataset</th>
+        <th>What it covers</th>
+        <th class="num">Freshness SLA</th>
+        <th>Origin</th>
+      </tr></thead>
+      <tbody><tr>
+            <td><code class="ds-name">whale-alerts</code></td>
+            <td>Large on-chain transactions ($10M+ filter)</td>
+            <td class="num"><strong>30min</strong></td>
+            <td class="src">Whale Alert + Hyperliquid</td>
+          </tr><tr>
+            <td><code class="ds-name">funding-rates</code></td>
+            <td>Perpetual funding rates across exchanges</td>
+            <td class="num"><strong>1h</strong></td>
+            <td class="src">Coinglass + exchange APIs</td>
+          </tr><tr>
+            <td><code class="ds-name">btc-etf-flows</code></td>
+            <td>Bitcoin ETF daily flows (IBIT, FBTC, etc.)</td>
+            <td class="num"><strong>1d</strong></td>
+            <td class="src">ETF issuer disclosures</td>
+          </tr><tr>
+            <td><code class="ds-name">fear-greed</code></td>
+            <td>Crypto Fear & Greed Index</td>
+            <td class="num"><strong>1d</strong></td>
+            <td class="src">Alternative.me</td>
+          </tr><tr>
+            <td><code class="ds-name">coingecko-global</code></td>
+            <td>Global crypto market cap + dominance</td>
+            <td class="num"><strong>1h</strong></td>
+            <td class="src">CoinGecko global</td>
+          </tr><tr>
+            <td><code class="ds-name">btc-options</code></td>
+            <td>BTC options open interest + put/call</td>
+            <td class="num"><strong>1h</strong></td>
+            <td class="src">Deribit + Coinglass</td>
+          </tr><tr>
+            <td><code class="ds-name">coinglass-v2</code></td>
+            <td>Aggregate open interest + liquidations</td>
+            <td class="num"><strong>6h</strong></td>
+            <td class="src">Coinglass v2 API</td>
+          </tr></tbody>
+    </table>
+  </div>
+</section><section class="src-cat">
+  <h2 class="src-cat-h">News & Sentiment</h2>
+  <div class="src-table-wrap">
+    <table class="src-table">
+      <thead><tr>
+        <th>Dataset</th>
+        <th>What it covers</th>
+        <th class="num">Freshness SLA</th>
+        <th>Origin</th>
+      </tr></thead>
+      <tbody><tr>
+            <td><code class="ds-name">breaking-news</code></td>
+            <td>Breaking financial news + sentiment scores</td>
+            <td class="num"><strong>30min</strong></td>
+            <td class="src">Multiple wire aggregators</td>
+          </tr><tr>
+            <td><code class="ds-name">newsletters</code></td>
+            <td>Curated newsletter intelligence digest</td>
+            <td class="num"><strong>12h</strong></td>
+            <td class="src">AC-curated sources</td>
+          </tr><tr>
+            <td><code class="ds-name">reddit-sentiment</code></td>
+            <td>Cross-subreddit sentiment (14 subs)</td>
+            <td class="num"><strong>6h</strong></td>
+            <td class="src">Reddit API</td>
+          </tr><tr>
+            <td><code class="ds-name">narrative-scores</code></td>
+            <td>Narrative crowding scores (21 themes)</td>
+            <td class="num"><strong>1d</strong></td>
+            <td class="src">AC proprietary scoring</td>
+          </tr></tbody>
+    </table>
+  </div>
+</section><section class="src-cat">
+  <h2 class="src-cat-h">Institutional</h2>
+  <div class="src-table-wrap">
+    <table class="src-table">
+      <thead><tr>
+        <th>Dataset</th>
+        <th>What it covers</th>
+        <th class="num">Freshness SLA</th>
+        <th>Origin</th>
+      </tr></thead>
+      <tbody><tr>
+            <td><code class="ds-name">sec-13f</code></td>
+            <td>SEC 13F institutional holdings</td>
+            <td class="num"><strong>7d</strong></td>
+            <td class="src">SEC EDGAR</td>
+          </tr><tr>
+            <td><code class="ds-name">wikipedia-pageviews</code></td>
+            <td>Wikipedia pageview trends for assets</td>
+            <td class="num"><strong>1d</strong></td>
+            <td class="src">Wikipedia REST API</td>
+          </tr><tr>
+            <td><code class="ds-name">short-interest</code></td>
+            <td>Short interest data for 39 stocks</td>
+            <td class="num"><strong>14d</strong></td>
+            <td class="src">FINRA bi-monthly</td>
+          </tr><tr>
+            <td><code class="ds-name">etf-fund-flows</code></td>
+            <td>ETF fund flow estimates (44 ETFs)</td>
+            <td class="num"><strong>1d</strong></td>
+            <td class="src">Issuer + exchange disclosures</td>
+          </tr><tr>
+            <td><code class="ds-name">etf-options-pcr</code></td>
+            <td>Options put/call ratios (42 ETFs)</td>
+            <td class="num"><strong>1d</strong></td>
+            <td class="src">CBOE + exchange options data</td>
+          </tr></tbody>
+    </table>
+  </div>
+</section><section class="src-cat">
+  <h2 class="src-cat-h">Calendar & Proprietary</h2>
+  <div class="src-table-wrap">
+    <table class="src-table">
+      <thead><tr>
+        <th>Dataset</th>
+        <th>What it covers</th>
+        <th class="num">Freshness SLA</th>
+        <th>Origin</th>
+      </tr></thead>
+      <tbody><tr>
+            <td><code class="ds-name">financial-calendar</code></td>
+            <td>High-impact economic events</td>
+            <td class="num"><strong>6h</strong></td>
+            <td class="src">AC-curated + Investing.com</td>
+          </tr><tr>
+            <td><code class="ds-name">polymarket</code></td>
+            <td>Polymarket prediction market events</td>
+            <td class="num"><strong>1h</strong></td>
+            <td class="src">Polymarket public API</td>
+          </tr><tr>
+            <td><code class="ds-name">decision-engine</code></td>
+            <td>Multi-factor crypto re-entry scoring (AC)</td>
+            <td class="num"><strong>6h</strong></td>
+            <td class="src">AC proprietary</td>
+          </tr><tr>
+            <td><code class="ds-name">risk-summary</code></td>
+            <td>Daily risk assessment (AC)</td>
+            <td class="num"><strong>6h</strong></td>
+            <td class="src">AC proprietary</td>
+          </tr><tr>
+            <td><code class="ds-name">scenario-probs</code></td>
+            <td>6 macro scenario probabilities (AC)</td>
+            <td class="num"><strong>6h</strong></td>
+            <td class="src">AC proprietary</td>
+          </tr></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="src-footer">
+  <h2 style="font-size:18px;color:var(--text-1);margin-bottom:8px">Reading provenance from /api/data</h2>
+  <p>Each dataset response includes:</p>
+  <pre style="background:rgba(255,255,255,0.03);padding:14px 16px;border-radius:8px;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.5;overflow-x:auto;color:var(--text-1)">{
+  "dataset": "yahoo-quotes",
+  "date": "2026-05-19",
+  "data": { ... },
+  "provenance": {
+    "source": "yahoo-quotes",
+    "observed_at": "2026-05-19T06:00:00.000Z",
+    "age_seconds": 420,
+    "sla_seconds": 900,
+    "freshness_status": "fresh"
+  }
+}</pre>
+  <p style="margin-top:16px">Defensive agent pattern: skip the dataset if <code>freshness_status === "stale"</code>; degrade gracefully (warn, use fallback, or proceed with annotation) if <code>"degraded"</code>; consume freely if <code>"fresh"</code>.</p>
+  <p style="margin-top:16px;color:var(--text-3)">If you spot drift between published SLA and observed behavior, that is a bug — file at <a href="https://github.com/MrCerq/agentcanary-backend/issues" style="color:var(--yellow)">github.com/MrCerq/agentcanary-backend/issues</a>.</p>
+</section>
+
+</body>
+</html>

@@ -18,6 +18,7 @@ outcomes for every prediction — never retroactively hidden.
 - **Per-brief permalinks**: agentcanary.ai/record/{YYYY/MM/DD}/{slot}/ — each brief is individually addressable (slot ∈ radar, signal, pulse, wrap)
 - **RSS Feed**: agentcanary.ai/record/rss.xml (RSS 2.0)
 - **Structured Data**: JSON-LD on every page
+- **Source Contracts**: agentcanary.ai/sources/ — per-dataset freshness SLAs + provenance shape (gating reference for agents)
 
 ## Getting an API Key
 POST https://api.agentcanary.ai/api/keys/create
