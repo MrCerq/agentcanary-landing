@@ -12,10 +12,12 @@
       "rangeMax": 779.24,
       "impliedMove": "+3-5%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 741.42,
+      "actualLow": 733.39,
+      "actualClose": 738.65,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-05-16-A-QQQ",
@@ -29,10 +31,12 @@
       "rangeMax": 770.42,
       "impliedMove": "+5-9%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 712.07,
+      "actualLow": 698.85,
+      "actualClose": 705.88,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-05-16-A-BTC",
@@ -46,10 +50,12 @@
       "rangeMax": 87688,
       "impliedMove": "+5-11%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 79173.5,
+      "actualLow": 76502.55,
+      "actualClose": 76673.05,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-05-16-B-BTC",
@@ -63,10 +69,12 @@
       "rangeMax": 91976,
       "impliedMove": "+9-16%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 79173.5,
+      "actualLow": 76502.55,
+      "actualClose": 76673.05,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-16-B-TLT",
@@ -80,10 +88,12 @@
       "rangeMax": 82.75,
       "impliedMove": "-3 to -1%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 83.92,
+      "actualLow": 83.32,
+      "actualClose": 83.56,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-16-B-QQQ",
@@ -97,10 +107,12 @@
       "rangeMax": 701.24,
       "impliedMove": "-3 to -1%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "hit",
+      "actualHigh": 712.07,
+      "actualLow": 698.85,
+      "actualClose": 705.88,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-16-C-TLT",
@@ -114,10 +126,12 @@
       "rangeMax": 88.19,
       "impliedMove": "+3-5%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 83.92,
+      "actualLow": 83.32,
+      "actualClose": 83.56,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-05-16-C-DXY",
@@ -131,10 +145,12 @@
       "rangeMax": 102.5,
       "impliedMove": "+1-3%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 99.41,
+      "actualLow": 98.95,
+      "actualClose": 99.1,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-05-16-C-SPY",
@@ -148,10 +164,12 @@
       "rangeMax": 723.14,
       "impliedMove": "-3 to -2%",
       "scoreDate": "2026-05-19",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 741.42,
+      "actualLow": 733.39,
+      "actualClose": 738.65,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-05-15-A-SPY",
@@ -168,7 +186,9 @@
       "result": "miss",
       "actualHigh": 743.46,
       "actualLow": 737.96,
-      "actualClose": 739.17
+      "actualClose": 739.17,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-15-A-QQQ",
@@ -185,7 +205,9 @@
       "result": "miss",
       "actualHigh": 715.13,
       "actualLow": 705.55,
-      "actualClose": 708.93
+      "actualClose": 708.93,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-15-A-BTC",
@@ -202,7 +224,9 @@
       "result": "miss",
       "actualHigh": 81634.84,
       "actualLow": 76709.78,
-      "actualClose": 76972.54
+      "actualClose": 76972.54,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-15-B-BTC",
@@ -219,7 +243,9 @@
       "result": "miss",
       "actualHigh": 81634.84,
       "actualLow": 76709.78,
-      "actualClose": 76972.54
+      "actualClose": 76972.54,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-15-B-TLT",
@@ -236,7 +262,9 @@
       "result": "hit",
       "actualHigh": 83.97,
       "actualLow": 83.59,
-      "actualClose": 83.66
+      "actualClose": 83.66,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-15-B-QQQ",
@@ -253,7 +281,9 @@
       "result": "hit",
       "actualHigh": 715.13,
       "actualLow": 705.55,
-      "actualClose": 708.93
+      "actualClose": 708.93,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-15-C-TLT",
@@ -270,7 +300,9 @@
       "result": "miss",
       "actualHigh": 83.97,
       "actualLow": 83.59,
-      "actualClose": 83.66
+      "actualClose": 83.66,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-15-C-DXY",
@@ -287,7 +319,9 @@
       "result": "partial",
       "actualHigh": 99.41,
       "actualLow": 98.92,
-      "actualClose": 99.33
+      "actualClose": 99.33,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-15-C-SPY",
@@ -304,7 +338,9 @@
       "result": "partial",
       "actualHigh": 743.46,
       "actualLow": 737.96,
-      "actualClose": 739.17
+      "actualClose": 739.17,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-14-A-SPY",
@@ -321,7 +357,9 @@
       "result": "miss",
       "actualHigh": 749.53,
       "actualLow": 737.96,
-      "actualClose": 739.17
+      "actualClose": 739.17,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-14-A-QQQ",
@@ -338,7 +376,9 @@
       "result": "miss",
       "actualHigh": 722.03,
       "actualLow": 705.55,
-      "actualClose": 708.93
+      "actualClose": 708.93,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-14-A-BTC",
@@ -355,7 +395,9 @@
       "result": "miss",
       "actualHigh": 82005.96,
       "actualLow": 77883.91,
-      "actualClose": 77958.25
+      "actualClose": 77958.25,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-14-B-BTC",
@@ -372,7 +414,9 @@
       "result": "miss",
       "actualHigh": 82005.96,
       "actualLow": 77883.91,
-      "actualClose": 77958.25
+      "actualClose": 77958.25,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-14-B-TLT",
@@ -389,7 +433,9 @@
       "result": "hit",
       "actualHigh": 85.38,
       "actualLow": 83.59,
-      "actualClose": 83.66
+      "actualClose": 83.66,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-14-B-QQQ",
@@ -406,7 +452,9 @@
       "result": "hit",
       "actualHigh": 722.03,
       "actualLow": 705.55,
-      "actualClose": 708.93
+      "actualClose": 708.93,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-14-C-TLT",
@@ -423,7 +471,9 @@
       "result": "miss",
       "actualHigh": 85.38,
       "actualLow": 83.59,
-      "actualClose": 83.66
+      "actualClose": 83.66,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-14-C-DXY",
@@ -440,7 +490,9 @@
       "result": "partial",
       "actualHigh": 99.32,
       "actualLow": 98.42,
-      "actualClose": 99.27
+      "actualClose": 99.27,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-14-C-SPY",
@@ -457,7 +509,9 @@
       "result": "partial",
       "actualHigh": 749.53,
       "actualLow": 737.96,
-      "actualClose": 739.17
+      "actualClose": 739.17,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-13-A-SPY",
@@ -474,7 +528,9 @@
       "result": "miss",
       "actualHigh": 749.53,
       "actualLow": 735.47,
-      "actualClose": 739.17
+      "actualClose": 739.17,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-13-A-QQQ",
@@ -491,7 +547,9 @@
       "result": "miss",
       "actualHigh": 722.03,
       "actualLow": 704.83,
-      "actualClose": 708.93
+      "actualClose": 708.93,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-13-A-BTC",
@@ -508,7 +566,9 @@
       "result": "miss",
       "actualHigh": 82005.96,
       "actualLow": 78725.51,
-      "actualClose": 78984.97
+      "actualClose": 78984.97,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-13-B-BTC",
@@ -525,7 +585,9 @@
       "result": "miss",
       "actualHigh": 82005.96,
       "actualLow": 78725.51,
-      "actualClose": 78984.97
+      "actualClose": 78984.97,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-13-B-TLT",
@@ -542,7 +604,9 @@
       "result": "hit",
       "actualHigh": 85.38,
       "actualLow": 83.59,
-      "actualClose": 83.66
+      "actualClose": 83.66,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-13-B-QQQ",
@@ -559,7 +623,9 @@
       "result": "partial",
       "actualHigh": 722.03,
       "actualLow": 704.83,
-      "actualClose": 708.93
+      "actualClose": 708.93,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-13-C-TLT",
@@ -576,7 +642,9 @@
       "result": "miss",
       "actualHigh": 85.38,
       "actualLow": 83.59,
-      "actualClose": 83.66
+      "actualClose": 83.66,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-13-C-DXY",
@@ -593,7 +661,9 @@
       "result": "partial",
       "actualHigh": 99.32,
       "actualLow": 98.26,
-      "actualClose": 99.27
+      "actualClose": 99.27,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-13-C-SPY",
@@ -610,7 +680,9 @@
       "result": "partial",
       "actualHigh": 749.53,
       "actualLow": 735.47,
-      "actualClose": 739.17
+      "actualClose": 739.17,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-12-A-SPY",
@@ -627,7 +699,9 @@
       "result": "partial",
       "actualHigh": 749.53,
       "actualLow": 731.83,
-      "actualClose": 748.17
+      "actualClose": 748.17,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-12-A-QQQ",
@@ -644,7 +718,9 @@
       "result": "partial",
       "actualHigh": 722.03,
       "actualLow": 696.64,
-      "actualClose": 719.79
+      "actualClose": 719.79,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-12-A-BTC",
@@ -661,7 +737,9 @@
       "result": "partial",
       "actualHigh": 81753.03,
       "actualLow": 78725.51,
-      "actualClose": 81375.31
+      "actualClose": 81375.31,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-12-B-BTC",
@@ -678,7 +756,9 @@
       "result": "partial",
       "actualHigh": 81753.03,
       "actualLow": 78725.51,
-      "actualClose": 81375.31
+      "actualClose": 81375.31,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-12-B-TLT",
@@ -695,7 +775,9 @@
       "result": "hit",
       "actualHigh": 85.38,
       "actualLow": 84.59,
-      "actualClose": 84.92
+      "actualClose": 84.92,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-12-B-QQQ",
@@ -712,7 +794,9 @@
       "result": "hit",
       "actualHigh": 722.03,
       "actualLow": 696.64,
-      "actualClose": 719.79
+      "actualClose": 719.79,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-12-C-TLT",
@@ -729,7 +813,9 @@
       "result": "miss",
       "actualHigh": 85.38,
       "actualLow": 84.59,
-      "actualClose": 84.92
+      "actualClose": 84.92,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-12-C-DXY",
@@ -746,7 +832,9 @@
       "result": "partial",
       "actualHigh": 99.03,
       "actualLow": 97.95,
-      "actualClose": 99.02
+      "actualClose": 99.02,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-12-C-SPY",
@@ -763,7 +851,9 @@
       "result": "miss",
       "actualHigh": 749.53,
       "actualLow": 731.83,
-      "actualClose": 748.17
+      "actualClose": 748.17,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-11-A-SPY",
@@ -780,7 +870,9 @@
       "result": "partial",
       "actualHigh": 743.9,
       "actualLow": 731.83,
-      "actualClose": 742.31
+      "actualClose": 742.31,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-11-A-QQQ",
@@ -797,7 +889,9 @@
       "result": "partial",
       "actualHigh": 716.65,
       "actualLow": 696.64,
-      "actualClose": 714.71
+      "actualClose": 714.71,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-11-A-BTC",
@@ -814,7 +908,9 @@
       "result": "miss",
       "actualHigh": 82326.23,
       "actualLow": 79283.34,
-      "actualClose": 79520.78
+      "actualClose": 79520.78,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-11-B-BTC",
@@ -831,7 +927,9 @@
       "result": "miss",
       "actualHigh": 82326.23,
       "actualLow": 79283.34,
-      "actualClose": 79520.78
+      "actualClose": 79520.78,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-11-B-TLT",
@@ -848,7 +946,9 @@
       "result": "hit",
       "actualHigh": 85.92,
       "actualLow": 84.59,
-      "actualClose": 84.8
+      "actualClose": 84.8,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-11-B-QQQ",
@@ -865,7 +965,9 @@
       "result": "hit",
       "actualHigh": 716.65,
       "actualLow": 696.64,
-      "actualClose": 714.71
+      "actualClose": 714.71,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-11-C-TLT",
@@ -882,7 +984,9 @@
       "result": "miss",
       "actualHigh": 85.92,
       "actualLow": 84.59,
-      "actualClose": 84.8
+      "actualClose": 84.8,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-11-C-DXY",
@@ -899,7 +1003,9 @@
       "result": "partial",
       "actualHigh": 98.48,
       "actualLow": 97.85,
-      "actualClose": 98.46
+      "actualClose": 98.46,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-11-C-SPY",
@@ -916,7 +1022,9 @@
       "result": "miss",
       "actualHigh": 743.9,
       "actualLow": 731.83,
-      "actualClose": 742.31
+      "actualClose": 742.31,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-10-A-SPY",
@@ -933,7 +1041,9 @@
       "result": "miss",
       "actualHigh": 740.79,
       "actualLow": 731.83,
-      "actualClose": 738.18
+      "actualClose": 738.18,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-10-A-QQQ",
@@ -950,7 +1060,9 @@
       "result": "miss",
       "actualHigh": 714.59,
       "actualLow": 696.66,
-      "actualClose": 707.24
+      "actualClose": 707.24,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-10-A-BTC",
@@ -967,7 +1079,9 @@
       "result": "miss",
       "actualHigh": 82430.17,
       "actualLow": 80274.13,
-      "actualClose": 81049.87
+      "actualClose": 81049.87,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-10-B-BTC",
@@ -984,7 +1098,9 @@
       "result": "miss",
       "actualHigh": 82430.17,
       "actualLow": 80274.13,
-      "actualClose": 81049.87
+      "actualClose": 81049.87,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-10-B-TLT",
@@ -1001,7 +1117,9 @@
       "result": "hit",
       "actualHigh": 85.92,
       "actualLow": 84.92,
-      "actualClose": 84.99
+      "actualClose": 84.99,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-10-B-QQQ",
@@ -1018,7 +1136,9 @@
       "result": "hit",
       "actualHigh": 714.59,
       "actualLow": 696.66,
-      "actualClose": 707.24
+      "actualClose": 707.24,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-10-C-TLT",
@@ -1035,7 +1155,9 @@
       "result": "miss",
       "actualHigh": 85.92,
       "actualLow": 84.92,
-      "actualClose": 84.99
+      "actualClose": 84.99,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-10-C-DXY",
@@ -1052,7 +1174,9 @@
       "result": "partial",
       "actualHigh": 98.36,
       "actualLow": 97.85,
-      "actualClose": 98.35
+      "actualClose": 98.35,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-10-C-SPY",
@@ -1069,7 +1193,9 @@
       "result": "partial",
       "actualHigh": 740.79,
       "actualLow": 731.83,
-      "actualClose": 738.18
+      "actualClose": 738.18,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-09-A-SPY",
@@ -1086,7 +1212,9 @@
       "result": "miss",
       "actualHigh": 740.75,
       "actualLow": 736.45,
-      "actualClose": 739.3
+      "actualClose": 739.3,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-09-A-QQQ",
@@ -1103,7 +1231,9 @@
       "result": "miss",
       "actualHigh": 714.59,
       "actualLow": 708.91,
-      "actualClose": 713.29
+      "actualClose": 713.29,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-09-A-BTC",
@@ -1120,7 +1250,9 @@
       "result": "miss",
       "actualHigh": 82430.17,
       "actualLow": 80119.93,
-      "actualClose": 81355.5
+      "actualClose": 81355.5,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-09-B-SPY",
@@ -1137,7 +1269,9 @@
       "result": "partial",
       "actualHigh": 740.75,
       "actualLow": 736.45,
-      "actualClose": 739.3
+      "actualClose": 739.3,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-09-B-TLT",
@@ -1154,7 +1288,9 @@
       "result": "partial",
       "actualHigh": 85.92,
       "actualLow": 85.49,
-      "actualClose": 85.56
+      "actualClose": 85.56,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-09-B-DXY",
@@ -1171,7 +1307,9 @@
       "result": "partial",
       "actualHigh": 98.15,
       "actualLow": 97.85,
-      "actualClose": 98.09
+      "actualClose": 98.09,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-09-C-BTC",
@@ -1188,7 +1326,9 @@
       "result": "partial",
       "actualHigh": 82430.17,
       "actualLow": 80119.93,
-      "actualClose": 81355.5
+      "actualClose": 81355.5,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-09-C-ETH",
@@ -1205,7 +1345,9 @@
       "result": "miss",
       "actualHigh": 2381.26,
       "actualLow": 2300.54,
-      "actualClose": 2322.21
+      "actualClose": 2322.21,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-09-C-QQQ",
@@ -1222,7 +1364,9 @@
       "result": "hit",
       "actualHigh": 714.59,
       "actualLow": 708.91,
-      "actualClose": 713.29
+      "actualClose": 713.29,
+      "probability": 0.26,
+      "brier_score": 0.5476
     },
     {
       "id": "2026-05-08-A-SPY",
@@ -1239,7 +1383,9 @@
       "result": "partial",
       "actualHigh": 738.08,
       "actualLow": 734.57,
-      "actualClose": 737.62
+      "actualClose": 737.62,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-08-A-OIL",
@@ -1256,7 +1402,9 @@
       "result": "partial",
       "actualHigh": 99.91,
       "actualLow": 93.82,
-      "actualClose": 98.87
+      "actualClose": 98.87,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-08-A-GLD",
@@ -1273,7 +1421,9 @@
       "result": "miss",
       "actualHigh": 436.2,
       "actualLow": 431.7,
-      "actualClose": 433.77
+      "actualClose": 433.77,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-08-B-SPY",
@@ -1290,7 +1440,9 @@
       "result": "miss",
       "actualHigh": 738.08,
       "actualLow": 734.57,
-      "actualClose": 737.62
+      "actualClose": 737.62,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-08-B-OIL",
@@ -1307,7 +1459,9 @@
       "result": "miss",
       "actualHigh": 99.91,
       "actualLow": 93.82,
-      "actualClose": 98.87
+      "actualClose": 98.87,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-08-B-BTC",
@@ -1324,7 +1478,9 @@
       "result": "partial",
       "actualHigh": 82164.43,
       "actualLow": 79205.52,
-      "actualClose": 81616.15
+      "actualClose": 81616.15,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-08-C-TLT",
@@ -1341,7 +1497,9 @@
       "result": "partial",
       "actualHigh": 86.28,
       "actualLow": 85.99,
-      "actualClose": 86.08
+      "actualClose": 86.08,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-08-C-DXY",
@@ -1358,7 +1516,9 @@
       "result": "partial",
       "actualHigh": 98.28,
       "actualLow": 97.83,
-      "actualClose": 98.02
+      "actualClose": 98.02,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-08-C-QQQ",
@@ -1375,7 +1535,9 @@
       "result": "partial",
       "actualHigh": 711.23,
       "actualLow": 699.5,
-      "actualClose": 711.23
+      "actualClose": 711.23,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-07-A-BTC",
@@ -1392,7 +1554,9 @@
       "result": "hit",
       "actualHigh": 81684.95,
       "actualLow": 79205.52,
-      "actualClose": 80579.47
+      "actualClose": 80579.47,
+      "probability": 0.44,
+      "brier_score": 0.3136
     },
     {
       "id": "2026-05-07-A-SPY",
@@ -1409,7 +1573,9 @@
       "result": "hit",
       "actualHigh": 738.08,
       "actualLow": 729.75,
-      "actualClose": 737.62
+      "actualClose": 737.62,
+      "probability": 0.44,
+      "brier_score": 0.3136
     },
     {
       "id": "2026-05-07-B-TLT",
@@ -1426,7 +1592,9 @@
       "result": "hit",
       "actualHigh": 86.29,
       "actualLow": 85.6,
-      "actualClose": 86.08
+      "actualClose": 86.08,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-07-B-QQQ",
@@ -1443,7 +1611,9 @@
       "result": "miss",
       "actualHigh": 711.23,
       "actualLow": 691.77,
-      "actualClose": 711.23
+      "actualClose": 711.23,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-07-C-OIL",
@@ -1460,7 +1630,9 @@
       "result": "partial",
       "actualHigh": 98.64,
       "actualLow": 89.85,
-      "actualClose": 95.42
+      "actualClose": 95.42,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-07-C-VIX",
@@ -1477,7 +1649,9 @@
       "result": "partial",
       "actualHigh": 17.6,
       "actualLow": 16.82,
-      "actualClose": 17.19
+      "actualClose": 17.19,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-06-A-BTC",
@@ -1494,7 +1668,9 @@
       "result": "miss",
       "actualHigh": 82792.21,
       "actualLow": 79522.66,
-      "actualClose": 80269.46
+      "actualClose": 80269.46,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-06-A-OIL",
@@ -1511,7 +1687,9 @@
       "result": "hit",
       "actualHigh": 102.7,
       "actualLow": 88.66,
-      "actualClose": 94.68
+      "actualClose": 94.68,
+      "probability": 0.44,
+      "brier_score": 0.3136
     },
     {
       "id": "2026-05-06-A-QQQ",
@@ -1528,7 +1706,9 @@
       "result": "partial",
       "actualHigh": 711.23,
       "actualLow": 686.48,
-      "actualClose": 711.23
+      "actualClose": 711.23,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-06-B-FXI",
@@ -1545,7 +1725,9 @@
       "result": "partial",
       "actualHigh": 37.63,
       "actualLow": 36.93,
-      "actualClose": 37.24
+      "actualClose": 37.24,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-06-B-VALE",
@@ -1562,7 +1744,9 @@
       "result": "miss",
       "actualHigh": 16.66,
       "actualLow": 16.11,
-      "actualClose": 16.63
+      "actualClose": 16.63,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-06-B-BTC",
@@ -1579,7 +1763,9 @@
       "result": "hit",
       "actualHigh": 82792.21,
       "actualLow": 79522.66,
-      "actualClose": 80269.46
+      "actualClose": 80269.46,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-05-06-C-OIL",
@@ -1596,7 +1782,9 @@
       "result": "miss",
       "actualHigh": 102.7,
       "actualLow": 88.66,
-      "actualClose": 94.68
+      "actualClose": 94.68,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-06-C-BTC",
@@ -1613,7 +1801,9 @@
       "result": "partial",
       "actualHigh": 82792.21,
       "actualLow": 79522.66,
-      "actualClose": 80269.46
+      "actualClose": 80269.46,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-06-C-TLT",
@@ -1630,7 +1820,9 @@
       "result": "miss",
       "actualHigh": 86.29,
       "actualLow": 85.6,
-      "actualClose": 86.08
+      "actualClose": 86.08,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-05-A-BTC",
@@ -1647,7 +1839,9 @@
       "result": "partial",
       "actualHigh": 82792.21,
       "actualLow": 79690.84,
-      "actualClose": 79642.9
+      "actualClose": 79642.9,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-05-A-OIL",
@@ -1664,7 +1858,9 @@
       "result": "miss",
       "actualHigh": 105.48,
       "actualLow": 88.66,
-      "actualClose": 95.97
+      "actualClose": 95.97,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-05-A-VIX",
@@ -1681,7 +1877,9 @@
       "result": "miss",
       "actualHigh": 18.02,
       "actualLow": 16.18,
-      "actualClose": 17.08
+      "actualClose": 17.08,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-05-B-BTC",
@@ -1698,7 +1896,9 @@
       "result": "miss",
       "actualHigh": 82792.21,
       "actualLow": 79690.84,
-      "actualClose": 79642.9
+      "actualClose": 79642.9,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-05-B-QQQ",
@@ -1715,7 +1915,9 @@
       "result": "partial",
       "actualHigh": 701.23,
       "actualLow": 677.51,
-      "actualClose": 694.94
+      "actualClose": 694.94,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-05-B-VIX",
@@ -1732,7 +1934,9 @@
       "result": "partial",
       "actualHigh": 18.02,
       "actualLow": 16.18,
-      "actualClose": 17.08
+      "actualClose": 17.08,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-04-A-BTC",
@@ -1749,7 +1953,9 @@
       "result": "partial",
       "actualHigh": 81751.45,
       "actualLow": 78217.96,
-      "actualClose": 81207.07
+      "actualClose": 81207.07,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-04-A-QQQ",
@@ -1766,7 +1972,9 @@
       "result": "hit",
       "actualHigh": 695.93,
       "actualLow": 668.9,
-      "actualClose": 695.77
+      "actualClose": 695.77,
+      "probability": 0.44,
+      "brier_score": 0.3136
     },
     {
       "id": "2026-05-04-A-VIX",
@@ -1783,7 +1991,9 @@
       "result": "partial",
       "actualHigh": 19.08,
       "actualLow": 16.18,
-      "actualClose": 17.39
+      "actualClose": 17.39,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-04-B-SPY",
@@ -1800,7 +2010,9 @@
       "result": "miss",
       "actualHigh": 734.58,
       "actualLow": 714.99,
-      "actualClose": 733.83
+      "actualClose": 733.83,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-04-B-TLT",
@@ -1817,7 +2029,9 @@
       "result": "partial",
       "actualHigh": 86.17,
       "actualLow": 84.76,
-      "actualClose": 86.08
+      "actualClose": 86.08,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-04-B-VIX",
@@ -1834,7 +2048,9 @@
       "result": "miss",
       "actualHigh": 19.08,
       "actualLow": 16.18,
-      "actualClose": 17.39
+      "actualClose": 17.39,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-04-C-OIL",
@@ -1851,7 +2067,9 @@
       "result": "miss",
       "actualHigh": 107.46,
       "actualLow": 95.62,
-      "actualClose": 95.87
+      "actualClose": 95.87,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-04-C-GLD",
@@ -1868,7 +2086,9 @@
       "result": "partial",
       "actualHigh": 433.19,
       "actualLow": 413.28,
-      "actualClose": 430.96
+      "actualClose": 430.96,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-04-C-DXY",
@@ -1885,7 +2105,9 @@
       "result": "miss",
       "actualHigh": 98.58,
       "actualLow": 97.96,
-      "actualClose": 97.96
+      "actualClose": 97.96,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-03-A-SPY",
@@ -1902,7 +2124,9 @@
       "result": "miss",
       "actualHigh": 725.04,
       "actualLow": 714.99,
-      "actualClose": 723.77
+      "actualClose": 723.77,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-03-A-BTC",
@@ -1919,7 +2143,9 @@
       "result": "miss",
       "actualHigh": 80742.36,
       "actualLow": 78073.08,
-      "actualClose": 79827.91
+      "actualClose": 79827.91,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-03-A-GLD",
@@ -1936,7 +2162,9 @@
       "result": "partial",
       "actualHigh": 421.13,
       "actualLow": 413.28,
-      "actualClose": 418.27
+      "actualClose": 418.27,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-03-B-QQQ",
@@ -1953,7 +2181,9 @@
       "result": "partial",
       "actualHigh": 682.77,
       "actualLow": 668.9,
-      "actualClose": 681.61
+      "actualClose": 681.61,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-03-B-BTC",
@@ -1970,7 +2200,9 @@
       "result": "partial",
       "actualHigh": 80742.36,
       "actualLow": 78073.08,
-      "actualClose": 79827.91
+      "actualClose": 79827.91,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-03-B-TLT",
@@ -1987,7 +2219,9 @@
       "result": "miss",
       "actualHigh": 85.49,
       "actualLow": 84.76,
-      "actualClose": 85.43
+      "actualClose": 85.43,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-03-C-SPY",
@@ -2004,7 +2238,9 @@
       "result": "miss",
       "actualHigh": 725.04,
       "actualLow": 714.99,
-      "actualClose": 723.77
+      "actualClose": 723.77,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-03-C-VIX",
@@ -2021,7 +2257,9 @@
       "result": "miss",
       "actualHigh": 19.08,
       "actualLow": 17.15,
-      "actualClose": 17.38
+      "actualClose": 17.38,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-03-C-DXY",
@@ -2038,7 +2276,9 @@
       "result": "miss",
       "actualHigh": 98.54,
       "actualLow": 97.97,
-      "actualClose": 98.25
+      "actualClose": 98.25,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-02-A-SPY",
@@ -2055,7 +2295,9 @@
       "result": "partial",
       "actualHigh": 722.12,
       "actualLow": 714.99,
-      "actualClose": 718.01
+      "actualClose": 718.01,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-02-A-BTC",
@@ -2072,7 +2314,9 @@
       "result": "miss",
       "actualHigh": 80230.92,
       "actualLow": 78031.96,
-      "actualClose": 80258.03
+      "actualClose": 80258.03,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-02-A-OIL",
@@ -2089,7 +2333,9 @@
       "result": "miss",
       "actualHigh": 105.48,
       "actualLow": 104.52,
-      "actualClose": 104.73
+      "actualClose": 104.73,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-02-B-SPY",
@@ -2106,7 +2352,9 @@
       "result": "miss",
       "actualHigh": 722.12,
       "actualLow": 714.99,
-      "actualClose": 718.01
+      "actualClose": 718.01,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-02-B-BTC",
@@ -2123,7 +2371,9 @@
       "result": "partial",
       "actualHigh": 80230.92,
       "actualLow": 78031.96,
-      "actualClose": 80258.03
+      "actualClose": 80258.03,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-02-B-OIL",
@@ -2140,7 +2390,9 @@
       "result": "partial",
       "actualHigh": 105.48,
       "actualLow": 104.52,
-      "actualClose": 104.73
+      "actualClose": 104.73,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-02-C-TLT",
@@ -2157,7 +2409,9 @@
       "result": "partial",
       "actualHigh": 85.36,
       "actualLow": 84.76,
-      "actualClose": 84.96
+      "actualClose": 84.96,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-02-C-GLD",
@@ -2174,7 +2428,9 @@
       "result": "miss",
       "actualHigh": 420.86,
       "actualLow": 413.28,
-      "actualClose": 414.71
+      "actualClose": 414.71,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-02-C-DXY",
@@ -2191,7 +2447,9 @@
       "result": "partial",
       "actualHigh": 98.54,
       "actualLow": 97.97,
-      "actualClose": 98.52
+      "actualClose": 98.52,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-01-A-SPY",
@@ -2208,7 +2466,9 @@
       "result": "miss",
       "actualHigh": 724.87,
       "actualLow": 720.47,
-      "actualClose": 720.65
+      "actualClose": 720.65,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-01-A-QQQ",
@@ -2225,7 +2485,9 @@
       "result": "miss",
       "actualHigh": 675.97,
       "actualLow": 668.8,
-      "actualClose": 674.15
+      "actualClose": 674.15,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-05-01-A-VIX",
@@ -2242,7 +2504,9 @@
       "result": "partial",
       "actualHigh": 17.39,
       "actualLow": 16.44,
-      "actualClose": 16.99
+      "actualClose": 16.99,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-01-B-SPY",
@@ -2259,7 +2523,9 @@
       "result": "partial",
       "actualHigh": 724.87,
       "actualLow": 720.47,
-      "actualClose": 720.65
+      "actualClose": 720.65,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-01-B-TLT",
@@ -2276,7 +2542,9 @@
       "result": "miss",
       "actualHigh": 86,
       "actualLow": 85.34,
-      "actualClose": 85.61
+      "actualClose": 85.61,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-01-B-DXY",
@@ -2293,7 +2561,9 @@
       "result": "miss",
       "actualHigh": 98.24,
       "actualLow": 97.72,
-      "actualClose": 98.18
+      "actualClose": 98.18,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-01-C-BTC",
@@ -2310,7 +2580,9 @@
       "result": "miss",
       "actualHigh": 79119.79,
       "actualLow": 76294.7,
-      "actualClose": 78583.91
+      "actualClose": 78583.91,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-01-C-ETH",
@@ -2327,7 +2599,9 @@
       "result": "miss",
       "actualHigh": 2339.74,
       "actualLow": 2256.08,
-      "actualClose": 2320
+      "actualClose": 2320,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-01-C-SOL",
@@ -2344,7 +2618,9 @@
       "result": "partial",
       "actualHigh": 84.82,
       "actualLow": 83.02,
-      "actualClose": 83.56
+      "actualClose": 83.56,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-04-30-A-SPY",
@@ -2361,7 +2637,9 @@
       "result": "partial",
       "actualHigh": 724.87,
       "actualLow": 710.45,
-      "actualClose": 720.65
+      "actualClose": 720.65,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-30-A-BTC",
@@ -2378,7 +2656,9 @@
       "result": "hit",
       "actualHigh": 78894.98,
       "actualLow": 75318.98,
-      "actualClose": 78268.66
+      "actualClose": 78268.66,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-30-A-TLT",
@@ -2395,7 +2675,9 @@
       "result": "miss",
       "actualHigh": 86,
       "actualLow": 85.34,
-      "actualClose": 85.61
+      "actualClose": 85.61,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-30-B-OIL",
@@ -2412,7 +2694,9 @@
       "result": "miss",
       "actualHigh": 110.93,
       "actualLow": 99.3,
-      "actualClose": 101.94
+      "actualClose": 101.94,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-30-B-SPY",
@@ -2429,7 +2713,9 @@
       "result": "miss",
       "actualHigh": 724.87,
       "actualLow": 710.45,
-      "actualClose": 720.65
+      "actualClose": 720.65,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-30-B-DXY",
@@ -2446,7 +2732,9 @@
       "result": "partial",
       "actualHigh": 99.09,
       "actualLow": 97.72,
-      "actualClose": 98.21
+      "actualClose": 98.21,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-30-C-VIX",
@@ -2463,7 +2751,9 @@
       "result": "partial",
       "actualHigh": 18.73,
       "actualLow": 16.44,
-      "actualClose": 16.99
+      "actualClose": 16.99,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-30-C-BTC",
@@ -2480,7 +2770,9 @@
       "result": "miss",
       "actualHigh": 78894.98,
       "actualLow": 75318.98,
-      "actualClose": 78268.66
+      "actualClose": 78268.66,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-30-C-TLT",
@@ -2497,7 +2789,9 @@
       "result": "miss",
       "actualHigh": 86,
       "actualLow": 85.34,
-      "actualClose": 85.61
+      "actualClose": 85.61,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-29-A-SPY",
@@ -2514,7 +2808,9 @@
       "result": "miss",
       "actualHigh": 724.85,
       "actualLow": 708.37,
-      "actualClose": 720.65
+      "actualClose": 720.65,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-29-A-BTC",
@@ -2531,7 +2827,9 @@
       "result": "miss",
       "actualHigh": 78346.59,
       "actualLow": 74958.57,
-      "actualClose": 78345.4
+      "actualClose": 78345.4,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-29-A-TLT",
@@ -2548,7 +2846,9 @@
       "result": "partial",
       "actualHigh": 86,
       "actualLow": 85.34,
-      "actualClose": 85.61
+      "actualClose": 85.61,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-29-B-OIL",
@@ -2565,7 +2865,9 @@
       "result": "hit",
       "actualHigh": 110.93,
       "actualLow": 98.42,
-      "actualClose": 102.5
+      "actualClose": 102.5,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-29-B-GLD",
@@ -2582,7 +2884,9 @@
       "result": "partial",
       "actualHigh": 427.92,
       "actualLow": 414.16,
-      "actualClose": 423.18
+      "actualClose": 423.18,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-29-B-VIX",
@@ -2599,7 +2903,9 @@
       "result": "miss",
       "actualHigh": 19,
       "actualLow": 16.44,
-      "actualClose": 16.99
+      "actualClose": 16.99,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-29-C-QQQ",
@@ -2616,7 +2922,9 @@
       "result": "miss",
       "actualHigh": 675.97,
       "actualLow": 656.59,
-      "actualClose": 674.15
+      "actualClose": 674.15,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-29-C-XLE",
@@ -2633,7 +2941,9 @@
       "result": "miss",
       "actualHigh": 59.84,
       "actualLow": 57.94,
-      "actualClose": 58.85
+      "actualClose": 58.85,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-29-C-DXY",
@@ -2650,7 +2960,9 @@
       "result": "miss",
       "actualHigh": 99.09,
       "actualLow": 97.72,
-      "actualClose": 98.21
+      "actualClose": 98.21,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-28-A-SPY",
@@ -2667,7 +2979,9 @@
       "result": "partial",
       "actualHigh": 719.79,
       "actualLow": 708.37,
-      "actualClose": 718.66
+      "actualClose": 718.66,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-28-A-QQQ",
@@ -2684,7 +2998,9 @@
       "result": "partial",
       "actualHigh": 668.75,
       "actualLow": 653.81,
-      "actualClose": 667.74
+      "actualClose": 667.74,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-28-A-BTC",
@@ -2701,7 +3017,9 @@
       "result": "partial",
       "actualHigh": 77884.97,
       "actualLow": 74958.57,
-      "actualClose": 76505.57
+      "actualClose": 76505.57,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-28-B-OIL",
@@ -2718,7 +3036,9 @@
       "result": "partial",
       "actualHigh": 108.6,
       "actualLow": 96.24,
-      "actualClose": 105.95
+      "actualClose": 105.95,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-28-B-GOLD",
@@ -2735,7 +3055,9 @@
       "result": "partial",
       "actualHigh": 4680.9,
       "actualLow": 4515.7,
-      "actualClose": 4626
+      "actualClose": 4626,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-28-B-SPY",
@@ -2752,7 +3074,9 @@
       "result": "miss",
       "actualHigh": 719.79,
       "actualLow": 708.37,
-      "actualClose": 718.66
+      "actualClose": 718.66,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-28-C-QQQ",
@@ -2769,7 +3093,9 @@
       "result": "miss",
       "actualHigh": 668.75,
       "actualLow": 653.81,
-      "actualClose": 667.74
+      "actualClose": 667.74,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-28-C-SMH",
@@ -2786,7 +3112,9 @@
       "result": "miss",
       "actualHigh": 507.79,
       "actualLow": 483.29,
-      "actualClose": 506.72
+      "actualClose": 506.72,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-28-C-TLT",
@@ -2803,7 +3131,9 @@
       "result": "miss",
       "actualHigh": 86.37,
       "actualLow": 85.39,
-      "actualClose": 85.62
+      "actualClose": 85.62,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-27-A-BTC",
@@ -2820,7 +3150,9 @@
       "result": "partial",
       "actualHigh": 79488.17,
       "actualLow": 75673.6,
-      "actualClose": 76327.99
+      "actualClose": 76327.99,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-27-A-OIL",
@@ -2837,7 +3169,9 @@
       "result": "hit",
       "actualHigh": 109.64,
       "actualLow": 94.59,
-      "actualClose": 107.45
+      "actualClose": 107.45,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-27-A-SPY",
@@ -2854,7 +3188,9 @@
       "result": "partial",
       "actualHigh": 715.63,
       "actualLow": 708.37,
-      "actualClose": 711.58
+      "actualClose": 711.58,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-27-B-QQQ",
@@ -2871,7 +3207,9 @@
       "result": "miss",
       "actualHigh": 664.43,
       "actualLow": 653.81,
-      "actualClose": 661.57
+      "actualClose": 661.57,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-27-B-SMH",
@@ -2888,7 +3226,9 @@
       "result": "hit",
       "actualHigh": 510.1,
       "actualLow": 483.29,
-      "actualClose": 499.58
+      "actualClose": 499.58,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-27-B-VIX",
@@ -2905,7 +3245,9 @@
       "result": "miss",
       "actualHigh": 19.43,
       "actualLow": 17.78,
-      "actualClose": 18.81
+      "actualClose": 18.81,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-27-C-SPY",
@@ -2922,7 +3264,9 @@
       "result": "partial",
       "actualHigh": 715.63,
       "actualLow": 708.37,
-      "actualClose": 711.58
+      "actualClose": 711.58,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-27-C-TLT",
@@ -2939,7 +3283,9 @@
       "result": "miss",
       "actualHigh": 86.62,
       "actualLow": 85.56,
-      "actualClose": 85.7
+      "actualClose": 85.7,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-27-C-BTC",
@@ -2956,7 +3302,9 @@
       "result": "hit",
       "actualHigh": 79488.17,
       "actualLow": 75673.6,
-      "actualClose": 76327.99
+      "actualClose": 76327.99,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-26-A-SPY",
@@ -2973,7 +3321,9 @@
       "result": "partial",
       "actualHigh": 715.63,
       "actualLow": 709.25,
-      "actualClose": 711.69
+      "actualClose": 711.69,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-26-A-BTC",
@@ -2990,7 +3340,9 @@
       "result": "partial",
       "actualHigh": 79488.17,
       "actualLow": 76245.62,
-      "actualClose": 76218.48
+      "actualClose": 76218.48,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-26-A-OIL",
@@ -3007,7 +3359,9 @@
       "result": "partial",
       "actualHigh": 101.85,
       "actualLow": 94.59,
-      "actualClose": 100.02
+      "actualClose": 100.02,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-26-B-QQQ",
@@ -3024,7 +3378,9 @@
       "result": "miss",
       "actualHigh": 664.43,
       "actualLow": 653.81,
-      "actualClose": 657.55
+      "actualClose": 657.55,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-26-B-SOXX",
@@ -3041,7 +3397,9 @@
       "result": "miss",
       "actualHigh": 463,
       "actualLow": 431.74,
-      "actualClose": 438.71
+      "actualClose": 438.71,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-26-B-SPY",
@@ -3058,7 +3416,9 @@
       "result": "miss",
       "actualHigh": 715.63,
       "actualLow": 709.25,
-      "actualClose": 711.69
+      "actualClose": 711.69,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-26-C-TLT",
@@ -3075,7 +3435,9 @@
       "result": "miss",
       "actualHigh": 86.62,
       "actualLow": 85.94,
-      "actualClose": 86.37
+      "actualClose": 86.37,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-26-C-SPY",
@@ -3092,7 +3454,9 @@
       "result": "partial",
       "actualHigh": 715.63,
       "actualLow": 709.25,
-      "actualClose": 711.69
+      "actualClose": 711.69,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-26-C-BTC",
@@ -3109,7 +3473,9 @@
       "result": "partial",
       "actualHigh": 79488.17,
       "actualLow": 76245.62,
-      "actualClose": 76218.48
+      "actualClose": 76218.48,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-25-A-SPY",
@@ -3126,7 +3492,9 @@
       "result": "miss",
       "actualHigh": 715.61,
       "actualLow": 712.29,
-      "actualClose": 715.17
+      "actualClose": 715.17,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-25-A-QQQ",
@@ -3143,7 +3511,9 @@
       "result": "miss",
       "actualHigh": 664.42,
       "actualLow": 660.69,
-      "actualClose": 664.23
+      "actualClose": 664.23,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-25-A-VIX",
@@ -3160,7 +3530,9 @@
       "result": "partial",
       "actualHigh": 19.27,
       "actualLow": 18.02,
-      "actualClose": 18.02
+      "actualClose": 18.02,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-25-B-OIL",
@@ -3177,7 +3549,9 @@
       "result": "miss",
       "actualHigh": 97.35,
       "actualLow": 96.24,
-      "actualClose": 97.2
+      "actualClose": 97.2,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-25-B-TLT",
@@ -3194,7 +3568,9 @@
       "result": "partial",
       "actualHigh": 86.62,
       "actualLow": 86.19,
-      "actualClose": 86.28
+      "actualClose": 86.28,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-25-B-DXY",
@@ -3211,7 +3587,9 @@
       "result": "miss",
       "actualHigh": 98.55,
       "actualLow": 98.43,
-      "actualClose": 98.54
+      "actualClose": 98.54,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-25-C-BTC",
@@ -3228,7 +3606,9 @@
       "result": "hit",
       "actualHigh": 78923.56,
       "actualLow": 77184.66,
-      "actualClose": 77239.8
+      "actualClose": 77239.8,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-25-C-GLD",
@@ -3245,7 +3625,9 @@
       "result": "hit",
       "actualHigh": 431.8,
       "actualLow": 428.54,
-      "actualClose": 429.89
+      "actualClose": 429.89,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-25-C-VIX",
@@ -3262,7 +3644,9 @@
       "result": "miss",
       "actualHigh": 19.27,
       "actualLow": 18.02,
-      "actualClose": 18.02
+      "actualClose": 18.02,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-24-A-SPY",
@@ -3279,7 +3663,9 @@
       "result": "partial",
       "actualHigh": 714.47,
       "actualLow": 709.01,
-      "actualClose": 713.94
+      "actualClose": 713.94,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-24-A-BTC",
@@ -3296,7 +3682,9 @@
       "result": "miss",
       "actualHigh": 79420.27,
       "actualLow": 77184.66,
-      "actualClose": 78919.51
+      "actualClose": 78919.51,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-24-A-OIL",
@@ -3313,7 +3701,9 @@
       "result": "partial",
       "actualHigh": 97.85,
       "actualLow": 92.68,
-      "actualClose": 96.04
+      "actualClose": 96.04,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-24-B-BTC",
@@ -3330,7 +3720,9 @@
       "result": "partial",
       "actualHigh": 79420.27,
       "actualLow": 77184.66,
-      "actualClose": 78919.51
+      "actualClose": 78919.51,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-24-B-ETH",
@@ -3347,7 +3739,9 @@
       "result": "partial",
       "actualHigh": 2398.51,
       "actualLow": 2301.53,
-      "actualClose": 2383.06
+      "actualClose": 2383.06,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-24-B-QQQ",
@@ -3364,7 +3758,9 @@
       "result": "miss",
       "actualHigh": 664.51,
       "actualLow": 656.53,
-      "actualClose": 663.88
+      "actualClose": 663.88,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-24-C-TLT",
@@ -3381,7 +3777,9 @@
       "result": "partial",
       "actualHigh": 86.82,
       "actualLow": 86.25,
-      "actualClose": 86.71
+      "actualClose": 86.71,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-24-C-GLD",
@@ -3398,7 +3796,9 @@
       "result": "miss",
       "actualHigh": 435.28,
       "actualLow": 430.65,
-      "actualClose": 433.25
+      "actualClose": 433.25,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-24-C-SPY",
@@ -3415,7 +3815,9 @@
       "result": "partial",
       "actualHigh": 714.47,
       "actualLow": 709.01,
-      "actualClose": 713.94
+      "actualClose": 713.94,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-23-A-SPY",
@@ -3432,7 +3834,9 @@
       "result": "miss",
       "actualHigh": 714.47,
       "actualLow": 702.28,
-      "actualClose": 713.94
+      "actualClose": 713.94,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-23-A-OIL",
@@ -3449,7 +3853,9 @@
       "result": "miss",
       "actualHigh": 98.39,
       "actualLow": 92.3,
-      "actualClose": 94.4
+      "actualClose": 94.4,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-23-A-VIX",
@@ -3466,7 +3872,9 @@
       "result": "miss",
       "actualHigh": 21.56,
       "actualLow": 18.46,
-      "actualClose": 18.71
+      "actualClose": 18.71,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-23-B-QQQ",
@@ -3483,7 +3891,9 @@
       "result": "partial",
       "actualHigh": 664.51,
       "actualLow": 645.52,
-      "actualClose": 663.88
+      "actualClose": 663.88,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-23-B-SPY",
@@ -3500,7 +3910,9 @@
       "result": "partial",
       "actualHigh": 714.47,
       "actualLow": 702.28,
-      "actualClose": 713.94
+      "actualClose": 713.94,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-23-B-VIX",
@@ -3517,7 +3929,9 @@
       "result": "partial",
       "actualHigh": 21.56,
       "actualLow": 18.46,
-      "actualClose": 18.71
+      "actualClose": 18.71,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-23-C-SPY",
@@ -3534,7 +3948,9 @@
       "result": "miss",
       "actualHigh": 714.47,
       "actualLow": 702.28,
-      "actualClose": 713.94
+      "actualClose": 713.94,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-23-C-TLT",
@@ -3551,7 +3967,9 @@
       "result": "partial",
       "actualHigh": 87.04,
       "actualLow": 86.24,
-      "actualClose": 86.71
+      "actualClose": 86.71,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-23-C-DXY",
@@ -3568,7 +3986,9 @@
       "result": "miss",
       "actualHigh": 98.94,
       "actualLow": 98.49,
-      "actualClose": 98.51
+      "actualClose": 98.51,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-22-A-BTC",
@@ -3585,7 +4005,9 @@
       "result": "miss",
       "actualHigh": 79468,
       "actualLow": 76159.58,
-      "actualClose": 77509.68
+      "actualClose": 77509.68,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-22-A-ETH",
@@ -3602,7 +4024,9 @@
       "result": "miss",
       "actualHigh": 2422.86,
       "actualLow": 2287.55,
-      "actualClose": 2318.5
+      "actualClose": 2318.5,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-22-A-SPY",
@@ -3619,7 +4043,9 @@
       "result": "hit",
       "actualHigh": 714.47,
       "actualLow": 702.28,
-      "actualClose": 713.94
+      "actualClose": 713.94,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-22-B-OIL",
@@ -3636,7 +4062,9 @@
       "result": "hit",
       "actualHigh": 98.39,
       "actualLow": 87.64,
-      "actualClose": 94.88
+      "actualClose": 94.88,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-22-B-GOLD",
@@ -3653,7 +4081,9 @@
       "result": "miss",
       "actualHigh": 4757.1,
       "actualLow": 4672.2,
-      "actualClose": 4725.4
+      "actualClose": 4725.4,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-22-B-DXY",
@@ -3670,7 +4100,9 @@
       "result": "miss",
       "actualHigh": 98.94,
       "actualLow": 98.21,
-      "actualClose": 98.51
+      "actualClose": 98.51,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-22-C-SPY",
@@ -3687,7 +4119,9 @@
       "result": "miss",
       "actualHigh": 714.47,
       "actualLow": 702.28,
-      "actualClose": 713.94
+      "actualClose": 713.94,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-22-C-TLT",
@@ -3704,7 +4138,9 @@
       "result": "miss",
       "actualHigh": 87.16,
       "actualLow": 86.24,
-      "actualClose": 86.71
+      "actualClose": 86.71,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-22-C-VIX",
@@ -3721,7 +4157,9 @@
       "result": "miss",
       "actualHigh": 21.56,
       "actualLow": 18.46,
-      "actualClose": 18.71
+      "actualClose": 18.71,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-21-A-SPY",
@@ -3738,7 +4176,9 @@
       "result": "partial",
       "actualHigh": 712.36,
       "actualLow": 702.28,
-      "actualClose": 708.45
+      "actualClose": 708.45,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-21-A-BTC",
@@ -3755,7 +4195,9 @@
       "result": "partial",
       "actualHigh": 79468,
       "actualLow": 74852.67,
-      "actualClose": 78054.02
+      "actualClose": 78054.02,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-21-A-OIL",
@@ -3772,7 +4214,9 @@
       "result": "miss",
       "actualHigh": 97.54,
       "actualLow": 87.64,
-      "actualClose": 96.79
+      "actualClose": 96.79,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-21-B-OIL",
@@ -3789,7 +4233,9 @@
       "result": "hit",
       "actualHigh": 97.54,
       "actualLow": 87.64,
-      "actualClose": 96.79
+      "actualClose": 96.79,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-21-B-VIX",
@@ -3806,7 +4252,9 @@
       "result": "miss",
       "actualHigh": 21.56,
       "actualLow": 18.68,
-      "actualClose": 19.31
+      "actualClose": 19.31,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-21-B-TLT",
@@ -3823,7 +4271,9 @@
       "result": "miss",
       "actualHigh": 87.16,
       "actualLow": 86.24,
-      "actualClose": 86.55
+      "actualClose": 86.55,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-20-A-BTC",
@@ -3840,7 +4290,9 @@
       "result": "miss",
       "actualHigh": 78502.91,
       "actualLow": 73775.57,
-      "actualClose": 78122.64
+      "actualClose": 78122.64,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-20-A-SPY",
@@ -3857,7 +4309,9 @@
       "result": "miss",
       "actualHigh": 711.45,
       "actualLow": 702.64,
-      "actualClose": 711.21
+      "actualClose": 711.21,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-20-A-OIL",
@@ -3874,7 +4328,9 @@
       "result": "hit",
       "actualHigh": 97.22,
       "actualLow": 87.02,
-      "actualClose": 93.4
+      "actualClose": 93.4,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-20-B-QQQ",
@@ -3891,7 +4347,9 @@
       "result": "partial",
       "actualHigh": 655.33,
       "actualLow": 642.21,
-      "actualClose": 655.11
+      "actualClose": 655.11,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-20-B-BTC",
@@ -3908,7 +4366,9 @@
       "result": "hit",
       "actualHigh": 78502.91,
       "actualLow": 73775.57,
-      "actualClose": 78122.64
+      "actualClose": 78122.64,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-20-B-TLT",
@@ -3925,7 +4385,9 @@
       "result": "hit",
       "actualHigh": 87.15,
       "actualLow": 86.53,
-      "actualClose": 86.74
+      "actualClose": 86.74,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-20-C-SPY",
@@ -3942,7 +4404,9 @@
       "result": "miss",
       "actualHigh": 711.45,
       "actualLow": 702.64,
-      "actualClose": 711.21
+      "actualClose": 711.21,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-20-C-DXY",
@@ -3959,7 +4423,9 @@
       "result": "partial",
       "actualHigh": 98.74,
       "actualLow": 98.01,
-      "actualClose": 98.59
+      "actualClose": 98.59,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-20-C-GLD",
@@ -3976,7 +4442,9 @@
       "result": "hit",
       "actualHigh": 443.42,
       "actualLow": 428.71,
-      "actualClose": 435.26
+      "actualClose": 435.26,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-19-A-SPY",
@@ -3993,7 +4461,9 @@
       "result": "partial",
       "actualHigh": 711.28,
       "actualLow": 702.64,
-      "actualClose": 704.08
+      "actualClose": 704.08,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-19-A-BTC",
@@ -4010,7 +4480,9 @@
       "result": "miss",
       "actualHigh": 76575.36,
       "actualLow": 73775.57,
-      "actualClose": 76177.78
+      "actualClose": 76177.78,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-19-A-VIX",
@@ -4027,7 +4499,9 @@
       "result": "partial",
       "actualHigh": 20.85,
       "actualLow": 18.75,
-      "actualClose": 19.5
+      "actualClose": 19.5,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-19-B-BTC",
@@ -4044,7 +4518,9 @@
       "result": "partial",
       "actualHigh": 76575.36,
       "actualLow": 73775.57,
-      "actualClose": 76177.78
+      "actualClose": 76177.78,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-19-B-ETH",
@@ -4061,7 +4537,9 @@
       "result": "partial",
       "actualHigh": 2355.78,
       "actualLow": 2254.7,
-      "actualClose": 2314.81
+      "actualClose": 2314.81,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-19-B-COIN",
@@ -4078,7 +4556,9 @@
       "result": "miss",
       "actualHigh": 212.3,
       "actualLow": 194.6,
-      "actualClose": 195.95
+      "actualClose": 195.95,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-19-C-OIL",
@@ -4095,7 +4575,9 @@
       "result": "partial",
       "actualHigh": 91.2,
       "actualLow": 87.02,
-      "actualClose": 89.4
+      "actualClose": 89.4,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-19-C-TLT",
@@ -4112,7 +4594,9 @@
       "result": "partial",
       "actualHigh": 87.13,
       "actualLow": 86.53,
-      "actualClose": 86.57
+      "actualClose": 86.57,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-19-C-GLD",
@@ -4129,7 +4613,9 @@
       "result": "hit",
       "actualHigh": 443.42,
       "actualLow": 428.71,
-      "actualClose": 429.57
+      "actualClose": 429.57,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-18-A-BTC",
@@ -4146,7 +4632,9 @@
       "result": "partial",
       "actualHigh": 77416.7,
       "actualLow": 73802.38,
-      "actualClose": 76158.01
+      "actualClose": 76158.01,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-18-A-SPY",
@@ -4163,7 +4651,9 @@
       "result": "miss",
       "actualHigh": 709.91,
       "actualLow": 706.14,
-      "actualClose": 708.72
+      "actualClose": 708.72,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-18-A-OIL",
@@ -4180,7 +4670,9 @@
       "result": "partial",
       "actualHigh": 86.73,
       "actualLow": 85.5,
-      "actualClose": 86.58
+      "actualClose": 86.58,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-18-B-BTC",
@@ -4197,7 +4689,9 @@
       "result": "miss",
       "actualHigh": 77416.7,
       "actualLow": 73802.38,
-      "actualClose": 76158.01
+      "actualClose": 76158.01,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-18-B-SPY",
@@ -4214,7 +4708,9 @@
       "result": "partial",
       "actualHigh": 709.91,
       "actualLow": 706.14,
-      "actualClose": 708.72
+      "actualClose": 708.72,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-18-B-OIL",
@@ -4231,7 +4727,9 @@
       "result": "miss",
       "actualHigh": 86.73,
       "actualLow": 85.5,
-      "actualClose": 86.58
+      "actualClose": 86.58,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-18-C-QQQ",
@@ -4248,7 +4746,9 @@
       "result": "miss",
       "actualHigh": 648.76,
       "actualLow": 642.52,
-      "actualClose": 646.79
+      "actualClose": 646.79,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-18-C-VIX",
@@ -4265,7 +4765,9 @@
       "result": "partial",
       "actualHigh": 19.99,
       "actualLow": 18.77,
-      "actualClose": 18.87
+      "actualClose": 18.87,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-18-C-TLT",
@@ -4282,7 +4784,9 @@
       "result": "partial",
       "actualHigh": 87.13,
       "actualLow": 86.71,
-      "actualClose": 87.05
+      "actualClose": 87.05,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-17-A-SPY",
@@ -4299,7 +4803,9 @@
       "result": "miss",
       "actualHigh": 712.39,
       "actualLow": 705.76,
-      "actualClose": 710.14
+      "actualClose": 710.14,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-17-A-BTC",
@@ -4316,7 +4822,9 @@
       "result": "miss",
       "actualHigh": 78320.68,
       "actualLow": 73820.11,
-      "actualClose": 74325.52
+      "actualClose": 74325.52,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-17-A-OIL",
@@ -4333,7 +4841,9 @@
       "result": "hit",
       "actualHigh": 90.34,
       "actualLow": 78.97,
-      "actualClose": 82.59
+      "actualClose": 82.59,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-17-B-BTC",
@@ -4350,7 +4860,9 @@
       "result": "miss",
       "actualHigh": 78320.68,
       "actualLow": 73820.11,
-      "actualClose": 74325.52
+      "actualClose": 74325.52,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-17-B-QQQ",
@@ -4367,7 +4879,9 @@
       "result": "miss",
       "actualHigh": 650,
       "actualLow": 644.07,
-      "actualClose": 648.85
+      "actualClose": 648.85,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-17-B-TLT",
@@ -4384,7 +4898,9 @@
       "result": "partial",
       "actualHigh": 87.21,
       "actualLow": 86.89,
-      "actualClose": 87.07
+      "actualClose": 87.07,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-17-C-OIL",
@@ -4401,7 +4917,9 @@
       "result": "miss",
       "actualHigh": 90.34,
       "actualLow": 78.97,
-      "actualClose": 82.59
+      "actualClose": 82.59,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-17-C-GLD",
@@ -4418,7 +4936,9 @@
       "result": "miss",
       "actualHigh": 448.7,
       "actualLow": 445.32,
-      "actualClose": 445.93
+      "actualClose": 445.93,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-17-C-VIX",
@@ -4435,7 +4955,9 @@
       "result": "miss",
       "actualHigh": 18.24,
       "actualLow": 16.87,
-      "actualClose": 17.48
+      "actualClose": 17.48,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-16-A-SPY",
@@ -4452,7 +4974,9 @@
       "result": "partial",
       "actualHigh": 712.39,
       "actualLow": 698.53,
-      "actualClose": 710.14
+      "actualClose": 710.14,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-16-A-QQQ",
@@ -4469,7 +4993,9 @@
       "result": "partial",
       "actualHigh": 650,
       "actualLow": 635.26,
-      "actualClose": 648.85
+      "actualClose": 648.85,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-16-B-TLT",
@@ -4486,7 +5012,9 @@
       "result": "miss",
       "actualHigh": 87.21,
       "actualLow": 86.2,
-      "actualClose": 87.07
+      "actualClose": 87.07,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-16-B-GLD",
@@ -4503,7 +5031,9 @@
       "result": "partial",
       "actualHigh": 448.7,
       "actualLow": 438.18,
-      "actualClose": 445.93
+      "actualClose": 445.93,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-16-C-OIL",
@@ -4520,7 +5050,9 @@
       "result": "hit",
       "actualHigh": 95.44,
       "actualLow": 80.56,
-      "actualClose": 83.85
+      "actualClose": 83.85,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-16-C-SLV",
@@ -4537,7 +5069,9 @@
       "result": "hit",
       "actualHigh": 75.16,
       "actualLow": 70.66,
-      "actualClose": 73.63
+      "actualClose": 73.63,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-15-A-SPY",
@@ -4554,7 +5088,9 @@
       "result": "partial",
       "actualHigh": 712.39,
       "actualLow": 694.2,
-      "actualClose": 710.14
+      "actualClose": 710.14,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-15-A-QQQ",
@@ -4571,7 +5107,9 @@
       "result": "hit",
       "actualHigh": 650,
       "actualLow": 628.2,
-      "actualClose": 648.85
+      "actualClose": 648.85,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-15-A-VIX",
@@ -4588,7 +5126,9 @@
       "result": "hit",
       "actualHigh": 19.09,
       "actualLow": 16.87,
-      "actualClose": 17.48
+      "actualClose": 17.48,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-15-B-SPY",
@@ -4605,7 +5145,9 @@
       "result": "miss",
       "actualHigh": 712.39,
       "actualLow": 694.2,
-      "actualClose": 710.14
+      "actualClose": 710.14,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-15-B-OIL",
@@ -4622,7 +5164,9 @@
       "result": "hit",
       "actualHigh": 95.44,
       "actualLow": 80.56,
-      "actualClose": 83.85
+      "actualClose": 83.85,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-15-B-TLT",
@@ -4639,7 +5183,9 @@
       "result": "partial",
       "actualHigh": 87.21,
       "actualLow": 86.2,
-      "actualClose": 87.07
+      "actualClose": 87.07,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-15-C-GOLD",
@@ -4656,7 +5202,9 @@
       "result": "partial",
       "actualHigh": 4879.7,
       "actualLow": 4767.2,
-      "actualClose": 4857.6
+      "actualClose": 4857.6,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-15-C-SLV",
@@ -4673,7 +5221,9 @@
       "result": "partial",
       "actualHigh": 75.16,
       "actualLow": 70.66,
-      "actualClose": 73.63
+      "actualClose": 73.63,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-15-C-DXY",
@@ -4690,7 +5240,9 @@
       "result": "miss",
       "actualHigh": 98.29,
       "actualLow": 97.63,
-      "actualClose": 98.1
+      "actualClose": 98.1,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-14-A-BTC",
@@ -4707,7 +5259,9 @@
       "result": "hit",
       "actualHigh": 78320.68,
       "actualLow": 73346.27,
-      "actualClose": 77126.88
+      "actualClose": 77126.88,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-14-A-SPY",
@@ -4724,7 +5278,9 @@
       "result": "partial",
       "actualHigh": 712.39,
       "actualLow": 687.66,
-      "actualClose": 710.14
+      "actualClose": 710.14,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-14-A-OIL",
@@ -4741,7 +5297,9 @@
       "result": "hit",
       "actualHigh": 98,
       "actualLow": 80.56,
-      "actualClose": 83.85
+      "actualClose": 83.85,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-14-B-OIL",
@@ -4758,7 +5316,9 @@
       "result": "miss",
       "actualHigh": 98,
       "actualLow": 80.56,
-      "actualClose": 83.85
+      "actualClose": 83.85,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-14-B-TLT",
@@ -4775,7 +5335,9 @@
       "result": "partial",
       "actualHigh": 87.24,
       "actualLow": 86.2,
-      "actualClose": 87.07
+      "actualClose": 87.07,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-14-B-SPY",
@@ -4792,7 +5354,9 @@
       "result": "miss",
       "actualHigh": 712.39,
       "actualLow": 687.66,
-      "actualClose": 710.14
+      "actualClose": 710.14,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-14-C-QQQ",
@@ -4809,7 +5373,9 @@
       "result": "hit",
       "actualHigh": 650,
       "actualLow": 620.1,
-      "actualClose": 648.85
+      "actualClose": 648.85,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-14-C-BTC",
@@ -4826,7 +5392,9 @@
       "result": "hit",
       "actualHigh": 78320.68,
       "actualLow": 73346.27,
-      "actualClose": 77126.88
+      "actualClose": 77126.88,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-14-C-VIX",
@@ -4843,7 +5411,9 @@
       "result": "hit",
       "actualHigh": 19.09,
       "actualLow": 16.87,
-      "actualClose": 17.48
+      "actualClose": 17.48,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-13-A-SPY",
@@ -4860,7 +5430,9 @@
       "result": "miss",
       "actualHigh": 702.78,
       "actualLow": 676.58,
-      "actualClose": 701.66
+      "actualClose": 701.66,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-13-A-OIL",
@@ -4877,7 +5449,9 @@
       "result": "miss",
       "actualHigh": 105.63,
       "actualLow": 86.96,
-      "actualClose": 94.69
+      "actualClose": 94.69,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-13-B-BTC",
@@ -4894,7 +5468,9 @@
       "result": "hit",
       "actualHigh": 76061.76,
       "actualLow": 70588.52,
-      "actualClose": 75152.13
+      "actualClose": 75152.13,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-13-B-VIX",
@@ -4911,7 +5487,9 @@
       "result": "hit",
       "actualHigh": 21.58,
       "actualLow": 17.4,
-      "actualClose": 17.94
+      "actualClose": 17.94,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-13-C-TLT",
@@ -4928,7 +5506,9 @@
       "result": "partial",
       "actualHigh": 87.24,
       "actualLow": 86.2,
-      "actualClose": 86.28
+      "actualClose": 86.28,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-13-C-GLD",
@@ -4945,7 +5525,9 @@
       "result": "partial",
       "actualHigh": 445.18,
       "actualLow": 431.63,
-      "actualClose": 440.08
+      "actualClose": 440.08,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-12-A-BTC",
@@ -4962,7 +5544,9 @@
       "result": "hit",
       "actualHigh": 76061.76,
       "actualLow": 70540.57,
-      "actualClose": 74805.08
+      "actualClose": 74805.08,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-12-A-SPY",
@@ -4979,7 +5563,9 @@
       "result": "hit",
       "actualHigh": 700.28,
       "actualLow": 676.58,
-      "actualClose": 699.94
+      "actualClose": 699.94,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-12-A-VIX",
@@ -4996,7 +5582,9 @@
       "result": "hit",
       "actualHigh": 21.58,
       "actualLow": 17.4,
-      "actualClose": 18.17
+      "actualClose": 18.17,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-12-B-TLT",
@@ -5013,7 +5601,9 @@
       "result": "miss",
       "actualHigh": 87.24,
       "actualLow": 86.25,
-      "actualClose": 86.83
+      "actualClose": 86.83,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-12-B-DXY",
@@ -5030,7 +5620,9 @@
       "result": "miss",
       "actualHigh": 99.18,
       "actualLow": 97.97,
-      "actualClose": 98.06
+      "actualClose": 98.06,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-12-B-OIL",
@@ -5047,7 +5639,9 @@
       "result": "hit",
       "actualHigh": 105.63,
       "actualLow": 86.96,
-      "actualClose": 91.29
+      "actualClose": 91.29,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-12-C-QQQ",
@@ -5064,7 +5658,9 @@
       "result": "miss",
       "actualHigh": 637.83,
       "actualLow": 608.11,
-      "actualClose": 637.4
+      "actualClose": 637.4,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-12-C-BTC",
@@ -5081,7 +5677,9 @@
       "result": "miss",
       "actualHigh": 76061.76,
       "actualLow": 70540.57,
-      "actualClose": 74805.08
+      "actualClose": 74805.08,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-12-C-VIX",
@@ -5098,7 +5696,9 @@
       "result": "miss",
       "actualHigh": 21.58,
       "actualLow": 17.4,
-      "actualClose": 18.17
+      "actualClose": 18.17,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-11-A-SPY",
@@ -5115,7 +5715,9 @@
       "result": "partial",
       "actualHigh": 694.58,
       "actualLow": 676.58,
-      "actualClose": 694.46
+      "actualClose": 694.46,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-11-A-QQQ",
@@ -5132,7 +5734,9 @@
       "result": "partial",
       "actualHigh": 628.6,
       "actualLow": 608.11,
-      "actualClose": 628.6
+      "actualClose": 628.6,
+      "probability": 0.53,
+      "brier_score": 0.0009
     },
     {
       "id": "2026-04-11-A-VIX",
@@ -5149,7 +5753,9 @@
       "result": "hit",
       "actualHigh": 21.58,
       "actualLow": 17.89,
-      "actualClose": 18.36
+      "actualClose": 18.36,
+      "probability": 0.53,
+      "brier_score": 0.2209
     },
     {
       "id": "2026-04-11-B-OIL",
@@ -5166,7 +5772,9 @@
       "result": "hit",
       "actualHigh": 105.63,
       "actualLow": 91.06,
-      "actualClose": 91.28
+      "actualClose": 91.28,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-11-B-DXY",
@@ -5183,7 +5791,9 @@
       "result": "miss",
       "actualHigh": 99.18,
       "actualLow": 97.97,
-      "actualClose": 98.12
+      "actualClose": 98.12,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-11-C-GLD",
@@ -5200,7 +5810,9 @@
       "result": "partial",
       "actualHigh": 445.18,
       "actualLow": 431.63,
-      "actualClose": 445.09
+      "actualClose": 445.09,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-11-C-SLV",
@@ -5217,7 +5829,9 @@
       "result": "hit",
       "actualHigh": 72.07,
       "actualLow": 66.58,
-      "actualClose": 72.04
+      "actualClose": 72.04,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-11-C-TLT",
@@ -5234,7 +5848,9 @@
       "result": "partial",
       "actualHigh": 87.24,
       "actualLow": 86.25,
-      "actualClose": 87.21
+      "actualClose": 87.21,
+      "probability": 0.17,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-10-A-SPY",
@@ -5251,7 +5867,9 @@
       "result": "miss",
       "actualHigh": 682.03,
       "actualLow": 678.45,
-      "actualClose": 679.46
+      "actualClose": 679.46,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-10-A-BTC",
@@ -5268,7 +5886,9 @@
       "result": "miss",
       "actualHigh": 73784.23,
       "actualLow": 70540.57,
-      "actualClose": 70919.77
+      "actualClose": 70919.77,
+      "probability": 0.53,
+      "brier_score": 0.2809
     },
     {
       "id": "2026-04-10-B-BTC",
@@ -5285,7 +5905,9 @@
       "result": "partial",
       "actualHigh": 73784.23,
       "actualLow": 70540.57,
-      "actualClose": 70919.77
+      "actualClose": 70919.77,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-10-B-ETH",
@@ -5302,7 +5924,9 @@
       "result": "partial",
       "actualHigh": 2327.46,
       "actualLow": 2176.85,
-      "actualClose": 2184.27
+      "actualClose": 2184.27,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-10-C-OIL",
@@ -5319,7 +5943,9 @@
       "result": "hit",
       "actualHigh": 105.63,
       "actualLow": 95.51,
-      "actualClose": 104.08
+      "actualClose": 104.08,
+      "probability": 0.17,
+      "brier_score": 0.6889
     },
     {
       "id": "2026-04-10-C-SPY",
@@ -5336,7 +5962,9 @@
       "result": "miss",
       "actualHigh": 682.03,
       "actualLow": 678.45,
-      "actualClose": 679.46
+      "actualClose": 679.46,
+      "probability": 0.17,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-09-A-SPY",
@@ -5353,7 +5981,9 @@
       "result": "miss",
       "actualHigh": 682.03,
       "actualLow": 673.77,
-      "actualClose": 679.46
+      "actualClose": 679.46,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-09-A-BTC",
@@ -5370,7 +6000,9 @@
       "result": "miss",
       "actualHigh": 73440.12,
       "actualLow": 70486.36,
-      "actualClose": 71711.78
+      "actualClose": 71711.78,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-09-A-OIL",
@@ -5387,7 +6019,9 @@
       "result": "partial",
       "actualHigh": 102.7,
       "actualLow": 95.25,
-      "actualClose": 96.57
+      "actualClose": 96.57,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-04-09-B-SPY",
@@ -5404,7 +6038,9 @@
       "result": "partial",
       "actualHigh": 682.03,
       "actualLow": 673.77,
-      "actualClose": 679.46
+      "actualClose": 679.46,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-09-B-BTC",
@@ -5421,7 +6057,9 @@
       "result": "partial",
       "actualHigh": 73440.12,
       "actualLow": 70486.36,
-      "actualClose": 71711.78
+      "actualClose": 71711.78,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-09-B-OIL",
@@ -5438,7 +6076,9 @@
       "result": "miss",
       "actualHigh": 102.7,
       "actualLow": 95.25,
-      "actualClose": 96.57
+      "actualClose": 96.57,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-09-C-TLT",
@@ -5455,7 +6095,9 @@
       "result": "partial",
       "actualHigh": 87.13,
       "actualLow": 86.33,
-      "actualClose": 86.49
+      "actualClose": 86.49,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-04-09-C-SPY",
@@ -5472,7 +6114,9 @@
       "result": "hit",
       "actualHigh": 682.03,
       "actualLow": 673.77,
-      "actualClose": 679.46
+      "actualClose": 679.46,
+      "probability": 0.26,
+      "brier_score": 0.5476
     },
     {
       "id": "2026-04-09-C-DXY",
@@ -5489,7 +6133,9 @@
       "result": "miss",
       "actualHigh": 99.16,
       "actualLow": 98.54,
-      "actualClose": 98.65
+      "actualClose": 98.65,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-04-07-A-SPY",
@@ -5506,7 +6152,9 @@
       "result": "miss",
       "actualHigh": 681.16,
       "actualLow": 651.06,
-      "actualClose": 679.91
+      "actualClose": 679.91,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-07-A-BTC",
@@ -5523,7 +6171,9 @@
       "result": "partial",
       "actualHigh": 72825.19,
       "actualLow": 67740.51,
-      "actualClose": 71851.46
+      "actualClose": 71851.46,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-04-07-A-OIL",
@@ -5540,7 +6190,9 @@
       "result": "miss",
       "actualHigh": 117.63,
       "actualLow": 91.05,
-      "actualClose": 98.11
+      "actualClose": 98.11,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-07-B-QQQ",
@@ -5557,7 +6209,9 @@
       "result": "partial",
       "actualHigh": 610.5,
       "actualLow": 578.4,
-      "actualClose": 610.19
+      "actualClose": 610.19,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-07-B-TLT",
@@ -5574,7 +6228,9 @@
       "result": "miss",
       "actualHigh": 87.37,
       "actualLow": 85.91,
-      "actualClose": 86.7
+      "actualClose": 86.7,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-07-B-GLD",
@@ -5591,7 +6247,9 @@
       "result": "miss",
       "actualHigh": 440.91,
       "actualLow": 423.1,
-      "actualClose": 437.91
+      "actualClose": 437.91,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-07-C-VIX",
@@ -5608,7 +6266,9 @@
       "result": "miss",
       "actualHigh": 28,
       "actualLow": 0,
-      "actualClose": 19.49
+      "actualClose": 19.49,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-04-07-C-OIL",
@@ -5625,7 +6285,9 @@
       "result": "miss",
       "actualHigh": 117.63,
       "actualLow": 91.05,
-      "actualClose": 98.11
+      "actualClose": 98.11,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-04-07-C-DXY",
@@ -5642,7 +6304,9 @@
       "result": "miss",
       "actualHigh": 100.16,
       "actualLow": 98.53,
-      "actualClose": 98.86
+      "actualClose": 98.86,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-04-06-A-SPY",
@@ -5659,7 +6323,9 @@
       "result": "miss",
       "actualHigh": 677.08,
       "actualLow": 651.06,
-      "actualClose": 676.01
+      "actualClose": 676.01,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-06-A-OIL",
@@ -5676,7 +6342,9 @@
       "result": "miss",
       "actualHigh": 117.63,
       "actualLow": 91.05,
-      "actualClose": 97.06
+      "actualClose": 97.06,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-06-A-VIX",
@@ -5693,7 +6361,9 @@
       "result": "miss",
       "actualHigh": 28,
       "actualLow": 19.91,
-      "actualClose": 21.04
+      "actualClose": 21.04,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-06-B-BTC",
@@ -5710,7 +6380,9 @@
       "result": "miss",
       "actualHigh": 72732.43,
       "actualLow": 67740.51,
-      "actualClose": 70887.27
+      "actualClose": 70887.27,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-06-B-ETH",
@@ -5727,7 +6399,9 @@
       "result": "miss",
       "actualHigh": 2270.59,
       "actualLow": 2061.47,
-      "actualClose": 2177.97
+      "actualClose": 2177.97,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-06-B-QQQ",
@@ -5744,7 +6418,9 @@
       "result": "miss",
       "actualHigh": 609.89,
       "actualLow": 578.4,
-      "actualClose": 606.09
+      "actualClose": 606.09,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-06-C-QQQ",
@@ -5761,7 +6437,9 @@
       "result": "partial",
       "actualHigh": 609.89,
       "actualLow": 578.4,
-      "actualClose": 606.09
+      "actualClose": 606.09,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-04-06-C-XLK",
@@ -5778,7 +6456,9 @@
       "result": "partial",
       "actualHigh": 143.56,
       "actualLow": 134.11,
-      "actualClose": 141.69
+      "actualClose": 141.69,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-04-06-C-TLT",
@@ -5795,7 +6475,9 @@
       "result": "miss",
       "actualHigh": 87.36,
       "actualLow": 85.91,
-      "actualClose": 86.92
+      "actualClose": 86.92,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-04-05-A-SPY",
@@ -5812,7 +6494,9 @@
       "result": "miss",
       "actualHigh": 659.72,
       "actualLow": 651.06,
-      "actualClose": 659.22
+      "actualClose": 659.22,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-05-A-OIL",
@@ -5829,7 +6513,9 @@
       "result": "miss",
       "actualHigh": 117.63,
       "actualLow": 91.05,
-      "actualClose": 95.73
+      "actualClose": 95.73,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-05-A-BTC",
@@ -5846,7 +6532,9 @@
       "result": "miss",
       "actualHigh": 71978.55,
       "actualLow": 66610.63,
-      "actualClose": 71352.38
+      "actualClose": 71352.38,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-05-B-SPY",
@@ -5863,7 +6551,9 @@
       "result": "partial",
       "actualHigh": 659.72,
       "actualLow": 651.06,
-      "actualClose": 659.22
+      "actualClose": 659.22,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-05-B-TLT",
@@ -5880,7 +6570,9 @@
       "result": "miss",
       "actualHigh": 86.85,
       "actualLow": 85.91,
-      "actualClose": 86.64
+      "actualClose": 86.64,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-05-B-DXY",
@@ -5897,7 +6589,9 @@
       "result": "hit",
       "actualHigh": 100.29,
       "actualLow": 98.84,
-      "actualClose": 98.98
+      "actualClose": 98.98,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-04-05-C-BTC",
@@ -5914,7 +6608,9 @@
       "result": "partial",
       "actualHigh": 71978.55,
       "actualLow": 66610.63,
-      "actualClose": 71352.38
+      "actualClose": 71352.38,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-04-05-C-ETH",
@@ -5931,7 +6627,9 @@
       "result": "hit",
       "actualHigh": 2243.96,
       "actualLow": 2022.65,
-      "actualClose": 2236.65
+      "actualClose": 2236.65,
+      "probability": 0.26,
+      "brier_score": 0.5476
     },
     {
       "id": "2026-04-04-A-OIL",
@@ -5948,7 +6646,9 @@
       "result": "partial",
       "actualHigh": 116.56,
       "actualLow": 108.89,
-      "actualClose": 115.95
+      "actualClose": 115.95,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-04-04-A-BTC",
@@ -5965,7 +6665,9 @@
       "result": "miss",
       "actualHigh": 69087.66,
       "actualLow": 66610.63,
-      "actualClose": 68832.6
+      "actualClose": 68832.6,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-04-A-SPY",
@@ -5982,7 +6684,9 @@
       "result": "partial",
       "actualHigh": 659.72,
       "actualLow": 655.52,
-      "actualClose": 658.93
+      "actualClose": 658.93,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-04-04-B-DXY",
@@ -5999,7 +6703,9 @@
       "result": "partial",
       "actualHigh": 100.29,
       "actualLow": 99.76,
-      "actualClose": 100.07
+      "actualClose": 100.07,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-04-B-TLT",
@@ -6016,7 +6722,9 @@
       "result": "partial",
       "actualHigh": 86.85,
       "actualLow": 86.39,
-      "actualClose": 86.65
+      "actualClose": 86.65,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-04-B-QQQ",
@@ -6033,7 +6741,9 @@
       "result": "miss",
       "actualHigh": 590.61,
       "actualLow": 584.69,
-      "actualClose": 588.5
+      "actualClose": 588.5,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-04-C-BTC",
@@ -6050,7 +6760,9 @@
       "result": "partial",
       "actualHigh": 69087.66,
       "actualLow": 66610.63,
-      "actualClose": 68832.6
+      "actualClose": 68832.6,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-04-04-C-ETH",
@@ -6067,7 +6779,9 @@
       "result": "partial",
       "actualHigh": 2120.5,
       "actualLow": 2022.65,
-      "actualClose": 2112.75
+      "actualClose": 2112.75,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-04-04-C-MARA",
@@ -6084,7 +6798,9 @@
       "result": "miss",
       "actualHigh": 9.14,
       "actualLow": 8.76,
-      "actualClose": 8.85
+      "actualClose": 8.85,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-04-03-A-SPY",
@@ -6101,7 +6817,9 @@
       "result": "partial",
       "actualHigh": 657.92,
       "actualLow": 645.11,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.35,
+      "brier_score": 0.0225
     },
     {
       "id": "2026-04-03-A-OIL",
@@ -6118,7 +6836,9 @@
       "result": "miss",
       "actualHigh": 115.48,
       "actualLow": 109.5,
-      "actualClose": 111.53
+      "actualClose": 111.53,
+      "probability": 0.35,
+      "brier_score": 0.1225
     },
     {
       "id": "2026-04-03-A-VIX",
@@ -6135,7 +6855,9 @@
       "result": "miss",
       "actualHigh": 23.87,
       "actualLow": 23.87,
-      "actualClose": 23.87
+      "actualClose": 23.87,
+      "probability": 0.35,
+      "brier_score": 0.1225
     },
     {
       "id": "2026-04-03-B-SPY",
@@ -6152,7 +6874,9 @@
       "result": "miss",
       "actualHigh": 657.92,
       "actualLow": 645.11,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-03-B-OIL",
@@ -6169,7 +6893,9 @@
       "result": "partial",
       "actualHigh": 115.48,
       "actualLow": 109.5,
-      "actualClose": 111.53
+      "actualClose": 111.53,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-03-B-BTC",
@@ -6186,7 +6912,9 @@
       "result": "partial",
       "actualHigh": 69321.89,
       "actualLow": 66281.54,
-      "actualClose": 69082.6
+      "actualClose": 69082.6,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-03-C-QQQ",
@@ -6203,7 +6931,9 @@
       "result": "partial",
       "actualHigh": 585.99,
       "actualLow": 571.92,
-      "actualClose": 584.98
+      "actualClose": 584.98,
+      "probability": 0.35,
+      "brier_score": 0.0225
     },
     {
       "id": "2026-04-03-C-DXY",
@@ -6220,7 +6950,9 @@
       "result": "miss",
       "actualHigh": 100.29,
       "actualLow": 100.1,
-      "actualClose": 100.03
+      "actualClose": 100.03,
+      "probability": 0.35,
+      "brier_score": 0.1225
     },
     {
       "id": "2026-04-03-C-GLD",
@@ -6237,7 +6969,9 @@
       "result": "miss",
       "actualHigh": 431.66,
       "actualLow": 421.18,
-      "actualClose": 429.41
+      "actualClose": 429.41,
+      "probability": 0.35,
+      "brier_score": 0.1225
     },
     {
       "id": "2026-04-02-A-SPY",
@@ -6254,7 +6988,9 @@
       "result": "miss",
       "actualHigh": 658.2,
       "actualLow": 645.11,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.35,
+      "brier_score": 0.1225
     },
     {
       "id": "2026-04-02-A-BTC",
@@ -6271,7 +7007,9 @@
       "result": "partial",
       "actualHigh": 68633.15,
       "actualLow": 65725.26,
-      "actualClose": 67116.52
+      "actualClose": 67116.52,
+      "probability": 0.35,
+      "brier_score": 0.0225
     },
     {
       "id": "2026-04-02-A-OIL",
@@ -6288,7 +7026,9 @@
       "result": "hit",
       "actualHigh": 113.97,
       "actualLow": 97.5,
-      "actualClose": 111.54
+      "actualClose": 111.54,
+      "probability": 0.35,
+      "brier_score": 0.4225
     },
     {
       "id": "2026-04-02-B-SOL",
@@ -6305,7 +7045,9 @@
       "result": "miss",
       "actualHigh": 81.7,
       "actualLow": 76.82,
-      "actualClose": 80.52
+      "actualClose": 80.52,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-02-B-ETH",
@@ -6322,7 +7064,9 @@
       "result": "partial",
       "actualHigh": 2158.16,
       "actualLow": 2016.99,
-      "actualClose": 2056.43
+      "actualClose": 2056.43,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-04-02-B-BTC",
@@ -6339,7 +7083,9 @@
       "result": "miss",
       "actualHigh": 68633.15,
       "actualLow": 65725.26,
-      "actualClose": 67116.52
+      "actualClose": 67116.52,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-04-02-C-TLT",
@@ -6356,7 +7102,9 @@
       "result": "miss",
       "actualHigh": 86.85,
       "actualLow": 86.15,
-      "actualClose": 86.79
+      "actualClose": 86.79,
+      "probability": 0.35,
+      "brier_score": 0.1225
     },
     {
       "id": "2026-04-02-C-DXY",
@@ -6373,7 +7121,9 @@
       "result": "miss",
       "actualHigh": 100.26,
       "actualLow": 99.45,
-      "actualClose": 100.19
+      "actualClose": 100.19,
+      "probability": 0.35,
+      "brier_score": 0.1225
     },
     {
       "id": "2026-04-02-C-SPY",
@@ -6390,7 +7140,9 @@
       "result": "hit",
       "actualHigh": 658.2,
       "actualLow": 645.11,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.35,
+      "brier_score": 0.4225
     },
     {
       "id": "2026-04-01-A-SPY",
@@ -6407,7 +7159,9 @@
       "result": "partial",
       "actualHigh": 658.52,
       "actualLow": 645.11,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.23,
+      "brier_score": 0.0729
     },
     {
       "id": "2026-04-01-A-BTC",
@@ -6424,7 +7178,9 @@
       "result": "miss",
       "actualHigh": 69230.36,
       "actualLow": 65725.26,
-      "actualClose": 66845.59
+      "actualClose": 66845.59,
+      "probability": 0.23,
+      "brier_score": 0.0529
     },
     {
       "id": "2026-04-01-A-OIL",
@@ -6441,7 +7197,9 @@
       "result": "miss",
       "actualHigh": 113.97,
       "actualLow": 96.5,
-      "actualClose": 111.54
+      "actualClose": 111.54,
+      "probability": 0.23,
+      "brier_score": 0.0529
     },
     {
       "id": "2026-04-01-B-BTC",
@@ -6458,7 +7216,9 @@
       "result": "partial",
       "actualHigh": 69230.36,
       "actualLow": 65725.26,
-      "actualClose": 66845.59
+      "actualClose": 66845.59,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-01-B-ETH",
@@ -6475,7 +7235,9 @@
       "result": "partial",
       "actualHigh": 2165.67,
       "actualLow": 2016.99,
-      "actualClose": 2050.28
+      "actualClose": 2050.28,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-04-01-B-SPY",
@@ -6492,7 +7254,9 @@
       "result": "miss",
       "actualHigh": 658.52,
       "actualLow": 645.11,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.33,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-04-01-C-OIL",
@@ -6509,7 +7273,9 @@
       "result": "hit",
       "actualHigh": 113.97,
       "actualLow": 96.5,
-      "actualClose": 111.54
+      "actualClose": 111.54,
+      "probability": 0.44,
+      "brier_score": 0.3136
     },
     {
       "id": "2026-04-01-C-TLT",
@@ -6526,7 +7292,9 @@
       "result": "miss",
       "actualHigh": 86.85,
       "actualLow": 86.15,
-      "actualClose": 86.79
+      "actualClose": 86.79,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-04-01-C-DXY",
@@ -6543,7 +7311,9 @@
       "result": "partial",
       "actualHigh": 100.26,
       "actualLow": 99.3,
-      "actualClose": 100.19
+      "actualClose": 100.19,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-03-31-A-SPY",
@@ -6560,7 +7330,9 @@
       "result": "miss",
       "actualHigh": 658.52,
       "actualLow": 637.98,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.23,
+      "brier_score": 0.0529
     },
     {
       "id": "2026-03-31-A-BTC",
@@ -6577,7 +7349,9 @@
       "result": "partial",
       "actualHigh": 69230.36,
       "actualLow": 65950.44,
-      "actualClose": 66542.06
+      "actualClose": 66542.06,
+      "probability": 0.23,
+      "brier_score": 0.0729
     },
     {
       "id": "2026-03-31-A-OIL",
@@ -6594,7 +7368,9 @@
       "result": "partial",
       "actualHigh": 113.97,
       "actualLow": 96.5,
-      "actualClose": 111.54
+      "actualClose": 111.54,
+      "probability": 0.23,
+      "brier_score": 0.0729
     },
     {
       "id": "2026-03-31-B-SPY",
@@ -6611,7 +7387,9 @@
       "result": "partial",
       "actualHigh": 658.52,
       "actualLow": 637.98,
-      "actualClose": 655.83
+      "actualClose": 655.83,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-03-31-B-BTC",
@@ -6628,7 +7406,9 @@
       "result": "miss",
       "actualHigh": 69230.36,
       "actualLow": 65950.44,
-      "actualClose": 66542.06
+      "actualClose": 66542.06,
+      "probability": 0.33,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-03-31-B-VIX",
@@ -6645,7 +7425,9 @@
       "result": "hit",
       "actualHigh": 29.64,
       "actualLow": 0,
-      "actualClose": 23.87
+      "actualClose": 23.87,
+      "probability": 0.33,
+      "brier_score": 0.4489
     },
     {
       "id": "2026-03-31-C-TLT",
@@ -6662,7 +7444,9 @@
       "result": "miss",
       "actualHigh": 87.16,
       "actualLow": 86.15,
-      "actualClose": 86.79
+      "actualClose": 86.79,
+      "probability": 0.44,
+      "brier_score": 0.1936
     },
     {
       "id": "2026-03-31-C-GLD",
@@ -6679,7 +7463,9 @@
       "result": "hit",
       "actualHigh": 440.19,
       "actualLow": 419.59,
-      "actualClose": 429.41
+      "actualClose": 429.41,
+      "probability": 0.44,
+      "brier_score": 0.3136
     },
     {
       "id": "2026-03-31-C-DXY",
@@ -6696,7 +7482,9 @@
       "result": "partial",
       "actualHigh": 100.64,
       "actualLow": 99.3,
-      "actualClose": 100.03
+      "actualClose": 100.03,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-03-30-A-BTC",
@@ -6713,7 +7501,9 @@
       "result": "partial",
       "actualHigh": 68588.54,
       "actualLow": 65759.8,
-      "actualClose": 66268.84
+      "actualClose": 66268.84,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-30-A-SPY",
@@ -6730,7 +7520,9 @@
       "result": "miss",
       "actualHigh": 658.52,
       "actualLow": 629.28,
-      "actualClose": 655.24
+      "actualClose": 655.24,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-30-A-OIL",
@@ -6747,7 +7539,9 @@
       "result": "hit",
       "actualHigh": 106.86,
       "actualLow": 96.5,
-      "actualClose": 105.33
+      "actualClose": 105.33,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-30-B-GOLD",
@@ -6764,7 +7558,9 @@
       "result": "hit",
       "actualHigh": 4825.9,
       "actualLow": 4413.4,
-      "actualClose": 4691.9
+      "actualClose": 4691.9,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-30-B-BTC",
@@ -6781,7 +7577,9 @@
       "result": "hit",
       "actualHigh": 68588.54,
       "actualLow": 65759.8,
-      "actualClose": 66268.84
+      "actualClose": 66268.84,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-30-B-VIX",
@@ -6798,7 +7596,9 @@
       "result": "miss",
       "actualHigh": 31.52,
       "actualLow": 0,
-      "actualClose": 24.54
+      "actualClose": 24.54,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-30-C-BTC",
@@ -6815,7 +7615,9 @@
       "result": "partial",
       "actualHigh": 68588.54,
       "actualLow": 65759.8,
-      "actualClose": 66268.84
+      "actualClose": 66268.84,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-30-C-ETH",
@@ -6832,7 +7634,9 @@
       "result": "miss",
       "actualHigh": 2156.05,
       "actualLow": 1979.08,
-      "actualClose": 2045.33
+      "actualClose": 2045.33,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-30-C-QQQ",
@@ -6849,7 +7653,9 @@
       "result": "miss",
       "actualHigh": 587.74,
       "actualLow": 555.6,
-      "actualClose": 584.31
+      "actualClose": 584.31,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-29-A-BTC",
@@ -6866,7 +7672,9 @@
       "result": "miss",
       "actualHigh": 69191.27,
       "actualLow": 64971.71,
-      "actualClose": 68515.63
+      "actualClose": 68515.63,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-29-A-SPY",
@@ -6883,7 +7691,9 @@
       "result": "miss",
       "actualHigh": 651.54,
       "actualLow": 629.28,
-      "actualClose": 650.34
+      "actualClose": 650.34,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-29-A-OIL",
@@ -6900,7 +7710,9 @@
       "result": "miss",
       "actualHigh": 106.86,
       "actualLow": 96.5,
-      "actualClose": 100.04
+      "actualClose": 100.04,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-29-B-BTC",
@@ -6917,7 +7729,9 @@
       "result": "partial",
       "actualHigh": 69191.27,
       "actualLow": 64971.71,
-      "actualClose": 68515.63
+      "actualClose": 68515.63,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-29-B-SPY",
@@ -6934,7 +7748,9 @@
       "result": "hit",
       "actualHigh": 651.54,
       "actualLow": 629.28,
-      "actualClose": 650.34
+      "actualClose": 650.34,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-29-B-OIL",
@@ -6951,7 +7767,9 @@
       "result": "partial",
       "actualHigh": 106.86,
       "actualLow": 96.5,
-      "actualClose": 100.04
+      "actualClose": 100.04,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-28-A-SPY",
@@ -6968,7 +7786,9 @@
       "result": "partial",
       "actualHigh": 640.37,
       "actualLow": 629.28,
-      "actualClose": 631.97
+      "actualClose": 631.97,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-28-A-BTC",
@@ -6985,7 +7805,9 @@
       "result": "miss",
       "actualHigh": 68292.81,
       "actualLow": 64971.71,
-      "actualClose": 67653.45
+      "actualClose": 67653.45,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-28-A-OIL",
@@ -7002,7 +7824,9 @@
       "result": "miss",
       "actualHigh": 105.36,
       "actualLow": 99.43,
-      "actualClose": 102.88
+      "actualClose": 102.88,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-28-B-BTC",
@@ -7019,7 +7843,9 @@
       "result": "hit",
       "actualHigh": 68292.81,
       "actualLow": 64971.71,
-      "actualClose": 67653.45
+      "actualClose": 67653.45,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-28-B-ETH",
@@ -7036,7 +7862,9 @@
       "result": "hit",
       "actualHigh": 2086.43,
       "actualLow": 1939.53,
-      "actualClose": 2066.56
+      "actualClose": 2066.56,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-28-B-VIX",
@@ -7053,7 +7881,9 @@
       "result": "hit",
       "actualHigh": 31.52,
       "actualLow": 29.33,
-      "actualClose": 30.61
+      "actualClose": 30.61,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-28-C-TLT",
@@ -7070,7 +7900,9 @@
       "result": "partial",
       "actualHigh": 86.95,
       "actualLow": 86.49,
-      "actualClose": 86.78
+      "actualClose": 86.78,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-28-C-GLD",
@@ -7087,7 +7919,9 @@
       "result": "miss",
       "actualHigh": 420.1,
       "actualLow": 412.66,
-      "actualClose": 414.58
+      "actualClose": 414.58,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-28-C-SPY",
@@ -7104,7 +7938,9 @@
       "result": "partial",
       "actualHigh": 640.37,
       "actualLow": 629.28,
-      "actualClose": 631.97
+      "actualClose": 631.97,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-27-A-SPY",
@@ -7121,7 +7957,9 @@
       "result": "partial",
       "actualHigh": 642.66,
       "actualLow": 633.11,
-      "actualClose": 634.09
+      "actualClose": 634.09,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-27-A-BTC",
@@ -7138,7 +7976,9 @@
       "result": "miss",
       "actualHigh": 69117.53,
       "actualLow": 65532.57,
-      "actualClose": 67106.55
+      "actualClose": 67106.55,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-27-A-OIL",
@@ -7155,7 +7995,9 @@
       "result": "miss",
       "actualHigh": 101.24,
       "actualLow": 92.08,
-      "actualClose": 99.64
+      "actualClose": 99.64,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-27-B-SPY",
@@ -7172,7 +8014,9 @@
       "result": "miss",
       "actualHigh": 642.66,
       "actualLow": 633.11,
-      "actualClose": 634.09
+      "actualClose": 634.09,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-27-B-BTC",
@@ -7189,7 +8033,9 @@
       "result": "partial",
       "actualHigh": 69117.53,
       "actualLow": 65532.57,
-      "actualClose": 67106.55
+      "actualClose": 67106.55,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-27-B-OIL",
@@ -7206,7 +8052,9 @@
       "result": "partial",
       "actualHigh": 101.24,
       "actualLow": 92.08,
-      "actualClose": 99.64
+      "actualClose": 99.64,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-27-C-SPY",
@@ -7223,7 +8071,9 @@
       "result": "hit",
       "actualHigh": 642.66,
       "actualLow": 633.11,
-      "actualClose": 634.09
+      "actualClose": 634.09,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-27-C-BTC",
@@ -7240,7 +8090,9 @@
       "result": "hit",
       "actualHigh": 69117.53,
       "actualLow": 65532.57,
-      "actualClose": 67106.55
+      "actualClose": 67106.55,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-27-C-OIL",
@@ -7257,7 +8109,9 @@
       "result": "hit",
       "actualHigh": 101.24,
       "actualLow": 92.08,
-      "actualClose": 99.64
+      "actualClose": 99.64,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-26-A-BTC",
@@ -7274,7 +8128,9 @@
       "result": "hit",
       "actualHigh": 71410.39,
       "actualLow": 65532.57,
-      "actualClose": 66829.17
+      "actualClose": 66829.17,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-26-A-OIL",
@@ -7291,7 +8147,9 @@
       "result": "partial",
       "actualHigh": 101.24,
       "actualLow": 89.51,
-      "actualClose": 99.64
+      "actualClose": 99.64,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-26-A-VIX",
@@ -7308,7 +8166,9 @@
       "result": "partial",
       "actualHigh": 31.65,
       "actualLow": 26.12,
-      "actualClose": 31.05
+      "actualClose": 31.05,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-26-B-BTC",
@@ -7325,7 +8185,9 @@
       "result": "miss",
       "actualHigh": 71410.39,
       "actualLow": 65532.57,
-      "actualClose": 66829.17
+      "actualClose": 66829.17,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-26-B-OIL",
@@ -7342,7 +8204,9 @@
       "result": "hit",
       "actualHigh": 101.24,
       "actualLow": 89.51,
-      "actualClose": 99.64
+      "actualClose": 99.64,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-26-B-SPY",
@@ -7359,7 +8223,9 @@
       "result": "miss",
       "actualHigh": 654.85,
       "actualLow": 633.11,
-      "actualClose": 634.09
+      "actualClose": 634.09,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-26-C-GOLD",
@@ -7376,7 +8242,9 @@
       "result": "partial",
       "actualHigh": 4492,
       "actualLow": 4375.5,
-      "actualClose": 4492
+      "actualClose": 4492,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-26-C-TLT",
@@ -7393,7 +8261,9 @@
       "result": "partial",
       "actualHigh": 86.61,
       "actualLow": 85.45,
-      "actualClose": 85.64
+      "actualClose": 85.64,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-25-A-SPY",
@@ -7410,7 +8280,9 @@
       "result": "hit",
       "actualHigh": 660.89,
       "actualLow": 633.11,
-      "actualClose": 634.09
+      "actualClose": 634.09,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-25-A-BTC",
@@ -7427,7 +8299,9 @@
       "result": "hit",
       "actualHigh": 71985.74,
       "actualLow": 65956.03,
-      "actualClose": 66201.87
+      "actualClose": 66201.87,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-25-A-OIL",
@@ -7444,7 +8318,9 @@
       "result": "hit",
       "actualHigh": 101.24,
       "actualLow": 86.46,
-      "actualClose": 99.64
+      "actualClose": 99.64,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-25-B-SPY",
@@ -7461,7 +8337,9 @@
       "result": "miss",
       "actualHigh": 660.89,
       "actualLow": 633.11,
-      "actualClose": 634.09
+      "actualClose": 634.09,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-25-B-GOLD",
@@ -7478,7 +8356,9 @@
       "result": "partial",
       "actualHigh": 4551.9,
       "actualLow": 4375.5,
-      "actualClose": 4492
+      "actualClose": 4492,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-25-B-COPPER",
@@ -7512,7 +8392,9 @@
       "result": "hit",
       "actualHigh": 71985.74,
       "actualLow": 65956.03,
-      "actualClose": 66201.87
+      "actualClose": 66201.87,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-25-C-ETH",
@@ -7529,7 +8411,9 @@
       "result": "hit",
       "actualHigh": 2198.37,
       "actualLow": 1983.54,
-      "actualClose": 1989.73
+      "actualClose": 1989.73,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-25-C-SPY",
@@ -7546,7 +8430,9 @@
       "result": "hit",
       "actualHigh": 660.89,
       "actualLow": 633.11,
-      "actualClose": 634.09
+      "actualClose": 634.09,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-24-A-SPY",
@@ -7563,7 +8449,9 @@
       "result": "miss",
       "actualHigh": 660.89,
       "actualLow": 644.82,
-      "actualClose": 645.09
+      "actualClose": 645.09,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-24-A-OIL",
@@ -7580,7 +8468,9 @@
       "result": "miss",
       "actualHigh": 95.44,
       "actualLow": 86.34,
-      "actualClose": 93.75
+      "actualClose": 93.75,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-24-A-BTC",
@@ -7597,7 +8487,9 @@
       "result": "miss",
       "actualHigh": 71985.74,
       "actualLow": 68283.38,
-      "actualClose": 68533.16
+      "actualClose": 68533.16,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-24-B-TLT",
@@ -7614,7 +8506,9 @@
       "result": "miss",
       "actualHigh": 86.88,
       "actualLow": 85.56,
-      "actualClose": 86.11
+      "actualClose": 86.11,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-24-B-OIL",
@@ -7631,7 +8525,9 @@
       "result": "hit",
       "actualHigh": 95.44,
       "actualLow": 86.34,
-      "actualClose": 93.75
+      "actualClose": 93.75,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-24-B-GLD",
@@ -7648,7 +8544,9 @@
       "result": "hit",
       "actualHigh": 420.66,
       "actualLow": 399.2,
-      "actualClose": 400.64
+      "actualClose": 400.64,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-24-C-SPY",
@@ -7665,7 +8563,9 @@
       "result": "partial",
       "actualHigh": 660.89,
       "actualLow": 644.82,
-      "actualClose": 645.09
+      "actualClose": 645.09,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-24-C-VIX",
@@ -7682,7 +8582,9 @@
       "result": "partial",
       "actualHigh": 28.49,
       "actualLow": 0,
-      "actualClose": 27.44
+      "actualClose": 27.44,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-24-C-DXY",
@@ -7699,7 +8601,9 @@
       "result": "partial",
       "actualHigh": 100.01,
       "actualLow": 99.06,
-      "actualClose": 99.82
+      "actualClose": 99.82,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-23-A-BTC",
@@ -7716,7 +8620,9 @@
       "result": "partial",
       "actualHigh": 71782.26,
       "actualLow": 67458.84,
-      "actualClose": 70856.9
+      "actualClose": 70856.9,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-23-A-SPY",
@@ -7733,7 +8639,9 @@
       "result": "miss",
       "actualHigh": 662.62,
       "actualLow": 649.88,
-      "actualClose": 656.82
+      "actualClose": 656.82,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-23-A-OIL",
@@ -7750,7 +8658,9 @@
       "result": "partial",
       "actualHigh": 101.67,
       "actualLow": 84.37,
-      "actualClose": 91.77
+      "actualClose": 91.77,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-23-B-BTC",
@@ -7767,7 +8677,9 @@
       "result": "miss",
       "actualHigh": 71782.26,
       "actualLow": 67458.84,
-      "actualClose": 70856.9
+      "actualClose": 70856.9,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-23-B-SPY",
@@ -7784,7 +8696,9 @@
       "result": "partial",
       "actualHigh": 662.62,
       "actualLow": 649.88,
-      "actualClose": 656.82
+      "actualClose": 656.82,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-23-B-VIX",
@@ -7801,7 +8715,9 @@
       "result": "hit",
       "actualHigh": 31.04,
       "actualLow": 0,
-      "actualClose": 25.33
+      "actualClose": 25.33,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-23-C-BTC",
@@ -7818,7 +8734,9 @@
       "result": "hit",
       "actualHigh": 71782.26,
       "actualLow": 67458.84,
-      "actualClose": 70856.9
+      "actualClose": 70856.9,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-23-C-TLT",
@@ -7835,7 +8753,9 @@
       "result": "partial",
       "actualHigh": 86.88,
       "actualLow": 85.56,
-      "actualClose": 86.84
+      "actualClose": 86.84,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-23-C-GOLD",
@@ -7852,7 +8772,9 @@
       "result": "hit",
       "actualHigh": 4551.9,
       "actualLow": 4100.8,
-      "actualClose": 4515.2
+      "actualClose": 4515.2,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-22-A-SPY",
@@ -7869,7 +8791,9 @@
       "result": "miss",
       "actualHigh": 662.62,
       "actualLow": 649.88,
-      "actualClose": 653.18
+      "actualClose": 653.18,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-22-A-BTC",
@@ -7886,7 +8810,9 @@
       "result": "hit",
       "actualHigh": 71782.26,
       "actualLow": 67372.88,
-      "actualClose": 70418.51
+      "actualClose": 70418.51,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-22-A-VIX",
@@ -7903,7 +8829,9 @@
       "result": "hit",
       "actualHigh": 31.04,
       "actualLow": 20.28,
-      "actualClose": 26.95
+      "actualClose": 26.95,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-22-B-SPY",
@@ -7920,7 +8848,9 @@
       "result": "partial",
       "actualHigh": 662.62,
       "actualLow": 649.88,
-      "actualClose": 653.18
+      "actualClose": 653.18,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-22-B-OIL",
@@ -7937,7 +8867,9 @@
       "result": "partial",
       "actualHigh": 101.67,
       "actualLow": 84.37,
-      "actualClose": 88.59
+      "actualClose": 88.59,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-22-B-VIX",
@@ -7954,7 +8886,9 @@
       "result": "partial",
       "actualHigh": 31.04,
       "actualLow": 20.28,
-      "actualClose": 26.95
+      "actualClose": 26.95,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-22-C-BTC",
@@ -7971,7 +8905,9 @@
       "result": "partial",
       "actualHigh": 71782.26,
       "actualLow": 67372.88,
-      "actualClose": 70418.51
+      "actualClose": 70418.51,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-22-C-GLD",
@@ -7988,7 +8924,9 @@
       "result": "partial",
       "actualHigh": 414.54,
       "actualLow": 399.2,
-      "actualClose": 404.13
+      "actualClose": 404.13,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-22-C-TLT",
@@ -8005,7 +8943,9 @@
       "result": "miss",
       "actualHigh": 86.72,
       "actualLow": 85.56,
-      "actualClose": 86.01
+      "actualClose": 86.01,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-21-A-SPY",
@@ -8022,7 +8962,9 @@
       "result": "partial",
       "actualHigh": 662.62,
       "actualLow": 653.94,
-      "actualClose": 655.38
+      "actualClose": 655.38,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-21-A-BTC",
@@ -8039,7 +8981,9 @@
       "result": "hit",
       "actualHigh": 71051.27,
       "actualLow": 67372.88,
-      "actualClose": 70235.05
+      "actualClose": 70235.05,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-21-A-OIL",
@@ -8056,7 +9000,9 @@
       "result": "partial",
       "actualHigh": 101.67,
       "actualLow": 84.37,
-      "actualClose": 92.05
+      "actualClose": 92.05,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-21-B-SPY",
@@ -8073,7 +9019,9 @@
       "result": "miss",
       "actualHigh": 662.62,
       "actualLow": 653.94,
-      "actualClose": 655.38
+      "actualClose": 655.38,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-21-B-BTC",
@@ -8090,7 +9038,9 @@
       "result": "partial",
       "actualHigh": 71051.27,
       "actualLow": 67372.88,
-      "actualClose": 70235.05
+      "actualClose": 70235.05,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-21-B-TLT",
@@ -8107,7 +9057,9 @@
       "result": "miss",
       "actualHigh": 86.72,
       "actualLow": 85.93,
-      "actualClose": 86.39
+      "actualClose": 86.39,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-21-C-DXY",
@@ -8124,7 +9076,9 @@
       "result": "partial",
       "actualHigh": 100.15,
       "actualLow": 98.88,
-      "actualClose": 99.41
+      "actualClose": 99.41,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-21-C-GLD",
@@ -8141,7 +9095,9 @@
       "result": "hit",
       "actualHigh": 414.54,
       "actualLow": 399.2,
-      "actualClose": 404.13
+      "actualClose": 404.13,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-21-C-SPY",
@@ -8158,7 +9114,9 @@
       "result": "partial",
       "actualHigh": 662.62,
       "actualLow": 653.94,
-      "actualClose": 655.38
+      "actualClose": 655.38,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-20-A-BTC",
@@ -8175,7 +9133,9 @@
       "result": "partial",
       "actualHigh": 71346.8,
       "actualLow": 67644.96,
-      "actualClose": 68171.24
+      "actualClose": 68171.24,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-20-A-SPY",
@@ -8192,7 +9152,9 @@
       "result": "partial",
       "actualHigh": 656.69,
       "actualLow": 644.72,
-      "actualClose": 648.57
+      "actualClose": 648.57,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-20-A-OIL",
@@ -8209,7 +9171,9 @@
       "result": "partial",
       "actualHigh": 101.5,
       "actualLow": 93.42,
-      "actualClose": 99.07
+      "actualClose": 99.07,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-20-B-BTC",
@@ -8226,7 +9190,9 @@
       "result": "miss",
       "actualHigh": 71346.8,
       "actualLow": 67644.96,
-      "actualClose": 68171.24
+      "actualClose": 68171.24,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-20-B-TLT",
@@ -8243,7 +9209,9 @@
       "result": "partial",
       "actualHigh": 86.86,
       "actualLow": 85.76,
-      "actualClose": 85.83
+      "actualClose": 85.83,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-20-B-GLD",
@@ -8260,7 +9228,9 @@
       "result": "hit",
       "actualHigh": 428.59,
       "actualLow": 411.23,
-      "actualClose": 413.38
+      "actualClose": 413.38,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-20-C-SPY",
@@ -8277,7 +9247,9 @@
       "result": "miss",
       "actualHigh": 656.69,
       "actualLow": 644.72,
-      "actualClose": 648.57
+      "actualClose": 648.57,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-20-C-QQQ",
@@ -8294,7 +9266,9 @@
       "result": "miss",
       "actualHigh": 591.17,
       "actualLow": 578.54,
-      "actualClose": 582.06
+      "actualClose": 582.06,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-20-C-VIX",
@@ -8311,7 +9285,9 @@
       "result": "hit",
       "actualHigh": 29.28,
       "actualLow": 0,
-      "actualClose": 26.78
+      "actualClose": 26.78,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-19-A-SPY",
@@ -8328,7 +9304,9 @@
       "result": "partial",
       "actualHigh": 662.98,
       "actualLow": 644.72,
-      "actualClose": 648.57
+      "actualClose": 648.57,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-19-A-BTC",
@@ -8345,7 +9323,9 @@
       "result": "partial",
       "actualHigh": 71598.84,
       "actualLow": 68452.43,
-      "actualClose": 69184.27
+      "actualClose": 69184.27,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-19-A-OIL",
@@ -8362,7 +9342,9 @@
       "result": "partial",
       "actualHigh": 101.48,
       "actualLow": 92.47,
-      "actualClose": 98.23
+      "actualClose": 98.23,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-19-B-TLT",
@@ -8379,7 +9361,9 @@
       "result": "partial",
       "actualHigh": 87.73,
       "actualLow": 85.76,
-      "actualClose": 85.83
+      "actualClose": 85.83,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-19-B-DXY",
@@ -8396,7 +9380,9 @@
       "result": "partial",
       "actualHigh": 100.31,
       "actualLow": 98.98,
-      "actualClose": 99.65
+      "actualClose": 99.65,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-19-B-GLD",
@@ -8413,7 +9399,9 @@
       "result": "hit",
       "actualHigh": 428.59,
       "actualLow": 411.23,
-      "actualClose": 413.38
+      "actualClose": 413.38,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-19-C-SPY",
@@ -8430,7 +9418,9 @@
       "result": "miss",
       "actualHigh": 662.98,
       "actualLow": 644.72,
-      "actualClose": 648.57
+      "actualClose": 648.57,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-19-C-QQQ",
@@ -8447,7 +9437,9 @@
       "result": "miss",
       "actualHigh": 595.8,
       "actualLow": 578.54,
-      "actualClose": 582.06
+      "actualClose": 582.06,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-19-C-VIX",
@@ -8464,7 +9456,9 @@
       "result": "miss",
       "actualHigh": 29.28,
       "actualLow": 23.54,
-      "actualClose": 26.78
+      "actualClose": 26.78,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-18-A-SPY",
@@ -8481,7 +9475,9 @@
       "result": "miss",
       "actualHigh": 669.72,
       "actualLow": 644.72,
-      "actualClose": 648.57
+      "actualClose": 648.57,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-18-A-BTC",
@@ -8498,7 +9494,9 @@
       "result": "miss",
       "actualHigh": 74658.98,
       "actualLow": 68805.52,
-      "actualClose": 70764.65
+      "actualClose": 70764.65,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-18-A-VIX",
@@ -8515,7 +9513,9 @@
       "result": "miss",
       "actualHigh": 29.28,
       "actualLow": 21.47,
-      "actualClose": 26.78
+      "actualClose": 26.78,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-18-B-TLT",
@@ -8532,7 +9532,9 @@
       "result": "partial",
       "actualHigh": 87.73,
       "actualLow": 85.76,
-      "actualClose": 85.83
+      "actualClose": 85.83,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-18-B-OIL",
@@ -8549,7 +9551,9 @@
       "result": "partial",
       "actualHigh": 101.48,
       "actualLow": 91.96,
-      "actualClose": 98.09
+      "actualClose": 98.09,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-18-B-DXY",
@@ -8566,7 +9570,9 @@
       "result": "miss",
       "actualHigh": 100.31,
       "actualLow": 98.98,
-      "actualClose": 99.5
+      "actualClose": 99.5,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-18-C-GLD",
@@ -8583,7 +9589,9 @@
       "result": "miss",
       "actualHigh": 450.06,
       "actualLow": 411.23,
-      "actualClose": 413.38
+      "actualClose": 413.38,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-18-C-OIL",
@@ -8600,7 +9608,9 @@
       "result": "partial",
       "actualHigh": 101.48,
       "actualLow": 91.96,
-      "actualClose": 98.09
+      "actualClose": 98.09,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-18-C-SPY",
@@ -8617,7 +9627,9 @@
       "result": "partial",
       "actualHigh": 669.72,
       "actualLow": 644.72,
-      "actualClose": 648.57
+      "actualClose": 648.57,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-17-A-OIL",
@@ -8634,7 +9646,9 @@
       "result": "miss",
       "actualHigh": 101.48,
       "actualLow": 91.96,
-      "actualClose": 93.58
+      "actualClose": 93.58,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-17-A-SPY",
@@ -8651,7 +9665,9 @@
       "result": "partial",
       "actualHigh": 674.44,
       "actualLow": 655.17,
-      "actualClose": 659.8
+      "actualClose": 659.8,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-17-A-BTC",
@@ -8668,7 +9684,9 @@
       "result": "hit",
       "actualHigh": 75988.4,
       "actualLow": 69851.76,
-      "actualClose": 70469.9
+      "actualClose": 70469.9,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-17-B-ETH",
@@ -8685,7 +9703,9 @@
       "result": "miss",
       "actualHigh": 2375.46,
       "actualLow": 2134.28,
-      "actualClose": 2147.72
+      "actualClose": 2147.72,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-17-B-QQQ",
@@ -8702,7 +9722,9 @@
       "result": "miss",
       "actualHigh": 605.9,
       "actualLow": 587.08,
-      "actualClose": 593.02
+      "actualClose": 593.02,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-17-B-VIX",
@@ -8719,7 +9741,9 @@
       "result": "miss",
       "actualHigh": 27.52,
       "actualLow": 21.47,
-      "actualClose": 24.06
+      "actualClose": 24.06,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-17-C-GLD",
@@ -8736,7 +9760,9 @@
       "result": "miss",
       "actualHigh": 462.21,
       "actualLow": 416.84,
-      "actualClose": 426.41
+      "actualClose": 426.41,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-17-C-TLT",
@@ -8753,7 +9779,9 @@
       "result": "miss",
       "actualHigh": 87.72,
       "actualLow": 86.93,
-      "actualClose": 87.49
+      "actualClose": 87.49,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-17-C-DXY",
@@ -8770,7 +9798,9 @@
       "result": "miss",
       "actualHigh": 100.31,
       "actualLow": 99.25,
-      "actualClose": 99.39
+      "actualClose": 99.39,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-16-A-BTC",
@@ -8787,7 +9817,9 @@
       "result": "hit",
       "actualHigh": 75988.4,
       "actualLow": 70724.39,
-      "actualClose": 70803.55
+      "actualClose": 70803.55,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-16-A-SPY",
@@ -8804,7 +9836,9 @@
       "result": "partial",
       "actualHigh": 674.44,
       "actualLow": 661.19,
-      "actualClose": 661.43
+      "actualClose": 661.43,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-16-A-OIL",
@@ -8821,7 +9855,9 @@
       "result": "partial",
       "actualHigh": 102.44,
       "actualLow": 91.96,
-      "actualClose": 96.02
+      "actualClose": 96.02,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-16-B-TLT",
@@ -8838,7 +9874,9 @@
       "result": "partial",
       "actualHigh": 87.57,
       "actualLow": 86.93,
-      "actualClose": 86.96
+      "actualClose": 86.96,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-16-B-SPY",
@@ -8855,7 +9893,9 @@
       "result": "hit",
       "actualHigh": 674.44,
       "actualLow": 661.19,
-      "actualClose": 661.43
+      "actualClose": 661.43,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-16-B-BTC",
@@ -8872,7 +9912,9 @@
       "result": "hit",
       "actualHigh": 75988.4,
       "actualLow": 70724.39,
-      "actualClose": 70803.55
+      "actualClose": 70803.55,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-16-C-BTC",
@@ -8889,7 +9931,9 @@
       "result": "hit",
       "actualHigh": 75988.4,
       "actualLow": 70724.39,
-      "actualClose": 70803.55
+      "actualClose": 70803.55,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-16-C-ETH",
@@ -8906,7 +9950,9 @@
       "result": "hit",
       "actualHigh": 2384.47,
       "actualLow": 2166,
-      "actualClose": 2194.27
+      "actualClose": 2194.27,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-15-A-BTC",
@@ -8923,7 +9969,9 @@
       "result": "partial",
       "actualHigh": 75988.4,
       "actualLow": 70724.39,
-      "actualClose": 73922.48
+      "actualClose": 73922.48,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-15-A-ETH",
@@ -8940,7 +9988,9 @@
       "result": "hit",
       "actualHigh": 2384.47,
       "actualLow": 2084.21,
-      "actualClose": 2318.05
+      "actualClose": 2318.05,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-15-A-SPY",
@@ -8957,7 +10007,9 @@
       "result": "miss",
       "actualHigh": 674.44,
       "actualLow": 661.19,
-      "actualClose": 661.43
+      "actualClose": 661.43,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-15-B-BTC",
@@ -8974,7 +10026,9 @@
       "result": "miss",
       "actualHigh": 75988.4,
       "actualLow": 70724.39,
-      "actualClose": 73922.48
+      "actualClose": 73922.48,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-15-B-ETH",
@@ -8991,7 +10045,9 @@
       "result": "miss",
       "actualHigh": 2384.47,
       "actualLow": 2084.21,
-      "actualClose": 2318.05
+      "actualClose": 2318.05,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-15-B-SPY",
@@ -9008,7 +10064,9 @@
       "result": "partial",
       "actualHigh": 674.44,
       "actualLow": 661.19,
-      "actualClose": 661.43
+      "actualClose": 661.43,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-15-C-DXY",
@@ -9025,7 +10083,9 @@
       "result": "partial",
       "actualHigh": 100.48,
       "actualLow": 99.47,
-      "actualClose": 100.09
+      "actualClose": 100.09,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-15-C-GLD",
@@ -9042,7 +10102,9 @@
       "result": "hit",
       "actualHigh": 462.8,
       "actualLow": 444.39,
-      "actualClose": 444.74
+      "actualClose": 444.74,
+      "probability": 0.54,
+      "brier_score": 0.2116
     },
     {
       "id": "2026-03-15-C-TLT",
@@ -9059,7 +10121,9 @@
       "result": "partial",
       "actualHigh": 87.57,
       "actualLow": 86.93,
-      "actualClose": 86.96
+      "actualClose": 86.96,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-14-A-BTC",
@@ -9076,7 +10140,9 @@
       "result": "miss",
       "actualHigh": 75921.28,
       "actualLow": 70339.59,
-      "actualClose": 74112.54
+      "actualClose": 74112.54,
+      "probability": 0.33,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-03-14-A-SPY",
@@ -9093,7 +10159,9 @@
       "result": "miss",
       "actualHigh": 674.44,
       "actualLow": 667.12,
-      "actualClose": 670.96
+      "actualClose": 670.96,
+      "probability": 0.33,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-03-14-A-OIL",
@@ -9110,7 +10178,9 @@
       "result": "partial",
       "actualHigh": 102.44,
       "actualLow": 92.93,
-      "actualClose": 93.86
+      "actualClose": 93.86,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-03-14-B-BTC",
@@ -9127,7 +10197,9 @@
       "result": "hit",
       "actualHigh": 75921.28,
       "actualLow": 70339.59,
-      "actualClose": 74112.54
+      "actualClose": 74112.54,
+      "probability": 0.33,
+      "brier_score": 0.4489
     },
     {
       "id": "2026-03-14-B-TLT",
@@ -9144,7 +10216,9 @@
       "result": "partial",
       "actualHigh": 87.57,
       "actualLow": 86.96,
-      "actualClose": 87.49
+      "actualClose": 87.49,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-03-14-B-DXY",
@@ -9178,7 +10252,9 @@
       "result": "miss",
       "actualHigh": 674.44,
       "actualLow": 667.12,
-      "actualClose": 670.96
+      "actualClose": 670.96,
+      "probability": 0.34,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-14-C-QQQ",
@@ -9195,7 +10271,9 @@
       "result": "miss",
       "actualHigh": 605.89,
       "actualLow": 599.11,
-      "actualClose": 603.1
+      "actualClose": 603.1,
+      "probability": 0.34,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-14-C-VIX",
@@ -9212,7 +10290,9 @@
       "result": "miss",
       "actualHigh": 26.42,
       "actualLow": 21.87,
-      "actualClose": 22.71
+      "actualClose": 22.71,
+      "probability": 0.34,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-13-A-SPY",
@@ -9229,7 +10309,9 @@
       "result": "miss",
       "actualHigh": 672.34,
       "actualLow": 661.36,
-      "actualClose": 669.03
+      "actualClose": 669.03,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-13-A-BTC",
@@ -9246,7 +10328,9 @@
       "result": "miss",
       "actualHigh": 74901.86,
       "actualLow": 70339.59,
-      "actualClose": 74861.09
+      "actualClose": 74861.09,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-13-A-OIL",
@@ -9263,7 +10347,9 @@
       "result": "miss",
       "actualHigh": 102.44,
       "actualLow": 92.04,
-      "actualClose": 93.5
+      "actualClose": 93.5,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-13-B-TLT",
@@ -9280,7 +10366,9 @@
       "result": "miss",
       "actualHigh": 87.34,
       "actualLow": 86.47,
-      "actualClose": 87.21
+      "actualClose": 87.21,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-13-B-DXY",
@@ -9297,7 +10385,9 @@
       "result": "miss",
       "actualHigh": 100.54,
       "actualLow": 99.59,
-      "actualClose": 99.71
+      "actualClose": 99.71,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-13-B-GLD",
@@ -9314,7 +10404,9 @@
       "result": "partial",
       "actualHigh": 470.1,
       "actualLow": 456.91,
-      "actualClose": 460.43
+      "actualClose": 460.43,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-13-C-SPY",
@@ -9331,7 +10423,9 @@
       "result": "partial",
       "actualHigh": 672.34,
       "actualLow": 661.36,
-      "actualClose": 669.03
+      "actualClose": 669.03,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-13-C-BTC",
@@ -9348,7 +10442,9 @@
       "result": "partial",
       "actualHigh": 74901.86,
       "actualLow": 70339.59,
-      "actualClose": 74861.09
+      "actualClose": 74861.09,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-13-C-VIX",
@@ -9365,7 +10461,9 @@
       "result": "partial",
       "actualHigh": 28.47,
       "actualLow": 23.23,
-      "actualClose": 23.51
+      "actualClose": 23.51,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-12-A-BTC",
@@ -9382,7 +10480,9 @@
       "result": "miss",
       "actualHigh": 73927.33,
       "actualLow": 69230.16,
-      "actualClose": 72789.91
+      "actualClose": 72789.91,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-12-A-OIL",
@@ -9399,7 +10499,9 @@
       "result": "hit",
       "actualHigh": 99.32,
       "actualLow": 88.61,
-      "actualClose": 98.71
+      "actualClose": 98.71,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-12-A-SPY",
@@ -9416,7 +10518,9 @@
       "result": "partial",
       "actualHigh": 672.34,
       "actualLow": 661.36,
-      "actualClose": 662.29
+      "actualClose": 662.29,
+      "probability": 0.16,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-12-A-TLT",
@@ -9433,7 +10537,9 @@
       "result": "miss",
       "actualHigh": 87.25,
       "actualLow": 86.47,
-      "actualClose": 86.54
+      "actualClose": 86.54,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-12-B-OIL",
@@ -9450,7 +10556,9 @@
       "result": "miss",
       "actualHigh": 99.32,
       "actualLow": 88.61,
-      "actualClose": 98.71
+      "actualClose": 98.71,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-12-B-SPY",
@@ -9467,7 +10575,9 @@
       "result": "miss",
       "actualHigh": 672.34,
       "actualLow": 661.36,
-      "actualClose": 662.29
+      "actualClose": 662.29,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-12-B-BTC",
@@ -9484,7 +10594,9 @@
       "result": "hit",
       "actualHigh": 73927.33,
       "actualLow": 69230.16,
-      "actualClose": 72789.91
+      "actualClose": 72789.91,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-12-B-TLT",
@@ -9501,7 +10613,9 @@
       "result": "partial",
       "actualHigh": 87.25,
       "actualLow": 86.47,
-      "actualClose": 86.54
+      "actualClose": 86.54,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-11-A-SPY",
@@ -9518,7 +10632,9 @@
       "result": "miss",
       "actualHigh": 680.08,
       "actualLow": 661.36,
-      "actualClose": 662.29
+      "actualClose": 662.29,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-11-A-OIL",
@@ -9535,7 +10651,9 @@
       "result": "hit",
       "actualHigh": 99.32,
       "actualLow": 81.79,
-      "actualClose": 98.71
+      "actualClose": 98.71,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-11-B-BTC",
@@ -9552,7 +10670,9 @@
       "result": "hit",
       "actualHigh": 73927.33,
       "actualLow": 68998.87,
-      "actualClose": 71214.63
+      "actualClose": 71214.63,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-11-B-TLT",
@@ -9569,7 +10689,9 @@
       "result": "hit",
       "actualHigh": 87.81,
       "actualLow": 86.47,
-      "actualClose": 86.54
+      "actualClose": 86.54,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-11-C-GOLD",
@@ -9586,7 +10708,9 @@
       "result": "miss",
       "actualHigh": 5191.3,
       "actualLow": 5009.5,
-      "actualClose": 5052.5
+      "actualClose": 5052.5,
+      "probability": 0.54,
+      "brier_score": 0.2916
     },
     {
       "id": "2026-03-11-C-VIX",
@@ -9603,7 +10727,9 @@
       "result": "partial",
       "actualHigh": 28.47,
       "actualLow": 23.75,
-      "actualClose": 27.19
+      "actualClose": 27.19,
+      "probability": 0.54,
+      "brier_score": 0.0016
     },
     {
       "id": "2026-03-10-A-BTC",
@@ -9620,7 +10746,9 @@
       "result": "hit",
       "actualHigh": 73927.33,
       "actualLow": 68402.72,
-      "actualClose": 70968.27
+      "actualClose": 70968.27,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-10-A-OIL",
@@ -9637,7 +10765,9 @@
       "result": "hit",
       "actualHigh": 99.32,
       "actualLow": 76.73,
-      "actualClose": 98.71
+      "actualClose": 98.71,
+      "probability": 0.16,
+      "brier_score": 0.7056
     },
     {
       "id": "2026-03-10-A-SPY",
@@ -9654,7 +10784,9 @@
       "result": "miss",
       "actualHigh": 683.36,
       "actualLow": 661.36,
-      "actualClose": 662.29
+      "actualClose": 662.29,
+      "probability": 0.16,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-10-B-GOLD",
@@ -9671,7 +10803,9 @@
       "result": "miss",
       "actualHigh": 5229.7,
       "actualLow": 5009.5,
-      "actualClose": 5052.5
+      "actualClose": 5052.5,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-10-B-TLT",
@@ -9688,7 +10822,9 @@
       "result": "partial",
       "actualHigh": 88.95,
       "actualLow": 86.47,
-      "actualClose": 86.54
+      "actualClose": 86.54,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-10-B-BTC",
@@ -9705,7 +10841,9 @@
       "result": "miss",
       "actualHigh": 73927.33,
       "actualLow": 68402.72,
-      "actualClose": 70968.27
+      "actualClose": 70968.27,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-09-A-BTC",
@@ -9722,7 +10860,9 @@
       "result": "miss",
       "actualHigh": 71770.9,
       "actualLow": 65858.01,
-      "actualClose": 70493.46
+      "actualClose": 70493.46,
+      "probability": 0.25,
+      "brier_score": 0.0625
     },
     {
       "id": "2026-03-09-A-OIL",
@@ -9739,7 +10879,9 @@
       "result": "partial",
       "actualHigh": 119.48,
       "actualLow": 76.73,
-      "actualClose": 95.73
+      "actualClose": 95.73,
+      "probability": 0.25,
+      "brier_score": 0.0625
     },
     {
       "id": "2026-03-09-A-SPY",
@@ -9756,7 +10898,9 @@
       "result": "partial",
       "actualHigh": 683.36,
       "actualLow": 662.39,
-      "actualClose": 666.06
+      "actualClose": 666.06,
+      "probability": 0.25,
+      "brier_score": 0.0625
     },
     {
       "id": "2026-03-09-B-BTC",
@@ -9773,7 +10917,9 @@
       "result": "partial",
       "actualHigh": 71770.9,
       "actualLow": 65858.01,
-      "actualClose": 70493.46
+      "actualClose": 70493.46,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-09-B-OIL",
@@ -9790,7 +10936,9 @@
       "result": "hit",
       "actualHigh": 119.48,
       "actualLow": 76.73,
-      "actualClose": 95.73
+      "actualClose": 95.73,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-09-B-SPY",
@@ -9807,7 +10955,9 @@
       "result": "miss",
       "actualHigh": 683.36,
       "actualLow": 662.39,
-      "actualClose": 666.06
+      "actualClose": 666.06,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-08-A-SPY",
@@ -9824,7 +10974,9 @@
       "result": "miss",
       "actualHigh": 683.36,
       "actualLow": 662.39,
-      "actualClose": 676.33
+      "actualClose": 676.33,
+      "probability": 0.25,
+      "brier_score": 0.0625
     },
     {
       "id": "2026-03-08-A-VIX",
@@ -9858,7 +11010,9 @@
       "result": "hit",
       "actualHigh": 119.48,
       "actualLow": 76.73,
-      "actualClose": 87.25
+      "actualClose": 87.25,
+      "probability": 0.25,
+      "brier_score": 0.5625
     },
     {
       "id": "2026-03-08-B-SPY",
@@ -9875,7 +11029,9 @@
       "result": "partial",
       "actualHigh": 683.36,
       "actualLow": 662.39,
-      "actualClose": 676.33
+      "actualClose": 676.33,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-08-B-TLT",
@@ -9892,7 +11048,9 @@
       "result": "miss",
       "actualHigh": 89.32,
       "actualLow": 87.08,
-      "actualClose": 87.14
+      "actualClose": 87.14,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-08-B-GLD",
@@ -9909,7 +11067,9 @@
       "result": "partial",
       "actualHigh": 481.31,
       "actualLow": 464.79,
-      "actualClose": 476.24
+      "actualClose": 476.24,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-03-08-C-QQQ",
@@ -9926,7 +11086,9 @@
       "result": "miss",
       "actualHigh": 613.29,
       "actualLow": 591.33,
-      "actualClose": 607.69
+      "actualClose": 607.69,
+      "probability": 0.45,
+      "brier_score": 0.2025
     },
     {
       "id": "2026-03-08-C-DXY",
@@ -9943,7 +11105,9 @@
       "result": "miss",
       "actualHigh": 99.7,
       "actualLow": 98.49,
-      "actualClose": 99.23
+      "actualClose": 99.23,
+      "probability": 0.45,
+      "brier_score": 0.2025
     },
     {
       "id": "2026-03-08-C-VIX",
@@ -9977,7 +11141,9 @@
       "result": "partial",
       "actualHigh": 683.36,
       "actualLow": 662.39,
-      "actualClose": 677.18
+      "actualClose": 677.18,
+      "probability": 0.25,
+      "brier_score": 0.0625
     },
     {
       "id": "2026-03-07-A-OIL",
@@ -9994,7 +11160,9 @@
       "result": "hit",
       "actualHigh": 119.48,
       "actualLow": 76.73,
-      "actualClose": 83.45
+      "actualClose": 83.45,
+      "probability": 0.25,
+      "brier_score": 0.5625
     },
     {
       "id": "2026-03-07-A-VIX",
@@ -10011,7 +11179,9 @@
       "result": "hit",
       "actualHigh": 35.3,
       "actualLow": 22.19,
-      "actualClose": 24.93
+      "actualClose": 24.93,
+      "probability": 0.25,
+      "brier_score": 0.5625
     },
     {
       "id": "2026-03-07-B-SPY",
@@ -10028,7 +11198,9 @@
       "result": "miss",
       "actualHigh": 683.36,
       "actualLow": 662.39,
-      "actualClose": 677.18
+      "actualClose": 677.18,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-03-07-B-OIL",
@@ -10045,7 +11217,9 @@
       "result": "hit",
       "actualHigh": 119.48,
       "actualLow": 76.73,
-      "actualClose": 83.45
+      "actualClose": 83.45,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-07-B-VIX",
@@ -10062,7 +11236,9 @@
       "result": "hit",
       "actualHigh": 35.3,
       "actualLow": 22.19,
-      "actualClose": 24.93
+      "actualClose": 24.93,
+      "probability": 0.3,
+      "brier_score": 0.49
     },
     {
       "id": "2026-03-06-A-OIL",
@@ -10079,7 +11255,9 @@
       "result": "hit",
       "actualHigh": 119.48,
       "actualLow": 78.24,
-      "actualClose": 94.77
+      "actualClose": 94.77,
+      "probability": 0.33,
+      "brier_score": 0.4489
     },
     {
       "id": "2026-03-06-A-BTC",
@@ -10096,7 +11274,9 @@
       "result": "hit",
       "actualHigh": 71378.57,
       "actualLow": 65639.2,
-      "actualClose": 68402.38
+      "actualClose": 68402.38,
+      "probability": 0.33,
+      "brier_score": 0.4489
     },
     {
       "id": "2026-03-06-A-SPY",
@@ -10113,7 +11293,9 @@
       "result": "hit",
       "actualHigh": 679.92,
       "actualLow": 662.39,
-      "actualClose": 678.27
+      "actualClose": 678.27,
+      "probability": 0.33,
+      "brier_score": 0.4489
     },
     {
       "id": "2026-03-06-B-BTC",
@@ -10130,7 +11312,9 @@
       "result": "partial",
       "actualHigh": 71378.57,
       "actualLow": 65639.2,
-      "actualClose": 68402.38
+      "actualClose": 68402.38,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-03-06-B-ETH",
@@ -10147,7 +11331,9 @@
       "result": "partial",
       "actualHigh": 2092.52,
       "actualLow": 1915.3,
-      "actualClose": 1992.94
+      "actualClose": 1992.94,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-03-06-B-QQQ",
@@ -10164,7 +11350,9 @@
       "result": "partial",
       "actualHigh": 609.27,
       "actualLow": 591.33,
-      "actualClose": 607.76
+      "actualClose": 607.76,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-03-05-A-BTC",
@@ -10181,7 +11369,9 @@
       "result": "hit",
       "actualHigh": 73555.79,
       "actualLow": 65639.2,
-      "actualClose": 65969.78
+      "actualClose": 65969.78,
+      "probability": 0.33,
+      "brier_score": 0.4489
     },
     {
       "id": "2026-03-05-A-OIL",
@@ -10198,7 +11388,9 @@
       "result": "hit",
       "actualHigh": 92.61,
       "actualLow": 74.97,
-      "actualClose": 90.9
+      "actualClose": 90.9,
+      "probability": 0.33,
+      "brier_score": 0.4489
     },
     {
       "id": "2026-03-05-A-SPY",
@@ -10215,7 +11407,9 @@
       "result": "partial",
       "actualHigh": 685.53,
       "actualLow": 669.76,
-      "actualClose": 672.38
+      "actualClose": 672.38,
+      "probability": 0.33,
+      "brier_score": 0.0289
     },
     {
       "id": "2026-03-05-B-BTC",
@@ -10232,7 +11426,9 @@
       "result": "miss",
       "actualHigh": 73555.79,
       "actualLow": 65639.2,
-      "actualClose": 65969.78
+      "actualClose": 65969.78,
+      "probability": 0.33,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-03-05-B-ETH",
@@ -10249,7 +11445,9 @@
       "result": "miss",
       "actualHigh": 2163.04,
       "actualLow": 1915.3,
-      "actualClose": 1936.6
+      "actualClose": 1936.6,
+      "probability": 0.33,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-03-05-B-QQQ",
@@ -10266,7 +11464,9 @@
       "result": "miss",
       "actualHigh": 612.76,
       "actualLow": 598.33,
-      "actualClose": 599.75
+      "actualClose": 599.75,
+      "probability": 0.33,
+      "brier_score": 0.1089
     },
     {
       "id": "2026-03-05-C-TLT",
@@ -10283,7 +11483,9 @@
       "result": "partial",
       "actualHigh": 88.94,
       "actualLow": 88.02,
-      "actualClose": 88.46
+      "actualClose": 88.46,
+      "probability": 0.34,
+      "brier_score": 0.0256
     },
     {
       "id": "2026-03-05-C-DXY",
@@ -10300,7 +11502,9 @@
       "result": "miss",
       "actualHigh": 99.44,
       "actualLow": 98.67,
-      "actualClose": 98.99
+      "actualClose": 98.99,
+      "probability": 0.34,
+      "brier_score": 0.1156
     },
     {
       "id": "2026-03-05-C-GOLD",
@@ -10317,8 +11521,10 @@
       "result": "partial",
       "actualHigh": 5169.5,
       "actualLow": 5054.7,
-      "actualClose": 5146.1
+      "actualClose": 5146.1,
+      "probability": 0.34,
+      "brier_score": 0.0256
     }
   ],
-  "lastScored": "2026-05-18T19:30:03.566Z"
+  "lastScored": "2026-05-19T08:04:27.288Z"
 }

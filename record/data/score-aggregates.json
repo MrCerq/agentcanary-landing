@@ -1,15 +1,15 @@
 {
   "perSlot": {
     "radar": {
-      "hit": 66,
+      "hit": 67,
       "partial": 0,
       "miss": 4,
       "pending": 2,
       "no_data": 12,
       "absent": 1,
-      "scored": 70,
-      "hitRate": 94.3,
-      "weightedAccuracy": 94.3
+      "scored": 71,
+      "hitRate": 94.4,
+      "weightedAccuracy": 94.4
     },
     "signal": {
       "hit": 0,
@@ -17,7 +17,7 @@
       "miss": 0,
       "pending": 0,
       "no_data": 0,
-      "absent": 85,
+      "absent": 86,
       "scored": 0,
       "hitRate": null,
       "weightedAccuracy": null
@@ -28,40 +28,92 @@
       "miss": 21,
       "pending": 0,
       "no_data": 10,
-      "absent": 2,
+      "absent": 3,
       "scored": 73,
       "hitRate": 43.8,
       "weightedAccuracy": 57.5
     },
     "wrap": {
-      "hit": 58,
+      "hit": 59,
       "partial": 8,
       "miss": 4,
       "pending": 1,
       "no_data": 11,
       "absent": 3,
-      "scored": 70,
-      "hitRate": 82.9,
-      "weightedAccuracy": 88.6
+      "scored": 71,
+      "hitRate": 83.1,
+      "weightedAccuracy": 88.7
     }
   },
   "signalPredictions": {
-    "hit": 119,
-    "partial": 218,
-    "miss": 257,
-    "pending": 9,
+    "hit": 120,
+    "partial": 221,
+    "miss": 262,
+    "pending": 0,
     "no_data": 4,
-    "scored": 594,
-    "hitRate": 20,
-    "weightedAccuracy": 38.4
+    "scored": 603,
+    "hitRate": 19.9,
+    "weightedAccuracy": 38.2
   },
   "overall": {
-    "hit": 275,
-    "partial": 246,
-    "miss": 286,
-    "scored": 807,
-    "hitRate": 34.1,
-    "weightedAccuracy": 49.3
+    "hit": 278,
+    "partial": 249,
+    "miss": 291,
+    "scored": 818,
+    "hitRate": 34,
+    "weightedAccuracy": 49.2
   },
-  "computedAt": "2026-05-18T19:30:03.571Z"
+  "computedAt": "2026-05-19T08:04:27.294Z",
+  "brierStats": {
+    "n": 603,
+    "meanBrier": 0.1621,
+    "baselineRandom": 0.25,
+    "perScenario": {
+      "A": {
+        "n": 211,
+        "meanBrier": 0.1785
+      },
+      "B": {
+        "n": 209,
+        "meanBrier": 0.1636
+      },
+      "C": {
+        "n": 183,
+        "meanBrier": 0.1414
+      }
+    },
+    "reliability": [
+      {
+        "range": "0-20%",
+        "n": 120,
+        "predicted_mean": 16.5,
+        "observed_rate": 39.2
+      },
+      {
+        "range": "20-40%",
+        "n": 305,
+        "predicted_mean": 29.5,
+        "observed_rate": 38.9
+      },
+      {
+        "range": "40-60%",
+        "n": 178,
+        "predicted_mean": 49.9,
+        "observed_rate": 36.5
+      },
+      {
+        "range": "60-80%",
+        "n": 0,
+        "predicted_mean": null,
+        "observed_rate": null
+      },
+      {
+        "range": "80-100%",
+        "n": 0,
+        "predicted_mean": null,
+        "observed_rate": null
+      }
+    ],
+    "note": "Lower is better. probability derived from scenarioTilt(regime, riskGauge) at prediction date."
+  }
 }

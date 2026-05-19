@@ -84,6 +84,15 @@ if (fs.existsSync(briefScoresPath)) {
   } catch (e) { console.error('brief-scores.json parse failed:', e.message); }
 }
 
+// Score aggregates (Brier + reliability, computed by score-predictions.mjs)
+let scoreAggregates = null;
+const scoreAggPath = path.join(ROOT, 'record', 'data', 'score-aggregates.json');
+if (fs.existsSync(scoreAggPath)) {
+  try {
+    scoreAggregates = JSON.parse(fs.readFileSync(scoreAggPath, 'utf8'));
+  } catch (e) { console.error('score-aggregates.json parse failed:', e.message); }
+}
+
 // ─── Index briefs ──────────────────────────────────────────────────
 
 // Group briefs by date for day pages
@@ -186,6 +195,7 @@ console.log('[build-v1] /record/ (collection)');
     months,
     scorecardHtml: renderScorecard(),
     predictions: predictions.predictions || [],
+    brierStats: scoreAggregates && scoreAggregates.brierStats || null,
   });
   writeFile('record/index.html', html);
 }

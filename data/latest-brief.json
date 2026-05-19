@@ -1,9 +1,9 @@
 {
-  "session": "intelligence",
-  "date": "2026-05-18",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — May 18",
-  "headlineColor": "#60A5FA",
+  "session": "radar",
+  "date": "2026-05-19",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 19",
+  "headlineColor": "#FB923C",
   "desc": "Risk 14/100 · 6 movers",
   "tags": [
     {
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
+          "k": "ONDO",
+          "v": "+10.9%",
+          "c": "green"
+        },
+        {
+          "k": "EWY",
+          "v": "-7.6%",
+          "c": "red"
+        },
+        {
           "k": "SLV",
-          "v": "-13.0%",
+          "v": "-7.4%",
           "c": "red"
         },
         {
-          "k": "HYPE",
-          "v": "+9.9%",
-          "c": "green"
-        },
-        {
-          "k": "KWEB",
-          "v": "-7.9%",
+          "k": "SOXX",
+          "v": "-6.4%",
           "c": "red"
-        },
-        {
-          "k": "VIX",
-          "v": "+6.8%",
-          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — May 18, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>SNAPSHOT</b>\nRisk-off undertones emerge with metals under pressure and volatility spiking, while energy holds defensive strength. Cross-asset divergence shows crypto selective rotation amid broader commodity weakness.\nBTC at $76,777, above $75K.\nCrypto sentiment: 28 (Fear, 7d avg 36) (falling).\nEquity sentiment (CNN F&G): 62.9 (Greed), 7d avg 66.7, 30d avg 56.2.\nBTC ETF flows: -$290M outflow on May 18 (Mon close), after -$1.3B outflow trailing 5-trading-day.\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLE +3.1%, XLF +0.2%, URA -6.3%, COPX -9.6%.\n\n1. Energy (XLE +3.1%) — strong\n2. Financials (XLF +0.2%) — mixed\n3. Uranium (URA -6.3%) — weak\n4. Copper Miners (COPX -9.6%) — dump\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Fri close, crypto live.</i>\nRisk Gauge: 13.8/100 (Calm). Phase: OVERHEATING.\nSPY -0.4% | QQQ -0.8% | VIX +6.8% | TLT -1.3% | DXY +0.1% | OIL -2.1%\nComposite Risk: 28.5/100 (MODERATE).\nCAPE: 41.7 (BUBBLE_TERRITORY, 99th %ile, +144% vs mean).\nGeopolitical risk: 31/100 (MODERATE). Top: Middle East / Red Sea 37/100 (MODERATE, oil bullish).\n\n<b>RATES + CYCLE</b>\nICSA: 211K (FLAT trend, +0.03z)\nBusiness cycle: LEI 99.85 (STABLE), claims ↑211K, 2s10s +0.50.\nFed implied: -1.5 cuts (HIKES_PRICED); 10Y breakeven 2.49% (NORMAL).\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> (33%) — Energy Leadership Extension\nSPY: $763.21-779.24 (+3-5%)\nQQQ: $747.36-770.42 (+5-9%)\nBTC: $80,939-85,101 (+5-11%)\n\n<b>SCENARIO B</b> (33%) — Crypto Selective Rotation\nBTC: $83,436-89,262 (+9-16%)\nTLT: $80.94-82.75 (-3 to -1%)\nQQQ: $685.87-701.24 (-3 to -1%)\n\n<b>SCENARIO C</b> (34%) — Defensive Flight Accelerates\nTLT: $86.38-88.19 (+3-5%)\nDXY: 100.44-102.60 (+1-3%)\nSPY: $715.13-723.14 (-3 to -2%)\n\n<b>NARRATIVES</b>\n↑ Consumer Staples★: 0.555 (Δ +0.055, MIXED)\n↑ Utilities★: 0.550 (Δ +0.050, MIXED)\n↑ Brazil / LatAm★: 0.547 (Δ +0.047, MIXED)\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: SLV -13.0%, HYPE +9.9%, KWEB -7.9%, VIX +6.8%, BCH -6.8%, FXI -5.4%.\n\nSLV $69.04 (-13.0%) — Silver complex under pressure from broader metals selloff\nHYPE $45.55 (+9.9%) — Hyperliquid ecosystem bid on perp DEX adoption momentum\nKWEB $28.17 (-7.9%) — China internet weakness on regulatory overhang concerns\nVIX 18.43 (+6.8%) — Volatility spike from cross-asset risk-off positioning\nBCH $385.00 (-6.8%) — Bitcoin Cash lagging broader crypto rotation themes\nFXI $36.20 (-5.4%) — China large-cap pressure from macro headwinds\n\n<i>Metals weakness and China pressure drive defensive rotation while crypto shows selective strength</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$290M outflow on May 18 (Mon close) (IBIT -$136M, ARKB -$53M, GBTC -$44M). Trailing 5-trading-day net: -$1.3B outflow.\nCopper #1 (COMEX): +73.5K net, Δ +10.4K (ADDING_LONGS)\nGold (COMEX): +100.6K net, Δ +5.0K (ADDING_LONGS)\n\n<b>INTEL</b>\n▼ Fed Hawkish Pivot Drives Rate Shock [USD, TLT, JPY, SLV]\n▼ Global Inflation Resurgence [JGB, TLT, GLD, OIL]\n▼ Commodities Collapse Despite Supply Risks [SLV, COPX, GLD, URA]\nCongress (last 3 pages): 25 buys / 10 sells [D:18B/5S, R:7B/5S]. Top: INTU(3), JPM(2), HOLX(2), CMG(2).\n\n<b>IMPLICATION</b>\nEnergy's defensive strength contrasts with metals capitulation, suggesting commodity rotation rather than broad risk-off. China weakness and volatility spike warrant caution, but selective crypto strength indicates differentiated flows. Watch whether metals stabilize or energy leadership broadens into other defensive sectors.\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":13.8,\"cape\":41.66,\"equitySentiment\":62.9}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 407
+  "telegramText": "<b>MACRO RADAR</b> — May 19, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 13.8/100 (Calm). Phase: OVERHEATING.\nComposite Risk: 28.7/100 (MODERATE).\nGeopolitical risk: 46/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $76,553 · ETH: $2,121 · SOL: $84.78\nCrypto sentiment: 25 (Extreme Fear, 7d avg 33) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.10T (YoY -2.94%) — fed $6.73T · ecb $7.19T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 280bps NORMAL (composite: CAUTION)\nBDRY: $12.86 (+23.2% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 452.9M bbl, refinery 91.7%, SPR 384M.\n\n<b>KEY PRICES</b>\nSPY -1.3% | QQQ -1.9% | VIX -3.3% | TLT -1.6% | DXY -0.1% | OIL -1.5%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ COPX: -8.4%\n▼ EWY: -7.6%\n▼ SLV: -7.4%\n▼ URA: -7.3%\n▼ SOXX: -6.4%\n▼ SMH: -5.6%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 118.04 (R), Gold $4547 (Y), Oil $102 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] IG Credit Spread: -2.11σ\n[+] 10Y Real Rate: +2.02σ\n[+] Fed Balance Sheet: +1.62σ\n[-] HY Credit Spread: -1.57σ\n[-] Gold: -1.50σ\n\n<b>US OPEN SETUP</b>\n<i>Energy leadership signals defensive positioning ahead of US open. Watch for continuation of semiconductor weakness while crypto maintains divergent strength pattern. Outflow pressure building across risk assets.</i>\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":13.8,\"compositeRisk\":28.7,\"geoRisk\":46}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 409
 }

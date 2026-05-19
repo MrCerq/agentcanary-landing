@@ -73,6 +73,101 @@ function scoreDate(dateStr) {
 
 // ─── extraction ─────────────────────────────────────────────────
 
+
+// ─── Brier / calibration helpers (added 2026-05-19) ─────────────
+// Heuristic scenario probabilities — ported from ac-compute's
+// forward-scenarios atom (scenarioTilt). Bases off radar regime + risk
+// gauge. NOT a calibrated forecast — that's exactly what the Brier score
+// below measures.
+function scenarioTilt(phase, riskGauge) {
+  let a = 33, b = 33, c = 34;
+  const ph = String(phase || '').toUpperCase();
+  if (ph === 'EXPANSION' || ph === 'OVERHEATING') { a += 15; c -= 5; }
+  else if (ph === 'STAGFLATION' || ph === 'CONTRACTION' || ph === 'RECESSION') { c += 15; a -= 5; }
+  if (Number.isFinite(riskGauge)) {
+    if (riskGauge < 25) { a += 10; c -= 10; }
+    else if (riskGauge > 60) { c += 10; a -= 10; }
+  }
+  const clamp = (x) => Math.max(10, Math.min(70, x));
+  a = clamp(a); b = clamp(b); c = clamp(c);
+  const total = a + b + c;
+  const aN = Math.round((a / total) * 100);
+  const bN = Math.round((b / total) * 100);
+  return { A: aN, B: bN, C: 100 - aN - bN };
+}
+
+// outcome: 'hit'=1, 'partial'=0.5, 'miss'=0. Other states return null (skip).
+function outcomeValue(result) {
+  if (result === 'hit') return 1;
+  if (result === 'partial') return 0.5;
+  if (result === 'miss') return 0;
+  return null;
+}
+
+// Brier for one prediction: (probability - actual)^2. probability in [0,1].
+function brierScore(probability, outcome) {
+  return (probability - outcome) ** 2;
+}
+
+// Build date → {phase, riskGauge} map from radar brief grades.
+function buildDateToMacro(briefScoresMap) {
+  const out = new Map();
+  for (const [date, day] of Object.entries(briefScoresMap)) {
+    const radar = day && day.radar;
+    if (!radar || typeof radar !== 'object') continue;
+    const m = (radar.details && radar.details.morning) || {};
+    if (m.phase) {
+      out.set(date, { phase: m.phase, riskGauge: m.riskGauge });
+    }
+  }
+  return out;
+}
+
+// Enrich predictions with probability + brier_score (mutates in place).
+// Returns counts for logging.
+function enrichWithBrier(predictionsArr, dateToMacro) {
+  let enriched = 0, skipped = 0;
+  for (const p of predictionsArr) {
+    const outcome = outcomeValue(p.result);
+    if (outcome === null) { skipped++; continue; }
+    const macro = dateToMacro.get(p.date);
+    const tilt = scenarioTilt(macro?.phase, macro?.riskGauge);
+    const pctRaw = tilt[p.scenario];
+    if (!Number.isFinite(pctRaw)) { skipped++; continue; }
+    const probability = pctRaw / 100;
+    p.probability = +probability.toFixed(4);
+    p.brier_score = +brierScore(probability, outcome).toFixed(4);
+    enriched++;
+  }
+  return { enriched, skipped };
+}
+
+// Reliability bucketing: 5 ranges. Returns array of { range, predicted_mean, observed_rate, n }.
+function reliabilityBuckets(predictionsArr) {
+  const buckets = [
+    { lo: 0,   hi: 0.20, label: '0-20%',  probs: [], outcomes: [] },
+    { lo: 0.20, hi: 0.40, label: '20-40%', probs: [], outcomes: [] },
+    { lo: 0.40, hi: 0.60, label: '40-60%', probs: [], outcomes: [] },
+    { lo: 0.60, hi: 0.80, label: '60-80%', probs: [], outcomes: [] },
+    { lo: 0.80, hi: 1.001, label: '80-100%', probs: [], outcomes: [] },
+  ];
+  for (const p of predictionsArr) {
+    if (!Number.isFinite(p.probability)) continue;
+    const o = outcomeValue(p.result);
+    if (o === null) continue;
+    const b = buckets.find(x => p.probability >= x.lo && p.probability < x.hi);
+    if (!b) continue;
+    b.probs.push(p.probability);
+    b.outcomes.push(o);
+  }
+  return buckets.map(b => ({
+    range: b.label,
+    n: b.probs.length,
+    predicted_mean: b.probs.length ? +(b.probs.reduce((s, x) => s + x, 0) / b.probs.length * 100).toFixed(1) : null,
+    observed_rate:  b.outcomes.length ? +(b.outcomes.reduce((s, x) => s + x, 0) / b.outcomes.length * 100).toFixed(1) : null,
+  }));
+}
+
 function extractPredictions(briefs) {
   const predictions = [];
   for (const b of briefs) {
@@ -686,6 +781,34 @@ function computeAggregates(briefScoresMap, predictionsArr) {
     weightedAccuracy: oScored ? Math.round(((oH + 0.5 * oP) / oScored) * 1000) / 10 : null,
   };
 
+  // ─── Brier + calibration stats ───
+  const scoredWithBrier = (predictionsArr || []).filter(p => Number.isFinite(p.brier_score));
+  if (scoredWithBrier.length > 0) {
+    const sum = scoredWithBrier.reduce((s, p) => s + p.brier_score, 0);
+    const meanBrier = sum / scoredWithBrier.length;
+
+    // Per-scenario
+    const perScenario = {};
+    for (const letter of ['A', 'B', 'C']) {
+      const subset = scoredWithBrier.filter(p => p.scenario === letter);
+      perScenario[letter] = {
+        n: subset.length,
+        meanBrier: subset.length ? +(subset.reduce((s, p) => s + p.brier_score, 0) / subset.length).toFixed(4) : null,
+      };
+    }
+
+    out.brierStats = {
+      n: scoredWithBrier.length,
+      meanBrier: +meanBrier.toFixed(4),
+      // Baseline: random 50-50 guess on every prediction gives meanBrier = 0.25
+      // Naive uniform-prior (33/33/34) baseline ≈ varies but ~0.39 for our mix
+      baselineRandom: 0.25,
+      perScenario,
+      reliability: reliabilityBuckets(predictionsArr || []),
+      note: 'Lower is better. probability derived from scenarioTilt(regime, riskGauge) at prediction date.',
+    };
+  }
+
   return out;
 }
 
@@ -750,6 +873,11 @@ async function main() {
     console.log(`[score] ${slot} — hit:${h} partial:${p} miss:${m} pending:${pe} no_data:${nd}`);
   }
 
+  // ─── Brier enrichment — compute probability + brier_score per prediction ───
+  const dateToMacro = buildDateToMacro(briefScores);
+  const brierCounts = enrichWithBrier(predictionsData.predictions, dateToMacro);
+  console.log(`[score] brier — enriched:${brierCounts.enriched} skipped:${brierCounts.skipped}`);
+
   // Update lastScored
   predictionsData.lastScored = new Date().toISOString();
 
@@ -764,6 +892,10 @@ async function main() {
   const aggregates = computeAggregates(briefScores, predictionsData.predictions);
   fs.writeFileSync(SCORE_AGGREGATES_PATH, JSON.stringify(aggregates, null, 2));
   console.log(`[score] aggregates: overall ${aggregates.overall.weightedAccuracy}% weighted (${aggregates.overall.hit}H/${aggregates.overall.partial}P/${aggregates.overall.miss}M scored)`);
+  if (aggregates.brierStats) {
+    const bs = aggregates.brierStats;
+    console.log(`[score] brier: meanBrier=${bs.meanBrier} (n=${bs.n}, baseline-random=${bs.baselineRandom}) per-scenario A=${bs.perScenario.A.meanBrier} B=${bs.perScenario.B.meanBrier} C=${bs.perScenario.C.meanBrier}`);
+  }
   console.log(`[score] wrote ${PREDICTIONS_PATH} + ${PRICE_CACHE_PATH} + ${BRIEF_SCORES_PATH} + ${SCORE_AGGREGATES_PATH}`);
 }
 

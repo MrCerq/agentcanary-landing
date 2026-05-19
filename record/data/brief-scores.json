@@ -1,6 +1,6 @@
 {
   "scores": {
-    "2026-05-18": {
+    "2026-05-19": {
       "radar": {
         "status": "pending",
         "summary": "Regime OVERHEATING called — awaiting next radar",
@@ -15,6 +15,46 @@
       },
       "pulse": null,
       "wrap": null
+    },
+    "2026-05-18": {
+      "radar": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held all day",
+        "details": {
+          "morning": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
+        }
+      },
+      "pulse": null,
+      "wrap": {
+        "status": "hit",
+        "summary": "Regime OVERHEATING held overnight (no SPY data for direction check)",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "nextRadar": {
+            "phase": "OVERHEATING",
+            "riskGauge": 13.8,
+            "riskLabel": "Calm"
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
+        }
+      }
     },
     "2026-05-17": {
       "radar": {
@@ -6176,5 +6216,5 @@
       }
     }
   },
-  "lastScored": "2026-05-18T19:30:03.566Z"
+  "lastScored": "2026-05-19T08:04:27.287Z"
 }
