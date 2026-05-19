@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-05-19",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — May 19",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — May 19",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 14/100 · 6 movers",
   "tags": [
     {
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "ONDO",
-          "v": "+10.9%",
+          "k": "ALAB",
+          "v": "+13.3%",
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "-7.6%",
-          "c": "red"
+          "k": "BKKT",
+          "v": "+11.2%",
+          "c": "green"
         },
         {
-          "k": "SLV",
-          "v": "-7.4%",
-          "c": "red"
+          "k": "CLSK",
+          "v": "+9.6%",
+          "c": "green"
         },
         {
-          "k": "SOXX",
-          "v": "-6.4%",
+          "k": "UUUU",
+          "v": "-7.2%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>SIGNAL SCAN</b> — May 19, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $76,553, above $75K.\nBTC ETF flows: -$649M outflow on May 19 (Tue close), after -$1.7B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Mon close, crypto live.</i>\nRisk Gauge: 13.8/100 (Calm). Phase: OVERHEATING.\nSPY -1.3% | QQQ -1.9% | VIX -3.3% | TLT -1.6% | DXY -0.1% | OIL -1.5%\nICSA: 211K (FLAT trend, +0.03z)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLE +4.3%, XLP +1.1%, XLF +0.9%, URA -7.3%, COPX -8.4%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: ONDO +10.9%, EWY -7.6%, SLV -7.4%, SOXX -6.4%, SMH -5.6%, XBI -5.3%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$649M outflow on May 19 (Tue close) (IBIT -$448M, ARKB -$110M, FBTC -$63M). Trailing 5-trading-day net: -$1.7B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $104M long / $65M short (net long $39M, -$1.9M PnL); ETH: $26M long / $62M short (net short $36M, -$531K PnL); HYPE: $18M long / $41M short (net short $23M, -$7.9M PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 411
+  "telegramText": "<b>MARKET WRAP</b> — May 19, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets closed with defensive rotation dominating despite surface-level strength in select risk assets. Energy and staples bid while commodities cratered, suggesting institutional positioning toward safety over growth. Tomorrow's setup favors continued defensive leadership as crypto institutional outflows persist.\n\n<b>CLOSING PRICES</b>\nSPY -0.7% | QQQ -1.0% | VIX +1.3% | TLT -0.8% | DXY +0.3% | OIL -4.2%\n\n<b>vs MORNING</b>\nSPY +0.5% | QQQ +0.9% | VIX +4.7% | TLT +0.8% | DXY +0.4% | OIL -2.7%\n\n<b>EVENING NEWS</b>\n▲ This bitcoin bear market is different with 'uniquely pessimistic' traders limiting downside, K33 says\n▲ Forex Today: US Dollar rallies on strong ADP jobs data and Trump’s Iran remarks\n▼ Bitcoin Faces Correction as Institutional Demand Weakens Amid Macro Pressure: Bitfinex\n▼ Asia FX: Indonesia, Philippines and India under pressure – BNY\n▼ Rising Heat Strains US Power Grid in Need of Off-Season Repairs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 13.8/100 (Calm). Phase: OVERHEATING.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLE +3.1%, XLP +1.7%, XLRE +1.6%, COPX -4.4%, URA -5.5%.\nSector dispersion: 81 (EXTREME, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] Consumer Price Index (MoM)(Apr) (+1 variants) — May 20 06:00 UTC (prev: 0.7%)\n[UK] Core Consumer Price Index (MoM)(Apr) (+1 variants) — May 20 06:00 UTC (prev: 0.4%)\n[GER] Producer Price Index (MoM)(Apr) (+2 variants) — May 20 06:00 UTC (prev: 2.5%)\n[EU] Consumer Price Index (MoM)(Final)(Apr) (+1 variants) — May 20 09:00 UTC (prev: 1.0%)\n[EU] Core Consumer Price Index (YoY)(Final)(Apr) — May 20 09:00 UTC (prev: 2.1%)\n[EU] GDP(YoY)(Preliminary)(Q1) — May 20 09:00 UTC (prev: 1.2%)\n\n<b>CONTRARIAN</b>\n• TKMS +7% surge may signal over-rotation into defense given limited actual conflict escalation beyond rhetoric\n• WTI -4.2% drop could be overdone if power grid strain from unseasonable heat creates unexpected demand surge\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":13.8,\"sectorDispersion\":81,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"XLE\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 412
 }
