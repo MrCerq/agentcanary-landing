@@ -27,8 +27,8 @@
       "partial": 20,
       "miss": 21,
       "pending": 0,
-      "no_data": 10,
-      "absent": 3,
+      "no_data": 11,
+      "absent": 2,
       "scored": 73,
       "hitRate": 43.8,
       "weightedAccuracy": 57.5
@@ -63,7 +63,7 @@
     "hitRate": 34,
     "weightedAccuracy": 49.2
   },
-  "computedAt": "2026-05-19T10:30:03.771Z",
+  "computedAt": "2026-05-19T16:30:03.625Z",
   "brierStats": {
     "n": 603,
     "meanBrier": 0.1621,
