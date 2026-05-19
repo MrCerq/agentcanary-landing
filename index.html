@@ -140,6 +140,127 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://agentcanary.ai/#mcp-software",
+  "name": "agentcanary-mcp",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "any",
+  "description": "Model Context Protocol server exposing 17 AgentCanary tools (briefs, indicators, regime, narratives, predictions, scenarios, derivatives, sentiment, central banks, market structure) for autonomous AI agents. Installable via npx agentcanary-mcp.",
+  "url": "https://www.npmjs.com/package/agentcanary-mcp",
+  "downloadUrl": "https://www.npmjs.com/package/agentcanary-mcp",
+  "softwareVersion": "1.4.0",
+  "publisher": { "@id": "https://agentcanary.ai/#org" },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free Explorer tier with prices + regime + indicator list. Paid tiers via USDC deposit on Base."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "0.838",
+    "bestRating": "1.0",
+    "ratingCount": "603",
+    "name": "Track-record accuracy (Brier-based, lower is better; 1 - 0.162 = 0.838)"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is AgentCanary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AgentCanary is a decision-grade market intelligence layer for autonomous AI agents. It delivers regime classifications, risk scores, narrative momentum, scenario probabilities, and track-record-verified signals via REST API and MCP server. Every prediction has a public hit/miss/partial outcome; nothing is retroactively hidden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I connect an AI agent to AgentCanary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Install the MCP server: npx agentcanary-mcp. Configure your AI client (Claude Desktop, Cursor, Windsurf, any MCP client) with environment variable AC_API_KEY. Or call the REST API directly at api.agentcanary.ai with x-api-key header. Both routes use the same key."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the free tier include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Explorer (free) tier includes real-time crypto prices for 100+ tokens, macro regime classification, and the indicator catalog list. 50 calls/day, 10 calls/minute. No KYC, no credit card; just a wallet address to receive the API key. Upgrade to Builder ($50 USDC) or Signal ($150) by depositing on Base."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is AgentCanary different from other market data APIs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three differences. (1) Every prediction is publicly scored — see agentcanary.ai/record/ for hit/miss outcomes on 600+ predictions. (2) Output is decision-shaped (regime, scenarios, scores) not raw price feeds. (3) MCP-native — designed for AI agent consumption with schema-stable JSON, freshness envelopes, and tier-aware error codes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the freshness SLA for the data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Per-dataset SLAs are public at agentcanary.ai/sources/. Every /api/data response includes a provenance field with observed_at, age_seconds, sla_seconds, and freshness_status (fresh / degraded / stale). Agents can gate on freshness_status before consuming."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is billing handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wallet-billed in USDC or USDT on Base, Arbitrum, Optimism, Polygon, or Ethereum. No KYC, no recurring subscription. Deposit grants credits at $0.02/call (Explorer/Builder) down to $0.01/call (Institutional). Cumulative deposits set the tier."
+      }
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Connect an AI agent to AgentCanary in 3 steps",
+  "description": "Add AgentCanary market intelligence to any MCP-compatible AI client (Claude Desktop, Cursor, Windsurf, custom) in under 60 seconds.",
+  "totalTime": "PT1M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "0"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Get an API key",
+      "text": "POST to https://api.agentcanary.ai/api/keys/create with body {\"walletAddress\": \"0xYOUR_WALLET\", \"chain\": \"base\"}. Response includes the API key + deposit address. Free Explorer tier is active immediately.",
+      "url": "https://api.agentcanary.ai/api/docs#tag/keys/POST/api/keys/create"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Configure your MCP client",
+      "text": "For Claude Desktop, add to ~/Library/Application Support/Claude/claude_desktop_config.json: {\"mcpServers\": {\"agentcanary\": {\"command\": \"npx\", \"args\": [\"agentcanary-mcp\"], \"env\": {\"AC_API_KEY\": \"ac_...\"}}}}. For Cursor, use the equivalent MCP config in settings.",
+      "url": "https://www.npmjs.com/package/agentcanary-mcp"
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Call tools from the agent",
+      "text": "Restart your MCP client. 17 AgentCanary tools become available: get_briefs, get_indicators, get_regime, get_narratives, get_predictions, diagnose, and more. Each tool returns structured JSON; errors include tier_insufficient / scope_insufficient with the exact upgrade path.",
+      "url": "https://agentcanary.ai/sources/"
+    }
+  ]
+}
+</script>
 <style>
 :root{--bg:#04070c;--bg2:#080d18;--card:#0b1120;--card-h:#0f1628;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--y-glow:rgba(255,197,61,.10);--y-glow-s:rgba(255,197,61,.22);--y-border:rgba(255,197,61,.20);--g:#34d399;--g-glow:rgba(52,211,153,.10);--r:#f87171;--b:#60a5fa;--p:#a78bfa;--o:#fb923c;--o-glow:rgba(251,146,60,.12);--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
 *{margin:0;padding:0;box-sizing:border-box}

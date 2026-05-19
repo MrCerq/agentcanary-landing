@@ -51,8 +51,8 @@ Minimum deposit: $5. Credits never expire. No subscriptions. No KYC.
 
 | Tier | Cumulative Deposit | Per Call | Rate Limit | Access |
 |------|-------------------|----------|------------|--------|
-| Explorer | Free | $0.02 | 10/min, 50/day | Prices, news, whale alerts, Fear & Greed, regime |
-| Builder | $50+ | $0.02 | 60/min, 5K/day | + macro, signals, calendar, volumes, newsletters |
+| Explorer | Free | $0.02 | 10/min, 50/day | Real-time prices + macro regime + indicator list + latest brief preview |
+| Builder | $50+ | $0.02 | 60/min, 5K/day | + indicator values, news, whale alerts, fear-greed, macro snapshot, signals, narratives, predictions, calendar, newsletters |
 | Signal | $150+ | $0.015 | 120/min, 20K/day | All 130+ endpoints. AI reports. Orderbook. DeFi. Options. |
 | Institutional | $500+ | $0.01 | 300/min, unlimited | White-label. SLA. Custom integrations. |
 
@@ -111,9 +111,9 @@ Cached datasets refreshed on schedule. 26 datasets covering prices, macro, crypt
 |---------|------|-------------|
 | `realtime-prices` | Explorer | 100+ crypto tokens, 24h change |
 | `yahoo-quotes` | Builder | SPY, QQQ, VIX, TLT, DXY, Oil, 16 sector ETFs, stocks |
-| `whale-alerts` | Explorer | Large crypto transactions |
-| `breaking-news` | Explorer | Financial news with FinBERT sentiment |
-| `fear-greed` | Explorer | Crypto Fear & Greed Index |
+| `whale-alerts` | Builder | Large crypto transactions |
+| `breaking-news` | Builder | Financial news with FinBERT sentiment |
+| `fear-greed` | Builder | Crypto Fear & Greed Index |
 | `macro-snapshot` | Builder | 30+ FRED series, regime, risk gauge, z-scores |
 | `funding-rates` | Builder | Perpetual funding rates across exchanges |
 | `financial-calendar` | Builder | High-impact economic events |

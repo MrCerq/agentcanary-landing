@@ -27,10 +27,10 @@ Returns: API key + deposit address. Free Explorer tier immediately.
 Upgrade by depositing USDC/USDT on Base, Arbitrum, Optimism, Polygon, or Ethereum.
 
 ## Tiers & Pricing
-- Explorer (free): Briefs + scores. 50 calls/day.
-- Builder ($50 USDC deposit): + indicators, regime, narratives, news, predictions. 500 calls/day.
-- Signal ($150 USDC): + scenario analysis, positioning, full content. 2000 calls/day.
-- Institutional ($500 USDC): Unlimited. White-label. SLA.
+- Explorer (free): Real-time crypto prices + macro regime + indicator catalog list + latest brief preview. 50 calls/day, 10/min.
+- Builder ($50 USDC deposit): + indicator values + news + whale alerts + fear-greed + macro snapshot + signals + narratives + predictions. 5,000 calls/day, 60/min.
+- Signal ($150 USDC): + scenario analysis, positioning, full brief content, full data archives, orderbook, derivatives detail. 20,000 calls/day, 120/min.
+- Institutional ($500 USDC): Unlimited. White-label. Custom integrations. SLA.
 Per-call cost: $0.01-0.02 deducted from deposit balance.
 
 ## API Endpoints (authenticated)
