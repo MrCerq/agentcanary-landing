@@ -51,7 +51,7 @@ Minimum deposit: $5. Credits never expire. No subscriptions. No KYC.
 
 | Tier | Cumulative Deposit | Per Call | Rate Limit | Access |
 |------|-------------------|----------|------------|--------|
-| Explorer | Free | $0.02 | 10/min, 50/day | Real-time prices + macro regime + indicator list + latest brief preview |
+| Explorer | Free | $0.02 | 10/min, 50/day | **Integration sandbox.** Real-time prices + macro regime + indicator catalog + latest brief preview. Wire AC into your agent and verify shape before depositing. |
 | Builder | $50+ | $0.02 | 60/min, 5K/day | + indicator values, news, whale alerts, fear-greed, macro snapshot, signals, narratives, predictions, calendar, newsletters |
 | Signal | $150+ | $0.015 | 120/min, 20K/day | All 130+ endpoints. AI reports. Orderbook. DeFi. Options. |
 | Institutional | $500+ | $0.01 | 300/min, unlimited | White-label. SLA. Custom integrations. |

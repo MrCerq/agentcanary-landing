@@ -27,10 +27,10 @@ Returns: API key + deposit address. Free Explorer tier immediately.
 Upgrade by depositing USDC/USDT on Base, Arbitrum, Optimism, Polygon, or Ethereum.
 
 ## Tiers & Pricing
-- Explorer (free): Real-time crypto prices + macro regime + indicator catalog list + latest brief preview. 50 calls/day, 10/min.
-- Builder ($50 USDC deposit): + indicator values + news + whale alerts + fear-greed + macro snapshot + signals + narratives + predictions. 5,000 calls/day, 60/min.
-- Signal ($150 USDC): + scenario analysis, positioning, full brief content, full data archives, orderbook, derivatives detail. 20,000 calls/day, 120/min.
-- Institutional ($500 USDC): Unlimited. White-label. Custom integrations. SLA.
+- **Explorer (free) — integration sandbox.** Wire AgentCanary into your agent + verify the shape before committing credits. Includes: real-time crypto prices, macro regime classification, indicator catalog list, and latest brief preview. 50 calls/day, 10/min. No KYC, no card, just a wallet address.
+- **Builder ($50 USDC) — production agents.** All Explorer endpoints with full indicator values + news + whale alerts + fear-greed + macro snapshot + signals + narratives + predictions. 5,000 calls/day, 60/min.
+- **Signal ($150 USDC) — depth.** + scenario analysis, positioning, full brief content, full data archives, orderbook, derivatives detail. 20,000 calls/day, 120/min.
+- **Institutional ($500 USDC).** Unlimited + white-label + custom integrations + SLA.
 Per-call cost: $0.01-0.02 deducted from deposit balance.
 
 ## API Endpoints (authenticated)
