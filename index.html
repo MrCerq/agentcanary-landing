@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AgentCanary — Decision-grade intelligence for AI agents</title>
-<meta name="description" content="Decision-grade market intelligence layer for autonomous AI agents. Regime, risk, narratives, scenarios — via simple API + MCP. Schema-stable, fail-soft. Free tier.">
+<meta name="description" content="Decision-grade market intelligence for AI agents. 19 MCP tools, 36 indicators, 603 predictions publicly scored (mean Brier 0.162). Wallet-billed in USDC, no KYC. Free tier with no-key demo endpoints.">
 <meta name="keywords" content="AI agents, MCP server, autonomous agents, market intelligence API, regime detection, narrative momentum, risk scoring, decision-grade signals, schema-stable">
 <meta name="author" content="AgentCanary">
 <meta property="og:title" content="AgentCanary — Decision-grade intelligence for AI agents">
@@ -18,12 +18,16 @@
 <meta name="twitter:image" content="https://agentcanary.ai/og-image.png">
 <meta name="twitter:description" content="Decision-grade intelligence for autonomous AI agents. Schema-stable API + MCP. No KYC, wallet-billed in stablecoins. Public track record.">
 <link rel="ai-info" href="/llms.txt">
+<link rel="help" type="text/plain" href="/llms-full.txt">
+<link rel="describedby" type="application/yaml" href="https://api.agentcanary.ai/api/openapi.yaml">
 <link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="ai-info" href="/llms.txt">
+<link rel="help" type="text/plain" href="/llms-full.txt">
+<link rel="describedby" type="application/yaml" href="https://api.agentcanary.ai/api/openapi.yaml">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
@@ -35,7 +39,7 @@
       "name": "AgentCanary",
       "url": "https://agentcanary.ai",
       "logo": "https://agentcanary.ai/logo.png",
-      "description": "Decision-grade market intelligence layer for autonomous AI agents. Regime classifications, risk scores, narrative momentum, scenario probabilities, and public track-record-verified signals via REST API + MCP.",
+      "description": "Decision-grade market intelligence for AI agents. 19 MCP tools, 36 indicators, 603 predictions publicly scored (mean Brier 0.162, beats random by 35%). Wallet-billed in USDC on Base, no KYC. Free tier with curl-able no-key demo endpoints.",
       "foundingDate": "2026",
       "sameAs": [
         "https://t.me/agentcanary",
@@ -461,7 +465,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   <div class="hero-grid"></div>
   <div class="hero-glow"></div>
   <h1><em>Decision-grade</em>&nbsp;intelligence for autonomous AI&nbsp;agents</h1>
-  <p class="hero-sub">Regime classifications, risk scores, narrative momentum, scenario probabilities — via simple API + MCP. Schema-stable, fail-soft.</p>
+  <p class="hero-sub">19 MCP tools · 36 indicators · 603 predictions publicly scored · mean Brier 0.162 · wallet-billed in USDC, no KYC.</p>
   <div class="hero-actions">
     <div style="font-family:var(--mono);font-size:13px;font-weight:500;background:var(--y);color:var(--bg);padding:14px 28px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:all .25s;" onclick="navigator.clipboard.writeText('clawhub install agentcanary');this.querySelector('.copy-label').textContent='Copied!'" onmouseover="this.style.background='#ffce3a'" onmouseout="this.style.background='var(--y)'">
       <span>$ clawhub install agentcanary</span>
@@ -471,6 +475,7 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
   </div>
   <div style="margin-top:14px;animation:fadeUp .6s ease-out .4s both;">
     <span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Free tier · 50 calls/day · Credits never expire · No KYC</span>
+    <div style="margin-top:14px;font-family:var(--mono);font-size:11px;color:var(--t3);">Try without a key: <code style="background:rgba(255,255,255,0.04);padding:2px 8px;border-radius:4px;color:var(--y);cursor:pointer;" onclick="navigator.clipboard.writeText('curl https://api.agentcanary.ai/api/track-record');this.textContent='Copied!';setTimeout(()=>{this.textContent='$ curl https://api.agentcanary.ai/api/track-record'},1500)">$ curl https://api.agentcanary.ai/api/track-record</code></div>
   </div>
 </div>
 

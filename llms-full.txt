@@ -1,0 +1,225 @@
+# AgentCanary — Full LLM-readable catalog
+# https://agentcanary.ai · https://api.agentcanary.ai · v1.4.1
+
+> Decision-grade market intelligence for autonomous AI agents.
+> Macro regime, narratives, scenarios, 36 indicators, 4× daily briefs.
+> Every prediction is publicly scored. 603 predictions evaluated, mean
+> Brier score 0.162 (beats random baseline by 35%). Wallet-billed in
+> USDC on Base. No KYC, no card, no recurring subscription.
+
+## Base URLs
+
+- Landing + Record: https://agentcanary.ai
+- REST API: https://api.agentcanary.ai
+- OpenAPI: https://api.agentcanary.ai/api/openapi.yaml
+- MCP Server (npm): npx agentcanary-mcp
+- MCP Registry: io.github.MrCerq/agentcanary v1.4.1
+
+## Try it without an API key (no-friction demo)
+
+Three endpoints accept anonymous requests so agent builders can verify
+the response shape before committing to an account:
+
+    curl https://api.agentcanary.ai/api/regime
+    curl https://api.agentcanary.ai/api/briefs/radar
+    curl https://api.agentcanary.ai/api/track-record
+    curl https://api.agentcanary.ai/api/track-record?ticker=SPY
+
+`/api/regime` returns the current macro regime classification + risk gauge.
+`/api/briefs/radar` returns the latest 03:15 UTC macro radar brief.
+`/api/track-record` returns mean Brier + per-asset hit rates + reliability buckets.
+
+## Getting an API key (for paid tiers)
+
+    POST https://api.agentcanary.ai/api/keys/create
+    Content-Type: application/json
+    {"walletAddress": "0xYOUR_WALLET", "chain": "base"}
+
+Returns: `{ apiKey, depositAddress }`. Free Explorer tier is active immediately.
+Upgrade by depositing USDC or USDT on Base, Arbitrum, Optimism, Polygon, or Ethereum.
+
+## Authentication (REST)
+
+Include the API key in the `x-api-key` header on every request:
+
+    curl -H "x-api-key: ac_..." https://api.agentcanary.ai/api/indicators/bull-market-support-band
+
+Header is the canonical method. Query param `?apikey=ac_...` is accepted as a
+legacy alias but URLs get logged — prefer the header.
+
+## Tiers & Pricing
+
+- **Explorer (free) — integration sandbox.** Real-time crypto prices + macro regime + indicator catalog list + latest brief preview. 50 calls/day, 10/min. No KYC.
+- **Builder ($50 USDC) — production agents.** + indicator values + news + whale alerts + fear-greed + macro snapshot + signals + narratives + predictions. 5,000 calls/day, 60/min.
+- **Signal ($150 USDC) — depth.** + scenario analysis, positioning, full brief content, full data archives, orderbook, derivatives detail. 20,000 calls/day, 120/min.
+- **Institutional ($500 USDC).** Unlimited + white-label + SLA.
+
+Per-call cost: $0.01-$0.02 deducted from deposit balance. Credits never expire.
+
+## Endpoints
+
+### Briefs (4× daily)
+- `GET /api/briefs/latest` — most recent brief across all 4 slots (free)
+- `GET /api/briefs/radar` — 03:15 UTC macro radar (free)
+- `GET /api/briefs/signal` — 09:15 UTC signal scan with scenario targets (Signal tier)
+- `GET /api/briefs/pulse` — 15:15 UTC market pulse with OI + liquidations (Builder tier)
+- `GET /api/briefs/wrap` — 21:15 UTC market wrap + next-day setup (Builder tier)
+- `GET /api/briefs/archive?limit=N&date=YYYY-MM-DD` — historical briefs (Signal tier)
+- `GET /api/briefs/feed` — JSON Feed 1.1 of all briefs (Builder tier)
+
+### Macro & Regime
+- `GET /api/regime` — current macro regime + risk gauge (free, no auth)
+- `GET /api/macro/regime` — same as above, with extra detail (Explorer tier with key)
+- `GET /api/macro/snapshot` — 30+ FRED series, regime, risk gauge, z-scores (Builder tier)
+- `GET /api/macro/business-cycle` — LEI, claims, yield curve (Signal tier)
+- `GET /api/macro/lei` — Leading Economic Index (Signal tier)
+- `GET /api/macro/eth-tbill-spread` — ETH vs T-bill spread (Signal tier)
+
+### Track Record (public — the differentiator)
+- `GET /api/track-record` — mean Brier + per-asset hit rates + reliability buckets (free, no auth)
+- `GET /api/track-record?ticker=SPY` — single-ticker filter
+
+Response shape:
+```json
+{
+  "as_of": "2026-05-20T...",
+  "summary": {
+    "predictions_scored": 603,
+    "mean_brier": 0.162,
+    "baseline_random": 0.25,
+    "beats_baseline_pct": 35.2
+  },
+  "per_scenario": { "A": {"n":211,"mean_brier":0.179}, ... },
+  "reliability": [{"range":"0-20%","n":120,"predicted_mean":16.5,"observed_rate":39.2}, ...],
+  "per_asset": [{"ticker":"SPY","n":125,"hit":11,"hit_rate_pct":8.8,"weighted_pct":30}, ...]
+}
+```
+
+### Indicators (36 proprietary)
+- `GET /api/indicators` — catalog list (free in tier config; requires key)
+- `GET /api/indicators/:name` — single indicator with current value + history (Builder tier)
+- `GET /api/indicators/summary` — full dashboard (Builder tier)
+- `GET /api/indicators/:name/history` — historical series
+
+36 indicators total. Highlights: Bull Market Support Band, BTC Pi Cycle, Wyckoff Structure, Stablecoin Composite, Composite Risk Score, CAPE, Hindenburg Omen, hegemony score, ETF flows, on-chain whale activity, sentiment composites, dispersion regime, narrative crowding.
+
+### Data (raw datasets)
+- `GET /api/data` — list all 28 datasets with freshness SLA (Builder tier)
+- `GET /api/data/:name` — single dataset with provenance envelope (Builder+ tier)
+
+Every response includes `provenance` field:
+```json
+"provenance": {
+  "source": "yahoo-quotes",
+  "observed_at": "2026-05-20T06:00:00.000Z",
+  "age_seconds": 420,
+  "sla_seconds": 900,
+  "freshness_status": "fresh"
+}
+```
+
+freshness_status: `fresh` | `degraded` | `stale`. Agents should gate on this.
+
+Per-dataset SLAs published at https://agentcanary.ai/sources/
+
+### Scenarios & Predictions
+- `GET /api/scenarios/current` — current forward scenarios with price targets (Signal tier)
+- `GET /api/scenarios/history` — historical scenarios (Signal tier)
+- `GET /api/predictions` — Polymarket + Kalshi prediction market data (Builder tier)
+
+### Signals (20 sub-types)
+- `GET /api/signals/:type` — type ∈ {correlations, sector-rotation, btc-etf-flows, fear-greed, whale-alerts, geopolitical-risk, decision-engine, ...}
+
+### Derivatives
+- `GET /api/derivatives/oi` — cross-exchange open interest (Builder tier)
+- `GET /api/derivatives/liquidations` — 24h + latest-4h breakdown (Builder tier)
+
+### News & Sentiment
+- `GET /api/news?limit=N&ticker=X` — aggregated financial news with sentiment (Builder tier)
+- `GET /api/sentiment/reddit` — Reddit cross-sub sentiment (Signal tier)
+- `GET /api/narratives` — narrative momentum scores (Builder tier)
+
+### Central Banks
+- `GET /api/central-banks?view=balance-sheets` — Fed/ECB/BOJ/PBOC balance sheets (Signal tier)
+- `GET /api/central-banks?view=gold` — sovereign gold reserves (Signal tier)
+- `GET /api/central-banks?view=btc` — sovereign BTC holdings (Signal tier)
+- `GET /api/central-banks?view=tic` — Treasury International Capital flows (Signal tier)
+
+### Health & Catalog
+- `GET /api/health` — operator status, hard failures, last publish per slot (public)
+- `GET /api/billing/pricing` — current tier pricing (public)
+- `GET /api/openapi.yaml` — full OpenAPI 3.1 spec
+
+## MCP Server (recommended for agent integration)
+
+    npx -y agentcanary-mcp
+
+19 tools, including the public `get_track_record` and `diagnose` tools that
+don't require an API key. All other tools auto-detect tier from the configured
+key.
+
+### Claude Desktop / Cursor / Windsurf config
+
+```json
+{
+  "mcpServers": {
+    "agentcanary": {
+      "command": "npx",
+      "args": ["-y", "agentcanary-mcp"],
+      "env": { "AC_API_KEY": "ac_..." }
+    }
+  }
+}
+```
+
+Tool list (19): get_briefs, get_indicators, get_regime, get_predictions,
+get_narratives, get_news, get_market_structure, get_central_banks,
+get_expectations, get_macro, get_open_interest, get_liquidations,
+get_signals, get_btc_options, get_defi, get_scores, get_scenario_analysis,
+get_track_record, diagnose.
+
+## Error envelope
+
+All errors return structured JSON:
+
+```json
+{
+  "error": "tier_insufficient" | "scope_insufficient" | "insufficient_credits" | "rate_limited" | "auth_required",
+  "message": "...",
+  "currentTier": "explorer",
+  "requiredTier": "signal",
+  "depositAddress": "0x...",
+  "docs": "https://agentcanary.ai/docs"
+}
+```
+
+The MCP server surfaces these as bracketed prefixes: `[tier_insufficient] ...`
+so agents can pattern-match.
+
+## Surface map (where things live)
+
+- agentcanary.ai/ — landing + pricing
+- agentcanary.ai/record/ — public track record (per-day + per-asset + Brier)
+- agentcanary.ai/sources/ — per-dataset freshness SLAs
+- agentcanary.ai/assets/{TICKER}/ — every brief mentioning a ticker
+- agentcanary.ai/regimes/{slug}/ — every brief published during a regime
+- agentcanary.ai/record/{YYYY/MM/DD}/{slot}/ — per-brief permalinks
+- agentcanary.ai/llms.txt — short LLM catalog (quick parse)
+- agentcanary.ai/llms-full.txt — this file (full reference)
+- api.agentcanary.ai/api/docs — interactive Swagger UI
+- api.agentcanary.ai/api/openapi.yaml — OpenAPI 3.1 spec
+
+## Distribution channels
+
+- GitHub: https://github.com/MrCerq/agentcanary-mcp
+- npm: https://www.npmjs.com/package/agentcanary-mcp
+- MCP Registry: https://registry.modelcontextprotocol.io/v0/servers/io.github.MrCerq%2Fagentcanary
+- Telegram: https://t.me/AgentCanary (live brief broadcasts)
+- X: https://x.com/agentcanary
+
+## Honest disclaimers
+
+- We are not financial advisors. Outputs are signals, not trading instructions.
+- Every prediction has a public scoring artifact at /record/. Misses are not retroactively hidden.
+- Free tier is intentionally narrow — designed as integration sandbox, not feature-rich free access. Paid tiers carry the depth production agents depend on.
+- Freshness varies by source. Always check `provenance.freshness_status` before consuming.
