@@ -1,14 +1,14 @@
 {
-  "session": "wrap",
-  "date": "2026-05-19",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 19",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 14/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-05-20",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 20",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
+      "t": "HIGH",
+      "c": "red"
     },
     {
       "t": "OVERHEATING",
@@ -19,35 +19,35 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 14
+        "value": 100
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "ALAB",
-          "v": "+13.3%",
+          "k": "TKMS",
+          "v": "+7.0%",
           "c": "green"
         },
         {
-          "k": "BKKT",
-          "v": "+11.2%",
+          "k": "WPP",
+          "v": "+6.4%",
           "c": "green"
         },
         {
-          "k": "CLSK",
-          "v": "+9.6%",
-          "c": "green"
+          "k": "WTI",
+          "v": "-4.2%",
+          "c": "red"
         },
         {
-          "k": "UUUU",
-          "v": "-7.2%",
+          "k": "TON",
+          "v": "-4.0%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 19, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets closed with defensive rotation dominating despite surface-level strength in select risk assets. Energy and staples bid while commodities cratered, suggesting institutional positioning toward safety over growth. Tomorrow's setup favors continued defensive leadership as crypto institutional outflows persist.\n\n<b>CLOSING PRICES</b>\nSPY -0.7% | QQQ -1.0% | VIX +1.3% | TLT -0.8% | DXY +0.3% | OIL -4.2%\n\n<b>vs MORNING</b>\nSPY +0.5% | QQQ +0.9% | VIX +4.7% | TLT +0.8% | DXY +0.4% | OIL -2.7%\n\n<b>EVENING NEWS</b>\n▲ This bitcoin bear market is different with 'uniquely pessimistic' traders limiting downside, K33 says\n▲ Forex Today: US Dollar rallies on strong ADP jobs data and Trump’s Iran remarks\n▼ Bitcoin Faces Correction as Institutional Demand Weakens Amid Macro Pressure: Bitfinex\n▼ Asia FX: Indonesia, Philippines and India under pressure – BNY\n▼ Rising Heat Strains US Power Grid in Need of Off-Season Repairs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 13.8/100 (Calm). Phase: OVERHEATING.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLE +3.1%, XLP +1.7%, XLRE +1.6%, COPX -4.4%, URA -5.5%.\nSector dispersion: 81 (EXTREME, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] Consumer Price Index (MoM)(Apr) (+1 variants) — May 20 06:00 UTC (prev: 0.7%)\n[UK] Core Consumer Price Index (MoM)(Apr) (+1 variants) — May 20 06:00 UTC (prev: 0.4%)\n[GER] Producer Price Index (MoM)(Apr) (+2 variants) — May 20 06:00 UTC (prev: 2.5%)\n[EU] Consumer Price Index (MoM)(Final)(Apr) (+1 variants) — May 20 09:00 UTC (prev: 1.0%)\n[EU] Core Consumer Price Index (YoY)(Final)(Apr) — May 20 09:00 UTC (prev: 2.1%)\n[EU] GDP(YoY)(Preliminary)(Q1) — May 20 09:00 UTC (prev: 1.2%)\n\n<b>CONTRARIAN</b>\n• TKMS +7% surge may signal over-rotation into defense given limited actual conflict escalation beyond rhetoric\n• WTI -4.2% drop could be overdone if power grid strain from unseasonable heat creates unexpected demand surge\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":13.8,\"sectorDispersion\":81,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"XLE\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 412
+  "telegramText": "<b>MACRO RADAR</b> — May 20, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: OVERHEATING.\nComposite Risk: 45.4/100 (ELEVATED).\nGeopolitical risk: 44/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $76,605 · ETH: $2,107 · SOL: $83.89\nCrypto sentiment: 27 (Fear, 7d avg 31) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.09T (YoY -2.92%) — fed $6.73T · ecb $7.18T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 283bps NORMAL (composite: CAUTION)\nBDRY: $12.70 (+19.8% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 452.9M bbl, refinery 91.7%, SPR 384M.\n\n<b>KEY PRICES</b>\nSPY -0.7% | QQQ -1.0% | VIX +1.3% | TLT -0.8% | DXY +0.4% | OIL -4.2%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ TKMS: +7.0%\n▲ WPP: +6.4%\n▼ URA: -5.5%\n▼ COPX: -4.4%\n▼ WTI: -4.2%\n▼ BOTZ: -3.3%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 118.04 (R), Gold $4560 (Y), Oil $102 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] IG Credit Spread: -2.11σ\n[+] 10Y Real Rate: +2.02σ\n[+] Fed Balance Sheet: +1.62σ\n[-] HY Credit Spread: -1.57σ\n\n<b>US OPEN SETUP</b>\n<i>Energy strength against metals weakness suggests sector rotation into traditional cyclicals. Watch for continuation of this industrial theme at US open, particularly if energy holds gains while base metals remain under pressure.</i>\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":100,\"compositeRisk\":45.4,\"geoRisk\":44}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 413
 }
