@@ -1,15 +1,15 @@
 {
   "perSlot": {
     "radar": {
-      "hit": 68,
+      "hit": 69,
       "partial": 0,
       "miss": 4,
-      "pending": 2,
+      "pending": 1,
       "no_data": 12,
       "absent": 1,
-      "scored": 72,
-      "hitRate": 94.4,
-      "weightedAccuracy": 94.4
+      "scored": 73,
+      "hitRate": 94.5,
+      "weightedAccuracy": 94.5
     },
     "signal": {
       "hit": 0,
@@ -37,9 +37,9 @@
       "hit": 60,
       "partial": 8,
       "miss": 4,
-      "pending": 1,
+      "pending": 2,
       "no_data": 11,
-      "absent": 3,
+      "absent": 2,
       "scored": 72,
       "hitRate": 83.3,
       "weightedAccuracy": 88.9
@@ -56,14 +56,14 @@
     "weightedAccuracy": 38.2
   },
   "overall": {
-    "hit": 280,
+    "hit": 281,
     "partial": 249,
     "miss": 291,
-    "scored": 820,
-    "hitRate": 34.1,
-    "weightedAccuracy": 49.3
+    "scored": 821,
+    "hitRate": 34.2,
+    "weightedAccuracy": 49.4
   },
-  "computedAt": "2026-05-20T19:30:05.035Z",
+  "computedAt": "2026-05-20T22:30:03.291Z",
   "brierStats": {
     "n": 603,
     "meanBrier": 0.1621,

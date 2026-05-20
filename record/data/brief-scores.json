@@ -2,19 +2,35 @@
   "scores": {
     "2026-05-20": {
       "radar": {
-        "status": "pending",
-        "summary": "Regime OVERHEATING called — awaiting next radar",
+        "status": "hit",
+        "summary": "Regime OVERHEATING held all day",
         "details": {
           "morning": {
             "phase": "OVERHEATING",
             "riskGauge": 100,
             "riskLabel": "Critical"
           },
-          "source": "next-day-radar"
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 100,
+            "riskLabel": "Critical"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
         }
       },
       "pulse": null,
-      "wrap": null
+      "wrap": {
+        "status": "pending",
+        "summary": "Wrap framed OVERHEATING — awaiting next-day open",
+        "details": {
+          "wrap": {
+            "phase": "OVERHEATING",
+            "riskGauge": 100,
+            "riskLabel": "Critical"
+          }
+        }
+      }
     },
     "2026-05-19": {
       "radar": {
@@ -6259,5 +6275,5 @@
       }
     }
   },
-  "lastScored": "2026-05-20T19:30:05.027Z"
+  "lastScored": "2026-05-20T22:30:03.274Z"
 }
