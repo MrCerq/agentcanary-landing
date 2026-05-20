@@ -82,6 +82,8 @@
         {
           "@type": "Dataset",
           "name": "Daily Briefs",
+          "license": "https://agentcanary.ai/sources/",
+          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
           "description": "4 macro market intelligence briefs per day (morning, midday, signal, evening) with regime state, signals, and narrative scores.",
           "temporalCoverage": "2026-02-23/..",
           "variableMeasured": ["regime_state", "regime_score", "signals", "narratives", "asset_prices"],
@@ -103,24 +105,32 @@
         {
           "@type": "Dataset",
           "name": "Regime History",
+          "license": "https://agentcanary.ai/sources/",
+          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
           "description": "Continuous macro regime state classification and gauge score (0–100). States: stagflation, late-cycle, recession, expansion, displacement, neutral.",
           "variableMeasured": ["regime_state", "regime_score", "shift_date"]
         },
         {
           "@type": "Dataset",
           "name": "Scorecard",
+          "license": "https://agentcanary.ai/sources/",
+          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
           "description": "Hindsight accuracy scoring of all market calls. Evaluated 48–72 hours after publication against actual market outcomes.",
           "variableMeasured": ["accuracy", "calls_correct", "calls_total", "scored_at"]
         },
         {
           "@type": "Dataset",
           "name": "Whale Alerts",
+          "license": "https://agentcanary.ai/sources/",
+          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
           "description": "On-chain large transaction signals for BTC and major crypto assets. Direction, magnitude, and source attribution.",
           "variableMeasured": ["asset", "direction", "magnitude", "source"]
         },
         {
           "@type": "Dataset",
           "name": "Narrative Scores",
+          "license": "https://agentcanary.ai/sources/",
+          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
           "description": "Market narrative lifecycle tracking. Scores (0.0–1.0) and lifecycle phase (birth, rising, peak, fading, dead) for active macro narratives.",
           "variableMeasured": ["narrative_name", "score", "lifecycle"]
         }
