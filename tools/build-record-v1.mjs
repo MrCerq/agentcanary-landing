@@ -287,11 +287,25 @@ for (const [ticker, briefs] of byAsset) {
   const mentions = briefs.map(b => {
     const slot = resolveSlot(b);
     const meta = slot ? slotMeta(slot) : null;
+    // Extract a sentence from telegramText containing the ticker, for SEO
+    // content paragraph. Falls back to '' if no match.
+    let context = '';
+    const tg = b.telegramText || b.body || '';
+    if (tg && ticker) {
+      const plain = tg.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      // Find sentences containing the ticker (word boundary)
+      const tickerRe = new RegExp('\\b' + ticker.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\$&') + '\\b');
+      // Split into sentences, find first one mentioning ticker
+      const sentences = plain.split(/(?<=[.!?])\s+/);
+      const hit = sentences.find(s => tickerRe.test(s));
+      if (hit) context = hit.trim().slice(0, 220);
+    }
     return {
       headline: b.headline,
       date: b.date,
       slotLabel: meta?.label || '',
       permalink: briefPermalink(b, slot),
+      context,
     };
   });
   const html = renderIndex({ type: 'asset', ticker, mentions });
