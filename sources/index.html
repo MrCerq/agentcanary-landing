@@ -44,6 +44,385 @@
     .src-table { font-size: 13px; }
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Source Contracts \u2014 AgentCanary",
+  "url": "https://agentcanary.ai/sources/",
+  "description": "Per-dataset freshness SLAs for 28 AgentCanary data sources. Public reference for agent gating logic.",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "AgentCanary",
+        "item": "https://agentcanary.ai/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Source Contracts"
+      }
+    ]
+  },
+  "about": {
+    "@id": "https://agentcanary.ai/#org"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "@id": "https://agentcanary.ai/sources/#catalog",
+  "name": "AgentCanary Data Sources",
+  "description": "28 datasets powering AgentCanary briefs, indicators, scenarios, and signals.",
+  "url": "https://agentcanary.ai/sources/",
+  "publisher": {
+    "@id": "https://agentcanary.ai/#org"
+  },
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "realtime-prices",
+      "description": "Real-time crypto prices (100+ tokens)",
+      "url": "https://api.agentcanary.ai/api/data/realtime-prices",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Prices"
+    },
+    {
+      "@type": "Dataset",
+      "name": "yahoo-quotes",
+      "description": "SPY/QQQ/VIX/TLT/DXY + 16 sector ETFs",
+      "url": "https://api.agentcanary.ai/api/data/yahoo-quotes",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Prices"
+    },
+    {
+      "@type": "Dataset",
+      "name": "exchange-volumes",
+      "description": "Exchange trading volumes",
+      "url": "https://api.agentcanary.ai/api/data/exchange-volumes",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Prices"
+    },
+    {
+      "@type": "Dataset",
+      "name": "macro-snapshot",
+      "description": "30+ FRED series, regime, risk gauge, z-scores",
+      "url": "https://api.agentcanary.ai/api/data/macro-snapshot",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Macro"
+    },
+    {
+      "@type": "Dataset",
+      "name": "vix-term-structure",
+      "description": "VIX term structure (contango/backwardation)",
+      "url": "https://api.agentcanary.ai/api/data/vix-term-structure",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Macro"
+    },
+    {
+      "@type": "Dataset",
+      "name": "cftc-cot",
+      "description": "CFTC Commitment of Traders positioning",
+      "url": "https://api.agentcanary.ai/api/data/cftc-cot",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Macro"
+    },
+    {
+      "@type": "Dataset",
+      "name": "treasury-stats",
+      "description": "US Treasury statistics",
+      "url": "https://api.agentcanary.ai/api/data/treasury-stats",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Macro"
+    },
+    {
+      "@type": "Dataset",
+      "name": "whale-alerts",
+      "description": "Large on-chain transactions ($10M+ filter)",
+      "url": "https://api.agentcanary.ai/api/data/whale-alerts",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Crypto"
+    },
+    {
+      "@type": "Dataset",
+      "name": "funding-rates",
+      "description": "Perpetual funding rates across exchanges",
+      "url": "https://api.agentcanary.ai/api/data/funding-rates",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Crypto"
+    },
+    {
+      "@type": "Dataset",
+      "name": "btc-etf-flows",
+      "description": "Bitcoin ETF daily flows (IBIT, FBTC, etc.)",
+      "url": "https://api.agentcanary.ai/api/data/btc-etf-flows",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Crypto"
+    },
+    {
+      "@type": "Dataset",
+      "name": "fear-greed",
+      "description": "Crypto Fear & Greed Index",
+      "url": "https://api.agentcanary.ai/api/data/fear-greed",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Crypto"
+    },
+    {
+      "@type": "Dataset",
+      "name": "coingecko-global",
+      "description": "Global crypto market cap + dominance",
+      "url": "https://api.agentcanary.ai/api/data/coingecko-global",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Crypto"
+    },
+    {
+      "@type": "Dataset",
+      "name": "btc-options",
+      "description": "BTC options open interest + put/call",
+      "url": "https://api.agentcanary.ai/api/data/btc-options",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Crypto"
+    },
+    {
+      "@type": "Dataset",
+      "name": "coinglass-v2",
+      "description": "Aggregate open interest + liquidations",
+      "url": "https://api.agentcanary.ai/api/data/coinglass-v2",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Crypto"
+    },
+    {
+      "@type": "Dataset",
+      "name": "breaking-news",
+      "description": "Breaking financial news + sentiment scores",
+      "url": "https://api.agentcanary.ai/api/data/breaking-news",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "News & Sentiment"
+    },
+    {
+      "@type": "Dataset",
+      "name": "newsletters",
+      "description": "Curated newsletter intelligence digest",
+      "url": "https://api.agentcanary.ai/api/data/newsletters",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "News & Sentiment"
+    },
+    {
+      "@type": "Dataset",
+      "name": "reddit-sentiment",
+      "description": "Cross-subreddit sentiment (14 subs)",
+      "url": "https://api.agentcanary.ai/api/data/reddit-sentiment",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "News & Sentiment"
+    },
+    {
+      "@type": "Dataset",
+      "name": "narrative-scores",
+      "description": "Narrative crowding scores (21 themes)",
+      "url": "https://api.agentcanary.ai/api/data/narrative-scores",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "News & Sentiment"
+    },
+    {
+      "@type": "Dataset",
+      "name": "sec-13f",
+      "description": "SEC 13F institutional holdings",
+      "url": "https://api.agentcanary.ai/api/data/sec-13f",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Institutional"
+    },
+    {
+      "@type": "Dataset",
+      "name": "wikipedia-pageviews",
+      "description": "Wikipedia pageview trends for assets",
+      "url": "https://api.agentcanary.ai/api/data/wikipedia-pageviews",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Institutional"
+    },
+    {
+      "@type": "Dataset",
+      "name": "short-interest",
+      "description": "Short interest data for 39 stocks",
+      "url": "https://api.agentcanary.ai/api/data/short-interest",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Institutional"
+    },
+    {
+      "@type": "Dataset",
+      "name": "etf-fund-flows",
+      "description": "ETF fund flow estimates (44 ETFs)",
+      "url": "https://api.agentcanary.ai/api/data/etf-fund-flows",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Institutional"
+    },
+    {
+      "@type": "Dataset",
+      "name": "etf-options-pcr",
+      "description": "Options put/call ratios (42 ETFs)",
+      "url": "https://api.agentcanary.ai/api/data/etf-options-pcr",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Institutional"
+    },
+    {
+      "@type": "Dataset",
+      "name": "financial-calendar",
+      "description": "High-impact economic events",
+      "url": "https://api.agentcanary.ai/api/data/financial-calendar",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Calendar & Proprietary"
+    },
+    {
+      "@type": "Dataset",
+      "name": "polymarket",
+      "description": "Polymarket prediction market events",
+      "url": "https://api.agentcanary.ai/api/data/polymarket",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Calendar & Proprietary"
+    },
+    {
+      "@type": "Dataset",
+      "name": "decision-engine",
+      "description": "Multi-factor crypto re-entry scoring (AC)",
+      "url": "https://api.agentcanary.ai/api/data/decision-engine",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Calendar & Proprietary"
+    },
+    {
+      "@type": "Dataset",
+      "name": "risk-summary",
+      "description": "Daily risk assessment (AC)",
+      "url": "https://api.agentcanary.ai/api/data/risk-summary",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Calendar & Proprietary"
+    },
+    {
+      "@type": "Dataset",
+      "name": "scenario-probs",
+      "description": "6 macro scenario probabilities (AC)",
+      "url": "https://api.agentcanary.ai/api/data/scenario-probs",
+      "license": "https://agentcanary.ai/sources/",
+      "creator": {
+        "@type": "Organization",
+        "@id": "https://agentcanary.ai/#org"
+      },
+      "keywords": "Calendar & Proprietary"
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <div class="grid-bg"></div>
