@@ -26,8 +26,8 @@ try {
   }
 } catch {}
 
-// 17 tools (from MCP package)
-const toolCount = '17';
+// 19 tools (from MCP package)
+const toolCount = '19';
 const indicatorCount = '36';
 
 const W = 1200, H = 630;

@@ -109,11 +109,79 @@ if (failing.length > 0) {
   if (failing.length > 20) console.log(`  ... and ${failing.length - 20} more`);
 }
 
+// ─── Tool count drift check ───────────────────────────────────────
+// Reads canonical count from the MCP repo's package + index.js, then
+// scans the landing repo + MCP repo READMEs for "N tools" strings.
+// Flags any mismatch.
+async function readCanonicalToolCount() {
+  // Fetch live from GitHub raw — single source of truth, durable across
+  // VPS tmpfs resets. Falls back to a hardcoded value if offline.
+  try {
+    const url = 'https://raw.githubusercontent.com/MrCerq/agentcanary-mcp/main/index.js';
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    const idx = await res.text();
+    const matches = idx.match(/server\.tool\(/g) || [];
+    return matches.length;
+  } catch { return null; }
+}
+
+const CANONICAL_TOOL_COUNT = await readCanonicalToolCount();
+console.log(`[seo-check] canonical MCP tool count: ${CANONICAL_TOOL_COUNT ?? '(could not read)'}`);
+
+const driftFiles = [];
+if (CANONICAL_TOOL_COUNT) {
+  // Walk repo for text files mentioning "N tools" (excluding the rebuild
+  // commit messages and the auto-rebuilt brief permalink content).
+  function walkText(dir, out = []) {
+    for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, ent.name);
+      if (ent.isDirectory()) {
+        if (['node_modules', '_preview', '.git', 'record', 'releases', 'specs'].includes(ent.name)) continue;
+        walkText(full, out);
+      } else if (ent.isFile() && /\.(html|md|mjs|js|txt)$/.test(ent.name)) {
+        out.push(full);
+      }
+    }
+    return out;
+  }
+  const textFiles = walkText(ROOT);
+  const drift = /\b(\d{1,2})\s+(?:MCP\s+)?(?:AgentCanary\s+)?tools\b/gi;
+  for (const f of textFiles) {
+    const text = fs.readFileSync(f, 'utf8');
+    let m;
+    while ((m = drift.exec(text)) !== null) {
+      const n = parseInt(m[1], 10);
+      // Allow expected counts: canonical, or commonly-templated numbers
+      // we'd never want to flag (e.g. "for 30 tools"). Skip if context
+      // is a count claim about AC's tools specifically.
+      // Heuristic: only flag if line also mentions agentcanary/mcp/AC tool names
+      const lineStart = text.lastIndexOf('\n', m.index);
+      const lineEnd = text.indexOf('\n', m.index);
+      const line = text.slice(lineStart + 1, lineEnd === -1 ? text.length : lineEnd);
+      const isACContext = /agentcanary|MCP|npx|get_briefs|get_indicators|get_track_record|via Composer|Tools \(/i.test(line);
+      if (isACContext && n !== CANONICAL_TOOL_COUNT) {
+        const rel = f.replace(ROOT + '/', '');
+        driftFiles.push({ file: rel, found: n, expected: CANONICAL_TOOL_COUNT, line: line.trim().slice(0, 120) });
+      }
+    }
+  }
+}
+
+if (driftFiles.length > 0) {
+  console.log(`[seo-check] tool-count drift found in ${driftFiles.length} place${driftFiles.length === 1 ? '' : 's'}:`);
+  for (const d of driftFiles.slice(0, 10)) {
+    console.log(`  ${d.file}: found "${d.found} tools" (expected ${d.expected})`);
+    console.log(`    line: ${d.line}`);
+  }
+}
+
 // Pass/fail gates
 const gates = [
   ['violations', failing.length === 0, `${failing.length} pages with violations`],
   ['title uniqueness', parseFloat(titleUniquePct) >= 95, `title uniqueness ${titleUniquePct}% < 95%`],
   ['desc uniqueness', parseFloat(descUniquePct) >= 95, `desc uniqueness ${descUniquePct}% < 95%`],
+  ['tool count drift', driftFiles.length === 0, `${driftFiles.length} tool-count drift instance${driftFiles.length === 1 ? '' : 's'}`],
 ];
 
 const failed = gates.filter(g => !g[1]);

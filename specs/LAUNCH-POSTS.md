@@ -23,7 +23,7 @@ Hi HN — operator here. AgentCanary is an MCP server + REST API that gives auto
 The angle I want to test with this audience: every prediction we publish is publicly scored after a 72h evaluation window. 603 predictions scored so far. Mean Brier score 0.162 — 35% better than a random-guess baseline (0.25). Per-asset hit rates are public: SPY 9% / BTC 25% / OIL 36% / GLD 33% / VIX 27%. We don't retroactively hide misses.
 
 Most market data APIs are calibrated for human dashboards. We built this for agents from day one:
-- MCP-native (18 tools, npx agentcanary-mcp)
+- MCP-native (19 tools, npx agentcanary-mcp)
 - Schema-stable JSON with freshness envelopes (every response carries observed_at, age_seconds, freshness_status)
 - Wallet-billed in USDC on Base. No KYC. No subscription.
 - Free Explorer tier: prices + regime + indicator list + brief preview (50 calls/day)
@@ -62,7 +62,7 @@ Every /api/data response carries a provenance field with freshness_status (fresh
 **Title:**
 
 ```
-[MCP] AgentCanary — 18 tools for AI agents with public hit/miss track record (0.162 Brier across 603 predictions)
+[MCP] AgentCanary — 19 tools for AI agents with public hit/miss track record (0.162 Brier across 603 predictions)
 ```
 
 **Post body (Markdown):**
