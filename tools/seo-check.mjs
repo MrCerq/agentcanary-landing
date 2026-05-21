@@ -176,12 +176,146 @@ if (driftFiles.length > 0) {
   }
 }
 
+
+// ─── JSON-LD schema validation ───────────────────────────────────
+// Pragmatic per-type checks. Catches the drift class that caused the
+// 2026-05-21 Google email firestorm (invalid aggregateRating scale, missing
+// Dataset descriptions, unresolvable creator @id refs, etc.). Not a full
+// schema.org reflection — pair with Google Rich Results test for that.
+function _validateJsonLd(filepath, src) {
+  const violations = [];
+  const blocks = [];
+  const blockRe = /<script type="application\/ld\+json"[^>]*>([\s\S]+?)<\/script>/g;
+  let m;
+  while ((m = blockRe.exec(src)) !== null) {
+    try {
+      blocks.push(JSON.parse(m[1]));
+    } catch (e) {
+      violations.push(`json-ld parse fail: ${e.message.slice(0, 100)}`);
+    }
+  }
+  if (blocks.length === 0) return violations; // no JSON-LD, nothing to validate
+
+  // Collect all @ids defined in this page (across blocks + nested entities)
+  const idsDefined = new Set();
+  function collectIds(node) {
+    if (!node || typeof node !== 'object') return;
+    if (Array.isArray(node)) { node.forEach(collectIds); return; }
+    if (node['@id']) idsDefined.add(node['@id']);
+    for (const v of Object.values(node)) collectIds(v);
+  }
+  blocks.forEach(collectIds);
+
+  function validateEntity(e, ctx = '') {
+    if (!e || typeof e !== 'object') return;
+    if (Array.isArray(e)) { e.forEach((x, i) => validateEntity(x, `${ctx}[${i}]`)); return; }
+    const t = e['@type'];
+    const c = ctx ? `${ctx} ${t || '?'}` : (t || '?');
+
+    // Required fields per type
+    const required = {
+      Organization: ['name', 'url'],
+      WebSite: ['name', 'url'],
+      WebAPI: ['name', 'url'],
+      Dataset: ['name', 'description'],
+      DataCatalog: ['name', 'dataset'],
+      NewsArticle: ['headline', 'datePublished'],
+      Article: ['headline', 'datePublished'],
+      FAQPage: ['mainEntity'],
+      HowTo: ['name', 'step'],
+      CollectionPage: ['name', 'url'],
+      SoftwareApplication: ['name', 'applicationCategory'],
+      BreadcrumbList: ['itemListElement'],
+    };
+    if (t && required[t]) {
+      for (const f of required[t]) {
+        if (!(f in e) && !(`@id` in e)) {  // @id-only refs are OK (resolved elsewhere)
+          violations.push(`${c}: missing required field "${f}"`);
+        }
+      }
+    }
+
+    // Dataset: description ≥50 chars (Google Dataset Search rule)
+    if (t === 'Dataset' && typeof e.description === 'string' && e.description.length < 50) {
+      violations.push(`${c} name="${e.name||'?'}": description ${e.description.length} chars (need ≥50)`);
+    }
+
+    // SoftwareApplication: aggregateRating sanity (0-1 scale was the rec firestorm)
+    if (t === 'SoftwareApplication' && e.aggregateRating) {
+      const r = e.aggregateRating;
+      const best = parseFloat(r.bestRating);
+      if (Number.isFinite(best) && best !== 5 && best !== 100) {
+        violations.push(`${c}: aggregateRating.bestRating=${best} (should be 5 or 100, not 0-1 scale)`);
+      }
+    }
+
+    // ServiceChannel: serviceType is NOT a valid property (belongs to Service)
+    if (t === 'ServiceChannel' && 'serviceType' in e) {
+      violations.push(`${c}: serviceType is not a valid ServiceChannel property (use Service)`);
+    }
+
+    // @id references that point at this domain should resolve in-page
+    // (warns only — partial @id refs are sometimes resolved by Google externally)
+    if (e['@id'] && Object.keys(e).length <= 2 && e['@id'].startsWith('https://agentcanary.ai/')) {
+      // Pure @id reference — should be defined elsewhere in same page
+      if (!idsDefined.has(e['@id'])) {
+        violations.push(`${c}: @id ref "${e['@id']}" not resolved in this page`);
+      }
+    }
+
+    // creator/author/publisher with @id reference: only flag if the @id
+    // does NOT resolve in-page. If it's defined in this page's @graph
+    // (e.g. Organization on homepage), Google resolves it correctly.
+    for (const refField of ['creator', 'author', 'publisher']) {
+      const r = e[refField];
+      if (r && typeof r === 'object' && !Array.isArray(r)) {
+        if (r['@id'] && !r.name && !r.url && !idsDefined.has(r['@id'])) {
+          violations.push(`${c}.${refField}: @id ref "${r['@id']}" not resolved in-page and missing inline name/url`);
+        }
+      }
+    }
+
+    // Recurse into nested entities
+    for (const [k, v] of Object.entries(e)) {
+      if (k === '@type' || k === '@context' || k === '@id') continue;
+      validateEntity(v, `${c}.${k}`);
+    }
+  }
+
+  for (const b of blocks) {
+    if (b['@graph'] && Array.isArray(b['@graph'])) {
+      b['@graph'].forEach(g => validateEntity(g));
+    } else {
+      validateEntity(b);
+    }
+  }
+  return violations;
+}
+
+// Walk all pages, collect JSON-LD violations
+const jsonLdViolations = [];
+for (const r of checked) {
+  const text = fs.readFileSync(path.join(ROOT, r.rel), 'utf8');
+  const v = _validateJsonLd(r.rel, text);
+  if (v.length > 0) jsonLdViolations.push({ rel: r.rel, v });
+}
+
+if (jsonLdViolations.length > 0) {
+  console.log(`[seo-check] JSON-LD violations on ${jsonLdViolations.length} page${jsonLdViolations.length === 1 ? '' : 's'}:`);
+  for (const x of jsonLdViolations.slice(0, 15)) {
+    console.log(`  ${x.rel}:`);
+    for (const line of x.v.slice(0, 3)) console.log(`    - ${line}`);
+  }
+  if (jsonLdViolations.length > 15) console.log(`  ... and ${jsonLdViolations.length - 15} more`);
+}
+
 // Pass/fail gates
 const gates = [
   ['violations', failing.length === 0, `${failing.length} pages with violations`],
   ['title uniqueness', parseFloat(titleUniquePct) >= 95, `title uniqueness ${titleUniquePct}% < 95%`],
   ['desc uniqueness', parseFloat(descUniquePct) >= 95, `desc uniqueness ${descUniquePct}% < 95%`],
   ['tool count drift', driftFiles.length === 0, `${driftFiles.length} tool-count drift instance${driftFiles.length === 1 ? '' : 's'}`],
+  ['json-ld validity', jsonLdViolations.length === 0, `${jsonLdViolations.length} page${jsonLdViolations.length === 1 ? '' : 's'} with JSON-LD violations`],
 ];
 
 const failed = gates.filter(g => !g[1]);
