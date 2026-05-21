@@ -91,342 +91,401 @@
   "description": "28 datasets powering AgentCanary briefs, indicators, scenarios, and signals.",
   "url": "https://agentcanary.ai/sources/",
   "publisher": {
-    "@id": "https://agentcanary.ai/#org"
+    "@type": "Organization",
+    "@id": "https://agentcanary.ai/#org",
+    "name": "AgentCanary",
+    "url": "https://agentcanary.ai/"
   },
   "dataset": [
     {
       "@type": "Dataset",
       "name": "realtime-prices",
-      "description": "Real-time crypto prices (100+ tokens)",
+      "description": "Real-time prices for 100+ crypto tokens including BTC, ETH, SOL, with 24h change and volume. Updated every 5 minutes from CoinGecko + exchange feeds.",
       "url": "https://api.agentcanary.ai/api/data/realtime-prices",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Prices"
     },
     {
       "@type": "Dataset",
       "name": "yahoo-quotes",
-      "description": "SPY/QQQ/VIX/TLT/DXY + 16 sector ETFs",
+      "description": "Stock and ETF quotes \u2014 SPY, QQQ, VIX, TLT, DXY plus 16 sector ETFs and major individual equities. Sourced from Yahoo Finance, 15-minute cadence during market hours.",
       "url": "https://api.agentcanary.ai/api/data/yahoo-quotes",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Prices"
     },
     {
       "@type": "Dataset",
       "name": "exchange-volumes",
-      "description": "Exchange trading volumes",
+      "description": "Trading volumes aggregated across major centralized crypto exchanges (Binance, Coinbase, Kraken, Bybit, OKX). Reveals where liquidity concentrates by asset.",
       "url": "https://api.agentcanary.ai/api/data/exchange-volumes",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Prices"
     },
     {
       "@type": "Dataset",
       "name": "macro-snapshot",
-      "description": "30+ FRED series, regime, risk gauge, z-scores",
+      "description": "Composite macro snapshot \u2014 30+ FRED economic series (rates, inflation, employment), AC regime classification, risk gauge composite, and z-scores per series.",
       "url": "https://api.agentcanary.ai/api/data/macro-snapshot",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Macro"
     },
     {
       "@type": "Dataset",
       "name": "vix-term-structure",
-      "description": "VIX term structure (contango/backwardation)",
+      "description": "VIX futures term structure showing contango or backwardation across upcoming expirations. Tells you whether near-term volatility is priced richer than longer-dated.",
       "url": "https://api.agentcanary.ai/api/data/vix-term-structure",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Macro"
     },
     {
       "@type": "Dataset",
       "name": "cftc-cot",
-      "description": "CFTC Commitment of Traders positioning",
+      "description": "CFTC Commitment of Traders weekly report \u2014 net positioning of commercial hedgers, large speculators, and small traders across futures and options markets.",
       "url": "https://api.agentcanary.ai/api/data/cftc-cot",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Macro"
     },
     {
       "@type": "Dataset",
       "name": "treasury-stats",
-      "description": "US Treasury statistics",
+      "description": "US Treasury daily statistics \u2014 debt outstanding, cash balance, issuance schedule. Drawn from Treasury.gov daily statement releases.",
       "url": "https://api.agentcanary.ai/api/data/treasury-stats",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Macro"
     },
     {
       "@type": "Dataset",
       "name": "whale-alerts",
-      "description": "Large on-chain transactions ($10M+ filter)",
+      "description": "Large on-chain crypto transactions filtered for $10M+ moves. Tracks wallet-to-wallet, exchange inflows, and exchange outflows across major chains.",
       "url": "https://api.agentcanary.ai/api/data/whale-alerts",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Crypto"
     },
     {
       "@type": "Dataset",
       "name": "funding-rates",
-      "description": "Perpetual funding rates across exchanges",
+      "description": "Perpetual futures funding rates aggregated across major crypto exchanges. Positive = longs paying shorts; persistent extremes signal positioning crowding.",
       "url": "https://api.agentcanary.ai/api/data/funding-rates",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Crypto"
     },
     {
       "@type": "Dataset",
       "name": "btc-etf-flows",
-      "description": "Bitcoin ETF daily flows (IBIT, FBTC, etc.)",
+      "description": "Daily net flows for the major Bitcoin spot ETFs (IBIT, FBTC, ARKB, BITB, GBTC, and others). Tracks institutional accumulation or distribution.",
       "url": "https://api.agentcanary.ai/api/data/btc-etf-flows",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Crypto"
     },
     {
       "@type": "Dataset",
       "name": "fear-greed",
-      "description": "Crypto Fear & Greed Index",
+      "description": "Crypto Fear & Greed Index \u2014 composite sentiment score (0-100) blending volatility, momentum, social signals, and dominance. Updated daily.",
       "url": "https://api.agentcanary.ai/api/data/fear-greed",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Crypto"
     },
     {
       "@type": "Dataset",
       "name": "coingecko-global",
-      "description": "Global crypto market cap + dominance",
+      "description": "Global crypto market metrics \u2014 total market cap, 24h volume, BTC dominance, ETH dominance, stablecoin marketcap. Sourced from CoinGecko global endpoint.",
       "url": "https://api.agentcanary.ai/api/data/coingecko-global",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Crypto"
     },
     {
       "@type": "Dataset",
       "name": "btc-options",
-      "description": "BTC options open interest + put/call",
+      "description": "Bitcoin options market data including open interest by strike, put/call ratios, max-pain levels, and 25-delta skew across Deribit + other major venues.",
       "url": "https://api.agentcanary.ai/api/data/btc-options",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Crypto"
     },
     {
       "@type": "Dataset",
       "name": "coinglass-v2",
-      "description": "Aggregate open interest + liquidations",
+      "description": "Aggregate open interest and liquidation data across 21 exchanges for 43 tracked crypto perps. Surfaces leverage buildup and forced-deleveraging events.",
       "url": "https://api.agentcanary.ai/api/data/coinglass-v2",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Crypto"
     },
     {
       "@type": "Dataset",
       "name": "breaking-news",
-      "description": "Breaking financial news + sentiment scores",
+      "description": "Breaking financial news aggregated from multiple wire services with FinBERT-based sentiment scoring (POSITIVE / NEGATIVE / NEUTRAL) and entity extraction.",
       "url": "https://api.agentcanary.ai/api/data/breaking-news",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "News & Sentiment"
     },
     {
       "@type": "Dataset",
       "name": "newsletters",
-      "description": "Curated newsletter intelligence digest",
+      "description": "Curated intelligence digest from selected market newsletters and research desks. Distilled into structured items with source attribution and topic tags.",
       "url": "https://api.agentcanary.ai/api/data/newsletters",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "News & Sentiment"
     },
     {
       "@type": "Dataset",
       "name": "reddit-sentiment",
-      "description": "Cross-subreddit sentiment (14 subs)",
+      "description": "Cross-subreddit sentiment scoring across 14 finance and crypto subs (r/wallstreetbets, r/cryptocurrency, r/stocks, r/algotrading and others). Updated every 6h.",
       "url": "https://api.agentcanary.ai/api/data/reddit-sentiment",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "News & Sentiment"
     },
     {
       "@type": "Dataset",
       "name": "narrative-scores",
-      "description": "Narrative crowding scores (21 themes)",
+      "description": "Narrative crowding scores across 21 themes (AI, energy, defense, crypto, healthcare, biotech, etc.) \u2014 measures how concentrated attention is on each theme.",
       "url": "https://api.agentcanary.ai/api/data/narrative-scores",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "News & Sentiment"
     },
     {
       "@type": "Dataset",
       "name": "sec-13f",
-      "description": "SEC 13F institutional holdings",
+      "description": "SEC 13F institutional holdings \u2014 quarterly filings showing top positions of asset managers above $100M AUM. Covers Berkshire, Bridgewater, Citadel and others.",
       "url": "https://api.agentcanary.ai/api/data/sec-13f",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Institutional"
     },
     {
       "@type": "Dataset",
       "name": "wikipedia-pageviews",
-      "description": "Wikipedia pageview trends for assets",
+      "description": "Wikipedia pageview trends for asset tickers and company names. Cross-reference between retail attention and price action.",
       "url": "https://api.agentcanary.ai/api/data/wikipedia-pageviews",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Institutional"
     },
     {
       "@type": "Dataset",
       "name": "short-interest",
-      "description": "Short interest data for 39 stocks",
+      "description": "Short interest data for 39 tracked stocks \u2014 shares short, days to cover, short interest ratio. FINRA bi-monthly release.",
       "url": "https://api.agentcanary.ai/api/data/short-interest",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Institutional"
     },
     {
       "@type": "Dataset",
       "name": "etf-fund-flows",
-      "description": "ETF fund flow estimates (44 ETFs)",
+      "description": "Estimated daily net flows for 44 tracked ETFs spanning equity sectors, fixed income, commodities, and thematic categories. Reveals institutional allocation shifts.",
       "url": "https://api.agentcanary.ai/api/data/etf-fund-flows",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Institutional"
     },
     {
       "@type": "Dataset",
       "name": "etf-options-pcr",
-      "description": "Options put/call ratios (42 ETFs)",
+      "description": "Options put/call ratios for 42 major ETFs. High P/C = bearish hedging or speculation; persistent shifts reveal sentiment regime changes.",
       "url": "https://api.agentcanary.ai/api/data/etf-options-pcr",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Institutional"
     },
     {
       "@type": "Dataset",
       "name": "financial-calendar",
-      "description": "High-impact economic events",
+      "description": "High-impact economic events calendar \u2014 CPI, NFP, FOMC, GDP, retail sales, central bank meetings \u2014 with previous, forecast, and actual values when released.",
       "url": "https://api.agentcanary.ai/api/data/financial-calendar",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Calendar & Proprietary"
     },
     {
       "@type": "Dataset",
       "name": "polymarket",
-      "description": "Polymarket prediction market events",
+      "description": "Polymarket prediction market events \u2014 implied probabilities for elections, geopolitics, economic outcomes, and macro events. Higher liquidity = more reliable signal.",
       "url": "https://api.agentcanary.ai/api/data/polymarket",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Calendar & Proprietary"
     },
     {
       "@type": "Dataset",
       "name": "decision-engine",
-      "description": "Multi-factor crypto re-entry scoring (AC)",
+      "description": "AgentCanary proprietary multi-factor crypto re-entry scoring system combining technical, on-chain, sentiment, and macro signals into a 0-100 directional score.",
       "url": "https://api.agentcanary.ai/api/data/decision-engine",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Calendar & Proprietary"
     },
     {
       "@type": "Dataset",
       "name": "risk-summary",
-      "description": "Daily risk assessment (AC)",
+      "description": "Daily AgentCanary composite risk assessment integrating macro regime state, volatility regime, credit spreads, and cross-asset correlations into a single risk gauge.",
       "url": "https://api.agentcanary.ai/api/data/risk-summary",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Calendar & Proprietary"
     },
     {
       "@type": "Dataset",
       "name": "scenario-probs",
-      "description": "6 macro scenario probabilities (AC)",
+      "description": "AgentCanary forward-looking macro scenario probabilities across 6 canonical states (overheating, expansion, stagflation, contraction, recession, displacement).",
       "url": "https://api.agentcanary.ai/api/data/scenario-probs",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
-        "@id": "https://agentcanary.ai/#org"
+        "@id": "https://agentcanary.ai/#org",
+        "name": "AgentCanary",
+        "url": "https://agentcanary.ai/"
       },
       "keywords": "Calendar & Proprietary"
     }
@@ -473,17 +532,17 @@
       </tr></thead>
       <tbody><tr>
             <td><code class="ds-name">realtime-prices</code></td>
-            <td>Real-time crypto prices (100+ tokens)</td>
+            <td>Real-time prices for 100+ crypto tokens including BTC, ETH, SOL, with 24h change and volume. Updated every 5 minutes from CoinGecko + exchange feeds.</td>
             <td class="num"><strong>5min</strong></td>
             <td class="src">CoinGecko + exchange APIs</td>
           </tr><tr>
             <td><code class="ds-name">yahoo-quotes</code></td>
-            <td>SPY/QQQ/VIX/TLT/DXY + 16 sector ETFs</td>
+            <td>Stock and ETF quotes — SPY, QQQ, VIX, TLT, DXY plus 16 sector ETFs and major individual equities. Sourced from Yahoo Finance, 15-minute cadence during market hours.</td>
             <td class="num"><strong>15min</strong></td>
             <td class="src">Yahoo Finance</td>
           </tr><tr>
             <td><code class="ds-name">exchange-volumes</code></td>
-            <td>Exchange trading volumes</td>
+            <td>Trading volumes aggregated across major centralized crypto exchanges (Binance, Coinbase, Kraken, Bybit, OKX). Reveals where liquidity concentrates by asset.</td>
             <td class="num"><strong>30min</strong></td>
             <td class="src">CoinGecko aggregated</td>
           </tr></tbody>
@@ -501,22 +560,22 @@
       </tr></thead>
       <tbody><tr>
             <td><code class="ds-name">macro-snapshot</code></td>
-            <td>30+ FRED series, regime, risk gauge, z-scores</td>
+            <td>Composite macro snapshot — 30+ FRED economic series (rates, inflation, employment), AC regime classification, risk gauge composite, and z-scores per series.</td>
             <td class="num"><strong>6h</strong></td>
             <td class="src">FRED (St. Louis Fed)</td>
           </tr><tr>
             <td><code class="ds-name">vix-term-structure</code></td>
-            <td>VIX term structure (contango/backwardation)</td>
+            <td>VIX futures term structure showing contango or backwardation across upcoming expirations. Tells you whether near-term volatility is priced richer than longer-dated.</td>
             <td class="num"><strong>15min</strong></td>
             <td class="src">CBOE via Yahoo</td>
           </tr><tr>
             <td><code class="ds-name">cftc-cot</code></td>
-            <td>CFTC Commitment of Traders positioning</td>
+            <td>CFTC Commitment of Traders weekly report — net positioning of commercial hedgers, large speculators, and small traders across futures and options markets.</td>
             <td class="num"><strong>7d</strong></td>
             <td class="src">CFTC weekly Friday</td>
           </tr><tr>
             <td><code class="ds-name">treasury-stats</code></td>
-            <td>US Treasury statistics</td>
+            <td>US Treasury daily statistics — debt outstanding, cash balance, issuance schedule. Drawn from Treasury.gov daily statement releases.</td>
             <td class="num"><strong>1d</strong></td>
             <td class="src">US Treasury Direct</td>
           </tr></tbody>
@@ -534,37 +593,37 @@
       </tr></thead>
       <tbody><tr>
             <td><code class="ds-name">whale-alerts</code></td>
-            <td>Large on-chain transactions ($10M+ filter)</td>
+            <td>Large on-chain crypto transactions filtered for $10M+ moves. Tracks wallet-to-wallet, exchange inflows, and exchange outflows across major chains.</td>
             <td class="num"><strong>30min</strong></td>
             <td class="src">Whale Alert + Hyperliquid</td>
           </tr><tr>
             <td><code class="ds-name">funding-rates</code></td>
-            <td>Perpetual funding rates across exchanges</td>
+            <td>Perpetual futures funding rates aggregated across major crypto exchanges. Positive = longs paying shorts; persistent extremes signal positioning crowding.</td>
             <td class="num"><strong>1h</strong></td>
             <td class="src">Coinglass + exchange APIs</td>
           </tr><tr>
             <td><code class="ds-name">btc-etf-flows</code></td>
-            <td>Bitcoin ETF daily flows (IBIT, FBTC, etc.)</td>
+            <td>Daily net flows for the major Bitcoin spot ETFs (IBIT, FBTC, ARKB, BITB, GBTC, and others). Tracks institutional accumulation or distribution.</td>
             <td class="num"><strong>1d</strong></td>
             <td class="src">ETF issuer disclosures</td>
           </tr><tr>
             <td><code class="ds-name">fear-greed</code></td>
-            <td>Crypto Fear & Greed Index</td>
+            <td>Crypto Fear & Greed Index — composite sentiment score (0-100) blending volatility, momentum, social signals, and dominance. Updated daily.</td>
             <td class="num"><strong>1d</strong></td>
             <td class="src">Alternative.me</td>
           </tr><tr>
             <td><code class="ds-name">coingecko-global</code></td>
-            <td>Global crypto market cap + dominance</td>
+            <td>Global crypto market metrics — total market cap, 24h volume, BTC dominance, ETH dominance, stablecoin marketcap. Sourced from CoinGecko global endpoint.</td>
             <td class="num"><strong>1h</strong></td>
             <td class="src">CoinGecko global</td>
           </tr><tr>
             <td><code class="ds-name">btc-options</code></td>
-            <td>BTC options open interest + put/call</td>
+            <td>Bitcoin options market data including open interest by strike, put/call ratios, max-pain levels, and 25-delta skew across Deribit + other major venues.</td>
             <td class="num"><strong>1h</strong></td>
             <td class="src">Deribit + Coinglass</td>
           </tr><tr>
             <td><code class="ds-name">coinglass-v2</code></td>
-            <td>Aggregate open interest + liquidations</td>
+            <td>Aggregate open interest and liquidation data across 21 exchanges for 43 tracked crypto perps. Surfaces leverage buildup and forced-deleveraging events.</td>
             <td class="num"><strong>6h</strong></td>
             <td class="src">Coinglass v2 API</td>
           </tr></tbody>
@@ -582,22 +641,22 @@
       </tr></thead>
       <tbody><tr>
             <td><code class="ds-name">breaking-news</code></td>
-            <td>Breaking financial news + sentiment scores</td>
+            <td>Breaking financial news aggregated from multiple wire services with FinBERT-based sentiment scoring (POSITIVE / NEGATIVE / NEUTRAL) and entity extraction.</td>
             <td class="num"><strong>30min</strong></td>
             <td class="src">Multiple wire aggregators</td>
           </tr><tr>
             <td><code class="ds-name">newsletters</code></td>
-            <td>Curated newsletter intelligence digest</td>
+            <td>Curated intelligence digest from selected market newsletters and research desks. Distilled into structured items with source attribution and topic tags.</td>
             <td class="num"><strong>12h</strong></td>
             <td class="src">AC-curated sources</td>
           </tr><tr>
             <td><code class="ds-name">reddit-sentiment</code></td>
-            <td>Cross-subreddit sentiment (14 subs)</td>
+            <td>Cross-subreddit sentiment scoring across 14 finance and crypto subs (r/wallstreetbets, r/cryptocurrency, r/stocks, r/algotrading and others). Updated every 6h.</td>
             <td class="num"><strong>6h</strong></td>
             <td class="src">Reddit API</td>
           </tr><tr>
             <td><code class="ds-name">narrative-scores</code></td>
-            <td>Narrative crowding scores (21 themes)</td>
+            <td>Narrative crowding scores across 21 themes (AI, energy, defense, crypto, healthcare, biotech, etc.) — measures how concentrated attention is on each theme.</td>
             <td class="num"><strong>1d</strong></td>
             <td class="src">AC proprietary scoring</td>
           </tr></tbody>
@@ -615,27 +674,27 @@
       </tr></thead>
       <tbody><tr>
             <td><code class="ds-name">sec-13f</code></td>
-            <td>SEC 13F institutional holdings</td>
+            <td>SEC 13F institutional holdings — quarterly filings showing top positions of asset managers above $100M AUM. Covers Berkshire, Bridgewater, Citadel and others.</td>
             <td class="num"><strong>7d</strong></td>
             <td class="src">SEC EDGAR</td>
           </tr><tr>
             <td><code class="ds-name">wikipedia-pageviews</code></td>
-            <td>Wikipedia pageview trends for assets</td>
+            <td>Wikipedia pageview trends for asset tickers and company names. Cross-reference between retail attention and price action.</td>
             <td class="num"><strong>1d</strong></td>
             <td class="src">Wikipedia REST API</td>
           </tr><tr>
             <td><code class="ds-name">short-interest</code></td>
-            <td>Short interest data for 39 stocks</td>
+            <td>Short interest data for 39 tracked stocks — shares short, days to cover, short interest ratio. FINRA bi-monthly release.</td>
             <td class="num"><strong>14d</strong></td>
             <td class="src">FINRA bi-monthly</td>
           </tr><tr>
             <td><code class="ds-name">etf-fund-flows</code></td>
-            <td>ETF fund flow estimates (44 ETFs)</td>
+            <td>Estimated daily net flows for 44 tracked ETFs spanning equity sectors, fixed income, commodities, and thematic categories. Reveals institutional allocation shifts.</td>
             <td class="num"><strong>1d</strong></td>
             <td class="src">Issuer + exchange disclosures</td>
           </tr><tr>
             <td><code class="ds-name">etf-options-pcr</code></td>
-            <td>Options put/call ratios (42 ETFs)</td>
+            <td>Options put/call ratios for 42 major ETFs. High P/C = bearish hedging or speculation; persistent shifts reveal sentiment regime changes.</td>
             <td class="num"><strong>1d</strong></td>
             <td class="src">CBOE + exchange options data</td>
           </tr></tbody>
@@ -653,27 +712,27 @@
       </tr></thead>
       <tbody><tr>
             <td><code class="ds-name">financial-calendar</code></td>
-            <td>High-impact economic events</td>
+            <td>High-impact economic events calendar — CPI, NFP, FOMC, GDP, retail sales, central bank meetings — with previous, forecast, and actual values when released.</td>
             <td class="num"><strong>6h</strong></td>
             <td class="src">AC-curated + Investing.com</td>
           </tr><tr>
             <td><code class="ds-name">polymarket</code></td>
-            <td>Polymarket prediction market events</td>
+            <td>Polymarket prediction market events — implied probabilities for elections, geopolitics, economic outcomes, and macro events. Higher liquidity = more reliable signal.</td>
             <td class="num"><strong>1h</strong></td>
             <td class="src">Polymarket public API</td>
           </tr><tr>
             <td><code class="ds-name">decision-engine</code></td>
-            <td>Multi-factor crypto re-entry scoring (AC)</td>
+            <td>AgentCanary proprietary multi-factor crypto re-entry scoring system combining technical, on-chain, sentiment, and macro signals into a 0-100 directional score.</td>
             <td class="num"><strong>6h</strong></td>
             <td class="src">AC proprietary</td>
           </tr><tr>
             <td><code class="ds-name">risk-summary</code></td>
-            <td>Daily risk assessment (AC)</td>
+            <td>Daily AgentCanary composite risk assessment integrating macro regime state, volatility regime, credit spreads, and cross-asset correlations into a single risk gauge.</td>
             <td class="num"><strong>6h</strong></td>
             <td class="src">AC proprietary</td>
           </tr><tr>
             <td><code class="ds-name">scenario-probs</code></td>
-            <td>6 macro scenario probabilities (AC)</td>
+            <td>AgentCanary forward-looking macro scenario probabilities across 6 canonical states (overheating, expansion, stagflation, contraction, recession, displacement).</td>
             <td class="num"><strong>6h</strong></td>
             <td class="src">AC proprietary</td>
           </tr></tbody>
