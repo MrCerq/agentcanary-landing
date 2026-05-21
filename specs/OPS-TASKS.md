@@ -30,6 +30,12 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 | 8 | **LinkedIn post #2 — wallet billing** ⏳ | operator | Draft: §5. 1 week after post #1. |
 | 9 | **ProductHunt launch** ⏳ | operator | Concept drafted. Stack with HN same day for compound coverage. |
 
+## Claude build queue
+
+| # | Task | Status | Notes |
+|---|---|---|---|
+| C1 | **CDP-based X reposter for briefs** ⏳ | claude | Playwright/CDP-driven posting to bypass X API source-suppression cap. Existing brief content stays as-is — this is a reposting layer on top, not a rewrite. Headed Chrome with persistent session on AC VPS, posts via web UI so tweets carry "Twitter Web App" source. Brief writer fires → x-reposter drives compose flow → uploads brief OG card → publishes. Cadence jitter 30-180s. Session re-auth manual when X kicks us out. |
+
 ## P3 — blocked / deferred
 
 | # | Task | Status | Reason |
