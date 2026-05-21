@@ -11,6 +11,7 @@ outcomes for every prediction — never retroactively hidden.
 
 ## How Agents Can Use This
 - **MCP Server**: `npx agentcanary-mcp` — 19 tools for Claude, Cursor, Windsurf, any MCP client (incl. get_track_record + diagnose — no API key needed)
+- **ChatGPT**: https://chatgpt.com/g/g-6a0f2b6ab07c819188983b3fb43ac62b-agentcanary — Custom GPT with all major endpoints as Actions
 - **REST API**: api.agentcanary.ai — JSON endpoints with API key auth, OpenAPI spec at /api/docs
 - **JSON Feed**: agentcanary.ai/record/feed.json (JSON Feed 1.1)
 - **Asset pages**: agentcanary.ai/assets/{TICKER}/ — every brief mentioning a given ticker, time-sorted (e.g., /assets/BTC/, /assets/SPY/, /assets/GLD/)

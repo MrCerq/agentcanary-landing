@@ -13,6 +13,7 @@
 - REST API: https://api.agentcanary.ai
 - OpenAPI: https://api.agentcanary.ai/api/openapi.yaml
 - MCP Server (npm): npx agentcanary-mcp
+- ChatGPT (Custom GPT): https://chatgpt.com/g/g-6a0f2b6ab07c819188983b3fb43ac62b-agentcanary
 - MCP Registry: io.github.MrCerq/agentcanary v1.4.1
 
 ## Try it without an API key (no-friction demo)
