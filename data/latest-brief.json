@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-05-20",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 20",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-05-21",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 21",
+  "headlineColor": "#FB923C",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -11,7 +11,7 @@
       "c": "red"
     },
     {
-      "t": "OVERHEATING",
+      "t": "EXPANSION",
       "c": "blue"
     }
   ],
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "ALAB",
-          "v": "+17.4%",
+          "k": "TKMS",
+          "v": "+12.2%",
           "c": "green"
         },
         {
-          "k": "ARM",
-          "v": "+14.9%",
+          "k": "WTI",
+          "v": "-8.0%",
+          "c": "red"
+        },
+        {
+          "k": "HYPE",
+          "v": "+7.8%",
           "c": "green"
         },
         {
-          "k": "ENPH",
-          "v": "+13.4%",
-          "c": "green"
-        },
-        {
-          "k": "OKLO",
-          "v": "+12.3%",
-          "c": "green"
+          "k": "BRENT",
+          "v": "-4.9%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 20, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nRisk appetite returned with tech and biotech leading a selective growth rotation while traditional energy lagged. Semiconductor strength anchored the tech bid as institutional flows favored innovation sectors over cyclicals. Tomorrow's setup hinges on whether growth momentum can broaden beyond select pockets despite crypto headwinds.\n\n<b>CLOSING PRICES</b>\nSPY +0.4% | QQQ +1.0% | VIX -3.4% | TLT +0.4% | DXY -0.2% | OIL -8.2%\n\n<b>vs MORNING</b>\nSPY +1.1% | QQQ +2.1% | VIX -4.8% | TLT +1.2% | DXY -0.5% | OIL -4.1%\n\n<b>EVENING NEWS</b>\n▼ Bitcoin Stablecoin Outflow: $1.2 Billion Leaves Binance as BTC Holds at $77.6K\n▼ Minutes reveal more hawkishness than previously thought at Fed’s April meeting\n▲ Fed Minutes Show More Officials Warned of Rate-Hike Scenario\n▲ Gold rallies as Fed minutes flag hikes, US Dollar slides\n▲ Washington Targets Iran’s $7 Billion Crypto Network To Cut Off Financial Channels—FOX\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: OVERHEATING.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +3.4%, XBI +3.2%, XLK +1.6%, XLE -1.3%, URA -1.3%.\nSector dispersion: 70 (EXTREME, breadth SELECTIVE_WEAKNESS), 31% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[AUS] Seasonally adjusted unemployment rate(Apr) — May 21 01:30 UTC (prev: 4.3%)\n[TW] GDP(YoY) (Revised) (Q1) — May 21 08:00 UTC (prev: 13.69%)\n[HK] Composite Consumer Price Index (YoY)(Apr) — May 21 08:30 UTC (prev: 1.7%)\n[EU] Consumer confidence index (Preliminary)(May) (+1 variants) — May 21 14:00 UTC (prev: -20.6)\n[USA] Kansas Federal Reserve Manufacturing Composite Index(May) — May 21 15:00 UTC (prev: 10)\n[USA] Kansas Federal Reserve Manufacturing Output Index(May) — May 21 15:00 UTC (prev: 10)\n\n<b>CONTRARIAN</b>\n• WTI's -8.2% crash might be oversold - this could be healthy inventory clearing before summer driving season rather than recession signal\n• TKMS's +12.2% defense rally may be overdone if geopolitical tensions prove temporary rather than structural shift\n\n<b>JSON</b>\n{\"regime\":\"OVERHEATING\",\"riskGauge\":100,\"sectorDispersion\":70,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 415
+  "telegramText": "<b>MACRO RADAR</b> — May 21, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nComposite Risk: 44.6/100 (MODERATE).\nGeopolitical risk: 37/100 (MODERATE). Top: Middle East / Red Sea 43/100 (MODERATE, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $77,896 · ETH: $2,140 · SOL: $86.53\nCrypto sentiment: 29 (Fear, 7d avg 30).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.09T (YoY -2.92%) — fed $6.73T · ecb $7.18T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 286bps NORMAL (composite: CAUTION)\nBDRY: $12.10 (+17.5% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 445.0M bbl, refinery 91.6%, SPR 374M.\n\n<b>KEY PRICES</b>\nSPY +0.4% | QQQ +1.0% | VIX -3.4% | TLT +0.4% | DXY -0.1% | OIL -8.0%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ TKMS: +12.2%\n▼ WTI: -8.0%\n▲ SOXX: +4.9%\n▼ BRENT: -4.9%\n▼ VIX: -3.4%\n▲ SMH: +3.4%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 119.28 (R), Gold $4484 (Y), Oil $102 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[+] Reverse Repo: +3.26σ\n[+] 10Y Real Rate: +2.88σ\n[+] 30Y Treasury: +2.49σ\n[+] 10Y Treasury: +2.45σ\n[+] USD Index (broad): +2.24σ\n\n<b>US OPEN SETUP</b>\n<i>Tech leadership with semiconductor strength suggests growth momentum carrying into US open. Energy weakness creates rotation opportunity while crypto flows indicate continued risk appetite. Watch for sector rotation sustainability as institutional flows favor higher-beta assets over commodities.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":100,\"compositeRisk\":44.6,\"geoRisk\":37}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 416
 }
