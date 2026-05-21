@@ -92,6 +92,13 @@ if (fs.existsSync(scoreAggPath)) {
     scoreAggregates = JSON.parse(fs.readFileSync(scoreAggPath, 'utf8'));
   } catch (e) { console.error('score-aggregates.json parse failed:', e.message); }
 }
+// Per-asset stats keyed by ticker — used for asset-page meta descriptions
+const _perAssetMap = {};
+if (scoreAggregates && Array.isArray(scoreAggregates.perAsset)) {
+  for (const a of scoreAggregates.perAsset) {
+    _perAssetMap[a.ticker] = a;
+  }
+}
 
 // ─── Index briefs ──────────────────────────────────────────────────
 
@@ -308,7 +315,7 @@ for (const [ticker, briefs] of byAsset) {
       context,
     };
   });
-  const html = renderIndex({ type: 'asset', ticker, mentions });
+  const html = renderIndex({ type: 'asset', ticker, mentions, perAsset: _perAssetMap });
   writeFile(`assets/${ticker}/index.html`, html);
   assetPagesWritten++;
 }

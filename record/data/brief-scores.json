@@ -1,5 +1,21 @@
 {
   "scores": {
+    "2026-05-21": {
+      "radar": {
+        "status": "pending",
+        "summary": "Regime EXPANSION called — awaiting next radar",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 100,
+            "riskLabel": "Critical"
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
     "2026-05-20": {
       "radar": {
         "status": "hit",
@@ -21,14 +37,22 @@
       },
       "pulse": null,
       "wrap": {
-        "status": "pending",
-        "summary": "Wrap framed OVERHEATING — awaiting next-day open",
+        "status": "miss",
+        "summary": "Regime flipped overnight: OVERHEATING → EXPANSION",
         "details": {
           "wrap": {
             "phase": "OVERHEATING",
             "riskGauge": 100,
             "riskLabel": "Critical"
-          }
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 100,
+            "riskLabel": "Critical"
+          },
+          "direction": null,
+          "regimeMatched": false,
+          "directionMatched": null
         }
       }
     },
@@ -6275,5 +6299,5 @@
       }
     }
   },
-  "lastScored": "2026-05-21T01:30:03.517Z"
+  "lastScored": "2026-05-21T03:36:31.293Z"
 }

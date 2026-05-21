@@ -781,6 +781,30 @@ function computeAggregates(briefScoresMap, predictionsArr) {
     weightedAccuracy: oScored ? Math.round(((oH + 0.5 * oP) / oScored) * 1000) / 10 : null,
   };
 
+  // ─── Per-asset hit-rate stats (mirrors lib/page.mjs _perAssetStats) ───
+  const byTicker = new Map();
+  for (const p of (predictionsArr || [])) {
+    const t = p.ticker || '?';
+    const cur = byTicker.get(t) || { ticker: t, n: 0, hit: 0, partial: 0, miss: 0, pending: 0, no_data: 0 };
+    cur.n++;
+    const r = p.result || 'pending';
+    if (cur[r] !== undefined) cur[r]++;
+    byTicker.set(t, cur);
+  }
+  const perAsset = [...byTicker.values()]
+    .filter(r => r.n >= 2)  // skip one-offs
+    .map(r => {
+      const scored = r.hit + r.partial + r.miss;
+      return {
+        ...r,
+        scored,
+        hit_rate_pct: scored > 0 ? Math.round((r.hit / scored) * 1000) / 10 : null,
+        weighted_pct: scored > 0 ? Math.round(((r.hit + 0.5 * r.partial) / scored) * 1000) / 10 : null,
+      };
+    })
+    .sort((a, b) => b.n - a.n);
+  out.perAsset = perAsset;
+
   // ─── Brier + calibration stats ───
   const scoredWithBrier = (predictionsArr || []).filter(p => Number.isFinite(p.brier_score));
   if (scoredWithBrier.length > 0) {
