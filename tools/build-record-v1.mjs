@@ -320,6 +320,14 @@ for (const [ticker, briefs] of byAsset) {
   assetPagesWritten++;
 }
 
+// Generate per-asset OG cards (one PNG per ticker dir)
+try {
+  const { execSync } = await import('node:child_process');
+  execSync('node ' + path.join(__dirname, 'gen-asset-og.mjs'), { stdio: 'inherit' });
+} catch (e) {
+  console.error('[build-v1] gen-asset-og.mjs failed (asset OG cards not refreshed):', e.message);
+}
+
 // 7. /regimes/{slug}/
 let regimePagesWritten = 0;
 for (const [slug, briefs] of byRegime) {
