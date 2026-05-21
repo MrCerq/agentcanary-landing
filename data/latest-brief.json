@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-05-21",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — May 21",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — May 21",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "TKMS",
-          "v": "+12.2%",
+          "k": "BKKT",
+          "v": "+22.1%",
           "c": "green"
         },
         {
-          "k": "WTI",
-          "v": "-8.0%",
-          "c": "red"
-        },
-        {
-          "k": "HYPE",
-          "v": "+7.8%",
+          "k": "APLD",
+          "v": "+21.7%",
           "c": "green"
         },
         {
-          "k": "BRENT",
-          "v": "-4.9%",
+          "k": "INTU",
+          "v": "-20.1%",
           "c": "red"
+        },
+        {
+          "k": "ENPH",
+          "v": "+17.4%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — May 21, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $77,896 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $80K\nETH: $2,140 · (same)\nSOL: $86.53 · (same)\nCrypto sentiment: 29 (Fear, 7d avg 30).\n\n<b>WHALE ALERTS</b>\n• 1,034 BTC ($80.2M) — transferred from Coinbase Institutional to unknown wallet\n• 974 BTC ($75.6M) — transferred from Coinbase Institutional to unknown wallet\n• 927 BTC ($72.0M) — transferred from #Okex to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 139M USDC ($139M) — transferred from unknown wallet to #Coinbase\n• 128M USDC ($128M) — transferred from unknown wallet to #Aave\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• LAB: 54% net APR (0.0245% rate) · Long Binance / Short Bitget · OI $64.1M · Spread -0.29%\n• ZEC: 39% net APR (0.0354% rate) · Long OKX / Short Bybit · OI $109.6M · Spread -0.03%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $107.4B\nTop OI: BTC $56.6B · ETH $31.8B · SOL $5.8B · HYPE $2.9B · XRP $2.9B\nOI shifters (4h): HYPE +4.5% · INJ +3.9% · UNI +3.1% · PENDLE +3.1% · PEPE +2.3%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$71M outflow on May 21 (Thu close) (IBIT -$62M, FBTC -$10M, MSBT +$1M). Trailing 5-trading-day net: -$1.2B outflow.\nBTC options — NEUTRAL: max pain $79,000 (22MAY26), P/C 0.67 OI / 0.84 vol, skew -1.4 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.4995% (17/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $101M long / $84M short (net long $17M, -$4.2M PnL); ETH: $26M long / $47M short (net short $21M, -$221K PnL); HYPE: $25M long / $29M short (flat, -$1.6M PnL).\nLiquidations: 24h total $44.8M; latest 4h $14.4M (12.2% long / 87.8% short, 112L/1164S events, short-dominant).\nETH stake APY 2.38% vs T-bill 3.59% (spread -1.21, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Tech Semiconductor Rally [SOXX, SMH, NVDA, AMD]\n▼ Oil Market Collapse [WTI, BRENT, XOM, CVX]\n▼ Labor Market Deterioration [AUD, AUDUSD]\n\n<b>IMPLICATION</b>\nTech leadership signals rotation into growth as semiconductors drive the narrative. Energy weakness creates sector divergence while crypto institutional outflows suggest selective momentum fading. Watch for continuation in semis versus defensive rotation if energy stabilizes.\n\n<b>JSON</b>\n{\"btc\":77896,\"cryptoSentiment\":29,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 418
+  "telegramText": "<b>MARKET WRAP</b> — May 21, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nGrowth sectors commanded the session with semiconductors and metals joining crypto in a broad risk-on rotation. Energy weakness and defensive selling underscored the momentum shift toward growth narratives. Tomorrow's setup favors continued sector rotation if technical levels hold.\n\n<b>CLOSING PRICES</b>\nSPY +1.2% | QQQ +1.9% | VIX -3.9% | TLT +1.4% | DXY +0.1% | OIL -0.2%\n\n<b>vs MORNING</b>\nSPY +0.9% | QQQ +0.8% | VIX -0.5% | TLT +1.0% | DXY +0.2% | OIL +7.9%\n\n<b>EVENING NEWS</b>\n▲ Stargate powers Superform Swap for multi-chain token funding with single signature\n▲ Forex Today: US Dollar steadies as strong PMI data supports cautious Fed outlook \n▲ Michael Saylor Says Bitcoin Will Beat the S&P 500 Over Time\n▲ World Liberty Financial rebound gives dormant WLFI holders an exit as AI Financial warns of survival risk\n▼ Freddie Mac reports 30-year fixed mortgage rate at 6.51%, highest since late August 2025\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XBI +4.7%, COPX +4.6%, SMH +4.4%, XLP -1.7%, XLE -3.5%.\nSector dispersion: 66 (EXTREME, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[NZ] Retail Sales (YoY)(Q1) (+2 variants) — May 21 22:02 UTC (prev: 4.4%)\n[UK] GfK Consumer Confidence Index(May) — May 21 23:01 UTC (prev: -25.0)\n[JPN] National Consumer Price Index (YoY)(Apr) — May 21 23:30 UTC (prev: 1.5%)\n[JPN] National Core Consumer Price Index (YoY)(Apr) — May 21 23:30 UTC (prev: 1.8%)\n[JPN] Nationwide Consumer Price Index(Apr) — May 21 23:30 UTC (prev: 112.7)\n[GER] day Tuner GDP(YoY) (Revised) (Q1) — May 22 06:00 UTC (prev: 0.3%)\n\n<b>CONTRARIAN</b>\n• EWY's 7.1% surge may be overdone - Korean tech exposure to China slowdown could reverse these gains quickly\n• XBI's 4.7% biotech rally might be a bull trap given rising rates making R&D financing more expensive\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":100,\"sectorDispersion\":66,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"XBI\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 419
 }
