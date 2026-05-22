@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-05-22",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — May 22",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — May 22",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "EWY",
-          "v": "+7.1%",
+          "k": "SWKS",
+          "v": "+12.0%",
+          "c": "green"
+        },
+        {
+          "k": "QCOM",
+          "v": "+11.6%",
           "c": "green"
         },
         {
           "k": "NEAR",
-          "v": "+6.7%",
+          "v": "+8.2%",
           "c": "green"
         },
         {
-          "k": "SOXX",
-          "v": "+5.6%",
-          "c": "green"
-        },
-        {
-          "k": "XBI",
-          "v": "+4.7%",
+          "k": "ROST",
+          "v": "+8.1%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — May 22, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $77,590 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $80K\nETH: $2,136 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch\nSOL: $87.10 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade\nCrypto sentiment: 28 (Fear, 7d avg 28).\n\n<b>WHALE ALERTS</b>\n• 1,500 BTC ($116.5M) — transferred from unknown wallet to #Paypal\n• 809 BTC ($62.8M) — transferred from #Falconx to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 699M USDC ($699M) — minted at USDC Treasury\n• 699M USDC ($699M) — minted at USDC Treasury\n• 650M USDC ($650M) — transferred from USDC Treasury to #Coinbase\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $106.7B\nTop OI: BTC $55.7B · ETH $31.7B · SOL $5.8B · XRP $2.9B · HYPE $2.7B\nOI shifters (4h): NEAR +17.4% · FET +12.7% · TIA +6.4% · PENDLE +6.4% · ARB +6.3%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$101M outflow on May 22 (Fri close) (IBIT -$104M, ARKB +$3M). Trailing 5-trading-day net: -$1.4B outflow.\nBTC options — NEUTRAL: max pain $78,500 (22MAY26), P/C 0.69 OI / 1.42 vol, skew +0.2 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.1663% (14/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $24M long / $136M short (net short $112M, +$5.1M PnL); BTC: $53M long / $63M short (net short $10M, +$1.1M PnL); HYPE: $88M long / $20M short (net long $68M, +$25.2M PnL).\nLiquidations: 24h total $49.2M; latest 4h $313K (100% long / 0% short, 41L/0S events, long-dominant).\nETH stake APY 2.41% vs T-bill 3.57% (spread -1.16, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n▲ Tech Semiconductor Rally [NVDA, AMD, TSM, SOXX]\n▼ Fed Hawkish Pivot Strengthens Dollar [DXY, EUR, AUD, TLT]\n▼ Bitcoin Miner Capitulation Continues [BTC, ETH, MARA, RIOT]\n\n<b>IMPLICATION</b>\nTech leadership with semiconductors and biotech suggests growth rotation gaining traction. Energy weakness signals commodity headwinds while copper strength hints at industrial demand. Watch for continuation into close or profit-taking in extended names.\n\n<b>JSON</b>\n{\"btc\":77590,\"cryptoSentiment\":28,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 422
+  "telegramText": "<b>MARKET WRAP</b> — May 22, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nSemiconductors drove risk appetite while crypto flows turned sharply negative, highlighting institutional rotation from speculative positioning. Defensive sectors gained ground late as growth momentum showed signs of fatigue. Tomorrow's setup hinges on whether tech breadth expands or defensive rotation accelerates.\n\n<b>CLOSING PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY +0.2% | OIL +0.5%\n\n<b>vs MORNING</b>\nSPY -0.6% | QQQ -1.2% | VIX +3.5% | TLT -0.5% | DXY flat | OIL +1.4%\n\n<b>EVENING NEWS</b>\n▲ Bitwise Hyperliquid ETF tops $30 million in assets as HYPE fund race accelerates\n▼ Michigan consumer sentiment index drops to all-time low of 44.8\n▲ Encouraging Signs That HODLers Are Holding\n▲ Bitcoin holds near $77,000 as Kevin Warsh prepares to lead Fed\n▼ US consumer sentiment falls to record low, down 21% since February\n\n<b>SCENARIO SHIFTS</b>\n↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +2.1%, URA +1.9%, XLU +1.9%, XLC -0.6%, XLP -0.8%.\nSector dispersion: 58 (HIGH, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SIN] GDP(YoY)(Final)(Q1) — May 24 16:05 UTC (prev: 4.6%)\n[SIN] Seasonally adjusted GDP(QoQ)(Final)(Q1) — May 24 16:05 UTC (prev: -0.3%)\n[SIN] Consumer Price Index (YoY)(Apr) — May 25 05:00 UTC (prev: 1.8%)\n[GER] Producer Price Index (MoM)(Apr) (+1 variants) — May 25 06:00 UTC (prev: 2.5%)\n\n<b>CONTRARIAN</b>\n• KWEB's -4.3% drop may be overdone as China tech valuations become compelling for contrarian investors\n• Consumer sentiment crash could be peak pessimism, setting up for surprise rebound if inflation moderates\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":100,\"sectorDispersion\":58,\"breadth\":\"SELECTIVE_STRENGTH\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 423
 }
