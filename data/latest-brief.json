@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-05-21",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 21",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-05-22",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 22",
+  "headlineColor": "#FB923C",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "BKKT",
-          "v": "+22.1%",
+          "k": "EWY",
+          "v": "+7.1%",
           "c": "green"
         },
         {
-          "k": "APLD",
-          "v": "+21.7%",
+          "k": "NEAR",
+          "v": "+6.7%",
           "c": "green"
         },
         {
-          "k": "INTU",
-          "v": "-20.1%",
-          "c": "red"
+          "k": "SOXX",
+          "v": "+5.6%",
+          "c": "green"
         },
         {
-          "k": "ENPH",
-          "v": "+17.4%",
+          "k": "XBI",
+          "v": "+4.7%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 21, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nGrowth sectors commanded the session with semiconductors and metals joining crypto in a broad risk-on rotation. Energy weakness and defensive selling underscored the momentum shift toward growth narratives. Tomorrow's setup favors continued sector rotation if technical levels hold.\n\n<b>CLOSING PRICES</b>\nSPY +1.2% | QQQ +1.9% | VIX -3.9% | TLT +1.4% | DXY +0.1% | OIL -0.2%\n\n<b>vs MORNING</b>\nSPY +0.9% | QQQ +0.8% | VIX -0.5% | TLT +1.0% | DXY +0.2% | OIL +7.9%\n\n<b>EVENING NEWS</b>\n▲ Stargate powers Superform Swap for multi-chain token funding with single signature\n▲ Forex Today: US Dollar steadies as strong PMI data supports cautious Fed outlook \n▲ Michael Saylor Says Bitcoin Will Beat the S&P 500 Over Time\n▲ World Liberty Financial rebound gives dormant WLFI holders an exit as AI Financial warns of survival risk\n▼ Freddie Mac reports 30-year fixed mortgage rate at 6.51%, highest since late August 2025\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XBI +4.7%, COPX +4.6%, SMH +4.4%, XLP -1.7%, XLE -3.5%.\nSector dispersion: 66 (EXTREME, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[NZ] Retail Sales (YoY)(Q1) (+2 variants) — May 21 22:02 UTC (prev: 4.4%)\n[UK] GfK Consumer Confidence Index(May) — May 21 23:01 UTC (prev: -25.0)\n[JPN] National Consumer Price Index (YoY)(Apr) — May 21 23:30 UTC (prev: 1.5%)\n[JPN] National Core Consumer Price Index (YoY)(Apr) — May 21 23:30 UTC (prev: 1.8%)\n[JPN] Nationwide Consumer Price Index(Apr) — May 21 23:30 UTC (prev: 112.7)\n[GER] day Tuner GDP(YoY) (Revised) (Q1) — May 22 06:00 UTC (prev: 0.3%)\n\n<b>CONTRARIAN</b>\n• EWY's 7.1% surge may be overdone - Korean tech exposure to China slowdown could reverse these gains quickly\n• XBI's 4.7% biotech rally might be a bull trap given rising rates making R&D financing more expensive\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":100,\"sectorDispersion\":66,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"XBI\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 419
+  "telegramText": "<b>MACRO RADAR</b> — May 22, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nComposite Risk: 44.3/100 (MODERATE).\nGeopolitical risk: 46/100 (MODERATE). Top: Middle East / Red Sea 53/100 (ELEVATED, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $77,590 · ETH: $2,136 · SOL: $87.10\nCrypto sentiment: 28 (Fear, 7d avg 28).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.87%) — fed $6.71T · ecb $7.18T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 280bps NORMAL (composite: CAUTION)\nBDRY: $12.39 (+15.8% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 445.0M bbl, refinery 91.6%, SPR 374M.\n\n<b>KEY PRICES</b>\nSPY +1.2% | QQQ +1.9% | VIX -3.9% | TLT +1.4% | DXY +0.1% | OIL -0.8%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ EWY: +7.1%\n▲ SOXX: +5.6%\n▲ XBI: +4.7%\n▲ COPX: +4.6%\n▲ SMH: +4.4%\n▲ TKMS: +4.0%\n\n<b>HEGEMONY SNAPBACK</b>\n2.5/6 — WATCH\nUSD Index 119.28 (R), Gold $4548 (Y), Oil $112 (R)\n\n<b>NOTABLE Z-SCORES</b>\n[+] Reverse Repo: +3.64σ\n[+] 10Y Real Rate: +2.75σ\n[+] 10Y Treasury: +2.54σ\n[+] 30Y Treasury: +2.50σ\n[+] USD Index (broad): +2.24σ\n\n<b>US OPEN SETUP</b>\n<i>Tech leadership with semiconductor strength suggests continuation potential into US open. Watch for momentum follow-through versus defensive rotation given mixed consumer staples weakness.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":100,\"compositeRisk\":44.3,\"geoRisk\":46}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 420
 }
