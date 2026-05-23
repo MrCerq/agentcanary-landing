@@ -380,6 +380,117 @@ ${urls.map(u => `  <url><loc>${u.loc}</loc><priority>${u.priority}</priority></u
   writeFile('sitemap.xml', xml);
 }
 
+// 9. feed.json (JSON Feed 1.1) + rss.xml (RSS 2.0)
+// Regenerated each build from briefs-archive.json (latest 50 by date+slot).
+// Predecessor generator was removed in a refactor and left these files frozen
+// at 2026-05-17 — fixed 2026-05-23.
+console.log('[build-v1] feed.json + rss.xml');
+{
+  // Sort all briefs newest-first by date, then slot order within day
+  const feedBriefs = [...archive]
+    .filter(b => b && b.date && resolveSlot(b))
+    .sort((a, b) => {
+      if (a.date !== b.date) return b.date.localeCompare(a.date);
+      return SLOTS.indexOf(resolveSlot(b)) - SLOTS.indexOf(resolveSlot(a));
+    })
+    .slice(0, 50);
+
+  // ── Helpers ───────────────────────────────────────────────────
+  function escXml(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
+  function stripHtml(s) {
+    return String(s || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  }
+  function itemSummary(brief) {
+    // Lead summary: weekend banner (if present) + first ~200 chars of stripped telegramText
+    const banner = brief.isWeekend && brief.weekendBanner ? `${brief.weekendBanner} ` : '';
+    const body = stripHtml(brief.telegramText || brief.desc || '').slice(0, 240);
+    return (banner + body).trim();
+  }
+  function itemDate(brief) {
+    // Use publishedAt if available, else construct from date + slot time
+    if (brief.publishedAt) return new Date(brief.publishedAt).toISOString();
+    const slot = resolveSlot(brief);
+    const m = slotMeta(slot);
+    const t = m && m.fireTimeUTC ? m.fireTimeUTC : '00:00';
+    return new Date(`${brief.date}T${t}:00Z`).toISOString();
+  }
+  function itemUrl(brief) {
+    const slot = resolveSlot(brief);
+    return `https://agentcanary.ai${briefPermalink(brief, slot)}`;
+  }
+  function itemTitle(brief) {
+    const slot = resolveSlot(brief);
+    const meta = slotMeta(slot);
+    const label = meta && meta.label ? meta.label : slot.toUpperCase();
+    // Format: "MACRO RADAR — May 23, 2026"
+    return `${label} — ${formatDate(brief.date)}`;
+  }
+
+  // ── JSON Feed 1.1 ─────────────────────────────────────────────
+  const jsonFeed = {
+    version: 'https://jsonfeed.org/version/1.1',
+    title: 'AgentCanary — The Record',
+    home_page_url: 'https://agentcanary.ai/record/',
+    feed_url: 'https://agentcanary.ai/record/feed.json',
+    description: 'Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend). Tradfi data reflects last completed session on weekends; crypto live 24/7.',
+    icon: 'https://agentcanary.ai/apple-touch-icon.png',
+    favicon: 'https://agentcanary.ai/favicon.png',
+    language: 'en',
+    items: feedBriefs.map(brief => {
+      const url = itemUrl(brief);
+      return {
+        id: url,
+        url,
+        title: itemTitle(brief),
+        content_text: itemSummary(brief),
+        summary: itemSummary(brief),
+        date_published: itemDate(brief),
+        tags: (brief.tags || []).map(t => t.t).filter(Boolean),
+        _agentcanary: {
+          slot: resolveSlot(brief),
+          isWeekend: !!brief.isWeekend,
+          tradFiAsOf: brief.tradFiAsOf || null,
+        },
+      };
+    }),
+  };
+  writeFile('record/feed.json', JSON.stringify(jsonFeed, null, 2));
+
+  // ── RSS 2.0 ───────────────────────────────────────────────────
+  const buildDate = new Date().toUTCString();
+  const rssItems = feedBriefs.map(brief => {
+    const url = itemUrl(brief);
+    const pubDate = new Date(itemDate(brief)).toUTCString();
+    return `    <item>
+      <title>${escXml(itemTitle(brief))}</title>
+      <link>${escXml(url)}</link>
+      <guid isPermaLink="true">${escXml(url)}</guid>
+      <pubDate>${pubDate}</pubDate>
+      <description>${escXml(itemSummary(brief))}</description>
+    </item>`;
+  }).join('\n');
+  const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AgentCanary — The Record</title>
+    <link>https://agentcanary.ai/record/</link>
+    <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
+    <language>en-us</language>
+    <lastBuildDate>${buildDate}</lastBuildDate>
+    <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+${rssItems}
+  </channel>
+</rss>`;
+  writeFile('record/rss.xml', rssXml);
+}
+
 // ─── Update index.html brief-card-link to the latest brief permalink ───
 // Eliminates the race where a fast click hits the static /record/ href
 // before the runtime fetch updates the link. JS still re-resolves on top
@@ -418,6 +529,7 @@ console.log(`  - ${[...byYear.keys()].length} year pages`);
 console.log(`  - ${[...byMonth.keys()].length} month pages`);
 console.log(`  - ${archive.length} per-brief permalinks`);
 console.log(`  - ${assetPagesWritten} asset pages`);
+console.log(`  - 1 JSON Feed + 1 RSS feed (50 items each)`);
 console.log(`  - ${regimePagesWritten} regime pages`);
 console.log(`  - 1 sitemap`);
 

@@ -1,360 +1,361 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Record — AgentCanary</title>
+    <title>AgentCanary — The Record</title>
     <link>https://agentcanary.ai/record/</link>
-    <description>Market intelligence with receipts. Daily macro briefs with regime tracking, whale alerts, narrative scores, and hindsight-scored calls.</description>
-    <language>en</language>
+    <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 23 May 2026 18:10:00 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Morning Brief — May 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/17#morning</link>
-      <description>MACRO RADAR — May 17 — Risk 14/100 · 6 movers</description>
-      <pubDate>Sun, 17 May 2026 03:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/17#morning</guid>
+      <title>MARKET PULSE — May 23, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/23/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/23/pulse/</guid>
+      <pubDate>Sat, 23 May 2026 15:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MARKET PULSE — May 23, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $75,480 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · above $75</description>
     </item>
     <item>
-      <title>Evening Wrap — May 16, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/16#evening</link>
-      <description>MARKET WRAP — May 16 — Risk 14/100 · 6 movers</description>
-      <pubDate>Sat, 16 May 2026 21:15:13 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/16#evening</guid>
+      <title>SIGNAL SCAN — May 23, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/23/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/23/signal/</guid>
+      <pubDate>Sat, 23 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 23, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets split on risk appetite with semiconductors and utilities leading as crypto faces sustained outflows. Defensive rotation emerges amid sector-specifi</description>
     </item>
     <item>
-      <title>Market Pulse — May 16, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/16#midday</link>
-      <description>MARKET PULSE — May 16 — Risk 14/100 · 6 movers</description>
-      <pubDate>Sat, 16 May 2026 15:15:17 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/16#midday</guid>
+      <title>MACRO RADAR — May 23, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/23/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/23/radar/</guid>
+      <pubDate>Sat, 23 May 2026 03:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MACRO RADAR — May 23, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk</description>
     </item>
     <item>
-      <title>Signal Scan — May 16, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/16#intelligence</link>
-      <description>SIGNAL SCAN — May 16 — Risk 14/100 · 6 movers</description>
-      <pubDate>Sat, 16 May 2026 09:15:28 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/16#intelligence</guid>
+      <title>MARKET WRAP — May 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/22/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/22/wrap/</guid>
+      <pubDate>Fri, 22 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 22, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Semiconductors drove risk appetite while crypto flows turned sharply negative, highlighting institutional rotation from speculative positioning. Def</description>
     </item>
     <item>
-      <title>Morning Brief — May 16, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/16#morning</link>
-      <description>MACRO RADAR — May 16 — Risk 14/100 · 6 movers</description>
-      <pubDate>Sat, 16 May 2026 03:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/16#morning</guid>
+      <title>MARKET PULSE — May 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/22/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/22/pulse/</guid>
+      <pubDate>Fri, 22 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 22, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,590 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $80K ETH: $2,136 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch SOL: $87.10 — 1d:ACCUM</description>
     </item>
     <item>
-      <title>Evening Wrap — May 15, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/15#evening</link>
-      <description>MARKET WRAP — May 15 — Risk 36/100 · 6 movers</description>
-      <pubDate>Fri, 15 May 2026 21:15:13 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/15#evening</guid>
+      <title>SIGNAL SCAN — May 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/22/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/22/signal/</guid>
+      <pubDate>Fri, 22 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 22, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on rotation accelerating across cyclicals, with tech and copper leading the charge while defensive staples and energy lag. Cross-asset momentum sugges</description>
     </item>
     <item>
-      <title>Market Pulse — May 15, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/15#midday</link>
-      <description>MARKET PULSE — May 15 — Risk 36/100 · 6 movers</description>
-      <pubDate>Fri, 15 May 2026 15:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/15#midday</guid>
+      <title>MACRO RADAR — May 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/22/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/22/radar/</guid>
+      <pubDate>Fri, 22 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 22, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk: 44.3/100 (MODERATE). Geopolitical risk: 46/100 (MODERATE). Top: Middle East / Red</description>
     </item>
     <item>
-      <title>Signal Scan — May 15, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/15#intelligence</link>
-      <description>SIGNAL SCAN — May 15 — Risk 36/100 · 6 movers</description>
-      <pubDate>Fri, 15 May 2026 09:15:26 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/15#intelligence</guid>
+      <title>MARKET WRAP — May 21, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/21/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/21/wrap/</guid>
+      <pubDate>Thu, 21 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 21, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors commanded the session with semiconductors and metals joining crypto in a broad risk-on rotation. Energy weakness and defensive sellin</description>
     </item>
     <item>
-      <title>Morning Brief — May 15, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/15#morning</link>
-      <description>MACRO RADAR — May 15 — Risk 36/100 · 6 movers</description>
-      <pubDate>Fri, 15 May 2026 03:15:13 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/15#morning</guid>
+      <title>MARKET PULSE — May 21, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/21/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/21/pulse/</guid>
+      <pubDate>Thu, 21 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 21, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,896 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $80K ETH: $2,140 · (same) SOL: $86.53 · (same) Crypto sentiment: 29 (Fear, 7d avg 30</description>
     </item>
     <item>
-      <title>Evening Wrap — May 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/14#evening</link>
-      <description>MARKET WRAP — May 14 — Risk 39/100 · 6 movers</description>
-      <pubDate>Thu, 14 May 2026 21:15:13 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/14#evening</guid>
+      <title>SIGNAL SCAN — May 21, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/21/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/21/signal/</guid>
+      <pubDate>Thu, 21 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 21, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech leadership drives risk-on sentiment with semiconductors and equities outperforming while energy complex shows notable weakness. Cross-asset rotation f</description>
     </item>
     <item>
-      <title>Market Pulse — May 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/14#midday</link>
-      <description>MARKET PULSE — May 14 — Risk 39/100 · 6 movers</description>
-      <pubDate>Thu, 14 May 2026 15:15:13 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/14#midday</guid>
+      <title>MACRO RADAR — May 21, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/21/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/21/radar/</guid>
+      <pubDate>Thu, 21 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 21, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk: 44.6/100 (MODERATE). Geopolitical risk: 37/100 (MODERATE). Top: Middle East / Red</description>
     </item>
     <item>
-      <title>Signal Scan — May 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/14#intelligence</link>
-      <description>SIGNAL SCAN — May 14 — Risk 39/100 · 6 movers</description>
-      <pubDate>Thu, 14 May 2026 09:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/14#intelligence</guid>
+      <title>MARKET WRAP — May 20, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/20/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/20/wrap/</guid>
+      <pubDate>Wed, 20 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 20, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Risk appetite returned with tech and biotech leading a selective growth rotation while traditional energy lagged. Semiconductor strength anchored th</description>
     </item>
     <item>
-      <title>Morning Brief — May 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/14#morning</link>
-      <description>MACRO RADAR — May 14 — Risk 39/100 · 6 movers</description>
-      <pubDate>Thu, 14 May 2026 03:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/14#morning</guid>
+      <title>SIGNAL SCAN — May 20, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/20/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/20/signal/</guid>
+      <pubDate>Wed, 20 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 20, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Energy leading defensive rotation amid mixed cross-asset flow, as crypto faces institutional outflows while metals pull back from recent strength. Risk app</description>
     </item>
     <item>
-      <title>Evening Wrap — May 13, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/13#evening</link>
-      <description>MARKET WRAP — May 13 — Risk 40/100 · 6 movers</description>
-      <pubDate>Wed, 13 May 2026 21:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/13#evening</guid>
+      <title>MACRO RADAR — May 20, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/20/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/20/radar/</guid>
+      <pubDate>Wed, 20 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 20, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: OVERHEATING. Composite Risk: 45.4/100 (ELEVATED). Geopolitical risk: 44/100 (MODERATE). Top: Middle East / R</description>
     </item>
     <item>
-      <title>Market Pulse — May 13, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/13#midday</link>
-      <description>MARKET PULSE — May 13 — Risk 40/100 · 6 movers</description>
-      <pubDate>Wed, 13 May 2026 15:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/13#midday</guid>
+      <title>MARKET WRAP — May 19, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/19/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/wrap/</guid>
+      <pubDate>Tue, 19 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 19, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with defensive rotation dominating despite surface-level strength in select risk assets. Energy and staples bid while commodities cra</description>
     </item>
     <item>
-      <title>Signal Scan — May 13, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/13#intelligence</link>
-      <description>SIGNAL SCAN — May 13 — Risk 40/100 · 6 movers</description>
-      <pubDate>Wed, 13 May 2026 09:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/13#intelligence</guid>
+      <title>MARKET PULSE — May 19, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/19/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/pulse/</guid>
+      <pubDate>Tue, 19 May 2026 15:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 19, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet narrative. BTC at $76,553, above $75K. BTC ETF flows: -$649M outflow on May 19 (Tue</description>
     </item>
     <item>
-      <title>Morning Brief — May 13, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/13#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 39.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Wed, 13 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/13#morning</guid>
+      <title>SIGNAL SCAN — May 19, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/19/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/signal/</guid>
+      <pubDate>Tue, 19 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 19, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation underway as metals and semiconductors face heavy selling pressure while defensives catch a bid. Energy leading the charge higher amid bro</description>
     </item>
     <item>
-      <title>Evening Wrap — May 12, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/12#evening</link>
-      <description>Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushi… — EXPANSION. 16 news items. 4 scenario shifts.</description>
-      <pubDate>Tue, 12 May 2026 21:15:04 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/12#evening</guid>
+      <title>MACRO RADAR — May 19, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/19/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/radar/</guid>
+      <pubDate>Tue, 19 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 19, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.7/100 (MODERATE). Geopolitical risk: 46/100 (MODERATE). Top: Middle East / Red Se</description>
     </item>
     <item>
-      <title>Market Pulse — May 12, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/12#midday</link>
-      <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h risk-off · ETH daily risk-off, 4h risk-off · SOL daily bullish, 4h bearish</description>
-      <pubDate>Tue, 12 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/12#midday</guid>
+      <title>MARKET WRAP — May 18, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/18/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/18/wrap/</guid>
+      <pubDate>Mon, 18 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 18, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Energy and defensive sectors captured institutional flows as crypto faced sustained selling pressure throughout the session. The rotation into utili</description>
     </item>
     <item>
-      <title>Signal Scan — May 12, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/12#intelligence</link>
-      <description>SIGNAL SCAN — May 12 — Risk 37/100 · 6 movers</description>
-      <pubDate>Tue, 12 May 2026 09:15:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/12#intelligence</guid>
+      <title>SIGNAL SCAN — May 18, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/18/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/18/signal/</guid>
+      <pubDate>Mon, 18 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 18, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off undertones emerge with metals under pressure and volatility spiking, while energy holds defensive strength. Cross-asset divergence shows crypto se</description>
     </item>
     <item>
-      <title>Morning Brief — May 12, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/12#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 36.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Tue, 12 May 2026 03:15:07 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/12#morning</guid>
+      <title>MACRO RADAR — May 18, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/18/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/18/radar/</guid>
+      <pubDate>Mon, 18 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.5/100 (MODERATE). Geopolitical risk: 36/100 (MODERATE). Top: Middle East / Red Se</description>
     </item>
     <item>
-      <title>Evening Wrap — May 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/11#evening</link>
-      <description>Markets displayed classic late-cycle behavior as crypto surged on institutional adoption hopes while… — EXPANSION. 18 news items. 6 scenario shifts.</description>
-      <pubDate>Mon, 11 May 2026 21:15:04 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/11#evening</guid>
+      <title>MARKET WRAP — May 17, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/17/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/wrap/</guid>
+      <pubDate>Sun, 17 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 17, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Metals experienced their worst session in months as copper and silver led a broad commodities selloff that rippled across risk assets. Energy bucked</description>
     </item>
     <item>
-      <title>Market Pulse — May 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/11#midday</link>
-      <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h distribution · ETH daily bullish, 4h bearish · SOL daily bullish, 4h distribution</description>
-      <pubDate>Mon, 11 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/11#midday</guid>
+      <title>MARKET PULSE — May 17, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/17/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/pulse/</guid>
+      <pubDate>Sun, 17 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,862 — 1d:RISK_OFF · 4h:RISK_OFF · below $80K ETH: $2,173 · (same) SOL: $85.95 · (same) Crypto sentiment: 27 (Fear, 7d avg 39) (falling). STABLECOIN</description>
     </item>
     <item>
-      <title>Signal Scan — May 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/11#intelligence</link>
-      <description>SIGNAL SCAN — May 11 — Risk 37/100 · 6 movers</description>
-      <pubDate>Mon, 11 May 2026 09:15:22 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/11#intelligence</guid>
+      <title>SIGNAL SCAN — May 17, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/17/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/signal/</guid>
+      <pubDate>Sun, 17 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 17, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation accelerates with metals and crypto under pressure while energy finds footing. Cross-asset divergence highlights defensive positioning as</description>
     </item>
     <item>
-      <title>Morning Brief — May 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/11#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 36.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Mon, 11 May 2026 03:15:03 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/11#morning</guid>
+      <title>MACRO RADAR — May 17, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/17/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/radar/</guid>
+      <pubDate>Sun, 17 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 17, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.7/100 (MODERATE). Geopolitical risk: 35/100 (MODERATE). Top: Middle East / Red Se</description>
     </item>
     <item>
-      <title>Evening Wrap — May 10, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/10#evening</link>
-      <description>Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed … — EXPANSION. 16 news items. 5 scenario shifts.</description>
-      <pubDate>Sun, 10 May 2026 21:15:06 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/10#evening</guid>
+      <title>MARKET WRAP — May 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/16/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/16/wrap/</guid>
+      <pubDate>Sat, 16 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 16, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session crystallized a clear risk-off pivot as Asian markets led a broad retreat while metals suffered their worst selloff in months. Energy</description>
     </item>
     <item>
-      <title>Signal Scan — May 10, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/10#intelligence</link>
-      <description>SIGNAL SCAN — May 10 — Risk 37/100 · 6 movers</description>
-      <pubDate>Sun, 10 May 2026 15:53:12 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/10#intelligence</guid>
+      <title>MARKET PULSE — May 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/16/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/16/pulse/</guid>
+      <pubDate>Sat, 16 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 16, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $79,111 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $80K ETH: $2,229 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch SOL: $89.16 — 1d:BEA</description>
     </item>
     <item>
-      <title>Market Pulse — May 10, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/10#midday</link>
-      <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h distribution · ETH daily distribution, 4h bullish · SOL daily ignition, 4h ignition</description>
-      <pubDate>Sun, 10 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/10#midday</guid>
+      <title>SIGNAL SCAN — May 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/16/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/16/signal/</guid>
+      <pubDate>Sat, 16 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 16, 2026 SNAPSHOT Cross-asset rotation driven by commodity weakness and emerging market selloff, while energy shows resilience amid broader defensive positioning. Volatility spike signals risk-off undertone despite pockets</description>
     </item>
     <item>
-      <title>Morning Brief — May 10, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/10#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 36.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Sun, 10 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/10#morning</guid>
+      <title>MACRO RADAR — May 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/16/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/16/radar/</guid>
+      <pubDate>Sat, 16 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 16, 2026 Risk Gauge: 13.8/100 (Calm). Regime: OVERHEATING. Composite Risk: 27.9/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 53/100 (ELEVATED, natural_gas bullish). BTC: $79,111 · ETH: $</description>
     </item>
     <item>
-      <title>Evening Wrap — May 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/09#evening</link>
-      <description>Markets reflected late-cycle dynamics as geopolitical tensions drove energy higher while crypto face… — EXPANSION. 16 news items. 5 scenario shifts.</description>
-      <pubDate>Sat, 09 May 2026 21:15:04 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/09#evening</guid>
+      <title>MARKET WRAP — May 15, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/15/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/wrap/</guid>
+      <pubDate>Fri, 15 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 15, 2026 Markets closed with stark sector divergence as energy surged while metals faced broad-based selling pressure. The disconnect between crypto ETF inflows and miner weakness highlighted infrastructure headwinds beyon</description>
     </item>
     <item>
-      <title>Market Pulse — May 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/09#midday</link>
-      <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h distribution · ETH daily distribution, 4h distribution · SOL daily bullish, 4h distribution</description>
-      <pubDate>Sat, 09 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/09#midday</guid>
+      <title>MARKET PULSE — May 15, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/15/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/pulse/</guid>
+      <pubDate>Fri, 15 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 15, 2026 CRYPTO BTC: $81,240 — 1d:IGNITION · 4h:IGNITION · above $80K ETH: $2,276 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade SOL: $92.34 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade Crypto sentiment: 43 (Fear</description>
     </item>
     <item>
-      <title>Signal Scan — May 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/09#intelligence</link>
-      <description>SIGNAL SCAN — May 9, 2026 — Risk 36.5/100 · 8 movers</description>
-      <pubDate>Sat, 09 May 2026 09:15:24 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/09#intelligence</guid>
+      <title>SIGNAL SCAN — May 15, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/15/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/signal/</guid>
+      <pubDate>Fri, 15 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 15, 2026 SNAPSHOT Risk-on regime persists with tech and semiconductors leading while volatility contracts. Crypto flows divergent against broader equity momentum as defensive sectors lag. BTC at $81,240, above $80K. Crypto</description>
     </item>
     <item>
-      <title>Morning Brief — May 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/09#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 36.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Sat, 09 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/09#morning</guid>
+      <title>MACRO RADAR — May 15, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/15/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/radar/</guid>
+      <pubDate>Fri, 15 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 15, 2026 Risk Gauge: 36.1/100 (Low). Regime: OVERHEATING. Composite Risk: 29.4/100 (MODERATE). Geopolitical risk: 49/100 (MODERATE). Top: Russia-Ukraine 55/100 (ELEVATED, natural_gas bullish). BTC: $81,240 · ETH: $2,276 ·</description>
     </item>
     <item>
-      <title>Evening Wrap — May 8, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/08#evening</link>
-      <description>Markets reflected cautious optimism as crypto's AI infrastructure pivot drove bitcoin above $80k whi… — EXPANSION. 15 news items. 4 scenario shifts.</description>
-      <pubDate>Fri, 08 May 2026 21:15:06 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/08#evening</guid>
+      <title>MARKET WRAP — May 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/14/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/wrap/</guid>
+      <pubDate>Thu, 14 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 14, 2026 Technology leadership dominated today&apos;s session while commodities faced broad-based selling pressure, creating a clear risk-on versus defensive rotation pattern. The divergence between crypto spot strength and per</description>
     </item>
     <item>
-      <title>Market Pulse — May 8, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/08#midday</link>
-      <description>BTC Distribution · 100 whale moves — BTC daily distribution, 4h accumulation · ETH daily distribution, 4h risk-off · SOL daily distribution, 4h accumulation</description>
-      <pubDate>Fri, 08 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/08#midday</guid>
+      <title>MARKET PULSE — May 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/14/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/pulse/</guid>
+      <pubDate>Thu, 14 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 14, 2026 CRYPTO BTC: $79,389 — 1d:BEAR_REGIME · 4h:ACCUMULATION · below $80K ETH: $2,253 — 1d:BEAR_REGIME · 4h:ACCUMULATION SOL: $90.60 — 1d:DISTRIBUTION · 4h:ACCUMULATION Crypto sentiment: 34 (Fear, 7d avg 42) (falling).</description>
     </item>
     <item>
-      <title>Signal Scan — May 8, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/08#intelligence</link>
-      <description>SIGNAL SCAN — May 8, 2026 — Risk 32.5/100 · 8 movers</description>
-      <pubDate>Fri, 08 May 2026 09:15:34 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/08#intelligence</guid>
+      <title>SIGNAL SCAN — May 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/14/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/signal/</guid>
+      <pubDate>Thu, 14 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 14, 2026 SNAPSHOT Defensive sectors bid while crypto faces pressure from institutional outflows. Risk-off undertone emerging as metals rotate mixed and healthcare leads. BTC at $79,389, below $80K. Crypto sentiment: 34 (Fe</description>
     </item>
     <item>
-      <title>Morning Brief — May 8, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/08#morning</link>
-      <description>▲ Risk-On · Neutral · Gauge 32.5/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Fri, 08 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/08#morning</guid>
+      <title>MACRO RADAR — May 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/14/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/radar/</guid>
+      <pubDate>Thu, 14 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 14, 2026 Risk Gauge: 38.5/100 (Low). Regime: EXPANSION. BTC: $79,389 · ETH: $2,253 · SOL: $90.60 LIQUIDITY &amp; CREDIT Global CB Liquidity: $18.23T (YoY -3.04%) — fed $6.71T · ecb $7.28T · boj $4.23T US M2: $22.69T (YoY +4.57</description>
     </item>
     <item>
-      <title>Evening Wrap — May 7, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/07#evening</link>
-      <description>Markets traded in conflicted fashion as robust US consumer data reinforced late-cycle dynamics while… — EXPANSION. 17 news items. 4 scenario shifts.</description>
-      <pubDate>Thu, 07 May 2026 21:15:04 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/07#evening</guid>
+      <title>MARKET WRAP — May 13, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/13/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/13/wrap/</guid>
+      <pubDate>Wed, 13 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 13, 2026 Today&apos;s session highlighted sector-specific rotation rather than broad risk themes, with copper and healthcare advancing while uranium faced heavy selling. The contrast between crypto fund outflows and continued a</description>
     </item>
     <item>
-      <title>Market Pulse — May 7, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/07#midday</link>
-      <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h bearish · ETH daily bullish, 4h bearish · SOL daily bullish, 4h bearish</description>
-      <pubDate>Thu, 07 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/07#midday</guid>
+      <title>MARKET PULSE — May 13, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/13/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/13/pulse/</guid>
+      <pubDate>Wed, 13 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 13, 2026 CRYPTO BTC: $81,042 — 1d:BEAR_REGIME · 4h:ACCUMULATION · above $80K ETH: $2,294 — 1d:BEAR_REGIME · 4h:ACCUMULATION SOL: $95.18 — 1d:DISTRIBUTION · 4h:ACCUMULATION Crypto sentiment: 42 (Fear, 7d avg 44). WHALE ALE</description>
     </item>
     <item>
-      <title>Signal Scan — May 7, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/07#intelligence</link>
-      <description>SIGNAL SCAN — May 7, 2026 — Risk 43.2/100 · 8 movers</description>
-      <pubDate>Thu, 07 May 2026 09:15:23 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/07#intelligence</guid>
+      <title>SIGNAL SCAN — May 13, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/13/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/13/signal/</guid>
+      <pubDate>Wed, 13 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 13, 2026 SNAPSHOT Metals and energy leading a selective risk-on session while discretionary lags, suggesting rotation into commodity plays rather than broad growth momentum. Cross-asset flows show mixed conviction with cry</description>
     </item>
     <item>
-      <title>Morning Brief — May 7, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/07#morning</link>
-      <description>— Neutral · Neutral · Gauge 43.2/100 — Expansion regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Thu, 07 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/07#morning</guid>
+      <title>MACRO RADAR — May 13, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/13/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/13/radar/</guid>
+      <pubDate>Wed, 13 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 13, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 39.5/100 • BTC: $81,042 • ETH: $2,294 • SOL: $95.18 • GOLD: $4,714 SPY: $738.18 (+0.1%) QQQ: $707.24 (-0.6%) VIX: 18.0 (-2.1%) TLT: $84.99 (-1.3%) DXY: 98.3 (+0.4%) OIL: $1</description>
     </item>
     <item>
-      <title>Evening Wrap — May 6, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/06#evening</link>
-      <description>Markets reflected late-cycle uncertainty as crypto's institutional surge (BTC near $81K) contrasted … — OVERHEATING. 16 news items. 5 scenario shifts.</description>
-      <pubDate>Wed, 06 May 2026 21:15:05 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/06#evening</guid>
+      <title>MARKET WRAP — May 12, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/12/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/12/wrap/</guid>
+      <pubDate>Tue, 12 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 12, 2026 Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushing yields higher and forcing risk assets to contend with late-cycle dynamics. The persistent price pressures are</description>
     </item>
     <item>
-      <title>Market Pulse — May 6, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/06#midday</link>
-      <description>BTC Bullish · 100 whale moves — BTC daily bullish, 4h distribution · ETH daily bullish, 4h bearish · SOL daily bullish, 4h distribution</description>
-      <pubDate>Wed, 06 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/06#midday</guid>
+      <title>MARKET PULSE — May 12, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/12/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/12/pulse/</guid>
+      <pubDate>Tue, 12 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 12, 2026 CRYPTO • BTC: $80,609 — 1d: DISTRIBUTION | 4h: RISK_OFF • ETH: $2,272 — 1d: RISK_OFF | 4h: RISK_OFF • SOL: $94.65 — 1d: BULL_REGIME | 4h: BEAR_REGIME WHALE ALERTS • 500,000,000 USDT ($499,775,000) transferred fro</description>
     </item>
     <item>
-      <title>Signal Scan — May 6, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/06#intelligence</link>
-      <description>SIGNAL SCAN — May 6, 2026 — Risk 43.8/100 · 8 movers</description>
-      <pubDate>Wed, 06 May 2026 09:15:28 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/06#intelligence</guid>
+      <title>SIGNAL SCAN — May 12, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/12/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/12/signal/</guid>
+      <pubDate>Tue, 12 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 12, 2026 SNAPSHOT Risk-on tone dominates with semiconductors and metals leading while volatility spikes create cross-currents. Tech rallying alongside defensive rotation signals mixed conviction amid positioning flows. BTC</description>
     </item>
     <item>
-      <title>Morning Brief — May 6, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/06#morning</link>
-      <description>— Neutral · Neutral · Gauge 43.8/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Wed, 06 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/06#morning</guid>
+      <title>MACRO RADAR — May 12, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/12/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/12/radar/</guid>
+      <pubDate>Tue, 12 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 12, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,204 • ETH: $2,314 • SOL: $96.5 • GOLD: $4,734 SPY: $739.3 (+1.1%) QQQ: $713.29 (+2.6%) VIX: 18.4 (+6.9%) TLT: $85.56 (-0.1%) DXY: 98.1 (+0.3%) OIL: $99.</description>
     </item>
     <item>
-      <title>Evening Wrap — May 5, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/05#evening</link>
-      <description>Markets navigated competing crosscurrents as Bitcoin's institutional backing provided a risk-on anch… — OVERHEATING. 18 news items. 4 scenario shifts.</description>
-      <pubDate>Tue, 05 May 2026 21:15:09 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/05#evening</guid>
+      <title>MARKET WRAP — May 11, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/11/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/wrap/</guid>
+      <pubDate>Mon, 11 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 11, 2026 Markets displayed classic late-cycle behavior as crypto surged on institutional adoption hopes while traditional havens like gold held elevated levels amid Iran tensions and resurging inflation expectations. The r</description>
     </item>
     <item>
-      <title>Market Pulse — May 5, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/05#midday</link>
-      <description>BTC Ignition · 100 whale moves — BTC daily ignition, 4h ignition · ETH daily ignition, 4h ignition · SOL daily accumulation, 4h ignition</description>
-      <pubDate>Tue, 05 May 2026 15:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/05#midday</guid>
+      <title>MARKET PULSE — May 11, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/11/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/pulse/</guid>
+      <pubDate>Mon, 11 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 11, 2026 CRYPTO • BTC: $80,961 — 1d: BULL_REGIME | 4h: DISTRIBUTION • ETH: $2,319 — 1d: BULL_REGIME | 4h: BEAR_REGIME • SOL: $95.23 — 1d: BULL_REGIME | 4h: DISTRIBUTION WHALE ALERTS • 1,000 BTC ($81,067,944) transferred f</description>
     </item>
     <item>
-      <title>Signal Scan — May 5, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/05#intelligence</link>
-      <description>SIGNAL SCAN — May 5, 2026 — Risk 48.1/100 · 8 movers</description>
-      <pubDate>Tue, 05 May 2026 09:15:26 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/05#intelligence</guid>
+      <title>SIGNAL SCAN — May 11, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/11/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/signal/</guid>
+      <pubDate>Mon, 11 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 11, 2026 SNAPSHOT Risk-on momentum builds across tech and semiconductors while crypto ETF outflows signal position rotation rather than conviction breakdown. Energy weakness contrasts sharply with industrial metals strengt</description>
     </item>
     <item>
-      <title>Morning Brief — May 5, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/05#morning</link>
-      <description>— Neutral · Neutral · Gauge 48.1/100 — Overheating regime · Fear &amp; Greed: neutral · NORMAL</description>
-      <pubDate>Tue, 05 May 2026 03:15:01 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/05#morning</guid>
+      <title>MACRO RADAR — May 11, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/11/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/radar/</guid>
+      <pubDate>Mon, 11 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 11, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,126 • ETH: $2,343 • SOL: $95.21 • GOLD: $4,724 SPY: $737.62 (+0.5%) QQQ: $711.06 (+2.2%) VIX: 17.2 (+0.6%) TLT: $86.08 (+0.0%) DXY: 98.1 (+0.3%) OIL: $1</description>
     </item>
     <item>
-      <title>Evening Wrap — May 4, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/04#evening</link>
-      <description>Markets reflected a late-cycle risk rotation as crypto infrastructure optimism drove Bitcoin near $8… — OVERHEATING. 15 news items. 4 scenario shifts.</description>
-      <pubDate>Mon, 04 May 2026 21:15:10 GMT</pubDate>
-      <guid>https://agentcanary.ai/record/2026/05/04#evening</guid>
+      <title>MARKET WRAP — May 10, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/10/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/10/wrap/</guid>
+      <pubDate>Sun, 10 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 10, 2026 Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed by record ETF inflows signaling institutional adoption. The risk-on backdrop favored growth over bonds, while ris</description>
     </item>
   </channel>
 </rss>
