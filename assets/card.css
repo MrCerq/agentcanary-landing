@@ -872,3 +872,19 @@ h2.ac-tile-headline { font-size: 15px; font-weight: 600; line-height: 1.3; margi
   .ac-brief-dl dt { margin-top: 8px; }
   .ac-brief-section .ac-brief-h2 { font-size: 19px; }
 }
+
+
+/* Weekend banner — appears above brief editorial H1 on Sat/Sun briefs.
+   Discloses that tradfi numbers reflect last completed trading session
+   while crypto data is live. Added 2026-05-23. */
+.ac-weekend-banner {
+  margin: 0 0 12px 0;
+  padding: 10px 14px;
+  background: linear-gradient(90deg, rgba(255,197,61,0.08) 0%, rgba(255,197,61,0.02) 100%);
+  border-left: 3px solid #ffc53d;
+  border-radius: 4px;
+  color: #e4e9f2;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  line-height: 1.45;
+}
