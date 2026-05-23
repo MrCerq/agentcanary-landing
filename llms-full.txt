@@ -111,7 +111,7 @@ Response shape:
 Every response includes `provenance` field:
 ```json
 "provenance": {
-  "source": "yahoo-quotes",
+  "source": "market-quotes",
   "observed_at": "2026-05-20T06:00:00.000Z",
   "age_seconds": 420,
   "sla_seconds": 900,

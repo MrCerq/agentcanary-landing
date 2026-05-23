@@ -113,9 +113,9 @@
     },
     {
       "@type": "Dataset",
-      "name": "yahoo-quotes",
+      "name": "market-quotes",
       "description": "Stock and ETF quotes \u2014 SPY, QQQ, VIX, TLT, DXY plus 16 sector ETFs and major individual equities. Sourced from Yahoo Finance, 15-minute cadence during market hours.",
-      "url": "https://api.agentcanary.ai/api/data/yahoo-quotes",
+      "url": "https://api.agentcanary.ai/api/data/market-quotes",
       "license": "https://agentcanary.ai/sources/",
       "creator": {
         "@type": "Organization",
@@ -536,7 +536,7 @@
             <td class="num"><strong>5min</strong></td>
             <td class="src">CoinGecko + exchange APIs</td>
           </tr><tr>
-            <td><code class="ds-name">yahoo-quotes</code></td>
+            <td><code class="ds-name">market-quotes</code></td>
             <td>Stock and ETF quotes — SPY, QQQ, VIX, TLT, DXY plus 16 sector ETFs and major individual equities. Sourced from Yahoo Finance, 15-minute cadence during market hours.</td>
             <td class="num"><strong>15min</strong></td>
             <td class="src">Yahoo Finance</td>
@@ -744,11 +744,11 @@
   <h2 style="font-size:18px;color:var(--text-1);margin-bottom:8px">Reading provenance from /api/data</h2>
   <p>Each dataset response includes:</p>
   <pre style="background:rgba(255,255,255,0.03);padding:14px 16px;border-radius:8px;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.5;overflow-x:auto;color:var(--text-1)">{
-  "dataset": "yahoo-quotes",
+  "dataset": "market-quotes",
   "date": "2026-05-19",
   "data": { ... },
   "provenance": {
-    "source": "yahoo-quotes",
+    "source": "market-quotes",
     "observed_at": "2026-05-19T06:00:00.000Z",
     "age_seconds": 420,
     "sla_seconds": 900,

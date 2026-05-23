@@ -110,7 +110,7 @@ Cached datasets refreshed on schedule. 26 datasets covering prices, macro, crypt
 | Dataset | Tier | Description |
 |---------|------|-------------|
 | `realtime-prices` | Explorer | 100+ crypto tokens, 24h change |
-| `yahoo-quotes` | Builder | SPY, QQQ, VIX, TLT, DXY, Oil, 16 sector ETFs, stocks |
+| `market-quotes` | Builder | SPY, QQQ, VIX, TLT, DXY, Oil, 16 sector ETFs, stocks |
 | `whale-alerts` | Builder | Large crypto transactions |
 | `breaking-news` | Builder | Financial news with FinBERT sentiment |
 | `fear-greed` | Builder | Crypto Fear & Greed Index |
