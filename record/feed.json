@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/23/wrap/",
+      "url": "https://agentcanary.ai/record/2026/05/23/wrap/",
+      "title": "MARKET WRAP — May 23, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. SIGNAL SCAN — May 23, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says \"above $75K\" but narrative uses bearish directional language for B",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. SIGNAL SCAN — May 23, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says \"above $75K\" but narrative uses bearish directional language for B",
+      "date_published": "2026-05-23T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-05-22"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/23/pulse/",
       "url": "https://agentcanary.ai/record/2026/05/23/pulse/",
       "title": "MARKET PULSE — May 23, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/10/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/10/wrap/",
-      "title": "MARKET WRAP — May 10, 2026",
-      "content_text": "MARKET WRAP — May 10, 2026 Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed by record ETF inflows signaling institutional adoption. The risk-on backdrop favored growth over bonds, while ris",
-      "summary": "MARKET WRAP — May 10, 2026 Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed by record ETF inflows signaling institutional adoption. The risk-on backdrop favored growth over bonds, while ris",
-      "date_published": "2026-05-10T21:15:00.000Z",
-      "tags": [
-        "BEARISH SKEW",
-        "EU Consumer Price Index (YoY)("
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }

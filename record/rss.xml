@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2026 19:30:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 22:30:27 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — May 23, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/23/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/23/wrap/</guid>
+      <pubDate>Sat, 23 May 2026 21:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. SIGNAL SCAN — May 23, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says &quot;above $75K&quot; but narrative uses bearish directional language for B</description>
+    </item>
     <item>
       <title>MARKET PULSE — May 23, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/23/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/radar/</guid>
       <pubDate>Mon, 11 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 11, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,126 • ETH: $2,343 • SOL: $95.21 • GOLD: $4,724 SPY: $737.62 (+0.5%) QQQ: $711.06 (+2.2%) VIX: 17.2 (+0.6%) TLT: $86.08 (+0.0%) DXY: 98.1 (+0.3%) OIL: $1</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 10, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/10/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/10/wrap/</guid>
-      <pubDate>Sun, 10 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 10, 2026 Markets reflected late-cycle dynamics as Bitcoin held above $80K despite technical pressure, buoyed by record ETF inflows signaling institutional adoption. The risk-on backdrop favored growth over bonds, while ris</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-05-23",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — May 23",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — May 23",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -48,8 +48,8 @@
       ]
     }
   ],
-  "telegramText": "🌅 <i>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.</i>\n\n<b>MARKET PULSE</b> — May 23, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $75,480 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · above $75K\nETH: $2,066 · (same)\nSOL: $84.42 · (same)\nCrypto sentiment: 28 (Fear, 7d avg 27).\n\n<b>STABLECOIN WHALES</b>\n• 284M USDC ($284M) — transferred from unknown wallet to #Coinbase\n• 250M USDC ($250M) — minted at USDC Treasury\n• 143M USDC ($143M) — transferred from unknown wallet to #Coinbase\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• LAB: 82% net APR (0.0376% rate) · Long Binance / Short Bitget · OI $70.8M · Spread -0.23%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $106.4B\nTop OI: BTC $56.3B · ETH $31.7B · SOL $5.7B · XRP $2.9B · HYPE $2.5B\nOI shifters (4h): OP -7.2% · LDO -6.2% · TIA +6.0% · ARB -5.5% · DYDX +3.9%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$105M outflow on May 22 (Fri close) (IBIT -$69M, FBTC -$36M). Trailing 5-trading-day net: -$1.4B outflow.\nBTC options — NEUTRAL: max pain $77,000 (25MAY26), P/C 0.7 OI / 1.44 vol.\nPerp funding (8h, cross-exchange mean): BTC +0.4611% (16/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $154M long / $63M short (net long $91M, -$2.0M PnL); ETH: $32M long / $48M short (net short $16M, +$203K PnL); HYPE: $16M long / $48M short (net short $32M, -$8.1M PnL).\nLiquidations: 24h total $214.5M; latest 4h $17.8M (4.7% long / 95.3% short, 67L/834S events, short-dominant).\nETH stake APY 2.35% vs T-bill 3.59% (spread -1.24, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n▼ Consumer Sentiment Collapse [SPY, QQQ, USD, SCHD]\n▼ Crypto Regulatory Headwinds [BTC, ETH, HYPE]\n◆ US-Iran Peace Process [USD, Oil, Gold, Defense stocks]\n\n<b>IMPLICATION</b>\nSemiconductor leadership suggests AI infrastructure investment cycle remains intact despite crypto weakness. Utilities bid indicates defensive rotation overlay. Watch for continuation of tech selectivity and whether crypto stabilizes at current levels. Energy weakness may offer tactical entry.\n\n<b>JSON</b>\n{\"btc\":75480,\"cryptoSentiment\":28,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": null,
+  "telegramText": "🌅 <i>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.</i>\n\n<b>SIGNAL SCAN</b> — May 23, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: btcPrice atom says \"above $75K\" but narrative uses bearish directional language for BTC. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $75,480, above $75K.\nBTC ETF flows: -$105M outflow on May 22 (Fri close), after -$1.4B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY +0.1% | OIL +0.3%\nICSA: 211K (FLAT trend, +0.03z)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: SMH +2.1%, URA +1.9%, XLU +1.9%, XLC -0.6%, XLP -0.8%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: KWEB -4.3%, UNI -3.4%, SOXX +3.3%, BCH -3.0%, ONDO -2.8%, BRENT -2.3%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$105M outflow on May 22 (Fri close) (IBIT -$69M, FBTC -$36M). Trailing 5-trading-day net: -$1.4B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $154M long / $63M short (net long $91M, -$2.0M PnL); ETH: $32M long / $48M short (net short $16M, +$203K PnL); HYPE: $16M long / $48M short (net short $32M, -$8.1M PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 426,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.",
   "tradFiAsOf": "2026-05-22"
