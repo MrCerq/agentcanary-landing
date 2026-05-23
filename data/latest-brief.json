@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-05-22",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 22",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-05-23",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 23",
+  "headlineColor": "#FB923C",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,28 +26,28 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "SWKS",
-          "v": "+12.0%",
+          "k": "KWEB",
+          "v": "-4.3%",
+          "c": "red"
+        },
+        {
+          "k": "UNI",
+          "v": "-3.4%",
+          "c": "red"
+        },
+        {
+          "k": "SOXX",
+          "v": "+3.3%",
           "c": "green"
         },
         {
-          "k": "QCOM",
-          "v": "+11.6%",
-          "c": "green"
-        },
-        {
-          "k": "NEAR",
-          "v": "+8.2%",
-          "c": "green"
-        },
-        {
-          "k": "ROST",
-          "v": "+8.1%",
-          "c": "green"
+          "k": "BCH",
+          "v": "-3.0%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 22, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nSemiconductors drove risk appetite while crypto flows turned sharply negative, highlighting institutional rotation from speculative positioning. Defensive sectors gained ground late as growth momentum showed signs of fatigue. Tomorrow's setup hinges on whether tech breadth expands or defensive rotation accelerates.\n\n<b>CLOSING PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY +0.2% | OIL +0.5%\n\n<b>vs MORNING</b>\nSPY -0.6% | QQQ -1.2% | VIX +3.5% | TLT -0.5% | DXY flat | OIL +1.4%\n\n<b>EVENING NEWS</b>\n▲ Bitwise Hyperliquid ETF tops $30 million in assets as HYPE fund race accelerates\n▼ Michigan consumer sentiment index drops to all-time low of 44.8\n▲ Encouraging Signs That HODLers Are Holding\n▲ Bitcoin holds near $77,000 as Kevin Warsh prepares to lead Fed\n▼ US consumer sentiment falls to record low, down 21% since February\n\n<b>SCENARIO SHIFTS</b>\n↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +2.1%, URA +1.9%, XLU +1.9%, XLC -0.6%, XLP -0.8%.\nSector dispersion: 58 (HIGH, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SIN] GDP(YoY)(Final)(Q1) — May 24 16:05 UTC (prev: 4.6%)\n[SIN] Seasonally adjusted GDP(QoQ)(Final)(Q1) — May 24 16:05 UTC (prev: -0.3%)\n[SIN] Consumer Price Index (YoY)(Apr) — May 25 05:00 UTC (prev: 1.8%)\n[GER] Producer Price Index (MoM)(Apr) (+1 variants) — May 25 06:00 UTC (prev: 2.5%)\n\n<b>CONTRARIAN</b>\n• KWEB's -4.3% drop may be overdone as China tech valuations become compelling for contrarian investors\n• Consumer sentiment crash could be peak pessimism, setting up for surprise rebound if inflation moderates\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":100,\"sectorDispersion\":58,\"breadth\":\"SELECTIVE_STRENGTH\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 423
+  "telegramText": "<b>MACRO RADAR</b> — May 23, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nComposite Risk: 44.2/100 (MODERATE).\nGeopolitical risk: 45/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $75,480 · ETH: $2,066 · SOL: $84.42\nCrypto sentiment: 28 (Fear, 7d avg 27).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.87%) — fed $6.71T · ecb $7.18T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 278bps NORMAL (composite: CAUTION)\nBDRY: $12.65 (+14.4% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 445.0M bbl, refinery 91.6%, SPR 374M.\n\n<b>KEY PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY +0.1% | OIL +0.7%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ KWEB: -4.3%\n▲ SOXX: +3.3%\n▲ BOTZ: +2.6%\n▲ SCHD: +2.2%\n▼ TKMS: -2.1%\n▲ SMH: +2.1%\n\n<b>HEGEMONY SNAPBACK</b>\n2.5/6 — WATCH\nUSD Index 119.28 (R), Gold $4542 (Y), Oil $112 (R)\n\n<b>NOTABLE Z-SCORES</b>\n[+] Reverse Repo: +3.64σ\n[+] 10Y Real Rate: +2.75σ\n[+] 10Y Treasury: +2.54σ\n[+] 30Y Treasury: +2.50σ\n[+] USD Index (broad): +2.24σ\n\n<b>US OPEN SETUP</b>\n<i>Semiconductor leadership suggests tech selectivity over broad risk-on. Utilities rotation indicates defensive positioning ahead of US open. Crypto outflows creating cross-asset headwinds. Watch for continuation of sector-specific flows rather than broad market momentum.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":100,\"compositeRisk\":44.2,\"geoRisk\":45}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 424
 }
