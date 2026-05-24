@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/24/wrap/",
+      "url": "https://agentcanary.ai/record/2026/05/24/wrap/",
+      "title": "MARKET WRAP — May 24, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MARKET WRAP — May 24, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized the rotation from defensives into cycli",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MARKET WRAP — May 24, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized the rotation from defensives into cycli",
+      "date_published": "2026-05-24T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-05-22"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/24/pulse/",
       "url": "https://agentcanary.ai/record/2026/05/24/pulse/",
       "title": "MARKET PULSE — May 24, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/11/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/11/wrap/",
-      "title": "MARKET WRAP — May 11, 2026",
-      "content_text": "MARKET WRAP — May 11, 2026 Markets displayed classic late-cycle behavior as crypto surged on institutional adoption hopes while traditional havens like gold held elevated levels amid Iran tensions and resurging inflation expectations. The r",
-      "summary": "MARKET WRAP — May 11, 2026 Markets displayed classic late-cycle behavior as crypto surged on institutional adoption hopes while traditional havens like gold held elevated levels amid Iran tensions and resurging inflation expectations. The r",
-      "date_published": "2026-05-11T21:15:00.000Z",
-      "tags": [
-        "BEARISH SKEW",
-        "EU Markit Manufacturing Purcha"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
