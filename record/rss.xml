@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 04:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 10:30:27 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — May 24, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/24/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/24/signal/</guid>
+      <pubDate>Sun, 24 May 2026 09:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. SIGNAL SCAN — May 24, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk assets showing mixed rotation with semiconductors and utilities leadin</description>
+    </item>
     <item>
       <title>MACRO RADAR — May 24, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/24/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/pulse/</guid>
       <pubDate>Mon, 11 May 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — May 11, 2026 CRYPTO • BTC: $80,961 — 1d: BULL_REGIME | 4h: DISTRIBUTION • ETH: $2,319 — 1d: BULL_REGIME | 4h: BEAR_REGIME • SOL: $95.23 — 1d: BULL_REGIME | 4h: DISTRIBUTION WHALE ALERTS • 1,000 BTC ($81,067,944) transferred f</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — May 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/11/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/signal/</guid>
-      <pubDate>Mon, 11 May 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — May 11, 2026 SNAPSHOT Risk-on momentum builds across tech and semiconductors while crypto ETF outflows signal position rotation rather than conviction breakdown. Energy weakness contrasts sharply with industrial metals strengt</description>
     </item>
   </channel>
 </rss>
