@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/24/radar/",
+      "url": "https://agentcanary.ai/record/2026/05/24/radar/",
+      "title": "MACRO RADAR — May 24, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MACRO RADAR — May 24, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MACRO RADAR — May 24, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.",
+      "date_published": "2026-05-24T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-05-22"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/23/wrap/",
       "url": "https://agentcanary.ai/record/2026/05/23/wrap/",
       "title": "MARKET WRAP — May 23, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/11/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/11/radar/",
-      "title": "MACRO RADAR — May 11, 2026",
-      "content_text": "MACRO RADAR — May 11, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,126 • ETH: $2,343 • SOL: $95.21 • GOLD: $4,724 SPY: $737.62 (+0.5%) QQQ: $711.06 (+2.2%) VIX: 17.2 (+0.6%) TLT: $86.08 (+0.0%) DXY: 98.1 (+0.3%) OIL: $1",
-      "summary": "MACRO RADAR — May 11, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,126 • ETH: $2,343 • SOL: $95.21 • GOLD: $4,724 SPY: $737.62 (+0.5%) QQQ: $711.06 (+2.2%) VIX: 17.2 (+0.6%) TLT: $86.08 (+0.0%) DXY: 98.1 (+0.3%) OIL: $1",
-      "date_published": "2026-05-11T03:15:00.000Z",
-      "tags": [
-        "Risk-On · Neutral",
-        "GAUGE 36.5"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }

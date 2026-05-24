@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-05-23",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 23",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 100/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-05-24",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 24",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 72/100 · 6 movers",
   "tags": [
     {
       "t": "HIGH",
@@ -19,37 +19,37 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 100
+        "value": 72
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "KWEB",
-          "v": "-4.3%",
-          "c": "red"
-        },
-        {
-          "k": "UNI",
-          "v": "-3.4%",
-          "c": "red"
-        },
-        {
-          "k": "SOXX",
-          "v": "+3.3%",
+          "k": "NEAR",
+          "v": "+15.3%",
           "c": "green"
         },
         {
-          "k": "BCH",
-          "v": "-3.0%",
+          "k": "ONDO",
+          "v": "+11.3%",
+          "c": "green"
+        },
+        {
+          "k": "HYPE",
+          "v": "+8.6%",
+          "c": "green"
+        },
+        {
+          "k": "KWEB",
+          "v": "-4.3%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "🌅 <i>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.</i>\n\n<b>SIGNAL SCAN</b> — May 23, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: btcPrice atom says \"above $75K\" but narrative uses bearish directional language for BTC. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $75,480, above $75K.\nBTC ETF flows: -$105M outflow on May 22 (Fri close), after -$1.4B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY +0.1% | OIL +0.3%\nICSA: 211K (FLAT trend, +0.03z)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: SMH +2.1%, URA +1.9%, XLU +1.9%, XLC -0.6%, XLP -0.8%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: KWEB -4.3%, UNI -3.4%, SOXX +3.3%, BCH -3.0%, ONDO -2.8%, BRENT -2.3%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$105M outflow on May 22 (Fri close) (IBIT -$69M, FBTC -$36M). Trailing 5-trading-day net: -$1.4B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $154M long / $63M short (net long $91M, -$2.0M PnL); ETH: $32M long / $48M short (net short $16M, +$203K PnL); HYPE: $16M long / $48M short (net short $32M, -$8.1M PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 426,
+  "telegramText": "🌅 <i>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — May 24, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 72.1/100 (High). Phase: EXPANSION.\nComposite Risk: 39.5/100 (MODERATE).\nGeopolitical risk: 34/100 (MODERATE). Top: Middle East / Red Sea 38/100 (MODERATE, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $76,730 · ETH: $2,120 · SOL: $85.86\nCrypto sentiment: 25 (Extreme Fear, 7d avg 27).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.87%) — fed $6.71T · ecb $7.18T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 278bps NORMAL (composite: CAUTION)\nBDRY: $12.68 (+14.6% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 445.0M bbl, refinery 91.6%, SPR 374M.\n\n<b>KEY PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY +0.1% | OIL +0.3%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ KWEB: -4.3%\n▲ SOXX: +3.3%\n▲ BOTZ: +2.6%\n▼ BRENT: -2.3%\n▲ SCHD: +2.2%\n▼ TKMS: -2.1%\n\n<b>HEGEMONY SNAPBACK</b>\n2.5/6 — WATCH\nUSD Index 119.28 (R), Gold $4509 (Y), Oil $112 (R)\n\n<b>NOTABLE Z-SCORES</b>\n[+] Reverse Repo: +3.64σ\n[+] 10Y Real Rate: +2.75σ\n[+] 10Y Treasury: +2.54σ\n[+] 30Y Treasury: +2.50σ\n[+] USD Index (broad): +2.24σ\n\n<b>US OPEN SETUP</b>\n<i>Setup favors tech and crypto momentum heading into US open, with semiconductor leadership suggesting AI themes remain intact. Watch for continued crypto ETF outflows to pressure digital asset flows despite overnight strength. Energy weakness may signal broader commodity rotation.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":72.1,\"compositeRisk\":39.5,\"geoRisk\":34}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.",
   "tradFiAsOf": "2026-05-22"

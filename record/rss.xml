@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2026 01:30:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 04:30:28 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — May 24, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/24/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/24/radar/</guid>
+      <pubDate>Sun, 24 May 2026 03:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MACRO RADAR — May 24, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.</description>
+    </item>
     <item>
       <title>MARKET WRAP — May 23, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/23/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/signal/</guid>
       <pubDate>Mon, 11 May 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 11, 2026 SNAPSHOT Risk-on momentum builds across tech and semiconductors while crypto ETF outflows signal position rotation rather than conviction breakdown. Energy weakness contrasts sharply with industrial metals strengt</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — May 11, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/11/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/11/radar/</guid>
-      <pubDate>Mon, 11 May 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — May 11, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,126 • ETH: $2,343 • SOL: $95.21 • GOLD: $4,724 SPY: $737.62 (+0.5%) QQQ: $711.06 (+2.2%) VIX: 17.2 (+0.6%) TLT: $86.08 (+0.0%) DXY: 98.1 (+0.3%) OIL: $1</description>
     </item>
   </channel>
 </rss>
