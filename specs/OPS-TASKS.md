@@ -17,9 +17,7 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 
 | # | Task | Owner | Notes |
 |---|---|---|---|
-| 2 | **AI search visibility re-check** ⏳ | operator | 3 manual queries (Perplexity / Claude / ChatGPT). 10 min. Was 0/2 last week — re-run to validate SEO work. |
-| 3 | **GSC Request Indexing on 6 priority URLs** ⏳ | operator | 3 min, 6 paste-and-clicks. URLs in earlier message. Refreshes snippets in 3-5 days vs 1-3 weeks organic. |
-| 4 | **Test the updated Custom GPT works clean** ⏳ | operator | Open `chatgpt.com/g/g-6a0f2b6ab07c819188983b3fb43ac62b-agentcanary`, click each conversation starter, confirm real data. 2 min. |
+| 2 | **Test the updated Custom GPT works clean** ⏳ | operator | Open `chatgpt.com/g/g-6a0f2b6ab07c819188983b3fb43ac62b-agentcanary`, click each conversation starter, confirm real data. 2 min. |
 
 ## P2 — sequential cadence
 
@@ -49,6 +47,8 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 | 12 | 36 per-indicator pages | ⏸ deferred | Revisit when GSC shows indicator-name query traffic |
 | 13 | OpenAI plugin store submission | ⏸ skipped | Plugin store sunset 2024-04. Replaced by Custom GPT (✅ shipped 2026-05-21). |
 | 14 | Cursor MCP marketplace | ⏸ skipped | cursor.directory is paid + third-party. Cursor proper has no public submission. Audience too small for ROI. |
+| 15 | AI search visibility re-check (Perplexity/Claude/ChatGPT) | ⏸ skipped | Tested 2026-05-24 → 0/6 across engines. AI search engines surface what's cited elsewhere; AC has ~0 inbound links. Stop testing until distribution lands inbound mentions. Not a content/SEO problem at this scale — re-test naturally once HN/Reddit threads exist. |
+| 16 | GSC Request Indexing | ⏸ skipped | Single submission is enough — re-requesting doesn't accelerate Google's crawl queue. If pages don't index after one request, the issue is inbound-link authority (upstream), not request count. Don't re-add. |
 
 ## ✅ Done recently
 
