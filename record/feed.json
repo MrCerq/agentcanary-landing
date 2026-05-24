@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/24/pulse/",
+      "url": "https://agentcanary.ai/record/2026/05/24/pulse/",
+      "title": "MARKET PULSE — May 24, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MARKET PULSE — May 24, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $76,695 — 1d:ACCUMULATION · 4h:IGNITION · above $75K ETH: $2,117 · (sam",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MARKET PULSE — May 24, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $76,695 — 1d:ACCUMULATION · 4h:IGNITION · above $75K ETH: $2,117 · (sam",
+      "date_published": "2026-05-24T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-05-22"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/24/signal/",
       "url": "https://agentcanary.ai/record/2026/05/24/signal/",
       "title": "SIGNAL SCAN — May 24, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/11/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/11/pulse/",
-      "title": "MARKET PULSE — May 11, 2026",
-      "content_text": "MARKET PULSE — May 11, 2026 CRYPTO • BTC: $80,961 — 1d: BULL_REGIME | 4h: DISTRIBUTION • ETH: $2,319 — 1d: BULL_REGIME | 4h: BEAR_REGIME • SOL: $95.23 — 1d: BULL_REGIME | 4h: DISTRIBUTION WHALE ALERTS • 1,000 BTC ($81,067,944) transferred f",
-      "summary": "MARKET PULSE — May 11, 2026 CRYPTO • BTC: $80,961 — 1d: BULL_REGIME | 4h: DISTRIBUTION • ETH: $2,319 — 1d: BULL_REGIME | 4h: BEAR_REGIME • SOL: $95.23 — 1d: BULL_REGIME | 4h: DISTRIBUTION WHALE ALERTS • 1,000 BTC ($81,067,944) transferred f",
-      "date_published": "2026-05-11T15:15:00.000Z",
-      "tags": [
-        "WHALE ALERT",
-        "GWEI 383% APR"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
