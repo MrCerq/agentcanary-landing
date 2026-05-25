@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/25/signal/",
+      "url": "https://agentcanary.ai/record/2026/05/25/signal/",
+      "title": "SIGNAL SCAN — May 25, 2026",
+      "content_text": "SIGNAL SCAN — May 25, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tenor with semiconductors and cyclicals leading while crypto faces selling pressure. Tech rotation accelerating as defensive sectors underperform,",
+      "summary": "SIGNAL SCAN — May 25, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tenor with semiconductors and cyclicals leading while crypto faces selling pressure. Tech rotation accelerating as defensive sectors underperform,",
+      "date_published": "2026-05-25T09:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/25/radar/",
       "url": "https://agentcanary.ai/record/2026/05/25/radar/",
       "title": "MACRO RADAR — May 25, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/12/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/12/signal/",
-      "title": "SIGNAL SCAN — May 12, 2026",
-      "content_text": "SIGNAL SCAN — May 12, 2026 SNAPSHOT Risk-on tone dominates with semiconductors and metals leading while volatility spikes create cross-currents. Tech rallying alongside defensive rotation signals mixed conviction amid positioning flows. BTC",
-      "summary": "SIGNAL SCAN — May 12, 2026 SNAPSHOT Risk-on tone dominates with semiconductors and metals leading while volatility spikes create cross-currents. Tech rallying alongside defensive rotation signals mixed conviction amid positioning flows. BTC",
-      "date_published": "2026-05-12T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
