@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-05-24",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 24",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-05-25",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 25",
+  "headlineColor": "#FB923C",
   "desc": "Risk 72/100 · 6 movers",
   "tags": [
     {
@@ -26,31 +26,31 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "NEAR",
-          "v": "+15.3%",
-          "c": "green"
-        },
-        {
-          "k": "ONDO",
-          "v": "+11.3%",
-          "c": "green"
-        },
-        {
-          "k": "HYPE",
-          "v": "+8.6%",
-          "c": "green"
-        },
-        {
           "k": "KWEB",
           "v": "-4.3%",
+          "c": "red"
+        },
+        {
+          "k": "MORPHO",
+          "v": "+4.2%",
+          "c": "green"
+        },
+        {
+          "k": "DOT",
+          "v": "-3.9%",
+          "c": "red"
+        },
+        {
+          "k": "SUI",
+          "v": "-3.8%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.</i>\n\n<b>MARKET WRAP</b> — May 24, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session crystallized the rotation from defensives into cyclical growth, with semiconductors and uranium capturing the bid while traditional safe havens sold off. Crypto showed resilience despite ongoing ETF outflows, driven by token-specific catalysts rather than broad-based demand. Tomorrow's focus shifts to whether this cyclical momentum can sustain or if defensive positioning returns as the initial rotation excitement fades.\n\n<b>CLOSING PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY +0.1% | OIL +0.3%\n\n<b>vs MORNING</b>\nSPY -0.2% | QQQ -0.2% | TLT -0.4%\n\n<b>EVENING NEWS</b>\n▲ Iran and US near memorandum of understanding as Bitcoin rallies past $82K on de-escalation hopes\n▲ This Week in Crypto: Bitcoin Swing, Iran Deal, Cardano Risk and More\n▼ Pudgy Penguins down 14% after 712 mln token unlock: Can PENGU rebound?\n▲ Bitcoin Recovers as US-Iran Peace Deal Reportedly Signed, Altcoins Gain Big\n▲ Trump claims deal with Iran to reopen Strait of Hormuz ‘largely negotiated’\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 72.1/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +2.1%, URA +1.9%, XLU +1.9%, XLC -0.6%, XLP -0.8%.\nSector dispersion: 57 (HIGH, breadth BROAD_STRENGTH), 81% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SIN] Consumer Price Index (YoY)(Apr) — May 25 05:00 UTC (prev: 1.8%)\n[GER] Producer Price Index (MoM)(Apr) (+1 variants) — May 25 06:00 UTC (prev: 2.5%)\n[USA] Conference Board Consumer Confidence Index(May) — May 26 14:00 UTC (prev: 92.8)\n[UK] Consumer Price Index (YoY)(Apr) — May 27 06:00 UTC (prev: 3.3%)\n[FRA] Composite Consumer Confidence Index(May) — May 27 06:45 UTC (prev: 84)\n[USA] Last week's Red Book Commercial Retail Sales (YoY)(to 0518) — May 27 12:55 UTC (prev: 8.1%)\n\n<b>CONTRARIAN</b>\n• SOXX's +3.3% rally might be a dead cat bounce as semiconductor cycle remains vulnerable to China tensions despite AI optimism\n• The Iran peace deal could actually be bearish for risk assets if it removes the geopolitical premium that was masking underlying economic weakness\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":72.1,\"sectorDispersion\":57,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 428,
-  "isWeekend": true,
-  "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live.",
-  "tradFiAsOf": "2026-05-22"
+  "telegramText": "<b>MACRO RADAR</b> — May 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 72.1/100 (High). Phase: EXPANSION.\nComposite Risk: 39.5/100 (MODERATE).\nGeopolitical risk: 33/100 (MODERATE). Top: Russia-Ukraine 44/100 (MODERATE, palladium bullish).\n\n<b>CRYPTO</b>\nBTC: $77,063 · ETH: $2,100 · SOL: $85.23\nCrypto sentiment: 30 (Fear, 7d avg 27) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.87%) — fed $6.71T · ecb $7.18T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 278bps NORMAL (composite: CAUTION)\nBDRY: $12.68 (+14.6% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 445.0M bbl, refinery 91.6%, SPR 374M.\n\n<b>KEY PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.4% | TLT +0.9% | DXY -0.3% | OIL flat\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ RGTI: +19.9%\n▲ BB: +18.9%\n▲ UMAC: +13.4%\n▲ QCOM: +11.6%\n▲ INFQ: +11.2%\n▲ F: +9.2%\n\n<b>HEGEMONY SNAPBACK</b>\n2.5/6 — WATCH\nUSD Index 119.28 (R), Gold $4509 (Y), Oil $112 (R)\n\n<b>NOTABLE Z-SCORES</b>\n[+] USD Index (broad): +2.24σ\n[+] 10Y Real Rate: +2.03σ\n[-] 10Y Breakeven Inflation: -2.01σ\n[+] WTI Crude Oil: +1.75σ\n[+] 30Y Mortgage Rate: +1.73σ\n\n<b>US OPEN SETUP</b>\n<i>Tech leadership with defensive utilities bid suggests cautious optimism heading into US open. Watch for crypto correlation breaks and whether semiconductor strength can broaden into broader tech.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":72.1,\"compositeRisk\":39.5,\"geoRisk\":33}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 429,
+  "isWeekend": false,
+  "weekendBanner": null,
+  "tradFiAsOf": null
 }

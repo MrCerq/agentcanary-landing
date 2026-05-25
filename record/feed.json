@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/25/radar/",
+      "url": "https://agentcanary.ai/record/2026/05/25/radar/",
+      "title": "MACRO RADAR — May 25, 2026",
+      "content_text": "MACRO RADAR — May 25, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.5/100 (MODERATE). Geopolitical risk: 33/100 (MODERATE). Top: Russia-Ukraine 44/100",
+      "summary": "MACRO RADAR — May 25, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.5/100 (MODERATE). Geopolitical risk: 33/100 (MODERATE). Top: Russia-Ukraine 44/100",
+      "date_published": "2026-05-25T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/24/wrap/",
       "url": "https://agentcanary.ai/record/2026/05/24/wrap/",
       "title": "MARKET WRAP — May 24, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/12/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/12/radar/",
-      "title": "MACRO RADAR — May 12, 2026",
-      "content_text": "MACRO RADAR — May 12, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,204 • ETH: $2,314 • SOL: $96.5 • GOLD: $4,734 SPY: $739.3 (+1.1%) QQQ: $713.29 (+2.6%) VIX: 18.4 (+6.9%) TLT: $85.56 (-0.1%) DXY: 98.1 (+0.3%) OIL: $99.",
-      "summary": "MACRO RADAR — May 12, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 36.5/100 • BTC: $81,204 • ETH: $2,314 • SOL: $96.5 • GOLD: $4,734 SPY: $739.3 (+1.1%) QQQ: $713.29 (+2.6%) VIX: 18.4 (+6.9%) TLT: $85.56 (-0.1%) DXY: 98.1 (+0.3%) OIL: $99.",
-      "date_published": "2026-05-12T03:15:00.000Z",
-      "tags": [
-        "Risk-On · Neutral",
-        "GAUGE 36.5"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
