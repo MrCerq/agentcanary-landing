@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2026 10:30:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 16:30:28 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — May 25, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/25/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/25/pulse/</guid>
+      <pubDate>Mon, 25 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 25, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,063 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · above $75K ETH: $2,100 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade SOL: $85.23 — 1d:</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — May 25, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/25/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/12/wrap/</guid>
       <pubDate>Tue, 12 May 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — May 12, 2026 Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushing yields higher and forcing risk assets to contend with late-cycle dynamics. The persistent price pressures are</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — May 12, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/12/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/12/pulse/</guid>
-      <pubDate>Tue, 12 May 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — May 12, 2026 CRYPTO • BTC: $80,609 — 1d: DISTRIBUTION | 4h: RISK_OFF • ETH: $2,272 — 1d: RISK_OFF | 4h: RISK_OFF • SOL: $94.65 — 1d: BULL_REGIME | 4h: BEAR_REGIME WHALE ALERTS • 500,000,000 USDT ($499,775,000) transferred fro</description>
     </item>
   </channel>
 </rss>

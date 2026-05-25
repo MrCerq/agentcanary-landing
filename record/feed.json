@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/25/pulse/",
+      "url": "https://agentcanary.ai/record/2026/05/25/pulse/",
+      "title": "MARKET PULSE — May 25, 2026",
+      "content_text": "MARKET PULSE — May 25, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,063 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · above $75K ETH: $2,100 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade SOL: $85.23 — 1d:",
+      "summary": "MARKET PULSE — May 25, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,063 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · above $75K ETH: $2,100 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade SOL: $85.23 — 1d:",
+      "date_published": "2026-05-25T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/25/signal/",
       "url": "https://agentcanary.ai/record/2026/05/25/signal/",
       "title": "SIGNAL SCAN — May 25, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/12/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/12/pulse/",
-      "title": "MARKET PULSE — May 12, 2026",
-      "content_text": "MARKET PULSE — May 12, 2026 CRYPTO • BTC: $80,609 — 1d: DISTRIBUTION | 4h: RISK_OFF • ETH: $2,272 — 1d: RISK_OFF | 4h: RISK_OFF • SOL: $94.65 — 1d: BULL_REGIME | 4h: BEAR_REGIME WHALE ALERTS • 500,000,000 USDT ($499,775,000) transferred fro",
-      "summary": "MARKET PULSE — May 12, 2026 CRYPTO • BTC: $80,609 — 1d: DISTRIBUTION | 4h: RISK_OFF • ETH: $2,272 — 1d: RISK_OFF | 4h: RISK_OFF • SOL: $94.65 — 1d: BULL_REGIME | 4h: BEAR_REGIME WHALE ALERTS • 500,000,000 USDT ($499,775,000) transferred fro",
-      "date_published": "2026-05-12T15:15:00.000Z",
-      "tags": [
-        "WHALE ALERT",
-        "SKYAI 199% APR"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
