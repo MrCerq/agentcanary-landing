@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/25/wrap/",
+      "url": "https://agentcanary.ai/record/2026/05/25/wrap/",
+      "title": "MARKET WRAP — May 25, 2026",
+      "content_text": "MARKET WRAP — May 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bi",
+      "summary": "MARKET WRAP — May 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bi",
+      "date_published": "2026-05-25T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/25/pulse/",
       "url": "https://agentcanary.ai/record/2026/05/25/pulse/",
       "title": "MARKET PULSE — May 25, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/12/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/12/wrap/",
-      "title": "MARKET WRAP — May 12, 2026",
-      "content_text": "MARKET WRAP — May 12, 2026 Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushing yields higher and forcing risk assets to contend with late-cycle dynamics. The persistent price pressures are",
-      "summary": "MARKET WRAP — May 12, 2026 Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushing yields higher and forcing risk assets to contend with late-cycle dynamics. The persistent price pressures are",
-      "date_published": "2026-05-12T21:15:00.000Z",
-      "tags": [
-        "BULLISH SKEW",
-        "US University of Michigan Cons"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }

@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 May 2026 19:30:27 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 22:30:27 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — May 25, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/25/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/25/wrap/</guid>
+      <pubDate>Mon, 25 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bi</description>
+    </item>
     <item>
       <title>MARKET PULSE — May 25, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/25/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/13/radar/</guid>
       <pubDate>Wed, 13 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 13, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 39.5/100 • BTC: $81,042 • ETH: $2,294 • SOL: $95.18 • GOLD: $4,714 SPY: $738.18 (+0.1%) QQQ: $707.24 (-0.6%) VIX: 18.0 (-2.1%) TLT: $84.99 (-1.3%) DXY: 98.3 (+0.4%) OIL: $1</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 12, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/12/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/12/wrap/</guid>
-      <pubDate>Tue, 12 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 12, 2026 Markets absorbed another inflation surprise as hot CPI data triggered a hawkish Fed repricing, pushing yields higher and forcing risk assets to contend with late-cycle dynamics. The persistent price pressures are</description>
     </item>
   </channel>
 </rss>

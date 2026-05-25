@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-05-25",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — May 25",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — May 25",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 72/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "KWEB",
-          "v": "-4.3%",
-          "c": "red"
-        },
-        {
-          "k": "MORPHO",
-          "v": "+4.2%",
+          "k": "NEAR",
+          "v": "+14.1%",
           "c": "green"
         },
         {
-          "k": "DOT",
-          "v": "-3.9%",
-          "c": "red"
+          "k": "RENDER",
+          "v": "+9.6%",
+          "c": "green"
         },
         {
-          "k": "SUI",
-          "v": "-3.8%",
-          "c": "red"
+          "k": "TON",
+          "v": "+8.8%",
+          "c": "green"
+        },
+        {
+          "k": "TKMS",
+          "v": "+4.4%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — May 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $77,063 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · above $75K\nETH: $2,100 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade\nSOL: $85.23 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade\nCrypto sentiment: 30 (Fear, 7d avg 27) (rising).\n\n<b>WHALE ALERTS</b>\n• 1,404 BTC ($107.7M) — transferred from unknown wallet to #Falconx\n\n<b>STABLECOIN WHALES</b>\n• 200M USDT ($200M) — transferred from #Bitfinex to Tether Treasury\n• 140M USDT ($140M) — transferred from Tether Treasury to #Bitfinex\n• 129M USDC ($129M) — transferred from #Aave to unknown wallet\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• LAB: 77% net APR (0.035% rate) · Long Binance / Short Bitget · OI $60.6M · Spread -0.22%\n• SUI: 41% net APR (0.0378% rate) · Long Bybit / Short Bitget · OI $53.0M · Spread +0%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $104.2B\nTop OI: BTC $54.2B · ETH $31.2B · SOL $5.4B · HYPE $2.9B · XRP $2.8B\nOI shifters (4h): AKT +10.0% · FIL +5.6% · NEAR -4.3% · LTC +3.8% · ONDO +3.4%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$105M outflow on May 25 (Mon close) (IBIT -$69M, FBTC -$36M). Trailing 5-trading-day net: -$1.3B outflow.\nBTC options — NEUTRAL: max pain $77,000 (25MAY26), P/C 0.7 OI / 1.11 vol.\nPerp funding (8h, cross-exchange mean): BTC +0.0311% (11/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $112M long / $63M short (net long $49M, -$2.5M PnL); HYPE: $32M long / $67M short (net short $35M, -$13.3M PnL); ETH: $30M long / $53M short (net short $23M, +$1.8M PnL).\nLiquidations: 24h total $58.4M; latest 4h $4.9M (93% long / 7% short, 298L/72S events, long-dominant).\nETH stake APY 2.36% vs T-bill 3.59% (spread -1.23, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Iran Deal Rate Cut Optimism [SPY, BTC, BRENT, GLD]\n▼ Crypto Technical Deterioration [BTC, ETH, SOL, XRP]\n▼ ECB Inflation Revision [EUR, EFA, GLD]\n\n<b>IMPLICATION</b>\nIntraday flows favor defensive tech positioning over risk assets. Semiconductor strength suggests AI infrastructure demand remains intact while crypto distribution accelerates. Watch for utilities continuation as safe-haven rotation builds momentum. Energy weakness may create tactical entry points if oversold.\n\n<b>JSON</b>\n{\"btc\":77035,\"cryptoSentiment\":30,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 431,
+  "telegramText": "<b>MARKET WRAP</b> — May 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nGrowth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bid that dominated recent sessions gave way to renewed appetite for risk assets. Tomorrow's setup hinges on whether tech momentum can sustain without institutional crypto participation.\n\n<b>CLOSING PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.7% | TLT +0.9% | DXY -0.1% | OIL flat\n\n<b>vs MORNING</b>\nSPY flat | QQQ flat | VIX -0.3% | TLT flat | DXY +0.2% | OIL flat\n\n<b>EVENING NEWS</b>\n▲ BitMine Immersion Technologies lands on preliminary Russell 1000 list, eyeing billions in passive fund inflows\n▲ D-Wave Stock Skyrockets 62% After Q1 Earnings: Time to Buy QBTS?\n▼ Netanyahu declares war on Hezbollah amid rising tensions with Lebanon\n▲ Bitcoin Crash Warning Emerges as Analyst Sees Bearish Cycle\n▼ XRP Faces Pressure as Bitcoin Dominance Tightens Market Grip\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 72.1/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +2.1%, URA +1.9%, XLU +1.9%, XLC -0.6%, XLP -0.8%.\nSector dispersion: 57 (HIGH, breadth BROAD_STRENGTH), 81% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[USA] Conference Board Consumer Confidence Index(May) — May 26 14:00 UTC (prev: 92.8)\n[UK] Consumer Price Index (YoY)(Apr) — May 27 06:00 UTC (prev: 3.3%)\n[FRA] Composite Consumer Confidence Index(May) — May 27 06:45 UTC (prev: 84)\n[USA] Last week's Red Book Commercial Retail Sales (YoY)(to 0518) — May 27 12:55 UTC (prev: 8.1%)\n[CAN] GDP(MoM)(Feb) — May 28 00:03 UTC (prev: 0.1%)\n[FRA] Producer Price Index (MoM)(Apr) (+1 variants) — May 28 06:45 UTC (prev: 2.0%)\n\n<b>CONTRARIAN</b>\n• KWEB's -4.3% drop may be overdone given UOB's assessment that AI tailwinds are offsetting conflict drag in Asia\n• BRENT's -3.2% decline despite Netanyahu declaring war on Hezbollah suggests energy markets are pricing recession over supply disruption risk\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":72.1,\"sectorDispersion\":57,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 432,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
