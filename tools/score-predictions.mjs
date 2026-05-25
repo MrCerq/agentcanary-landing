@@ -180,7 +180,7 @@ function extractPredictions(briefs) {
       const lines = block.split('\n').map(l => l.replace(/<[^>]+>/g, '').trim()).filter(Boolean);
       if (lines.length === 0) continue;
 
-      const headerMatch = lines[0].match(/^([A-Z])\s*[—–-]\s*(.+)/);
+      const headerMatch = lines[0].match(/^([A-Z])\s*(?:\([^)]+\)\s*)?[—–-]\s*(.+)/);  // 2026-05-25: allow optional (NN%) between letter and dash
       if (!headerMatch) continue;
       const [, letter, scenarioName] = headerMatch;
 
