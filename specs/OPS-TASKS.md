@@ -33,7 +33,6 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 | # | Task | Status | Notes |
 |---|---|---|---|
 | C1 | **CDP-based X reposter for briefs** | 🚫 suspended | Operator decision 2026-05-23: "need a more trusted doing it." Lane handed off. Do not resume. |
-| C2 | **UsageLog telemetry bug** | ⏳ pending | Some endpoint paths (e.g. `/api/data/realtime-prices`, `/api/macro/regime` hit by institutional whale 0x69cd) don't appear in UsageLog despite nginx showing ~100 calls/day. Affects every customer-usage conclusion. Likely middleware ordering issue. Small fix once located. |
 | C3 | **Legacy yahoo-quotes filename + Mongo type removal** | ⏸ deferred | Producer still dual-writes (market-quotes.json canonical + yahoo-quotes.json transition alias). After consumer verification window (~1 week), remove dual-write from yahoo-snapshot.js + drop yahoo-quotes from registries. |
 | C4 | **Test files referencing yahoo-quotes.json** | ⏸ deferred | tests/sector.test.js, forward-scenarios.test.js, key-prices.test.js, overnight-movers.test.js, movers.test.js have old filename in fixtures. Update when running test suite next. |
 
@@ -52,6 +51,15 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 ## ✅ Done recently
 
 ### 2026-05-25
+- Predictions extractor regex fix: SCENARIO header format changed around 2026-05-17 (added `(NN%)` between letter and dash) — extractor regex `/^([A-Z])\s*[—–-]/` silently rejected it. Backfilled 9 days of missed predictions. `/api/track-record` now shows 657 scored (was 603), mean Brier 0.156 (was 0.162), 37.5% better than baseline (was 35.2%).
+- OI atom cadence aligned with producer reality (intraday→daily, MAX_AGE 12→30) — fixes recurring morning health-RED
+- gzip compression middleware on backend — /api/data/canonical-facts-l1-assets 4.6MB → 230KB (95% reduction). Bandwidth ceiling per Signal-tier customer dropped 96GB→4.5GB/day max.
+- Custom GPT verified working clean (operator confirmation)
+- Monday weekend-aware verification: full Sat+Sun cycle ran 100% as designed
+- Investigation closures (not-bugs after max-depth):
+  - UsageLog telemetry: working correctly; yesterday's "0 in 7d" was real customer slowdown (institutional whale dropped 344/day → 2/day on 5/21), captured perfectly
+  - operatorStatus hysteresis: working as designed (RECOVER_TO_GREEN_CYCLES=2 = 60min transition window; observed before 2 cycles completed)
+  - Custom-logic atoms (btc-price, forward-scenarios, icsa, key-prices, movers, sector, vs-morning, whale, news) skipped latest-pointer fallback fix because they use multi-day walk-back helpers (loadMostRecentSnapshot, loadMostRecentYahoo, etc.) — different design, not broken
 - Custom GPT verified working clean (operator confirmed all 4 conversation starters return live data, no "I can't" prefaces)
 - OI atom cadence aligned with producer reality (intraday → daily, MAX_AGE 12→30) — fixes recurring morning health-RED
 - Monday weekend-aware verification: full Sat+Sun cycle ran 100% as designed (signal+wrap SEND with banner, radar+pulse SKIP; weekday Mon radar back to normal publish)
