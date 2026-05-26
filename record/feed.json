@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/26/signal/",
+      "url": "https://agentcanary.ai/record/2026/05/26/signal/",
+      "title": "SIGNAL SCAN — May 26, 2026",
+      "content_text": "SIGNAL SCAN — May 26, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets split on sector rotation as semiconductor strength contrasts with energy weakness and crypto outflows. Defensive utilities bid alongside tech, sugg",
+      "summary": "SIGNAL SCAN — May 26, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets split on sector rotation as semiconductor strength contrasts with energy weakness and crypto outflows. Defensive utilities bid alongside tech, sugg",
+      "date_published": "2026-05-26T09:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/26/radar/",
       "url": "https://agentcanary.ai/record/2026/05/26/radar/",
       "title": "MACRO RADAR — May 26, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/13/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/13/signal/",
-      "title": "SIGNAL SCAN — May 13, 2026",
-      "content_text": "SIGNAL SCAN — May 13, 2026 SNAPSHOT Metals and energy leading a selective risk-on session while discretionary lags, suggesting rotation into commodity plays rather than broad growth momentum. Cross-asset flows show mixed conviction with cry",
-      "summary": "SIGNAL SCAN — May 13, 2026 SNAPSHOT Metals and energy leading a selective risk-on session while discretionary lags, suggesting rotation into commodity plays rather than broad growth momentum. Cross-asset flows show mixed conviction with cry",
-      "date_published": "2026-05-13T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
