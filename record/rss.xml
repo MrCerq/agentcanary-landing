@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 01:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 04:30:27 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — May 26, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/26/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/26/radar/</guid>
+      <pubDate>Tue, 26 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 26, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 38.4/100 (MODERATE). Geopolitical risk: 38/100 (MODERATE). Top: Middle East / Red Sea</description>
+    </item>
     <item>
       <title>MARKET WRAP — May 25, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/25/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/13/signal/</guid>
       <pubDate>Wed, 13 May 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 13, 2026 SNAPSHOT Metals and energy leading a selective risk-on session while discretionary lags, suggesting rotation into commodity plays rather than broad growth momentum. Cross-asset flows show mixed conviction with cry</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — May 13, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/13/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/13/radar/</guid>
-      <pubDate>Wed, 13 May 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — May 13, 2026 ▲ Risk-On · Neutral · EXPANSION · Gauge: 39.5/100 • BTC: $81,042 • ETH: $2,294 • SOL: $95.18 • GOLD: $4,714 SPY: $738.18 (+0.1%) QQQ: $707.24 (-0.6%) VIX: 18.0 (-2.1%) TLT: $84.99 (-1.3%) DXY: 98.3 (+0.4%) OIL: $1</description>
     </item>
   </channel>
 </rss>

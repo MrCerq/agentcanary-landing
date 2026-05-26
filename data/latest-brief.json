@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-05-25",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 25",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-05-26",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 26",
+  "headlineColor": "#FB923C",
   "desc": "Risk 72/100 · 6 movers",
   "tags": [
     {
@@ -26,19 +26,19 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "NEAR",
-          "v": "+14.1%",
-          "c": "green"
+          "k": "BRENT",
+          "v": "-8.3%",
+          "c": "red"
         },
         {
-          "k": "RENDER",
-          "v": "+9.6%",
-          "c": "green"
+          "k": "ONDO",
+          "v": "-5.5%",
+          "c": "red"
         },
         {
-          "k": "TON",
-          "v": "+8.8%",
-          "c": "green"
+          "k": "WTI",
+          "v": "-5.2%",
+          "c": "red"
         },
         {
           "k": "TKMS",
@@ -48,8 +48,8 @@
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nGrowth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bid that dominated recent sessions gave way to renewed appetite for risk assets. Tomorrow's setup hinges on whether tech momentum can sustain without institutional crypto participation.\n\n<b>CLOSING PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.7% | TLT +0.9% | DXY -0.1% | OIL flat\n\n<b>vs MORNING</b>\nSPY flat | QQQ flat | VIX -0.3% | TLT flat | DXY +0.2% | OIL flat\n\n<b>EVENING NEWS</b>\n▲ BitMine Immersion Technologies lands on preliminary Russell 1000 list, eyeing billions in passive fund inflows\n▲ D-Wave Stock Skyrockets 62% After Q1 Earnings: Time to Buy QBTS?\n▼ Netanyahu declares war on Hezbollah amid rising tensions with Lebanon\n▲ Bitcoin Crash Warning Emerges as Analyst Sees Bearish Cycle\n▼ XRP Faces Pressure as Bitcoin Dominance Tightens Market Grip\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 72.1/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +2.1%, URA +1.9%, XLU +1.9%, XLC -0.6%, XLP -0.8%.\nSector dispersion: 57 (HIGH, breadth BROAD_STRENGTH), 81% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[USA] Conference Board Consumer Confidence Index(May) — May 26 14:00 UTC (prev: 92.8)\n[UK] Consumer Price Index (YoY)(Apr) — May 27 06:00 UTC (prev: 3.3%)\n[FRA] Composite Consumer Confidence Index(May) — May 27 06:45 UTC (prev: 84)\n[USA] Last week's Red Book Commercial Retail Sales (YoY)(to 0518) — May 27 12:55 UTC (prev: 8.1%)\n[CAN] GDP(MoM)(Feb) — May 28 00:03 UTC (prev: 0.1%)\n[FRA] Producer Price Index (MoM)(Apr) (+1 variants) — May 28 06:45 UTC (prev: 2.0%)\n\n<b>CONTRARIAN</b>\n• KWEB's -4.3% drop may be overdone given UOB's assessment that AI tailwinds are offsetting conflict drag in Asia\n• BRENT's -3.2% decline despite Netanyahu declaring war on Hezbollah suggests energy markets are pricing recession over supply disruption risk\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":72.1,\"sectorDispersion\":57,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 432,
+  "telegramText": "<b>MACRO RADAR</b> — May 26, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 72.1/100 (High). Phase: EXPANSION.\nComposite Risk: 38.4/100 (MODERATE).\nGeopolitical risk: 38/100 (MODERATE). Top: Middle East / Red Sea 45/100 (MODERATE, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $77,063 · ETH: $2,100 · SOL: $85.23\nCrypto sentiment: 34 (Fear, 7d avg 29) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.87%) — fed $6.71T · ecb $7.18T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 278bps NORMAL (composite: CAUTION)\nBDRY: $12.68 (+14.6% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 445.0M bbl, refinery 91.6%, SPR 374M.\n\n<b>KEY PRICES</b>\nSPY +0.6% | QQQ +0.6% | VIX -0.7% | TLT +0.9% | DXY -0.1% | OIL -5.2%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ RGTI: +19.9%\n▲ BB: +18.9%\n▼ IPWR: -16.7%\n▲ NEAR/USD: +14.4%\n▲ UMAC: +13.4%\n▲ QCOM: +11.6%\n\n<b>HEGEMONY SNAPBACK</b>\n2.5/6 — WATCH\nUSD Index 119.28 (R), Gold $4509 (Y), Oil $112 (R)\n\n<b>NOTABLE Z-SCORES</b>\n[+] USD Index (broad): +2.24σ\n[+] 10Y Real Rate: +2.03σ\n[-] 10Y Breakeven Inflation: -2.01σ\n[+] WTI Crude Oil: +1.75σ\n[+] 30Y Mortgage Rate: +1.73σ\n\n<b>US OPEN SETUP</b>\n<i>Energy's commodity unwind opens defensive rotation window while semis hold momentum. Watch for continuation selling in China exposure and crypto outflows to persist. Utilities bid suggests flight-to-yield positioning ahead of US open.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":72.1,\"compositeRisk\":38.4,\"geoRisk\":38}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 433,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
