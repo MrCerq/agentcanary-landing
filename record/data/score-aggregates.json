@@ -1,13 +1,13 @@
 {
   "perSlot": {
     "radar": {
-      "hit": 74,
+      "hit": 75,
       "partial": 0,
       "miss": 4,
-      "pending": 2,
+      "pending": 1,
       "no_data": 12,
       "absent": 1,
-      "scored": 78,
+      "scored": 79,
       "hitRate": 94.9,
       "weightedAccuracy": 94.9
     },
@@ -37,9 +37,9 @@
       "hit": 65,
       "partial": 8,
       "miss": 5,
-      "pending": 1,
+      "pending": 2,
       "no_data": 11,
-      "absent": 3,
+      "absent": 2,
       "scored": 78,
       "hitRate": 83.3,
       "weightedAccuracy": 88.5
@@ -56,14 +56,14 @@
     "weightedAccuracy": 37.5
   },
   "overall": {
-    "hit": 298,
+    "hit": 299,
     "partial": 284,
     "miss": 319,
-    "scored": 901,
+    "scored": 902,
     "hitRate": 33.1,
-    "weightedAccuracy": 48.8
+    "weightedAccuracy": 48.9
   },
-  "computedAt": "2026-05-26T19:30:04.399Z",
+  "computedAt": "2026-05-26T22:30:03.245Z",
   "perAsset": [
     {
       "ticker": "SPY",

@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/26/wrap/",
+      "url": "https://agentcanary.ai/record/2026/05/26/wrap/",
+      "title": "MARKET WRAP — May 26, 2026",
+      "content_text": "MARKET WRAP — May 26, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear growth rotation as semiconductors and metals surged while traditional defensives faced selling pressure. The di",
+      "summary": "MARKET WRAP — May 26, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear growth rotation as semiconductors and metals surged while traditional defensives faced selling pressure. The di",
+      "date_published": "2026-05-26T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/26/pulse/",
       "url": "https://agentcanary.ai/record/2026/05/26/pulse/",
       "title": "MARKET PULSE — May 26, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/13/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/13/wrap/",
-      "title": "MARKET WRAP — May 13, 2026",
-      "content_text": "MARKET WRAP — May 13, 2026 Today's session highlighted sector-specific rotation rather than broad risk themes, with copper and healthcare advancing while uranium faced heavy selling. The contrast between crypto fund outflows and continued a",
-      "summary": "MARKET WRAP — May 13, 2026 Today's session highlighted sector-specific rotation rather than broad risk themes, with copper and healthcare advancing while uranium faced heavy selling. The contrast between crypto fund outflows and continued a",
-      "date_published": "2026-05-13T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
