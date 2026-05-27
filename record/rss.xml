@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 01:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 04:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — May 27, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/27/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/27/radar/</guid>
+      <pubDate>Wed, 27 May 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — May 27, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 44.5/100 (Elevated). Phase: EXPANSION. Composite Risk: 37.8/100 (MODERATE). Geopolitical risk: 46/100 (MODERATE). Top: Middle East / Red</description>
+    </item>
     <item>
       <title>MARKET WRAP — May 26, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/26/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/signal/</guid>
       <pubDate>Thu, 14 May 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 14, 2026 SNAPSHOT Defensive sectors bid while crypto faces pressure from institutional outflows. Risk-off undertone emerging as metals rotate mixed and healthcare leads. BTC at $79,389, below $80K. Crypto sentiment: 34 (Fe</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — May 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/14/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/radar/</guid>
-      <pubDate>Thu, 14 May 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — May 14, 2026 Risk Gauge: 38.5/100 (Low). Regime: EXPANSION. BTC: $79,389 · ETH: $2,253 · SOL: $90.60 LIQUIDITY &amp; CREDIT Global CB Liquidity: $18.23T (YoY -3.04%) — fed $6.71T · ecb $7.28T · boj $4.23T US M2: $22.69T (YoY +4.57</description>
     </item>
   </channel>
 </rss>

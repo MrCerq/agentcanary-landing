@@ -1,14 +1,14 @@
 {
-  "session": "wrap",
-  "date": "2026-05-26",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — May 26",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 72/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-05-27",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — May 27",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 45/100 · 6 movers",
   "tags": [
     {
-      "t": "HIGH",
-      "c": "red"
+      "t": "LOW",
+      "c": "green"
     },
     {
       "t": "EXPANSION",
@@ -19,37 +19,37 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 72
+        "value": 45
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "MU",
-          "v": "+19.2%",
+          "k": "SOXX",
+          "v": "+8.6%",
           "c": "green"
         },
         {
-          "k": "WULF",
-          "v": "+10.3%",
+          "k": "EWY",
+          "v": "+7.6%",
           "c": "green"
         },
         {
-          "k": "FET",
-          "v": "+9.6%",
+          "k": "TKMS",
+          "v": "+6.6%",
           "c": "green"
         },
         {
-          "k": "ON",
-          "v": "+9.2%",
+          "k": "SMH",
+          "v": "+6.0%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — May 26, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session crystallized a clear growth rotation as semiconductors and metals surged while traditional defensives faced selling pressure. The divergence between crypto fund outflows and miner strength highlighted positioning dynamics over fundamental shifts. Tomorrow's setup favors continued risk-on momentum if tech leadership sustains overnight.\n\n<b>CLOSING PRICES</b>\nSPY +1.1% | QQQ +2.2% | VIX +2.5% | TLT +1.0% | DXY -0.1% | OIL -3.1%\n\n<b>vs MORNING</b>\nSPY +0.5% | QQQ +1.6% | VIX +3.2% | TLT +0.1% | DXY flat | OIL +2.1%\n\n<b>EVENING NEWS</b>\n▲ Blitz Wallet adds BTC Maps and Bitrefill integration for payments\n▲ U.K. sanctions HTX over suspected ties to Russian crypto operations\n▲ Fed's Kashkari: Middle East inflation risks could warrant series of rate hikes\n▲ Euro: ECB hawks eye June rate hike – BNY\n▼ NEW: Base launches Base MCP, allowing AI agents to connect to Base accounts, trade, swap, manage portfolios, and use onchain app plugins. https://t.co/YAzkFQriBT\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 72.1/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +6.0%, COPX +5.4%, URA +4.1%, XLP -1.2%, XLE -2.2%.\nSector dispersion: 59 (HIGH, breadth BROAD_STRENGTH), 81% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] Consumer Price Index (YoY)(Apr) — May 27 06:00 UTC (prev: 3.3%)\n[FRA] Composite Consumer Confidence Index(May) — May 27 06:45 UTC (prev: 84)\n[USA] Last week's Red Book Commercial Retail Sales (YoY)(to 0518) — May 27 12:55 UTC (prev: 8.1%)\n[CAN] GDP(MoM)(Feb) (+3 variants) — May 28 00:03 UTC (prev: 0.1%)\n[FRA] Producer Price Index (MoM)(Apr) (+1 variants) — May 28 06:45 UTC (prev: 2.0%)\n[ITA] Istat Consumer Confidence Index(May) — May 28 08:00 UTC (prev: 90.8)\n\n<b>CONTRARIAN</b>\n• TKMS +6.6% defense rally might be overdone - geopolitical premium could fade if Middle East tensions don't escalate further\n• EWY South Korea +7.6% surge contradicts semiconductor supply chain concentration risks that hawkish central banks could expose\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":72.1,\"sectorDispersion\":59,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 436,
+  "telegramText": "<b>MACRO RADAR</b> — May 27, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 44.5/100 (Elevated). Phase: EXPANSION.\nComposite Risk: 37.8/100 (MODERATE).\nGeopolitical risk: 46/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $75,848 · ETH: $2,075 · SOL: $83.78\nCrypto sentiment: 25 (Extreme Fear, 7d avg 28) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.09T (YoY -2.84%) — fed $6.71T · ecb $7.19T · boj $4.18T\nUS M2: $22.69T (YoY +4.57%)\nHY Credit Spreads: 274bps NORMAL (composite: CAUTION)\nBDRY: $12.97 (+13.6% 30d, UP — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 445.0M bbl, refinery 91.6%, SPR 374M.\n\n<b>KEY PRICES</b>\nSPY +1.1% | QQQ +2.2% | VIX +2.5% | TLT +1.0% | DXY -0.1% | OIL -1.8%\n\n<b>TOP MOVERS</b>\nTop movers: SOXX +8.6%, EWY +7.6%, TKMS +6.6%, SMH +6.0%, NEAR -5.7%, XLK +3.7%.\n\n<b>HEGEMONY SNAPBACK</b>\n2.5/6 — WATCH\nUSD Index 119.28 (R), Gold $4503 (Y), Oil $112 (R)\n\n<b>NOTABLE Z-SCORES</b>\n[+] USD Index (broad): +2.24σ\n[+] 10Y Real Rate: +2.03σ\n[-] 10Y Breakeven Inflation: -2.01σ\n[+] WTI Crude Oil: +1.75σ\n[+] 30Y Mortgage Rate: +1.73σ\n\n<b>US OPEN SETUP</b>\n<i>Risk-on positioning favors tech and cyclicals ahead of the US open. Watch for continuation in semiconductor momentum while monitoring crypto for stability as geopolitical headlines persist. Energy weakness suggests rotation rather than broad risk-off.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":44.5,\"compositeRisk\":37.8,\"geoRisk\":46}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 437,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
