@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/27/wrap/",
+      "url": "https://agentcanary.ai/record/2026/05/27/wrap/",
+      "title": "MARKET WRAP — May 27, 2026",
+      "content_text": "MARKET WRAP — May 27, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session highlighted a selective risk-on rotation with semiconductors and metals leading while crypto faced sustained institutional selling p",
+      "summary": "MARKET WRAP — May 27, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session highlighted a selective risk-on rotation with semiconductors and metals leading while crypto faced sustained institutional selling p",
+      "date_published": "2026-05-27T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/27/pulse/",
       "url": "https://agentcanary.ai/record/2026/05/27/pulse/",
       "title": "MARKET PULSE — May 27, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/14/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/14/wrap/",
-      "title": "MARKET WRAP — May 14, 2026",
-      "content_text": "MARKET WRAP — May 14, 2026 Technology leadership dominated today's session while commodities faced broad-based selling pressure, creating a clear risk-on versus defensive rotation pattern. The divergence between crypto spot strength and per",
-      "summary": "MARKET WRAP — May 14, 2026 Technology leadership dominated today's session while commodities faced broad-based selling pressure, creating a clear risk-on versus defensive rotation pattern. The divergence between crypto spot strength and per",
-      "date_published": "2026-05-14T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }

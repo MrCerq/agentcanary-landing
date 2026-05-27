@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-05-27",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — May 27",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — May 27",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 45/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "SOXX",
-          "v": "+8.6%",
+          "k": "ZS",
+          "v": "-31.5%",
+          "c": "red"
+        },
+        {
+          "k": "IREN",
+          "v": "+13.5%",
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "+7.6%",
-          "c": "green"
+          "k": "PENDLE",
+          "v": "-12.1%",
+          "c": "red"
         },
         {
-          "k": "TKMS",
-          "v": "+6.6%",
-          "c": "green"
-        },
-        {
-          "k": "SMH",
-          "v": "+6.0%",
+          "k": "ONDS",
+          "v": "+10.7%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — May 27, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $75,848 — 1d:IGNITION · 4h:ACCUMULATION · above $75K\nETH: $2,075 — 1d:ACCUMULATION · 4h:ACCUMULATION\nSOL: $83.78 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch\nCrypto sentiment: 25 (Extreme Fear, 7d avg 28) (falling).\n\n<b>WHALE ALERTS</b>\n• 761 BTC ($57.9M) — transferred from Coinbase Institutional to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 129M USDC ($129M) — transferred from #Aave to unknown wallet\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• TON: 96% net APR (0.0437% rate) · Long Binance / Short Bybit · OI $70.4M · Spread +0.02%\n• HYPE: 47% net APR (0.0425% rate) · Long Bybit / Short OKX · OI $105.7M · Spread -0.04%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $106.9B\nTop OI: BTC $56.0B · ETH $32.2B · SOL $5.5B · XRP $2.9B · HYPE $2.7B\nOI shifters (4h): FET -7.0% · TIA -7.0% · PENDLE -6.4% · NEAR -5.9% · DYDX -5.9%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$334M outflow on May 27 (Wed close) (IBIT -$192M, FBTC -$58M, GBTC -$41M). Trailing 5-trading-day net: -$0.7B outflow.\nBTC options — BEARISH: max pain $75,000 (29MAY26), P/C 0.69 OI / 0.97 vol, put skew +26.4 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.4662% (15/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $78M long / $65M short (net long $13M, -$69K PnL); ETH: $12M long / $56M short (net short $44M, +$3.4M PnL); HYPE: $12M long / $34M short (net short $22M, -$7.1M PnL).\nLiquidations: 24h total $83.5M; latest 4h $2.1M (8.1% long / 91.9% short, 3L/135S events, short-dominant).\nETH stake APY 2.37% vs T-bill 3.59% (spread -1.22, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↑ Stagflation · ↓↓ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Semiconductor and AI Infrastructure Boom [SOXX, SMH, MARA, WULF]\n▼ Central Bank Hawkish Turn on Iran Tensions [DXY, TLT, EUR, AUD]\n▲ Crypto Regulatory Breakthrough [BTC, ETH, COIN, RIOT]\n\n<b>IMPLICATION</b>\nSemiconductor strength anchoring broader tech rotation suggests cyclical momentum building. Copper bid reinforces industrial thesis while energy weakness creates tactical fade opportunity. Watch for tech breadth expansion beyond chips as session progresses.\n\n<b>JSON</b>\n{\"btc\":75739,\"cryptoSentiment\":25,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 439,
+  "telegramText": "<b>MARKET WRAP</b> — May 27, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session highlighted a selective risk-on rotation with semiconductors and metals leading while crypto faced sustained institutional selling pressure. The divergence between cyclical strength and energy weakness suggests investors are picking spots rather than embracing broad appetite. Tomorrow's focus shifts to whether semiconductor momentum can sustain without broader tech participation.\n\n<b>CLOSING PRICES</b>\nSPY +0.6% | QQQ +1.7% | VIX -4.2% | TLT +0.7% | DXY +0.1% | OIL -4.7%\n\n<b>vs MORNING</b>\nSPY -0.4% | QQQ -0.6% | VIX -6.8% | TLT -0.3% | DXY +0.1% | OIL -2.9%\n\n<b>EVENING NEWS</b>\n▼ Ethereum Traders Grow Increasingly Bearish as ETFs Bleed, ETH Sinks Near $2,000\n▲ Cash App Now Supports Stablecoins, Despite Bitcoin Maxi Jack Dorsey's 'Gatekeeper' Gripes\n▼ US-backed rare earth rivals clash over alleged technology theft\n▲ ‘Strongest ETF debut’- HYPE institutional demand doubles Bitcoin metrics\n▼ Altcoins Crushed as Bearish Sentiment Sweeps Crypto Markets\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 44.5/100 (Elevated). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +3.3%, COPX +3.3%, URA +2.5%, XLF -1.0%, XLE -4.2%.\nSector dispersion: 65 (HIGH, breadth BROAD_STRENGTH), 88% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[CAN] GDP(MoM)(Feb) (+3 variants) — May 28 00:03 UTC (prev: 0.1%)\n[FRA] Producer Price Index (MoM)(Apr) (+1 variants) — May 28 06:45 UTC (prev: 2.0%)\n[ITA] Istat Consumer Confidence Index(May) — May 28 08:00 UTC (prev: 90.8)\n[EU] Consumer confidence index (Final)(May) — May 28 09:00 UTC (prev: -19.0)\n[ITA] Producer Price Index (MoM)(Apr) (+2 variants) — May 28 10:00 UTC (prev: 5.9%)\n[USA] annum real GDP(billions of US dollars) (Revised) (Q1) (+1 variants) — May 28 12:02 UTC (prev: 240660)\n\n<b>CONTRARIAN</b>\n• BRENT/WTI down 4-7% despite Strait of Hormuz crisis suggests oil market is oversold on premature peace optimism - supply disruption reality may reassert quickly\n• VIX down 4.2% while crypto crashes and geopolitical tensions rise indicates dangerous complacency in equity options markets\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":44.5,\"sectorDispersion\":65,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 440,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null

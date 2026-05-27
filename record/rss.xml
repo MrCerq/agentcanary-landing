@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 19:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 22:30:28 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — May 27, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/27/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/27/wrap/</guid>
+      <pubDate>Wed, 27 May 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — May 27, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session highlighted a selective risk-on rotation with semiconductors and metals leading while crypto faced sustained institutional selling p</description>
+    </item>
     <item>
       <title>MARKET PULSE — May 27, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/27/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/radar/</guid>
       <pubDate>Fri, 15 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 15, 2026 Risk Gauge: 36.1/100 (Low). Regime: OVERHEATING. Composite Risk: 29.4/100 (MODERATE). Geopolitical risk: 49/100 (MODERATE). Top: Russia-Ukraine 55/100 (ELEVATED, natural_gas bullish). BTC: $81,240 · ETH: $2,276 ·</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/14/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/wrap/</guid>
-      <pubDate>Thu, 14 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 14, 2026 Technology leadership dominated today&apos;s session while commodities faced broad-based selling pressure, creating a clear risk-on versus defensive rotation pattern. The divergence between crypto spot strength and per</description>
     </item>
   </channel>
 </rss>
