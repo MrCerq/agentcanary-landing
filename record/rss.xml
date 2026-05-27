@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 04:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 10:30:27 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — May 27, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/27/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/27/signal/</guid>
+      <pubDate>Wed, 27 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 27, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on sentiment drives semiconductor leadership while metals catch a bid. Tech breadth expanding with defensives lagging, setting up a growth rotation na</description>
+    </item>
     <item>
       <title>MACRO RADAR — May 27, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/27/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/pulse/</guid>
       <pubDate>Thu, 14 May 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — May 14, 2026 CRYPTO BTC: $79,389 — 1d:BEAR_REGIME · 4h:ACCUMULATION · below $80K ETH: $2,253 — 1d:BEAR_REGIME · 4h:ACCUMULATION SOL: $90.60 — 1d:DISTRIBUTION · 4h:ACCUMULATION Crypto sentiment: 34 (Fear, 7d avg 42) (falling).</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — May 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/14/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/14/signal/</guid>
-      <pubDate>Thu, 14 May 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — May 14, 2026 SNAPSHOT Defensive sectors bid while crypto faces pressure from institutional outflows. Risk-off undertone emerging as metals rotate mixed and healthcare leads. BTC at $79,389, below $80K. Crypto sentiment: 34 (Fe</description>
     </item>
   </channel>
 </rss>

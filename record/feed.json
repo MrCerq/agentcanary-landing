@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/27/signal/",
+      "url": "https://agentcanary.ai/record/2026/05/27/signal/",
+      "title": "SIGNAL SCAN — May 27, 2026",
+      "content_text": "SIGNAL SCAN — May 27, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on sentiment drives semiconductor leadership while metals catch a bid. Tech breadth expanding with defensives lagging, setting up a growth rotation na",
+      "summary": "SIGNAL SCAN — May 27, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on sentiment drives semiconductor leadership while metals catch a bid. Tech breadth expanding with defensives lagging, setting up a growth rotation na",
+      "date_published": "2026-05-27T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/27/radar/",
       "url": "https://agentcanary.ai/record/2026/05/27/radar/",
       "title": "MACRO RADAR — May 27, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/14/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/14/signal/",
-      "title": "SIGNAL SCAN — May 14, 2026",
-      "content_text": "SIGNAL SCAN — May 14, 2026 SNAPSHOT Defensive sectors bid while crypto faces pressure from institutional outflows. Risk-off undertone emerging as metals rotate mixed and healthcare leads. BTC at $79,389, below $80K. Crypto sentiment: 34 (Fe",
-      "summary": "SIGNAL SCAN — May 14, 2026 SNAPSHOT Defensive sectors bid while crypto faces pressure from institutional outflows. Risk-off undertone emerging as metals rotate mixed and healthcare leads. BTC at $79,389, below $80K. Crypto sentiment: 34 (Fe",
-      "date_published": "2026-05-14T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
