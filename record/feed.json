@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/27/pulse/",
+      "url": "https://agentcanary.ai/record/2026/05/27/pulse/",
+      "title": "MARKET PULSE — May 27, 2026",
+      "content_text": "MARKET PULSE — May 27, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $75,848 — 1d:IGNITION · 4h:ACCUMULATION · above $75K ETH: $2,075 — 1d:ACCUMULATION · 4h:ACCUMULATION SOL: $83.78 — 1d:BEAR_REGIME · 4h:ACCUMULATION · →",
+      "summary": "MARKET PULSE — May 27, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $75,848 — 1d:IGNITION · 4h:ACCUMULATION · above $75K ETH: $2,075 — 1d:ACCUMULATION · 4h:ACCUMULATION SOL: $83.78 — 1d:BEAR_REGIME · 4h:ACCUMULATION · →",
+      "date_published": "2026-05-27T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/27/signal/",
       "url": "https://agentcanary.ai/record/2026/05/27/signal/",
       "title": "SIGNAL SCAN — May 27, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/14/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/14/pulse/",
-      "title": "MARKET PULSE — May 14, 2026",
-      "content_text": "MARKET PULSE — May 14, 2026 CRYPTO BTC: $79,389 — 1d:BEAR_REGIME · 4h:ACCUMULATION · below $80K ETH: $2,253 — 1d:BEAR_REGIME · 4h:ACCUMULATION SOL: $90.60 — 1d:DISTRIBUTION · 4h:ACCUMULATION Crypto sentiment: 34 (Fear, 7d avg 42) (falling).",
-      "summary": "MARKET PULSE — May 14, 2026 CRYPTO BTC: $79,389 — 1d:BEAR_REGIME · 4h:ACCUMULATION · below $80K ETH: $2,253 — 1d:BEAR_REGIME · 4h:ACCUMULATION SOL: $90.60 — 1d:DISTRIBUTION · 4h:ACCUMULATION Crypto sentiment: 34 (Fear, 7d avg 42) (falling).",
-      "date_published": "2026-05-14T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
