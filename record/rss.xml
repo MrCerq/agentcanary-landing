@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 10:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 16:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — May 28, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/28/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/28/pulse/</guid>
+      <pubDate>Thu, 28 May 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — May 28, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,120 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $1,979 · (same) SOL: $80.60 · (same) Crypto sentiment: 22 (Extreme Fear, 7d avg 27) (falling). WH</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — May 28, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/28/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/wrap/</guid>
       <pubDate>Fri, 15 May 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — May 15, 2026 Markets closed with stark sector divergence as energy surged while metals faced broad-based selling pressure. The disconnect between crypto ETF inflows and miner weakness highlighted infrastructure headwinds beyon</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — May 15, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/15/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/pulse/</guid>
-      <pubDate>Fri, 15 May 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — May 15, 2026 CRYPTO BTC: $81,240 — 1d:IGNITION · 4h:IGNITION · above $80K ETH: $2,276 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade SOL: $92.34 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade Crypto sentiment: 43 (Fear</description>
     </item>
   </channel>
 </rss>

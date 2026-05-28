@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/28/pulse/",
+      "url": "https://agentcanary.ai/record/2026/05/28/pulse/",
+      "title": "MARKET PULSE — May 28, 2026",
+      "content_text": "MARKET PULSE — May 28, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,120 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $1,979 · (same) SOL: $80.60 · (same) Crypto sentiment: 22 (Extreme Fear, 7d avg 27) (falling). WH",
+      "summary": "MARKET PULSE — May 28, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,120 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $1,979 · (same) SOL: $80.60 · (same) Crypto sentiment: 22 (Extreme Fear, 7d avg 27) (falling). WH",
+      "date_published": "2026-05-28T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/28/signal/",
       "url": "https://agentcanary.ai/record/2026/05/28/signal/",
       "title": "SIGNAL SCAN — May 28, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/15/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/15/pulse/",
-      "title": "MARKET PULSE — May 15, 2026",
-      "content_text": "MARKET PULSE — May 15, 2026 CRYPTO BTC: $81,240 — 1d:IGNITION · 4h:IGNITION · above $80K ETH: $2,276 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade SOL: $92.34 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade Crypto sentiment: 43 (Fear",
-      "summary": "MARKET PULSE — May 15, 2026 CRYPTO BTC: $81,240 — 1d:IGNITION · 4h:IGNITION · above $80K ETH: $2,276 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade SOL: $92.34 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade Crypto sentiment: 43 (Fear",
-      "date_published": "2026-05-15T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
