@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/28/wrap/",
+      "url": "https://agentcanary.ai/record/2026/05/28/wrap/",
+      "title": "MARKET WRAP — May 28, 2026",
+      "content_text": "MARKET WRAP — May 28, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with clear sector differentiation as defense and discretionary names captured flows while crypto faced sustained pressure. The rotati",
+      "summary": "MARKET WRAP — May 28, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with clear sector differentiation as defense and discretionary names captured flows while crypto faced sustained pressure. The rotati",
+      "date_published": "2026-05-28T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/28/pulse/",
       "url": "https://agentcanary.ai/record/2026/05/28/pulse/",
       "title": "MARKET PULSE — May 28, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/15/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/15/wrap/",
-      "title": "MARKET WRAP — May 15, 2026",
-      "content_text": "MARKET WRAP — May 15, 2026 Markets closed with stark sector divergence as energy surged while metals faced broad-based selling pressure. The disconnect between crypto ETF inflows and miner weakness highlighted infrastructure headwinds beyon",
-      "summary": "MARKET WRAP — May 15, 2026 Markets closed with stark sector divergence as energy surged while metals faced broad-based selling pressure. The disconnect between crypto ETF inflows and miner weakness highlighted infrastructure headwinds beyon",
-      "date_published": "2026-05-15T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
