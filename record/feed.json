@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/28/signal/",
+      "url": "https://agentcanary.ai/record/2026/05/28/signal/",
+      "title": "SIGNAL SCAN — May 28, 2026",
+      "content_text": "SIGNAL SCAN — May 28, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk assets diverge as semiconductors and metals bid while crypto faces broad liquidation pressure. Industrial rotation outpacing speculative positioning a",
+      "summary": "SIGNAL SCAN — May 28, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk assets diverge as semiconductors and metals bid while crypto faces broad liquidation pressure. Industrial rotation outpacing speculative positioning a",
+      "date_published": "2026-05-28T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/28/radar/",
       "url": "https://agentcanary.ai/record/2026/05/28/radar/",
       "title": "MACRO RADAR — May 28, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/15/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/15/signal/",
-      "title": "SIGNAL SCAN — May 15, 2026",
-      "content_text": "SIGNAL SCAN — May 15, 2026 SNAPSHOT Risk-on regime persists with tech and semiconductors leading while volatility contracts. Crypto flows divergent against broader equity momentum as defensive sectors lag. BTC at $81,240, above $80K. Crypto",
-      "summary": "SIGNAL SCAN — May 15, 2026 SNAPSHOT Risk-on regime persists with tech and semiconductors leading while volatility contracts. Crypto flows divergent against broader equity momentum as defensive sectors lag. BTC at $81,240, above $80K. Crypto",
-      "date_published": "2026-05-15T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }

@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 04:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 10:30:28 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — May 28, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/28/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/28/signal/</guid>
+      <pubDate>Thu, 28 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 28, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk assets diverge as semiconductors and metals bid while crypto faces broad liquidation pressure. Industrial rotation outpacing speculative positioning a</description>
+    </item>
     <item>
       <title>MACRO RADAR — May 28, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/28/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/pulse/</guid>
       <pubDate>Fri, 15 May 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — May 15, 2026 CRYPTO BTC: $81,240 — 1d:IGNITION · 4h:IGNITION · above $80K ETH: $2,276 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade SOL: $92.34 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade Crypto sentiment: 43 (Fear</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — May 15, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/15/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/15/signal/</guid>
-      <pubDate>Fri, 15 May 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — May 15, 2026 SNAPSHOT Risk-on regime persists with tech and semiconductors leading while volatility contracts. Crypto flows divergent against broader equity momentum as defensive sectors lag. BTC at $81,240, above $80K. Crypto</description>
     </item>
   </channel>
 </rss>
