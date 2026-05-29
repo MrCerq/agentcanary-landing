@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 May 2026 04:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 10:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — May 29, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/29/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/29/signal/</guid>
+      <pubDate>Fri, 29 May 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — May 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite drives selective rotation into cyclical sectors while defensive utilities and energy lag. Volatility compression signals complacency as aeros</description>
+    </item>
     <item>
       <title>MACRO RADAR — May 29, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/29/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/16/pulse/</guid>
       <pubDate>Sat, 16 May 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — May 16, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $79,111 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $80K ETH: $2,229 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch SOL: $89.16 — 1d:BEA</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — May 16, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/16/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/16/signal/</guid>
-      <pubDate>Sat, 16 May 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — May 16, 2026 SNAPSHOT Cross-asset rotation driven by commodity weakness and emerging market selloff, while energy shows resilience amid broader defensive positioning. Volatility spike signals risk-off undertone despite pockets</description>
     </item>
   </channel>
 </rss>

@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/29/signal/",
+      "url": "https://agentcanary.ai/record/2026/05/29/signal/",
+      "title": "SIGNAL SCAN — May 29, 2026",
+      "content_text": "SIGNAL SCAN — May 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite drives selective rotation into cyclical sectors while defensive utilities and energy lag. Volatility compression signals complacency as aeros",
+      "summary": "SIGNAL SCAN — May 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite drives selective rotation into cyclical sectors while defensive utilities and energy lag. Volatility compression signals complacency as aeros",
+      "date_published": "2026-05-29T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/29/radar/",
       "url": "https://agentcanary.ai/record/2026/05/29/radar/",
       "title": "MACRO RADAR — May 29, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/16/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/16/signal/",
-      "title": "SIGNAL SCAN — May 16, 2026",
-      "content_text": "SIGNAL SCAN — May 16, 2026 SNAPSHOT Cross-asset rotation driven by commodity weakness and emerging market selloff, while energy shows resilience amid broader defensive positioning. Volatility spike signals risk-off undertone despite pockets",
-      "summary": "SIGNAL SCAN — May 16, 2026 SNAPSHOT Cross-asset rotation driven by commodity weakness and emerging market selloff, while energy shows resilience amid broader defensive positioning. Volatility spike signals risk-off undertone despite pockets",
-      "date_published": "2026-05-16T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
