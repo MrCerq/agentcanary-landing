@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/29/radar/",
+      "url": "https://agentcanary.ai/record/2026/05/29/radar/",
+      "title": "MACRO RADAR — May 29, 2026",
+      "content_text": "MACRO RADAR — May 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 32.3/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 5",
+      "summary": "MACRO RADAR — May 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 32.3/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 5",
+      "date_published": "2026-05-29T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/28/wrap/",
       "url": "https://agentcanary.ai/record/2026/05/28/wrap/",
       "title": "MARKET WRAP — May 28, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/16/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/16/radar/",
-      "title": "MACRO RADAR — May 16, 2026",
-      "content_text": "MACRO RADAR — May 16, 2026 Risk Gauge: 13.8/100 (Calm). Regime: OVERHEATING. Composite Risk: 27.9/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 53/100 (ELEVATED, natural_gas bullish). BTC: $79,111 · ETH: $",
-      "summary": "MACRO RADAR — May 16, 2026 Risk Gauge: 13.8/100 (Calm). Regime: OVERHEATING. Composite Risk: 27.9/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 53/100 (ELEVATED, natural_gas bullish). BTC: $79,111 · ETH: $",
-      "date_published": "2026-05-16T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
