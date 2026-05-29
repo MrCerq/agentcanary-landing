@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/29/wrap/",
+      "url": "https://agentcanary.ai/record/2026/05/29/wrap/",
+      "title": "MARKET WRAP — May 29, 2026",
+      "content_text": "MARKET WRAP — May 29, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Technology dominated today's session with enterprise software leading equity gains while defensive sectors faced rotation pressure. Crypto assets sh",
+      "summary": "MARKET WRAP — May 29, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Technology dominated today's session with enterprise software leading equity gains while defensive sectors faced rotation pressure. Crypto assets sh",
+      "date_published": "2026-05-29T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/29/pulse/",
       "url": "https://agentcanary.ai/record/2026/05/29/pulse/",
       "title": "MARKET PULSE — May 29, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/16/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/16/wrap/",
-      "title": "MARKET WRAP — May 16, 2026",
-      "content_text": "MARKET WRAP — May 16, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear risk-off pivot as Asian markets led a broad retreat while metals suffered their worst selloff in months. Energy",
-      "summary": "MARKET WRAP — May 16, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear risk-off pivot as Asian markets led a broad retreat while metals suffered their worst selloff in months. Energy",
-      "date_published": "2026-05-16T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
