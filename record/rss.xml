@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2026 19:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 22:30:28 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — May 30, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/30/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/30/wrap/</guid>
+      <pubDate>Sat, 30 May 2026 21:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET WRAP — May 30, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Tech-led risk rotation dominated as growth themes overwhelmed defens</description>
+    </item>
     <item>
       <title>MARKET PULSE — May 30, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/30/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/18/radar/</guid>
       <pubDate>Mon, 18 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.5/100 (MODERATE). Geopolitical risk: 36/100 (MODERATE). Top: Middle East / Red Se</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/17/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/wrap/</guid>
-      <pubDate>Sun, 17 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 17, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Metals experienced their worst session in months as copper and silver led a broad commodities selloff that rippled across risk assets. Energy bucked</description>
     </item>
   </channel>
 </rss>
