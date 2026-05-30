@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2026 01:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 04:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — May 30, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/30/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/30/radar/</guid>
+      <pubDate>Sat, 30 May 2026 03:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MACRO RADAR — May 30, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 51.4/100 (Elevated). Phase: EXPANSION. Composite Risk: 31</description>
+    </item>
     <item>
       <title>MARKET WRAP — May 29, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/29/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/signal/</guid>
       <pubDate>Sun, 17 May 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 17, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation accelerates with metals and crypto under pressure while energy finds footing. Cross-asset divergence highlights defensive positioning as</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — May 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/17/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/radar/</guid>
-      <pubDate>Sun, 17 May 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — May 17, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.7/100 (MODERATE). Geopolitical risk: 35/100 (MODERATE). Top: Middle East / Red Se</description>
     </item>
   </channel>
 </rss>
