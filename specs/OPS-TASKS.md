@@ -50,6 +50,14 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 
 ## ✅ Done recently
 
+### 2026-05-30
+- Whale atoms cadence aligned with producer reality (whale-alerts + stablecoin-whale-alerts intraday→daily, `4bc4994`) — was false-RED every morning before 04:00 UTC producer write
+- Forward-scenarios cadence intraday→daily (`e10b29a`) — last config-vs-producer mismatch in atom-cadence.js; zero `intraday` atoms remain
+- 5 private-channel Telegram senders disabled (`8647f8e` + crontab edit) — regime/narrative/earnings/health-check.js wrapper/health-monitor.sh. Public @agentcanary brief channel kept. Reversible (single-line uncomments).
+- `reference_known_expected_behaviors.md` added to memory — anti-ghost-chase catalog (weekend cadence, dedup filenames, inactive atom patterns, hysteresis windows, etc.) so future sessions stop investigating known-expected behavior
+- g2-schema-check overnight caught + my morning fix shipped (market-quotes envelope shape change, `518cb9a` previous day)
+- Memo drafted for g2/g2-core re: cadence-mismatch audit pattern (in chat, operator can forward)
+
 ### 2026-05-25
 - Predictions extractor regex fix: SCENARIO header format changed around 2026-05-17 (added `(NN%)` between letter and dash) — extractor regex `/^([A-Z])\s*[—–-]/` silently rejected it. Backfilled 9 days of missed predictions. `/api/track-record` now shows 657 scored (was 603), mean Brier 0.156 (was 0.162), 37.5% better than baseline (was 35.2%).
 - OI atom cadence aligned with producer reality (intraday→daily, MAX_AGE 12→30) — fixes recurring morning health-RED
