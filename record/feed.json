@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/30/pulse/",
+      "url": "https://agentcanary.ai/record/2026/05/30/pulse/",
+      "title": "MARKET PULSE — May 30, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET PULSE — May 30, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,496 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $75K",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET PULSE — May 30, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,496 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $75K",
+      "date_published": "2026-05-30T15:15:00.000Z",
+      "tags": [
+        "MEDIUM",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-05-29"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/30/signal/",
       "url": "https://agentcanary.ai/record/2026/05/30/signal/",
       "title": "SIGNAL SCAN — May 30, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/17/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/17/pulse/",
-      "title": "MARKET PULSE — May 17, 2026",
-      "content_text": "MARKET PULSE — May 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,862 — 1d:RISK_OFF · 4h:RISK_OFF · below $80K ETH: $2,173 · (same) SOL: $85.95 · (same) Crypto sentiment: 27 (Fear, 7d avg 39) (falling). STABLECOIN",
-      "summary": "MARKET PULSE — May 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,862 — 1d:RISK_OFF · 4h:RISK_OFF · below $80K ETH: $2,173 · (same) SOL: $85.95 · (same) Crypto sentiment: 27 (Fear, 7d avg 39) (falling). STABLECOIN",
-      "date_published": "2026-05-17T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
