@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 May 2026 04:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 10:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — May 30, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/30/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/30/signal/</guid>
+      <pubDate>Sat, 30 May 2026 09:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. SIGNAL SCAN — May 30, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime with tech leading the charge and defensive rotation underway</description>
+    </item>
     <item>
       <title>MACRO RADAR — May 30, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/30/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/pulse/</guid>
       <pubDate>Sun, 17 May 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — May 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,862 — 1d:RISK_OFF · 4h:RISK_OFF · below $80K ETH: $2,173 · (same) SOL: $85.95 · (same) Crypto sentiment: 27 (Fear, 7d avg 39) (falling). STABLECOIN</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — May 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/17/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/17/signal/</guid>
-      <pubDate>Sun, 17 May 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — May 17, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation accelerates with metals and crypto under pressure while energy finds footing. Cross-asset divergence highlights defensive positioning as</description>
     </item>
   </channel>
 </rss>
