@@ -1,27 +1,17 @@
 {
-  "session": "radar",
+  "session": "signal",
   "date": "2026-05-31",
-  "time": "03:15 UTC",
-  "headline": "MACRO RADAR — May 31",
-  "headlineColor": "#FB923C",
-  "desc": "Risk 51/100 · 6 movers",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — May 31",
+  "headlineColor": "#60A5FA",
+  "desc": "compiled (41 atoms, validator=fail-soft-validator)",
   "tags": [
     {
-      "t": "MEDIUM",
-      "c": "yellow"
-    },
-    {
-      "t": "EXPANSION",
+      "t": "COMPILED",
       "c": "blue"
     }
   ],
   "panels": [
-    {
-      "label": "RISK GAUGE",
-      "gauge": {
-        "value": 51
-      }
-    },
     {
       "label": "TOP MOVERS",
       "rows": [
@@ -48,8 +38,8 @@
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — May 31, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 51.4/100 (Elevated). Phase: EXPANSION.\nComposite Risk: 34.7/100 (MODERATE).\nGeopolitical risk: 40/100 (MODERATE). Top: Middle East / Red Sea 51/100 (ELEVATED, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $73,496 · ETH: $2,013 · SOL: $82.42\nCrypto sentiment: 28 (Fear, 7d avg 26).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.05T (YoY -2.80%) — fed $6.70T · ecb $7.18T · boj $4.17T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 272bps NORMAL (composite: CAUTION)\nBDRY: $12.94 (+13.1% 30d, UP — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 441.7M bbl, refinery 94.5%, SPR 365M.\n\n<b>KEY PRICES</b>\nSPY +0.8% | QQQ +1.2% | VIX -2.7% | TLT +0.5% | DXY -0.1% | OIL -1.7%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ NOW: +14.4%\n▲ SMCI: +11.6%\n▲ HOOD: +11.2%\n▲ ABSI: +11.0%\n▲ ORCL: +10.8%\n▲ PANW: +9.3%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 119.29 (R), Gold $4545 (Y), Oil $98 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] VIX: -2.26σ\n[-] 10Y Breakeven Inflation: -1.62σ\n[+] 30Y Mortgage Rate: +1.59σ\n\n<b>US OPEN SETUP</b>\n<i>Tech leadership with defensive selling suggests growth positioning ahead of session. Watch crypto flows for institutional sentiment shift. Defense strength indicates geopolitical premium persisting.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":51.4,\"compositeRisk\":34.7,\"geoRisk\":40}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": null,
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live.</i>\n\n<b>SIGNAL SCAN</b> — May 31, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: atom not built for signal: macro. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $73,991, below $75K.\nBTC ETF flows: -$125M outflow on May 29 (Fri close), after -$1.5B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nSPY +0.8% | QQQ +1.2% | VIX -2.7% | TLT +0.5% | DXY -0.1% | OIL -1.7%\nICSA: 215K (DOWN trend, +0.63z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — risk on extension\nSPY: $776.93-790.57 (+3-5%)\nQQQ: $771.58-791.54 (+5-7%)\nBTC: $77,325-80,659 (+5-9%)\n\n<b>SCENARIO B</b> — crypto led divergence\nBTC: $79,325-83,993 (+7-14%)\nTLT: $83.44-84.99 (-3 to -1%)\nQQQ: $718.35-731.66 (-3 to -1%)\n\n<b>SCENARIO C</b> — risk off rotation\nTLT: $88.08-89.62 (+3-5%)\nDXY: 99.83-101.62 (+1-3%)\nSPY: $736.03-742.85 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.6%, COPX +2.4%, ITA +2.1%, XLU -1.6%, XLP -2.0%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: FET +14.7%, BNB +12.3%, XMR -10.7%, EWY +3.8%, TKMS +3.8%, XLK +3.6%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$125M outflow on May 29 (Fri close) (IBIT -$68M, FBTC -$32M, BTC -$10M). Trailing 5-trading-day net: -$1.5B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): HYPE: $34M long / $147M short (net short $113M, -$36.7M PnL); BTC: $40M long / $45M short (flat, +$1.8M PnL); ETH: $30M long / $50M short (net short $20M, +$2.7M PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 451,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live.",
   "tradFiAsOf": "2026-05-29"
