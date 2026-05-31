@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/31/radar/",
+      "url": "https://agentcanary.ai/record/2026/05/31/radar/",
+      "title": "MACRO RADAR — May 31, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MACRO RADAR — May 31, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 51.4/100 (Elevated). Phase: EXPANSION. Composite Risk: 34",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MACRO RADAR — May 31, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 51.4/100 (Elevated). Phase: EXPANSION. Composite Risk: 34",
+      "date_published": "2026-05-31T03:15:00.000Z",
+      "tags": [
+        "MEDIUM",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-05-29"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/30/wrap/",
       "url": "https://agentcanary.ai/record/2026/05/30/wrap/",
       "title": "MARKET WRAP — May 30, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/18/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/18/radar/",
-      "title": "MACRO RADAR — May 18, 2026",
-      "content_text": "MACRO RADAR — May 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.5/100 (MODERATE). Geopolitical risk: 36/100 (MODERATE). Top: Middle East / Red Se",
-      "summary": "MACRO RADAR — May 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.5/100 (MODERATE). Geopolitical risk: 36/100 (MODERATE). Top: Middle East / Red Se",
-      "date_published": "2026-05-18T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
