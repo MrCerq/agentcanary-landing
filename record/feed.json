@@ -9,6 +9,22 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/05/31/pulse/",
+      "url": "https://agentcanary.ai/record/2026/05/31/pulse/",
+      "title": "MARKET PULSE — May 31, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET PULSE — May 31, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $74,084 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $75K ET",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET PULSE — May 31, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $74,084 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $75K ET",
+      "date_published": "2026-05-31T15:15:00.000Z",
+      "tags": [
+        "COMPILED"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-05-29"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/05/31/signal/",
       "url": "https://agentcanary.ai/record/2026/05/31/signal/",
       "title": "SIGNAL SCAN — May 31, 2026",
@@ -836,23 +852,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/18/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/18/wrap/",
-      "title": "MARKET WRAP — May 18, 2026",
-      "content_text": "MARKET WRAP — May 18, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Energy and defensive sectors captured institutional flows as crypto faced sustained selling pressure throughout the session. The rotation into utili",
-      "summary": "MARKET WRAP — May 18, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Energy and defensive sectors captured institutional flows as crypto faced sustained selling pressure throughout the session. The rotation into utili",
-      "date_published": "2026-05-18T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }

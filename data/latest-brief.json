@@ -1,10 +1,10 @@
 {
-  "session": "signal",
+  "session": "pulse",
   "date": "2026-05-31",
-  "time": "09:15 UTC",
-  "headline": "SIGNAL SCAN — May 31",
-  "headlineColor": "#60A5FA",
-  "desc": "compiled (41 atoms, validator=fail-soft-validator)",
+  "time": "15:15 UTC",
+  "headline": "MARKET PULSE — May 31",
+  "headlineColor": "#F87171",
+  "desc": "compiled (40 atoms, validator=pass)",
   "tags": [
     {
       "t": "COMPILED",
@@ -38,8 +38,8 @@
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live.</i>\n\n<b>SIGNAL SCAN</b> — May 31, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: atom not built for signal: macro. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $73,991, below $75K.\nBTC ETF flows: -$125M outflow on May 29 (Fri close), after -$1.5B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nSPY +0.8% | QQQ +1.2% | VIX -2.7% | TLT +0.5% | DXY -0.1% | OIL -1.7%\nICSA: 215K (DOWN trend, +0.63z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — risk on extension\nSPY: $776.93-790.57 (+3-5%)\nQQQ: $771.58-791.54 (+5-7%)\nBTC: $77,325-80,659 (+5-9%)\n\n<b>SCENARIO B</b> — crypto led divergence\nBTC: $79,325-83,993 (+7-14%)\nTLT: $83.44-84.99 (-3 to -1%)\nQQQ: $718.35-731.66 (-3 to -1%)\n\n<b>SCENARIO C</b> — risk off rotation\nTLT: $88.08-89.62 (+3-5%)\nDXY: 99.83-101.62 (+1-3%)\nSPY: $736.03-742.85 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.6%, COPX +2.4%, ITA +2.1%, XLU -1.6%, XLP -2.0%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: FET +14.7%, BNB +12.3%, XMR -10.7%, EWY +3.8%, TKMS +3.8%, XLK +3.6%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$125M outflow on May 29 (Fri close) (IBIT -$68M, FBTC -$32M, BTC -$10M). Trailing 5-trading-day net: -$1.5B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): HYPE: $34M long / $147M short (net short $113M, -$36.7M PnL); BTC: $40M long / $45M short (flat, +$1.8M PnL); ETH: $30M long / $50M short (net short $20M, +$2.7M PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 451,
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live.</i>\n\n<b>MARKET PULSE</b> — May 31, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $74,084 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $75K\nETH: $2,033 · (same)\nSOL: $83.12 · (same)\nCrypto sentiment: 28 (Fear, 7d avg 26).\n\n<b>STABLECOIN WHALES</b>\n• 129M USDC ($129M) — transferred from unknown wallet to #Aave\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• LAB: 565% net APR (0.2581% rate) · Long Bybit / Short Bitget · OI $61.7M · Spread +0.17%\n• ADA: 40% net APR (0.0364% rate) · Long Bybit / Short Binance · OI $63.4M · Spread -0.04%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $104.9B\nTop OI: BTC $54.5B · ETH $31.3B · SOL $5.3B · HYPE $3.3B · XRP $3.0B\nOI shifters (4h): PENDLE -5.5% · DYDX -5.5% · RENDER -4.5% · XLM +3.9% · IMX -2.9%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$125M outflow on May 29 (Fri close) (IBIT -$68M, FBTC -$32M, BTC -$10M). Trailing 5-trading-day net: -$1.5B outflow.\nBTC options — NEUTRAL: max pain $73,000 (1JUN26), P/C 0.63 OI / 0.94 vol, skew +2.9 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.2827% (12/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): HYPE: $34M long / $147M short (net short $113M, -$36.7M PnL); BTC: $40M long / $45M short (flat, +$1.8M PnL); ETH: $30M long / $50M short (net short $20M, +$2.7M PnL).\nLiquidations: 24h total $6.3M; latest 4h $319 (100% long / 0% short, 1L/0S events, long-dominant).\nETH stake APY 2.39% vs T-bill 3.60% (spread -1.21, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto institutional exodus accelerates [BTC, ETH, SUI]\n▲ AI valuation explosion continues [XLK, NVDA, MARA]\n▼ Middle East tensions escalate significantly [BRENT, XLE, VIX, GLD]\n\n<b>IMPLICATION</b>\nMid-session momentum favors risk assets with tech and cyclicals catching flows. Continued crypto outflows suggest institutional caution despite altcoin strength. Watch for defensive breakdown acceleration if growth rotation extends into the close. Consider fading defensive weakness on oversold conditions.\n\n<b>JSON</b>\n{\"btc\":73991,\"cryptoSentiment\":28}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live.",
   "tradFiAsOf": "2026-05-29"

@@ -13,7 +13,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
+      "pulse": {
+        "status": "partial",
+        "summary": "0 hit, 3 partial of 3",
+        "details": {
+          "hits": 0,
+          "partials": 3,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "BEAR_REGIME",
+              "dir": "down",
+              "actualDir": "flat",
+              "open": 73754.984375,
+              "close": 73495.6015625,
+              "pctChange": -0.35,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "SAME",
+              "dir": "flat",
+              "actualDir": "down",
+              "open": 2019.255859375,
+              "close": 2004.3699951171875,
+              "pctChange": -0.74,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "SAME",
+              "dir": "flat",
+              "actualDir": "down",
+              "open": 82.55268859863281,
+              "close": 81.62000274658203,
+              "pctChange": -1.13,
+              "result": "partial"
+            }
+          ]
+        }
+      },
       "wrap": null
     },
     "2026-05-30": {
@@ -7109,5 +7150,5 @@
       }
     }
   },
-  "lastScored": "2026-05-31T10:30:03.796Z"
+  "lastScored": "2026-05-31T16:30:03.676Z"
 }

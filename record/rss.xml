@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 10:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 16:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — May 31, 2026</title>
+      <link>https://agentcanary.ai/record/2026/05/31/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/31/pulse/</guid>
+      <pubDate>Sun, 31 May 2026 15:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET PULSE — May 31, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $74,084 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $75K ET</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — May 31, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/31/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/radar/</guid>
       <pubDate>Tue, 19 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 19, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 13.8/100 (Calm). Phase: OVERHEATING. Composite Risk: 28.7/100 (MODERATE). Geopolitical risk: 46/100 (MODERATE). Top: Middle East / Red Se</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 18, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/18/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/18/wrap/</guid>
-      <pubDate>Mon, 18 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 18, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Energy and defensive sectors captured institutional flows as crypto faced sustained selling pressure throughout the session. The rotation into utili</description>
     </item>
   </channel>
 </rss>
