@@ -13418,10 +13418,12 @@
       "rangeMax": 786.42,
       "impliedMove": "+3-5%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 758.08,
+      "actualLow": 749.23,
+      "actualClose": 756.48,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-28-A-QQQ",
@@ -13435,10 +13437,12 @@
       "rangeMax": 785.37,
       "impliedMove": "+5-8%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 741.63,
+      "actualLow": 726.41,
+      "actualClose": 738.31,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-28-A-BTC",
@@ -13452,10 +13456,12 @@
       "rangeMax": 81284,
       "impliedMove": "+5-10%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 74460.13,
+      "actualLow": 72435.63,
+      "actualClose": 73986.4,
+      "probability": 0.44,
+      "brier_score": 0.0036
     },
     {
       "id": "2026-05-28-B-BTC",
@@ -13469,10 +13475,12 @@
       "rangeMax": 84838,
       "impliedMove": "+8-14%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 74460.13,
+      "actualLow": 72435.63,
+      "actualClose": 73986.4,
+      "probability": 0.3,
+      "brier_score": 0.04
     },
     {
       "id": "2026-05-28-B-TLT",
@@ -13486,10 +13494,12 @@
       "rangeMax": 84.48,
       "impliedMove": "-3 to -1%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 85.96,
+      "actualLow": 85.27,
+      "actualClose": 85.76,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-28-B-QQQ",
@@ -13503,10 +13513,12 @@
       "rangeMax": 722.46,
       "impliedMove": "-3 to -1%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 741.63,
+      "actualLow": 726.41,
+      "actualClose": 738.31,
+      "probability": 0.3,
+      "brier_score": 0.09
     },
     {
       "id": "2026-05-28-C-TLT",
@@ -13520,10 +13532,12 @@
       "rangeMax": 89.39,
       "impliedMove": "+3-5%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "partial",
+      "actualHigh": 85.96,
+      "actualLow": 85.27,
+      "actualClose": 85.76,
+      "probability": 0.26,
+      "brier_score": 0.0576
     },
     {
       "id": "2026-05-28-C-DXY",
@@ -13537,10 +13551,12 @@
       "rangeMax": 102.21,
       "impliedMove": "+1-3%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 99.54,
+      "actualLow": 98.75,
+      "actualClose": 98.91,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-28-C-SPY",
@@ -13554,10 +13570,12 @@
       "rangeMax": 736.08,
       "impliedMove": "-3 to -2%",
       "scoreDate": "2026-05-31",
-      "result": "pending",
-      "actualHigh": null,
-      "actualLow": null,
-      "actualClose": null
+      "result": "miss",
+      "actualHigh": 758.08,
+      "actualLow": 749.23,
+      "actualClose": 756.48,
+      "probability": 0.26,
+      "brier_score": 0.0676
     },
     {
       "id": "2026-05-29-A-SPY",
@@ -13866,5 +13884,5 @@
       "actualClose": null
     }
   ],
-  "lastScored": "2026-05-30T22:30:03.173Z"
+  "lastScored": "2026-05-31T01:30:04.242Z"
 }
