@@ -1,10 +1,10 @@
 {
-  "session": "radar",
+  "session": "signal",
   "date": "2026-06-01",
-  "time": "03:15 UTC",
-  "headline": "MACRO RADAR — Jun 1",
-  "headlineColor": "#FB923C",
-  "desc": "compiled (37 atoms, validator=fail-soft-validator)",
+  "time": "09:15 UTC",
+  "headline": "SIGNAL SCAN — Jun 1",
+  "headlineColor": "#60A5FA",
+  "desc": "compiled (39 atoms, validator=fail-soft-validator)",
   "tags": [
     {
       "t": "COMPILED",
@@ -38,8 +38,8 @@
       ]
     }
   ],
-  "telegramText": "<b>MACRO RADAR</b> — Jun 1, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: atom not built for radar: macro. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $73,683, below $75K.\nBTC ETF flows (Fri close, 1 trading day old): -$125M outflow.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Fri close, crypto live.</i>\nSPY +0.8% | QQQ +1.2% | VIX -2.7% | TLT +0.5% | DXY +0.1% | OIL +2.5%\nICSA: 215K (DOWN trend, +0.63z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — risk on extension\nSPY: $776.93-790.57 (+3-5%)\nQQQ: $771.58-791.54 (+5-7%)\nBTC: $77,003-80,323 (+5-9%)\n\n<b>SCENARIO B</b> — crypto led divergence\nBTC: $78,995-83,643 (+7-14%)\nTLT: $83.44-84.99 (-3 to -1%)\nQQQ: $718.35-731.66 (-3 to -1%)\n\n<b>SCENARIO C</b> — risk off rotation\nTLT: $88.08-89.62 (+3-5%)\nDXY: 99.95-101.73 (+1-3%)\nSPY: $736.03-742.85 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.6%, COPX +2.4%, ITA +2.1%, XLU -1.6%, XLP -2.0%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: TON +6.0%, ICP +6.0%, HYPE +5.5%, EWY +3.8%, TKMS +3.8%, XLK +3.6%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported) (Fri close, 1 trading day old): -$125M outflow (IBIT -$68M, FBTC -$32M, BTC -$10M).\nWhale positioning (Hyperliquid, top 3 by notional): HYPE: $60M long / $60M short (flat, +$516K PnL); ETH: $17M long / $67M short (net short $50M, +$4.3M PnL); BTC: $23M long / $33M short (net short $10M, -$571K PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 453,
+  "telegramText": "<b>SIGNAL SCAN</b> — Jun 1, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: atom not built for signal: macro. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $73,683, below $75K.\nBTC ETF flows: -$125M outflow on Jun 1 (Mon close), after -$1.5B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Fri close, crypto live.</i>\nSPY +0.8% | QQQ +1.2% | VIX -2.7% | TLT +0.5% | DXY +0.1% | OIL +2.5%\nICSA: 215K (DOWN trend, +0.63z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — risk on extension\nSPY: $776.93-790.57 (+3-5%)\nQQQ: $771.58-791.54 (+5-7%)\nBTC: $77,003-80,323 (+5-9%)\n\n<b>SCENARIO B</b> — crypto led divergence\nBTC: $78,995-83,643 (+7-14%)\nTLT: $83.44-84.99 (-3 to -1%)\nQQQ: $718.35-731.66 (-3 to -1%)\n\n<b>SCENARIO C</b> — risk off rotation\nTLT: $88.08-89.62 (+3-5%)\nDXY: 99.95-101.73 (+1-3%)\nSPY: $736.03-742.85 (-3 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLK +3.6%, COPX +2.4%, ITA +2.1%, XLU -1.6%, XLP -2.0%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: TON +6.0%, ICP +6.0%, HYPE +5.5%, EWY +3.8%, TKMS +3.8%, XLK +3.6%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$125M outflow on Jun 1 (Mon close) (IBIT -$68M, FBTC -$32M, BTC -$10M). Trailing 5-trading-day net: -$1.5B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): HYPE: $60M long / $60M short (flat, +$516K PnL); ETH: $17M long / $67M short (net short $50M, +$4.3M PnL); BTC: $23M long / $33M short (net short $10M, -$571K PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 454,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null

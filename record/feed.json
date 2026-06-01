@@ -9,6 +9,22 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/01/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/01/signal/",
+      "title": "SIGNAL SCAN — June 1, 2026",
+      "content_text": "SIGNAL SCAN — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for signal: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $73,683, below $75K. BTC ETF flows: -$125M outflow on Jun 1 (Mon close),",
+      "summary": "SIGNAL SCAN — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for signal: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $73,683, below $75K. BTC ETF flows: -$125M outflow on Jun 1 (Mon close),",
+      "date_published": "2026-06-01T09:15:00.000Z",
+      "tags": [
+        "COMPILED"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/01/radar/",
       "url": "https://agentcanary.ai/record/2026/06/01/radar/",
       "title": "MACRO RADAR — June 1, 2026",
@@ -833,23 +849,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/19/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/19/pulse/",
-      "title": "MARKET PULSE — May 19, 2026",
-      "content_text": "SIGNAL SCAN — May 19, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet narrative. BTC at $76,553, above $75K. BTC ETF flows: -$649M outflow on May 19 (Tue",
-      "summary": "SIGNAL SCAN — May 19, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet narrative. BTC at $76,553, above $75K. BTC ETF flows: -$649M outflow on May 19 (Tue",
-      "date_published": "2026-05-19T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
