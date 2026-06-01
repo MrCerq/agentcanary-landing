@@ -47,7 +47,10 @@
           ]
         }
       },
-      "wrap": null
+      "wrap": {
+        "status": "no_data",
+        "summary": "Could not extract wrap regime framing"
+      }
     },
     "2026-05-31": {
       "radar": {
@@ -7202,5 +7205,5 @@
       }
     }
   },
-  "lastScored": "2026-06-01T19:30:03.673Z"
+  "lastScored": "2026-06-01T22:30:03.599Z"
 }

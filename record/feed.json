@@ -9,6 +9,22 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/01/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/01/wrap/",
+      "title": "MARKET WRAP — June 1, 2026",
+      "content_text": "MARKET WRAP — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for wrap: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $71,358, above $70K. BTC ETF flows: -$125M outflow on Jun 1 (Mon close), a",
+      "summary": "MARKET WRAP — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for wrap: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $71,358, above $70K. BTC ETF flows: -$125M outflow on Jun 1 (Mon close), a",
+      "date_published": "2026-06-01T21:15:00.000Z",
+      "tags": [
+        "COMPILED"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/01/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/01/pulse/",
       "title": "MARKET PULSE — June 1, 2026",
@@ -831,23 +847,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/20/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/20/radar/",
-      "title": "MACRO RADAR — May 20, 2026",
-      "content_text": "MACRO RADAR — May 20, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: OVERHEATING. Composite Risk: 45.4/100 (ELEVATED). Geopolitical risk: 44/100 (MODERATE). Top: Middle East / R",
-      "summary": "MACRO RADAR — May 20, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: OVERHEATING. Composite Risk: 45.4/100 (ELEVATED). Geopolitical risk: 44/100 (MODERATE). Top: Middle East / R",
-      "date_published": "2026-05-20T03:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
