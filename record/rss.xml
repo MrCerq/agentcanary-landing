@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 01:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 04:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — June 1, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/01/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/01/radar/</guid>
+      <pubDate>Mon, 01 Jun 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for radar: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $73,683, below $75K. BTC ETF flows (Fri close, 1 trading day old): -$125M</description>
+    </item>
     <item>
       <title>MARKET WRAP — May 31, 2026</title>
       <link>https://agentcanary.ai/record/2026/05/31/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/pulse/</guid>
       <pubDate>Tue, 19 May 2026 15:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 19, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet narrative. BTC at $76,553, above $75K. BTC ETF flows: -$649M outflow on May 19 (Tue</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — May 19, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/19/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/signal/</guid>
-      <pubDate>Tue, 19 May 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — May 19, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation underway as metals and semiconductors face heavy selling pressure while defensives catch a bid. Energy leading the charge higher amid bro</description>
     </item>
   </channel>
 </rss>

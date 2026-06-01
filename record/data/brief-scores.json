@@ -1,9 +1,17 @@
 {
   "scores": {
+    "2026-06-01": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
     "2026-05-31": {
       "radar": {
-        "status": "pending",
-        "summary": "Regime EXPANSION called — awaiting next radar",
+        "status": "no_data",
+        "summary": "Next-day radar unparseable",
         "details": {
           "morning": {
             "phase": "EXPANSION",
@@ -7153,5 +7161,5 @@
       }
     }
   },
-  "lastScored": "2026-06-01T01:30:03.783Z"
+  "lastScored": "2026-06-01T04:30:03.784Z"
 }

@@ -3,10 +3,13 @@
   <url><loc>https://agentcanary.ai/</loc><priority>1.0</priority></url>
   <url><loc>https://agentcanary.ai/record/</loc><priority>1.0</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/</loc><priority>0.7</priority></url>
+  <url><loc>https://agentcanary.ai/record/2026/06/</loc><priority>0.6</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/05/</loc><priority>0.6</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/04/</loc><priority>0.6</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/03/</loc><priority>0.6</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/02/</loc><priority>0.6</priority></url>
+  <url><loc>https://agentcanary.ai/record/2026/06/01/</loc><priority>0.8</priority></url>
+  <url><loc>https://agentcanary.ai/record/2026/06/01/radar/</loc><priority>0.7</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/05/31/</loc><priority>0.8</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/05/31/wrap/</loc><priority>0.7</priority></url>
   <url><loc>https://agentcanary.ai/record/2026/05/31/pulse/</loc><priority>0.7</priority></url>
