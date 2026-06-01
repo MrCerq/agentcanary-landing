@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 10:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 16:30:32 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 1, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/01/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/01/pulse/</guid>
+      <pubDate>Mon, 01 Jun 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — Jun 1, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,649 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $2,007 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade SOL: $82.51 — 1d:ACCUMULATION · 4h:BEAR_R</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 1, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/01/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/20/radar/</guid>
       <pubDate>Wed, 20 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 20, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: OVERHEATING. Composite Risk: 45.4/100 (ELEVATED). Geopolitical risk: 44/100 (MODERATE). Top: Middle East / R</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 19, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/19/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/19/wrap/</guid>
-      <pubDate>Tue, 19 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 19, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with defensive rotation dominating despite surface-level strength in select risk assets. Energy and staples bid while commodities cra</description>
     </item>
   </channel>
 </rss>

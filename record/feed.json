@@ -9,6 +9,22 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/01/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/01/pulse/",
+      "title": "MARKET PULSE — June 1, 2026",
+      "content_text": "MARKET PULSE — Jun 1, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,649 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $2,007 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade SOL: $82.51 — 1d:ACCUMULATION · 4h:BEAR_R",
+      "summary": "MARKET PULSE — Jun 1, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,649 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $2,007 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade SOL: $82.51 — 1d:ACCUMULATION · 4h:BEAR_R",
+      "date_published": "2026-06-01T15:15:00.000Z",
+      "tags": [
+        "COMPILED"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/01/signal/",
       "url": "https://agentcanary.ai/record/2026/06/01/signal/",
       "title": "SIGNAL SCAN — June 1, 2026",
@@ -832,23 +848,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/19/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/19/wrap/",
-      "title": "MARKET WRAP — May 19, 2026",
-      "content_text": "MARKET WRAP — May 19, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with defensive rotation dominating despite surface-level strength in select risk assets. Energy and staples bid while commodities cra",
-      "summary": "MARKET WRAP — May 19, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with defensive rotation dominating despite surface-level strength in select risk assets. Energy and staples bid while commodities cra",
-      "date_published": "2026-05-19T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
