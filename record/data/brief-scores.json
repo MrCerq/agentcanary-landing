@@ -47,7 +47,17 @@
           ]
         }
       },
-      "wrap": null
+      "wrap": {
+        "status": "pending",
+        "summary": "Wrap framed EXPANSION — awaiting next-day open",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": 43.3,
+            "riskLabel": "Elevated"
+          }
+        }
+      }
     },
     "2026-06-01": {
       "radar": {
@@ -7254,5 +7264,5 @@
       }
     }
   },
-  "lastScored": "2026-06-02T19:30:04.640Z"
+  "lastScored": "2026-06-02T22:30:03.820Z"
 }

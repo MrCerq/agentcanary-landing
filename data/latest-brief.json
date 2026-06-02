@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-02",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 2",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 2",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 43/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "TKMS",
-          "v": "-8.8%",
-          "c": "red"
-        },
-        {
-          "k": "EWY",
-          "v": "+5.0%",
+          "k": "MRVL",
+          "v": "+32.8%",
           "c": "green"
         },
         {
-          "k": "VIX",
-          "v": "+4.8%",
+          "k": "STM",
+          "v": "+15.7%",
           "c": "green"
         },
         {
-          "k": "XLK",
-          "v": "+4.8%",
+          "k": "ENPH",
+          "v": "+13.3%",
+          "c": "green"
+        },
+        {
+          "k": "ALAB",
+          "v": "+11.4%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 2, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $70,844 — 1d:RISK_OFF · 4h:RISK_OFF · above $70K\nETH: $2,001 · (same)\nSOL: $80.83 · (same)\nCrypto sentiment: 23 (Extreme Fear, 7d avg 25).\n\n<b>WHALE ALERTS</b>\n• 1,158 BTC ($82.9M) — transferred from #Kraken to unknown wallet\n• 1,000 BTC ($71.1M) — transferred from #Bitfinex to #Kraken\n• 774 BTC ($55.4M) — transferred from #Kraken to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 235M USDC ($235M) — transferred from unknown wallet to #Coinbase\n• 195M USDC ($196M) — transferred from unknown wallet to #Coinbase\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• ZEC: 400% net APR (0.3655% rate) · Long Bybit / Short OKX · OI $62.5M · Spread +0.22%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $104.7B\nTop OI: BTC $54.0B · ETH $31.5B · SOL $5.4B · HYPE $3.4B · XRP $2.9B\nOI shifters (4h): RENDER +4.9% · EIGEN +4.3% · NEAR +4.1% · XLM -3.9% · OP -3.6%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$484M outflow on Jun 2 (Tue close) (IBIT -$440M, FBTC -$37M, ARKB -$12M). Trailing 5-trading-day net: -$1.9B outflow.\nBTC options — BEARISH: max pain $74,000 (5JUN26), P/C 0.62 OI / 0.52 vol, put skew +31.1 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.7396% (19/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $17M long / $94M short (net short $77M, +$5.3M PnL); HYPE: $28M long / $81M short (net short $53M, -$9.8M PnL); BTC: $30M long / $63M short (net short $33M, +$2.7M PnL).\nLiquidations: 24h total $275.5M; latest 4h $193K (0% long / 100% short, 0L/49S events, short-dominant).\nETH stake APY 2.39% vs T-bill 3.60% (spread -1.21, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto Market Stress [BTC, TON, DOGE, XRP]\n▼ Global Inflation Resurgence [GLD, TLT, USD]\n▼ Geopolitical Escalation [XLE, GLD, VIX]\n\n<b>IMPLICATION</b>\nMid-session flow favors growth over defensives with tech momentum building. Crypto institutional selling pressure continues weighing on digital assets. Watch for defensive rotation to persist if risk-on appetite holds into close. Position tactically long growth themes while fading utility strength.\n\n<b>JSON</b>\n{\"btc\":70711,\"cryptoSentiment\":23,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 459,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 2, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nCommodities and semiconductors drove today's risk-on session as markets rotated decisively away from defensive positioning into cyclical exposure. Materials strength alongside chip momentum signals broader industrial recovery narrative taking hold. Tomorrow's focus shifts to whether this cyclical bid can sustain momentum or defensive sectors find footing.\n\n<b>CLOSING PRICES</b>\nSPY +0.4% | QQQ +1.1% | VIX -1.7% | TLT -0.1% | DXY flat | OIL +1.4%\n\n<b>vs MORNING</b>\nSPY -0.1% | QQQ +0.1% | VIX -6.5% | TLT +0.2% | DXY flat | OIL +1.8%\n\n<b>EVENING NEWS</b>\n▼ Bitcoin Price Falls Below $67K as Weekly Losses Top 11%: Can Bulls Reclaim Control?\n▲ Short-Sellers Are Dug In as Bond Market Faces Big Payrolls Test\n▲ NewLimit triples valuation to $3B with $435M funding round\n▲ Binance maintains dominance as crypto derivatives slump to 12-month low\n▲ Bitcoin hit by largest 2026 outflow; crypto weekly ETF report under pressure\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 43.3/100 (Elevated). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +6.3%, SMH +5.6%, URA +5.2%, ITA -3.0%, XBI -6.5%.\nSector dispersion: 72 (EXTREME, breadth MIXED), 38% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[AUS] GDP(QoQ)(Q1) (+1 variants) — Jun 3 01:30 UTC (prev: 0.8%)\n[EU] Producer Price Index (MoM)(Apr) (+1 variants) — Jun 3 09:00 UTC (prev: 3.4%)\n[SWI] Consumer Price Index (MoM)(May) (+2 variants) — Jun 4 06:30 UTC (prev: 0.3%)\n[SWI] Seasonally adjusted unemployment rate(May) — Jun 4 07:00 UTC (prev: 3.0%)\n[SWI] Unseasonally adjusted unemployment rate(May) — Jun 4 07:00 UTC (prev: 3.0%)\n[EU] Retail Sales (MoM)(Apr) (+2 variants) — Jun 4 09:00 UTC (prev: -0.1%)\n\n<b>CONTRARIAN</b>\n• SOXX +6.3% rally may be late-cycle euphoria rather than sustainable AI demand, especially with crypto tech proxies selling off\n• XBI -6.5% biotech crash could signal oversold conditions ahead of potential FDA approvals and M&A activity in Q3\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":43.3,\"sectorDispersion\":72,\"breadth\":\"MIXED\",\"topSector\":\"COPX\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 460,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
