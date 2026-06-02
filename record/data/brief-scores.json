@@ -5,7 +5,48 @@
         "status": "no_data",
         "summary": "Could not parse radar regime call"
       },
-      "pulse": null,
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 2 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 2,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "RISK_OFF",
+              "dir": "down",
+              "actualDir": "down",
+              "open": 71320.4921875,
+              "close": 67728.0390625,
+              "pctChange": -5.04,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "SAME",
+              "dir": "flat",
+              "actualDir": "down",
+              "open": 2003.77685546875,
+              "close": 1926.97998046875,
+              "pctChange": -3.83,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "SAME",
+              "dir": "flat",
+              "actualDir": "down",
+              "open": 81.10143280029297,
+              "close": 77.11000061035156,
+              "pctChange": -4.92,
+              "result": "partial"
+            }
+          ]
+        }
+      },
       "wrap": null
     },
     "2026-06-01": {
@@ -7213,5 +7254,5 @@
       }
     }
   },
-  "lastScored": "2026-06-02T10:30:03.693Z"
+  "lastScored": "2026-06-02T16:30:03.721Z"
 }

@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/02/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/02/pulse/",
+      "title": "MARKET PULSE — June 2, 2026",
+      "content_text": "MARKET PULSE — Jun 2, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $70,844 — 1d:RISK_OFF · 4h:RISK_OFF · above $70K ETH: $2,001 · (same) SOL: $80.83 · (same) Crypto sentiment: 23 (Extreme Fear, 7d avg 25). WHALE ALERTS",
+      "summary": "MARKET PULSE — Jun 2, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $70,844 — 1d:RISK_OFF · 4h:RISK_OFF · above $70K ETH: $2,001 · (same) SOL: $80.83 · (same) Crypto sentiment: 23 (Extreme Fear, 7d avg 25). WHALE ALERTS",
+      "date_published": "2026-06-02T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/02/signal/",
       "url": "https://agentcanary.ai/record/2026/06/02/signal/",
       "title": "SIGNAL SCAN — June 2, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/21/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/21/radar/",
-      "title": "MACRO RADAR — May 21, 2026",
-      "content_text": "MACRO RADAR — May 21, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk: 44.6/100 (MODERATE). Geopolitical risk: 37/100 (MODERATE). Top: Middle East / Red",
-      "summary": "MACRO RADAR — May 21, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk: 44.6/100 (MODERATE). Geopolitical risk: 37/100 (MODERATE). Top: Middle East / Red",
-      "date_published": "2026-05-21T03:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
