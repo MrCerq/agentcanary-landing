@@ -9,6 +9,22 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/02/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/02/radar/",
+      "title": "MACRO RADAR — June 2, 2026",
+      "content_text": "MACRO RADAR — Jun 2, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for radar: macro; implication slot word count 18 outside acceptable 20-100 range. Showing deterministic facts only — no Sonnet narrative. BTC at $70,711,",
+      "summary": "MACRO RADAR — Jun 2, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for radar: macro; implication slot word count 18 outside acceptable 20-100 range. Showing deterministic facts only — no Sonnet narrative. BTC at $70,711,",
+      "date_published": "2026-06-02T03:15:00.000Z",
+      "tags": [
+        "COMPILED"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/01/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/01/wrap/",
       "title": "MARKET WRAP — June 1, 2026",
@@ -830,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/20/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/20/signal/",
-      "title": "SIGNAL SCAN — May 20, 2026",
-      "content_text": "SIGNAL SCAN — May 20, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Energy leading defensive rotation amid mixed cross-asset flow, as crypto faces institutional outflows while metals pull back from recent strength. Risk app",
-      "summary": "SIGNAL SCAN — May 20, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Energy leading defensive rotation amid mixed cross-asset flow, as crypto faces institutional outflows while metals pull back from recent strength. Risk app",
-      "date_published": "2026-05-20T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }

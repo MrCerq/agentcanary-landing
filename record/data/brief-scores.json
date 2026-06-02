@@ -1,5 +1,13 @@
 {
   "scores": {
+    "2026-06-02": {
+      "radar": {
+        "status": "no_data",
+        "summary": "Could not parse radar regime call"
+      },
+      "pulse": null,
+      "wrap": null
+    },
     "2026-06-01": {
       "radar": {
         "status": "no_data",
@@ -7205,5 +7213,5 @@
       }
     }
   },
-  "lastScored": "2026-06-02T01:30:03.889Z"
+  "lastScored": "2026-06-02T04:30:03.261Z"
 }
