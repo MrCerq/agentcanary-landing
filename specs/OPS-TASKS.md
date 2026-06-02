@@ -36,6 +36,8 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 | C3 | **Legacy yahoo-quotes filename + Mongo type removal** | ⏸ deferred | Producer still dual-writes (market-quotes.json canonical + yahoo-quotes.json transition alias). After consumer verification window (~1 week), remove dual-write from yahoo-snapshot.js + drop yahoo-quotes from registries. |
 | C4 | **Test files referencing yahoo-quotes.json** | ⏸ deferred | tests/sector.test.js, forward-scenarios.test.js, key-prices.test.js, overnight-movers.test.js, movers.test.js have old filename in fixtures. Update when running test suite next. |
 
+| C5 | **ac-compute file ownership cleanup** | ⏳ pending | 105 files owned by `501:staff` (macOS uid/gid from original rsync). Mixed with 92 root:root. Not blocking but grimy. `chown -R root:root /root/ac-compute` after backup. Concentrated in `_legacy/`, `landing/`, root docs. Do in dedicated session — don't mix with code commits. |
+
 ## P3 — blocked / deferred / skipped
 
 | # | Task | Status | Reason |
