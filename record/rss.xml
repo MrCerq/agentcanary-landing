@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2026 04:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 10:30:30 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 2, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/02/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/02/signal/</guid>
+      <pubDate>Tue, 02 Jun 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — Jun 2, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech sector leads a sharp risk-on rotation as volatility spikes paradoxically alongside equity strength. Defensives under pressure while growth themes regai</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 2, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/02/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/21/radar/</guid>
       <pubDate>Thu, 21 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 21, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk: 44.6/100 (MODERATE). Geopolitical risk: 37/100 (MODERATE). Top: Middle East / Red</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 20, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/20/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/20/wrap/</guid>
-      <pubDate>Wed, 20 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 20, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Risk appetite returned with tech and biotech leading a selective growth rotation while traditional energy lagged. Semiconductor strength anchored th</description>
     </item>
   </channel>
 </rss>

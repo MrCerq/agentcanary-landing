@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/02/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/02/signal/",
+      "title": "SIGNAL SCAN — June 2, 2026",
+      "content_text": "SIGNAL SCAN — Jun 2, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech sector leads a sharp risk-on rotation as volatility spikes paradoxically alongside equity strength. Defensives under pressure while growth themes regai",
+      "summary": "SIGNAL SCAN — Jun 2, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech sector leads a sharp risk-on rotation as volatility spikes paradoxically alongside equity strength. Defensives under pressure while growth themes regai",
+      "date_published": "2026-06-02T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/02/radar/",
       "url": "https://agentcanary.ai/record/2026/06/02/radar/",
       "title": "MACRO RADAR — June 2, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/20/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/20/wrap/",
-      "title": "MARKET WRAP — May 20, 2026",
-      "content_text": "MARKET WRAP — May 20, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Risk appetite returned with tech and biotech leading a selective growth rotation while traditional energy lagged. Semiconductor strength anchored th",
-      "summary": "MARKET WRAP — May 20, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Risk appetite returned with tech and biotech leading a selective growth rotation while traditional energy lagged. Semiconductor strength anchored th",
-      "date_published": "2026-05-20T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "OVERHEATING"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
