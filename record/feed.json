@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/03/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/03/wrap/",
+      "title": "MARKET WRAP — June 3, 2026",
+      "content_text": "MARKET WRAP — Jun 3, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with a clear divergence story as traditional growth sectors outperformed while crypto assets faced heavy selling. The semiconductor su",
+      "summary": "MARKET WRAP — Jun 3, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with a clear divergence story as traditional growth sectors outperformed while crypto assets faced heavy selling. The semiconductor su",
+      "date_published": "2026-06-03T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/03/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/03/pulse/",
       "title": "MARKET PULSE — June 3, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/22/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/22/signal/",
-      "title": "SIGNAL SCAN — May 22, 2026",
-      "content_text": "SIGNAL SCAN — May 22, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on rotation accelerating across cyclicals, with tech and copper leading the charge while defensive staples and energy lag. Cross-asset momentum sugges",
-      "summary": "SIGNAL SCAN — May 22, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on rotation accelerating across cyclicals, with tech and copper leading the charge while defensive staples and energy lag. Cross-asset momentum sugges",
-      "date_published": "2026-05-22T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }

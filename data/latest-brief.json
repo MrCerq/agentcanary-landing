@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-03",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 3",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 3",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 35/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "TKMS",
-          "v": "-7.9%",
-          "c": "red"
+          "k": "BITF",
+          "v": "+45.2%",
+          "c": "green"
         },
         {
           "k": "BCH",
-          "v": "-7.2%",
+          "v": "-14.7%",
           "c": "red"
         },
         {
-          "k": "XBI",
-          "v": "-6.5%",
+          "k": "ONDS",
+          "v": "-14.4%",
           "c": "red"
         },
         {
-          "k": "SOXX",
-          "v": "+6.3%",
-          "c": "green"
+          "k": "OKLO",
+          "v": "-11.2%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $65,748 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · above $65K\nETH: $1,826 · (same)\nSOL: $72.73 · (same)\nCrypto sentiment: 11 (Extreme Fear, 7d avg 23) (falling).\n\n<b>WHALE ALERTS</b>\n• 2,060 BTC ($139.1M) — transferred from Coinbase Institutional to unknown wallet\n• 1,832 BTC ($123.8M) — transferred from #Okex to unknown wallet\n• 1,029 BTC ($69.4M) — transferred from unknown wallet to Coinbase Institutional\n\n<b>STABLECOIN WHALES</b>\n• 346M USDT ($346M) — transferred from #Kraken to unknown wallet\n• 346M USDT ($345M) — transferred from unknown wallet to #Bitfinex\n• 331M USDT ($331M) — transferred from #Bitfinex to #Kraken\n\n<b>OPEN INTEREST</b>\nTotal OI (top 42 perps): $97.9B\nTop OI: BTC $52.3B · ETH $28.0B · SOL $5.0B · HYPE $3.2B · XRP $2.6B\nOI shifters (4h): SHIB +7.2% · RENDER +5.3% · NEAR +4.9% · INJ -3.8% · XLM -3.7%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$519M outflow on Jun 3 (Wed close) (IBIT -$389M, GBTC -$84M, FBTC -$45M). Trailing 5-trading-day net: -$2.1B outflow.\nBTC options — BEARISH: max pain $72,000 (5JUN26), P/C 0.62 OI / 1.1 vol, put skew +33.7 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.4727% (18/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $73M long / $74M short (flat, -$4.3M PnL); HYPE: $27M long / $36M short (net short $9M, -$1.3M PnL); ETH: $9M long / $32M short (net short $23M, +$2.2M PnL).\nLiquidations: 24h total $725.1M; latest 4h $4.9M (99.3% long / 0.7% short, 342L/10S events, long-dominant).\nETH stake APY 2.41% vs T-bill 0.00% (spread +2.41, STAKING_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto Market Collapse [BTC, ETH, XRP, COIN]\n▼ Middle East Escalation [CRUDE, GOLD, JPY, KRW]\n▲ Semiconductor Revival [NVDA, SOXX, SMH, AVGO]\n\n<b>IMPLICATION</b>\nStrong cyclical momentum suggests positioning for growth reflation continues. Semiconductor strength and metals rotation signal risk-on appetite, while biotech weakness confirms defensive rotation. Watch for continuation into close as flows favor growth cyclicals over defensives.\n\n<b>JSON</b>\n{\"btc\":66541,\"cryptoSentiment\":11,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 463,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets closed with a clear divergence story as traditional growth sectors outperformed while crypto assets faced heavy selling. The semiconductor surge alongside utility strength suggests investors favoring quality over speculative plays. Tomorrow's focus turns to whether this rotation has legs or represents temporary repositioning ahead of key economic data.\n\n<b>CLOSING PRICES</b>\nSPY -0.6% | QQQ +0.2% | VIX +1.8% | TLT -0.2% | DXY +0.3% | OIL +2.8%\n\n<b>vs MORNING</b>\nSPY -1.0% | QQQ -0.9% | VIX +3.6% | TLT -0.1% | DXY +0.3% | OIL flat\n\n<b>EVENING NEWS</b>\n▼ US asset managers decline as investors await private credit fund updates\n▲ S&P 500 set to snap 9-day win streak as stocks fall on geopolitical fears\n▲ Trump promises Strait of Hormuz reopening with Iran deal signing\n▲ Ethereum’s Multi-Year Support Test Could Shape Its Next Big Move\n▼ Bitcoin Price Crashes to Precarious Position Near $65,000 as Momentum Rotates Into AI, IPOs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 35.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +5.0%, XLE +2.5%, XLU +1.4%, XBI -2.8%, XLC -3.0%.\nSector dispersion: 73 (EXTREME, breadth MIXED), 44% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SWI] Consumer Price Index (MoM)(May) (+2 variants) — Jun 4 06:30 UTC (prev: 0.3%)\n[SWI] Seasonally adjusted unemployment rate(May) — Jun 4 07:00 UTC (prev: 3.0%)\n[SWI] Unseasonally adjusted unemployment rate(May) (+1 variants) — Jun 4 07:00 UTC (prev: 3.0%)\n[EU] Retail Sales (MoM)(Apr) (+2 variants) — Jun 4 09:00 UTC (prev: -0.1%)\n[GER] Actual Retail Sales (YoY)(Apr) — Jun 4 16:05 UTC (prev: -2.0%)\n[ITA] Retail Sales (YoY)(Apr) — Jun 4 16:05 UTC (prev: 3.7%)\n\n<b>CONTRARIAN</b>\n• WPP's -5.6% decline may be overdone if AI displacement fears are premature and traditional advertising still has pricing power in a recovering consumer environment\n• The crypto crash could mark a healthy reset rather than a bear market beginning, especially if institutional adoption continues through corporate treasury additions like Hyperscale Data's BTC purchas…\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":35.1,\"sectorDispersion\":73,\"breadth\":\"MIXED\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 464,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
