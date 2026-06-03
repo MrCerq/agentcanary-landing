@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-02",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 2",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 43/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-03",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 3",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 35/100 · 6 movers",
   "tags": [
     {
       "t": "LOW",
@@ -19,37 +19,37 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 43
+        "value": 35
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "MRVL",
-          "v": "+32.8%",
-          "c": "green"
+          "k": "TKMS",
+          "v": "-7.9%",
+          "c": "red"
         },
         {
-          "k": "STM",
-          "v": "+15.7%",
-          "c": "green"
+          "k": "BCH",
+          "v": "-7.2%",
+          "c": "red"
         },
         {
-          "k": "ENPH",
-          "v": "+13.3%",
-          "c": "green"
+          "k": "XBI",
+          "v": "-6.5%",
+          "c": "red"
         },
         {
-          "k": "ALAB",
-          "v": "+11.4%",
+          "k": "SOXX",
+          "v": "+6.3%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 2, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nCommodities and semiconductors drove today's risk-on session as markets rotated decisively away from defensive positioning into cyclical exposure. Materials strength alongside chip momentum signals broader industrial recovery narrative taking hold. Tomorrow's focus shifts to whether this cyclical bid can sustain momentum or defensive sectors find footing.\n\n<b>CLOSING PRICES</b>\nSPY +0.4% | QQQ +1.1% | VIX -1.7% | TLT -0.1% | DXY flat | OIL +1.4%\n\n<b>vs MORNING</b>\nSPY -0.1% | QQQ +0.1% | VIX -6.5% | TLT +0.2% | DXY flat | OIL +1.8%\n\n<b>EVENING NEWS</b>\n▼ Bitcoin Price Falls Below $67K as Weekly Losses Top 11%: Can Bulls Reclaim Control?\n▲ Short-Sellers Are Dug In as Bond Market Faces Big Payrolls Test\n▲ NewLimit triples valuation to $3B with $435M funding round\n▲ Binance maintains dominance as crypto derivatives slump to 12-month low\n▲ Bitcoin hit by largest 2026 outflow; crypto weekly ETF report under pressure\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 43.3/100 (Elevated). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +6.3%, SMH +5.6%, URA +5.2%, ITA -3.0%, XBI -6.5%.\nSector dispersion: 72 (EXTREME, breadth MIXED), 38% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[AUS] GDP(QoQ)(Q1) (+1 variants) — Jun 3 01:30 UTC (prev: 0.8%)\n[EU] Producer Price Index (MoM)(Apr) (+1 variants) — Jun 3 09:00 UTC (prev: 3.4%)\n[SWI] Consumer Price Index (MoM)(May) (+2 variants) — Jun 4 06:30 UTC (prev: 0.3%)\n[SWI] Seasonally adjusted unemployment rate(May) — Jun 4 07:00 UTC (prev: 3.0%)\n[SWI] Unseasonally adjusted unemployment rate(May) — Jun 4 07:00 UTC (prev: 3.0%)\n[EU] Retail Sales (MoM)(Apr) (+2 variants) — Jun 4 09:00 UTC (prev: -0.1%)\n\n<b>CONTRARIAN</b>\n• SOXX +6.3% rally may be late-cycle euphoria rather than sustainable AI demand, especially with crypto tech proxies selling off\n• XBI -6.5% biotech crash could signal oversold conditions ahead of potential FDA approvals and M&A activity in Q3\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":43.3,\"sectorDispersion\":72,\"breadth\":\"MIXED\",\"topSector\":\"COPX\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 460,
+  "telegramText": "<b>MACRO RADAR</b> — Jun 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 35.1/100 (Low). Phase: EXPANSION.\nComposite Risk: 34.6/100 (MODERATE).\nGeopolitical risk: 36/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $70,844 · ETH: $2,001 · SOL: $80.83\nCrypto sentiment: 11 (Extreme Fear, 7d avg 23) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.07T (YoY -2.83%) — fed $6.70T · ecb $7.20T · boj $4.17T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 272bps NORMAL\nBDRY: $12.75 (+12.3% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 441.7M bbl, refinery 94.5%, SPR 365M.\n\n<b>KEY PRICES</b>\nSPY +0.4% | QQQ +1.1% | VIX -1.7% | TLT -0.1% | DXY flat | OIL +2.8%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ COHR: +16.4%\n▲ LWLG: +16.0%\n▼ SOXS: -14.1%\n▲ SOXL: +13.9%\n▲ GLW: +13.4%\n▲ LITE: +13.2%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 118.88 (R), Gold $4481 (Y), Oil $98 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] VIX: -2.33σ\n[+] 30Y Mortgage Rate: +1.59σ\n\n<b>US OPEN SETUP</b>\n<i>Watch for continuation of cyclical rotation into US open with semiconductors and metals leading. Crypto weakness may pressure broader risk sentiment if outflows persist.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":35.1,\"compositeRisk\":34.6,\"geoRisk\":36}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 461,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
