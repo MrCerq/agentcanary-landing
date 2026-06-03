@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/03/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/03/signal/",
+      "title": "SIGNAL SCAN — June 3, 2026",
+      "content_text": "SIGNAL SCAN — Jun 3, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite returns with semiconductors and metals leading a broad rotation into cyclicals. Crypto faces continued headwinds while defensive sectors lag i",
+      "summary": "SIGNAL SCAN — Jun 3, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite returns with semiconductors and metals leading a broad rotation into cyclicals. Crypto faces continued headwinds while defensive sectors lag i",
+      "date_published": "2026-06-03T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/03/radar/",
       "url": "https://agentcanary.ai/record/2026/06/03/radar/",
       "title": "MACRO RADAR — June 3, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/21/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/21/wrap/",
-      "title": "MARKET WRAP — May 21, 2026",
-      "content_text": "MARKET WRAP — May 21, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors commanded the session with semiconductors and metals joining crypto in a broad risk-on rotation. Energy weakness and defensive sellin",
-      "summary": "MARKET WRAP — May 21, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors commanded the session with semiconductors and metals joining crypto in a broad risk-on rotation. Energy weakness and defensive sellin",
-      "date_published": "2026-05-21T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
