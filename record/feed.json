@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/04/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/04/radar/",
+      "title": "MACRO RADAR — June 4, 2026",
+      "content_text": "MACRO RADAR — Jun 4, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.9/100 (Low). Phase: EXPANSION. Composite Risk: 34.3/100 (MODERATE). Geopolitical risk: 48/100 (MODERATE). Top: Russia-Ukraine 55/100 (E",
+      "summary": "MACRO RADAR — Jun 4, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.9/100 (Low). Phase: EXPANSION. Composite Risk: 34.3/100 (MODERATE). Geopolitical risk: 48/100 (MODERATE). Top: Russia-Ukraine 55/100 (E",
+      "date_published": "2026-06-04T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/03/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/03/wrap/",
       "title": "MARKET WRAP — June 3, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/22/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/22/pulse/",
-      "title": "MARKET PULSE — May 22, 2026",
-      "content_text": "MARKET PULSE — May 22, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,590 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $80K ETH: $2,136 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch SOL: $87.10 — 1d:ACCUM",
-      "summary": "MARKET PULSE — May 22, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,590 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $80K ETH: $2,136 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch SOL: $87.10 — 1d:ACCUM",
-      "date_published": "2026-05-22T15:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }

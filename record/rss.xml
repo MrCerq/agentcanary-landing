@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2026 01:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 04:30:30 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — June 4, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/04/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/04/radar/</guid>
+      <pubDate>Thu, 04 Jun 2026 03:15:00 GMT</pubDate>
+      <description>MACRO RADAR — Jun 4, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.9/100 (Low). Phase: EXPANSION. Composite Risk: 34.3/100 (MODERATE). Geopolitical risk: 48/100 (MODERATE). Top: Russia-Ukraine 55/100 (E</description>
+    </item>
     <item>
       <title>MARKET WRAP — June 3, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/03/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/22/wrap/</guid>
       <pubDate>Fri, 22 May 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — May 22, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Semiconductors drove risk appetite while crypto flows turned sharply negative, highlighting institutional rotation from speculative positioning. Def</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — May 22, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/22/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/22/pulse/</guid>
-      <pubDate>Fri, 22 May 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — May 22, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,590 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch · below $80K ETH: $2,136 — 1d:BEAR_REGIME · 4h:BULL_REGIME · → rev-watch SOL: $87.10 — 1d:ACCUM</description>
     </item>
   </channel>
 </rss>

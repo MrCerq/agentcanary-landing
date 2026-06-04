@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-03",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 3",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 35/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-04",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 4",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 34/100 · 6 movers",
   "tags": [
     {
       "t": "LOW",
@@ -19,37 +19,37 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 35
+        "value": 34
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "BITF",
-          "v": "+45.2%",
+          "k": "SOXX",
+          "v": "+7.6%",
           "c": "green"
         },
         {
-          "k": "BCH",
-          "v": "-14.7%",
+          "k": "WPP",
+          "v": "-5.6%",
           "c": "red"
         },
         {
-          "k": "ONDS",
-          "v": "-14.4%",
-          "c": "red"
+          "k": "SMH",
+          "v": "+5.0%",
+          "c": "green"
         },
         {
-          "k": "OKLO",
-          "v": "-11.2%",
+          "k": "PENDLE",
+          "v": "-4.5%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets closed with a clear divergence story as traditional growth sectors outperformed while crypto assets faced heavy selling. The semiconductor surge alongside utility strength suggests investors favoring quality over speculative plays. Tomorrow's focus turns to whether this rotation has legs or represents temporary repositioning ahead of key economic data.\n\n<b>CLOSING PRICES</b>\nSPY -0.6% | QQQ +0.2% | VIX +1.8% | TLT -0.2% | DXY +0.3% | OIL +2.8%\n\n<b>vs MORNING</b>\nSPY -1.0% | QQQ -0.9% | VIX +3.6% | TLT -0.1% | DXY +0.3% | OIL flat\n\n<b>EVENING NEWS</b>\n▼ US asset managers decline as investors await private credit fund updates\n▲ S&P 500 set to snap 9-day win streak as stocks fall on geopolitical fears\n▲ Trump promises Strait of Hormuz reopening with Iran deal signing\n▲ Ethereum’s Multi-Year Support Test Could Shape Its Next Big Move\n▼ Bitcoin Price Crashes to Precarious Position Near $65,000 as Momentum Rotates Into AI, IPOs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 35.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +5.0%, XLE +2.5%, XLU +1.4%, XBI -2.8%, XLC -3.0%.\nSector dispersion: 73 (EXTREME, breadth MIXED), 44% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SWI] Consumer Price Index (MoM)(May) (+2 variants) — Jun 4 06:30 UTC (prev: 0.3%)\n[SWI] Seasonally adjusted unemployment rate(May) — Jun 4 07:00 UTC (prev: 3.0%)\n[SWI] Unseasonally adjusted unemployment rate(May) (+1 variants) — Jun 4 07:00 UTC (prev: 3.0%)\n[EU] Retail Sales (MoM)(Apr) (+2 variants) — Jun 4 09:00 UTC (prev: -0.1%)\n[GER] Actual Retail Sales (YoY)(Apr) — Jun 4 16:05 UTC (prev: -2.0%)\n[ITA] Retail Sales (YoY)(Apr) — Jun 4 16:05 UTC (prev: 3.7%)\n\n<b>CONTRARIAN</b>\n• WPP's -5.6% decline may be overdone if AI displacement fears are premature and traditional advertising still has pricing power in a recovering consumer environment\n• The crypto crash could mark a healthy reset rather than a bear market beginning, especially if institutional adoption continues through corporate treasury additions like Hyperscale Data's BTC purchas…\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":35.1,\"sectorDispersion\":73,\"breadth\":\"MIXED\",\"topSector\":\"SMH\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 464,
+  "telegramText": "<b>MACRO RADAR</b> — Jun 4, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 33.9/100 (Low). Phase: EXPANSION.\nComposite Risk: 34.3/100 (MODERATE).\nGeopolitical risk: 48/100 (MODERATE). Top: Russia-Ukraine 55/100 (ELEVATED, wheat bullish).\n\n<b>CRYPTO</b>\nBTC: $65,748 · ETH: $1,826 · SOL: $72.73\nCrypto sentiment: 12 (Extreme Fear, 7d avg 21) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nHY Credit Spreads: 272bps NORMAL\nBDRY: $12.64 (+10.9% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 441.7M bbl, refinery 94.5%, SPR 365M.\n\n<b>KEY PRICES</b>\nSPY -0.6% | QQQ +0.2% | VIX +1.8% | TLT -0.2% | DXY +0.2% | OIL +1.2%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ UMAC: -13.6%\n▼ ONDS: -13.4%\n▼ NASDAQ: -12.7%\n▼ INFQ: -11.7%\n▼ RGTI: -9.3%\n▲ NEAR/USD: +9.2%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 118.88 (R), Gold $4488 (Y), Oil $98 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -2.14σ\n[+] 30Y Mortgage Rate: +1.59σ\n\n<b>US OPEN SETUP</b>\n<i>Semiconductor strength sets up tech leadership test into the US session. Watch for follow-through in growth names versus continued crypto weakness as institutional flows remain skewed toward traditional risk assets.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":33.9,\"compositeRisk\":34.3,\"geoRisk\":48}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 465,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
