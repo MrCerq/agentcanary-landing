@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/04/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/04/pulse/",
+      "title": "MARKET PULSE — June 4, 2026",
+      "content_text": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 · (same) SOL: $71.35 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 21) (falling). WHA",
+      "summary": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 · (same) SOL: $71.35 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 21) (falling). WHA",
+      "date_published": "2026-06-04T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/04/signal/",
       "url": "https://agentcanary.ai/record/2026/06/04/signal/",
       "title": "SIGNAL SCAN — June 4, 2026",
@@ -831,23 +848,6 @@
         "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/23/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/23/radar/",
-      "title": "MACRO RADAR — May 23, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MACRO RADAR — May 23, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MACRO RADAR — May 23, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk",
-      "date_published": "2026-05-23T03:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-05-22"
       }
     }
   ]
