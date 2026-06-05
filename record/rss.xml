@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 04:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 10:30:30 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 5, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/05/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/05/signal/</guid>
+      <pubDate>Fri, 05 Jun 2026 09:15:00 GMT</pubDate>
+      <description>SIGNAL SCAN — Jun 5, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensive rotation gains momentum with healthcare and biotech leading while crypto faces broad selling pressure. Risk-off undertones emerge despite mixed se</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 5, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/05/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/24/radar/</guid>
       <pubDate>Sun, 24 May 2026 03:15:00 GMT</pubDate>
       <description>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MACRO RADAR — May 24, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 23, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/23/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/23/wrap/</guid>
-      <pubDate>Sat, 23 May 2026 21:15:00 GMT</pubDate>
-      <description>Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. SIGNAL SCAN — May 23, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says &quot;above $75K&quot; but narrative uses bearish directional language for B</description>
     </item>
   </channel>
 </rss>

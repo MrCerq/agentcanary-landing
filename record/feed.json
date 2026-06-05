@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/05/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/05/signal/",
+      "title": "SIGNAL SCAN — June 5, 2026",
+      "content_text": "SIGNAL SCAN — Jun 5, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensive rotation gains momentum with healthcare and biotech leading while crypto faces broad selling pressure. Risk-off undertones emerge despite mixed se",
+      "summary": "SIGNAL SCAN — Jun 5, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensive rotation gains momentum with healthcare and biotech leading while crypto faces broad selling pressure. Risk-off undertones emerge despite mixed se",
+      "date_published": "2026-06-05T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/05/radar/",
       "url": "https://agentcanary.ai/record/2026/06/05/radar/",
       "title": "MACRO RADAR — June 5, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-05-22"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/23/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/23/wrap/",
-      "title": "MARKET WRAP — May 23, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. SIGNAL SCAN — May 23, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says \"above $75K\" but narrative uses bearish directional language for B",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. SIGNAL SCAN — May 23, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says \"above $75K\" but narrative uses bearish directional language for B",
-      "date_published": "2026-05-23T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": true,
         "tradFiAsOf": "2026-05-22"
       }
