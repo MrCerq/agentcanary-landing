@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-05",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 5",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 5",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 39/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "ADA",
-          "v": "-10.9%",
-          "c": "red"
-        },
-        {
-          "k": "NEAR",
-          "v": "-7.8%",
-          "c": "red"
-        },
-        {
-          "k": "RENDER",
-          "v": "-7.8%",
-          "c": "red"
-        },
-        {
-          "k": "MOH",
-          "v": "+7.2%",
+          "k": "VIX",
+          "v": "+39.7%",
           "c": "green"
+        },
+        {
+          "k": "ENPH",
+          "v": "-17.7%",
+          "c": "red"
+        },
+        {
+          "k": "EWY",
+          "v": "-17.7%",
+          "c": "red"
+        },
+        {
+          "k": "MRVL",
+          "v": "-15.7%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 5, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $62,653 — 1d:ACCUMULATION · 4h:ACCUMULATION · below $65K\nETH: $1,728 — 1d:RISK_OFF · 4h:RISK_OFF\nSOL: $67.02 — 1d:RISK_OFF · 4h:RISK_OFF\nCrypto sentiment: 12 (Extreme Fear, 7d avg 20) (falling).\n\n<b>WHALE ALERTS</b>\n• 3,399 BTC ($215.7M) — transferred from Coinbase Institutional to unknown wallet\n• 1,719 BTC ($109.1M) — transferred from unknown wallet to Coinbase Institutional\n• 1,673 BTC ($106.2M) — transferred from unknown wallet to Coinbase Institutional\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 129M USDC ($129M) — transferred from unknown wallet to #Aave\n• 100M USDT ($100M) — transferred from unknown wallet to #Okex\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• ZEC: 79% net APR (0.0719% rate) · Long Binance / Short Bybit · OI $112.0M · Spread +0.06%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $88.9B\nTop OI: BTC $47.1B · ETH $25.9B · SOL $4.8B · HYPE $2.7B · XRP $2.4B\nOI shifters (4h): NEAR -7.2% · ONDO -6.6% · RENDER -5.7% · GRT +5.1% · SUI -5.0%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$45M outflow on Jun 5 (Fri close) (ARKB -$21M, BITB -$16M, BTCO -$13M). Trailing 5-trading-day net: -$1.6B outflow.\nBTC options — NEUTRAL: max pain $70,500 (5JUN26), P/C 0.62 OI / 1.08 vol, put skew +48.9 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.1135% (13/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $145M long / $38M short (net long $107M, -$18.3M PnL); ETH: $45M long / $68M short (net short $23M, +$3.7M PnL); HYPE: $23M long / $44M short (net short $21M, -$1.6M PnL).\nLiquidations: 24h total $180.7M; latest 4h $774K (69.7% long / 30.3% short, 58L/48S events, long-dominant).\nETH stake APY 2.56% vs T-bill 3.63% (spread -1.07, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Asian Inflation Divergence [INR, PHP, VND, EWY]\n▼ Crypto Market Collapse [BTC, MSTR, COIN]\n▼ Geopolitical Risk Premium [GLD, USO, VIX]\n\n<b>IMPLICATION</b>\nTactical fade on crypto oversold levels while healthcare defensives maintain bid. Watch for rotation sustainability as positioning resets continue. Copper and uranium weakness suggests broader commodities under pressure, reinforcing defensive bias into session close.\n\n<b>JSON</b>\n{\"btc\":62554,\"cryptoSentiment\":12,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 471,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 5, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday crystallized the growth-to-defensive rotation as tech weakness broadened while healthcare and financials absorbed flows. The volatility spike underscores positioning stress across risk assets. Tomorrow's focus shifts to whether this defensive bid sustains or represents tactical refuge ahead of renewed risk appetite.\n\n<b>CLOSING PRICES</b>\nSPY -2.2% | QQQ -5.3% | VIX +39.7% | TLT -0.3% | DXY +0.7% | OIL -3.0%\n\n<b>vs MORNING</b>\nSPY -1.9% | QQQ -4.5% | VIX +43.8% | TLT -0.1% | DXY +0.8% | OIL -0.3%\n\n<b>EVENING NEWS</b>\n▼ Bitcoin Drops To $59,000 For First Time Since 2024: Crypto’s Total Value Sheds $2 Trillion Since October\n▼ Philippines: BSP seen staying hawkish on inflation – Standard Chartered\n▲ Bitcoin Critic Peter Schiff Predicts USDT Will Eclipse BTC\n▼ These Market Dips Are 'Buying Opportunities' Says John Flood \n▲ Forecasting the upcoming week: US Dollar ends week higher after strong NFP\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↓↓ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 39.0/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLV +3.7%, XLF +2.8%, XLRE +2.7%, COPX -10.7%, SMH -10.7%.\nSector dispersion: 73 (EXTREME, breadth MIXED), 38% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SWI] Unseasonally adjusted unemployment rate(May) — Jun 6 07:00 UTC (prev: 3.0%)\n[AUS] west pacific/Melbourne consumer confidence index (MoM)(Jun) — Jun 6 07:50 UTC (prev: 3.5%)\n[HK] Retail Sales (YoY)(Apr) — Jun 6 08:00 UTC (prev: 9.8%)\n[SK] Core Consumer Price Index (YoY)(May) — Jun 7 04:00 UTC (prev: 2.2%)\n[AUS] Producer Price Index (QoQ)(Q1) — Jun 7 13:30 UTC (prev: 0.8%)\n[JPN] GDP deflator (YoY)(Final)(Q1) — Jun 7 23:50 UTC (prev: 3.4%)\n\n<b>CONTRARIAN</b>\n• VIX spike to +39.7% could signal capitulation bottom in risk assets rather than start of deeper correction\n• EWY's 17.7% crash may present opportunity if Korean tech oversold relative to fundamentals\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":39,\"sectorDispersion\":73,\"breadth\":\"MIXED\",\"topSector\":\"XLV\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 472,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
