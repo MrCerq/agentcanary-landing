@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/05/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/05/radar/",
+      "title": "MACRO RADAR — June 5, 2026",
+      "content_text": "MACRO RADAR — Jun 5, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 39.0/100 (Low). Phase: EXPANSION. Composite Risk: 35.2/100 (MODERATE). Geopolitical risk: 38/100 (MODERATE). Top: Middle East / Red Sea 55",
+      "summary": "MACRO RADAR — Jun 5, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 39.0/100 (Low). Phase: EXPANSION. Composite Risk: 35.2/100 (MODERATE). Geopolitical risk: 38/100 (MODERATE). Top: Middle East / Red Sea 55",
+      "date_published": "2026-06-05T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/04/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/04/wrap/",
       "title": "MARKET WRAP — June 4, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-05-22"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/23/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/23/pulse/",
-      "title": "MARKET PULSE — May 23, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MARKET PULSE — May 23, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $75,480 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · above $75",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. 🌅 Weekend brief — tradfi data reflects Fri 2026-05-22 close. Crypto data is live. MARKET PULSE — May 23, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $75,480 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · above $75",
-      "date_published": "2026-05-23T15:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": true,
         "tradFiAsOf": "2026-05-22"
       }
