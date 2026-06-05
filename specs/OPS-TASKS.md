@@ -52,6 +52,14 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 
 ## ✅ Done recently
 
+### 2026-06-02
+- macro-atom-null incident FIXED. Root cause: 5/29 private-channel disable was overscoped — regime-change-alert.js also writes regime-state.json (consumed by macro atom). Cron disable starved the file → macro null → every brief in deterministic fallback ~3 days while /api/health stayed GREEN.
+  - `fb7ba3a` regime cron re-enabled with --no-telegram (data refreshes, Telegram silent)
+  - `2f025f1` fixed my own ReferenceError (patch added schedule ref but not the function def; caught on operator "are you sure")
+  - `0abedc2` composite-risk-score walks paths for valid score+label (g2 producer emitting {score:null})
+- Two permanent guardrails added to reference_known_expected_behaviors.md: (1) check validator_status every sweep; (2) check what a cron writes before disabling it
+- C5 logged: ac-compute file ownership cleanup (105 files 501:staff) — dedicated session
+
 ### 2026-05-30
 - Whale atoms cadence aligned with producer reality (whale-alerts + stablecoin-whale-alerts intraday→daily, `4bc4994`) — was false-RED every morning before 04:00 UTC producer write
 - Forward-scenarios cadence intraday→daily (`e10b29a`) — last config-vs-producer mismatch in atom-cadence.js; zero `intraday` atoms remain
