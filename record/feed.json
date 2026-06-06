@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/06/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/06/pulse/",
+      "title": "MARKET PULSE — June 6, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 6, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet nar",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 6, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet nar",
+      "date_published": "2026-06-06T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-05"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/06/signal/",
       "url": "https://agentcanary.ai/record/2026/06/06/signal/",
       "title": "SIGNAL SCAN — June 6, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/25/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/25/radar/",
-      "title": "MACRO RADAR — May 25, 2026",
-      "content_text": "MACRO RADAR — May 25, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.5/100 (MODERATE). Geopolitical risk: 33/100 (MODERATE). Top: Russia-Ukraine 44/100",
-      "summary": "MACRO RADAR — May 25, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 39.5/100 (MODERATE). Geopolitical risk: 33/100 (MODERATE). Top: Russia-Ukraine 44/100",
-      "date_published": "2026-05-25T03:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
