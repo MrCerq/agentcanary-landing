@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-05",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 5",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 39/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-06",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 6",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 48/100 · 6 movers",
   "tags": [
     {
       "t": "LOW",
@@ -19,7 +19,7 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 39
+        "value": 48
       }
     },
     {
@@ -31,26 +31,26 @@
           "c": "green"
         },
         {
-          "k": "ENPH",
-          "v": "-17.7%",
-          "c": "red"
-        },
-        {
           "k": "EWY",
           "v": "-17.7%",
           "c": "red"
         },
         {
-          "k": "MRVL",
-          "v": "-15.7%",
+          "k": "SOXX",
+          "v": "-12.3%",
+          "c": "red"
+        },
+        {
+          "k": "SMH",
+          "v": "-10.7%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 5, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday crystallized the growth-to-defensive rotation as tech weakness broadened while healthcare and financials absorbed flows. The volatility spike underscores positioning stress across risk assets. Tomorrow's focus shifts to whether this defensive bid sustains or represents tactical refuge ahead of renewed risk appetite.\n\n<b>CLOSING PRICES</b>\nSPY -2.2% | QQQ -5.3% | VIX +39.7% | TLT -0.3% | DXY +0.7% | OIL -3.0%\n\n<b>vs MORNING</b>\nSPY -1.9% | QQQ -4.5% | VIX +43.8% | TLT -0.1% | DXY +0.8% | OIL -0.3%\n\n<b>EVENING NEWS</b>\n▼ Bitcoin Drops To $59,000 For First Time Since 2024: Crypto’s Total Value Sheds $2 Trillion Since October\n▼ Philippines: BSP seen staying hawkish on inflation – Standard Chartered\n▲ Bitcoin Critic Peter Schiff Predicts USDT Will Eclipse BTC\n▼ These Market Dips Are 'Buying Opportunities' Says John Flood \n▲ Forecasting the upcoming week: US Dollar ends week higher after strong NFP\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↓↓ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 39.0/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLV +3.7%, XLF +2.8%, XLRE +2.7%, COPX -10.7%, SMH -10.7%.\nSector dispersion: 73 (EXTREME, breadth MIXED), 38% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SWI] Unseasonally adjusted unemployment rate(May) — Jun 6 07:00 UTC (prev: 3.0%)\n[AUS] west pacific/Melbourne consumer confidence index (MoM)(Jun) — Jun 6 07:50 UTC (prev: 3.5%)\n[HK] Retail Sales (YoY)(Apr) — Jun 6 08:00 UTC (prev: 9.8%)\n[SK] Core Consumer Price Index (YoY)(May) — Jun 7 04:00 UTC (prev: 2.2%)\n[AUS] Producer Price Index (QoQ)(Q1) — Jun 7 13:30 UTC (prev: 0.8%)\n[JPN] GDP deflator (YoY)(Final)(Q1) — Jun 7 23:50 UTC (prev: 3.4%)\n\n<b>CONTRARIAN</b>\n• VIX spike to +39.7% could signal capitulation bottom in risk assets rather than start of deeper correction\n• EWY's 17.7% crash may present opportunity if Korean tech oversold relative to fundamentals\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":39,\"sectorDispersion\":73,\"breadth\":\"MIXED\",\"topSector\":\"XLV\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 472,
-  "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 6, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 47.7/100 (Elevated). Phase: EXPANSION.\nComposite Risk: 41.2/100 (MODERATE).\nGeopolitical risk: 38/100 (MODERATE). Top: Russia-Ukraine 51/100 (ELEVATED, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $60,942 · ETH: $1,576 · SOL: $63.63\nCrypto sentiment: 12 (Extreme Fear, 7d avg 18) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.84%) — fed $6.71T · ecb $7.20T · boj $4.17T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 275bps NORMAL (composite: CAUTION)\nBDRY: $12.62 (+11.3% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_GLUT, crude 433.7M bbl, refinery 94.7%, SPR 357M.\n\n<b>KEY PRICES</b>\nSPY -2.2% | QQQ -5.3% | VIX +39.7% | TLT -0.3% | DXY +0.7% | OIL -3.0%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ POET: -19.9%\n▼ UMAC: -17.3%\n▼ IPWR: -15.9%\n▼ ABSI: -13.7%\n▼ RGTI: -13.7%\n▼ IREN: -13.2%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 118.88 (R), Gold $4478 (Y), Oil $96 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -2.06σ\n[+] Jobless Claims: +1.60σ\n\n<b>US OPEN SETUP</b>\n<i>Sharp defensive rotation underway as tech faces selling pressure. Healthcare and financials leading haven flows while semiconductors and metals dump. Watch for volatility expansion to drive further positioning shifts into safety plays as growth momentum stalls.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":47.7,\"compositeRisk\":41.2,\"geoRisk\":38}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
+  "isWeekend": true,
+  "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-05"
 }
