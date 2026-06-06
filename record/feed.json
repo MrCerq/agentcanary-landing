@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/06/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/06/wrap/",
+      "title": "MARKET WRAP — June 6, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET WRAP — Jun 6, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets pivoted decisively into defensive mode as growth concerns tri",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET WRAP — Jun 6, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets pivoted decisively into defensive mode as growth concerns tri",
+      "date_published": "2026-06-06T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-05"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/06/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/06/pulse/",
       "title": "MARKET PULSE — June 6, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/25/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/25/signal/",
-      "title": "SIGNAL SCAN — May 25, 2026",
-      "content_text": "SIGNAL SCAN — May 25, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tenor with semiconductors and cyclicals leading while crypto faces selling pressure. Tech rotation accelerating as defensive sectors underperform,",
-      "summary": "SIGNAL SCAN — May 25, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tenor with semiconductors and cyclicals leading while crypto faces selling pressure. Tech rotation accelerating as defensive sectors underperform,",
-      "date_published": "2026-05-25T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }

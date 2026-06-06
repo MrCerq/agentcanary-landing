@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-06",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 6",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 6",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 48/100 · 6 movers",
   "tags": [
     {
@@ -48,8 +48,8 @@
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live.</i>\n\n<b>MARKET PULSE</b> — Jun 6, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $60,942, above $60K.\nBTC ETF flows: -$45M outflow on Jun 5 (Fri close), after -$1.6B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Weekend — markets closed; tradfi reflects Fri close, crypto live.</i>\nRisk Gauge: 47.7/100 (Elevated). Phase: EXPANSION.\nSPY -2.2% | QQQ -5.3% | VIX +39.7% | TLT -0.3% | DXY +0.7% | OIL -3.0%\nICSA: 225K (UP trend, +1.60z)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: XLV +3.7%, XLF +2.8%, XLRE +2.7%, COPX -10.7%, SMH -10.7%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: VIX +39.7%, EWY -17.7%, SOXX -12.3%, SMH -10.7%, XLK -8.1%, ADA -3.9%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$45M outflow on Jun 5 (Fri close) (ARKB -$21M, BITB -$16M, BTCO -$13M). Trailing 5-trading-day net: -$1.6B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): HYPE: $39M long / $118M short (net short $79M, +$4.8M PnL); ETH: $26M long / $107M short (net short $81M, +$12.3M PnL); BTC: $13M long / $62M short (net short $49M, +$820K PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": null,
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live.</i>\n\n<b>MARKET WRAP</b> — Jun 6, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets pivoted decisively into defensive mode as growth concerns triggered broad-based selling in technology and semiconductor sectors. The volatility spike confirmed a regime shift toward risk-off positioning, with traditional defensive sectors absorbing institutional flows. Tomorrow's focus turns to whether this defensive rotation has further to run or if oversold conditions create tactical entry points in battered growth names.\n\n<b>CLOSING PRICES</b>\nSPY -2.2% | QQQ -5.3% | VIX +39.7% | TLT -0.3% | DXY +0.7% | OIL -3.0%\n\n<b>vs MORNING</b>\nSPY -0.4% | QQQ +0.5% | TLT -0.2%\n\n<b>EVENING NEWS</b>\n▲ US imposes sanctions on Cuban President Miguel Diaz-Canel, but crypto gets a curious pass\n▲ Veteran Analyst Eyes $53,000 Bitcoin As Final Cycle Stage Begins\n▼ Indonesia stocks tumble 37% as rupiah hits all-time low and global investors flee\n▲ Cattle Come Back to Close Higher on Friday\n▼ US Drops $300 Million Fraud Case That Spotlighted Brian Kahn\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 47.7/100 (Elevated). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLV +3.7%, XLF +2.8%, XLRE +2.7%, COPX -10.7%, SMH -10.7%.\nSector dispersion: 66 (EXTREME, breadth MIXED), 38% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SK] Core Consumer Price Index (YoY)(May) — Jun 7 04:00 UTC (prev: 2.2%)\n[AUS] Producer Price Index (QoQ)(Q1) — Jun 7 13:30 UTC (prev: 0.8%)\n[JPN] GDP deflator (YoY)(Final)(Q1) — Jun 7 23:50 UTC (prev: 3.4%)\n[JPN] Nominal GDP annum modified value (billion yen)(Q1) — Jun 7 23:50 UTC (prev: 677233.40)\n[JPN] Nominal GDP(QoQ) (Revised) (Q1) — Jun 7 23:50 UTC (prev: 0.8%)\n[JPN] Real GDP (AQR)  (Revised) (Q1) (+2 variants) — Jun 7 23:50 UTC (prev: 2.1%)\n\n<b>CONTRARIAN</b>\n• SOXX's 12.3% crash might be signaling peak AI hype rather than sustainable sector rotation, suggesting the displacement theme is overextended\n• VIX spiking 39.7% on what should be 'good' economic news suggests markets are positioned for cuts, making this selloff a potential buying opportunity if Fed stays patient\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":47.7,\"sectorDispersion\":66,\"breadth\":\"MIXED\",\"topSector\":\"XLV\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 474,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live.",
   "tradFiAsOf": "2026-06-05"
