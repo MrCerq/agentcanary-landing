@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/07/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/07/signal/",
+      "title": "SIGNAL SCAN — June 7, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 7, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation accelerates as tech suffers sharp selloff while defensives",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 7, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation accelerates as tech suffers sharp selloff while defensives",
+      "date_published": "2026-06-07T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-05"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/07/radar/",
       "url": "https://agentcanary.ai/record/2026/06/07/radar/",
       "title": "MACRO RADAR — June 7, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/25/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/25/wrap/",
-      "title": "MARKET WRAP — May 25, 2026",
-      "content_text": "MARKET WRAP — May 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bi",
-      "summary": "MARKET WRAP — May 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bi",
-      "date_published": "2026-05-25T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
