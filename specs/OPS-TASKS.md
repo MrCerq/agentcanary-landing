@@ -32,6 +32,14 @@ Living queue of tasks that require operator (not Claude) action. Updated alongsi
 
 | # | Task | Status | Notes |
 |---|---|---|---|
+| C6 | **OG card reframe** | deferred (design rule) | gen-og-homepage.mjs + gen-asset-og.mjs chips still say "PREDICTIONS SCORED / PUBLIC HIT RATE / graded in the open." Fixed-width SVG boxes (font-44 values) — text changes risk overflow. Needs visual sign-off on rendered PNG. Do NOT auto-rewrite. |
+| C7 | **MCP republish — new positioning** | pending | /tmp/agentcanary-mcp: server.json:5 desc, README:3 (+ stale "18 tools"→19), index.js:494 get_track_record desc still say "decision-grade…scored signals." Version bump + npm + registry republish. |
+| C8 | **LAUNCH-POSTS.md reframe** | pending (before Tue HN) | HN/Reddit drafts still built on "public hit/miss receipts / 603 predictions / SPY 9%" — old pitch, STALE numbers, leads with the weak hit rates the reframe removes. Tue 06-09 reminder points here. Reframe to market-context-layer before launch. |
+| C9 | **Off-repo positioning** | operator | Custom GPT description/instructions, ClawHub SKILL doc, Smithery — all still say "decision-grade predictions." Operator-edited surfaces. |
+
+
+| # | Task | Status | Notes |
+|---|---|---|---|
 | C1 | **CDP-based X reposter for briefs** | 🚫 suspended | Operator decision 2026-05-23: "need a more trusted doing it." Lane handed off. Do not resume. |
 | C3 | **Legacy yahoo-quotes filename + Mongo type removal** | ⏸ deferred | Producer still dual-writes (market-quotes.json canonical + yahoo-quotes.json transition alias). After consumer verification window (~1 week), remove dual-write from yahoo-snapshot.js + drop yahoo-quotes from registries. |
 | C4 | **Test files referencing yahoo-quotes.json** | ⏸ deferred | tests/sector.test.js, forward-scenarios.test.js, key-prices.test.js, overnight-movers.test.js, movers.test.js have old filename in fixtures. Update when running test suite next. |
