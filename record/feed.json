@@ -3,7 +3,7 @@
   "title": "AgentCanary — The Record",
   "home_page_url": "https://agentcanary.ai/record/",
   "feed_url": "https://agentcanary.ai/record/feed.json",
-  "description": "Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend). Tradfi data reflects last completed session on weekends; crypto live 24/7.",
+  "description": "Market context briefs for AI agents — macro + crypto regime, risk, narrative & scenario state. 4x daily (weekday) / 2x daily (weekend). Tradfi reflects last completed session on weekends; crypto live 24/7.",
   "icon": "https://agentcanary.ai/apple-touch-icon.png",
   "favicon": "https://agentcanary.ai/favicon.png",
   "language": "en",
