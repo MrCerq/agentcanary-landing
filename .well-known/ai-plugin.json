@@ -2,8 +2,8 @@
   "schema_version": "v1",
   "name_for_human": "AgentCanary",
   "name_for_model": "agentcanary",
-  "description_for_human": "Decision-grade market intelligence for autonomous AI agents. Regime classifications, risk scores, narrative momentum, and public track-record-verified predictions across crypto, equities, commodities, and forex.",
-  "description_for_model": "AgentCanary is the decision-grade market intelligence layer for autonomous AI agents. Use it to fetch the current macro regime (expansion/stagflation/recession/overheating/contraction/displacement), risk gauge (0-100), 36 proprietary indicators (Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, CAPE ratio, Hindenburg omen + 30 more), narrative momentum scores, whale alerts, forward scenario probabilities with price targets, and public track-record-verified prediction outcomes. 4 daily briefs at 03:15/09:15/15:15/21:15 UTC. Schema-stable JSON, fail-soft. Wallet-authenticated, USDC/USDT-billed in stablecoins. No KYC.",
+  "description_for_human": "Market context layer for autonomous AI agents. Fresh regime, risk, narrative & scenario state across crypto, equities, commodities and forex via REST + MCP, with transparent source trails.",
+  "description_for_model": "AgentCanary is the market context layer for autonomous AI agents. Use it to fetch the current macro regime (expansion/stagflation/recession/overheating/contraction/displacement), risk gauge (0-100), 36 proprietary indicators (Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, CAPE ratio, Hindenburg omen + 30 more), narrative momentum scores, whale alerts, forward scenario probabilities with price targets, and forward scenario state with transparent source trails. 4 daily briefs at 03:15/09:15/15:15/21:15 UTC. Schema-stable JSON, fail-soft. Wallet-authenticated, USDC/USDT-billed in stablecoins. No KYC.",
   "auth": {
     "type": "user_http",
     "authorization_type": "custom",

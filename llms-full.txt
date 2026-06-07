@@ -1,10 +1,10 @@
 # AgentCanary — Full LLM-readable catalog
 # https://agentcanary.ai · https://api.agentcanary.ai · v1.4.1
 
-> Decision-grade market intelligence for autonomous AI agents.
-> Macro regime, narratives, scenarios, 36 indicators, 4× daily briefs.
-> Every prediction is publicly scored. 603 predictions evaluated, mean
-> Brier score 0.162 (beats random baseline by 35%). Wallet-billed in
+> Market context layer for autonomous AI agents.
+> Macro regime, risk, narratives, scenarios, 36 indicators, 4× daily briefs.
+> Built for agents: fresh state with a freshness envelope on every response.
+> Methodology + outcomes published openly at /record/. Wallet-billed in
 > USDC on Base. No KYC, no card, no recurring subscription.
 
 ## Base URLs

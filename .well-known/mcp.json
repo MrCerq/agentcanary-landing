@@ -1,7 +1,7 @@
 {
   "name": "agentcanary",
   "version": "1.3.1",
-  "description": "Decision-grade market intelligence for autonomous AI agents. Regime classifications, risk scores, narrative momentum, scenario probabilities, and public track-record-verified signals via simple API + MCP.",
+  "description": "Market context layer for autonomous AI agents. Fresh regime, risk, narrative & scenario state via REST + MCP, with transparent source trails.",
   "homepage": "https://agentcanary.ai",
   "install": {
     "npm": "npx agentcanary-mcp",

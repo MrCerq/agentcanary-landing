@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AgentCanary — Decision-grade intelligence for AI agents</title>
-<meta name="description" content="Decision-grade market intelligence for AI agents. 19 MCP tools, 36 indicators, 603 predictions publicly scored (mean Brier 0.162). Wallet-billed in USDC, no KYC. Free tier with no-key demo endpoints.">
-<meta name="keywords" content="AI agents, MCP server, autonomous agents, market intelligence API, regime detection, narrative momentum, risk scoring, decision-grade signals, schema-stable">
+<title>AgentCanary — market context layer for AI agents</title>
+<meta name="description" content="Market context layer for AI agents: fresh regime, risk, macro, crypto, narrative & scenario state via REST + MCP. No KYC, wallet-billed USDC, free tier.">
+<meta name="keywords" content="AI agents, MCP server, market context API, regime API, market state, macro API, crypto data, narrative momentum, scenario state, agent tools, schema-stable, MCP market data">
 <meta name="author" content="AgentCanary">
-<meta property="og:title" content="AgentCanary — Decision-grade intelligence for AI agents">
+<meta property="og:title" content="AgentCanary — market context layer for AI agents">
 <meta property="og:description" content="50+ pre-curated, second-order signals with provenance, freshness, and public accuracy scores. REST API + MCP server. Free tier. MCP-native.">
 <meta property="og:image" content="https://agentcanary.ai/og-image.png">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://agentcanary.ai/">
 <link rel="canonical" href="https://agentcanary.ai/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AgentCanary — Decision-grade intelligence for AI agents">
+<meta name="twitter:title" content="AgentCanary — market context layer for AI agents">
 <meta name="twitter:image" content="https://agentcanary.ai/og-image.png">
-<meta name="twitter:description" content="Decision-grade intelligence for autonomous AI agents. Schema-stable API + MCP. No KYC, wallet-billed in stablecoins. Public track record.">
+<meta name="twitter:description" content="Market context layer for AI agents. Schema-stable state via REST + MCP, freshness on every response. No KYC, wallet-billed in stablecoins.">
 <link rel="ai-info" href="/llms.txt">
 <link rel="help" type="text/plain" href="/llms-full.txt">
 <link rel="describedby" type="application/yaml" href="https://api.agentcanary.ai/api/openapi.yaml">
@@ -39,7 +39,7 @@
       "name": "AgentCanary",
       "url": "https://agentcanary.ai",
       "logo": "https://agentcanary.ai/logo.png",
-      "description": "Decision-grade market intelligence for AI agents. 19 MCP tools, 36 indicators, 603 predictions publicly scored (mean Brier 0.162, beats random by 35%). Wallet-billed in USDC on Base, no KYC. Free tier with curl-able no-key demo endpoints.",
+      "description": "Market context layer for AI agents. 19 MCP tools, 36 indicators across macro + crypto. Fresh regime, risk, narrative & scenario state via REST + MCP, with transparent source trails. Wallet-billed in USDC on Base, no KYC. Free tier with curl-able no-key demo endpoints.",
       "foundingDate": "2026",
       "sameAs": [
         "https://t.me/agentcanary",
@@ -57,7 +57,7 @@
       "name": "AgentCanary — The Record",
       "alternateName": "The Record",
       "url": "https://agentcanary.ai",
-      "description": "Decision-grade market intelligence layer for autonomous AI agents. Daily macro briefs with regime tracking and public track-record-verified predictions.",
+      "description": "Market context layer for autonomous AI agents. Daily macro briefs with regime, risk, narrative & scenario state and transparent source trails.",
       "publisher": { "@id": "https://agentcanary.ai/#org" },
       "potentialAction": {
         "@type": "SearchAction",
@@ -73,7 +73,7 @@
       "@type": "DataCatalog",
       "@id": "https://agentcanary.ai/#datacatalog",
       "name": "The Record — Market Intelligence Archive",
-      "description": "Daily scored market intelligence archive. Regime states, whale alerts, narrative lifecycle scores, macro signals, and hindsight-scored calls.",
+      "description": "Daily market-state archive for AI agents. Regime states, whale alerts, narrative lifecycle, macro signals, and forward scenario context — permanently archived with open methodology.",
       "url": "https://agentcanary.ai/record/",
       "provider": { "@id": "https://agentcanary.ai/#org" },
       "temporalCoverage": "2026-02-23/..",
@@ -184,7 +184,7 @@
       "name": "What is AgentCanary?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "AgentCanary is a decision-grade market intelligence layer for autonomous AI agents. It delivers regime classifications, risk scores, narrative momentum, scenario probabilities, and track-record-verified signals via REST API and MCP server. Every prediction has a public hit/miss/partial outcome; nothing is retroactively hidden."
+        "text": "AgentCanary is the market context layer for autonomous AI agents. It delivers fresh regime classifications, risk scores, narrative momentum, scenario state, and 36 indicators across crypto + macro via REST API and MCP — schema-stable JSON with a freshness envelope on every response, so agents can gate on staleness and reason on top."
       }
     },
     {
@@ -208,7 +208,7 @@
       "name": "How is AgentCanary different from other market data APIs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Three differences. (1) Every prediction is publicly scored — see agentcanary.ai/record/ for hit/miss outcomes on 600+ predictions. (2) Output is decision-shaped (regime, scenarios, scores) not raw price feeds. (3) MCP-native — designed for AI agent consumption with schema-stable JSON, freshness envelopes, and tier-aware error codes."
+        "text": "Three things. (1) Built for agents: schema-stable JSON, freshness envelopes (observed_at, age_seconds, source) on every response, and tier-aware error codes — so an agent can verify staleness before it reasons. (2) Output is decision-shaped state — regime, risk, scenarios, narratives — not raw price feeds. (3) MCP-native. We also publish methodology and outcomes openly at agentcanary.ai/record/, including where our reads are weak — but the product is the state layer, not a forecast."
       }
     },
     {
@@ -466,8 +466,8 @@ footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px soli
 <div class="hero">
   <div class="hero-grid"></div>
   <div class="hero-glow"></div>
-  <h1><em>Decision-grade</em>&nbsp;intelligence for autonomous AI&nbsp;agents</h1>
-  <p class="hero-sub">19 MCP tools · 36 indicators · 603 predictions publicly scored · mean Brier 0.162 · wallet-billed in USDC, no KYC.</p>
+  <h1>The <em>market context layer</em>&nbsp;for autonomous AI&nbsp;agents</h1>
+  <p class="hero-sub">19 MCP tools · 36 indicators · regime, risk, narrative & scenario state · freshness-stamped · wallet-billed in USDC, no KYC.</p>
   <div class="hero-actions">
     <div style="font-family:var(--mono);font-size:13px;font-weight:500;background:var(--y);color:var(--bg);padding:14px 28px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:all .25s;" onclick="navigator.clipboard.writeText('clawhub install agentcanary');this.querySelector('.copy-label').textContent='Copied!'" onmouseover="this.style.background='#ffce3a'" onmouseout="this.style.background='var(--y)'">
       <span>$ clawhub install agentcanary</span>

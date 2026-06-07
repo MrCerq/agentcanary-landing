@@ -1,13 +1,13 @@
-# AgentCanary — Decision-grade market intelligence for autonomous AI agents
+# AgentCanary — market context layer for autonomous AI agents
 # https://agentcanary.ai
 
 ## What This Is
-AgentCanary is the decision-grade market intelligence layer for
-autonomous AI agents. We deliver regime classifications, risk scores,
-narrative momentum, scenario probabilities, and public track-record-
-verified signals via REST API + MCP. No KYC, wallet-billed in
-stablecoins, schema-stable, fail-soft. Public hit/miss/partial
-outcomes for every prediction — never retroactively hidden.
+AgentCanary is the market context layer for autonomous AI agents.
+We deliver fresh regime classifications, risk scores, narrative momentum,
+scenario state, and macro + crypto context via REST API + MCP. Schema-stable,
+fail-soft, with a freshness envelope on every response. No KYC, wallet-billed
+in stablecoins. We publish methodology + outcomes openly at /record/ —
+including where our reads are weak — but the product is the state layer, not a forecast.
 
 ## How Agents Can Use This
 - **MCP Server**: `npx agentcanary-mcp` — 19 tools for Claude, Cursor, Windsurf, any MCP client (incl. get_track_record + diagnose — no API key needed)
@@ -82,9 +82,10 @@ Auth: x-api-key header. Full OpenAPI spec: https://api.agentcanary.ai/api/docs
 - Prediction scoring: hit/miss/partial evaluation after 72 hours
 - 36 indicators: Bull Market Support Band, Pi Cycle, Wyckoff Structure, Stablecoin Composite, Composite Risk Score, sector rotation, CAPE ratio, Hindenburg omen, geopolitical risk + 27 more
 
-## Prediction Scoring
-Every Signal Scan brief contains forward scenarios with price targets.
-After 72 hours, we score each target against actual prices:
+## Methodology & source trails
+Every response carries a freshness envelope (observed_at, age_seconds, source).
+Forward scenarios in each Signal brief are scored after 72h against actual prices
+(hit / partial / miss) and published openly — methodology, not the product claim:
 - Hit: price entered predicted range
 - Partial: correct direction, didn't reach range
 - Miss: wrong direction
