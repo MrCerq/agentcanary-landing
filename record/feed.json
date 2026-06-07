@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/07/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/07/wrap/",
+      "title": "MARKET WRAP — June 7, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET WRAP — Jun 7, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear risk-off rotation as volatility",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET WRAP — Jun 7, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear risk-off rotation as volatility",
+      "date_published": "2026-06-07T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-05"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/07/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/07/pulse/",
       "title": "MARKET PULSE — June 7, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/26/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/26/signal/",
-      "title": "SIGNAL SCAN — May 26, 2026",
-      "content_text": "SIGNAL SCAN — May 26, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets split on sector rotation as semiconductor strength contrasts with energy weakness and crypto outflows. Defensive utilities bid alongside tech, sugg",
-      "summary": "SIGNAL SCAN — May 26, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets split on sector rotation as semiconductor strength contrasts with energy weakness and crypto outflows. Defensive utilities bid alongside tech, sugg",
-      "date_published": "2026-05-26T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
