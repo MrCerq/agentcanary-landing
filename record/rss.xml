@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2026 11:35:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 16:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 7, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/07/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/07/pulse/</guid>
+      <pubDate>Sun, 07 Jun 2026 15:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 7, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $61,664 — 1d:RISK_OFF · 4h:DISTRIBUTION · above $60K ETH: $1,594 — 1d:BE</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 7, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/07/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/26/signal/</guid>
       <pubDate>Tue, 26 May 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 26, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets split on sector rotation as semiconductor strength contrasts with energy weakness and crypto outflows. Defensive utilities bid alongside tech, sugg</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — May 26, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/26/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/26/radar/</guid>
-      <pubDate>Tue, 26 May 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — May 26, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 72.1/100 (High). Phase: EXPANSION. Composite Risk: 38.4/100 (MODERATE). Geopolitical risk: 38/100 (MODERATE). Top: Middle East / Red Sea</description>
     </item>
   </channel>
 </rss>
