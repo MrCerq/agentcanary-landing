@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Decision-grade macro + crypto intelligence briefs. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2026 01:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 04:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — June 7, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/07/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/07/radar/</guid>
+      <pubDate>Sun, 07 Jun 2026 03:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MACRO RADAR — Jun 7, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 47.7/100 (Elevated). Phase: EXPANSION. Composite Risk: 41.</description>
+    </item>
     <item>
       <title>MARKET WRAP — June 6, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/06/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/25/wrap/</guid>
       <pubDate>Mon, 25 May 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — May 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Growth sectors reasserted control with semiconductors leading while crypto found footing despite persistent institutional outflows. The defensive bi</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — May 25, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/25/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/25/pulse/</guid>
-      <pubDate>Mon, 25 May 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — May 25, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $77,063 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · above $75K ETH: $2,100 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade SOL: $85.23 — 1d:</description>
     </item>
   </channel>
 </rss>
