@@ -439,7 +439,7 @@ console.log('[build-v1] feed.json + rss.xml');
     title: 'AgentCanary — The Record',
     home_page_url: 'https://agentcanary.ai/record/',
     feed_url: 'https://agentcanary.ai/record/feed.json',
-    description: 'Market context briefs for AI agents — macro + crypto regime, risk, narrative & scenario state. 4x daily (weekday) / 2x daily (weekend). Tradfi reflects last completed session on weekends; crypto live 24/7.',
+    description: 'Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend). Tradfi reflects last completed session on weekends; crypto live 24/7.',
     icon: 'https://agentcanary.ai/apple-touch-icon.png',
     favicon: 'https://agentcanary.ai/favicon.png',
     language: 'en',
@@ -481,7 +481,7 @@ console.log('[build-v1] feed.json + rss.xml');
   <channel>
     <title>AgentCanary — The Record</title>
     <link>https://agentcanary.ai/record/</link>
-    <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative & scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
+    <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
     <lastBuildDate>${buildDate}</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
