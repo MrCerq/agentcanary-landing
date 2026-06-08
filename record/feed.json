@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/08/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/08/wrap/",
+      "title": "MARKET WRAP — June 8, 2026",
+      "content_text": "MARKET WRAP — Jun 8, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets found their footing as volatility fears subsided and digital assets reclaimed leadership, with miners and semiconductors joining the rotation",
+      "summary": "MARKET WRAP — Jun 8, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets found their footing as volatility fears subsided and digital assets reclaimed leadership, with miners and semiconductors joining the rotation",
+      "date_published": "2026-06-08T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/08/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/08/pulse/",
       "title": "MARKET PULSE — June 8, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/27/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/27/signal/",
-      "title": "SIGNAL SCAN — May 27, 2026",
-      "content_text": "SIGNAL SCAN — May 27, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on sentiment drives semiconductor leadership while metals catch a bid. Tech breadth expanding with defensives lagging, setting up a growth rotation na",
-      "summary": "SIGNAL SCAN — May 27, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on sentiment drives semiconductor leadership while metals catch a bid. Tech breadth expanding with defensives lagging, setting up a growth rotation na",
-      "date_published": "2026-05-27T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
