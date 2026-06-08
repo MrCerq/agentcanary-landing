@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-07",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 7",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-06-08",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 8",
+  "headlineColor": "#FB923C",
   "desc": "Risk 48/100 · 6 movers",
   "tags": [
     {
@@ -36,21 +36,21 @@
           "c": "red"
         },
         {
-          "k": "TON",
-          "v": "+13.2%",
-          "c": "green"
-        },
-        {
           "k": "SOXX",
           "v": "-12.3%",
+          "c": "red"
+        },
+        {
+          "k": "SMH",
+          "v": "-10.7%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live.</i>\n\n<b>MARKET WRAP</b> — Jun 7, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session crystallized a clear risk-off rotation as volatility surged and growth sectors faced sustained selling pressure. The defensive bid into healthcare and financials contrasted sharply with the semiconductor rout, highlighting investor preference for safety over growth momentum. Tomorrow's setup suggests continued volatility with tech needing to find footing before broader risk appetite returns.\n\n<b>CLOSING PRICES</b>\nSPY -2.2% | QQQ -5.3% | VIX +39.7% | TLT -0.3% | DXY +0.7% | OIL -2.7%\n\n<b>vs MORNING</b>\nSPY -0.4% | QQQ +0.5% | TLT -0.2%\n\n<b>EVENING NEWS</b>\n▼ Canada adds 87,800 jobs in May, unemployment drops to 6.6% as rate cut hopes fade\n▼ Bitcoin faces worst performance in a decade as AI stocks attract investors\n▼ Apyx Finance’s apxUSD stablecoin slips to 90 cents amid STRC drop\n▲ Fitch Ratings upgrades South Africa’s credit rating for first time in 21 years\n▼ Sovereign Bitcoin Holdings Linked to Bhutan Continue Declining Amid Structured Sell-Off\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↓↓ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 47.7/100 (Elevated). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLV +3.7%, XLF +2.8%, XLRE +2.7%, COPX -10.7%, SMH -10.7%.\nSector dispersion: 66 (EXTREME, breadth MIXED), 38% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] GDP deflator (YoY)(Final)(Q1) — Jun 7 23:50 UTC (prev: 3.4%)\n[JPN] Nominal GDP annum modified value (billion yen)(Q1) — Jun 7 23:50 UTC (prev: 677233.40)\n[JPN] Nominal GDP(QoQ) (Revised) (Q1) — Jun 7 23:50 UTC (prev: 0.8%)\n[JPN] Real GDP (AQR)  (Revised) (Q1) (+2 variants) — Jun 7 23:50 UTC (prev: 2.1%)\n[SWI] Consumer Confidence Index(May) — Jun 8 07:00 UTC (prev: -41.04)\n[SK] Real GDP(QoQ) (Revised) (Q2) (+1 variants) — Jun 8 23:00 UTC (prev: 1.7%)\n\n<b>CONTRARIAN</b>\n• EWY's 17.7% crash may be overdone given South Korea's tech leadership and potential Fed policy lag effects\n• Semiconductor massacre in SOXX (-12.3%) and SMH (-10.7%) could create buying opportunity as AI infrastructure demand remains structural\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":47.7,\"sectorDispersion\":66,\"breadth\":\"MIXED\",\"topSector\":\"XLV\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 476,
-  "isWeekend": true,
-  "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live.",
-  "tradFiAsOf": "2026-06-05"
+  "telegramText": "<b>MACRO RADAR</b> — Jun 8, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 47.7/100 (Elevated). Phase: EXPANSION.\nComposite Risk: 41.9/100 (MODERATE).\nGeopolitical risk: 34/100 (MODERATE). Top: Russia-Ukraine 44/100 (MODERATE, palladium bullish).\n\n<b>CRYPTO</b>\nBTC: $61,664 · ETH: $1,594 · SOL: $63.72\nCrypto sentiment: 8 (Extreme Fear, 7d avg 13) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.84%) — fed $6.71T · ecb $7.20T · boj $4.17T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 274bps NORMAL (composite: CAUTION)\nBDRY: $12.70 (+16.5% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_GLUT, crude 433.7M bbl, refinery 94.7%, SPR 357M.\n\n<b>KEY PRICES</b>\nSPY -2.2% | QQQ -5.3% | VIX +39.7% | TLT -0.3% | DXY flat | OIL +3.7%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ IPWR: -18.6%\n▼ UMAC: -17.3%\n▼ LWLG: -16.8%\n▼ MRVL: -16.7%\n▼ LPTH: -15.3%\n▼ RGTI: -14.4%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 118.88 (R), Gold $4319 (Y), Oil $96 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] Gold: -2.17σ\n[-] 2s10s Curve: -2.06σ\n[+] Jobless Claims: +1.96σ\n[-] Silver: -1.92σ\n[-] VIX: -1.56σ\n\n<b>US OPEN SETUP</b>\n<i>Tech weakness presents defensive rotation opportunity heading into US open. Healthcare and financials catching safety flows while semiconductor space oversold. Watch crypto ETF flows for risk appetite divergence signals.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":47.7,\"compositeRisk\":41.9,\"geoRisk\":34}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 477,
+  "isWeekend": false,
+  "weekendBanner": null,
+  "tradFiAsOf": null
 }
