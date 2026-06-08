@@ -1,32 +1,14 @@
 #!/usr/bin/env node
 // One-off: generate a new homepage og-image.png leading with proof.
 // Mirrors site dark theme (grid bg + glow). Reads canonical counts so
-// the image updates whenever score-aggregates.json refreshes.
+// market-context-layer positioning.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { Resvg } from '/root/agentcanary-landing/node_modules/@resvg/resvg-js/index.js';
 
 const ROOT = '/root/agentcanary-landing';
-const aggPath = path.join(ROOT, 'record/data/score-aggregates.json');
-const indCfg  = '/root/agentcanary-backend/routes/indicators.js';
-
-// Live counts
-let predictionsScored = '600+';
-let meanBrier = '0.16';
-let liftPct = '35%';
-try {
-  const a = JSON.parse(fs.readFileSync(aggPath, 'utf8'));
-  const bs = a.brierStats;
-  if (bs) {
-    predictionsScored = String(bs.n);
-    meanBrier = bs.meanBrier.toFixed(3);
-    const lift = ((bs.baselineRandom - bs.meanBrier) / bs.baselineRandom) * 100;
-    liftPct = lift.toFixed(0) + '%';
-  }
-} catch {}
-
-// 19 tools (from MCP package)
+// Static coverage counts (market-context-layer positioning, 2026-06-08).
 const toolCount = '19';
 const indicatorCount = '36';
 
@@ -111,4 +93,4 @@ const png = resvg.render().asPng();
 const outPath = '/tmp/og-image-preview.png';
 fs.writeFileSync(outPath, png);
 console.log(`wrote ${outPath} (${png.length} bytes, ${W}x${H})`);
-console.log(`stats: predictions=${predictionsScored}  brier=${meanBrier}  lift=${liftPct}  tools=${toolCount}  indicators=${indicatorCount}`);
+console.log(`stats: tools=${toolCount}  indicators=${indicatorCount}  datasets=44`);

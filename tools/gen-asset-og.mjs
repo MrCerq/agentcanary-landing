@@ -16,9 +16,7 @@ const W = 1200, H = 630;
 
 const escapeXml = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
-function buildSvg({ ticker, mentions, dateRange, hitRate, weighted, brierStats }) {
-  const hasHitRate = Number.isFinite(hitRate);
-  const beatsBaseline = brierStats && brierStats.meanBrier < brierStats.baselineRandom;
+function buildSvg({ ticker, mentions, dateRange }) {
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
@@ -81,10 +79,6 @@ function buildSvg({ ticker, mentions, dateRange, hitRate, weighted, brierStats }
 }
 
 // ─── Run ───
-const agg = JSON.parse(fs.readFileSync(path.join(ROOT, 'record/data/score-aggregates.json'), 'utf8'));
-const perAsset = {};
-for (const a of (agg.perAsset || [])) perAsset[a.ticker] = a;
-
 const archive = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'briefs-archive.json'), 'utf8'));
 const briefs = Array.isArray(archive) ? archive : (archive.briefs || Object.values(archive));
 
@@ -114,14 +108,10 @@ for (const [ticker, info] of byTicker) {
     skipped++;
     continue;
   }
-  const stat = perAsset[ticker] || null;
   const svg = buildSvg({
     ticker,
     mentions: info.count,
     dateRange: `${info.firstDate} → ${info.lastDate}`,
-    hitRate: stat?.hit_rate_pct,
-    weighted: stat?.weighted_pct,
-    brierStats: agg.brierStats || null,
   });
   const resvg = new Resvg(svg, { background: '#0a0e1a', fitTo: { mode: 'width', value: W } });
   const png = resvg.render().asPng();
