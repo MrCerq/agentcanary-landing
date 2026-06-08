@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/08/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/08/signal/",
+      "title": "SIGNAL SCAN — June 8, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 8, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off tone dominates as tech suffers broad-based selling while defensi",
+      "summary": "Pre-market brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 8, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off tone dominates as tech suffers broad-based selling while defensi",
+      "date_published": "2026-06-08T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-05"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/08/radar/",
       "url": "https://agentcanary.ai/record/2026/06/08/radar/",
       "title": "MACRO RADAR — June 8, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/26/wrap/",
-      "url": "https://agentcanary.ai/record/2026/05/26/wrap/",
-      "title": "MARKET WRAP — May 26, 2026",
-      "content_text": "MARKET WRAP — May 26, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear growth rotation as semiconductors and metals surged while traditional defensives faced selling pressure. The di",
-      "summary": "MARKET WRAP — May 26, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear growth rotation as semiconductors and metals surged while traditional defensives faced selling pressure. The di",
-      "date_published": "2026-05-26T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
