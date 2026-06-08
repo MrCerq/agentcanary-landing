@@ -62,34 +62,20 @@ function buildSvg({ ticker, mentions, dateRange, hitRate, weighted, brierStats }
     ${escapeXml(mentions)} AgentCanary brief${mentions === 1 ? '' : 's'}${dateRange ? ' · ' + escapeXml(dateRange) : ''}
   </text>
 
-  <!-- proof row -->
+  <!-- proof row (reframed 2026-06-08: coverage, no scoring) -->
   <g transform="translate(80, 430)">
-    ${hasHitRate ? `
-    <!-- chip 1: hit rate -->
-    <rect x="0" y="0" width="320" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
-    <text x="24" y="36" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">PUBLIC HIT RATE</text>
-    <text x="24" y="86" font-family="monospace, JetBrains Mono" font-size="42" font-weight="700" fill="${hitRate >= 30 ? '#34d399' : hitRate >= 15 ? '#ffc53d' : '#ffffff'}">${hitRate.toFixed(1)}%</text>
-
-    <!-- chip 2: weighted -->
-    <rect x="345" y="0" width="320" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
-    <text x="369" y="36" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">WEIGHTED ACCURACY</text>
-    <text x="369" y="86" font-family="monospace, JetBrains Mono" font-size="42" font-weight="700" fill="#ffffff">${(weighted ?? 0).toFixed(1)}%</text>
-    ` : `
-    <!-- chip: coverage only -->
     <rect x="0" y="0" width="665" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
-    <text x="24" y="36" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">TRACKED IN</text>
-    <text x="24" y="86" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#ffffff">Radar · Signal · Pulse · Wrap coverage</text>
-    `}
+    <text x="24" y="36" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">COVERAGE</text>
+    <text x="24" y="86" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#ffffff">Regime &#183; narrative &#183; scenario state</text>
 
-    <!-- chip 3: brand promise -->
     <rect x="690" y="0" width="320" height="110" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
-    <text x="714" y="36" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">PUBLIC SCORING</text>
-    <text x="714" y="86" font-family="monospace, JetBrains Mono" font-size="42" font-weight="700" fill="#ffffff">${brierStats ? brierStats.meanBrier.toFixed(3) : '—'}<tspan fill="#7a8aa0" font-size="22"> Brier</tspan></text>
+    <text x="714" y="36" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">ACCESS</text>
+    <text x="714" y="86" font-family="monospace, JetBrains Mono" font-size="32" font-weight="700" fill="#ffffff">REST + MCP</text>
   </g>
 
   <!-- url -->
   <text x="80" y="590" font-family="monospace, JetBrains Mono" font-size="14" font-weight="500" fill="#7a8aa0">
-    agentcanary.ai/assets/${escapeXml(ticker)}/ · npx agentcanary-mcp · graded in the open
+    agentcanary.ai/assets/${escapeXml(ticker)}/ · npx agentcanary-mcp · market context layer
   </text>
 </svg>`;
 }

@@ -67,34 +67,33 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
 
   <!-- eyebrow -->
   <text x="80" y="200" font-family="monospace, JetBrains Mono" font-size="14" letter-spacing="3" font-weight="700" fill="#ffc53d">
-    PUBLIC TRACK RECORD · 72H EVALUATION
+    MARKET CONTEXT LAYER · REST + MCP
   </text>
 
   <!-- hero headline -->
   <text x="80" y="270" font-family="Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">
-    Market intelligence
+    Market context state
   </text>
   <text x="80" y="335" font-family="Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">
-    for AI agents, <tspan fill="#ffc53d" font-style="italic">graded in the open.</tspan>
+    for AI agents, <tspan fill="#ffc53d" font-style="italic">fresh on every call.</tspan>
   </text>
 
   <!-- proof row: 3 chips -->
   <g transform="translate(80, 410)">
     <!-- chip 1: predictions scored -->
     <rect x="0" y="0" width="320" height="120" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
-    <text x="24" y="38" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">PREDICTIONS SCORED</text>
-    <text x="24" y="92" font-family="monospace, JetBrains Mono" font-size="44" font-weight="700" fill="#ffffff">${escapeXml(predictionsScored)}</text>
+    <text x="24" y="38" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">MCP TOOLS</text>
+    <text x="24" y="92" font-family="monospace, JetBrains Mono" font-size="44" font-weight="700" fill="#ffffff">${escapeXml(toolCount)}</text>
 
     <!-- chip 2: brier vs baseline -->
     <rect x="345" y="0" width="320" height="120" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
-    <text x="369" y="38" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">MEAN BRIER · BEATS BASELINE</text>
-    <text x="369" y="92" font-family="monospace, JetBrains Mono" font-size="44" font-weight="700" fill="#ffffff">${escapeXml(meanBrier)}</text>
-    <text x="558" y="92" font-family="monospace, JetBrains Mono" font-size="20" font-weight="700" fill="#34d399">↓${escapeXml(liftPct)}</text>
+    <text x="369" y="38" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">INDICATORS</text>
+    <text x="369" y="92" font-family="monospace, JetBrains Mono" font-size="44" font-weight="700" fill="#ffffff">${escapeXml(indicatorCount)}</text>
 
     <!-- chip 3: MCP tools -->
     <rect x="690" y="0" width="320" height="120" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.10)" stroke-width="1"/>
-    <text x="714" y="38" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">MCP TOOLS · INDICATORS</text>
-    <text x="714" y="92" font-family="monospace, JetBrains Mono" font-size="44" font-weight="700" fill="#ffffff">${escapeXml(toolCount)}<tspan fill="#7a8aa0" font-size="32"> / ${escapeXml(indicatorCount)}</tspan></text>
+    <text x="714" y="38" font-family="monospace, JetBrains Mono" font-size="11" letter-spacing="2.5" font-weight="700" fill="#7a8aa0">DATASETS</text>
+    <text x="714" y="92" font-family="monospace, JetBrains Mono" font-size="44" font-weight="700" fill="#ffffff">44</text>
   </g>
 
   <!-- url + tagline -->
