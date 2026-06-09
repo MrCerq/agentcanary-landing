@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-09",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 9",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 9",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 88/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "VIX",
-          "v": "-12.0%",
+          "k": "IREN",
+          "v": "-8.7%",
           "c": "red"
         },
         {
-          "k": "EWY",
-          "v": "-9.0%",
+          "k": "MRVL",
+          "v": "-8.4%",
           "c": "red"
         },
         {
-          "k": "SLV",
-          "v": "-8.1%",
+          "k": "APP",
+          "v": "-7.5%",
           "c": "red"
         },
         {
-          "k": "NEAR",
-          "v": "-5.9%",
+          "k": "HYPE",
+          "v": "-7.2%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 9, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K\nETH: $1,692 · (same)\nSOL: $67.18 · (same)\nCrypto sentiment: 10 (Extreme Fear, 7d avg 11).\n\n<b>WHALE ALERTS</b>\n• 1,499 BTC ($95.0M) — transferred from #Coinbase to unknown wallet\n• 817 BTC ($52.2M) — transferred from unknown wallet to Coinbase Institutional\n• 793 BTC ($50.4M) — transferred from unknown wallet to #Coinbase\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — transferred from #Ethena to unknown wallet\n• 250M USDC ($250M) — minted at USDC Treasury\n• 248M USDC ($248M) — transferred from USDC Treasury to Coinbase Institutional\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• GWEI: 328% net APR (0.1498% rate) · Long Bitget / Short Binance · OI $12.4M · Spread -0.06%\n• SIREN: 272% net APR (0.1242% rate) · Long Bybit / Short Bitget · OI $6.7M · Spread +0.28%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $84.9B\nTop OI: BTC $45.3B · ETH $24.2B · SOL $4.6B · HYPE $2.6B · XRP $2.5B\nOI shifters (4h): FIL +10.1% · NEAR +6.6% · PEPE -5.1% · ONDO +4.8% · STX +4.3%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$91M outflow on Jun 9 (Tue close) (IBIT -$233M, ARKB +$63M, FBTC +$59M). Trailing 5-trading-day net: -$1.4B outflow.\nBTC options — BEARISH: max pain $68,000 (12JUN26), P/C 0.64 OI / 0.66 vol, put skew +31.2 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.0537% (14/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $54M long / $80M short (net short $26M, +$7.1M PnL); HYPE: $51M long / $55M short (flat, -$12.4M PnL); ETH: $15M long / $54M short (net short $39M, -$910K PnL).\nLiquidations: 24h total $69.9M; latest 4h $6.9M (98.8% long / 1.2% short, 432L/21S events, long-dominant).\nETH stake APY 2.58% vs T-bill 3.63% (spread -1.05, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Middle East Conflict Escalation [BTC, ETH, XAU, EUR]\n▼ Asian Tech Collapse [EWY, SOXX, Samsung, SK Hynix]\n▼ Fed Rate Hike Expectations Surge [SPY, QQQ, DXY]\n\n<b>IMPLICATION</b>\nDefensive rotation gaining momentum suggests tactical shift toward quality and stability. Watch for continued semiconductor weakness and whether staples leadership extends. Metals complex breakdown signals broader commodity headwinds. Near-term positioning favors defensive sectors over cyclical exposure as volatility backdrop shifts.\n\n<b>JSON</b>\n{\"btc\":62842,\"cryptoSentiment\":10,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 483,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 9, 2026\n\n<b>SNAPSHOT</b>\n[!] <i>Validator rejected after retry: btcPrice atom says \"above $60K\" but text contradicts with explicit \"below $60K\". Showing deterministic facts only — no Sonnet narrative.</i>\nBTC at $62,075, above $60K.\nBTC ETF flows: -$91M outflow on Jun 9 (Tue close), after -$1.4B outflow trailing 5-trading-day.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Pre-market — tradfi reflects Mon close, crypto live.</i>\nRisk Gauge: 88.3/100 (Critical). Phase: EXPANSION.\nSPY -0.1% | QQQ +0.4% | VIX +5.0% | TLT +0.1% | DXY -0.1% | OIL -2.8%\nICSA: 225K (UP trend, +1.96z)\n\n<b>FORWARD SCENARIOS</b>\n<b>SCENARIO A</b> — risk on extension\nSPY: $762.89-780.12 (+4-6%)\nQQQ: $749.20-774.02 (+6-9%)\nBTC: $65,703-69,330 (+6-12%)\n\n<b>SCENARIO B</b> — crypto led divergence\nBTC: $67,879-72,958 (+9-18%)\nTLT: $82.14-84.13 (-4 to -1%)\nQQQ: $683.01-699.56 (-4 to -1%)\n\n<b>SCENARIO C</b> — risk off rotation\nTLT: $88.10-90.09 (+4-6%)\nDXY: 101.12-103.46 (+1-4%)\nSPY: $711.21-719.82 (-4 to -2%)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: SMH +3.7%, XBI +2.1%, XLV +1.0%, XLU -0.8%, URA -2.6%.\n\n<b>BIG MOVES + DRIVERS</b>\nTop movers: IREN -8.7%, MRVL -8.4%, APP -7.5%, HYPE -7.2%, GLXY +7.1%, RIVN -6.6%.\n<i>Per-mover drivers omitted (deterministic fallback).</i>\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$91M outflow on Jun 9 (Tue close) (IBIT -$233M, ARKB +$63M, FBTC +$59M). Trailing 5-trading-day net: -$1.4B outflow.\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $78M long / $148M short (net short $70M, -$4.8M PnL); ETH: $13M long / $99M short (net short $86M, +$6.7M PnL); HYPE: $28M long / $36M short (net short $8M, +$1.5M PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 484,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null

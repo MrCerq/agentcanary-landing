@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/09/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/09/wrap/",
+      "title": "MARKET WRAP — June 9, 2026",
+      "content_text": "MARKET WRAP — Jun 9, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says \"above $60K\" but text contradicts with explicit \"below $60K\". Showing deterministic facts only — no Sonnet narrative. BTC at $62,075, above $60K. BTC",
+      "summary": "MARKET WRAP — Jun 9, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says \"above $60K\" but text contradicts with explicit \"below $60K\". Showing deterministic facts only — no Sonnet narrative. BTC at $62,075, above $60K. BTC",
+      "date_published": "2026-06-09T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/09/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/09/pulse/",
       "title": "MARKET PULSE — June 9, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/28/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/28/signal/",
-      "title": "SIGNAL SCAN — May 28, 2026",
-      "content_text": "SIGNAL SCAN — May 28, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk assets diverge as semiconductors and metals bid while crypto faces broad liquidation pressure. Industrial rotation outpacing speculative positioning a",
-      "summary": "SIGNAL SCAN — May 28, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk assets diverge as semiconductors and metals bid while crypto faces broad liquidation pressure. Industrial rotation outpacing speculative positioning a",
-      "date_published": "2026-05-28T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
