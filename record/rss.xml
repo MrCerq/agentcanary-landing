@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2026 01:30:32 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 04:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — June 9, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/09/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/09/radar/</guid>
+      <pubDate>Tue, 09 Jun 2026 03:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Mon 2026-06-08 close. Crypto data is live. MACRO RADAR — Jun 9, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 88.3/100 (Critical). Phase: EXPANSION. Composite Risk:</description>
+    </item>
     <item>
       <title>MARKET WRAP — June 8, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/08/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/27/wrap/</guid>
       <pubDate>Wed, 27 May 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — May 27, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session highlighted a selective risk-on rotation with semiconductors and metals leading while crypto faced sustained institutional selling p</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — May 27, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/27/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/27/pulse/</guid>
-      <pubDate>Wed, 27 May 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — May 27, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $75,848 — 1d:IGNITION · 4h:ACCUMULATION · above $75K ETH: $2,075 — 1d:ACCUMULATION · 4h:ACCUMULATION SOL: $83.78 — 1d:BEAR_REGIME · 4h:ACCUMULATION · →</description>
     </item>
   </channel>
 </rss>

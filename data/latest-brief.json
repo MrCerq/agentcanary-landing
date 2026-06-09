@@ -1,14 +1,14 @@
 {
-  "session": "wrap",
-  "date": "2026-06-08",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 8",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 48/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-09",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 9",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 88/100 · 6 movers",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
+      "t": "HIGH",
+      "c": "red"
     },
     {
       "t": "EXPANSION",
@@ -19,38 +19,38 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 48
+        "value": 88
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "GLXY",
-          "v": "+20.9%",
-          "c": "green"
-        },
-        {
-          "k": "NEAR",
-          "v": "+15.9%",
-          "c": "green"
-        },
-        {
           "k": "VIX",
           "v": "-12.0%",
           "c": "red"
         },
         {
-          "k": "INTC",
-          "v": "+11.9%",
-          "c": "green"
+          "k": "EWY",
+          "v": "-9.0%",
+          "c": "red"
+        },
+        {
+          "k": "SLV",
+          "v": "-8.1%",
+          "c": "red"
+        },
+        {
+          "k": "NEAR",
+          "v": "-5.9%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 8, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets found their footing as volatility fears subsided and digital assets reclaimed leadership, with miners and semiconductors joining the rotation out of defensive positioning. The divergence between staples strength and metals weakness suggests selective rather than broad-based risk appetite. Tomorrow's setup favors continuation of the crypto-led recovery theme while commodities face further technical pressure.\n\n<b>CLOSING PRICES</b>\nSPY -2.4% | QQQ -3.3% | VIX -12.0% | TLT -1.0% | DXY -0.1% | OIL +0.8%\n\n<b>vs MORNING</b>\nSPY -0.2% | QQQ +1.9% | VIX -51.7% | TLT -0.7% | DXY flat | OIL -2.9%\n\n<b>EVENING NEWS</b>\n▲ Trump urges Netanyahu against retaliation as Bitcoin jumps 5% on de-escalation hopes\n▲ SIREN crypto soars 44% – But can bulls ignore THESE warning signs?\n▼ Bitcoin Is 'Boring' AI-Hungry Retail Investors, But Bernstein Still Sees $150K This Year\n▼ Trump’s $100,000 H-1B visa fee blocked by judge \n▼ The One-Two Punch That Could Be Disastrous for the S&P 500 This Year\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 47.7/100 (Elevated). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLP +1.3%, XLV +0.4%, URA -8.7%, COPX -9.9%.\nSector dispersion: 66 (EXTREME, breadth MIXED), 38% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SK] Real GDP(QoQ) (Revised) (Q2) (+1 variants) — Jun 8 23:00 UTC (prev: 1.7%)\n[UK] BRC Overall Retail Sales (YoY)(May) — Jun 8 23:01 UTC (prev: -3%)\n[UK] BRC Same-Store Retail Sales (YoY)(May) — Jun 8 23:01 UTC (prev: -3.4%)\n[AUS] west pacific/Melbourne consumer confidence index (MoM)(Jun) (+1 variants) — Jun 9 00:30 UTC (prev: 3.5%)\n[USA] Last week's Red Book Commercial Retail Sales (YoY)(to 0601) — Jun 9 12:55 UTC (prev: 9.0%)\n[CHN] Consumer Price Index (MoM)(May) — Jun 10 01:30 UTC (prev: 0.3%)\n\n<b>CONTRARIAN</b>\n• VIX down 12% despite Iran missile strikes suggests desensitization to geopolitical risk that could backfire on next escalation\n• COPX down 9.9% might be overdone if Middle East tensions actually boost infrastructure spending and strategic metal stockpiling\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":47.7,\"sectorDispersion\":66,\"breadth\":\"MIXED\",\"topSector\":\"XLP\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 480,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Mon 2026-06-08 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 9, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 88.3/100 (Critical). Phase: EXPANSION.\nComposite Risk: 48.3/100 (ELEVATED).\nGeopolitical risk: 40/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $62,842 · ETH: $1,667 · SOL: $65.85\nCrypto sentiment: 10 (Extreme Fear, 7d avg 11).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $18.08T (YoY -2.84%) — fed $6.71T · ecb $7.20T · boj $4.17T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 274bps NORMAL (composite: CAUTION)\nBDRY: $12.70 (+16.5% 30d, DOWN — BULLISH_SHIPPING).\nOil: SUPPLY_GLUT, crude 433.7M bbl, refinery 94.7%, SPR 357M.\n\n<b>KEY PRICES</b>\nSPY -2.4% | QQQ -3.3% | VIX -12.0% | TLT -1.0% | DXY -0.1% | OIL -0.7%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ VIX: -12.5%\n▲ INTC: +11.2%\n▲ IONQ: +10.6%\n▲ XPRO: +10.1%\n▲ MU: +9.9%\n▲ MRVL: +9.6%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 118.88 (R), Gold $4319 (Y), Oil $96 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] Gold: -2.17σ\n[+] Jobless Claims: +1.96σ\n[-] Silver: -1.92σ\n[-] VIX: -1.56σ\n\n<b>US OPEN SETUP</b>\n<i>Setup favors defensive positioning into US open with staples and healthcare leading while metals and crypto face continued pressure. Watch for any reversal signals in semiconductor weakness or further volatility compression.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":88.3,\"compositeRisk\":48.3,\"geoRisk\":40}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 481,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Mon 2026-06-08 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-08"
 }
