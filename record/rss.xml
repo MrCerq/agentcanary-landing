@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jun 2026 10:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 16:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 9, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/09/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/09/pulse/</guid>
+      <pubDate>Tue, 09 Jun 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 · (same) SOL: $67.18 · (same) Crypto sentiment: 10 (Extreme Fear, 7d</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 9, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/09/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/28/signal/</guid>
       <pubDate>Thu, 28 May 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 28, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk assets diverge as semiconductors and metals bid while crypto faces broad liquidation pressure. Industrial rotation outpacing speculative positioning a</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — May 28, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/28/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/28/radar/</guid>
-      <pubDate>Thu, 28 May 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — May 28, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 34.4/100 (MODERATE). Geopolitical risk: 44/100 (MODERATE). Top: Middle East / Red Sea 5</description>
     </item>
   </channel>
 </rss>

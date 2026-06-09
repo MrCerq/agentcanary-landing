@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/09/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/09/pulse/",
+      "title": "MARKET PULSE — June 9, 2026",
+      "content_text": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 · (same) SOL: $67.18 · (same) Crypto sentiment: 10 (Extreme Fear, 7d",
+      "summary": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 · (same) SOL: $67.18 · (same) Crypto sentiment: 10 (Extreme Fear, 7d",
+      "date_published": "2026-06-09T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/09/signal/",
       "url": "https://agentcanary.ai/record/2026/06/09/signal/",
       "title": "SIGNAL SCAN — June 9, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/28/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/28/radar/",
-      "title": "MACRO RADAR — May 28, 2026",
-      "content_text": "MACRO RADAR — May 28, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 34.4/100 (MODERATE). Geopolitical risk: 44/100 (MODERATE). Top: Middle East / Red Sea 5",
-      "summary": "MACRO RADAR — May 28, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 34.4/100 (MODERATE). Geopolitical risk: 44/100 (MODERATE). Top: Middle East / Red Sea 5",
-      "date_published": "2026-05-28T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
