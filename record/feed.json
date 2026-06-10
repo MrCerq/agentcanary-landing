@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/10/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/10/wrap/",
+      "title": "MARKET WRAP — June 10, 2026",
+      "content_text": "MARKET WRAP — Jun 10, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed in clear risk-off mode with defensives leading while growth assets faced broad selling pressure. The volatility spike underscored shi",
+      "summary": "MARKET WRAP — Jun 10, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed in clear risk-off mode with defensives leading while growth assets faced broad selling pressure. The volatility spike underscored shi",
+      "date_published": "2026-06-10T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/10/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/10/pulse/",
       "title": "MARKET PULSE — June 10, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/29/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/29/signal/",
-      "title": "SIGNAL SCAN — May 29, 2026",
-      "content_text": "SIGNAL SCAN — May 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite drives selective rotation into cyclical sectors while defensive utilities and energy lag. Volatility compression signals complacency as aeros",
-      "summary": "SIGNAL SCAN — May 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite drives selective rotation into cyclical sectors while defensive utilities and energy lag. Volatility compression signals complacency as aeros",
-      "date_published": "2026-05-29T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }

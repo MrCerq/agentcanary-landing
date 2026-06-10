@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 19:30:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 22:30:33 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — June 10, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/10/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/10/wrap/</guid>
+      <pubDate>Wed, 10 Jun 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — Jun 10, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed in clear risk-off mode with defensives leading while growth assets faced broad selling pressure. The volatility spike underscored shi</description>
+    </item>
     <item>
       <title>MARKET PULSE — June 10, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/10/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/29/pulse/</guid>
       <pubDate>Fri, 29 May 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — May 29, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,196 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $75K ETH: $2,000 · (same) SOL: $81.51 · (same) Crypto sentiment: 23 (Extreme Fear, 7d</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — May 29, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/29/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/29/signal/</guid>
-      <pubDate>Fri, 29 May 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — May 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite drives selective rotation into cyclical sectors while defensive utilities and energy lag. Volatility compression signals complacency as aeros</description>
     </item>
   </channel>
 </rss>
