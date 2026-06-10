@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 04:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 10:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 10, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/10/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/10/signal/</guid>
+      <pubDate>Wed, 10 Jun 2026 09:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Tue 2026-06-09 close. Crypto data is live. SIGNAL SCAN — Jun 10, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on momentum building as semiconductors and biotech lead broad equit</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 10, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/10/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/29/radar/</guid>
       <pubDate>Fri, 29 May 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — May 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 32.3/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 5</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 28, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/28/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/28/wrap/</guid>
-      <pubDate>Thu, 28 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 28, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with clear sector differentiation as defense and discretionary names captured flows while crypto faced sustained pressure. The rotati</description>
     </item>
   </channel>
 </rss>
