@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/10/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/10/radar/",
+      "title": "MACRO RADAR — June 10, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Tue 2026-06-09 close. Crypto data is live. MACRO RADAR — Jun 10, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 77.3/100 (High). Phase: EXPANSION. Composite Risk: 46.",
+      "summary": "Pre-market brief — tradfi data reflects Tue 2026-06-09 close. Crypto data is live. MACRO RADAR — Jun 10, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 77.3/100 (High). Phase: EXPANSION. Composite Risk: 46.",
+      "date_published": "2026-06-10T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-09"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/09/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/09/wrap/",
       "title": "MARKET WRAP — June 9, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/28/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/28/pulse/",
-      "title": "MARKET PULSE — May 28, 2026",
-      "content_text": "MARKET PULSE — May 28, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,120 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $1,979 · (same) SOL: $80.60 · (same) Crypto sentiment: 22 (Extreme Fear, 7d avg 27) (falling). WH",
-      "summary": "MARKET PULSE — May 28, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,120 — 1d:RISK_OFF · 4h:RISK_OFF · below $75K ETH: $1,979 · (same) SOL: $80.60 · (same) Crypto sentiment: 22 (Extreme Fear, 7d avg 27) (falling). WH",
-      "date_published": "2026-05-28T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
