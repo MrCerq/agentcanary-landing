@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 10:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 16:30:32 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 10, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/10/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/10/pulse/</guid>
+      <pubDate>Wed, 10 Jun 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — Jun 10, 2026 SNAPSHOT [!] Sonnet call/parse failed: Slot JSON parse failed: Expected double-quoted property name in JSON at position 1867 (line 23 column 1). Raw: { &quot;snapshotNarrative&quot;: &quot;Risk-on rotation into tech and growth</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 10, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/10/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/29/signal/</guid>
       <pubDate>Fri, 29 May 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — May 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite drives selective rotation into cyclical sectors while defensive utilities and energy lag. Volatility compression signals complacency as aeros</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — May 29, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/29/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/29/radar/</guid>
-      <pubDate>Fri, 29 May 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — May 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 32.3/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 5</description>
     </item>
   </channel>
 </rss>

@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/10/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/10/pulse/",
+      "title": "MARKET PULSE — June 10, 2026",
+      "content_text": "MARKET PULSE — Jun 10, 2026 SNAPSHOT [!] Sonnet call/parse failed: Slot JSON parse failed: Expected double-quoted property name in JSON at position 1867 (line 23 column 1). Raw: { \"snapshotNarrative\": \"Risk-on rotation into tech and growth",
+      "summary": "MARKET PULSE — Jun 10, 2026 SNAPSHOT [!] Sonnet call/parse failed: Slot JSON parse failed: Expected double-quoted property name in JSON at position 1867 (line 23 column 1). Raw: { \"snapshotNarrative\": \"Risk-on rotation into tech and growth",
+      "date_published": "2026-06-10T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/10/signal/",
       "url": "https://agentcanary.ai/record/2026/06/10/signal/",
       "title": "SIGNAL SCAN — June 10, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/29/radar/",
-      "url": "https://agentcanary.ai/record/2026/05/29/radar/",
-      "title": "MACRO RADAR — May 29, 2026",
-      "content_text": "MACRO RADAR — May 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 32.3/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 5",
-      "summary": "MACRO RADAR — May 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 37.8/100 (Low). Phase: EXPANSION. Composite Risk: 32.3/100 (MODERATE). Geopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 5",
-      "date_published": "2026-05-29T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
