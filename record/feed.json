@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/11/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/11/radar/",
+      "title": "MACRO RADAR — June 11, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Wed 2026-06-10 close. Crypto data is live. MACRO RADAR — Jun 11, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 86.2/100 (Critical). Phase: EXPANSION. Composite Risk:",
+      "summary": "Pre-market brief — tradfi data reflects Wed 2026-06-10 close. Crypto data is live. MACRO RADAR — Jun 11, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 86.2/100 (Critical). Phase: EXPANSION. Composite Risk:",
+      "date_published": "2026-06-11T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-10"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/10/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/10/wrap/",
       "title": "MARKET WRAP — June 10, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/29/pulse/",
-      "url": "https://agentcanary.ai/record/2026/05/29/pulse/",
-      "title": "MARKET PULSE — May 29, 2026",
-      "content_text": "MARKET PULSE — May 29, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,196 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $75K ETH: $2,000 · (same) SOL: $81.51 · (same) Crypto sentiment: 23 (Extreme Fear, 7d",
-      "summary": "MARKET PULSE — May 29, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,196 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $75K ETH: $2,000 · (same) SOL: $81.51 · (same) Crypto sentiment: 23 (Extreme Fear, 7d",
-      "date_published": "2026-05-29T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }

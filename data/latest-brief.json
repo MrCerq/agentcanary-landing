@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-10",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 10",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 77/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-11",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 11",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 86/100 · 6 movers",
   "tags": [
     {
       "t": "HIGH",
@@ -19,7 +19,7 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 77
+        "value": 86
       }
     },
     {
@@ -31,26 +31,26 @@
           "c": "green"
         },
         {
-          "k": "INJ",
-          "v": "-11.2%",
+          "k": "SLV",
+          "v": "-6.4%",
           "c": "red"
         },
         {
-          "k": "NEAR",
-          "v": "-10.8%",
+          "k": "GLD",
+          "v": "-5.7%",
           "c": "red"
         },
         {
-          "k": "HYPE",
-          "v": "-9.4%",
-          "c": "red"
+          "k": "WPP",
+          "v": "+5.5%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 10, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets closed in clear risk-off mode with defensives leading while growth assets faced broad selling pressure. The volatility spike underscored shifting sentiment as investors rotated toward safety amid crypto ecosystem weakness. Tomorrow's session will test whether this defensive bid has legs or represents temporary positioning ahead of key data releases.\n\n<b>CLOSING PRICES</b>\nSPY -1.9% | QQQ -3.1% | VIX +11.8% | TLT +0.3% | DXY +0.1% | OIL +4.0%\n\n<b>vs MORNING</b>\nSPY -1.8% | QQQ -3.5% | VIX +6.8% | TLT +0.2% | DXY +0.2% | OIL +6.7%\n\n<b>EVENING NEWS</b>\n▲ Cango increases Bitcoin holdings by 7.65 BTC to 1,065 BTC after selling thousands earlier this year\n▲ Nigeria national team’s Akor Adams scores equalizer against Portugal in friendly\n▲ Solana Exchange Raydium Hit With $1.34 Million Exploit as DeFi Attacks Grow\n▲ World Cup 2026 Group K: what Portugal, Colombia, DR Congo, and Uzbekistan mean for crypto fan tokens\n▲ Jupiter Exchange adds leveraged tokenized equities from Shift RWA on Solana\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↓↓ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 77.3/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLP +2.9%, XLRE +2.2%, XLU +1.1%, COPX -4.7%, URA -7.8%.\nSector dispersion: 84 (EXTREME, breadth MIXED), 50% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SK] Seasonally Adjusted Unemployment Rate (MoM)(May) — Jun 10 23:00 UTC (prev: 2.8%)\n[USA] Producer Price Index (MoM)(May) (+2 variants) — Jun 11 12:05 UTC (prev: 1.4%)\n[USA] Core Producer Price Index (MoM)(May) (+1 variants) — Jun 11 12:30 UTC (prev: 1.0%)\n[GER] Consumer Price Index (MoM)(Final)(May) (+3 variants) — Jun 12 06:00 UTC (prev: -0.2%)\n[UK] GDP(MoM)(Apr) — Jun 12 06:00 UTC (prev: 0.3%)\n[UK] NIESR Three-Month GDP Estimate (YoY)(Apr) — Jun 12 06:00 UTC (prev: 0.6%)\n\n<b>CONTRARIAN</b>\n• WPP's +5.5% surge amid broad risk-off could signal advertising spend resilience, contradicting recession fears\n• Precious metals weakness might be temporary positioning ahead of central bank policy shifts rather than fundamental demand destruction\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":77.3,\"sectorDispersion\":84,\"breadth\":\"MIXED\",\"topSector\":\"XLP\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 488,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Wed 2026-06-10 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 11, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 86.2/100 (Critical). Phase: EXPANSION.\nComposite Risk: 49.7/100 (ELEVATED).\nGeopolitical risk: 47/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $61,578 · ETH: $1,635 · SOL: $64.46\nCrypto sentiment: 12 (Extreme Fear, 7d avg 11).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.93T (YoY -2.80%) — fed $6.71T · ecb $7.08T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 278bps NORMAL\nBDRY: $12.47 (+5.2% 30d, DOWN — STABLE_SHIPPING).\nOil: SUPPLY_GLUT, crude 433.7M bbl, refinery 94.7%, SPR 357M.\n\n<b>KEY PRICES</b>\nSPY -1.9% | QQQ -3.1% | VIX +11.8% | TLT +0.3% | DXY +0.1% | OIL +4.0%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ SMCI: -17.7%\n▼ UEC: -10.1%\n▲ SOXS: +8.8%\n▼ SOXL: -8.7%\n▼ QCOM: -6.7%\n▼ ETN: -6.4%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 120.08 (R), Gold $4257 (Y), Oil $96 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[+] USD Index (broad): +2.21σ\n[-] Gold: -2.21σ\n[-] Silver: -1.97σ\n[+] Jobless Claims: +1.96σ\n[-] 10Y Breakeven Inflation: -1.66σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight Asia markets signal continuation of risk-off flows into US open. Watch defensive sector momentum against any tech dip-buying attempts as volatility remains elevated.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":86.2,\"compositeRisk\":49.7,\"geoRisk\":47}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 489,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Wed 2026-06-10 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-10"
 }
