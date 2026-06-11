@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/11/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/11/wrap/",
+      "title": "MARKET WRAP — June 11, 2026",
+      "content_text": "MARKET WRAP — Jun 11, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets displayed clear risk-on conviction as volatility collapsed and industrial sectors led broad-based rotation away from defensives. Semiconduct",
+      "summary": "MARKET WRAP — Jun 11, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets displayed clear risk-on conviction as volatility collapsed and industrial sectors led broad-based rotation away from defensives. Semiconduct",
+      "date_published": "2026-06-11T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/11/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/11/pulse/",
       "title": "MARKET PULSE — June 11, 2026",
@@ -829,23 +846,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-05-29"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/30/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/30/signal/",
-      "title": "SIGNAL SCAN — May 30, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. SIGNAL SCAN — May 30, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime with tech leading the charge and defensive rotation underway",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. SIGNAL SCAN — May 30, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime with tech leading the charge and defensive rotation underway",
-      "date_published": "2026-05-30T09:15:00.000Z",
-      "tags": [
-        "MEDIUM",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": true,
         "tradFiAsOf": "2026-05-29"
       }

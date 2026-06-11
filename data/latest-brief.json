@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-11",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 11",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 11",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 86/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
+          "k": "XMR",
+          "v": "+15.6%",
+          "c": "green"
+        },
+        {
+          "k": "ATOM",
+          "v": "+15.5%",
+          "c": "green"
+        },
+        {
+          "k": "KLAC",
+          "v": "+13.0%",
+          "c": "green"
+        },
+        {
           "k": "VIX",
-          "v": "+11.8%",
-          "c": "green"
-        },
-        {
-          "k": "SLV",
-          "v": "-6.4%",
+          "v": "-12.5%",
           "c": "red"
-        },
-        {
-          "k": "GLD",
-          "v": "-5.7%",
-          "c": "red"
-        },
-        {
-          "k": "WPP",
-          "v": "+5.5%",
-          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 11, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $62,833 — 1d:ACCUMULATION · 4h:IGNITION · above $60K\nETH: $1,650 · (same)\nSOL: $65.52 · (same)\nCrypto sentiment: 12 (Extreme Fear, 7d avg 11).\n\n<b>WHALE ALERTS</b>\n• 831 BTC ($52.4M) — transferred from Coinbase Institutional to unknown wallet\n• 831 BTC ($52.4M) — transferred from Coinbase Institutional to unknown wallet\n• 829 BTC ($52.3M) — transferred from Coinbase Institutional to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 159M USDC ($159M) — burned at USDC Treasury\n• 135M USDC ($135M) — transferred from unknown wallet to #Aave\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• H: 1403% net APR (0.1602% rate) · Long Bybit / Short OKX · OI $5.2M · Spread +0.22%\n• BEAT: 165% net APR (0.0753% rate) · Long OKX / Short Bybit · OI $51.4M · Spread +0.16%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $83.7B\nTop OI: BTC $45.6B · ETH $23.2B · SOL $4.5B · XRP $2.4B · HYPE $2.3B\nOI shifters (4h): CRV +17.0% · ARB +5.3% · TIA +4.3% · STX +4.2% · ADA +4.0%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$214M outflow on Jun 11 (Thu close) (IBIT -$149M, GBTC -$88M, BTC +$18M). Trailing 5-trading-day net: -$0.8B outflow.\nBTC options — BEARISH: max pain $67,000 (12JUN26), P/C 0.63 OI / 1.04 vol, put skew +39.6 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.2733% (16/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $73M long / $89M short (net short $16M, +$5.5M PnL); BTC: $44M long / $67M short (net short $23M, +$1.7M PnL); HYPE: $21M long / $68M short (net short $47M, +$2.3M PnL).\nLiquidations: 24h total $99.2M; latest 4h $57K (25.9% long / 74.1% short, 4L/7S events, short-dominant).\nETH stake APY 2.39% vs T-bill 3.64% (spread -1.25, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>INTEL</b>\n▼ US-Iran Military Escalation [BTC, ETH, VIX, GLD]\n▼ Central Bank Policy Uncertainty [JPY, JGB, BTC, VIX]\n▼ Precious Metals Selloff [GLD, SLV, DXY]\n\n<b>IMPLICATION</b>\nMid-session positioning favors defensive rotation with staples and utilities leading. Tech weakness creating tactical fade opportunities while volatility spike suggests continued near-term chop. Watch for defensive momentum to extend into close as institutional flows shift toward safety trades.\n\n<b>JSON</b>\n{\"btc\":62084,\"cryptoSentiment\":12,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 491,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 11, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets displayed clear risk-on conviction as volatility collapsed and industrial sectors led broad-based rotation away from defensives. Semiconductor equipment and copper miners signaled renewed confidence in the growth cycle, while privacy coins surged on regulatory optimism. Tomorrow's setup favors continued cyclical outperformance if industrial momentum sustains.\n\n<b>CLOSING PRICES</b>\nSPY +0.1% | QQQ +1.3% | VIX -12.5% | TLT +1.0% | DXY -0.3% | OIL -4.1%\n\n<b>vs MORNING</b>\nSPY +2.0% | QQQ +4.4% | VIX -24.3% | TLT +0.7% | DXY -0.3% | OIL -8.1%\n\n<b>EVENING NEWS</b>\n▲ Bullish Two Hundred Day Moving Average Cross - EMNT\n▲ S&P 500 rallies nearly 2% as reports signal potential end to Iran conflict\n▲ Ethereum Enters Key Accumulation Zone as Staking Growth Supports Network Activity\n▲ Canaan Inc increases Bitcoin holdings by 41 BTC to 1,867 BTC\n▲ Thai Baht: Bank of Thailand resists emergency move – BNY\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Recession · ↑ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 86.2/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +3.8%, SMH +3.1%, ITA +2.4%, XLV -0.3%, XLE -0.5%.\nSector dispersion: 69 (EXTREME, breadth SELECTIVE_WEAKNESS), 31% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[GER] Consumer Price Index (MoM)(Final)(May) (+3 variants) — Jun 12 06:00 UTC (prev: -0.2%)\n[UK] GDP(MoM)(Apr) — Jun 12 06:00 UTC (prev: 0.3%)\n[UK] NIESR Three-Month GDP Estimate (YoY)(Apr) — Jun 12 06:00 UTC (prev: 0.6%)\n[FRA] Consumer Price Index (MoM)(Final)(May) (+2 variants) — Jun 12 06:45 UTC (prev: 0.1%)\n[ITA] Unemployment rate (Q)(Q1) — Jun 12 09:00 UTC (prev: 5.6%)\n[USA] University of Michigan Consumer Confidence Index (Preliminary)(Jun) — Jun 12 14:00 UTC (prev: 44.8)\n\n<b>CONTRARIAN</b>\n• MOH's 4.9% drop might be overdone - healthcare could benefit from lower energy costs and defensive rotation may return quickly if geopolitical relief proves temporary\n• VIX's 12.5% collapse suggests complacency - Iran deal progress could stall and oil supply disruption risks remain elevated despite optimism\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":86.2,\"sectorDispersion\":69,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"COPX\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 492,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
