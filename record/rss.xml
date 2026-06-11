@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jun 2026 04:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 10:30:32 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 11, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/11/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/11/signal/</guid>
+      <pubDate>Thu, 11 Jun 2026 09:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Wed 2026-06-10 close. Crypto data is live. SIGNAL SCAN — Jun 11, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation gaining steam as defensive sectors bid and volatility</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 11, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/11/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/30/radar/</guid>
       <pubDate>Sat, 30 May 2026 03:15:00 GMT</pubDate>
       <description>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MACRO RADAR — May 30, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 51.4/100 (Elevated). Phase: EXPANSION. Composite Risk: 31</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — May 29, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/29/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/29/wrap/</guid>
-      <pubDate>Fri, 29 May 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — May 29, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Technology dominated today&apos;s session with enterprise software leading equity gains while defensive sectors faced rotation pressure. Crypto assets sh</description>
     </item>
   </channel>
 </rss>
