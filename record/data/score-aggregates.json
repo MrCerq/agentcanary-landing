@@ -4,7 +4,7 @@
       "hit": 88,
       "partial": 0,
       "miss": 4,
-      "pending": 1,
+      "pending": 2,
       "no_data": 15,
       "absent": 1,
       "scored": 92,
@@ -17,7 +17,7 @@
       "miss": 0,
       "pending": 0,
       "no_data": 0,
-      "absent": 109,
+      "absent": 110,
       "scored": 0,
       "hitRate": null,
       "weightedAccuracy": null
@@ -28,21 +28,21 @@
       "miss": 22,
       "pending": 0,
       "no_data": 13,
-      "absent": 3,
+      "absent": 4,
       "scored": 93,
       "hitRate": 41.9,
       "weightedAccuracy": 59.1
     },
     "wrap": {
-      "hit": 79,
+      "hit": 80,
       "partial": 8,
       "miss": 5,
-      "pending": 2,
+      "pending": 1,
       "no_data": 13,
-      "absent": 2,
-      "scored": 92,
-      "hitRate": 85.9,
-      "weightedAccuracy": 90.2
+      "absent": 3,
+      "scored": 93,
+      "hitRate": 86,
+      "weightedAccuracy": 90.3
     }
   },
   "signalPredictions": {
@@ -56,14 +56,14 @@
     "weightedAccuracy": 35.7
   },
   "overall": {
-    "hit": 343,
+    "hit": 344,
     "partial": 351,
     "miss": 402,
-    "scored": 1096,
-    "hitRate": 31.3,
-    "weightedAccuracy": 47.3
+    "scored": 1097,
+    "hitRate": 31.4,
+    "weightedAccuracy": 47.4
   },
-  "computedAt": "2026-06-12T01:30:04.228Z",
+  "computedAt": "2026-06-12T04:30:03.400Z",
   "perAsset": [
     {
       "ticker": "SPY",

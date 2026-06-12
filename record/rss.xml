@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2026 01:30:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 04:30:32 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — June 12, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/12/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/12/radar/</guid>
+      <pubDate>Fri, 12 Jun 2026 03:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Thu 2026-06-11 close. Crypto data is live. MACRO RADAR — Jun 12, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 86.2/100 (Critical). Phase: EXPANSION. Composite Risk:</description>
+    </item>
     <item>
       <title>MARKET WRAP — June 11, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/11/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/30/wrap/</guid>
       <pubDate>Sat, 30 May 2026 21:15:00 GMT</pubDate>
       <description>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET WRAP — May 30, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Tech-led risk rotation dominated as growth themes overwhelmed defens</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — May 30, 2026</title>
-      <link>https://agentcanary.ai/record/2026/05/30/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/05/30/pulse/</guid>
-      <pubDate>Sat, 30 May 2026 15:15:00 GMT</pubDate>
-      <description>Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. MARKET PULSE — May 30, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $73,496 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $75K</description>
     </item>
   </channel>
 </rss>

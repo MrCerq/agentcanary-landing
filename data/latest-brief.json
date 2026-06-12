@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-11",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 11",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-06-12",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 12",
+  "headlineColor": "#FB923C",
   "desc": "Risk 86/100 · 6 movers",
   "tags": [
     {
@@ -26,31 +26,31 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "XMR",
-          "v": "+15.6%",
-          "c": "green"
-        },
-        {
-          "k": "ATOM",
-          "v": "+15.5%",
-          "c": "green"
-        },
-        {
-          "k": "KLAC",
-          "v": "+13.0%",
-          "c": "green"
-        },
-        {
           "k": "VIX",
           "v": "-12.5%",
           "c": "red"
+        },
+        {
+          "k": "EWY",
+          "v": "+8.1%",
+          "c": "green"
+        },
+        {
+          "k": "MOH",
+          "v": "-4.9%",
+          "c": "red"
+        },
+        {
+          "k": "SOXX",
+          "v": "+4.4%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 11, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nMarkets displayed clear risk-on conviction as volatility collapsed and industrial sectors led broad-based rotation away from defensives. Semiconductor equipment and copper miners signaled renewed confidence in the growth cycle, while privacy coins surged on regulatory optimism. Tomorrow's setup favors continued cyclical outperformance if industrial momentum sustains.\n\n<b>CLOSING PRICES</b>\nSPY +0.1% | QQQ +1.3% | VIX -12.5% | TLT +1.0% | DXY -0.3% | OIL -4.1%\n\n<b>vs MORNING</b>\nSPY +2.0% | QQQ +4.4% | VIX -24.3% | TLT +0.7% | DXY -0.3% | OIL -8.1%\n\n<b>EVENING NEWS</b>\n▲ Bullish Two Hundred Day Moving Average Cross - EMNT\n▲ S&P 500 rallies nearly 2% as reports signal potential end to Iran conflict\n▲ Ethereum Enters Key Accumulation Zone as Staking Growth Supports Network Activity\n▲ Canaan Inc increases Bitcoin holdings by 41 BTC to 1,867 BTC\n▲ Thai Baht: Bank of Thailand resists emergency move – BNY\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Recession · ↑ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 86.2/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +3.8%, SMH +3.1%, ITA +2.4%, XLV -0.3%, XLE -0.5%.\nSector dispersion: 69 (EXTREME, breadth SELECTIVE_WEAKNESS), 31% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[GER] Consumer Price Index (MoM)(Final)(May) (+3 variants) — Jun 12 06:00 UTC (prev: -0.2%)\n[UK] GDP(MoM)(Apr) — Jun 12 06:00 UTC (prev: 0.3%)\n[UK] NIESR Three-Month GDP Estimate (YoY)(Apr) — Jun 12 06:00 UTC (prev: 0.6%)\n[FRA] Consumer Price Index (MoM)(Final)(May) (+2 variants) — Jun 12 06:45 UTC (prev: 0.1%)\n[ITA] Unemployment rate (Q)(Q1) — Jun 12 09:00 UTC (prev: 5.6%)\n[USA] University of Michigan Consumer Confidence Index (Preliminary)(Jun) — Jun 12 14:00 UTC (prev: 44.8)\n\n<b>CONTRARIAN</b>\n• MOH's 4.9% drop might be overdone - healthcare could benefit from lower energy costs and defensive rotation may return quickly if geopolitical relief proves temporary\n• VIX's 12.5% collapse suggests complacency - Iran deal progress could stall and oil supply disruption risks remain elevated despite optimism\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":86.2,\"sectorDispersion\":69,\"breadth\":\"SELECTIVE_WEAKNESS\",\"topSector\":\"COPX\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 492,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Thu 2026-06-11 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 12, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 86.2/100 (Critical). Phase: EXPANSION.\nComposite Risk: 47.8/100 (ELEVATED).\nGeopolitical risk: 42/100 (MODERATE). Top: Middle East / Red Sea 54/100 (ELEVATED, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $62,833 · ETH: $1,650 · SOL: $65.52\nCrypto sentiment: 12 (Extreme Fear, 7d avg 11).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.93T (YoY -2.80%) — fed $6.71T · ecb $7.08T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 280bps NORMAL\nBDRY: $12.48 (+6.5% 30d, DOWN — STABLE_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 426.5M bbl, SPR 349M.\n\n<b>KEY PRICES</b>\nSPY +0.1% | QQQ +1.3% | VIX -12.5% | TLT +1.0% | DXY -0.1% | OIL -3.9%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ SOXS: -12.5%\n▲ SOXL: +12.1%\n▲ CPNG: +11.5%\n▼ ORCL: -10.8%\n▲ UMAC: +9.1%\n▲ UEC: +8.5%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.08 (R), Gold $4081 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] Gold: -2.41σ\n[+] USD Index (broad): +2.21σ\n[+] Jobless Claims: +1.96σ\n[-] Silver: -1.89σ\n[+] VIX: +1.71σ\n\n<b>US OPEN SETUP</b>\n<i>Setup favors US cyclicals into the open with metals and semiconductors leading. Watch for continuation in industrial themes while energy remains pressured on commodity headwinds.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":86.2,\"compositeRisk\":47.8,\"geoRisk\":42}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 493,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Thu 2026-06-11 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-11"
 }
