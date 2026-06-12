@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-12",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 12",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 12",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 86/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "VIX",
-          "v": "-12.5%",
-          "c": "red"
+          "k": "ARM",
+          "v": "+11.2%",
+          "c": "green"
         },
         {
           "k": "EWY",
-          "v": "+8.1%",
+          "v": "+10.6%",
           "c": "green"
-        },
-        {
-          "k": "MOH",
-          "v": "-4.9%",
-          "c": "red"
         },
         {
           "k": "SOXX",
-          "v": "+4.4%",
+          "v": "+10.1%",
           "c": "green"
+        },
+        {
+          "k": "VIX",
+          "v": "-9.1%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 12, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K\nETH: $1,671 · (same)\nSOL: $66.91 · (same)\nCrypto sentiment: 12 (Extreme Fear, 7d avg 11).\n\n<b>WHALE ALERTS</b>\n• 2,264 BTC ($143.1M) — transferred from Coinbase Institutional to unknown wallet\n• 1,800 BTC ($112.8M) — transferred from unknown wallet to Coinbase Institutional\n• 1,364 BTC ($86.7M) — transferred from Coinbase Institutional to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 236M USDT ($236M) — transferred from unknown wallet to #Bitfinex\n• 200M USDC ($200M) — transferred from #Binance to unknown wallet\n\n<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>\n• BEAT: 260% net APR (0.1189% rate) · Long OKX / Short MEXC · OI $27.0M · Spread +0.27%\n• VELVET: 197% net APR (0.0899% rate) · Long Bitget / Short Bybit · OI $9.5M · Spread -0.08%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $84.9B\nTop OI: BTC $46.2B · ETH $23.5B · SOL $4.5B · HYPE $2.5B · XRP $2.5B\nOI shifters (4h): INJ +4.6% · SKY +3.9% · STX +3.2% · QNT +2.8% · TAO -2.7%\n\n<b>POSITIONING</b>\nBTC ETF flows (DefiLlama, issuer-reported): -$23M outflow on Jun 12 (Fri close) (IBIT +$30M, ARKB -$27M, HODL -$15M). Trailing 5-trading-day net: -$0.7B outflow.\nBTC options — BEARISH: max pain $66,000 (12JUN26), P/C 0.62 OI / 0.68 vol, put skew +14.8 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.1923% (15/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $28M long / $179M short (net short $151M, +$11.8M PnL); BTC: $64M long / $85M short (net short $21M, -$4.9M PnL); HYPE: $72M long / $39M short (net long $33M, +$18.7M PnL).\nLiquidations: 24h total $67.1M; latest 4h $4K (100% long / 0% short, 3L/0S events, long-dominant).\nETH stake APY 2.41% vs T-bill 3.64% (spread -1.23, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↓↓ Recession · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Iran Peace Deal Momentum [SPY, BTC, BRENT, WTI]\n▲ Asian Chip Stock Surge [EWY, SOXX, NVDA, TSM]\n◆ Bitcoin Institutional Pressure [BTC, ETH, MSTR]\n\n<b>IMPLICATION</b>\nMid-session flow favors cyclical exposure as volatility compression unlocks risk appetite. Semiconductors and industrial metals leading while energy weakness creates tactical rotation opportunities. Watch for continuation of this risk-on theme into the close.\n\n<b>JSON</b>\n{\"btc\":63531,\"cryptoSentiment\":12,\"regime\":\"EXPANSION\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 495,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 12, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session crystallized a clear cyclical rotation as industrial metals and semiconductor complexes surged while traditional safe havens retreated. The divergence between strengthening equities and weakening crypto suggests institutional flows are pivoting toward traditional growth proxies. Tomorrow's setup hinges on whether this cyclical momentum can sustain without crypto participation.\n\n<b>CLOSING PRICES</b>\nSPY +2.2% | QQQ +4.0% | VIX -9.1% | TLT +1.0% | DXY -0.1% | OIL -3.9%\n\n<b>vs MORNING</b>\nSPY +2.1% | QQQ +2.7% | VIX +3.5% | TLT flat | DXY +0.1% | OIL flat\n\n<b>EVENING NEWS</b>\n▼ Iran team chief criticizes FIFA for visa coordination failures ahead of World Cup matches in the US\n▲ 9z Team pulls off upset victory over Team Vitality at IEM Stage 3\n▲ Standard Chartered Calls Crypto Bottom as Bitcoin Price Recovers From $59,000 Low\n▲ AXT Inc. rises 10% as Chinese export restrictions squeeze global indium phosphide supply\n▲ Strategy’s Michael Saylor commits to raising capital with STRC above par\n\n<b>SCENARIO SHIFTS</b>\n↓↓ Recession · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 86.2/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +11.0%, SMH +8.6%, URA +7.5%, XLE -1.2%.\nSector dispersion: 50 (HIGH, breadth BROAD_STRENGTH), 100% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[USA] Unemployment Rate(May) — Jun 13 00:30 UTC (prev: 4.3%)\n[TW] Consumer Price Index (YoY)(Mar) — Jun 14 10:00 UTC (prev: 1.75%)\n[FRA] Consumer Price Index (YoY)(Final)(Mar) — Jun 15 07:45 UTC (prev: 0.9%)\n[USA] New York Federal Reserve Manufacturing Price Gain Index(Jun) — Jun 15 12:30 UTC (prev: 31.8)\n\n<b>CONTRARIAN</b>\n• COPX +11.0% may be overdone - copper rally could stall if China infrastructure spending disappoints despite supply story\n• VIX -9.1% drop suggests complacency returning just as geopolitical tensions in tech supply chains are escalating\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":86.2,\"sectorDispersion\":50,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"COPX\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 496,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null

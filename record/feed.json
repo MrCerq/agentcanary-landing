@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/12/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/12/wrap/",
+      "title": "MARKET WRAP — June 12, 2026",
+      "content_text": "MARKET WRAP — Jun 12, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear cyclical rotation as industrial metals and semiconductor complexes surged while traditional safe havens retreat",
+      "summary": "MARKET WRAP — Jun 12, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session crystallized a clear cyclical rotation as industrial metals and semiconductor complexes surged while traditional safe havens retreat",
+      "date_published": "2026-06-12T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/12/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/12/pulse/",
       "title": "MARKET PULSE — June 12, 2026",
@@ -830,22 +847,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-05-29"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/05/31/signal/",
-      "url": "https://agentcanary.ai/record/2026/05/31/signal/",
-      "title": "SIGNAL SCAN — May 31, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. SIGNAL SCAN — May 31, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for signal: macro. Showing deterministic facts only — no Sonnet narrative",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-05-29 close. Crypto data is live. SIGNAL SCAN — May 31, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for signal: macro. Showing deterministic facts only — no Sonnet narrative",
-      "date_published": "2026-05-31T09:15:00.000Z",
-      "tags": [
-        "COMPILED"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": true,
         "tradFiAsOf": "2026-05-29"
       }
