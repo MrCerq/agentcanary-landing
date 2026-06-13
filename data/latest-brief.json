@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-12",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 12",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 86/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-13",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 13",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 76/100 · 6 movers",
   "tags": [
     {
       "t": "HIGH",
@@ -19,17 +19,12 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 86
+        "value": 76
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
-        {
-          "k": "ARM",
-          "v": "+11.2%",
-          "c": "green"
-        },
         {
           "k": "EWY",
           "v": "+10.6%",
@@ -44,13 +39,18 @@
           "k": "VIX",
           "v": "-9.1%",
           "c": "red"
+        },
+        {
+          "k": "SMH",
+          "v": "+8.6%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 12, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session crystallized a clear cyclical rotation as industrial metals and semiconductor complexes surged while traditional safe havens retreated. The divergence between strengthening equities and weakening crypto suggests institutional flows are pivoting toward traditional growth proxies. Tomorrow's setup hinges on whether this cyclical momentum can sustain without crypto participation.\n\n<b>CLOSING PRICES</b>\nSPY +2.2% | QQQ +4.0% | VIX -9.1% | TLT +1.0% | DXY -0.1% | OIL -3.9%\n\n<b>vs MORNING</b>\nSPY +2.1% | QQQ +2.7% | VIX +3.5% | TLT flat | DXY +0.1% | OIL flat\n\n<b>EVENING NEWS</b>\n▼ Iran team chief criticizes FIFA for visa coordination failures ahead of World Cup matches in the US\n▲ 9z Team pulls off upset victory over Team Vitality at IEM Stage 3\n▲ Standard Chartered Calls Crypto Bottom as Bitcoin Price Recovers From $59,000 Low\n▲ AXT Inc. rises 10% as Chinese export restrictions squeeze global indium phosphide supply\n▲ Strategy’s Michael Saylor commits to raising capital with STRC above par\n\n<b>SCENARIO SHIFTS</b>\n↓↓ Recession · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 86.2/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +11.0%, SMH +8.6%, URA +7.5%, XLE -1.2%.\nSector dispersion: 50 (HIGH, breadth BROAD_STRENGTH), 100% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[USA] Unemployment Rate(May) — Jun 13 00:30 UTC (prev: 4.3%)\n[TW] Consumer Price Index (YoY)(Mar) — Jun 14 10:00 UTC (prev: 1.75%)\n[FRA] Consumer Price Index (YoY)(Final)(Mar) — Jun 15 07:45 UTC (prev: 0.9%)\n[USA] New York Federal Reserve Manufacturing Price Gain Index(Jun) — Jun 15 12:30 UTC (prev: 31.8)\n\n<b>CONTRARIAN</b>\n• COPX +11.0% may be overdone - copper rally could stall if China infrastructure spending disappoints despite supply story\n• VIX -9.1% drop suggests complacency returning just as geopolitical tensions in tech supply chains are escalating\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":86.2,\"sectorDispersion\":50,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"COPX\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 496,
-  "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 13, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 76.3/100 (High). Phase: EXPANSION.\nComposite Risk: 44.3/100 (MODERATE).\nGeopolitical risk: 41/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATED, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $63,435 · ETH: $1,671 · SOL: $66.91\nCrypto sentiment: 13 (Extreme Fear, 7d avg 11).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.95T (YoY -2.75%) — fed $6.73T · ecb $7.08T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 280bps NORMAL\nBDRY: $12.56 (+7.0% 30d, UP — STABLE_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 426.5M bbl, refinery 95.3%, SPR 349M.\n\n<b>KEY PRICES</b>\nSPY +2.2% | QQQ +4.0% | VIX -9.1% | TLT +1.0% | DXY -0.1% | OIL -3.9%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ ASTS: -14.2%\n▲ POET: +10.3%\n▼ RKLB: -9.4%\n▲ CRWV: +8.6%\n▲ MOS: +7.6%\n▲ ARM: +7.4%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.08 (R), Gold $4213 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[+] USD Index (broad): +2.21σ\n[+] Jobless Claims: +1.96σ\n[-] Gold: -1.73σ\n[+] VIX: +1.71σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight strength in cyclicals and tech sets up bullish tone for US open. Watch for continuation in semiconductor names and industrial metals as volatility remains subdued.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":76.3,\"compositeRisk\":44.3,\"geoRisk\":41}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
+  "isWeekend": true,
+  "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-12"
 }
