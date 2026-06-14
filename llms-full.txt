@@ -105,7 +105,7 @@ Response shape:
 36 indicators total. Highlights: Bull Market Support Band, BTC Pi Cycle, Wyckoff Structure, Stablecoin Composite, Composite Risk Score, CAPE, Hindenburg Omen, hegemony score, ETF flows, on-chain whale activity, sentiment composites, dispersion regime, narrative crowding.
 
 ### Data (raw datasets)
-- `GET /api/data` — list all 28 datasets with freshness SLA (Builder tier)
+- `GET /api/data` — list all 42 datasets with freshness SLA (Builder tier)
 - `GET /api/data/:name` — single dataset with provenance envelope (Builder+ tier)
 
 Every response includes `provenance` field:
