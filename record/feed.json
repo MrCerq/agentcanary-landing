@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/14/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/14/signal/",
+      "title": "SIGNAL SCAN — June 14, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 14, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime firing on all cylinders with semiconductors and metals leadi",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 14, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime firing on all cylinders with semiconductors and metals leadi",
+      "date_published": "2026-06-14T09:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-12"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/14/radar/",
       "url": "https://agentcanary.ai/record/2026/06/14/radar/",
       "title": "MACRO RADAR — June 14, 2026",
@@ -836,22 +853,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/01/wrap/",
-      "url": "https://agentcanary.ai/record/2026/06/01/wrap/",
-      "title": "MARKET WRAP — June 1, 2026",
-      "content_text": "MARKET WRAP — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for wrap: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $71,358, above $70K. BTC ETF flows: -$125M outflow on Jun 1 (Mon close), a",
-      "summary": "MARKET WRAP — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for wrap: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $71,358, above $70K. BTC ETF flows: -$125M outflow on Jun 1 (Mon close), a",
-      "date_published": "2026-06-01T21:15:00.000Z",
-      "tags": [
-        "COMPILED"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }

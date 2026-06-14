@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2026 04:30:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 10:30:32 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/14/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/14/signal/</guid>
+      <pubDate>Sun, 14 Jun 2026 09:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 14, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime firing on all cylinders with semiconductors and metals leadi</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 14, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/14/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/02/radar/</guid>
       <pubDate>Tue, 02 Jun 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — Jun 2, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for radar: macro; implication slot word count 18 outside acceptable 20-100 range. Showing deterministic facts only — no Sonnet narrative. BTC at $70,711,</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — June 1, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/01/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/01/wrap/</guid>
-      <pubDate>Mon, 01 Jun 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — Jun 1, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for wrap: macro. Showing deterministic facts only — no Sonnet narrative. BTC at $71,358, above $70K. BTC ETF flows: -$125M outflow on Jun 1 (Mon close), a</description>
     </item>
   </channel>
 </rss>
