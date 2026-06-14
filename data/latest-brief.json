@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-13",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 13",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-06-14",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 14",
+  "headlineColor": "#FB923C",
   "desc": "Risk 76/100 · 6 movers",
   "tags": [
     {
@@ -26,6 +26,11 @@
       "label": "TOP MOVERS",
       "rows": [
         {
+          "k": "FET",
+          "v": "+12.8%",
+          "c": "green"
+        },
+        {
           "k": "EWY",
           "v": "+10.6%",
           "c": "green"
@@ -39,17 +44,12 @@
           "k": "VIX",
           "v": "-9.1%",
           "c": "red"
-        },
-        {
-          "k": "SMH",
-          "v": "+8.6%",
-          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live.</i>\n\n<b>MARKET WRAP</b> — Jun 13, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday delivered a textbook risk-on rotation as defensive positioning unwound into cyclical exposure across semiconductors and industrial metals. The volatility collapse and broad commodity strength suggest macro sentiment is shifting toward growth optimism. Tomorrow's focus shifts to whether this cyclical leadership can sustain momentum or faces profit-taking pressure.\n\n<b>CLOSING PRICES</b>\nSPY +2.2% | QQQ +4.0% | VIX -9.1% | TLT +1.0% | DXY -0.1% | OIL -3.9%\n\n<b>vs MORNING</b>\nSPY -1.7% | QQQ -3.4% | TLT -1.3%\n\n<b>EVENING NEWS</b>\n▲ USA opens 2026 World Cup with 3-1 win over Paraguay as Balogun scores twice\n▼ England national football team suffers theft of match boots before World Cup training\n▼ Chicago Fed projects US retail sales fell 0.3% in May, marking seventh decline in nine months\n▲ Bitcoin rally to $70K builds as orderbook structure highlights traders’ confidence\n▲ FIFA World Cup 2026 kicks off with crypto partnerships from Kraken, Chainlink, and Chiliz\n\n<b>SCENARIO SHIFTS</b>\n↑ Recession · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 76.3/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: COPX +11.0%, SMH +8.6%, URA +7.5%, XLE -1.2%.\nSector dispersion: 49 (HIGH, breadth BROAD_STRENGTH), 88% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[TW] Consumer Price Index (YoY)(Mar) — Jun 14 10:00 UTC (prev: 1.75%)\n[FRA] Consumer Price Index (YoY)(Final)(Mar) — Jun 15 07:45 UTC (prev: 0.9%)\n[SWI] Consumer Confidence Index(May) — Jun 15 08:00 UTC (prev: -41.04)\n[USA] New York Federal Reserve Manufacturing Price Gain Index(Jun) — Jun 15 12:30 UTC (prev: 31.8)\n[CHN] Total retail sales of consumer goods (MoM)(May) (+1 variants) — Jun 16 02:00 UTC (prev: -0.48%)\n[ITA] Consumer Price Index (MoM)(Final)(May) (+3 variants) — Jun 16 08:00 UTC (prev: 0.4%)\n\n<b>CONTRARIAN</b>\n• EWY's 10.6% surge might be a false breakout as Korean fundamentals haven't materially changed and positioning looks stretched\n• The commodity rally in COPX and URA could reverse quickly if China eases export restrictions or demand destruction emerges from higher prices\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":76.3,\"sectorDispersion\":49,\"breadth\":\"BROAD_STRENGTH\",\"topSector\":\"COPX\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 498,
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 14, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 76.3/100 (High). Phase: EXPANSION.\nComposite Risk: 43.3/100 (MODERATE).\nGeopolitical risk: 35/100 (MODERATE). Top: Middle East / Red Sea 53/100 (ELEVATED, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $63,506 · ETH: $1,665 · SOL: $66.88\nCrypto sentiment: 18 (Extreme Fear, 7d avg 12) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.95T (YoY -2.75%) — fed $6.73T · ecb $7.08T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 278bps NORMAL\nBDRY: $12.32 (+5.0% 30d, DOWN — STABLE_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 426.5M bbl, refinery 95.3%, SPR 349M.\n\n<b>KEY PRICES</b>\nSPY +2.2% | QQQ +4.0% | VIX -9.1% | TLT +1.0% | DXY -0.1% | OIL -3.2%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ ASTS: -15.5%\n▲ POET: +11.4%\n▲ ARM: +11.3%\n▼ RKLB: -10.8%\n▼ LPTH: -8.8%\n▲ AMKR: +8.7%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.08 (R), Gold $4210 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[+] USD Index (broad): +2.21σ\n[+] Jobless Claims: +2.05σ\n[-] Gold: -1.59σ\n\n<b>US OPEN SETUP</b>\n<i>Tech momentum with metals rotation suggests risk-on conviction into the US session. Energy weakness signals rotation out of defensives. Watch for semiconductor follow-through and whether crypto can sustain AI narrative momentum alongside traditional risk assets.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":76.3,\"compositeRisk\":43.3,\"geoRisk\":35}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live.",
   "tradFiAsOf": "2026-06-12"
