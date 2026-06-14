@@ -52,8 +52,7 @@ Base URL: https://api.agentcanary.ai/api
 ### Intelligence substrate (Signal tier, /api/data/*)
 - GET /data/canonical-facts-l{1,2,3,4,5}-{assets,industries,sectors,macro,global} — structured assertions about market state per layer (large payloads)
 - GET /data/evidence-atoms-l{1,2,3,4,5}-{assets,industries,sectors,macro,global} — derived counts + status flags per layer
-- GET /data/briefing-canonical-facts — cross-layer canonical facts bundle
-- GET /data/briefing-evidence-atoms — cross-layer evidence atoms bundle
+
 - GET /data/ac-compiled-{radar,signal,pulse,wrap} — AC compiled-intelligence artifact per slot (43 atoms + prose + provenance + audit metadata)
 - GET /data/macro-regime — raw macro-regime classification with confidence + signals used (Builder tier)
 
