@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2026 10:30:32 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 16:30:32 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/14/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/14/pulse/</guid>
+      <pubDate>Sun, 14 Jun 2026 15:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 14, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,510 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,681 — 1d:IGNIT</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 14, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/14/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/02/signal/</guid>
       <pubDate>Tue, 02 Jun 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — Jun 2, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech sector leads a sharp risk-on rotation as volatility spikes paradoxically alongside equity strength. Defensives under pressure while growth themes regai</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — June 2, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/02/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/02/radar/</guid>
-      <pubDate>Tue, 02 Jun 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — Jun 2, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for radar: macro; implication slot word count 18 outside acceptable 20-100 range. Showing deterministic facts only — no Sonnet narrative. BTC at $70,711,</description>
     </item>
   </channel>
 </rss>

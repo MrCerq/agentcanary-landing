@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/14/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/14/pulse/",
+      "title": "MARKET PULSE — June 14, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 14, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,510 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,681 — 1d:IGNIT",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 14, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,510 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,681 — 1d:IGNIT",
+      "date_published": "2026-06-14T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-12"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/14/signal/",
       "url": "https://agentcanary.ai/record/2026/06/14/signal/",
       "title": "SIGNAL SCAN — June 14, 2026",
@@ -837,22 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/02/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/02/radar/",
-      "title": "MACRO RADAR — June 2, 2026",
-      "content_text": "MACRO RADAR — Jun 2, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for radar: macro; implication slot word count 18 outside acceptable 20-100 range. Showing deterministic facts only — no Sonnet narrative. BTC at $70,711,",
-      "summary": "MACRO RADAR — Jun 2, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for radar: macro; implication slot word count 18 outside acceptable 20-100 range. Showing deterministic facts only — no Sonnet narrative. BTC at $70,711,",
-      "date_published": "2026-06-02T03:15:00.000Z",
-      "tags": [
-        "COMPILED"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
