@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2026 19:30:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 22:30:32 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — June 14, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/14/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/14/wrap/</guid>
+      <pubDate>Sun, 14 Jun 2026 21:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET WRAP — Jun 14, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Industrial metals and semiconductor momentum defined today&apos;s session</description>
+    </item>
     <item>
       <title>MARKET PULSE — June 14, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/14/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/02/pulse/</guid>
       <pubDate>Tue, 02 Jun 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — Jun 2, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $70,844 — 1d:RISK_OFF · 4h:RISK_OFF · above $70K ETH: $2,001 · (same) SOL: $80.83 · (same) Crypto sentiment: 23 (Extreme Fear, 7d avg 25). WHALE ALERTS</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — June 2, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/02/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/02/signal/</guid>
-      <pubDate>Tue, 02 Jun 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — Jun 2, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech sector leads a sharp risk-on rotation as volatility spikes paradoxically alongside equity strength. Defensives under pressure while growth themes regai</description>
     </item>
   </channel>
 </rss>

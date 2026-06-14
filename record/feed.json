@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/14/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/14/wrap/",
+      "title": "MARKET WRAP — June 14, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET WRAP — Jun 14, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Industrial metals and semiconductor momentum defined today's session",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET WRAP — Jun 14, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Industrial metals and semiconductor momentum defined today's session",
+      "date_published": "2026-06-14T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-12"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/14/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/14/pulse/",
       "title": "MARKET PULSE — June 14, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/02/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/02/signal/",
-      "title": "SIGNAL SCAN — June 2, 2026",
-      "content_text": "SIGNAL SCAN — Jun 2, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech sector leads a sharp risk-on rotation as volatility spikes paradoxically alongside equity strength. Defensives under pressure while growth themes regai",
-      "summary": "SIGNAL SCAN — Jun 2, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech sector leads a sharp risk-on rotation as volatility spikes paradoxically alongside equity strength. Defensives under pressure while growth themes regai",
-      "date_published": "2026-06-02T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
