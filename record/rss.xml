@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jun 2026 04:30:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 10:30:33 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 15, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/15/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/15/signal/</guid>
+      <pubDate>Mon, 15 Jun 2026 09:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 15, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets embrace risk-on as tech and industrials lead the charge while vo</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 15, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/15/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/03/radar/</guid>
       <pubDate>Wed, 03 Jun 2026 03:15:00 GMT</pubDate>
       <description>MACRO RADAR — Jun 3, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 35.1/100 (Low). Phase: EXPANSION. Composite Risk: 34.6/100 (MODERATE). Geopolitical risk: 36/100 (MODERATE). Top: Middle East / Red Sea 55</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — June 2, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/02/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/02/wrap/</guid>
-      <pubDate>Tue, 02 Jun 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — Jun 2, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Commodities and semiconductors drove today&apos;s risk-on session as markets rotated decisively away from defensive positioning into cyclical exposure. Ma</description>
     </item>
   </channel>
 </rss>
