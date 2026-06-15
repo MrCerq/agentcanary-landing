@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/15/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/15/wrap/",
+      "title": "MARKET WRAP — June 15, 2026",
+      "content_text": "MARKET WRAP — Jun 15, 2026 SNAPSHOT [!] Sonnet call/parse failed: Empty Sonnet response: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cc5jkQ2ua8wQqm9TJ7zBg\"}. Showing de",
+      "summary": "MARKET WRAP — Jun 15, 2026 SNAPSHOT [!] Sonnet call/parse failed: Empty Sonnet response: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cc5jkQ2ua8wQqm9TJ7zBg\"}. Showing de",
+      "date_published": "2026-06-15T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/15/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/15/pulse/",
       "title": "MARKET PULSE — June 15, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/03/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/03/signal/",
-      "title": "SIGNAL SCAN — June 3, 2026",
-      "content_text": "SIGNAL SCAN — Jun 3, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite returns with semiconductors and metals leading a broad rotation into cyclicals. Crypto faces continued headwinds while defensive sectors lag i",
-      "summary": "SIGNAL SCAN — Jun 3, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite returns with semiconductors and metals leading a broad rotation into cyclicals. Crypto faces continued headwinds while defensive sectors lag i",
-      "date_published": "2026-06-03T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
