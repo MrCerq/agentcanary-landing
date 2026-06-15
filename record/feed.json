@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/15/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/15/radar/",
+      "title": "MACRO RADAR — June 15, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MACRO RADAR — Jun 15, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 76.3/100 (High). Phase: EXPANSION. Composite Risk: 42.",
+      "summary": "Pre-market brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MACRO RADAR — Jun 15, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 76.3/100 (High). Phase: EXPANSION. Composite Risk: 42.",
+      "date_published": "2026-06-15T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-12"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/14/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/14/wrap/",
       "title": "MARKET WRAP — June 14, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/02/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/02/pulse/",
-      "title": "MARKET PULSE — June 2, 2026",
-      "content_text": "MARKET PULSE — Jun 2, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $70,844 — 1d:RISK_OFF · 4h:RISK_OFF · above $70K ETH: $2,001 · (same) SOL: $80.83 · (same) Crypto sentiment: 23 (Extreme Fear, 7d avg 25). WHALE ALERTS",
-      "summary": "MARKET PULSE — Jun 2, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $70,844 — 1d:RISK_OFF · 4h:RISK_OFF · above $70K ETH: $2,001 · (same) SOL: $80.83 · (same) Crypto sentiment: 23 (Extreme Fear, 7d avg 25). WHALE ALERTS",
-      "date_published": "2026-06-02T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
