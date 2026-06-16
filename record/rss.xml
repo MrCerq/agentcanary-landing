@@ -5,7 +5,7 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 05:16:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 05:18:39 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>MACRO RADAR — June 16, 2026</title>
@@ -166,7 +166,7 @@
       <link>https://agentcanary.ai/record/2026/06/10/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/10/pulse/</guid>
       <pubDate>Wed, 10 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 10, 2026 SNAPSHOT [!] Sonnet call/parse failed: Slot JSON parse failed: Expected double-quoted property name in JSON at position 1867 (line 23 column 1). Raw: { &quot;snapshotNarrative&quot;: &quot;Risk-on rotation into tech and growth</description>
+      <description>MARKET PULSE — Jun 10, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $61,277, above $60K. BTC ETF flows: -$77M outflow on Jun 10 (Wed close), after -$0.9B outflow trailing 5-tr</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 10, 2026</title>
@@ -187,7 +187,7 @@
       <link>https://agentcanary.ai/record/2026/06/09/wrap/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/09/wrap/</guid>
       <pubDate>Tue, 09 Jun 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — Jun 9, 2026 SNAPSHOT [!] Validator rejected after retry: btcPrice atom says &quot;above $60K&quot; but text contradicts with explicit &quot;below $60K&quot;. Showing deterministic facts only — no Sonnet narrative. BTC at $62,075, above $60K. BTC</description>
+      <description>MARKET WRAP — Jun 9, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $62,075, above $60K. BTC ETF flows: -$91M outflow on Jun 9 (Tue close), after -$1.4B outflow trailing 5-tradi</description>
     </item>
     <item>
       <title>MARKET PULSE — June 9, 2026</title>
@@ -278,7 +278,7 @@
       <link>https://agentcanary.ai/record/2026/06/06/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/06/pulse/</guid>
       <pubDate>Sat, 06 Jun 2026 15:15:00 GMT</pubDate>
-      <description>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 6, 2026 SNAPSHOT [!] Validator rejected after retry: atom not built for pulse: liquidations. Showing deterministic facts only — no Sonnet nar</description>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 6, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $60,942, above $60K. BTC ETF</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 6, 2026</title>
