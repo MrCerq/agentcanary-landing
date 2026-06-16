@@ -202,7 +202,7 @@ Geopolitical risk: 48/100 (MODERATE). Top: Middle East / Red Sea 55/100 (ELEVATE
 
 <h3>RATES + CYCLE</h3>ICSA: 225K (UP trend, +1.96z)
 Business cycle: LEI 99.85 (STABLE), claims ↑225K, 2s10s +0.41.
-Fed implied: -2.2 cuts (HIKES_PRICED); 10Y breakeven 2.35% (NORMAL).
+Fed pricing: 2.2 × 25bp hikes priced (HIKES_PRICED); 10Y breakeven 2.35% (NORMAL).
 
 <h3>FORWARD SCENARIOS</h3><b>SCENARIO A</b> (33%) — Risk-on Continuation
 SPY: $763.90-780.36 (+3-6%)
@@ -275,8 +275,8 @@ npm i agentcanary-mcp
 <i>Built for autonomous systems. Useful for humans.</i>
 
 <h3>CRYPTO</h3>BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K
-ETH: $1,692 · (same)
-SOL: $67.18 · (same)
+ETH: $1,692 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K
+SOL: $67.18 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K
 Crypto sentiment: 10 (Extreme Fear, 7d avg 11).
 
 <h3>WHALE ALERTS</h3>• 1,499 BTC ($95.0M) — transferred from #Coinbase to unknown wallet
@@ -287,7 +287,7 @@ Crypto sentiment: 10 (Extreme Fear, 7d avg 11).
 • 250M USDC ($250M) — minted at USDC Treasury
 • 248M USDC ($248M) — transferred from USDC Treasury to Coinbase Institutional
 
-<b>FUNDING ARB</b> <i>(OI&gt;$5M, |spread|&lt;1%)</i>
+<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>
 • GWEI: 328% net APR (0.1498% rate) · Long Bitget / Short Binance · OI $12.4M · Spread -0.06%
 • SIREN: 272% net APR (0.1242% rate) · Long Bybit / Short Bitget · OI $6.7M · Spread +0.28%
 
@@ -395,12 +395,12 @@ npm i agentcanary-mcp
           
     <div class="ac-agg-pill" style="border-color:#ffc53d55;color:#ffc53d">
       <div class="ac-agg-pill-label">PARTIAL</div>
-      <div class="ac-agg-pill-count">2</div>
+      <div class="ac-agg-pill-count">1</div>
     </div>
           
     <div class="ac-agg-pill" style="border-color:#f8717155;color:#f87171">
       <div class="ac-agg-pill-label">MISS</div>
-      <div class="ac-agg-pill-count">0</div>
+      <div class="ac-agg-pill-count">1</div>
     </div>
         </div>
       </div>
@@ -416,10 +416,10 @@ npm i agentcanary-mcp
       <div class="ac-score-summary">Scenario B “Crypto Decoupling” landed 1/3</div>
       <span class="ac-score-chip" style="color:#ffc53d">PARTIAL</span>
     </div>
-    <div class="ac-score-row" data-status="partial">
+    <div class="ac-score-row" data-status="miss">
       <div class="ac-score-slot">MARKET PULSE</div>
-      <div class="ac-score-summary">0 hit, 2 partial of 3</div>
-      <span class="ac-score-chip" style="color:#ffc53d">PARTIAL</span>
+      <div class="ac-score-summary">0/3 directional calls hit</div>
+      <span class="ac-score-chip" style="color:#f87171">MISS</span>
     </div>
     <div class="ac-score-row" data-status="hit">
       <div class="ac-score-slot">MARKET WRAP</div>

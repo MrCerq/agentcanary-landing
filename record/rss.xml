@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 10:30:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 15:32:51 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/16/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/16/pulse/</guid>
+      <pubDate>Tue, 16 Jun 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — Jun 16, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $66,107 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · above $65K ETH: $1,778 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade SOL: $73.66 — 1d:B</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 16, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/16/signal/</link>
@@ -33,7 +40,7 @@
       <link>https://agentcanary.ai/record/2026/06/15/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/15/pulse/</guid>
       <pubDate>Mon, 15 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 15, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,875 — 1d:DISTRIBUTION · 4h:DISTRIBUTION · above $65K ETH: $1,719 · (same) SOL: $71.22 · (same) Crypto sentiment: 20 (Extreme Fear, 7d avg 13) (risi</description>
+      <description>MARKET PULSE — Jun 15, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,875 — 1d:DISTRIBUTION · 4h:DISTRIBUTION · above $65K ETH: $1,719 — 1d:DISTRIBUTION · 4h:DISTRIBUTION SOL: $71.22 — 1d:DISTRIBUTION · 4h:DISTRIBUTIO</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 15, 2026</title>
@@ -89,7 +96,7 @@
       <link>https://agentcanary.ai/record/2026/06/13/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/13/pulse/</guid>
       <pubDate>Sat, 13 Jun 2026 15:15:00 GMT</pubDate>
-      <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 13, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,506 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,665 · (same) S</description>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 13, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,506 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,665 — 1d:IGNIT</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 13, 2026</title>
@@ -117,7 +124,7 @@
       <link>https://agentcanary.ai/record/2026/06/12/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/12/pulse/</guid>
       <pubDate>Fri, 12 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 · (same) SOL: $66.91 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 11). WHALE AL</description>
+      <description>MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 — 1d:ACCUMULATION · 4h:IGNITION · below $65K SOL: $66.91 — 1d:ACCUMULATION · 4h:IGNITI</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 12, 2026</title>
@@ -145,7 +152,7 @@
       <link>https://agentcanary.ai/record/2026/06/11/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/11/pulse/</guid>
       <pubDate>Thu, 11 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 11, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,833 — 1d:ACCUMULATION · 4h:IGNITION · above $60K ETH: $1,650 · (same) SOL: $65.52 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 11). WHALE AL</description>
+      <description>MARKET PULSE — Jun 11, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,833 — 1d:ACCUMULATION · 4h:IGNITION · above $60K ETH: $1,650 — 1d:ACCUMULATION · 4h:IGNITION SOL: $65.52 — 1d:ACCUMULATION · 4h:IGNITION Crypto sen</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 11, 2026</title>
@@ -201,7 +208,7 @@
       <link>https://agentcanary.ai/record/2026/06/09/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/09/pulse/</guid>
       <pubDate>Tue, 09 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 · (same) SOL: $67.18 · (same) Crypto sentiment: 10 (Extreme Fear, 7d</description>
+      <description>MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K SOL: $</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 9, 2026</title>
@@ -229,7 +236,7 @@
       <link>https://agentcanary.ai/record/2026/06/08/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/08/pulse/</guid>
       <pubDate>Mon, 08 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 · (same) SOL: $66.35 · (same) Crypto sentiment: 8 (Extreme Fear, 7d</description>
+      <description>MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K SOL:</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 8, 2026</title>
@@ -341,7 +348,7 @@
       <link>https://agentcanary.ai/record/2026/06/04/pulse/</link>
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/04/pulse/</guid>
       <pubDate>Thu, 04 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 · (same) SOL: $71.35 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 21) (falling). WHA</description>
+      <description>MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K SOL: $71.35 — 1d:RISK_OFF · 4h:RISK_OFF · below $6</description>
     </item>
     <item>
       <title>SIGNAL SCAN — June 4, 2026</title>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/04/signal/</guid>
       <pubDate>Thu, 04 Jun 2026 09:15:00 GMT</pubDate>
       <description>SIGNAL SCAN — Jun 4, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Semiconductors lead a risk-on rotation as institutional flows pivot toward cyclical tech while crypto bleeds amid persistent outflows. Energy and utilities</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — June 4, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/04/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/04/radar/</guid>
-      <pubDate>Thu, 04 Jun 2026 03:15:00 GMT</pubDate>
-      <description>MACRO RADAR — Jun 4, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.9/100 (Low). Phase: EXPANSION. Composite Risk: 34.3/100 (MODERATE). Geopolitical risk: 48/100 (MODERATE). Top: Russia-Ukraine 55/100 (E</description>
     </item>
   </channel>
 </rss>

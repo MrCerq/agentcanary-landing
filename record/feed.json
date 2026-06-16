@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/16/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/16/pulse/",
+      "title": "MARKET PULSE — June 16, 2026",
+      "content_text": "MARKET PULSE — Jun 16, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $66,107 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · above $65K ETH: $1,778 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade SOL: $73.66 — 1d:B",
+      "summary": "MARKET PULSE — Jun 16, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $66,107 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · above $65K ETH: $1,778 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade SOL: $73.66 — 1d:B",
+      "date_published": "2026-06-16T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/16/signal/",
       "url": "https://agentcanary.ai/record/2026/06/16/signal/",
       "title": "SIGNAL SCAN — June 16, 2026",
@@ -63,8 +80,8 @@
       "id": "https://agentcanary.ai/record/2026/06/15/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/15/pulse/",
       "title": "MARKET PULSE — June 15, 2026",
-      "content_text": "MARKET PULSE — Jun 15, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,875 — 1d:DISTRIBUTION · 4h:DISTRIBUTION · above $65K ETH: $1,719 · (same) SOL: $71.22 · (same) Crypto sentiment: 20 (Extreme Fear, 7d avg 13) (risi",
-      "summary": "MARKET PULSE — Jun 15, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,875 — 1d:DISTRIBUTION · 4h:DISTRIBUTION · above $65K ETH: $1,719 · (same) SOL: $71.22 · (same) Crypto sentiment: 20 (Extreme Fear, 7d avg 13) (risi",
+      "content_text": "MARKET PULSE — Jun 15, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,875 — 1d:DISTRIBUTION · 4h:DISTRIBUTION · above $65K ETH: $1,719 — 1d:DISTRIBUTION · 4h:DISTRIBUTION SOL: $71.22 — 1d:DISTRIBUTION · 4h:DISTRIBUTIO",
+      "summary": "MARKET PULSE — Jun 15, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,875 — 1d:DISTRIBUTION · 4h:DISTRIBUTION · above $65K ETH: $1,719 — 1d:DISTRIBUTION · 4h:DISTRIBUTION SOL: $71.22 — 1d:DISTRIBUTION · 4h:DISTRIBUTIO",
       "date_published": "2026-06-15T15:15:00.000Z",
       "tags": [
         "HIGH",
@@ -199,8 +216,8 @@
       "id": "https://agentcanary.ai/record/2026/06/13/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/13/pulse/",
       "title": "MARKET PULSE — June 13, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 13, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,506 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,665 · (same) S",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 13, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,506 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,665 · (same) S",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 13, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,506 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,665 — 1d:IGNIT",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET PULSE — Jun 13, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,506 — 1d:IGNITION · 4h:IGNITION · below $65K ETH: $1,665 — 1d:IGNIT",
       "date_published": "2026-06-13T15:15:00.000Z",
       "tags": [
         "HIGH",
@@ -267,8 +284,8 @@
       "id": "https://agentcanary.ai/record/2026/06/12/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/12/pulse/",
       "title": "MARKET PULSE — June 12, 2026",
-      "content_text": "MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 · (same) SOL: $66.91 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 11). WHALE AL",
-      "summary": "MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 · (same) SOL: $66.91 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 11). WHALE AL",
+      "content_text": "MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 — 1d:ACCUMULATION · 4h:IGNITION · below $65K SOL: $66.91 — 1d:ACCUMULATION · 4h:IGNITI",
+      "summary": "MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 — 1d:ACCUMULATION · 4h:IGNITION · below $65K SOL: $66.91 — 1d:ACCUMULATION · 4h:IGNITI",
       "date_published": "2026-06-12T15:15:00.000Z",
       "tags": [
         "HIGH",
@@ -335,8 +352,8 @@
       "id": "https://agentcanary.ai/record/2026/06/11/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/11/pulse/",
       "title": "MARKET PULSE — June 11, 2026",
-      "content_text": "MARKET PULSE — Jun 11, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,833 — 1d:ACCUMULATION · 4h:IGNITION · above $60K ETH: $1,650 · (same) SOL: $65.52 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 11). WHALE AL",
-      "summary": "MARKET PULSE — Jun 11, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,833 — 1d:ACCUMULATION · 4h:IGNITION · above $60K ETH: $1,650 · (same) SOL: $65.52 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 11). WHALE AL",
+      "content_text": "MARKET PULSE — Jun 11, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,833 — 1d:ACCUMULATION · 4h:IGNITION · above $60K ETH: $1,650 — 1d:ACCUMULATION · 4h:IGNITION SOL: $65.52 — 1d:ACCUMULATION · 4h:IGNITION Crypto sen",
+      "summary": "MARKET PULSE — Jun 11, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,833 — 1d:ACCUMULATION · 4h:IGNITION · above $60K ETH: $1,650 — 1d:ACCUMULATION · 4h:IGNITION SOL: $65.52 — 1d:ACCUMULATION · 4h:IGNITION Crypto sen",
       "date_published": "2026-06-11T15:15:00.000Z",
       "tags": [
         "HIGH",
@@ -471,8 +488,8 @@
       "id": "https://agentcanary.ai/record/2026/06/09/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/09/pulse/",
       "title": "MARKET PULSE — June 9, 2026",
-      "content_text": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 · (same) SOL: $67.18 · (same) Crypto sentiment: 10 (Extreme Fear, 7d",
-      "summary": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 · (same) SOL: $67.18 · (same) Crypto sentiment: 10 (Extreme Fear, 7d",
+      "content_text": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K SOL: $",
+      "summary": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K SOL: $",
       "date_published": "2026-06-09T15:15:00.000Z",
       "tags": [
         "HIGH",
@@ -539,8 +556,8 @@
       "id": "https://agentcanary.ai/record/2026/06/08/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/08/pulse/",
       "title": "MARKET PULSE — June 8, 2026",
-      "content_text": "MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 · (same) SOL: $66.35 · (same) Crypto sentiment: 8 (Extreme Fear, 7d",
-      "summary": "MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 · (same) SOL: $66.35 · (same) Crypto sentiment: 8 (Extreme Fear, 7d",
+      "content_text": "MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K SOL:",
+      "summary": "MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K SOL:",
       "date_published": "2026-06-08T15:15:00.000Z",
       "tags": [
         "LOW",
@@ -811,8 +828,8 @@
       "id": "https://agentcanary.ai/record/2026/06/04/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/04/pulse/",
       "title": "MARKET PULSE — June 4, 2026",
-      "content_text": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 · (same) SOL: $71.35 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 21) (falling). WHA",
-      "summary": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 · (same) SOL: $71.35 · (same) Crypto sentiment: 12 (Extreme Fear, 7d avg 21) (falling). WHA",
+      "content_text": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K SOL: $71.35 — 1d:RISK_OFF · 4h:RISK_OFF · below $6",
+      "summary": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K SOL: $71.35 — 1d:RISK_OFF · 4h:RISK_OFF · below $6",
       "date_published": "2026-06-04T15:15:00.000Z",
       "tags": [
         "LOW",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/04/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/04/radar/",
-      "title": "MACRO RADAR — June 4, 2026",
-      "content_text": "MACRO RADAR — Jun 4, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.9/100 (Low). Phase: EXPANSION. Composite Risk: 34.3/100 (MODERATE). Geopolitical risk: 48/100 (MODERATE). Top: Russia-Ukraine 55/100 (E",
-      "summary": "MACRO RADAR — Jun 4, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.9/100 (Low). Phase: EXPANSION. Composite Risk: 34.3/100 (MODERATE). Geopolitical risk: 48/100 (MODERATE). Top: Russia-Ukraine 55/100 (E",
-      "date_published": "2026-06-04T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
