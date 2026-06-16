@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/16/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/16/signal/",
+      "title": "SIGNAL SCAN — June 16, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Mon 2026-06-15 close. Crypto data is live. SIGNAL SCAN — Jun 16, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tone dominates with cyclicals and semiconductors leading sharply",
+      "summary": "Pre-market brief — tradfi data reflects Mon 2026-06-15 close. Crypto data is live. SIGNAL SCAN — Jun 16, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tone dominates with cyclicals and semiconductors leading sharply",
+      "date_published": "2026-06-16T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-15"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/16/radar/",
       "url": "https://agentcanary.ai/record/2026/06/16/radar/",
       "title": "MACRO RADAR — June 16, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/03/wrap/",
-      "url": "https://agentcanary.ai/record/2026/06/03/wrap/",
-      "title": "MARKET WRAP — June 3, 2026",
-      "content_text": "MARKET WRAP — Jun 3, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with a clear divergence story as traditional growth sectors outperformed while crypto assets faced heavy selling. The semiconductor su",
-      "summary": "MARKET WRAP — Jun 3, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed with a clear divergence story as traditional growth sectors outperformed while crypto assets faced heavy selling. The semiconductor su",
-      "date_published": "2026-06-03T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
