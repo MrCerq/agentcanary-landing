@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 19:30:33 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 22:30:33 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — June 16, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/16/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/16/wrap/</guid>
+      <pubDate>Tue, 16 Jun 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — Jun 16, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s tape was defined by a clear rotation out of semiconductor and energy names and into hard assets, defense, and select decentralized finance t</description>
+    </item>
     <item>
       <title>MARKET PULSE — June 16, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/16/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/04/pulse/</guid>
       <pubDate>Thu, 04 Jun 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K SOL: $71.35 — 1d:RISK_OFF · 4h:RISK_OFF · below $6</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — June 4, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/04/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/04/signal/</guid>
-      <pubDate>Thu, 04 Jun 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — Jun 4, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Semiconductors lead a risk-on rotation as institutional flows pivot toward cyclical tech while crypto bleeds amid persistent outflows. Energy and utilities</description>
     </item>
   </channel>
 </rss>
