@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2026 19:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 22:30:28 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — June 17, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/17/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/wrap/</guid>
+      <pubDate>Wed, 17 Jun 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — Jun 17, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session told a story of internal rotation rather than broad directional conviction, with defensives and biotech absorbing capital fleeing se</description>
+    </item>
     <item>
       <title>MARKET PULSE — June 17, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/17/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/05/pulse/</guid>
       <pubDate>Fri, 05 Jun 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — Jun 5, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,653 — 1d:ACCUMULATION · 4h:ACCUMULATION · below $65K ETH: $1,728 — 1d:RISK_OFF · 4h:RISK_OFF SOL: $67.02 — 1d:RISK_OFF · 4h:RISK_OFF Crypto sentimen</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — June 5, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/05/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/05/signal/</guid>
-      <pubDate>Fri, 05 Jun 2026 09:15:00 GMT</pubDate>
-      <description>SIGNAL SCAN — Jun 5, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensive rotation gains momentum with healthcare and biotech leading while crypto faces broad selling pressure. Risk-off undertones emerge despite mixed se</description>
     </item>
   </channel>
 </rss>

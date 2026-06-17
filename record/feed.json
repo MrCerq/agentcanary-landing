@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/17/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/17/wrap/",
+      "title": "MARKET WRAP — June 17, 2026",
+      "content_text": "MARKET WRAP — Jun 17, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a story of internal rotation rather than broad directional conviction, with defensives and biotech absorbing capital fleeing se",
+      "summary": "MARKET WRAP — Jun 17, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a story of internal rotation rather than broad directional conviction, with defensives and biotech absorbing capital fleeing se",
+      "date_published": "2026-06-17T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/17/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/17/pulse/",
       "title": "MARKET PULSE — June 17, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/05/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/05/signal/",
-      "title": "SIGNAL SCAN — June 5, 2026",
-      "content_text": "SIGNAL SCAN — Jun 5, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensive rotation gains momentum with healthcare and biotech leading while crypto faces broad selling pressure. Risk-off undertones emerge despite mixed se",
-      "summary": "SIGNAL SCAN — Jun 5, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensive rotation gains momentum with healthcare and biotech leading while crypto faces broad selling pressure. Risk-off undertones emerge despite mixed se",
-      "date_published": "2026-06-05T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": null
       }
