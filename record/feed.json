@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/17/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/17/radar/",
+      "title": "MACRO RADAR — June 17, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. MACRO RADAR — Jun 17, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 25.5/100 (Low). Phase: EXPANSION. Composite Risk: 30.8",
+      "summary": "Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. MACRO RADAR — Jun 17, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 25.5/100 (Low). Phase: EXPANSION. Composite Risk: 30.8",
+      "date_published": "2026-06-17T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-16"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/16/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/16/wrap/",
       "title": "MARKET WRAP — June 16, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/04/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/04/pulse/",
-      "title": "MARKET PULSE — June 4, 2026",
-      "content_text": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K SOL: $71.35 — 1d:RISK_OFF · 4h:RISK_OFF · below $6",
-      "summary": "MARKET PULSE — Jun 4, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,273 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,806 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K SOL: $71.35 — 1d:RISK_OFF · 4h:RISK_OFF · below $6",
-      "date_published": "2026-06-04T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
