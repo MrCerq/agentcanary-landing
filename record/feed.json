@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/17/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/17/signal/",
+      "title": "SIGNAL SCAN — June 17, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. SIGNAL SCAN — Jun 17, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A rotational session with hard assets and nuclear leading while energy d",
+      "summary": "Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. SIGNAL SCAN — Jun 17, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A rotational session with hard assets and nuclear leading while energy d",
+      "date_published": "2026-06-17T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-16"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/17/radar/",
       "url": "https://agentcanary.ai/record/2026/06/17/radar/",
       "title": "MACRO RADAR — June 17, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/04/wrap/",
-      "url": "https://agentcanary.ai/record/2026/06/04/wrap/",
-      "title": "MARKET WRAP — June 4, 2026",
-      "content_text": "MARKET WRAP — Jun 4, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Risk appetite collapsed as defensive sectors captured flows from retreating speculative assets. Healthcare and biotech strength contrasted sharply wi",
-      "summary": "MARKET WRAP — Jun 4, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Risk appetite collapsed as defensive sectors captured flows from retreating speculative assets. Healthcare and biotech strength contrasted sharply wi",
-      "date_published": "2026-06-04T21:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
         "isWeekend": false,
         "tradFiAsOf": null
       }
