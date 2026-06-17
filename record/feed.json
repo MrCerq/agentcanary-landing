@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/17/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/17/pulse/",
+      "title": "MARKET PULSE — June 17, 2026",
+      "content_text": "MARKET PULSE — Jun 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,750 — 1d:IGNITION · 4h:ACCUMULATION · above $65K ETH: $1,791 — 1d:IGNITION · 4h:IGNITION SOL: $73.58 — 1d:IGNITION · 4h:ACCUMULATION Crypto sentime",
+      "summary": "MARKET PULSE — Jun 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,750 — 1d:IGNITION · 4h:ACCUMULATION · above $65K ETH: $1,791 — 1d:IGNITION · 4h:IGNITION SOL: $73.58 — 1d:IGNITION · 4h:ACCUMULATION Crypto sentime",
+      "date_published": "2026-06-17T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/17/signal/",
       "url": "https://agentcanary.ai/record/2026/06/17/signal/",
       "title": "SIGNAL SCAN — June 17, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/05/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/05/radar/",
-      "title": "MACRO RADAR — June 5, 2026",
-      "content_text": "MACRO RADAR — Jun 5, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 39.0/100 (Low). Phase: EXPANSION. Composite Risk: 35.2/100 (MODERATE). Geopolitical risk: 38/100 (MODERATE). Top: Middle East / Red Sea 55",
-      "summary": "MACRO RADAR — Jun 5, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 39.0/100 (Low). Phase: EXPANSION. Composite Risk: 35.2/100 (MODERATE). Geopolitical risk: 38/100 (MODERATE). Top: Middle East / Red Sea 55",
-      "date_published": "2026-06-05T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": null
       }
