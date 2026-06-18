@@ -9,11 +9,28 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/18/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/18/pulse/",
+      "title": "MARKET PULSE — June 18, 2026",
+      "content_text": "MARKET PULSE — Jun 18, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,231 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch · below $65K ETH: $1,743 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch SOL: $71.68 — 1d:I",
+      "summary": "MARKET PULSE — Jun 18, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,231 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch · below $65K ETH: $1,743 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch SOL: $71.68 — 1d:I",
+      "date_published": "2026-06-18T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/18/signal/",
       "url": "https://agentcanary.ai/record/2026/06/18/signal/",
       "title": "SIGNAL SCAN — June 18, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. SIGNAL SCAN — Jun 18, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $64,628, below $65K. BTC",
-      "summary": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. SIGNAL SCAN — Jun 18, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $64,628, below $65K. BTC",
+      "content_text": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. SIGNAL SCAN — Jun 18, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A risk-off rotation is underway with volatility spiking and semiconducto",
+      "summary": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. SIGNAL SCAN — Jun 18, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A risk-off rotation is underway with volatility spiking and semiconducto",
       "date_published": "2026-06-18T09:15:00.000Z",
       "tags": [
         "LOW",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-05"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/06/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/06/radar/",
-      "title": "MACRO RADAR — June 6, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MACRO RADAR — Jun 6, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 47.7/100 (Elevated). Phase: EXPANSION. Composite Risk: 41.",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MACRO RADAR — Jun 6, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 47.7/100 (Elevated). Phase: EXPANSION. Composite Risk: 41.",
-      "date_published": "2026-06-06T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-05"
       }
