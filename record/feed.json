@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/18/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/18/radar/",
+      "title": "MACRO RADAR — June 18, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. MACRO RADAR — Jun 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.1/100 (Low). Phase: EXPANSION. Composite Risk: 35.4",
+      "summary": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. MACRO RADAR — Jun 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.1/100 (Low). Phase: EXPANSION. Composite Risk: 35.4",
+      "date_published": "2026-06-18T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-17"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/17/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/17/wrap/",
       "title": "MARKET WRAP — June 17, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/05/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/05/pulse/",
-      "title": "MARKET PULSE — June 5, 2026",
-      "content_text": "MARKET PULSE — Jun 5, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,653 — 1d:ACCUMULATION · 4h:ACCUMULATION · below $65K ETH: $1,728 — 1d:RISK_OFF · 4h:RISK_OFF SOL: $67.02 — 1d:RISK_OFF · 4h:RISK_OFF Crypto sentimen",
-      "summary": "MARKET PULSE — Jun 5, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,653 — 1d:ACCUMULATION · 4h:ACCUMULATION · below $65K ETH: $1,728 — 1d:RISK_OFF · 4h:RISK_OFF SOL: $67.02 — 1d:RISK_OFF · 4h:RISK_OFF Crypto sentimen",
-      "date_published": "2026-06-05T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }

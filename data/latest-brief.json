@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-17",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 17",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 26/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-18",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 18",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 33/100 · 6 movers",
   "tags": [
     {
       "t": "LOW",
@@ -19,7 +19,7 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 26
+        "value": 33
       }
     },
     {
@@ -31,26 +31,26 @@
           "c": "green"
         },
         {
-          "k": "MRNA",
-          "v": "+11.7%",
+          "k": "TKMS",
+          "v": "+5.3%",
           "c": "green"
         },
         {
-          "k": "HOOD",
-          "v": "+9.0%",
+          "k": "RTX",
+          "v": "+4.9%",
           "c": "green"
         },
         {
-          "k": "BLSH",
-          "v": "-8.4%",
+          "k": "KWEB",
+          "v": "-4.7%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 17, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a story of internal rotation rather than broad directional conviction, with defensives and biotech absorbing capital fleeing semiconductors and metals. The volatility spike served as the session's defining signal, confirming that hedging demand is rising even as select pockets of equities found buyers. Tomorrow's setup hinges on whether that defensive bid holds or gives way to a broader recovery attempt in growth sectors.\n\n<b>CLOSING PRICES</b>\nSPY -1.8% | QQQ -2.9% | VIX +12.4% | TLT +0.7% | DXY +0.9% | OIL -1.3%\n\n<b>vs MORNING</b>\nSPY -3.0% | QQQ -4.1% | VIX +11.1% | TLT +0.2% | DXY +1.0% | OIL +5.3%\n\n<b>EVENING NEWS</b>\n▼ Markets are misreading the Fed’s decision as hawkish – Allianz’s El-Erian\n▲ US awards $500M to Nvidia-backed SandboxAQ to discover new chipmaking materials\n▼ Hawkish shift in the Fed signals ‘a stagflationary recession’ – analyst\n▲ OpenAI rolls out ChatGPT Tasks in beta for Plus, Team, and Pro users\n▼ $400M Wiped Out in Hours as Bitcoin Crashes After FOMC and Warsh Speech\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony\n\n<b>REGIME CHECK</b>\nRisk Gauge: 25.5/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: ITA +2.3%, XBI +2.2%, XLF +0.9%, COPX -3.4%, SMH -3.6%.\nSector dispersion: 80 (EXTREME, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[NZ] GDP(QoQ)(Q1) (+1 variants) — Jun 17 22:45 UTC (prev: 0.2%)\n[UK] Three-Month Average ILO Unemployment Rate(Apr) — Jun 18 06:00 UTC (prev: 5.0%)\n[UK] unemployment rate(Apr) — Jun 18 06:00 UTC (prev: 4.41%)\n[SK] Producer Price Index (MoM)(May) (+1 variants) — Jun 18 21:00 UTC (prev: 2.5%)\n[UK] Seasonally adjusted core retail sales (MoM)(May) (+2 variants) — Jun 18 22:00 UTC (prev: -0.4%)\n[UK] GfK Consumer Confidence Index(Jun) — Jun 18 23:01 UTC (prev: -23.0)\n\n<b>CONTRARIAN</b>\n• SOXX -4.6%: The semiconductor selloff may be overdone — the $500M SandboxAQ award signals the US government is accelerating industrial chip policy regardless of Fed rate path, and historically SOXX h…\n• Consensus is reading Warsh as purely hawkish, but El-Erian's 'markets are misreading' call and Warsh's openness to 'new economic data sources' suggests the Fed may be building optionality rather than…\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":25.5,\"sectorDispersion\":80,\"breadth\":\"SELECTIVE_STRENGTH\",\"topSector\":\"ITA\"}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 512,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 18, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 33.1/100 (Low). Phase: EXPANSION.\nComposite Risk: 35.4/100 (MODERATE).\nGeopolitical risk: 43/100 (MODERATE). Top: Middle East / Red Sea 50/100 (MODERATE, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $65,750 · ETH: $1,791 · SOL: $73.58\nCrypto sentiment: 15 (Extreme Fear, 7d avg 18) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.97T (YoY -2.71%) — fed $6.73T · ecb $7.10T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 271bps NORMAL\nBDRY: $11.99 (-1.0% 30d, DOWN — SOFTENING).\nOil: SUPPLY_TIGHTENING, crude 426.5M bbl, refinery 95.3%.\n\n<b>KEY PRICES</b>\nSPY -1.8% | QQQ -2.9% | VIX +12.4% | TLT +0.7% | DXY +0.7% | OIL -1.5%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ VIX: +12.4%\n▲ TKMS: +5.3%\n▲ RTX: +4.9%\n▼ KWEB: -4.7%\n▼ SOXX: -4.6%\n▼ SLV: -4.5%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 119.51 (R), Gold $4333 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] HY Credit Spread: -2.39σ\n[+] Jobless Claims: +1.97σ\n[-] 10Y Breakeven Inflation: -1.67σ\n\n<b>US OPEN SETUP</b>\n<i>The overnight setup favors defensive positioning into the US open. Defense and biotech are absorbing flows while semiconductors and copper miners bear the brunt of the risk-off rotation. Watch whether volatility sustains its spike or fades into the cash session open, as that will determine whether the selloff broadens into financials or stabilizes around existing sector leaders.</i>\n\n<b>JSON</b>\n{\"regime\":\"EXPANSION\",\"riskGauge\":33.1,\"compositeRisk\":35.4,\"geoRisk\":43}\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 513,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-17"
 }
