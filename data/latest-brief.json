@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-18",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 18",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 18",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 33/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
+          "k": "BE",
+          "v": "+15.4%",
+          "c": "green"
+        },
+        {
+          "k": "CIFR",
+          "v": "+11.5%",
+          "c": "green"
+        },
+        {
           "k": "VIX",
-          "v": "+12.4%",
-          "c": "green"
-        },
-        {
-          "k": "TKMS",
-          "v": "+5.3%",
-          "c": "green"
-        },
-        {
-          "k": "RTX",
-          "v": "+4.9%",
-          "c": "green"
-        },
-        {
-          "k": "KWEB",
-          "v": "-4.7%",
+          "v": "-11.1%",
           "c": "red"
+        },
+        {
+          "k": "ALAB",
+          "v": "+11.0%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 18, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $64,231 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch · below $65K\nETH: $1,743 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch\nSOL: $71.68 — 1d:IGNITION · 4h:ACCUMULATION\nCrypto sentiment: 15 (Extreme Fear, 7d avg 18) (falling).\n\n<b>WHALE ALERTS</b>\n• 1,470 BTC ($94.3M) — transferred from unknown wallet to #Kraken\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 135M USDC ($135M) — transferred from unknown wallet to #Aave\n\n<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>\n• SKHYNIX: 399% net APR (0.3648% rate) · Long Bitget / Short MEXC · OI $5.9M · Spread +0.43%\n• BEAT: 155% net APR (0.0706% rate) · Long Binance / Short OKX · OI $9.2M · Spread -0.27%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 42 perps): $87.3B\nTop OI: BTC $46.6B · ETH $24.3B · SOL $4.9B · HYPE $2.9B · XRP $2.7B\nOI shifters (4h): AKT -7.8% · INJ -5.8% · PEPE -4.9% · EIGEN -4.5% · SHIB -4.5%\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (Wed close, 1 trading day old): -$82M outflow (ARKB -$44M, IBIT -$31M, GBTC -$16M).\nBTC options — BEARISH: max pain $66,000 (19JUN26), P/C 0.65 OI / 1.64 vol, put skew +12.4 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.0177% (11/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $11M long / $146M short (net short $135M, +$1.8M PnL); BTC: $52M long / $86M short (net short $34M, +$1.3M PnL); HYPE: $30M long / $48M short (net short $18M, +$542K PnL).\nLiquidations: 24h total $153.3M; latest 4h $14.9M (0.4% long / 99.6% short, 14L/834S events, short-dominant).\nETH stake APY 2.39% vs T-bill 3.64% (spread -1.25, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Warsh Fed Turns Hawkish, Drops Easing Bias [SPY, TLT, GLD, JPY]\n▲ US-Iran Deal Boosts Crypto, Fades Risk Premiums [BTC, HYPE, XRP, DOGE]\n▼ Semis and China Tech Selloff [SOXX, KWEB, NVDA, SMH]\n\n<b>IMPLICATION</b>\nWith volatility spiking and semiconductors dumping, this is not a dip-buying session for tech. Lean into the defense and biotech rotation that is holding bid intraday. Watch whether financials sustain their modest gains as a read on broader risk appetite. Crypto ETF outflows add a headwind to any digital asset bounce attempt. Fade tech rallies until vol compresses.\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 515,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 18, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday belonged to the growth trade, with semiconductors and technology carrying the session on the back of a dramatic volatility collapse that cleared the path for risk assets to extend. The divergence between equity strength and crypto softness, compounded by commodity weakness, suggests the rally is sector-specific rather than a rising-tide regime shift. Tomorrow's setup hinges on whether institutional flows broaden into beaten-down areas or whether this remains a narrow tech-and-chips story.\n\n<b>CLOSING PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX -11.1% | TLT +0.6% | DXY +0.7% | OIL -1.8%\n\n<b>vs MORNING</b>\nSPY +1.4% | QQQ +4.4% | VIX -23.4% | TLT -0.1% | DXY flat | OIL -0.3%\n\n<b>EVENING NEWS</b>\n▲ Intel appoints former SK Hynix CEO Seok-Hee Lee as EVP of foundry\n▼ Oaktree Capital sees private credit fund redemptions drop below 5% as investor exodus slows\n▼ S&P 500 edges lower for week as investors balance Fed concerns and AI optimism\n▲ Iran and US sign ceasefire deal, triggering Bitcoin surge past $82K as geopolitical risk fades\n▼ Ethereum Foundation Exodus Continues as Co-Director Hsiao-Wei Wang Departs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Recession · ↑ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 33.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.1%, XBI +4.0%, XLK +2.7%, XLE -2.9%, COPX -4.8%.\nSector dispersion: 71 (EXTREME, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] Seasonally adjusted core retail sales (MoM)(May) (+2 variants) — Jun 18 22:00 UTC (prev: -0.4%)\n[UK] GfK Consumer Confidence Index(Jun) — Jun 18 23:01 UTC (prev: -23.0)\n[JPN] National Consumer Price Index (YoY)(May) — Jun 18 23:30 UTC (prev: 1.4%)\n[JPN] National Core Consumer Price Index (YoY)(May) — Jun 18 23:30 UTC (prev: 1.4%)\n[JPN] Nationwide Consumer Price Index(May) — Jun 18 23:30 UTC (prev: 113.0)\n[SIN] GDP(YoY)(Final)(Q1) — Jun 19 00:00 UTC (prev: 4.6%)\n\n<b>CONTRARIAN</b>\n• SOXX +8.2% in a single session is a magnitude typically associated with short squeezes or oversold bounces, not fundamental re-ratings — consensus is pricing AI demand as linear and certain, but a si…\n• SLV -6.1% on a day when geopolitical risk supposedly collapsed is the market telling you something equities are ignoring: if the ceasefire were truly durable and growth were genuinely reaccelerating,…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 516,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
