@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-18",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 18",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 33/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-19",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 19",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 23/100 · 6 movers",
   "tags": [
     {
       "t": "LOW",
@@ -19,38 +19,38 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 33
+        "value": 23
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "BE",
-          "v": "+15.4%",
-          "c": "green"
-        },
-        {
-          "k": "CIFR",
-          "v": "+11.5%",
-          "c": "green"
-        },
-        {
           "k": "VIX",
           "v": "-11.1%",
           "c": "red"
         },
         {
-          "k": "ALAB",
-          "v": "+11.0%",
+          "k": "SOXX",
+          "v": "+8.2%",
+          "c": "green"
+        },
+        {
+          "k": "SMH",
+          "v": "+7.1%",
+          "c": "green"
+        },
+        {
+          "k": "EWY",
+          "v": "+6.5%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 18, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday belonged to the growth trade, with semiconductors and technology carrying the session on the back of a dramatic volatility collapse that cleared the path for risk assets to extend. The divergence between equity strength and crypto softness, compounded by commodity weakness, suggests the rally is sector-specific rather than a rising-tide regime shift. Tomorrow's setup hinges on whether institutional flows broaden into beaten-down areas or whether this remains a narrow tech-and-chips story.\n\n<b>CLOSING PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX -11.1% | TLT +0.6% | DXY +0.7% | OIL -1.8%\n\n<b>vs MORNING</b>\nSPY +1.4% | QQQ +4.4% | VIX -23.4% | TLT -0.1% | DXY flat | OIL -0.3%\n\n<b>EVENING NEWS</b>\n▲ Intel appoints former SK Hynix CEO Seok-Hee Lee as EVP of foundry\n▼ Oaktree Capital sees private credit fund redemptions drop below 5% as investor exodus slows\n▼ S&P 500 edges lower for week as investors balance Fed concerns and AI optimism\n▲ Iran and US sign ceasefire deal, triggering Bitcoin surge past $82K as geopolitical risk fades\n▼ Ethereum Foundation Exodus Continues as Co-Director Hsiao-Wei Wang Departs\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Recession · ↑ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 33.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.1%, XBI +4.0%, XLK +2.7%, XLE -2.9%, COPX -4.8%.\nSector dispersion: 71 (EXTREME, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] Seasonally adjusted core retail sales (MoM)(May) (+2 variants) — Jun 18 22:00 UTC (prev: -0.4%)\n[UK] GfK Consumer Confidence Index(Jun) — Jun 18 23:01 UTC (prev: -23.0)\n[JPN] National Consumer Price Index (YoY)(May) — Jun 18 23:30 UTC (prev: 1.4%)\n[JPN] National Core Consumer Price Index (YoY)(May) — Jun 18 23:30 UTC (prev: 1.4%)\n[JPN] Nationwide Consumer Price Index(May) — Jun 18 23:30 UTC (prev: 113.0)\n[SIN] GDP(YoY)(Final)(Q1) — Jun 19 00:00 UTC (prev: 4.6%)\n\n<b>CONTRARIAN</b>\n• SOXX +8.2% in a single session is a magnitude typically associated with short squeezes or oversold bounces, not fundamental re-ratings — consensus is pricing AI demand as linear and certain, but a si…\n• SLV -6.1% on a day when geopolitical risk supposedly collapsed is the market telling you something equities are ignoring: if the ceasefire were truly durable and growth were genuinely reaccelerating,…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 516,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 19, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\nComposite Risk: 32.8/100 (MODERATE).\nGeopolitical risk: 32/100 (MODERATE). Top: Middle East / Red Sea 48/100 (MODERATE, natural_gas bullish).\n\n<b>CRYPTO</b>\nBTC: $64,231 · ETH: $1,743 · SOL: $71.68\nCrypto sentiment: 14 (Extreme Fear, 7d avg 18) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.97T (YoY -2.71%) — fed $6.73T · ecb $7.10T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 263bps NORMAL\nBDRY: $11.50 (-5.0% 30d, DOWN — SOFTENING).\nOil: SUPPLY_TIGHTENING, crude 418.2M bbl, SPR 340M.\n\n<b>KEY PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX -11.1% | TLT +0.6% | DXY +0.8% | OIL -1.6%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ VIX: -11.1%\n▲ SOXX: +8.2%\n▲ SMH: +7.1%\n▲ EWY: +6.5%\n▼ SLV: -6.1%\n▼ COPX: -4.8%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 119.51 (R), Gold $4243 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 10Y Breakeven Inflation: -2.18σ\n[+] Jobless Claims: +1.97σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight flows set up a constructive US open skewed toward growth and tech. Watch whether semiconductor strength broadens into wider equity participation or remains narrow. Commodity weakness suggests macro growth expectations are being repriced, not confirmed — monitor energy and copper for stabilization before adding cyclical exposure. Crypto ETF outflows remain a modest headwind for digital assets despite the altcoin bid.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 517,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-18"
 }

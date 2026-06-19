@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/19/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/19/radar/",
+      "title": "MACRO RADAR — June 19, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live. MACRO RADAR — Jun 19, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 32.8",
+      "summary": "Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live. MACRO RADAR — Jun 19, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 32.8",
+      "date_published": "2026-06-19T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-18"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/18/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/18/wrap/",
       "title": "MARKET WRAP — June 18, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-05"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/06/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/06/pulse/",
-      "title": "MARKET PULSE — June 6, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 6, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $60,942, above $60K. BTC ETF",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 6, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $60,942, above $60K. BTC ETF",
-      "date_published": "2026-06-06T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-05"
       }
