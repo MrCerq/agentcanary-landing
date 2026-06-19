@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/19/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/19/wrap/",
+      "title": "MARKET WRAP — June 19, 2026",
+      "content_text": "MARKET WRAP — Jun 19, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session was defined by a decisive rotation into growth and away from hard assets, with semiconductors and tech absorbing the bulk of the inf",
+      "summary": "MARKET WRAP — Jun 19, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session was defined by a decisive rotation into growth and away from hard assets, with semiconductors and tech absorbing the bulk of the inf",
+      "date_published": "2026-06-19T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/19/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/19/pulse/",
       "title": "MARKET PULSE — June 19, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-05"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/07/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/07/signal/",
-      "title": "SIGNAL SCAN — June 7, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 7, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation accelerates as tech suffers sharp selloff while defensives",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 7, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off rotation accelerates as tech suffers sharp selloff while defensives",
-      "date_published": "2026-06-07T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-05"
       }

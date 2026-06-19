@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-19",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 19",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 19",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 23/100 · 6 movers",
   "tags": [
     {
@@ -27,7 +27,7 @@
       "rows": [
         {
           "k": "VIX",
-          "v": "-11.1%",
+          "v": "-9.0%",
           "c": "red"
         },
         {
@@ -41,15 +41,15 @@
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "+6.5%",
-          "c": "green"
+          "k": "AVAX",
+          "v": "-6.8%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 19, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $62,739 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K\nETH: $1,697 — 1d:DISTRIBUTION · 4h:RISK_OFF\nSOL: $68.99 — 1d:DISTRIBUTION · 4h:RISK_OFF\nCrypto sentiment: 14 (Extreme Fear, 7d avg 18) (falling).\n\n<b>WHALE ALERTS</b>\n• 1,891 BTC ($118.7M) — transferred from #Paypal to unknown wallet\n• 1,000 BTC ($62.4M) — transferred from unknown wallet to #Coinbase\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 135M USDC ($135M) — transferred from unknown wallet to #Aave\n\n<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>\n• SKHYNIX: 451% net APR (0.4115% rate) · Long Bitget / Short OKX · OI $8.8M · Spread +0.5%\n• BEAT: 184% net APR (0.0841% rate) · Long Binance / Short OKX · OI $9.8M · Spread -0.1%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 42 perps): $85.6B\nTop OI: BTC $45.8B · ETH $23.9B · SOL $4.8B · HYPE $2.7B · XRP $2.6B\nOI shifters (4h): XLM -5.9% · OP -5.5% · NEAR -4.6% · EIGEN +4.4% · INJ -4.0%\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (Thu close, 1 trading day old): -$91M outflow (IBIT -$97M, MSBT +$10M, HODL -$4M).\nBTC options — BEARISH: max pain $65,000 (19JUN26), P/C 0.64 OI / 0.95 vol, put skew +48.1 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.1471% (15/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $62M long / $72M short (net short $10M, +$2.2M PnL); HYPE: $34M long / $34M short (flat, -$4.5M PnL); ETH: $11M long / $40M short (net short $29M, +$1.3M PnL).\nLiquidations: 24h total $144.2M; latest 4h $2.4M (12.9% long / 87.1% short, 21L/11S events, short-dominant).\nETH stake APY 2.39% vs T-bill 3.68% (spread -1.29, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓↓ Recession · ↑ Goldilocks · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▲ Semiconductor & Tech Surge [SOXX, SMH, EWY, NVDA]\n▼ Hawkish Fed & Dollar Strength [DXY, GLD, NZD, GBP]\n▲ US-Iran Peace Deal & Oil Price Decline [SPY, USO, GLD, BTC]\n\n<b>IMPLICATION</b>\nWith volatility crushed and semiconductors leading, the intraday tape is offering momentum longs in tech and chip-adjacent names. Fading metals here has near-term logic as capital chases growth. Watch whether crypto ETF outflows deepen into the close — sustained selling there could signal the risk-on move is narrower than it appears. Stay nimble; a one-day vol crush can reverse fast on thin conviction.\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 519,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 19, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session was defined by a decisive rotation into growth and away from hard assets, with semiconductors and tech absorbing the bulk of the inflows while metals and energy absorbed the selling pressure. The collapse in implied volatility reinforces that the market is not bracing for near-term shocks, but the divergence in crypto — lagging even as equities surged — leaves an unresolved tension heading into tomorrow. If that gap closes, the risk-on thesis strengthens; if crypto continues to underperform, it may signal that liquidity conditions are tighter beneath the surface than the equity tape suggests.\n\n<b>CLOSING PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX -9.0% | TLT +0.6% | DXY +0.8% | OIL -0.3%\n\n<b>vs MORNING</b>\nSPY flat | QQQ flat | VIX +2.1% | TLT flat | DXY flat | OIL +1.2%\n\n<b>EVENING NEWS</b>\n▼ Ethereum Whale Activity Crashes 90% as Large Transactions Fall to Multi-Month Lows\n▲ Bitcoin ETF Outflows Put Institutional Demand Back Under The Macro Spotlight\n▼ Strategy’s STRC To Collapse Like Terra Luna? Crypto Expert Spots Striking Similarity\n▼ Tom Lee Says 'Zero Chance' of Ethereum Funding Crisis as Insider Warns of $30M Gap\n▼ Sonic Labs Founders Including Andre Cronje Quit Board as New CEO Pledges to Get '1% Better' Daily\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.1%, XBI +4.0%, XLK +2.7%, XLE -2.9%, COPX -4.8%.\nSector dispersion: 73 (EXTREME, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[EU] Producer Price Index (YoY)(Apr) — Jun 19 22:00 UTC (prev: 2.1%)\n[CHN] Consumer Price Index (MoM)(May) — Jun 20 01:30 UTC (prev: 0.3%)\n[GER] Harmonized Consumer Price Index (MoM)(Final)(May) — Jun 20 02:00 UTC (prev: -0.1%)\n[GER] GfK Consumer Confidence Index(Jun) — Jun 21 06:00 UTC (prev: -33.3)\n[CAN] Consumer Price Index (MoM)(May) (+1 variants) — Jun 22 12:30 UTC (prev: 0.4%)\n[CAN] Core Consumer Price Index-Common Index (YoY)(May) — Jun 22 12:30 UTC (prev: 2.5%)\n\n<b>CONTRARIAN</b>\n• SOXX +8.2% in a single session while Bitcoin ETFs see outflows and copper miners fall 4.8% is internally contradictory — if AI-driven semiconductor demand were truly reigniting, industrial metals sho…\n• Tom Lee's 'zero chance' call on Ethereum's funding crisis is precisely the kind of high-conviction public reassurance that historically precedes forced acknowledgment of a real problem — the $30M ins…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 520,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
