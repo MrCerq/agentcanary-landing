@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/19/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/19/pulse/",
+      "title": "MARKET PULSE — June 19, 2026",
+      "content_text": "MARKET PULSE — Jun 19, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,739 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,697 — 1d:DISTRIBUTION · 4h:RISK_OFF SOL: $68.99 — 1d:DISTRIBUTION · 4h:RISK_OFF Crypto sentime",
+      "summary": "MARKET PULSE — Jun 19, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,739 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,697 — 1d:DISTRIBUTION · 4h:RISK_OFF SOL: $68.99 — 1d:DISTRIBUTION · 4h:RISK_OFF Crypto sentime",
+      "date_published": "2026-06-19T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/19/signal/",
       "url": "https://agentcanary.ai/record/2026/06/19/signal/",
       "title": "SIGNAL SCAN — June 19, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-05"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/07/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/07/radar/",
-      "title": "MACRO RADAR — June 7, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MACRO RADAR — Jun 7, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 47.7/100 (Elevated). Phase: EXPANSION. Composite Risk: 41.",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MACRO RADAR — Jun 7, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 47.7/100 (Elevated). Phase: EXPANSION. Composite Risk: 41.",
-      "date_published": "2026-06-07T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-05"
       }
