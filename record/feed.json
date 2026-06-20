@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/20/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/20/wrap/",
+      "title": "MARKET WRAP — June 20, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET WRAP — Jun 20, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session was defined by a decisive rotation into growth-orien",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET WRAP — Jun 20, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session was defined by a decisive rotation into growth-orien",
+      "date_published": "2026-06-20T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-19"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/20/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/20/pulse/",
       "title": "MARKET PULSE — June 20, 2026",
@@ -839,23 +856,6 @@
         "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/08/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/08/signal/",
-      "title": "SIGNAL SCAN — June 8, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 8, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off tone dominates as tech suffers broad-based selling while defensi",
-      "summary": "Pre-market brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 8, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off tone dominates as tech suffers broad-based selling while defensi",
-      "date_published": "2026-06-08T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-05"
       }
     }
   ]

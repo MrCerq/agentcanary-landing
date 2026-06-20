@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jun 2026 19:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 22:30:28 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — June 20, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/20/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/20/wrap/</guid>
+      <pubDate>Sat, 20 Jun 2026 21:15:00 GMT</pubDate>
+      <description>Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET WRAP — Jun 20, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session was defined by a decisive rotation into growth-orien</description>
+    </item>
     <item>
       <title>MARKET PULSE — June 20, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/20/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/08/pulse/</guid>
       <pubDate>Mon, 08 Jun 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K SOL:</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — June 8, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/08/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/08/signal/</guid>
-      <pubDate>Mon, 08 Jun 2026 09:15:00 GMT</pubDate>
-      <description>Pre-market brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. SIGNAL SCAN — Jun 8, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-off tone dominates as tech suffers broad-based selling while defensi</description>
     </item>
   </channel>
 </rss>
