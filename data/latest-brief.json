@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-19",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 19",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-06-20",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 20",
+  "headlineColor": "#FB923C",
   "desc": "Risk 23/100 · 6 movers",
   "tags": [
     {
@@ -41,16 +41,16 @@
           "c": "green"
         },
         {
-          "k": "AVAX",
-          "v": "-6.8%",
-          "c": "red"
+          "k": "EWY",
+          "v": "+6.5%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 19, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session was defined by a decisive rotation into growth and away from hard assets, with semiconductors and tech absorbing the bulk of the inflows while metals and energy absorbed the selling pressure. The collapse in implied volatility reinforces that the market is not bracing for near-term shocks, but the divergence in crypto — lagging even as equities surged — leaves an unresolved tension heading into tomorrow. If that gap closes, the risk-on thesis strengthens; if crypto continues to underperform, it may signal that liquidity conditions are tighter beneath the surface than the equity tape suggests.\n\n<b>CLOSING PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX -9.0% | TLT +0.6% | DXY +0.8% | OIL -0.3%\n\n<b>vs MORNING</b>\nSPY flat | QQQ flat | VIX +2.1% | TLT flat | DXY flat | OIL +1.2%\n\n<b>EVENING NEWS</b>\n▼ Ethereum Whale Activity Crashes 90% as Large Transactions Fall to Multi-Month Lows\n▲ Bitcoin ETF Outflows Put Institutional Demand Back Under The Macro Spotlight\n▼ Strategy’s STRC To Collapse Like Terra Luna? Crypto Expert Spots Striking Similarity\n▼ Tom Lee Says 'Zero Chance' of Ethereum Funding Crisis as Insider Warns of $30M Gap\n▼ Sonic Labs Founders Including Andre Cronje Quit Board as New CEO Pledges to Get '1% Better' Daily\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.1%, XBI +4.0%, XLK +2.7%, XLE -2.9%, COPX -4.8%.\nSector dispersion: 73 (EXTREME, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[EU] Producer Price Index (YoY)(Apr) — Jun 19 22:00 UTC (prev: 2.1%)\n[CHN] Consumer Price Index (MoM)(May) — Jun 20 01:30 UTC (prev: 0.3%)\n[GER] Harmonized Consumer Price Index (MoM)(Final)(May) — Jun 20 02:00 UTC (prev: -0.1%)\n[GER] GfK Consumer Confidence Index(Jun) — Jun 21 06:00 UTC (prev: -33.3)\n[CAN] Consumer Price Index (MoM)(May) (+1 variants) — Jun 22 12:30 UTC (prev: 0.4%)\n[CAN] Core Consumer Price Index-Common Index (YoY)(May) — Jun 22 12:30 UTC (prev: 2.5%)\n\n<b>CONTRARIAN</b>\n• SOXX +8.2% in a single session while Bitcoin ETFs see outflows and copper miners fall 4.8% is internally contradictory — if AI-driven semiconductor demand were truly reigniting, industrial metals sho…\n• Tom Lee's 'zero chance' call on Ethereum's funding crisis is precisely the kind of high-conviction public reassurance that historically precedes forced acknowledgment of a real problem — the $30M ins…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 520,
-  "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 20, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\nComposite Risk: 31.3/100 (MODERATE).\nGeopolitical risk: 35/100 (MODERATE). Top: Middle East / Red Sea 48/100 (MODERATE, oil bullish).\n\n<b>CRYPTO</b>\nBTC: $62,739 · ETH: $1,697 · SOL: $68.99\nCrypto sentiment: 23 (Extreme Fear, 7d avg 19) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.98T (YoY -2.67%) — fed $6.74T · ecb $7.10T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 263bps NORMAL (composite: CAUTION)\nBDRY: $11.88 (-1.8% 30d, DOWN — SOFTENING).\nOil: SUPPLY_TIGHTENING, crude 418.2M bbl, refinery 96.7%, SPR 340M.\n\n<b>KEY PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX -9.0% | TLT +0.6% | DXY +0.8% | OIL -0.3%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ VIX: -9.0%\n▲ SOXX: +8.2%\n▲ SMH: +7.1%\n▲ EWY: +6.5%\n▼ SLV: -6.1%\n▼ COPX: -4.8%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 119.51 (R), Gold $4216 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -2.63σ\n[-] HY Credit Spread: -2.62σ\n[+] 2Y Treasury: +2.11σ\n[-] 10Y Breakeven Inflation: -2.11σ\n[-] WTI Crude Oil: -1.78σ\n\n<b>US OPEN SETUP</b>\n<i>The overnight setup favors leaning into tech and semiconductor exposure at the open while treating energy and metals weakness as confirmation of the rotation rather than a dip to buy. Watch whether biotech's bid holds intraday as a secondary risk-on signal. Crypto ETF outflows are a mild caution — if crypto fails to catch the equity rally, that divergence narrows the breadth of the risk-on move.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
+  "isWeekend": true,
+  "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-19"
 }

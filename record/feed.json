@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/20/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/20/radar/",
+      "title": "MACRO RADAR — June 20, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MACRO RADAR — Jun 20, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 31.3/10",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MACRO RADAR — Jun 20, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 31.3/10",
+      "date_published": "2026-06-20T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-19"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/19/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/19/wrap/",
       "title": "MARKET WRAP — June 19, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-05"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/07/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/07/pulse/",
-      "title": "MARKET PULSE — June 7, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 7, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $61,664 — 1d:RISK_OFF · 4h:DISTRIBUTION · above $60K ETH: $1,594 — 1d:BE",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-05 close. Crypto data is live. MARKET PULSE — Jun 7, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $61,664 — 1d:RISK_OFF · 4h:DISTRIBUTION · above $60K ETH: $1,594 — 1d:BE",
-      "date_published": "2026-06-07T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-05"
       }
