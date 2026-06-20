@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/20/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/20/pulse/",
+      "title": "MARKET PULSE — June 20, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET PULSE — Jun 20, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,379 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · below $65K",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET PULSE — Jun 20, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,379 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · below $65K",
+      "date_published": "2026-06-20T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-19"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/20/signal/",
       "url": "https://agentcanary.ai/record/2026/06/20/signal/",
       "title": "SIGNAL SCAN — June 20, 2026",
@@ -839,23 +856,6 @@
         "slot": "signal",
         "isWeekend": false,
         "tradFiAsOf": "2026-06-05"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/08/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/08/radar/",
-      "title": "MACRO RADAR — June 8, 2026",
-      "content_text": "MACRO RADAR — Jun 8, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 47.7/100 (Elevated). Phase: EXPANSION. Composite Risk: 41.9/100 (MODERATE). Geopolitical risk: 34/100 (MODERATE). Top: Russia-Ukraine 44/1",
-      "summary": "MACRO RADAR — Jun 8, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 47.7/100 (Elevated). Phase: EXPANSION. Composite Risk: 41.9/100 (MODERATE). Geopolitical risk: 34/100 (MODERATE). Top: Russia-Ukraine 44/1",
-      "date_published": "2026-06-08T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
-        "isWeekend": false,
-        "tradFiAsOf": null
       }
     }
   ]
