@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-20",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 20",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-06-21",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 21",
+  "headlineColor": "#FB923C",
   "desc": "Risk 23/100 · 6 movers",
   "tags": [
     {
@@ -26,11 +26,6 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "VIX",
-          "v": "-9.0%",
-          "c": "red"
-        },
-        {
           "k": "SOXX",
           "v": "+8.2%",
           "c": "green"
@@ -41,6 +36,11 @@
           "c": "green"
         },
         {
+          "k": "PENDLE",
+          "v": "+6.6%",
+          "c": "green"
+        },
+        {
           "k": "EWY",
           "v": "+6.5%",
           "c": "green"
@@ -48,8 +48,8 @@
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live.</i>\n\n<b>MARKET WRAP</b> — Jun 20, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session was defined by a decisive rotation into growth-oriented and technology-linked assets, with volatility collapsing as hedges were aggressively unwound. Metals gave back ground sharply, signaling that the defensive trade lost conviction in the face of surging risk appetite. Tomorrow's setup hinges on whether this growth momentum can sustain without a snapback in volatility or a reversal in the commodity complex.\n\n<b>CLOSING PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX -9.0% | TLT +0.6% | DXY +0.8% | OIL -0.3%\n\n<b>EVENING NEWS</b>\n▲ JNE rejects appeals to annul voting tables in Lima and US, clears path for results\n▼ Ethereum’s exchange supply shrinks again – Is ETH setting up for a recovery?\n▼ S token drops 5% as 3 former execs resign from Sonic Labs board\n◆ Bitcoin will last longer than the US Dollar.\n◆ This video will help you understand Hezbollahs position. Long road ahead. https://t.co/LSF2K89i0M\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↓↓ Recession · ↑ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.1%, XBI +4.0%, XLK +2.7%, XLE -2.9%, COPX -4.8%.\nSector dispersion: 75 (EXTREME, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[UK] BRC Overall Retail Sales (YoY)(Apr) — Jun 20 23:08 UTC (prev: 3.6%)\n[GER] GfK Consumer Confidence Index(Jun) — Jun 21 06:00 UTC (prev: -33.3)\n[CAN] Consumer Price Index (MoM)(May) (+1 variants) — Jun 22 12:30 UTC (prev: 0.4%)\n[CAN] Core Consumer Price Index-Common Index (YoY)(May) — Jun 22 12:30 UTC (prev: 2.5%)\n[CAN] Core Consumer Price Index-Median (YoY)(May) — Jun 22 12:30 UTC (prev: 2.1%)\n[CAN] Core Consumer Price Index-Tuner Index (YoY)(May) — Jun 22 12:30 UTC (prev: 2.0%)\n\n<b>CONTRARIAN</b>\n• SOXX +8.2% in a single session is the kind of move that historically marks exhaustion points, not entry points — consensus is piling into semis assuming AI capex is bottomless, but a single earnings …\n• SLV -6.1% is being read as an inflation-hedge unwind and growth optimism signal, but silver's industrial demand component (solar, EVs) dropping this hard while EWY surges creates an internal contradi…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 522,
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 21, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\nComposite Risk: 31.3/100 (MODERATE).\n\n<b>CRYPTO</b>\nBTC: $64,176 · ETH: $1,734 · SOL: $73.23\nCrypto sentiment: 23 (Extreme Fear, 7d avg 20) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.98T (YoY -2.67%) — fed $6.74T · ecb $7.10T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 263bps NORMAL\nBDRY: $11.88 (-1.8% 30d, DOWN — SOFTENING).\nOil: SUPPLY_TIGHTENING, crude 418.2M bbl, refinery 96.7%, SPR 340M.\n\n<b>KEY PRICES</b>\nSPY -0.5% | QQQ +1.5% | VIX +2.3% | TLT +0.6% | DXY +0.8% | OIL -0.3%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ SOXX: +8.2%\n▲ SMH: +7.1%\n▲ EWY: +6.5%\n▼ SLV: -6.1%\n▼ COPX: -4.8%\n▼ WPP: -4.6%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 119.51 (R), Gold $4216 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -2.63σ\n[-] HY Credit Spread: -2.62σ\n[+] 2Y Treasury: +2.11σ\n[-] 10Y Breakeven Inflation: -2.11σ\n[-] WTI Crude Oil: -1.78σ\n\n<b>US OPEN SETUP</b>\n<i>With semiconductors surging and metals selling hard into the overnight session, the US open setup favors staying long growth and tech while fading commodity defensives. Watch whether Korean strength and chip momentum hold at the open or invite profit-taking. Crypto flows remain mixed with spot ETF outflows worth monitoring as a risk sentiment cross-check.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live.",
   "tradFiAsOf": "2026-06-19"

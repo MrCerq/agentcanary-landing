@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/21/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/21/radar/",
+      "title": "MACRO RADAR — June 21, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MACRO RADAR — Jun 21, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 31.3/10",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MACRO RADAR — Jun 21, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 31.3/10",
+      "date_published": "2026-06-21T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-19"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/20/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/20/wrap/",
       "title": "MARKET WRAP — June 20, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/08/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/08/pulse/",
-      "title": "MARKET PULSE — June 8, 2026",
-      "content_text": "MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K SOL:",
-      "summary": "MARKET PULSE — Jun 8, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,098 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K ETH: $1,678 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade · below $65K SOL:",
-      "date_published": "2026-06-08T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
