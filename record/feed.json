@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/21/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/21/wrap/",
+      "title": "MARKET WRAP — June 21, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET WRAP — Jun 21, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a clear story: growth led, defensives bled, and",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET WRAP — Jun 21, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a clear story: growth led, defensives bled, and",
+      "date_published": "2026-06-21T21:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-19"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/21/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/21/pulse/",
       "title": "MARKET PULSE — June 21, 2026",
@@ -839,23 +856,6 @@
         "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/09/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/09/signal/",
-      "title": "SIGNAL SCAN — June 9, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Mon 2026-06-08 close. Crypto data is live. SIGNAL SCAN — Jun 9, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite returns as volatility index collapses and defensive sectors",
-      "summary": "Pre-market brief — tradfi data reflects Mon 2026-06-08 close. Crypto data is live. SIGNAL SCAN — Jun 9, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk appetite returns as volatility index collapses and defensive sectors",
-      "date_published": "2026-06-09T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-08"
       }
     }
   ]
