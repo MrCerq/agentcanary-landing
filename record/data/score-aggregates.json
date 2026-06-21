@@ -47,71 +47,71 @@
   },
   "signalPredictions": {
     "hit": 143,
-    "partial": 343,
-    "miss": 405,
-    "pending": 27,
+    "partial": 348,
+    "miss": 409,
+    "pending": 18,
     "no_data": 4,
-    "scored": 891,
-    "hitRate": 16,
-    "weightedAccuracy": 35.3
+    "scored": 900,
+    "hitRate": 15.9,
+    "weightedAccuracy": 35.2
   },
   "overall": {
     "hit": 377,
-    "partial": 379,
-    "miss": 439,
-    "scored": 1195,
-    "hitRate": 31.5,
-    "weightedAccuracy": 47.4
+    "partial": 384,
+    "miss": 443,
+    "scored": 1204,
+    "hitRate": 31.3,
+    "weightedAccuracy": 47.3
   },
-  "computedAt": "2026-06-20T22:30:02.967Z",
+  "computedAt": "2026-06-21T01:30:04.077Z",
   "perAsset": [
     {
       "ticker": "SPY",
       "n": 195,
       "hit": 16,
-      "partial": 81,
-      "miss": 92,
-      "pending": 6,
+      "partial": 82,
+      "miss": 93,
+      "pending": 4,
       "no_data": 0,
-      "scored": 189,
-      "hit_rate_pct": 8.5,
-      "weighted_pct": 29.9
+      "scored": 191,
+      "hit_rate_pct": 8.4,
+      "weighted_pct": 29.8
     },
     {
       "ticker": "BTC",
       "n": 189,
       "hit": 29,
-      "partial": 65,
+      "partial": 67,
       "miss": 89,
-      "pending": 6,
+      "pending": 4,
       "no_data": 0,
-      "scored": 183,
-      "hit_rate_pct": 15.8,
-      "weighted_pct": 33.6
+      "scored": 185,
+      "hit_rate_pct": 15.7,
+      "weighted_pct": 33.8
     },
     {
       "ticker": "TLT",
       "n": 141,
       "hit": 12,
-      "partial": 60,
-      "miss": 63,
-      "pending": 6,
+      "partial": 61,
+      "miss": 64,
+      "pending": 4,
       "no_data": 0,
-      "scored": 135,
-      "hit_rate_pct": 8.9,
-      "weighted_pct": 31.1
+      "scored": 137,
+      "hit_rate_pct": 8.8,
+      "weighted_pct": 31
     },
     {
       "ticker": "QQQ",
       "n": 122,
       "hit": 23,
-      "partial": 42,
-      "miss": 51,
-      "pending": 6,
+      "partial": 43,
+      "miss": 52,
+      "pending": 4,
       "no_data": 0,
-      "scored": 116,
-      "hit_rate_pct": 19.8,
-      "weighted_pct": 37.9
+      "scored": 118,
+      "hit_rate_pct": 19.5,
+      "weighted_pct": 37.7
     },
     {
       "ticker": "OIL",
@@ -130,12 +130,12 @@
       "n": 75,
       "hit": 3,
       "partial": 31,
-      "miss": 37,
-      "pending": 3,
+      "miss": 38,
+      "pending": 2,
       "no_data": 1,
-      "scored": 71,
+      "scored": 72,
       "hit_rate_pct": 4.2,
-      "weighted_pct": 26.1
+      "weighted_pct": 25.7
     },
     {
       "ticker": "VIX",
@@ -223,21 +223,21 @@
     }
   ],
   "brierStats": {
-    "n": 891,
-    "meanBrier": 0.146,
+    "n": 900,
+    "meanBrier": 0.1454,
     "baselineRandom": 0.25,
     "perScenario": {
       "A": {
-        "n": 307,
-        "meanBrier": 0.1526
+        "n": 310,
+        "meanBrier": 0.1524
       },
       "B": {
-        "n": 305,
-        "meanBrier": 0.1554
+        "n": 308,
+        "meanBrier": 0.1543
       },
       "C": {
-        "n": 279,
-        "meanBrier": 0.1285
+        "n": 282,
+        "meanBrier": 0.1278
       }
     },
     "reliability": [
@@ -249,15 +249,15 @@
       },
       {
         "range": "20-40%",
-        "n": 536,
+        "n": 542,
         "predicted_mean": 30.3,
-        "observed_rate": 35.3
+        "observed_rate": 35.2
       },
       {
         "range": "40-60%",
-        "n": 226,
-        "predicted_mean": 49,
-        "observed_rate": 33.4
+        "n": 229,
+        "predicted_mean": 48.9,
+        "observed_rate": 33.2
       },
       {
         "range": "60-80%",
