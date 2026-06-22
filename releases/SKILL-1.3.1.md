@@ -1,7 +1,7 @@
 ---
 slug: agentcanary
 name: AgentCanary
-description: Cross-asset market intelligence API for AI agents. 130+ endpoints across macro regime detection, risk scoring, trading signals (IGNITION/ACCUMULATION/DISTRIBUTION/CAPITULATION), whale alerts, funding arbitrage, orderbook analytics, live derivatives (cross-exchange open interest, perp liquidations with long/short split), DeFi yields/PE ratios, BTC options (max pain, skew), central bank balance sheets, narrative crowding scores, sector rotation, Hindenburg omen, CAPE ratio, scenario probabilities, BTC ETF flows, geopolitical risk, mean reversion signals, institutional positioning (13F, short interest, CFTC COT), Reddit/X sentiment, and 4× daily AI market briefs (Radar 03:15, Signal 09:15, Pulse 15:15, Wrap 21:15 UTC). Wallet-based auth, USDC/USDT on any major EVM chain (Base, Ethereum, Arbitrum, Optimism, Polygon). Use when an agent needs macro regime context, risk assessment, position sizing guidance, market structure data, derivatives positioning, whale monitoring, news sentiment, DeFi intelligence, options flow, or institutional positioning. API-only — no local execution, no filesystem access, no secrets in prompt.
+description: Cross-asset market intelligence API for AI agents. 130+ endpoints across macro regime detection, risk scoring, trading signals (IGNITION/ACCUMULATION/DISTRIBUTION/CAPITULATION), whale alerts, funding arbitrage, orderbook analytics, live derivatives (cross-exchange open interest, perp liquidations with long/short split), DeFi yields/PE ratios, BTC options (max pain, skew), central bank balance sheets, narrative crowding scores, sector rotation, Hindenburg omen, CAPE ratio, scenario probabilities, BTC ETF flows, geopolitical risk, institutional positioning (13F, short interest, CFTC COT), Reddit/X sentiment, and 4× daily AI market briefs (Radar 03:15, Signal 09:15, Pulse 15:15, Wrap 21:15 UTC). Wallet-based auth, USDC/USDT on any major EVM chain (Base, Ethereum, Arbitrum, Optimism, Polygon). Use when an agent needs macro regime context, risk assessment, position sizing guidance, market structure data, derivatives positioning, whale monitoring, news sentiment, DeFi intelligence, options flow, or institutional positioning. API-only — no local execution, no filesystem access, no secrets in prompt.
 tags: [finance, crypto, trading, market-data, macro, signals, agents, mcp]
 ---
 
@@ -95,7 +95,6 @@ Full endpoint documentation with response examples: [references/endpoints.md](re
 | **Premiums** | `/premiums`, `/premiums/coinbase`, `/premiums/kimchi` | Signal |
 | **Predictions** | `/predictions`, `/predictions/movers`, `/predictions/:slug` | Signal |
 | **Sentiment** | `/sentiment/reddit` | Signal |
-| **Mean Reversion** | `/mr/signals`, `/mr/trades`, `/mr/stats` | Signal |
 | **Hindenburg** | `/hindenburg`, `/hindenburg/history` | Signal |
 | **CAPE** | `/cape` | Signal |
 | **Kill Conditions** | `/kill-conditions` | Signal |
