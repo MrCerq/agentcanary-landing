@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-22",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 22",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 22",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 23/100 · 6 movers",
   "tags": [
     {
@@ -27,29 +27,29 @@
       "rows": [
         {
           "k": "SOXX",
-          "v": "+8.2%",
+          "v": "+9.2%",
           "c": "green"
         },
         {
-          "k": "SMH",
-          "v": "+7.1%",
+          "k": "RIVN",
+          "v": "-8.6%",
+          "c": "red"
+        },
+        {
+          "k": "ON",
+          "v": "+7.8%",
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "+6.5%",
-          "c": "green"
-        },
-        {
-          "k": "SLV",
-          "v": "-6.1%",
+          "k": "ARM",
+          "v": "-7.2%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 22, 2026\n\n<b>SNAPSHOT</b>\n<i>Narrative synthesis unavailable for this run; showing verified deterministic facts only.</i>\nBTC at $64,193, below $65K.\nBTC ETF flows (provider latest Thu Jun 18): -$91M outflow.\n\n<b>MACRO RISK DASHBOARD</b>\n<i>Market pulse — tradfi session is open; crypto data is live.</i>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\nSPY -0.5% | QQQ +1.5% | VIX +2.3% | TLT +0.6% | DXY flat | OIL -1.7%\nICSA: 226K (UP trend, +1.44z)\n\n<b>SECTOR STRENGTH</b>\nTop sectors: SMH +7.1%, XBI +4.0%, XLK +2.7%, XLE -2.9%, COPX -4.8%.\n\n<b>BIG MOVES</b>\nTop movers: SOXX +8.2%, SMH +7.1%, EWY +6.5%, SLV -6.1%, WPP -4.6%, XMR +3.4%.\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (provider latest Thu Jun 18): -$91M outflow (IBIT -$97M, MSBT +$10M, HODL -$4M).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $31M long / $119M short (net short $88M, -$2.3M PnL); BTC: $27M long / $65M short (net short $38M, -$2.8M PnL); HYPE: $27M long / $47M short (net short $20M, -$1.7M PnL).\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 527,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 22, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's dominant story was a sharp rotation into semiconductors and growth tech, with the sector posting outsized gains that dragged the broader equity complex higher. Defensives and industrial names were left behind, suggesting the market is pricing in a growth-friendly regime rather than hedging for uncertainty. Tomorrow's setup hinges on whether crypto momentum sustains overnight and whether the tech bid broadens or begins to consolidate.\n\n<b>CLOSING PRICES</b>\nSPY +0.5% | QQQ +2.1% | VIX +3.0% | TLT -0.3% | DXY +0.2% | OIL -2.4%\n\n<b>vs MORNING</b>\nSPY +0.9% | QQQ +0.7% | VIX +0.7% | TLT -0.9% | DXY +0.2% | OIL -0.6%\n\n<b>EVENING NEWS</b>\n▲ Trump Orders Acceleration of Quantum Readiness as Bitcoin Faces Coming Risk\n▲ SharpLink (SBET) Stock Climbs on Ethlabs Ethereum Research Initiative\n▼ Ethereum Analyst Maps Drop Toward Demand Zone As ETH Tests Supply\n▲ Malaysian Ringgit: Stays pressured against US Dollar as trades cautiously – OCBC\n▼ Mexican Peso weakens as Fed repricing lifts USD ahead of Banxico\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.2%, XBI +4.6%, XLK +3.4%, COPX -2.2%, ITA -3.0%.\nSector dispersion: 69 (EXTREME, breadth MIXED), 50% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SIN] Consumer Price Index (YoY)(May) — Jun 23 05:00 UTC (prev: 1.8%)\n[TW] Seasonally adjusted unemployment rate(May) — Jun 23 08:00 UTC (prev: 3.34%)\n[HK] Composite Consumer Price Index (YoY)(May) — Jun 23 08:30 UTC (prev: 1.7%)\n[USA] Last week's Red Book Commercial Retail Sales (YoY)(to 0608) — Jun 23 12:55 UTC (prev: 9.4%)\n[ITA] Consumer Price Index (YoY)(Final)(May) (+1 variants) — Jun 24 02:00 UTC (prev: 3.2%)\n[AUS] Seasonally adjusted unemployment rate(May) — Jun 25 01:30 UTC (prev: 4.5%)\n\n<b>CONTRARIAN</b>\n• RTX -5.6% on Iran-talks optimism may be a head-fake: defense contracts are multi-year and geopolitical risk premia rarely evaporate on diplomatic hints alone — the selloff could be an overshooting en…\n• SOXX +9.2% in a single session while Bitcoin ETFs bleed for a sixth straight week suggests the AI/semi trade is absorbing liquidity that would otherwise flow into crypto — if semiconductor momentum s…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 528,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null

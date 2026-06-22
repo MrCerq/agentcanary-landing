@@ -2,22 +2,38 @@
   "scores": {
     "2026-06-22": {
       "radar": {
-        "status": "pending",
-        "summary": "Regime EXPANSION called — awaiting next radar",
+        "status": "hit",
+        "summary": "Regime EXPANSION held all day",
         "details": {
           "morning": {
             "phase": "EXPANSION",
             "riskGauge": 23.1,
             "riskLabel": "Low"
           },
-          "source": "next-day-radar"
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": 23.1,
+            "riskLabel": "Low"
+          },
+          "gaugeDelta": 0,
+          "source": "same-day-wrap"
         }
       },
       "pulse": {
         "status": "no_data",
         "summary": "Could not parse pulse directional calls"
       },
-      "wrap": null
+      "wrap": {
+        "status": "pending",
+        "summary": "Wrap framed EXPANSION — awaiting next-day open",
+        "details": {
+          "wrap": {
+            "phase": "EXPANSION",
+            "riskGauge": 23.1,
+            "riskLabel": "Low"
+          }
+        }
+      }
     },
     "2026-06-21": {
       "radar": {
@@ -8754,5 +8770,5 @@
       }
     }
   },
-  "lastScored": "2026-06-22T19:30:05.981Z"
+  "lastScored": "2026-06-22T22:30:03.808Z"
 }
