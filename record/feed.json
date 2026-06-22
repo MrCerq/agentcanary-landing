@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/22/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/22/pulse/",
+      "title": "MARKET PULSE — June 22, 2026",
+      "content_text": "MARKET PULSE — Jun 22, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $64,193, below $65K. BTC ETF flows (provider latest Thu Jun 18): -$91M outflow. MACRO RISK DASHBOARD Market",
+      "summary": "MARKET PULSE — Jun 22, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $64,193, below $65K. BTC ETF flows (provider latest Thu Jun 18): -$91M outflow. MACRO RISK DASHBOARD Market",
+      "date_published": "2026-06-22T15:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/22/signal/",
       "url": "https://agentcanary.ai/record/2026/06/22/signal/",
       "title": "SIGNAL SCAN — June 22, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-09"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/10/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/10/radar/",
-      "title": "MACRO RADAR — June 10, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Tue 2026-06-09 close. Crypto data is live. MACRO RADAR — Jun 10, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 77.3/100 (High). Phase: EXPANSION. Composite Risk: 46.",
-      "summary": "Pre-market brief — tradfi data reflects Tue 2026-06-09 close. Crypto data is live. MACRO RADAR — Jun 10, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 77.3/100 (High). Phase: EXPANSION. Composite Risk: 46.",
-      "date_published": "2026-06-10T03:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": "2026-06-09"
       }

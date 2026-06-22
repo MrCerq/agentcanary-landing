@@ -13,7 +13,10 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
+      "pulse": {
+        "status": "no_data",
+        "summary": "Could not parse pulse directional calls"
+      },
       "wrap": null
     },
     "2026-06-21": {
@@ -8751,5 +8754,5 @@
       }
     }
   },
-  "lastScored": "2026-06-22T10:30:03.981Z"
+  "lastScored": "2026-06-22T16:30:05.093Z"
 }

@@ -27,8 +27,8 @@
       "partial": 29,
       "miss": 25,
       "pending": 0,
-      "no_data": 13,
-      "absent": 4,
+      "no_data": 14,
+      "absent": 3,
       "scored": 103,
       "hitRate": 47.6,
       "weightedAccuracy": 61.7
@@ -63,7 +63,7 @@
     "hitRate": 31.3,
     "weightedAccuracy": 47.3
   },
-  "computedAt": "2026-06-22T10:30:03.999Z",
+  "computedAt": "2026-06-22T16:30:05.113Z",
   "perAsset": [
     {
       "ticker": "SPY",
