@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2026 01:30:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 04:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — June 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/22/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/22/radar/</guid>
+      <pubDate>Mon, 22 Jun 2026 03:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MACRO RADAR — Jun 22, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 31.9</description>
+    </item>
     <item>
       <title>MARKET WRAP — June 21, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/21/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/09/wrap/</guid>
       <pubDate>Tue, 09 Jun 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — Jun 9, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $62,075, above $60K. BTC ETF flows: -$91M outflow on Jun 9 (Tue close), after -$1.4B outflow trailing 5-tradi</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — June 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/09/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/09/pulse/</guid>
-      <pubDate>Tue, 09 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K SOL: $</description>
     </item>
   </channel>
 </rss>

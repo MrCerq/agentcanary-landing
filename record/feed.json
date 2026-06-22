@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/22/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/22/radar/",
+      "title": "MACRO RADAR — June 22, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MACRO RADAR — Jun 22, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 31.9",
+      "summary": "Pre-market brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MACRO RADAR — Jun 22, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 31.9",
+      "date_published": "2026-06-22T03:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-19"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/21/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/21/wrap/",
       "title": "MARKET WRAP — June 21, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/09/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/09/pulse/",
-      "title": "MARKET PULSE — June 9, 2026",
-      "content_text": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K SOL: $",
-      "summary": "MARKET PULSE — Jun 9, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,432 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K ETH: $1,692 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $65K SOL: $",
-      "date_published": "2026-06-09T15:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
