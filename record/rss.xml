@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2026 04:30:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 10:30:29 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 22, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/22/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/22/signal/</guid>
+      <pubDate>Mon, 22 Jun 2026 09:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. SIGNAL SCAN — Jun 22, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A sharp risk-on rotation is underway, with semiconductors and tech leadi</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 22, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/22/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/10/radar/</guid>
       <pubDate>Wed, 10 Jun 2026 03:15:00 GMT</pubDate>
       <description>Pre-market brief — tradfi data reflects Tue 2026-06-09 close. Crypto data is live. MACRO RADAR — Jun 10, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 77.3/100 (High). Phase: EXPANSION. Composite Risk: 46.</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — June 9, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/09/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/09/wrap/</guid>
-      <pubDate>Tue, 09 Jun 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — Jun 9, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $62,075, above $60K. BTC ETF flows: -$91M outflow on Jun 9 (Tue close), after -$1.4B outflow trailing 5-tradi</description>
     </item>
   </channel>
 </rss>

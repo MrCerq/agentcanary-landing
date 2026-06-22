@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/22/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/22/signal/",
+      "title": "SIGNAL SCAN — June 22, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. SIGNAL SCAN — Jun 22, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A sharp risk-on rotation is underway, with semiconductors and tech leadi",
+      "summary": "Pre-market brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. SIGNAL SCAN — Jun 22, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A sharp risk-on rotation is underway, with semiconductors and tech leadi",
+      "date_published": "2026-06-22T09:15:00.000Z",
+      "tags": [
+        "LOW",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-19"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/22/radar/",
       "url": "https://agentcanary.ai/record/2026/06/22/radar/",
       "title": "MACRO RADAR — June 22, 2026",
@@ -839,23 +856,6 @@
         "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": "2026-06-09"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/09/wrap/",
-      "url": "https://agentcanary.ai/record/2026/06/09/wrap/",
-      "title": "MARKET WRAP — June 9, 2026",
-      "content_text": "MARKET WRAP — Jun 9, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $62,075, above $60K. BTC ETF flows: -$91M outflow on Jun 9 (Tue close), after -$1.4B outflow trailing 5-tradi",
-      "summary": "MARKET WRAP — Jun 9, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $62,075, above $60K. BTC ETF flows: -$91M outflow on Jun 9 (Tue close), after -$1.4B outflow trailing 5-tradi",
-      "date_published": "2026-06-09T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
       }
     }
   ]
