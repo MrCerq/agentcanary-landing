@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/23/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/23/signal/",
+      "title": "SIGNAL SCAN — June 23, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Mon 2026-06-22 close. Crypto data is live. SIGNAL SCAN — Jun 23, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Semiconductors and tech are leading a sharp risk-on rotation while defen",
+      "summary": "Pre-market brief — tradfi data reflects Mon 2026-06-22 close. Crypto data is live. SIGNAL SCAN — Jun 23, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Semiconductors and tech are leading a sharp risk-on rotation while defen",
+      "date_published": "2026-06-23T09:15:00.000Z",
+      "tags": [
+        "MEDIUM",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-22"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/23/radar/",
       "url": "https://agentcanary.ai/record/2026/06/23/radar/",
       "title": "MACRO RADAR — June 23, 2026",
@@ -839,23 +856,6 @@
         "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": "2026-06-10"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/10/wrap/",
-      "url": "https://agentcanary.ai/record/2026/06/10/wrap/",
-      "title": "MARKET WRAP — June 10, 2026",
-      "content_text": "MARKET WRAP — Jun 10, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed in clear risk-off mode with defensives leading while growth assets faced broad selling pressure. The volatility spike underscored shi",
-      "summary": "MARKET WRAP — Jun 10, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Markets closed in clear risk-off mode with defensives leading while growth assets faced broad selling pressure. The volatility spike underscored shi",
-      "date_published": "2026-06-10T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
       }
     }
   ]
