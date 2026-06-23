@@ -1,14 +1,14 @@
 {
   "name": "agentcanary",
-  "version": "1.3.1",
+  "version": "1.4.5",
   "description": "Market context layer for autonomous AI agents. Fresh regime, risk, narrative & scenario state via REST + MCP, with transparent source trails.",
   "homepage": "https://agentcanary.ai",
   "install": {
     "npm": "npx agentcanary-mcp",
     "env": {
       "AC_API_KEY": {
-        "description": "Your AgentCanary API key (get one at https://app.agentcanary.ai)",
-        "required": true
+        "description": "Optional for public get_track_record and diagnose. Required for tiered AgentCanary API tools. Get one at https://app.agentcanary.ai",
+        "required": false
       }
     }
   },
@@ -80,6 +80,14 @@
     {
       "name": "get_liquidations",
       "description": "Crypto perp liquidations. 24h total + latest-4h breakdown with long/short USD split, per-side event counts, long%/short%, and dominant-direction label. Builder tier+."
+    },
+    {
+      "name": "diagnose",
+      "description": "Public/key-aware diagnostic. Without AC_API_KEY, reports that only public tools are available. With AC_API_KEY, returns tier, scopes, credits, rate limit, and upgrade path."
+    },
+    {
+      "name": "get_track_record",
+      "description": "Public AgentCanary hit/miss track record: mean Brier score, per-scenario calibration, reliability buckets, and per-asset hit rates. No API key required; optional ticker filter."
     }
   ],
   "pricing": {
@@ -90,6 +98,6 @@
     "docs": "https://api.agentcanary.ai/api/docs",
     "api": "https://api.agentcanary.ai/api",
     "telegram": "https://t.me/AgentCanary",
-    "github": "https://github.com/MrCerq/agentcanary-skill"
+    "github": "https://github.com/MrCerq/agentcanary-mcp"
   }
 }
