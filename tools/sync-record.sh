@@ -31,17 +31,16 @@ touch "$LOCKFILE"
 
 cd "$REPO"
 
-# Stash any dirty data files before pulling (prevents rebase conflicts)
-if ! git diff --quiet 2>/dev/null; then
-  git stash --quiet 2>/dev/null || true
-  echo "📦 Stashed local changes before pull"
+# Never hide or discard operator edits. This job is allowed to create and
+# commit generated Record output only from a clean tree.
+if ! git diff --quiet 2>/dev/null || ! git diff --cached --quiet 2>/dev/null || [ -n "$(git ls-files --others --exclude-standard)" ]; then
+  echo "❌ Working tree dirty before record sync; refusing to stash/drop changes."
+  git status --short
+  exit 1
 fi
 
 # Pull latest (in case of manual pushes from Mac)
 git pull --rebase 2>&1 || git pull 2>&1 || { echo "❌ Git pull failed"; exit 1; }
-
-# Drop stash — we'll overwrite data files anyway
-git stash drop --quiet 2>/dev/null || true
 
 # Copy fresh data from landing-data (where AC scheduler writes)
 cp /root/agentcanary-landing-data/briefs-archive.json data/briefs-archive.json 2>/dev/null || true
@@ -64,7 +63,22 @@ if git diff --quiet && git diff --cached --quiet; then
   exit 0
 fi
 
-git add -A
+git add \
+  data/briefs-archive.json \
+  data/briefs-feed.json \
+  data/latest-brief.json \
+  record \
+  assets \
+  regimes \
+  sitemap.xml \
+  index.html 2>/dev/null || true
+
+if ! git diff --quiet 2>/dev/null || [ -n "$(git ls-files --others --exclude-standard)" ]; then
+  echo "❌ Unexpected unstaged/untracked changes after record build; refusing to sweep them into the auto-commit."
+  git status --short
+  exit 1
+fi
+
 git commit -m "Auto-rebuild Record + briefs: $(date -u +%Y-%m-%d\ %H:%M)" 2>&1
 git push 2>&1 || { echo "❌ Push failed"; exit 1; }
 
