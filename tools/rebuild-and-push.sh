@@ -20,9 +20,9 @@ log "Starting Record rebuild in $LANDING_REPO"
 git pull --ff-only origin main 2>/dev/null || log "Warning: git pull failed, building from current state"
 
 # Build
-log "Running build-record.js..."
-if ! node tools/build-record.js; then
-  log "ERROR: build-record.js failed"
+log "Running build-record-v1.mjs..."
+if ! node tools/build-record-v1.mjs; then
+  log "ERROR: build-record-v1.mjs failed"
   exit 1
 fi
 
