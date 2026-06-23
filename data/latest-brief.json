@@ -1,14 +1,14 @@
 {
-  "session": "wrap",
-  "date": "2026-06-22",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 22",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 23/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-23",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 23",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 66/100 · 6 movers",
   "tags": [
     {
-      "t": "LOW",
-      "c": "green"
+      "t": "MEDIUM",
+      "c": "yellow"
     },
     {
       "t": "EXPANSION",
@@ -19,7 +19,7 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 23
+        "value": 66
       }
     },
     {
@@ -31,26 +31,26 @@
           "c": "green"
         },
         {
-          "k": "RIVN",
-          "v": "-8.6%",
-          "c": "red"
-        },
-        {
-          "k": "ON",
-          "v": "+7.8%",
+          "k": "SMH",
+          "v": "+7.2%",
           "c": "green"
         },
         {
-          "k": "ARM",
-          "v": "-7.2%",
+          "k": "EWY",
+          "v": "+6.8%",
+          "c": "green"
+        },
+        {
+          "k": "RTX",
+          "v": "-5.6%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 22, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's dominant story was a sharp rotation into semiconductors and growth tech, with the sector posting outsized gains that dragged the broader equity complex higher. Defensives and industrial names were left behind, suggesting the market is pricing in a growth-friendly regime rather than hedging for uncertainty. Tomorrow's setup hinges on whether crypto momentum sustains overnight and whether the tech bid broadens or begins to consolidate.\n\n<b>CLOSING PRICES</b>\nSPY +0.5% | QQQ +2.1% | VIX +3.0% | TLT -0.3% | DXY +0.2% | OIL -2.4%\n\n<b>vs MORNING</b>\nSPY +0.9% | QQQ +0.7% | VIX +0.7% | TLT -0.9% | DXY +0.2% | OIL -0.6%\n\n<b>EVENING NEWS</b>\n▲ Trump Orders Acceleration of Quantum Readiness as Bitcoin Faces Coming Risk\n▲ SharpLink (SBET) Stock Climbs on Ethlabs Ethereum Research Initiative\n▼ Ethereum Analyst Maps Drop Toward Demand Zone As ETH Tests Supply\n▲ Malaysian Ringgit: Stays pressured against US Dollar as trades cautiously – OCBC\n▼ Mexican Peso weakens as Fed repricing lifts USD ahead of Banxico\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 23.1/100 (Low). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.2%, XBI +4.6%, XLK +3.4%, COPX -2.2%, ITA -3.0%.\nSector dispersion: 69 (EXTREME, breadth MIXED), 50% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SIN] Consumer Price Index (YoY)(May) — Jun 23 05:00 UTC (prev: 1.8%)\n[TW] Seasonally adjusted unemployment rate(May) — Jun 23 08:00 UTC (prev: 3.34%)\n[HK] Composite Consumer Price Index (YoY)(May) — Jun 23 08:30 UTC (prev: 1.7%)\n[USA] Last week's Red Book Commercial Retail Sales (YoY)(to 0608) — Jun 23 12:55 UTC (prev: 9.4%)\n[ITA] Consumer Price Index (YoY)(Final)(May) (+1 variants) — Jun 24 02:00 UTC (prev: 3.2%)\n[AUS] Seasonally adjusted unemployment rate(May) — Jun 25 01:30 UTC (prev: 4.5%)\n\n<b>CONTRARIAN</b>\n• RTX -5.6% on Iran-talks optimism may be a head-fake: defense contracts are multi-year and geopolitical risk premia rarely evaporate on diplomatic hints alone — the selloff could be an overshooting en…\n• SOXX +9.2% in a single session while Bitcoin ETFs bleed for a sixth straight week suggests the AI/semi trade is absorbing liquidity that would otherwise flow into crypto — if semiconductor momentum s…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 528,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Mon 2026-06-22 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 23, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 66.3/100 (High). Phase: EXPANSION.\nComposite Risk: 40.6/100 (MODERATE).\n\n<b>CRYPTO</b>\nBTC: $64,129 · ETH: $1,731 · SOL: $71.92\nCrypto sentiment: 23 (Extreme Fear, 7d avg 20) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.98T (YoY -2.67%) — fed $6.74T · ecb $7.10T · boj $4.15T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 263bps NORMAL\nBDRY: $11.57 (-4.4% 30d, DOWN — SOFTENING).\nOil: SUPPLY_TIGHTENING, crude 418.2M bbl, refinery 96.7%, SPR 340M.\n\n<b>KEY PRICES</b>\nSPY +0.5% | QQQ +2.1% | VIX +3.0% | TLT -0.3% | DXY flat | OIL +0.3%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ SOXX: +9.2%\n▲ SMH: +7.2%\n▲ EWY: +6.8%\n▼ RTX: -5.6%\n▲ XBI: +4.6%\n▲ XLK: +3.4%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 119.51 (R), Gold $4216 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -2.63σ\n[-] HY Credit Spread: -2.62σ\n[+] 2Y Treasury: +2.11σ\n[-] 10Y Breakeven Inflation: -2.11σ\n[-] WTI Crude Oil: -1.78σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight Asia and EU sessions are handing the US open a strong risk-on setup with growth and semiconductors firmly in the lead. Watch whether defense selling deepens into the open or stabilizes — that rotation is the tell for how committed this move is. Lean into tech and biotech momentum but stay alert to a reversal if macro headlines shift.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 529,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Mon 2026-06-22 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-22"
 }

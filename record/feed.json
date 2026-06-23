@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/23/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/23/radar/",
+      "title": "MACRO RADAR — June 23, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Mon 2026-06-22 close. Crypto data is live. MACRO RADAR — Jun 23, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 66.3/100 (High). Phase: EXPANSION. Composite Risk: 40.",
+      "summary": "Pre-market brief — tradfi data reflects Mon 2026-06-22 close. Crypto data is live. MACRO RADAR — Jun 23, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 66.3/100 (High). Phase: EXPANSION. Composite Risk: 40.",
+      "date_published": "2026-06-23T03:15:00.000Z",
+      "tags": [
+        "MEDIUM",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-22"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/22/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/22/wrap/",
       "title": "MARKET WRAP — June 22, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/10/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/10/pulse/",
-      "title": "MARKET PULSE — June 10, 2026",
-      "content_text": "MARKET PULSE — Jun 10, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $61,277, above $60K. BTC ETF flows: -$77M outflow on Jun 10 (Wed close), after -$0.9B outflow trailing 5-tr",
-      "summary": "MARKET PULSE — Jun 10, 2026 SNAPSHOT Narrative synthesis unavailable for this run; showing verified deterministic facts only. BTC at $61,277, above $60K. BTC ETF flows: -$77M outflow on Jun 10 (Wed close), after -$0.9B outflow trailing 5-tr",
-      "date_published": "2026-06-10T15:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
