@@ -60,7 +60,8 @@ Per-call cost: $0.01-$0.02 deducted from deposit balance. Credits never expire.
 ## Endpoints
 
 ### Briefs (4× daily)
-- `GET /api/briefs/latest` — most recent brief across all 4 slots (free)
+- `GET /api/briefs/latest?slot=radar|signal|pulse|wrap` — most recent brief, optionally filtered by slot (free; legacy aliases accepted)
+- `GET /api/briefs/validator-status?slot=radar|signal|pulse|wrap` — latest compiled-validator status from the AC health snapshot (free; optional slot filter)
 - `GET /api/briefs/radar` — 03:15 UTC macro radar (free)
 - `GET /api/briefs/signal` — 09:15 UTC signal scan with scenario targets (Signal tier)
 - `GET /api/briefs/pulse` — 15:15 UTC market pulse with OI + liquidations (Builder tier)
