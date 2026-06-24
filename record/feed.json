@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/24/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/24/pulse/",
+      "title": "MARKET PULSE — June 24, 2026",
+      "content_text": "MARKET PULSE — Jun 24, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,678 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $65K ETH: $1,666 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch SOL: $69.50 — 1d:BEA",
+      "summary": "MARKET PULSE — Jun 24, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,678 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $65K ETH: $1,666 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch SOL: $69.50 — 1d:BEA",
+      "date_published": "2026-06-24T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/24/signal/",
       "url": "https://agentcanary.ai/record/2026/06/24/signal/",
       "title": "SIGNAL SCAN — June 24, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-11"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/12/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/12/radar/",
-      "title": "MACRO RADAR — June 12, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Thu 2026-06-11 close. Crypto data is live. MACRO RADAR — Jun 12, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 86.2/100 (Critical). Phase: EXPANSION. Composite Risk:",
-      "summary": "Pre-market brief — tradfi data reflects Thu 2026-06-11 close. Crypto data is live. MACRO RADAR — Jun 12, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 86.2/100 (Critical). Phase: EXPANSION. Composite Risk:",
-      "date_published": "2026-06-12T03:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": "2026-06-11"
       }
