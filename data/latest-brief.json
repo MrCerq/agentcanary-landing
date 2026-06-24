@@ -1,14 +1,14 @@
 {
-  "session": "wrap",
-  "date": "2026-06-23",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 23",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 66/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-24",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 24",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 81/100 · 6 movers",
   "tags": [
     {
-      "t": "MEDIUM",
-      "c": "yellow"
+      "t": "HIGH",
+      "c": "red"
     },
     {
       "t": "EXPANSION",
@@ -19,7 +19,7 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 66
+        "value": 81
       }
     },
     {
@@ -27,13 +27,8 @@
       "rows": [
         {
           "k": "VIX",
-          "v": "+12.8%",
+          "v": "+18.8%",
           "c": "green"
-        },
-        {
-          "k": "MU",
-          "v": "-12.3%",
-          "c": "red"
         },
         {
           "k": "EWY",
@@ -41,16 +36,21 @@
           "c": "red"
         },
         {
-          "k": "ON",
-          "v": "-10.6%",
+          "k": "SLV",
+          "v": "-6.4%",
+          "c": "red"
+        },
+        {
+          "k": "SMH",
+          "v": "-5.7%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 23, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session was defined by a broad derisking move, with semiconductors and cyclicals bearing the heaviest losses while defensives and healthcare absorbed the rotation — a textbook risk-off configuration. Crypto saw net outflows from major products, reinforcing the cautious tone rather than offering an alternative bid. Heading into tomorrow, the key question is whether defensive rotation deepens into a sustained defensive regime or whether the volatility spike proves short-lived and growth finds a footing.\n\n<b>CLOSING PRICES</b>\nSPY -1.8% | QQQ -3.6% | VIX +12.8% | TLT -0.6% | DXY +0.4% | OIL -2.3%\n\n<b>vs MORNING</b>\nSPY -2.2% | QQQ -5.8% | VIX +9.8% | TLT -0.4% | DXY +0.4% | OIL -2.6%\n\n<b>EVENING NEWS</b>\n▲ Sui News: Cumberland, Fluid, and SwissBorg Join Institutional Coalition on Hashi Ahead of July Global Testnet\n▼ Ethereum Foundation Cuts 20% of Staff in Sweeping Reorganization\n▼ Swiss Franc falls vs USD, climbs against Euro in mixed trade\n▲ Chainlink joins 47 banks to enable T+0 cross-border settlements between Europe and South Korea\n▼ EU Forces Unlicensed Crypto Firms to Shut Down\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 66.3/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XBI +4.5%, XLV +1.9%, XLRE +1.8%, SMH -5.7%, COPX -7.0%.\nSector dispersion: 60 (HIGH, breadth SELECTIVE_WEAKNESS), 25% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[ITA] Consumer Price Index (YoY)(Final)(May) (+1 variants) — Jun 24 02:00 UTC (prev: 3.2%)\n[AUS] Seasonally adjusted unemployment rate(May) — Jun 25 01:30 UTC (prev: 4.5%)\n[GER] GfK Consumer Confidence Index(Jul) — Jun 25 06:00 UTC (prev: -29.8)\n[FRA] Composite Consumer Confidence Index(Jun) — Jun 25 06:45 UTC (prev: 82)\n[USA] Annum Real GDP(billions of US dollars)(Final)(Q1) — Jun 25 12:30 UTC (prev: 240660)\n[USA] GDP deflator (Final)(Q1) — Jun 25 12:30 UTC (prev: 3.5%)\n\n<b>CONTRARIAN</b>\n• EWY -12.3% looks catastrophic but may be overdone: the same day Chainlink announced T+0 cross-border settlement infrastructure between Europe and South Korea, suggesting the selloff could be mechanic…\n• The consensus is reading the Ethereum Foundation's 20% staff cut as bearish, but leaner foundations (see Bitcoin's early years) have historically preceded the most productive protocol development per…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 532,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Tue 2026-06-23 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 24, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 81.4/100 (Critical). Phase: EXPANSION.\nComposite Risk: 46.4/100 (ELEVATED).\n\n<b>CRYPTO</b>\nBTC: $62,579 · ETH: $1,663 · SOL: $69.42\nCrypto sentiment: 17 (Extreme Fear, 7d avg 19).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.87T (YoY -2.79%) — fed $6.74T · ecb $7.02T · boj $4.12T\nUS M2: $22.80T (YoY +4.72%)\nHY Credit Spreads: 265bps NORMAL\nBDRY: $11.79 (-6.8% 30d, DOWN — SOFTENING).\nOil: SUPPLY_TIGHTENING, crude 418.2M bbl, refinery 96.7%, SPR 340M.\n\n<b>KEY PRICES</b>\nSPY -1.8% | QQQ -3.6% | VIX +18.8% | TLT -0.6% | DXY +0.4% | OIL -3.4%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ VIX: +18.8%\n▼ EWY: -12.3%\n▼ COPX: -7.0%\n▼ SLV: -6.3%\n▼ SMH: -5.7%\n▼ SOXX: -5.6%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.40 (R), Gold $4187 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -2.55σ\n[+] USD Index (broad): +2.15σ\n[-] 10Y Breakeven Inflation: -2.11σ\n[-] 30Y Treasury: -1.97σ\n[-] WTI Crude Oil: -1.78σ\n\n<b>US OPEN SETUP</b>\n<i>The US open setup skews defensive: watch whether healthcare and real estate leadership is sustained or fades as liquidity returns. Semis and copper miners are under genuine pressure, not noise — fade any early bounce there without a clear catalyst reversal. Volatility elevation warrants reduced cyclical exposure heading into the session.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 533,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Tue 2026-06-23 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-23"
 }
