@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-24",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 24",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 24",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 81/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "VIX",
-          "v": "+18.8%",
+          "k": "TKMS",
+          "v": "+16.9%",
           "c": "green"
         },
         {
-          "k": "EWY",
-          "v": "-12.3%",
-          "c": "red"
+          "k": "BITF",
+          "v": "+16.4%",
+          "c": "green"
         },
         {
           "k": "SLV",
-          "v": "-6.4%",
+          "v": "-12.1%",
           "c": "red"
         },
         {
-          "k": "SMH",
-          "v": "-5.7%",
+          "k": "ONDS",
+          "v": "-9.9%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 24, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $62,678 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $65K\nETH: $1,666 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch\nSOL: $69.50 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch\nCrypto sentiment: 17 (Extreme Fear, 7d avg 19).\n\n<b>WHALE ALERTS</b>\n• 2,867 BTC ($178.2M) — transferred from #Kraken to unknown wallet\n• 1,532 BTC ($95.4M) — transferred from unknown wallet to Coinbase Institutional\n• 1,044 BTC ($65.2M) — transferred from unknown wallet to Coinbase Institutional\n\n<b>STABLECOIN WHALES</b>\n• 250M USDC ($250M) — minted at USDC Treasury\n• 136M USDC ($136M) — transferred from unknown wallet to #Aave\n• 126M USDC ($126M) — transferred from unknown wallet to Coinbase Institutional\n\n<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>\n• STABLE: 267% net APR (0.1217% rate) · Long Bybit / Short Binance · OI $6.3M · Spread +0.17%\n• H: 181% net APR (0.0827% rate) · Long Binance / Short OKX · OI $5.5M · Spread -0.35%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $85.6B\nTop OI: BTC $45.5B · ETH $23.7B · SOL $5.3B · XRP $2.6B · HYPE $2.5B\nOI shifters (4h): AKT -4.8% · ONDO -3.6% · AVAX -2.9% · RENDER -2.8% · PENDLE -2.6%\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (Tue close, 1 trading day old): -$114M outflow (IBIT -$182M, ARKB +$31M, FBTC +$23M).\nBTC options — BEARISH: max pain $72,000 (26JUN26), P/C 0.61 OI / 0.81 vol, put skew +28.6 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.1678% (14/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): ETH: $52M long / $92M short (net short $40M, +$1.5M PnL); BTC: $57M long / $86M short (net short $29M, +$1.1M PnL); HYPE: $25M long / $37M short (net short $12M, +$1.2M PnL).\nLiquidations: 24h total $150.9M; latest 4h $131 (0% long / 100% short, 0L/3S events, short-dominant).\nETH stake APY 2.37% vs T-bill 3.70% (spread -1.33, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n▼ Central Bank Hawkishness Shock [JPY, AUD, USD, TLT]\n▼ Tech Semiconductor Rout [SMH, SOXX, NVDA, AMD]\n▼ Yen Intervention Risk [JPY, USD, EWY, EWJ]\n\n<b>IMPLICATION</b>\nIntraday flow is clearly defensive — rotate attention toward healthcare and biotech as momentum holds. Semiconductors are in active distribution and not a buy-the-dip setup here. Watch whether the volatility spike sustains into the close or fades; a fade would signal opportunistic re-entry. Crypto ETF outflows add a cautionary overlay for risk assets broadly.\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 535,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 24, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a clear risk-off story: defensives attracted capital while cyclicals, industrials, and metals absorbed meaningful selling pressure, with crypto carving out an independent path that diverged from the equity tape. The metals liquidation and semiconductor weakness suggest macro concerns around growth and demand are driving the rotation rather than idiosyncratic events. Tomorrow's setup hinges on whether defensive leadership holds or fades into a broader relief bounce in beaten-down cyclicals.\n\n<b>CLOSING PRICES</b>\nSPY -1.5% | QQQ -3.7% | VIX -4.4% | TLT +1.5% | DXY +0.2% | OIL -4.5%\n\n<b>vs MORNING</b>\nSPY +0.3% | QQQ -0.1% | VIX -23.3% | TLT +2.1% | DXY -0.2% | OIL -1.1%\n\n<b>EVENING NEWS</b>\n▲ Coinbase designates Luxembourg as its MiCA home for EU users\n▼ 'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive\n▲ Banks pass Fed's stress tests; buyback, dividend boosts likely\n▼ Strategy stock falls below $100 for first time since March 2024 as Bitcoin holdings face scrutiny\n▲ Alibaba’s Qwen-AgentWorld improves agent performance across seven benchmarks\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 81.4/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLP +2.8%, XBI +2.6%, XLV +2.2%, SMH -7.5%, COPX -10.8%.\nSector dispersion: 75 (EXTREME, breadth SELECTIVE_WEAKNESS), 31% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[ITA] Harmonized Consumer Price Index (YoY)(Preliminary)(Jun) — Jun 24 22:00 UTC (prev: 3.2%)\n[AUS] Seasonally adjusted unemployment rate(May) — Jun 25 01:30 UTC (prev: 4.5%)\n[GER] GfK Consumer Confidence Index(Jul) — Jun 25 06:00 UTC (prev: -29.8)\n[FRA] Composite Consumer Confidence Index(Jun) — Jun 25 06:45 UTC (prev: 82)\n[USA] Annum Real GDP(billions of US dollars)(Final)(Q1) — Jun 25 12:30 UTC (prev: 240660)\n[USA] GDP deflator (Final)(Q1) — Jun 25 12:30 UTC (prev: 3.5%)\n\n<b>CONTRARIAN</b>\n• SLV -12.1% may be a violent flush of leveraged longs rather than a fundamental demand signal — silver's industrial and monetary dual role means a snapback could be sharp if PCE comes in soft tomorrow…\n• The consensus is that Bitcoin's 4-year cycle breakdown is confirmed and AI has replaced crypto as the dominant speculative theme — but SOXX -8.2% and SMH -7.5% today show AI-adjacent equities are als…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 536,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
