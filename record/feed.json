@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/25/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/25/wrap/",
+      "title": "MARKET WRAP — June 25, 2026",
+      "content_text": "MARKET WRAP — Jun 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a bifurcated story: equities found genuine momentum in cyclical and technology sectors while crypto endured another day of mean",
+      "summary": "MARKET WRAP — Jun 25, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a bifurcated story: equities found genuine momentum in cyclical and technology sectors while crypto endured another day of mean",
+      "date_published": "2026-06-25T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/25/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/25/pulse/",
       "title": "MARKET PULSE — June 25, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-12"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/13/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/13/signal/",
-      "title": "SIGNAL SCAN — June 13, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 13, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tenor drives commodities and semiconductors sharply higher while vo",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 13, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tenor drives commodities and semiconductors sharply higher while vo",
-      "date_published": "2026-06-13T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-12"
       }

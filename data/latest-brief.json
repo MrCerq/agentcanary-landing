@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-25",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 25",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 25",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 97/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "TKMS",
-          "v": "+16.9%",
+          "k": "MU",
+          "v": "+16.2%",
           "c": "green"
         },
         {
-          "k": "SLV",
+          "k": "AMAT",
+          "v": "+13.8%",
+          "c": "green"
+        },
+        {
+          "k": "MNT",
           "v": "-12.1%",
           "c": "red"
         },
         {
-          "k": "EWY",
-          "v": "-9.9%",
-          "c": "red"
-        },
-        {
-          "k": "SOXX",
-          "v": "-8.2%",
-          "c": "red"
+          "k": "MOH",
+          "v": "+9.9%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $60,774 — 1d:RISK_OFF · 4h:RISK_OFF · above $60K\nETH: $1,617 — 1d:RISK_OFF · 4h:RISK_OFF\nSOL: $67.56 — 1d:RISK_OFF · 4h:RISK_OFF\nCrypto sentiment: 12 (Extreme Fear, 7d avg 19) (falling).\n\n<b>STABLECOIN WHALES</b>\n• 148M USDT ($148M) — transferred from unknown wallet to #Bitfinex\n• 136M USDC ($136M) — transferred from unknown wallet to #Aave\n\n<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>\n• LAB: 1095% net APR (0.125% rate) · Long MEXC / Short Bybit · OI $6.9M · Spread -0.88%\n• SKHYNIX: 464% net APR (0.4242% rate) · Long OKX / Short Bitget · OI $23.4M · Spread -0.57%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $84.7B\nTop OI: BTC $45.9B · ETH $22.9B · SOL $5.1B · HYPE $2.5B · XRP $2.5B\nOI shifters (4h): PEPE -8.1% · AAVE +4.4% · CRV +3.8% · INJ -3.6% · RENDER -3.3%\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (Wed close, 1 trading day old): -$469M outflow (IBIT -$239M, FBTC -$121M, GBTC -$54M).\nBTC options — BEARISH: max pain $72,000 (26JUN26), P/C 0.61 OI / 1.18 vol, put skew +21.2 IV.\nPerp funding (8h, cross-exchange mean): BTC -0.0636% (9/21 positive).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $37M long / $80M short (net short $43M, +$3.5M PnL); ETH: $19M long / $69M short (net short $50M, +$2.6M PnL); HYPE: $14M long / $54M short (net short $40M, -$9.5M PnL).\nLiquidations: 24h total $397.1M; latest 4h $845 (100% long / 0% short, 1L/0S events, long-dominant).\nETH stake APY 2.28% vs T-bill 3.70% (spread -1.42, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Semiconductor Rout [SOXX, SMH, NVDA, AMD]\n▼ Commodity Collapse - Silver and Copper [SLV, COPX, GLD, FCX]\n▲ Defense Surge - TKMS Breakout [TKMS, LMT, RTX, NOC]\n\n<b>IMPLICATION</b>\nTactically, lean into the defensive rotation that is already underway — staples and healthcare are absorbing institutional flow right now. Semiconductor and copper miner exposure warrants trimming into any intraday bounce given the severity of selling. Crypto ETF outflows add a headwind to risk assets broadly; watch whether the selective DeFi bid broadens or fades into the close.\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 539,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a bifurcated story: equities found genuine momentum in cyclical and technology sectors while crypto endured another day of meaningful outflows and altcoin selling, underscoring a selective rather than broad risk appetite. The divergence between equity strength and digital asset weakness is the defining tension heading into tomorrow. Watch whether crypto stabilizes and rejoins the risk-on trade, or whether the outflow trend deepens and begins to weigh on overall sentiment.\n\n<b>CLOSING PRICES</b>\nSPY +0.1% | QQQ +0.4% | VIX +1.4% | TLT +1.3% | DXY -0.2% | OIL +1.6%\n\n<b>vs MORNING</b>\nSPY +1.6% | QQQ +4.1% | VIX +5.8% | TLT -0.2% | DXY -0.3% | OIL +6.8%\n\n<b>EVENING NEWS</b>\n▲ Kazakhstan’s stock exchange launches Solana ETF for regulated SOL exposure in Central Asia\n▲ Pau Cubarsí praises Anthony Gordon’s signing for FC Barcelona\n▲ Canadian Stocks Advance Amid Fresh Tensions In Gulf, U.S. Inflation Data Release \n▼ Bitcoin’s fall to $60K changes things, but what does the data say?\n▲ Fed's monetary stance is 'well positioned' to restore inflation to 2%, NY Fed's Williams says\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 97.3/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLI +3.4%, XBI +3.1%, SMH +2.4%, URA -3.6%, COPX -3.8%.\nSector dispersion: 72 (EXTREME, breadth SELECTIVE_STRENGTH), 56% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Tokyo Consumer Price Index(Jun) (+1 variants) — Jun 25 23:30 UTC (prev: 112.7)\n[JPN] Tokyo Core Consumer Price Index (YoY)(Jun) — Jun 25 23:30 UTC (prev: 1.3%)\n[ITA] Istat Consumer Confidence Index(Jun) — Jun 26 09:00 UTC (prev: 93.4)\n[USA] University of Michigan Consumer Confidence Index (Final)(Jun) — Jun 26 14:00 UTC (prev: 48.9)\n\n<b>CONTRARIAN</b>\n• SLV's -6.0% collapse looks like capitulation, not a trend—with stagflation signals rising and the Fed stuck, silver's dual role as an industrial and monetary metal may make this a buy-the-dip moment …\n• The market is treating Bitcoin's $60K drop as bearish confirmation, but institutional infrastructure news (Kazakhstan ETF, SBI's $289M Bitbank deal) suggests smart money is building during the correc…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 540,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
