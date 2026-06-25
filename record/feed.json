@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/25/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/25/radar/",
+      "title": "MACRO RADAR — June 25, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Wed 2026-06-24 close. Crypto data is live. MACRO RADAR — Jun 25, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 97.3/100 (Critical). Phase: EXPANSION. Composite Risk:",
+      "summary": "Pre-market brief — tradfi data reflects Wed 2026-06-24 close. Crypto data is live. MACRO RADAR — Jun 25, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 97.3/100 (Critical). Phase: EXPANSION. Composite Risk:",
+      "date_published": "2026-06-25T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-24"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/24/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/24/wrap/",
       "title": "MARKET WRAP — June 24, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/12/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/12/pulse/",
-      "title": "MARKET PULSE — June 12, 2026",
-      "content_text": "MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 — 1d:ACCUMULATION · 4h:IGNITION · below $65K SOL: $66.91 — 1d:ACCUMULATION · 4h:IGNITI",
-      "summary": "MARKET PULSE — Jun 12, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,435 — 1d:ACCUMULATION · 4h:IGNITION · below $65K ETH: $1,671 — 1d:ACCUMULATION · 4h:IGNITION · below $65K SOL: $66.91 — 1d:ACCUMULATION · 4h:IGNITI",
-      "date_published": "2026-06-12T15:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }

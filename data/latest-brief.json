@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-24",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 24",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 81/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-25",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 25",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 97/100 · 6 movers",
   "tags": [
     {
       "t": "HIGH",
@@ -19,7 +19,7 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 81
+        "value": 97
       }
     },
     {
@@ -31,26 +31,26 @@
           "c": "green"
         },
         {
-          "k": "BITF",
-          "v": "+16.4%",
-          "c": "green"
-        },
-        {
           "k": "SLV",
           "v": "-12.1%",
           "c": "red"
         },
         {
-          "k": "ONDS",
+          "k": "EWY",
           "v": "-9.9%",
+          "c": "red"
+        },
+        {
+          "k": "SOXX",
+          "v": "-8.2%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 24, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a clear risk-off story: defensives attracted capital while cyclicals, industrials, and metals absorbed meaningful selling pressure, with crypto carving out an independent path that diverged from the equity tape. The metals liquidation and semiconductor weakness suggest macro concerns around growth and demand are driving the rotation rather than idiosyncratic events. Tomorrow's setup hinges on whether defensive leadership holds or fades into a broader relief bounce in beaten-down cyclicals.\n\n<b>CLOSING PRICES</b>\nSPY -1.5% | QQQ -3.7% | VIX -4.4% | TLT +1.5% | DXY +0.2% | OIL -4.5%\n\n<b>vs MORNING</b>\nSPY +0.3% | QQQ -0.1% | VIX -23.3% | TLT +2.1% | DXY -0.2% | OIL -1.1%\n\n<b>EVENING NEWS</b>\n▲ Coinbase designates Luxembourg as its MiCA home for EU users\n▼ 'Painful' Bitcoin Sell-Off Drags Ethereum, XRP and Dogecoin Lower as Crypto Stocks Dive\n▲ Banks pass Fed's stress tests; buyback, dividend boosts likely\n▼ Strategy stock falls below $100 for first time since March 2024 as Bitcoin holdings face scrutiny\n▲ Alibaba’s Qwen-AgentWorld improves agent performance across seven benchmarks\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 81.4/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLP +2.8%, XBI +2.6%, XLV +2.2%, SMH -7.5%, COPX -10.8%.\nSector dispersion: 75 (EXTREME, breadth SELECTIVE_WEAKNESS), 31% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[ITA] Harmonized Consumer Price Index (YoY)(Preliminary)(Jun) — Jun 24 22:00 UTC (prev: 3.2%)\n[AUS] Seasonally adjusted unemployment rate(May) — Jun 25 01:30 UTC (prev: 4.5%)\n[GER] GfK Consumer Confidence Index(Jul) — Jun 25 06:00 UTC (prev: -29.8)\n[FRA] Composite Consumer Confidence Index(Jun) — Jun 25 06:45 UTC (prev: 82)\n[USA] Annum Real GDP(billions of US dollars)(Final)(Q1) — Jun 25 12:30 UTC (prev: 240660)\n[USA] GDP deflator (Final)(Q1) — Jun 25 12:30 UTC (prev: 3.5%)\n\n<b>CONTRARIAN</b>\n• SLV -12.1% may be a violent flush of leveraged longs rather than a fundamental demand signal — silver's industrial and monetary dual role means a snapback could be sharp if PCE comes in soft tomorrow…\n• The consensus is that Bitcoin's 4-year cycle breakdown is confirmed and AI has replaced crypto as the dominant speculative theme — but SOXX -8.2% and SMH -7.5% today show AI-adjacent equities are als…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 536,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Wed 2026-06-24 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 97.3/100 (Critical). Phase: EXPANSION.\nComposite Risk: 49.6/100 (ELEVATED).\n\n<b>CRYPTO</b>\nBTC: $60,707 · ETH: $1,619 · SOL: $67.61\nCrypto sentiment: 12 (Extreme Fear, 7d avg 19) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.87T (YoY -2.79%) — fed $6.74T · ecb $7.02T · boj $4.12T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 271bps NORMAL\nBDRY: $11.77 (-11.4% 30d, DOWN — WEAK_GLOBAL_TRADE).\nOil: SUPPLY_TIGHTENING, crude 418.2M bbl, refinery 96.7%, SPR 340M.\n\n<b>KEY PRICES</b>\nSPY -1.5% | QQQ -3.7% | VIX -4.4% | TLT +1.5% | DXY +0.1% | OIL -5.2%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ TKMS: +16.9%\n▼ SLV: -12.1%\n▼ COPX: -10.8%\n▼ EWY: -9.9%\n▼ SOXX: -8.2%\n▼ SMH: -7.5%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.40 (R), Gold $4115 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 2s10s Curve: -2.55σ\n[+] USD Index (broad): +2.15σ\n[+] 10Y Real Rate: +2.12σ\n[-] 10Y Breakeven Inflation: -2.10σ\n[-] Silver: -1.85σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight Asia and EU flows reinforce the defensive bid coming into the US open. Watch whether the semiconductor selloff stabilizes or continues to drag discretionary names lower. Positioning should lean toward staples and healthcare as the path of least resistance; fading the metals weakness prematurely carries risk until industrial demand signals stabilize.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 537,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Wed 2026-06-24 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-24"
 }
