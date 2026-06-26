@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 10:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 16:30:38 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 26, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/26/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/26/pulse/</guid>
+      <pubDate>Fri, 26 Jun 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — Jun 26, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $59,842 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $60K ETH: $1,554 — 1d:RISK_OFF · 4h:RISK_OFF SOL: $68.05 — 1d:ACCUMULATION · 4h:BEAR_</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 26, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/26/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/14/signal/</guid>
       <pubDate>Sun, 14 Jun 2026 09:15:00 GMT</pubDate>
       <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 14, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime firing on all cylinders with semiconductors and metals leadi</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — June 14, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/14/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/14/radar/</guid>
-      <pubDate>Sun, 14 Jun 2026 03:15:00 GMT</pubDate>
-      <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MACRO RADAR — Jun 14, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 76.3/100 (High). Phase: EXPANSION. Composite Risk: 43.3/1</description>
     </item>
   </channel>
 </rss>
