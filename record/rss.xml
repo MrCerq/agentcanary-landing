@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jun 2026 04:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 10:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 26, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/26/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/26/signal/</guid>
+      <pubDate>Fri, 26 Jun 2026 09:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Thu 2026-06-25 close. Crypto data is live. SIGNAL SCAN — Jun 26, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Industrials and biotech lead a broad risk-on session while metals and ur</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 26, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/26/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/14/radar/</guid>
       <pubDate>Sun, 14 Jun 2026 03:15:00 GMT</pubDate>
       <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MACRO RADAR — Jun 14, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 76.3/100 (High). Phase: EXPANSION. Composite Risk: 43.3/1</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — June 13, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/13/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/13/wrap/</guid>
-      <pubDate>Sat, 13 Jun 2026 21:15:00 GMT</pubDate>
-      <description>Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET WRAP — Jun 13, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today delivered a textbook risk-on rotation as defensive positioning</description>
     </item>
   </channel>
 </rss>
