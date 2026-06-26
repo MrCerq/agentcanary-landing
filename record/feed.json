@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/26/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/26/wrap/",
+      "title": "MARKET WRAP — June 26, 2026",
+      "content_text": "MARKET WRAP — Jun 26, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a story of fragmented conviction: defensive healthcare dominated while growth-oriented tech and energy-adjacent sectors faced s",
+      "summary": "MARKET WRAP — Jun 26, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a story of fragmented conviction: defensive healthcare dominated while growth-oriented tech and energy-adjacent sectors faced s",
+      "date_published": "2026-06-26T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/26/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/26/pulse/",
       "title": "MARKET PULSE — June 26, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-12"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/14/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/14/signal/",
-      "title": "SIGNAL SCAN — June 14, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 14, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime firing on all cylinders with semiconductors and metals leadi",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 14, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on regime firing on all cylinders with semiconductors and metals leadi",
-      "date_published": "2026-06-14T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-12"
       }
