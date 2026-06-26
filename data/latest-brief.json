@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-06-25",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 25",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 97/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-06-26",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 26",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
       "t": "HIGH",
@@ -19,38 +19,38 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 97
+        "value": 100
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "MU",
-          "v": "+16.2%",
+          "k": "MOH",
+          "v": "+9.9%",
           "c": "green"
         },
         {
-          "k": "AMAT",
-          "v": "+13.8%",
+          "k": "EWY",
+          "v": "+6.7%",
           "c": "green"
         },
         {
-          "k": "MNT",
-          "v": "-12.1%",
+          "k": "SLV",
+          "v": "-6.0%",
           "c": "red"
         },
         {
-          "k": "MOH",
-          "v": "+9.9%",
+          "k": "TKMS",
+          "v": "+5.2%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 25, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a bifurcated story: equities found genuine momentum in cyclical and technology sectors while crypto endured another day of meaningful outflows and altcoin selling, underscoring a selective rather than broad risk appetite. The divergence between equity strength and digital asset weakness is the defining tension heading into tomorrow. Watch whether crypto stabilizes and rejoins the risk-on trade, or whether the outflow trend deepens and begins to weigh on overall sentiment.\n\n<b>CLOSING PRICES</b>\nSPY +0.1% | QQQ +0.4% | VIX +1.4% | TLT +1.3% | DXY -0.2% | OIL +1.6%\n\n<b>vs MORNING</b>\nSPY +1.6% | QQQ +4.1% | VIX +5.8% | TLT -0.2% | DXY -0.3% | OIL +6.8%\n\n<b>EVENING NEWS</b>\n▲ Kazakhstan’s stock exchange launches Solana ETF for regulated SOL exposure in Central Asia\n▲ Pau Cubarsí praises Anthony Gordon’s signing for FC Barcelona\n▲ Canadian Stocks Advance Amid Fresh Tensions In Gulf, U.S. Inflation Data Release \n▼ Bitcoin’s fall to $60K changes things, but what does the data say?\n▲ Fed's monetary stance is 'well positioned' to restore inflation to 2%, NY Fed's Williams says\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 97.3/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLI +3.4%, XBI +3.1%, SMH +2.4%, URA -3.6%, COPX -3.8%.\nSector dispersion: 72 (EXTREME, breadth SELECTIVE_STRENGTH), 56% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Tokyo Consumer Price Index(Jun) (+1 variants) — Jun 25 23:30 UTC (prev: 112.7)\n[JPN] Tokyo Core Consumer Price Index (YoY)(Jun) — Jun 25 23:30 UTC (prev: 1.3%)\n[ITA] Istat Consumer Confidence Index(Jun) — Jun 26 09:00 UTC (prev: 93.4)\n[USA] University of Michigan Consumer Confidence Index (Final)(Jun) — Jun 26 14:00 UTC (prev: 48.9)\n\n<b>CONTRARIAN</b>\n• SLV's -6.0% collapse looks like capitulation, not a trend—with stagflation signals rising and the Fed stuck, silver's dual role as an industrial and monetary metal may make this a buy-the-dip moment …\n• The market is treating Bitcoin's $60K drop as bearish confirmation, but institutional infrastructure news (Kazakhstan ETF, SBI's $289M Bitbank deal) suggests smart money is building during the correc…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 540,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Thu 2026-06-25 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 26, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nComposite Risk: 50.8/100 (ELEVATED).\n\n<b>CRYPTO</b>\nBTC: $58,497 · ETH: $1,524 · SOL: $66.09\nCrypto sentiment: 13 (Extreme Fear, 7d avg 19) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.87T (YoY -2.79%) — fed $6.74T · ecb $7.02T · boj $4.12T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 271bps NORMAL (composite: CAUTION)\nBDRY: $11.36 (-14.8% 30d, DOWN — WEAK_GLOBAL_TRADE).\nOil: SUPPLY_GLUT, crude 412.1M bbl, refinery 96.1%, SPR 331M.\n\n<b>KEY PRICES</b>\nSPY +0.1% | QQQ +0.4% | VIX +1.4% | TLT +1.3% | DXY -0.1% | OIL +0.8%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ MOH: +9.9%\n▲ EWY: +6.7%\n▼ SLV: -6.0%\n▲ TKMS: +5.2%\n▼ COPX: -3.8%\n▼ URA: -3.6%\n\n<b>HEGEMONY SNAPBACK</b>\n2/6 — WATCH\nUSD Index 120.40 (R), Gold $3988 (R)\n\n<b>NOTABLE Z-SCORES</b>\n[-] Silver: -2.37σ\n[-] 10Y Breakeven Inflation: -2.18σ\n[+] USD Index (broad): +2.15σ\n[-] Gold: -2.12σ\n[+] 10Y Real Rate: +1.95σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight flows favor watching whether industrial and semiconductor strength holds into the US open or fades after the gap. Metals and uranium weakness signals commodity-sensitive positioning is unwinding, so avoid chasing those. Crypto ETF outflows running multi-day suggest digital assets remain a headwind rather than a tailwind for broader risk sentiment at the open.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 541,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Thu 2026-06-25 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-25"
 }
