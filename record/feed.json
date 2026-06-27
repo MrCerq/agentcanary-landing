@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/27/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/27/wrap/",
+      "title": "MARKET WRAP — June 27, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. MARKET WRAP — Jun 27, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a clear defensive rotation story — healthcare l",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. MARKET WRAP — Jun 27, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's session told a clear defensive rotation story — healthcare l",
+      "date_published": "2026-06-27T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-26"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/27/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/27/pulse/",
       "title": "MARKET PULSE — June 27, 2026",
@@ -839,23 +856,6 @@
         "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/15/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/15/signal/",
-      "title": "SIGNAL SCAN — June 15, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 15, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets embrace risk-on as tech and industrials lead the charge while vo",
-      "summary": "Pre-market brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. SIGNAL SCAN — Jun 15, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Markets embrace risk-on as tech and industrials lead the charge while vo",
-      "date_published": "2026-06-15T09:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-12"
       }
     }
   ]
