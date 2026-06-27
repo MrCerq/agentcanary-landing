@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/27/signal/",
+      "url": "https://agentcanary.ai/record/2026/06/27/signal/",
+      "title": "SIGNAL SCAN — June 27, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. SIGNAL SCAN — Jun 27, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensives are leading today with healthcare surging, while semiconductors",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. SIGNAL SCAN — Jun 27, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensives are leading today with healthcare surging, while semiconductors",
+      "date_published": "2026-06-27T09:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "signal",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-26"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/27/radar/",
       "url": "https://agentcanary.ai/record/2026/06/27/radar/",
       "title": "MACRO RADAR — June 27, 2026",
@@ -838,23 +855,6 @@
       "_agentcanary": {
         "slot": "radar",
         "isWeekend": false,
-        "tradFiAsOf": "2026-06-12"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/14/wrap/",
-      "url": "https://agentcanary.ai/record/2026/06/14/wrap/",
-      "title": "MARKET WRAP — June 14, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET WRAP — Jun 14, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Industrial metals and semiconductor momentum defined today's session",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-12 close. Crypto data is live. MARKET WRAP — Jun 14, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Industrial metals and semiconductor momentum defined today's session",
-      "date_published": "2026-06-14T21:15:00.000Z",
-      "tags": [
-        "HIGH",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "wrap",
-        "isWeekend": true,
         "tradFiAsOf": "2026-06-12"
       }
     }
