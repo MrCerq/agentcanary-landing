@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-27",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 27",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-06-28",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 28",
+  "headlineColor": "#FB923C",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -36,20 +36,20 @@
           "c": "red"
         },
         {
-          "k": "FET",
-          "v": "+4.8%",
-          "c": "green"
+          "k": "INJ",
+          "v": "-5.5%",
+          "c": "red"
         },
         {
-          "k": "AVAX",
-          "v": "+4.7%",
-          "c": "green"
+          "k": "DOT",
+          "v": "-5.4%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live.</i>\n\n<b>MARKET WRAP</b> — Jun 27, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a clear defensive rotation story — healthcare led decisively while technology and speculative sectors lagged, pointing to a market repricing risk appetite rather than embracing it. Crypto ETF outflows throughout the week reinforce that institutional conviction remains thin even as altcoins posted gains. Tomorrow, watch whether defensive leadership holds or reverts, as that distinction will define whether today was a one-day flush or the start of a broader regime shift.\n\n<b>CLOSING PRICES</b>\nSPY -0.6% | QQQ -0.6% | VIX -2.5% | TLT flat | DXY -0.1% | OIL -2.3%\n\n<b>vs MORNING</b>\nSPY -0.1% | QQQ -0.8% | TLT flat\n\n<b>EVENING NEWS</b>\n▼ Strategy’s Bitcoin gamble turns sour: $14B loss raises fears of a deeper BTC fall\n▼ Bitcoin’s Apparent Demand Turns Negative for 208 Days as Selling Pressure Builds\n▼ Will Bitcoin (BTC) Return to $60,000? XRP's Risks of Losing $1, Shiba Inu's (SHIB) Bearish Pressure Is Weakening: Crypto Market Review\n▼ Why Harmony Gold Mining Stock Plummeted by Almost 12% This Week\n▼ Bitcoin demand has stayed negative for months—Here’s what it means for BTC\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↓↓ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLV +4.6%, XBI +3.8%, XLRE +1.6%, SMH -1.2%, URA -2.5%.\nSector dispersion: 74 (EXTREME, breadth MIXED), 44% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Retail Sales (billion yen)(May) (+1 variants) — Jun 28 23:50 UTC (prev: 13217)\n[JPN] Seasonally adjusted retail sales (MoM)(May) — Jun 28 23:50 UTC (prev: 1.3%)\n[FRA] Consumer Price Index (YoY)(Preliminary)(Apr) (+3 variants) — Jun 29 07:45 UTC (prev: 1.7%)\n[GER] Seasonally adjusted unemployment rate (official)(May) (+1 variants) — Jun 29 07:55 UTC (prev: 6.4%)\n[EU] Consumer confidence index (Final)(Jun) — Jun 29 09:00 UTC (prev: -17.7)\n[EU] Core Consumer Price Index (YoY)(Preliminary)(Apr) (+1 variants) — Jun 29 09:00 UTC (prev: 2.2%)\n\n<b>CONTRARIAN</b>\n• MOH's 14.1% single-day surge looks like a squeeze or binary event rather than a durable sector re-rating — consensus chasing XLV/XBI into a one-day pop risks buying the top of a defensive rotation th…\n• The near-universal bearish consensus on BTC at $58K ignores that 208 days of negative demand with Strategy still holding ~$14B in BTC means forced liquidation hasn't actually occurred yet — a short s…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 546,
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 28, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nComposite Risk: 49.5/100 (ELEVATED).\n\n<b>CRYPTO</b>\nBTC: $60,084 · ETH: $1,571 · SOL: $70.67\nCrypto sentiment: 18 (Extreme Fear, 7d avg 17).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.87T (YoY -2.70%) — fed $6.74T · ecb $7.02T · boj $4.12T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 278bps NORMAL\nBDRY: $11.40 (-12.0% 30d, DOWN — WEAK_GLOBAL_TRADE).\nOil: SUPPLY_GLUT, crude 412.1M bbl, refinery 96.1%, SPR 331M.\n\n<b>KEY PRICES</b>\nSPY -0.6% | QQQ -0.6% | VIX -2.5% | TLT flat | DXY -0.1% | OIL -3.7%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ MOH: +14.1%\n▼ TKMS: -12.4%\n▲ XLV: +4.6%\n▲ XBI: +3.8%\n▼ WTI: -3.7%\n▼ BRENT: -3.5%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.40 (R), Gold $4074 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 30Y Treasury: -2.16σ\n[+] USD Index (broad): +2.15σ\n[-] WTI Crude Oil: -1.84σ\n[-] 10Y Treasury: -1.82σ\n[-] Silver: -1.51σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight the setup favors cautious positioning — healthcare and biotech strength overnight signals genuine defensive demand, not a one-session fluke. Watch whether semiconductor weakness deepens at the US open or stabilizes; a continued lag there alongside defensive leadership would confirm the rotation has legs heading into next week.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
   "isWeekend": true,
   "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live.",
   "tradFiAsOf": "2026-06-26"
