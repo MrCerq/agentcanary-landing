@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/28/wrap/",
+      "url": "https://agentcanary.ai/record/2026/06/28/wrap/",
+      "title": "MARKET WRAP — June 28, 2026",
+      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. MARKET WRAP — Jun 28, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's tape was defined by a clean rotation into defensives, with h",
+      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. MARKET WRAP — Jun 28, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's tape was defined by a clean rotation into defensives, with h",
+      "date_published": "2026-06-28T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": true,
+        "tradFiAsOf": "2026-06-26"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/28/pulse/",
       "url": "https://agentcanary.ai/record/2026/06/28/pulse/",
       "title": "MARKET PULSE — June 28, 2026",
@@ -839,23 +856,6 @@
         "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/16/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/16/signal/",
-      "title": "SIGNAL SCAN — June 16, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Mon 2026-06-15 close. Crypto data is live. SIGNAL SCAN — Jun 16, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tone dominates with cyclicals and semiconductors leading sharply",
-      "summary": "Pre-market brief — tradfi data reflects Mon 2026-06-15 close. Crypto data is live. SIGNAL SCAN — Jun 16, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Risk-on tone dominates with cyclicals and semiconductors leading sharply",
-      "date_published": "2026-06-16T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-15"
       }
     }
   ]
