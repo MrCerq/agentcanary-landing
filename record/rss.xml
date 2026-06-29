@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2026 04:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 10:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — June 29, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/29/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/29/signal/</guid>
+      <pubDate>Mon, 29 Jun 2026 09:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. SIGNAL SCAN — Jun 29, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Defensives are clearly leading today&apos;s session, with healthcare and biot</description>
+    </item>
     <item>
       <title>MACRO RADAR — June 29, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/29/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/radar/</guid>
       <pubDate>Wed, 17 Jun 2026 03:15:00 GMT</pubDate>
       <description>Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. MACRO RADAR — Jun 17, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 25.5/100 (Low). Phase: EXPANSION. Composite Risk: 30.8</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — June 16, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/16/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/16/wrap/</guid>
-      <pubDate>Tue, 16 Jun 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — Jun 16, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s tape was defined by a clear rotation out of semiconductor and energy names and into hard assets, defense, and select decentralized finance t</description>
     </item>
   </channel>
 </rss>
