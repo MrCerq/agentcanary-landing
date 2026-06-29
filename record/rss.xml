@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2026 10:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 16:30:33 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET PULSE — June 29, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/29/pulse/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/29/pulse/</guid>
+      <pubDate>Mon, 29 Jun 2026 15:15:00 GMT</pubDate>
+      <description>MARKET PULSE — Jun 29, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $59,907 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $60K ETH: $1,581 — 1d:ACCUMULATION · 4h:ACCUMULATION SOL: $72.59 — 1d:ACCUMULATION ·</description>
+    </item>
     <item>
       <title>SIGNAL SCAN — June 29, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/29/signal/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/signal/</guid>
       <pubDate>Wed, 17 Jun 2026 09:15:00 GMT</pubDate>
       <description>Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. SIGNAL SCAN — Jun 17, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A rotational session with hard assets and nuclear leading while energy d</description>
-    </item>
-    <item>
-      <title>MACRO RADAR — June 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/17/radar/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/radar/</guid>
-      <pubDate>Wed, 17 Jun 2026 03:15:00 GMT</pubDate>
-      <description>Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. MACRO RADAR — Jun 17, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 25.5/100 (Low). Phase: EXPANSION. Composite Risk: 30.8</description>
     </item>
   </channel>
 </rss>

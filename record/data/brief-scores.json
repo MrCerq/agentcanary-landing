@@ -13,7 +13,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
+      "pulse": {
+        "status": "partial",
+        "summary": "1 hit, 2 partial of 3",
+        "details": {
+          "hits": 1,
+          "partials": 2,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 59496.48046875,
+              "close": 59491.171875,
+              "pctChange": -0.01,
+              "result": "partial"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "flat",
+              "open": 1569.6737060546875,
+              "close": 1571.9300537109375,
+              "pctChange": 0.14,
+              "result": "partial"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "ACCUMULATION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 71.30526733398438,
+              "close": 72.83000183105469,
+              "pctChange": 2.14,
+              "result": "hit"
+            }
+          ]
+        }
+      },
       "wrap": null
     },
     "2026-06-28": {
@@ -9280,5 +9321,5 @@
       }
     }
   },
-  "lastScored": "2026-06-29T10:30:04.130Z"
+  "lastScored": "2026-06-29T16:30:06.617Z"
 }
