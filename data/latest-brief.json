@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-29",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 29",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 29",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "MOH",
-          "v": "+14.1%",
+          "k": "ALAB",
+          "v": "+15.5%",
           "c": "green"
         },
         {
-          "k": "TKMS",
-          "v": "-12.4%",
-          "c": "red"
-        },
-        {
-          "k": "XLV",
-          "v": "+4.6%",
+          "k": "KLAC",
+          "v": "+11.9%",
           "c": "green"
         },
         {
-          "k": "FET",
-          "v": "+3.9%",
+          "k": "AMAT",
+          "v": "+10.6%",
+          "c": "green"
+        },
+        {
+          "k": "AXON",
+          "v": "+9.6%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 29, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $59,907 — 1d:ACCUMULATION · 4h:BEAR_REGIME · → trend-fade · below $60K\nETH: $1,581 — 1d:ACCUMULATION · 4h:ACCUMULATION\nSOL: $72.59 — 1d:ACCUMULATION · 4h:IGNITION\nCrypto sentiment: 12 (Extreme Fear, 7d avg 16) (falling).\n\n<b>WHALE ALERTS</b>\n• 1,517 BTC ($90.4M) — transferred from #Kraken to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 190M USDC ($190M) — transferred from unknown wallet to #Aave\n\n<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>\n• VELVET: 614% net APR (0.2803% rate) · Long MEXC / Short Binance · OI $20.1M · Spread -0.02%\n• SKHYNIX: 422% net APR (0.3853% rate) · Long Bybit / Short OKX · OI $5.0M · Spread +0.09%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $82.6B\nTop OI: BTC $44.5B · ETH $22.3B · SOL $5.2B · HYPE $2.5B · XRP $2.4B\nOI shifters (4h): LDO +18.2% · ARB +16.1% · RENDER +15.6% · FIL +9.2% · ATOM +7.8%\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (Fri close, 1 trading day old): -$445M outflow (IBIT -$445M).\nBTC options — BEARISH: max pain $60,000 (29JUN26), P/C 0.58 OI / 1.2 vol, put skew +24.6 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.4699% (18/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $84M long / $83M short (flat, -$2.4M PnL); HYPE: $26M long / $45M short (net short $19M, -$4.5M PnL); ETH: $38M long / $32M short (net long $6M, +$1.1M PnL).\nLiquidations: 24h total $69.8M; latest 4h $24 (0% long / 100% short, 0L/1S events, short-dominant).\nETH stake APY 2.24% vs T-bill 3.69% (spread -1.45, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Goldilocks · ↓↓ Stagflation · ↑ Displacement\n\n<b>INTEL</b>\n▼ Crypto Bear Market Deepens [BTC, ETH, MATIC, STX]\n▲ US-Iran Ceasefire & Commodity Relief [GC, HG, USO, DXY]\n▼ Fed Hawkishness & Rate Stasis [DXY, TLT, GC, HG]\n\n<b>IMPLICATION</b>\nIntraday flow is clearly defensive-led — healthcare and biotech are where institutional money is moving now. Tech and semiconductors are under selling pressure, making momentum chasing in growth names a fade candidate at current levels. Watch whether the real estate bid holds into the close as a secondary read on rate expectations. Crypto outflows remain a headwind; do not misread the small-cap crypto bounce as a trend shift.\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 551,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 29, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a clear story: growth and defensive-growth sectors commanded the bid while cyclicals and materials sold off, pointing to an uneven risk appetite rather than a clean expansion trade. Semiconductor equipment emerged as the standout leadership cluster, yet crypto outflows introduced a note of caution on the durability of the broader rally. Heading into tomorrow, watch whether cyclical weakness broadens into a macro concern or whether today's sector rotation proves to be a one-session repositioning event.\n\n<b>CLOSING PRICES</b>\nSPY +0.9% | QQQ +1.1% | VIX -4.1% | TLT +0.1% | DXY -0.2% | OIL +1.8%\n\n<b>vs MORNING</b>\nSPY +1.5% | QQQ +1.7% | VIX -1.6% | TLT +0.1% | DXY -0.2% | OIL +0.9%\n\n<b>EVENING NEWS</b>\n▲ Como secures agreement for Nico Paz to stay next season in complex Real Madrid deal\n▲ BofA to Pay SEC $7.5 Million Over Reporting Lapse Allegations\n▲ Six Takeaways From the Supreme Court’s Fed Independence Ruling\n▼ Euro: Political and growth risks point lower against US Dollar – HSBC\n▲ OranjeBTC buys 74 Bitcoin, increasing total to 3,896 BTC worth $231 million\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XBI +4.4%, XLY +3.3%, XLV +3.3%, COPX -1.0%, XLB -2.3%.\nSector dispersion: 79 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Unemployment Rate(May) — Jun 29 23:30 UTC (prev: 2.5%)\n[UK] GDP(Q)(Final)(Q1) (+1 variants) — Jun 30 06:00 UTC (prev: 0.6%)\n[FRA] Consumer Price Index (MoM)(Preliminary)(Jun) (+2 variants) — Jun 30 06:45 UTC (prev: 0.1%)\n[FRA] Producer Price Index (MoM)(May) (+1 variants) — Jun 30 06:45 UTC (prev: -2.1%)\n[GER] Seasonally adjusted unemployment rate (official)(Jun) — Jun 30 07:55 UTC (prev: 6.3%)\n[ITA] Producer Price Index (MoM)(May) (+1 variants) — Jun 30 08:00 UTC (prev: 8.8%)\n\n<b>CONTRARIAN</b>\n• TKMS -9.3% looks like capitulation but may actually be the start of a broader European defense derating: consensus remains structurally overweight the sector assuming sustained NATO spend, but politi…\n• MOH +6.2% is being read as policy clarity and sector health, but Medicaid managed care names face significant rate reset risk in 2026-2027 as states renegotiate capitation rates post-pandemic inflati…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 552,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null

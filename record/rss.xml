@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jun 2026 19:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 22:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — June 29, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/29/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/29/wrap/</guid>
+      <pubDate>Mon, 29 Jun 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — Jun 29, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session told a clear story: growth and defensive-growth sectors commanded the bid while cyclicals and materials sold off, pointing to an une</description>
+    </item>
     <item>
       <title>MARKET PULSE — June 29, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/29/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/pulse/</guid>
       <pubDate>Wed, 17 Jun 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — Jun 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,750 — 1d:IGNITION · 4h:ACCUMULATION · above $65K ETH: $1,791 — 1d:IGNITION · 4h:IGNITION SOL: $73.58 — 1d:IGNITION · 4h:ACCUMULATION Crypto sentime</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — June 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/17/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/signal/</guid>
-      <pubDate>Wed, 17 Jun 2026 09:15:00 GMT</pubDate>
-      <description>Pre-market brief — tradfi data reflects Tue 2026-06-16 close. Crypto data is live. SIGNAL SCAN — Jun 17, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A rotational session with hard assets and nuclear leading while energy d</description>
     </item>
   </channel>
 </rss>
