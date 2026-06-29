@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/29/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/29/radar/",
+      "title": "MACRO RADAR — June 29, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. MACRO RADAR — Jun 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk",
+      "summary": "Pre-market brief — tradfi data reflects Fri 2026-06-26 close. Crypto data is live. MACRO RADAR — Jun 29, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk",
+      "date_published": "2026-06-29T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-26"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/28/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/28/wrap/",
       "title": "MARKET WRAP — June 28, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/16/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/16/pulse/",
-      "title": "MARKET PULSE — June 16, 2026",
-      "content_text": "MARKET PULSE — Jun 16, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $66,107 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · above $65K ETH: $1,778 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade SOL: $73.66 — 1d:B",
-      "summary": "MARKET PULSE — Jun 16, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $66,107 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · above $65K ETH: $1,778 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade SOL: $73.66 — 1d:B",
-      "date_published": "2026-06-16T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
