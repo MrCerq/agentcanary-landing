@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-06-30",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jun 30",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jun 30",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,30 +26,30 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "TKMS",
-          "v": "-9.3%",
+          "k": "CRCL",
+          "v": "-17.6%",
           "c": "red"
         },
         {
-          "k": "MOH",
-          "v": "+6.2%",
+          "k": "AXON",
+          "v": "+10.0%",
           "c": "green"
         },
         {
-          "k": "XBI",
-          "v": "+4.4%",
+          "k": "BE",
+          "v": "+9.4%",
           "c": "green"
         },
         {
-          "k": "VIX",
-          "v": "-4.1%",
-          "c": "red"
+          "k": "KLAC",
+          "v": "+8.8%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jun 30, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $59,533 — 1d:RISK_OFF · 4h:DISTRIBUTION · below $60K\nETH: $1,585 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade\nSOL: $74.12 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade\nCrypto sentiment: 15 (Extreme Fear, 7d avg 15).\n\n<b>WHALE ALERTS</b>\n• 1,709 BTC ($103.2M) — transferred from unknown wallet to Coinbase Institutional\n• 1,595 BTC ($95.3M) — transferred from Coinbase Institutional to unknown wallet\n• 1,167 BTC ($70.6M) — transferred from #Kraken to unknown wallet\n\n<b>STABLECOIN WHALES</b>\n• 300M USDC ($300M) — transferred from USDC Treasury to unknown wallet\n• 250M USDC ($250M) — minted at USDC Treasury\n• 234M USDC ($234M) — burned at USDC Treasury\n\n<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>\n• VELVET: 658% net APR (0.3006% rate) · Long MEXC / Short Bybit · OI $10.4M · Spread +0.02%\n• US: 185% net APR (0.0844% rate) · Long Binance / Short Bitget · OI $5.0M · Spread -0.52%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 42 perps): $82.4B\nTop OI: BTC $44.1B · ETH $22.1B · SOL $5.5B · HYPE $2.7B · XRP $2.3B\nOI shifters (4h): RENDER -14.0% · XLM +10.9% · LDO -10.2% · ARB -9.8% · FIL -8.9%\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (Mon close, 1 trading day old): -$231M outflow (IBIT -$300M, ARKB +$50M, GBTC +$35M).\nBTC options — BEARISH: max pain $61,000 (3JUL26), P/C 0.58 OI / 0.81 vol, put skew +42.4 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.3103% (16/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $92M long / $82M short (net long $10M, -$1.7M PnL); HYPE: $30M long / $43M short (net short $13M, -$5.7M PnL); ETH: $28M long / $31M short (flat, +$1.9M PnL).\nLiquidations: 24h total $71.4M; latest 4h $2.8M (0.8% long / 99.2% short, 6L/363S events, short-dominant).\nETH stake APY 2.26% vs T-bill 3.67% (spread -1.41, TBILL_FAVORED).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↓↓ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Central Bank Divergence & Dollar Strength [DXY, EUR/USD, GBP/USD, USD/JPY]\n◆ Iran War Fallout & Geopolitical Recalibration [TKMS, OIL, NZD/USD, MAERSK]\n▲ Crypto Treasury Accumulation & Institutional Expansion [ETH, BTC, LINK, MSTR]\n\n<b>IMPLICATION</b>\nThe intraday setup favors adding to healthcare and consumer discretionary on dips while fading any bounce in materials and copper-linked names. Volatility compression opens room for short-dated upside plays in biotech. Watch whether crypto ETF outflow pressure extends into the close — if it does, avoid chasing DeFi names into the bell.\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 555,
+  "telegramText": "<b>MARKET WRAP</b> — Jun 30, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a clear story: growth and technology dominated, while defensives and rate-sensitive sectors were aggressively sold as the market leaned into an optimistic macro rerating. The notable subplot is crypto's failure to participate — digital assets diverged from equities, a signal worth monitoring. Tomorrow's setup hinges on whether that divergence closes or widens, and whether hawkish Fed commentary begins to slow the momentum in rate-sensitive growth names.\n\n<b>CLOSING PRICES</b>\nSPY +2.4% | QQQ +4.2% | VIX -6.8% | TLT -1.1% | DXY flat | OIL -1.0%\n\n<b>vs MORNING</b>\nSPY +1.5% | QQQ +3.2% | VIX -2.7% | TLT -1.2% | DXY -0.1% | OIL -0.6%\n\n<b>EVENING NEWS</b>\n▲ Cardone Capital Tops 2,700 BTC as Bitcoin Holds Near $59K\n▼ Top 5 Altcoins for July 2026 as Bitcoin Drops 20%\n▲ Strategy Plan Sparks Debate as MSTR and STRC Stocks Jump\n▼ Consumer Spending Is Slowing and SpaceX Is Burning Billions. Is Now Really the Right Time to Buy SPCX?\n▲ Chainlink gains 8,000 new holders – Can LINK break its downtrend?\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.2%, XLK +5.2%, XLY +2.5%, XLP -1.9%, XLRE -2.7%.\nSector dispersion: 70 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SWI] GDP (QoQ)(Q1) — Jul 1 01:00 UTC (prev: 0.1%)\n[JPN] Cabinet Office Consumer Confidence Index (month)(Jun) — Jul 1 05:00 UTC (prev: 33.6)\n[SWI] Actual Retail Sales (YoY)(May) (+1 variants) — Jul 1 06:30 UTC (prev: 1.6%)\n[EU] Consumer Price Index (MoM)(Preliminary)(Jun) (+1 variants) — Jul 1 09:00 UTC (prev: 0.1%)\n[EU] Core Consumer Price Index (YoY)(Preliminary)(Jun) — Jul 1 09:00 UTC (prev: 2.3%)\n[SK] Consumer Price Index (MoM)(Jun) (+1 variants) — Jul 1 23:00 UTC (prev: 0.5%)\n\n<b>CONTRARIAN</b>\n• SOXX +8.6% in a single session while macro fear is elevated looks like a short-squeeze or ETF rebalancing artifact rather than a genuine AI demand signal — chasing semis here at these move magnitudes…\n• The consensus is treating Bitcoin's drop to $59K as the start of a path to $40K, but Cardone Capital topping 2,700 BTC and Sharplink buying 10K ETH amid peak pessimism mirrors prior cycle bottoming b…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 556,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
