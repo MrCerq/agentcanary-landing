@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/30/pulse/",
+      "url": "https://agentcanary.ai/record/2026/06/30/pulse/",
+      "title": "MARKET PULSE — June 30, 2026",
+      "content_text": "MARKET PULSE — Jun 30, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $59,533 — 1d:RISK_OFF · 4h:DISTRIBUTION · below $60K ETH: $1,585 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade SOL: $74.12 — 1d:BULL_REGIME · 4h:D",
+      "summary": "MARKET PULSE — Jun 30, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $59,533 — 1d:RISK_OFF · 4h:DISTRIBUTION · below $60K ETH: $1,585 — 1d:ACCUMULATION · 4h:DISTRIBUTION · → trend-fade SOL: $74.12 — 1d:BULL_REGIME · 4h:D",
+      "date_published": "2026-06-30T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/30/signal/",
       "url": "https://agentcanary.ai/record/2026/06/30/signal/",
       "title": "SIGNAL SCAN — June 30, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-17"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/18/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/18/radar/",
-      "title": "MACRO RADAR — June 18, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. MACRO RADAR — Jun 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.1/100 (Low). Phase: EXPANSION. Composite Risk: 35.4",
-      "summary": "Pre-market brief — tradfi data reflects Wed 2026-06-17 close. Crypto data is live. MACRO RADAR — Jun 18, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 33.1/100 (Low). Phase: EXPANSION. Composite Risk: 35.4",
-      "date_published": "2026-06-18T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": "2026-06-17"
       }
