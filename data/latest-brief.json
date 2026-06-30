@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-29",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 29",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-06-30",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jun 30",
+  "headlineColor": "#FB923C",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,31 +26,31 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "ALAB",
-          "v": "+15.5%",
+          "k": "TKMS",
+          "v": "-9.3%",
+          "c": "red"
+        },
+        {
+          "k": "MOH",
+          "v": "+6.2%",
           "c": "green"
         },
         {
-          "k": "KLAC",
-          "v": "+11.9%",
+          "k": "XBI",
+          "v": "+4.4%",
           "c": "green"
         },
         {
-          "k": "AMAT",
-          "v": "+10.6%",
-          "c": "green"
-        },
-        {
-          "k": "AXON",
-          "v": "+9.6%",
-          "c": "green"
+          "k": "VIX",
+          "v": "-4.1%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 29, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a clear story: growth and defensive-growth sectors commanded the bid while cyclicals and materials sold off, pointing to an uneven risk appetite rather than a clean expansion trade. Semiconductor equipment emerged as the standout leadership cluster, yet crypto outflows introduced a note of caution on the durability of the broader rally. Heading into tomorrow, watch whether cyclical weakness broadens into a macro concern or whether today's sector rotation proves to be a one-session repositioning event.\n\n<b>CLOSING PRICES</b>\nSPY +0.9% | QQQ +1.1% | VIX -4.1% | TLT +0.1% | DXY -0.2% | OIL +1.8%\n\n<b>vs MORNING</b>\nSPY +1.5% | QQQ +1.7% | VIX -1.6% | TLT +0.1% | DXY -0.2% | OIL +0.9%\n\n<b>EVENING NEWS</b>\n▲ Como secures agreement for Nico Paz to stay next season in complex Real Madrid deal\n▲ BofA to Pay SEC $7.5 Million Over Reporting Lapse Allegations\n▲ Six Takeaways From the Supreme Court’s Fed Independence Ruling\n▼ Euro: Political and growth risks point lower against US Dollar – HSBC\n▲ OranjeBTC buys 74 Bitcoin, increasing total to 3,896 BTC worth $231 million\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XBI +4.4%, XLY +3.3%, XLV +3.3%, COPX -1.0%, XLB -2.3%.\nSector dispersion: 79 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[JPN] Unemployment Rate(May) — Jun 29 23:30 UTC (prev: 2.5%)\n[UK] GDP(Q)(Final)(Q1) (+1 variants) — Jun 30 06:00 UTC (prev: 0.6%)\n[FRA] Consumer Price Index (MoM)(Preliminary)(Jun) (+2 variants) — Jun 30 06:45 UTC (prev: 0.1%)\n[FRA] Producer Price Index (MoM)(May) (+1 variants) — Jun 30 06:45 UTC (prev: -2.1%)\n[GER] Seasonally adjusted unemployment rate (official)(Jun) — Jun 30 07:55 UTC (prev: 6.3%)\n[ITA] Producer Price Index (MoM)(May) (+1 variants) — Jun 30 08:00 UTC (prev: 8.8%)\n\n<b>CONTRARIAN</b>\n• TKMS -9.3% looks like capitulation but may actually be the start of a broader European defense derating: consensus remains structurally overweight the sector assuming sustained NATO spend, but politi…\n• MOH +6.2% is being read as policy clarity and sector health, but Medicaid managed care names face significant rate reset risk in 2026-2027 as states renegotiate capitation rates post-pandemic inflati…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 552,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Mon 2026-06-29 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jun 30, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nComposite Risk: 49.8/100 (ELEVATED).\n\n<b>CRYPTO</b>\nBTC: $59,867 · ETH: $1,589 · SOL: $74.56\nCrypto sentiment: 15 (Extreme Fear, 7d avg 15).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.87T (YoY -2.70%) — fed $6.74T · ecb $7.02T · boj $4.12T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 283bps NORMAL\nBDRY: $11.60 (-12.0% 30d, DOWN — WEAK_GLOBAL_TRADE).\nOil: SUPPLY_GLUT, crude 412.1M bbl, refinery 96.1%, SPR 331M.\n\n<b>KEY PRICES</b>\nSPY +0.9% | QQQ +1.1% | VIX -4.1% | TLT +0.1% | DXY +0.2% | OIL -0.3%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ TKMS: -9.3%\n▲ MOH: +6.3%\n▲ XBI: +4.4%\n▼ VIX: -4.1%\n▼ EWY: -3.7%\n▼ WPP: -3.3%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.40 (R), Gold $4074 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 30Y Treasury: -2.16σ\n[+] USD Index (broad): +2.15σ\n[-] WTI Crude Oil: -1.84σ\n[-] 10Y Treasury: -1.82σ\n[-] Silver: -1.51σ\n\n<b>US OPEN SETUP</b>\n<i>The overnight session hands the US open a setup where domestic defensives and growth healthcare outperformed while materials and crypto remain under distribution. Watch whether the volatility compression holds into the open or reverses on any macro surprise. International weakness and continued crypto ETF outflows suggest the risk-on tone is selective, not broad — fade overextended healthcare momentum and stay cautious on materials.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 553,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Mon 2026-06-29 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-29"
 }

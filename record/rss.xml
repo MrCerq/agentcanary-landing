@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 01:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 04:30:30 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — June 30, 2026</title>
+      <link>https://agentcanary.ai/record/2026/06/30/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/30/radar/</guid>
+      <pubDate>Tue, 30 Jun 2026 03:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Mon 2026-06-29 close. Crypto data is live. MACRO RADAR — Jun 30, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk</description>
+    </item>
     <item>
       <title>MARKET WRAP — June 29, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/29/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/wrap/</guid>
       <pubDate>Wed, 17 Jun 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — Jun 17, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session told a story of internal rotation rather than broad directional conviction, with defensives and biotech absorbing capital fleeing se</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — June 17, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/17/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/17/pulse/</guid>
-      <pubDate>Wed, 17 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,750 — 1d:IGNITION · 4h:ACCUMULATION · above $65K ETH: $1,791 — 1d:IGNITION · 4h:IGNITION SOL: $73.58 — 1d:IGNITION · 4h:ACCUMULATION Crypto sentime</description>
     </item>
   </channel>
 </rss>

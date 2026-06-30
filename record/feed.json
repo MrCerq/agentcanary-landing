@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/06/30/radar/",
+      "url": "https://agentcanary.ai/record/2026/06/30/radar/",
+      "title": "MACRO RADAR — June 30, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Mon 2026-06-29 close. Crypto data is live. MACRO RADAR — Jun 30, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk",
+      "summary": "Pre-market brief — tradfi data reflects Mon 2026-06-29 close. Crypto data is live. MACRO RADAR — Jun 30, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk",
+      "date_published": "2026-06-30T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-06-29"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/06/29/wrap/",
       "url": "https://agentcanary.ai/record/2026/06/29/wrap/",
       "title": "MARKET WRAP — June 29, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/17/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/17/pulse/",
-      "title": "MARKET PULSE — June 17, 2026",
-      "content_text": "MARKET PULSE — Jun 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,750 — 1d:IGNITION · 4h:ACCUMULATION · above $65K ETH: $1,791 — 1d:IGNITION · 4h:IGNITION SOL: $73.58 — 1d:IGNITION · 4h:ACCUMULATION Crypto sentime",
-      "summary": "MARKET PULSE — Jun 17, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $65,750 — 1d:IGNITION · 4h:ACCUMULATION · above $65K ETH: $1,791 — 1d:IGNITION · 4h:IGNITION SOL: $73.58 — 1d:IGNITION · 4h:ACCUMULATION Crypto sentime",
-      "date_published": "2026-06-17T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
