@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/07/01/pulse/",
+      "url": "https://agentcanary.ai/record/2026/07/01/pulse/",
+      "title": "MARKET PULSE — July 1, 2026",
+      "content_text": "MARKET PULSE — Jul 1, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $59,090 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $60K ETH: $1,592 — 1d:ACCUMULATION · 4h:ACCUMULATION SOL: $75.38 — 1d:IGNITION · 4h:ACC",
+      "summary": "MARKET PULSE — Jul 1, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $59,090 — 1d:BEAR_REGIME · 4h:ACCUMULATION · → rev-watch · below $60K ETH: $1,592 — 1d:ACCUMULATION · 4h:ACCUMULATION SOL: $75.38 — 1d:IGNITION · 4h:ACC",
+      "date_published": "2026-07-01T15:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "pulse",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/07/01/signal/",
       "url": "https://agentcanary.ai/record/2026/07/01/signal/",
       "title": "SIGNAL SCAN — July 1, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "signal",
-        "isWeekend": false,
-        "tradFiAsOf": "2026-06-18"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/19/radar/",
-      "url": "https://agentcanary.ai/record/2026/06/19/radar/",
-      "title": "MACRO RADAR — June 19, 2026",
-      "content_text": "Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live. MACRO RADAR — Jun 19, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 32.8",
-      "summary": "Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live. MACRO RADAR — Jun 19, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 32.8",
-      "date_published": "2026-06-19T03:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "radar",
         "isWeekend": false,
         "tradFiAsOf": "2026-06-18"
       }
