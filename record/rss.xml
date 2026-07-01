@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 19:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MARKET WRAP — July 1, 2026</title>
+      <link>https://agentcanary.ai/record/2026/07/01/wrap/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/07/01/wrap/</guid>
+      <pubDate>Wed, 01 Jul 2026 21:15:00 GMT</pubDate>
+      <description>MARKET WRAP — Jul 1, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session was defined by a clear rotation away from semiconductors and crypto-linked equities toward financials, defense, and communication ser</description>
+    </item>
     <item>
       <title>MARKET PULSE — July 1, 2026</title>
       <link>https://agentcanary.ai/record/2026/07/01/pulse/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/19/pulse/</guid>
       <pubDate>Fri, 19 Jun 2026 15:15:00 GMT</pubDate>
       <description>MARKET PULSE — Jun 19, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,739 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,697 — 1d:DISTRIBUTION · 4h:RISK_OFF SOL: $68.99 — 1d:DISTRIBUTION · 4h:RISK_OFF Crypto sentime</description>
-    </item>
-    <item>
-      <title>SIGNAL SCAN — June 19, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/19/signal/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/19/signal/</guid>
-      <pubDate>Fri, 19 Jun 2026 09:15:00 GMT</pubDate>
-      <description>Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live. SIGNAL SCAN — Jun 19, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A sharp volatility collapse is driving a broad risk-on rotation, with se</description>
     </item>
   </channel>
 </rss>
