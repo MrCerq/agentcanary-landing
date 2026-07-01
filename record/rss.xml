@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 04:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 10:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SIGNAL SCAN — July 1, 2026</title>
+      <link>https://agentcanary.ai/record/2026/07/01/signal/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/07/01/signal/</guid>
+      <pubDate>Wed, 01 Jul 2026 09:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Tue 2026-06-30 close. Crypto data is live. SIGNAL SCAN — Jul 1, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT Tech and semiconductors are firmly in the lead as risk appetite surges, w</description>
+    </item>
     <item>
       <title>MACRO RADAR — July 1, 2026</title>
       <link>https://agentcanary.ai/record/2026/07/01/radar/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/19/radar/</guid>
       <pubDate>Fri, 19 Jun 2026 03:15:00 GMT</pubDate>
       <description>Pre-market brief — tradfi data reflects Thu 2026-06-18 close. Crypto data is live. MACRO RADAR — Jun 19, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 23.1/100 (Low). Phase: EXPANSION. Composite Risk: 32.8</description>
-    </item>
-    <item>
-      <title>MARKET WRAP — June 18, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/18/wrap/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/18/wrap/</guid>
-      <pubDate>Thu, 18 Jun 2026 21:15:00 GMT</pubDate>
-      <description>MARKET WRAP — Jun 18, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today belonged to the growth trade, with semiconductors and technology carrying the session on the back of a dramatic volatility collapse that clear</description>
     </item>
   </channel>
 </rss>
