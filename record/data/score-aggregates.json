@@ -4,7 +4,7 @@
       "hit": 107,
       "partial": 0,
       "miss": 4,
-      "pending": 1,
+      "pending": 2,
       "no_data": 15,
       "absent": 1,
       "scored": 111,
@@ -17,7 +17,7 @@
       "miss": 0,
       "pending": 0,
       "no_data": 0,
-      "absent": 128,
+      "absent": 129,
       "scored": 0,
       "hitRate": null,
       "weightedAccuracy": null
@@ -28,21 +28,21 @@
       "miss": 25,
       "pending": 0,
       "no_data": 14,
-      "absent": 3,
+      "absent": 4,
       "scored": 111,
       "hitRate": 47.7,
       "weightedAccuracy": 62.6
     },
     "wrap": {
-      "hit": 98,
+      "hit": 99,
       "partial": 8,
       "miss": 5,
-      "pending": 2,
+      "pending": 1,
       "no_data": 13,
-      "absent": 2,
-      "scored": 111,
-      "hitRate": 88.3,
-      "weightedAccuracy": 91.9
+      "absent": 3,
+      "scored": 112,
+      "hitRate": 88.4,
+      "weightedAccuracy": 92
     }
   },
   "signalPredictions": {
@@ -56,14 +56,14 @@
     "weightedAccuracy": 34.6
   },
   "overall": {
-    "hit": 411,
+    "hit": 412,
     "partial": 421,
     "miss": 491,
-    "scored": 1323,
+    "scored": 1324,
     "hitRate": 31.1,
     "weightedAccuracy": 47
   },
-  "computedAt": "2026-07-01T01:30:03.470Z",
+  "computedAt": "2026-07-01T04:30:04.101Z",
   "perAsset": [
     {
       "ticker": "SPY",

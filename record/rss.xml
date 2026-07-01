@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2026 01:30:30 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 04:30:31 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — July 1, 2026</title>
+      <link>https://agentcanary.ai/record/2026/07/01/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/07/01/radar/</guid>
+      <pubDate>Wed, 01 Jul 2026 03:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Tue 2026-06-30 close. Crypto data is live. MACRO RADAR — Jul 1, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 100.0/100 (Critical). Phase: EXPANSION. Composite Risk:</description>
+    </item>
     <item>
       <title>MARKET WRAP — June 30, 2026</title>
       <link>https://agentcanary.ai/record/2026/06/30/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/18/wrap/</guid>
       <pubDate>Thu, 18 Jun 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — Jun 18, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today belonged to the growth trade, with semiconductors and technology carrying the session on the back of a dramatic volatility collapse that clear</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — June 18, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/18/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/18/pulse/</guid>
-      <pubDate>Thu, 18 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 18, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $64,231 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch · below $65K ETH: $1,743 — 1d:DISTRIBUTION · 4h:ACCUMULATION · → rev-watch SOL: $71.68 — 1d:I</description>
     </item>
   </channel>
 </rss>

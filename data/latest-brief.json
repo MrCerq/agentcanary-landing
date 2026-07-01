@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-06-30",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jun 30",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-07-01",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jul 1",
+  "headlineColor": "#FB923C",
   "desc": "Risk 100/100 · 6 movers",
   "tags": [
     {
@@ -26,31 +26,31 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "CRCL",
-          "v": "-17.6%",
+          "k": "SOXX",
+          "v": "+8.6%",
+          "c": "green"
+        },
+        {
+          "k": "SMH",
+          "v": "+7.2%",
+          "c": "green"
+        },
+        {
+          "k": "VIX",
+          "v": "-6.8%",
           "c": "red"
         },
         {
-          "k": "AXON",
-          "v": "+10.0%",
-          "c": "green"
-        },
-        {
-          "k": "BE",
-          "v": "+9.4%",
-          "c": "green"
-        },
-        {
-          "k": "KLAC",
-          "v": "+8.8%",
+          "k": "XLK",
+          "v": "+5.2%",
           "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jun 30, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a clear story: growth and technology dominated, while defensives and rate-sensitive sectors were aggressively sold as the market leaned into an optimistic macro rerating. The notable subplot is crypto's failure to participate — digital assets diverged from equities, a signal worth monitoring. Tomorrow's setup hinges on whether that divergence closes or widens, and whether hawkish Fed commentary begins to slow the momentum in rate-sensitive growth names.\n\n<b>CLOSING PRICES</b>\nSPY +2.4% | QQQ +4.2% | VIX -6.8% | TLT -1.1% | DXY flat | OIL -1.0%\n\n<b>vs MORNING</b>\nSPY +1.5% | QQQ +3.2% | VIX -2.7% | TLT -1.2% | DXY -0.1% | OIL -0.6%\n\n<b>EVENING NEWS</b>\n▲ Cardone Capital Tops 2,700 BTC as Bitcoin Holds Near $59K\n▼ Top 5 Altcoins for July 2026 as Bitcoin Drops 20%\n▲ Strategy Plan Sparks Debate as MSTR and STRC Stocks Jump\n▼ Consumer Spending Is Slowing and SpaceX Is Burning Billions. Is Now Really the Right Time to Buy SPCX?\n▲ Chainlink gains 8,000 new holders – Can LINK break its downtrend?\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: SMH +7.2%, XLK +5.2%, XLY +2.5%, XLP -1.9%, XLRE -2.7%.\nSector dispersion: 70 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SWI] GDP (QoQ)(Q1) — Jul 1 01:00 UTC (prev: 0.1%)\n[JPN] Cabinet Office Consumer Confidence Index (month)(Jun) — Jul 1 05:00 UTC (prev: 33.6)\n[SWI] Actual Retail Sales (YoY)(May) (+1 variants) — Jul 1 06:30 UTC (prev: 1.6%)\n[EU] Consumer Price Index (MoM)(Preliminary)(Jun) (+1 variants) — Jul 1 09:00 UTC (prev: 0.1%)\n[EU] Core Consumer Price Index (YoY)(Preliminary)(Jun) — Jul 1 09:00 UTC (prev: 2.3%)\n[SK] Consumer Price Index (MoM)(Jun) (+1 variants) — Jul 1 23:00 UTC (prev: 0.5%)\n\n<b>CONTRARIAN</b>\n• SOXX +8.6% in a single session while macro fear is elevated looks like a short-squeeze or ETF rebalancing artifact rather than a genuine AI demand signal — chasing semis here at these move magnitudes…\n• The consensus is treating Bitcoin's drop to $59K as the start of a path to $40K, but Cardone Capital topping 2,700 BTC and Sharplink buying 10K ETH amid peak pessimism mirrors prior cycle bottoming b…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 556,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Tue 2026-06-30 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jul 1, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\nComposite Risk: 49.8/100 (ELEVATED).\n\n<b>CRYPTO</b>\nBTC: $58,994 · ETH: $1,584 · SOL: $74.71\nCrypto sentiment: 11 (Extreme Fear, 7d avg 14) (falling).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.82T (YoY -2.69%) — fed $6.74T · ecb $6.98T · boj $4.11T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 280bps NORMAL\nBDRY: $11.82 (-8.0% 30d, UP — SOFTENING).\nOil: SUPPLY_GLUT, crude 412.1M bbl, refinery 96.1%, SPR 331M.\n\n<b>KEY PRICES</b>\nSPY +2.4% | QQQ +4.2% | VIX -6.8% | TLT -1.1% | DXY +0.2% | OIL -1.4%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▲ SOXX: +8.6%\n▲ SMH: +7.2%\n▼ VIX: -6.8%\n▲ BOTZ: +5.4%\n▲ XLK: +5.2%\n▼ WPP: -4.6%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.89 (R), Gold $4015 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 10Y Treasury: -1.98σ\n[+] HY Credit Spread: +1.91σ\n[-] WTI Crude Oil: -1.84σ\n[-] 30Y Treasury: -1.69σ\n[-] Silver: -1.51σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight risk-on momentum out of Asia and Europe sets up a constructive US open for growth and semiconductor exposure. The defensives selloff confirms genuine rotation rather than a defensive hedge — lean into the growth trade but stay alert to whether crypto sustains or fades the move, as a divergence there would be an early warning of fading risk appetite heading into the session.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 557,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Tue 2026-06-30 close. Crypto data is live.",
+  "tradFiAsOf": "2026-06-30"
 }
