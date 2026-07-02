@@ -1,5 +1,21 @@
 {
   "scores": {
+    "2026-07-02": {
+      "radar": {
+        "status": "pending",
+        "summary": "Regime EXPANSION called — awaiting next radar",
+        "details": {
+          "morning": {
+            "phase": "EXPANSION",
+            "riskGauge": 73.8,
+            "riskLabel": "High"
+          },
+          "source": "next-day-radar"
+        }
+      },
+      "pulse": null,
+      "wrap": null
+    },
     "2026-07-01": {
       "radar": {
         "status": "hit",
@@ -62,14 +78,22 @@
         }
       },
       "wrap": {
-        "status": "pending",
-        "summary": "Wrap framed EXPANSION — awaiting next-day open",
+        "status": "hit",
+        "summary": "Regime EXPANSION held overnight (no SPY data for direction check)",
         "details": {
           "wrap": {
             "phase": "EXPANSION",
             "riskGauge": 100,
             "riskLabel": "Critical"
-          }
+          },
+          "nextRadar": {
+            "phase": "EXPANSION",
+            "riskGauge": 73.8,
+            "riskLabel": "High"
+          },
+          "direction": null,
+          "regimeMatched": true,
+          "directionMatched": null
         }
       }
     },
@@ -9499,5 +9523,5 @@
       }
     }
   },
-  "lastScored": "2026-07-02T01:30:04.169Z"
+  "lastScored": "2026-07-02T04:30:03.217Z"
 }

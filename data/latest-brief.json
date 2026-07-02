@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-07-01",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jul 1",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 100/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-07-02",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jul 2",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 74/100 · 6 movers",
   "tags": [
     {
       "t": "HIGH",
@@ -19,38 +19,38 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 100
+        "value": 74
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "KLAC",
-          "v": "-12.7%",
+          "k": "PENDLE",
+          "v": "+7.3%",
+          "c": "green"
+        },
+        {
+          "k": "EWY",
+          "v": "-6.1%",
           "c": "red"
         },
         {
-          "k": "RIOT",
-          "v": "-12.6%",
-          "c": "red"
+          "k": "ONDO",
+          "v": "+4.4%",
+          "c": "green"
         },
         {
-          "k": "ALAB",
-          "v": "-11.2%",
-          "c": "red"
-        },
-        {
-          "k": "MU",
-          "v": "-10.2%",
-          "c": "red"
+          "k": "MORPHO",
+          "v": "+4.4%",
+          "c": "green"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jul 1, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session was defined by a clear rotation away from semiconductors and crypto-linked equities toward financials, defense, and communication services — a quarter-end rebalancing signal as much as a regime shift. The persistent and accelerating weekly ETF outflows from crypto products add a structural overhang that cannot be dismissed as noise. Tomorrow's setup hinges on whether the selling pressure in high-multiple tech stabilizes or extends, with cyclicals and value poised to remain in favor if it does not.\n\n<b>CLOSING PRICES</b>\nSPY +0.6% | QQQ +0.2% | VIX +0.9% | TLT -2.2% | DXY +0.2% | OIL -2.0%\n\n<b>vs MORNING</b>\nSPY -1.8% | QQQ -4.1% | VIX +7.7% | TLT -1.1% | DXY flat | OIL -0.6%\n\n<b>EVENING NEWS</b>\n▲ Gold rises as traders react to less hawkish comments from Fed Chair Kevin Warsh\n▲ Fed’s Warsh eases inflation fears amid resilient US economy\n▲ Tottenham Hotspur agrees deal worth up to £100M for Sandro Tonali in club-record transfer\n▼ US blocks long-term renewal of North American trade deal, opting for annual reviews instead\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↑ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 100.0/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: ITA +2.0%, XLF +2.0%, XLC +1.7%, SMH -1.8%, XLU -2.7%.\nSector dispersion: 64 (HIGH, breadth SELECTIVE_STRENGTH), 69% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SK] Consumer Price Index (MoM)(Jun) (+1 variants) — Jul 1 23:00 UTC (prev: 0.5%)\n[SK] Core Consumer Price Index (YoY)(Jun) — Jul 1 23:00 UTC (prev: 2.5%)\n[SWI] Consumer Price Index (MoM)(Jun) (+1 variants) — Jul 2 06:30 UTC (prev: 0.2%)\n[ITA] unemployment rate(May) — Jul 2 08:00 UTC (prev: 5.1%)\n[HK] Retail Sales (YoY)(May) — Jul 2 08:30 UTC (prev: 6.4%)\n[EU] Unemployment Rate(May) — Jul 2 09:00 UTC (prev: 6.3%)\n\n<b>CONTRARIAN</b>\n• EWY -6.1% is being read as Korea-specific pain, but the simultaneous SOXX -2.4% drop suggests the semiconductor demand cycle may be rolling over globally — consensus is too quick to dismiss this as g…\n• The market is treating Warsh's dovish comments as unambiguously bullish, but with XLU -2.7% and gold rising together, the real message may be that growth is softening enough to warrant cuts — goldilo…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 560,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Wed 2026-07-01 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jul 2, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 73.8/100 (High). Phase: EXPANSION.\nComposite Risk: 42.7/100 (MODERATE).\n\n<b>CRYPTO</b>\nBTC: $60,375 · ETH: $1,619 · SOL: $78.33\nCrypto sentiment: 19 (Extreme Fear, 7d avg 15) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.82T (YoY -2.65%) — fed $6.74T · ecb $6.98T · boj $4.11T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 275bps NORMAL\nBDRY: $12.06 (-4.7% 30d, UP — SOFTENING).\nOil: SUPPLY_GLUT, crude 412.1M bbl, refinery 96.1%, SPR 331M.\n\n<b>KEY PRICES</b>\nSPY +0.6% | QQQ +0.2% | VIX +0.9% | TLT -2.2% | DXY +0.2% | OIL -2.5%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ EWY: -6.1%\n▲ KWEB: +3.4%\n▲ BOTZ: +3.3%\n▼ BRENT: -2.8%\n▼ XLU: -2.7%\n▼ WTI: -2.5%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.89 (R), Gold $4017 (Y)\n\n<b>NOTABLE Z-SCORES</b>\n[-] 10Y Treasury: -1.98σ\n[+] HY Credit Spread: +1.91σ\n[-] WTI Crude Oil: -1.84σ\n[-] 30Y Treasury: -1.69σ\n\n<b>US OPEN SETUP</b>\n<i>Overnight session favors leaning into financials and defense leadership while treating semiconductor weakness as a potential fade setup at the open. Energy softness and Korean equity pressure suggest caution on Asian and commodity-linked exposure. Watch whether China internet strength confirms a broader emerging market bid or fades into the US open.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 561,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Wed 2026-07-01 close. Crypto data is live.",
+  "tradFiAsOf": "2026-07-01"
 }

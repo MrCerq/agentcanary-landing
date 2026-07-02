@@ -5,8 +5,15 @@
     <link>https://agentcanary.ai/record/</link>
     <description>Market context briefs for AI agents — macro + crypto regime, risk, narrative and scenario state. 4x daily (weekday) / 2x daily (weekend).</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2026 01:30:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 04:30:30 GMT</lastBuildDate>
     <atom:link href="https://agentcanary.ai/record/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MACRO RADAR — July 2, 2026</title>
+      <link>https://agentcanary.ai/record/2026/07/02/radar/</link>
+      <guid isPermaLink="true">https://agentcanary.ai/record/2026/07/02/radar/</guid>
+      <pubDate>Thu, 02 Jul 2026 03:15:00 GMT</pubDate>
+      <description>Pre-market brief — tradfi data reflects Wed 2026-07-01 close. Crypto data is live. MACRO RADAR — Jul 2, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 73.8/100 (High). Phase: EXPANSION. Composite Risk: 42.7</description>
+    </item>
     <item>
       <title>MARKET WRAP — July 1, 2026</title>
       <link>https://agentcanary.ai/record/2026/07/01/wrap/</link>
@@ -349,13 +356,6 @@
       <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/19/wrap/</guid>
       <pubDate>Fri, 19 Jun 2026 21:15:00 GMT</pubDate>
       <description>MARKET WRAP — Jun 19, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today&apos;s session was defined by a decisive rotation into growth and away from hard assets, with semiconductors and tech absorbing the bulk of the inf</description>
-    </item>
-    <item>
-      <title>MARKET PULSE — June 19, 2026</title>
-      <link>https://agentcanary.ai/record/2026/06/19/pulse/</link>
-      <guid isPermaLink="true">https://agentcanary.ai/record/2026/06/19/pulse/</guid>
-      <pubDate>Fri, 19 Jun 2026 15:15:00 GMT</pubDate>
-      <description>MARKET PULSE — Jun 19, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,739 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,697 — 1d:DISTRIBUTION · 4h:RISK_OFF SOL: $68.99 — 1d:DISTRIBUTION · 4h:RISK_OFF Crypto sentime</description>
     </item>
   </channel>
 </rss>

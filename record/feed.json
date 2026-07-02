@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/07/02/radar/",
+      "url": "https://agentcanary.ai/record/2026/07/02/radar/",
+      "title": "MACRO RADAR — July 2, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Wed 2026-07-01 close. Crypto data is live. MACRO RADAR — Jul 2, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 73.8/100 (High). Phase: EXPANSION. Composite Risk: 42.7",
+      "summary": "Pre-market brief — tradfi data reflects Wed 2026-07-01 close. Crypto data is live. MACRO RADAR — Jul 2, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 73.8/100 (High). Phase: EXPANSION. Composite Risk: 42.7",
+      "date_published": "2026-07-02T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-07-01"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/07/01/wrap/",
       "url": "https://agentcanary.ai/record/2026/07/01/wrap/",
       "title": "MARKET WRAP — July 1, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": false,
-        "tradFiAsOf": null
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/19/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/19/pulse/",
-      "title": "MARKET PULSE — June 19, 2026",
-      "content_text": "MARKET PULSE — Jun 19, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,739 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,697 — 1d:DISTRIBUTION · 4h:RISK_OFF SOL: $68.99 — 1d:DISTRIBUTION · 4h:RISK_OFF Crypto sentime",
-      "summary": "MARKET PULSE — Jun 19, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $62,739 — 1d:RISK_OFF · 4h:RISK_OFF · below $65K ETH: $1,697 — 1d:DISTRIBUTION · 4h:RISK_OFF SOL: $68.99 — 1d:DISTRIBUTION · 4h:RISK_OFF Crypto sentime",
-      "date_published": "2026-06-19T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": false,
         "tradFiAsOf": null
       }
