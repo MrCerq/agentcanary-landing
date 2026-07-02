@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/07/02/wrap/",
+      "url": "https://agentcanary.ai/record/2026/07/02/wrap/",
+      "title": "MARKET WRAP — July 2, 2026",
+      "content_text": "MARKET WRAP — Jul 2, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's dominant thread was a violent rotation out of semiconductors and technology into financials, healthcare, and defense — a classic flight from",
+      "summary": "MARKET WRAP — Jul 2, 2026 Built for autonomous systems. Useful for humans. DAILY SYNTHESIS Today's dominant thread was a violent rotation out of semiconductors and technology into financials, healthcare, and defense — a classic flight from",
+      "date_published": "2026-07-02T21:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "wrap",
+        "isWeekend": false,
+        "tradFiAsOf": null
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/07/02/pulse/",
       "url": "https://agentcanary.ai/record/2026/07/02/pulse/",
       "title": "MARKET PULSE — July 2, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "pulse",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-19"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/20/signal/",
-      "url": "https://agentcanary.ai/record/2026/06/20/signal/",
-      "title": "SIGNAL SCAN — June 20, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. SIGNAL SCAN — Jun 20, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A sharp volatility collapse is powering a broad risk-on rotation, with semi",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. SIGNAL SCAN — Jun 20, 2026 Built for autonomous systems. Useful for humans. SNAPSHOT A sharp volatility collapse is powering a broad risk-on rotation, with semi",
-      "date_published": "2026-06-20T09:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "signal",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-19"
       }
