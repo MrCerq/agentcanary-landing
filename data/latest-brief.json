@@ -1,10 +1,10 @@
 {
-  "session": "wrap",
-  "date": "2026-07-02",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jul 2",
-  "headlineColor": "#A78BFA",
-  "desc": "Risk 74/100 · 6 movers",
+  "session": "radar",
+  "date": "2026-07-03",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jul 3",
+  "headlineColor": "#FB923C",
+  "desc": "Risk 83/100 · 6 movers",
   "tags": [
     {
       "t": "HIGH",
@@ -19,38 +19,38 @@
     {
       "label": "RISK GAUGE",
       "gauge": {
-        "value": 74
+        "value": 83
       }
     },
     {
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "UNI",
-          "v": "+14.2%",
-          "c": "green"
-        },
-        {
-          "k": "CIFR",
-          "v": "-12.2%",
-          "c": "red"
-        },
-        {
           "k": "SOXX",
           "v": "-11.6%",
           "c": "red"
         },
         {
-          "k": "KLAC",
-          "v": "-11.1%",
+          "k": "EWY",
+          "v": "-10.8%",
+          "c": "red"
+        },
+        {
+          "k": "TKMS",
+          "v": "+10.6%",
+          "c": "green"
+        },
+        {
+          "k": "SMH",
+          "v": "-9.7%",
           "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jul 2, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's dominant thread was a violent rotation out of semiconductors and technology into financials, healthcare, and defense — a classic flight from growth toward value and defensives. The move was not broad market weakness but surgical sector repricing, with crypto-adjacent equities caught in the crossfire of persistent institutional outflows. Tomorrow's setup hinges on whether the semiconductor complex finds a floor or the rotation broadens into a more generalized risk-off unwind.\n\n<b>CLOSING PRICES</b>\nSPY -0.3% | QQQ -3.2% | VIX -2.7% | TLT -1.1% | DXY -0.5% | OIL -0.2%\n\n<b>vs MORNING</b>\nSPY -0.9% | QQQ -3.4% | VIX -3.5% | TLT +1.2% | DXY -0.7% | OIL +2.3%\n\n<b>EVENING NEWS</b>\n▼ Bitcoin Inflows by Retailers on Binance Fall to Record Low as Market Participation Continues to Shift\n▲ Bitcoin Reclaims $60K as SOL, BCH Lead Alts Higher (Market Watch)\n▲ US stock futures mixed as Wall Street awaits key employment data report\n▲ Lizex.io Launches Large-Scale B2B Partnership Program for Crypto Services\n▲ Metaplanet buys 2,823 BTC, surpasses 43,000 in Bitcoin holdings\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↓↓ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 73.8/100 (High). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLF +3.8%, XLV +3.2%, ITA +2.4%, XLK -5.2%, SMH -9.7%.\nSector dispersion: 65 (HIGH, breadth SELECTIVE_STRENGTH), 56% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[SWI] Actual Retail Sales (YoY)(May) — Jul 3 06:45 UTC (prev: 1.6%)\n[SK] Consumer Price Index (MoM)(Jun) — Jul 3 21:07 UTC (prev: 0.5%)\n[ITA] Istat Consumer Confidence Index(Apr) — Jul 5 00:00 UTC (prev: 92.6)\n\n<b>CONTRARIAN</b>\n• SOXX -11.6% consensus narrative is export controls or demand collapse, but the simultaneous EWY -10.8% move and TKMS +10.6% surge suggests this may be a Korea-specific geopolitical shock (North Korea…\n• The Bitcoin bear consensus is getting crowded: record-low retail inflows, $4.5B ETF exodus in June, and 'capitulation' headlines are classically late-stage sentiment indicators — Cantor Fitzgerald ca…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 564,
+  "telegramText": "<i>Pre-market brief — tradfi data reflects Thu 2026-07-02 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jul 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 83.3/100 (Critical). Phase: EXPANSION.\nComposite Risk: 43.7/100 (MODERATE).\n\n<b>CRYPTO</b>\nBTC: $61,359 · ETH: $1,703 · SOL: $80.70\nCrypto sentiment: 21 (Extreme Fear, 7d avg 16) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.82T (YoY -2.65%) — fed $6.74T · ecb $6.98T · boj $4.11T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 275bps NORMAL\nBDRY: $12.05 (-4.7% 30d, UP — SOFTENING).\nOil: SUPPLY_TIGHTENING, crude 408.4M bbl, refinery 96.6%, SPR 326M.\n\n<b>KEY PRICES</b>\nSPY -0.3% | QQQ -3.2% | VIX -2.7% | TLT -1.1% | DXY -0.6% | OIL +0.6%\n\n<b>OVERNIGHT vs US CLOSE</b>\n▼ SOXX: -11.6%\n▼ EWY: -10.8%\n▲ TKMS: +10.6%\n▼ SMH: -9.7%\n▼ XLK: -5.2%\n▲ RTX: +5.0%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.89 (R), Gold $4037 (Y)\n\n<b>US OPEN SETUP</b>\n<i>The US open inherits a defensive-led tape with semiconductors and tech under meaningful pressure. Watch whether financials and healthcare can sustain overnight gains as session liquidity arrives, or whether any stabilization in tech triggers a snapback. Fading the defensive chase into the open may be premature until there is evidence that semiconductor selling is exhausted.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 565,
   "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "weekendBanner": "Pre-market brief — tradfi data reflects Thu 2026-07-02 close. Crypto data is live.",
+  "tradFiAsOf": "2026-07-02"
 }

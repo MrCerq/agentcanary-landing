@@ -9,6 +9,23 @@
   "language": "en",
   "items": [
     {
+      "id": "https://agentcanary.ai/record/2026/07/03/radar/",
+      "url": "https://agentcanary.ai/record/2026/07/03/radar/",
+      "title": "MACRO RADAR — July 3, 2026",
+      "content_text": "Pre-market brief — tradfi data reflects Thu 2026-07-02 close. Crypto data is live. MACRO RADAR — Jul 3, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 83.3/100 (Critical). Phase: EXPANSION. Composite Risk:",
+      "summary": "Pre-market brief — tradfi data reflects Thu 2026-07-02 close. Crypto data is live. MACRO RADAR — Jul 3, 2026 Built for autonomous systems. Useful for humans. MACRO OVERVIEW Risk Gauge: 83.3/100 (Critical). Phase: EXPANSION. Composite Risk:",
+      "date_published": "2026-07-03T03:15:00.000Z",
+      "tags": [
+        "HIGH",
+        "EXPANSION"
+      ],
+      "_agentcanary": {
+        "slot": "radar",
+        "isWeekend": false,
+        "tradFiAsOf": "2026-07-02"
+      }
+    },
+    {
       "id": "https://agentcanary.ai/record/2026/07/02/wrap/",
       "url": "https://agentcanary.ai/record/2026/07/02/wrap/",
       "title": "MARKET WRAP — July 2, 2026",
@@ -837,23 +854,6 @@
       ],
       "_agentcanary": {
         "slot": "wrap",
-        "isWeekend": true,
-        "tradFiAsOf": "2026-06-19"
-      }
-    },
-    {
-      "id": "https://agentcanary.ai/record/2026/06/20/pulse/",
-      "url": "https://agentcanary.ai/record/2026/06/20/pulse/",
-      "title": "MARKET PULSE — June 20, 2026",
-      "content_text": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET PULSE — Jun 20, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,379 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · below $65K",
-      "summary": "Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. Weekend brief — tradfi data reflects Fri 2026-06-19 close. Crypto data is live. MARKET PULSE — Jun 20, 2026 Built for autonomous systems. Useful for humans. CRYPTO BTC: $63,379 — 1d:BULL_REGIME · 4h:DISTRIBUTION · → trend-fade · below $65K",
-      "date_published": "2026-06-20T15:15:00.000Z",
-      "tags": [
-        "LOW",
-        "EXPANSION"
-      ],
-      "_agentcanary": {
-        "slot": "pulse",
         "isWeekend": true,
         "tradFiAsOf": "2026-06-19"
       }
