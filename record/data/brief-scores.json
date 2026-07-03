@@ -13,7 +13,48 @@
           "source": "next-day-radar"
         }
       },
-      "pulse": null,
+      "pulse": {
+        "status": "hit",
+        "summary": "3/3 crypto directional calls hit",
+        "details": {
+          "hits": 3,
+          "partials": 0,
+          "misses": 0,
+          "noData": 0,
+          "results": [
+            {
+              "ticker": "BTC",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 61492.98828125,
+              "close": 62014.6796875,
+              "pctChange": 0.85,
+              "result": "hit"
+            },
+            {
+              "ticker": "ETH",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 1698.3707275390625,
+              "close": 1732.5799560546875,
+              "pctChange": 2.01,
+              "result": "hit"
+            },
+            {
+              "ticker": "SOL",
+              "direction1d": "IGNITION",
+              "dir": "up",
+              "actualDir": "up",
+              "open": 80.63610076904297,
+              "close": 81.27999877929688,
+              "pctChange": 0.8,
+              "result": "hit"
+            }
+          ]
+        }
+      },
       "wrap": null
     },
     "2026-07-02": {
@@ -9604,5 +9645,5 @@
       }
     }
   },
-  "lastScored": "2026-07-03T10:30:03.688Z"
+  "lastScored": "2026-07-03T16:30:04.331Z"
 }
