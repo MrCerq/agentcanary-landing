@@ -1,9 +1,9 @@
 {
-  "session": "pulse",
+  "session": "wrap",
   "date": "2026-07-03",
-  "time": "15:15 UTC",
-  "headline": "MARKET PULSE — Jul 3",
-  "headlineColor": "#F87171",
+  "time": "21:15 UTC",
+  "headline": "MARKET WRAP — Jul 3",
+  "headlineColor": "#A78BFA",
   "desc": "Risk 83/100 · 6 movers",
   "tags": [
     {
@@ -26,6 +26,11 @@
       "label": "TOP MOVERS",
       "rows": [
         {
+          "k": "ADA",
+          "v": "+12.6%",
+          "c": "green"
+        },
+        {
           "k": "SOXX",
           "v": "-11.6%",
           "c": "red"
@@ -36,20 +41,15 @@
           "c": "red"
         },
         {
-          "k": "TKMS",
-          "v": "+10.6%",
+          "k": "PEPE",
+          "v": "+10.7%",
           "c": "green"
-        },
-        {
-          "k": "SMH",
-          "v": "-9.7%",
-          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET PULSE</b> — Jul 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>CRYPTO</b>\nBTC: $61,359 — 1d:IGNITION · 4h:IGNITION · above $60K\nETH: $1,703 — 1d:IGNITION · 4h:IGNITION\nSOL: $80.70 — 1d:IGNITION · 4h:IGNITION\nCrypto sentiment: 21 (Extreme Fear, 7d avg 16) (rising).\n\n<b>WHALE ALERTS</b>\n• 2,248 BTC ($138.4M) — transferred from #Okex to unknown wallet\n• 2,044 BTC ($126.1M) — transferred from unknown wallet to #Kraken\n• 1,631 BTC ($100.8M) — transferred from unknown wallet to Coinbase Institutional\n\n<b>FUNDING ARB</b> <i>(cross-exchange symbols, OI&gt;$5M, |spread|&lt;1%)</i>\n• SKHYNIX: 490% net APR (0.4474% rate) · Long Bybit / Short MEXC · OI $6.0M · Spread +0.18%\n• LAB: 321% net APR (0.0367% rate) · Long Bitget / Short Binance · OI $23.5M · Spread +0.28%\n\n<b>OPEN INTEREST</b>\nTotal OI (top 43 perps): $87.7B\nTop OI: BTC $46.4B · ETH $24.3B · SOL $5.8B · HYPE $2.7B · XRP $2.4B\nOI shifters (4h): TIA +5.8% · SEI -5.5% · SHIB +3.5% · SKY -2.6% · AKT +2.6%\n\n<b>POSITIONING</b>\nBTC ETF flows (CoinGlass via g2-data, provider-reported) (Thu close, 1 trading day old): +$224M inflow (FBTC +$166M, ARKB +$92M, IBIT -$40M).\nBTC options — BEARISH: max pain $61,000 (3JUL26), P/C 0.57 OI / 0.77 vol, put skew +10.1 IV.\nPerp funding (8h, cross-exchange mean): BTC +0.6287% (19/21 positive, long-biased).\nWhale positioning (Hyperliquid, top 3 by notional): BTC: $58M long / $144M short (net short $86M, -$2.0M PnL); ETH: $23M long / $112M short (net short $89M, -$2.5M PnL); HYPE: $56M long / $27M short (net long $29M, -$2.1M PnL).\nLiquidations: 24h total $100.6M; latest 4h $990K (99.8% long / 0.2% short, 164L/7S events, long-dominant).\n\n<b>SCENARIO</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>INTEL</b>\n▼ Semiconductor & Tech Rout [SOXX, SMH, XLK, NVDA]\n▲ Defense Sector Divergence Amid Geopolitical Stress [TKMS, RTX, LMT, NOC]\n◆ Bitcoin Capitulation vs. Institutional Accumulation Divergence [BTC, SOL, BCH, GBTC]\n\n<b>IMPLICATION</b>\nMid-session flow is unambiguous: fade tech and semiconductor exposure into strength, and lean into the financials and healthcare bid where momentum is confirming. Defense is absorbing rotation capital as well. Crypto is not leading risk appetite here — it is a sideshow. Watch whether the semiconductor selloff stabilizes or extends into the close before adding any tech exposure.\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 567,
+  "telegramText": "<b>MARKET WRAP</b> — Jul 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a tale of two markets: equities fractured along sector lines as semiconductors absorbed punishing losses while defensives and financials held firm, and crypto carved out an independent rally that defied the equity tape. The divergence between digital assets and chip-heavy tech is the dominant narrative thread heading into tomorrow. Watch whether crypto inflows sustain and whether semiconductor weakness finds a floor or continues to drag the broader tech complex lower.\n\n<b>CLOSING PRICES</b>\nSPY -0.3% | QQQ -3.2% | VIX -2.1% | TLT -1.1% | DXY -0.5% | OIL +0.3%\n\n<b>vs MORNING</b>\nSPY flat | QQQ flat | VIX +0.5% | TLT flat | DXY +0.1% | OIL -0.3%\n\n<b>EVENING NEWS</b>\n◆ American Charged in Israel With Spying for Iran in Exchange for Crypto Israeli prosecutors charged a 21-year-old American man with spying for Iran while studying at a seminary in Jerusalem.\n◆ Donald Trump has set a new record for the most securities trades made by a sitting U.S. president, with 22,136 trades in 2025 and another 6,100 trades in the first half of 2026 Trump has also become o\n◆ LATEST: 📊 US spot Bitcoin ETFs snapped a 10-day outflow streak with $223.5M in net inflows on July 2, led by Fidelity’s FBTC with $166M.\n◆ Africa's Largest Crypto Exchange VALR to Launch Perps Product Powered by Hyperliquid Hyperliquid founder Jeff Yan said VALR, Africa's largest crypto exchange, will use Hyperliquid's onchain liquidity \n◆ BlackRock has recorded 10 consecutive trading days of net $BTC outflows, totaling 35,980 $BTC($2.24B). https://arkm.com/explorer/entity/blackrock\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 83.3/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLF +3.8%, XLV +3.2%, ITA +2.4%, XLK -5.2%, SMH -9.7%.\nSector dispersion: 71 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[ITA] Istat Consumer Confidence Index(Apr) — Jul 5 00:00 UTC (prev: 92.6)\n[SIN] Retail Sales (YoY)(Jun) (+1 variants) — Jul 6 05:00 UTC (prev: 5.4%)\n[SIN] Seasonally adjusted retail sales (MoM)(Jun) (+1 variants) — Jul 6 05:00 UTC (prev: 0.3%)\n[SWI] Seasonally adjusted unemployment rate(Jun) — Jul 6 07:00 UTC (prev: 3.0%)\n[SWI] Unseasonally adjusted unemployment rate(Jun) — Jul 6 07:00 UTC (prev: 3.1%)\n[EU] Producer Price Index (MoM)(Jun) (+3 variants) — Jul 6 09:00 UTC (prev: 0.6%)\n\n<b>CONTRARIAN</b>\n• SOXX -11.6% may be the washout capitulation event that sets up a tactical long entry in semiconductors within days — the magnitude of the move often exhausts sellers rather than signals sustained dow…\n• The consensus is piling into RTX and defense on Hormuz fears, but Hormuz traffic at 43 vessels vs. 130+ norm means shipping disruption is already heavily discounted — if any diplomatic resolution eme…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": 568,
   "isWeekend": false,
   "weekendBanner": null,
   "tradFiAsOf": null
