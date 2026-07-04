@@ -1,9 +1,9 @@
 {
-  "session": "wrap",
-  "date": "2026-07-03",
-  "time": "21:15 UTC",
-  "headline": "MARKET WRAP — Jul 3",
-  "headlineColor": "#A78BFA",
+  "session": "radar",
+  "date": "2026-07-04",
+  "time": "03:15 UTC",
+  "headline": "MACRO RADAR — Jul 4",
+  "headlineColor": "#FB923C",
   "desc": "Risk 83/100 · 6 movers",
   "tags": [
     {
@@ -26,11 +26,6 @@
       "label": "TOP MOVERS",
       "rows": [
         {
-          "k": "ADA",
-          "v": "+12.6%",
-          "c": "green"
-        },
-        {
           "k": "SOXX",
           "v": "-11.6%",
           "c": "red"
@@ -41,16 +36,21 @@
           "c": "red"
         },
         {
-          "k": "PEPE",
-          "v": "+10.7%",
-          "c": "green"
+          "k": "SMH",
+          "v": "-9.7%",
+          "c": "red"
+        },
+        {
+          "k": "XLK",
+          "v": "-5.2%",
+          "c": "red"
         }
       ]
     }
   ],
-  "telegramText": "<b>MARKET WRAP</b> — Jul 3, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>DAILY SYNTHESIS</b>\nToday's session told a tale of two markets: equities fractured along sector lines as semiconductors absorbed punishing losses while defensives and financials held firm, and crypto carved out an independent rally that defied the equity tape. The divergence between digital assets and chip-heavy tech is the dominant narrative thread heading into tomorrow. Watch whether crypto inflows sustain and whether semiconductor weakness finds a floor or continues to drag the broader tech complex lower.\n\n<b>CLOSING PRICES</b>\nSPY -0.3% | QQQ -3.2% | VIX -2.1% | TLT -1.1% | DXY -0.5% | OIL +0.3%\n\n<b>vs MORNING</b>\nSPY flat | QQQ flat | VIX +0.5% | TLT flat | DXY +0.1% | OIL -0.3%\n\n<b>EVENING NEWS</b>\n◆ American Charged in Israel With Spying for Iran in Exchange for Crypto Israeli prosecutors charged a 21-year-old American man with spying for Iran while studying at a seminary in Jerusalem.\n◆ Donald Trump has set a new record for the most securities trades made by a sitting U.S. president, with 22,136 trades in 2025 and another 6,100 trades in the first half of 2026 Trump has also become o\n◆ LATEST: 📊 US spot Bitcoin ETFs snapped a 10-day outflow streak with $223.5M in net inflows on July 2, led by Fidelity’s FBTC with $166M.\n◆ Africa's Largest Crypto Exchange VALR to Launch Perps Product Powered by Hyperliquid Hyperliquid founder Jeff Yan said VALR, Africa's largest crypto exchange, will use Hyperliquid's onchain liquidity \n◆ BlackRock has recorded 10 consecutive trading days of net $BTC outflows, totaling 35,980 $BTC($2.24B). https://arkm.com/explorer/entity/blackrock\n\n<b>SCENARIO SHIFTS</b>\n↑ Late Cycle · ↑ Recession · ↓↓ Goldilocks · ↑ Stagflation · ↑ Hegemony · ↑ Displacement\n\n<b>REGIME CHECK</b>\nRisk Gauge: 83.3/100 (Critical). Phase: EXPANSION.\n\n<b>SECTOR CLOSE</b>\nTop sectors: XLF +3.8%, XLV +3.2%, ITA +2.4%, XLK -5.2%, SMH -9.7%.\nSector dispersion: 71 (EXTREME, breadth SELECTIVE_STRENGTH), 63% positive 1w.\n\n<b>UPCOMING — HIGH IMPACT</b>\n[ITA] Istat Consumer Confidence Index(Apr) — Jul 5 00:00 UTC (prev: 92.6)\n[SIN] Retail Sales (YoY)(Jun) (+1 variants) — Jul 6 05:00 UTC (prev: 5.4%)\n[SIN] Seasonally adjusted retail sales (MoM)(Jun) (+1 variants) — Jul 6 05:00 UTC (prev: 0.3%)\n[SWI] Seasonally adjusted unemployment rate(Jun) — Jul 6 07:00 UTC (prev: 3.0%)\n[SWI] Unseasonally adjusted unemployment rate(Jun) — Jul 6 07:00 UTC (prev: 3.1%)\n[EU] Producer Price Index (MoM)(Jun) (+3 variants) — Jul 6 09:00 UTC (prev: 0.6%)\n\n<b>CONTRARIAN</b>\n• SOXX -11.6% may be the washout capitulation event that sets up a tactical long entry in semiconductors within days — the magnitude of the move often exhausts sellers rather than signals sustained dow…\n• The consensus is piling into RTX and defense on Hormuz fears, but Hormuz traffic at 43 vessels vs. 130+ norm means shipping disruption is already heavily discounted — if any diplomatic resolution eme…\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
-  "telegramMessageId": 568,
-  "isWeekend": false,
-  "weekendBanner": null,
-  "tradFiAsOf": null
+  "telegramText": "<i>Weekend brief — tradfi data reflects Fri 2026-07-03 close. Crypto data is live.</i>\n\n<b>MACRO RADAR</b> — Jul 4, 2026\n\n<i>Built for autonomous systems. Useful for humans.</i>\n\n<b>MACRO OVERVIEW</b>\nRisk Gauge: 83.3/100 (Critical). Phase: EXPANSION.\nComposite Risk: 43.3/100 (MODERATE).\n\n<b>CRYPTO</b>\nBTC: $62,484 · ETH: $1,748 · SOL: $82.16\nCrypto sentiment: 22 (Extreme Fear, 7d avg 17) (rising).\n\n<b>LIQUIDITY & CREDIT</b>\nGlobal CB Liquidity: $17.66T (YoY -3.01%) — fed $6.72T · ecb $6.98T · boj $3.96T\nUS M2: $23.05T (YoY +5.58%)\nHY Credit Spreads: 274bps NORMAL\nBDRY: $12.27 (+1.3% 30d, UP — STABLE_SHIPPING).\nOil: SUPPLY_TIGHTENING, crude 408.4M bbl, refinery 96.6%, SPR 326M.\n\n<b>LAST US SESSION PRICES</b>\nSPY -0.3% | QQQ -3.2% | VIX -2.1% | TLT -1.1% | DXY -0.5% | OIL +0.3%\n\n<b>LAST US SESSION MOVES</b>\n▼ SOXX: -11.6%\n▼ EWY: -10.8%\n▼ SMH: -9.7%\n▼ XLK: -5.2%\n▲ RTX: +5.0%\n▲ XLF: +3.8%\n\n<b>HEGEMONY SNAPBACK</b>\n1.5/6 — WATCH\nUSD Index 120.89 (R), Gold $4124 (Y)\n\n<b>NEXT US SESSION SETUP</b>\n<i>The overnight setup for the next US session is defensive-heavy: financials and healthcare are absorbing rotation while semiconductors and tech face meaningful headwinds into the open. Watch whether the defensive bid holds or fades once US cash markets open. Crypto's relative resilience is a data point worth tracking but does not offset the equity sector signal.</i>\n\napi.agentcanary.ai/api/docs\nnpm i agentcanary-mcp\n<i>Not financial advice</i>",
+  "telegramMessageId": null,
+  "isWeekend": true,
+  "weekendBanner": "Weekend brief — tradfi data reflects Fri 2026-07-03 close. Crypto data is live.",
+  "tradFiAsOf": "2026-07-03"
 }
