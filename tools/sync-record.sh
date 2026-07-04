@@ -1,5 +1,10 @@
 #!/bin/bash
-# Sync Record to GitHub Pages — runs on VPS after each brief cycle
+# Sync Record to GitHub Pages.
+#
+# Manual publish path. The VPS cron entries are intentionally disabled as of
+# 2026-07-04 because GitHub Pages deploy failures were sending noisy operator
+# alerts even when later deploys recovered. Re-enable cron only with an
+# explicit Pages alert/noise plan.
 # No rsync needed — data is local on VPS
 
 set -euo pipefail

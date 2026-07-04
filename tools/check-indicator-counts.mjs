@@ -9,7 +9,9 @@
  *   - /root/agentcanary-landing/.well-known/ai-plugin.json (description_for_model)
  *
  * Exits 0 on consistent; prints WARN lines if any drift. Designed to be cheap
- * (~50ms) so it runs on every sync-record.sh build cycle (3-hourly cron).
+ * (~50ms) so it can run on every sync-record.sh build. The VPS cron publish
+ * path is intentionally disabled as of 2026-07-04; sync-record.sh is currently
+ * a manual publish path.
  *
  * Non-blocking: warnings only, never exits non-zero — avoids breaking the
  * landing rebuild when the catalog grows but the manifests haven't been
