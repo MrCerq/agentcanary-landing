@@ -3,846 +3,213 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AgentCanary — market context layer for AI agents</title>
-<meta name="description" content="Market context layer for AI agents: fresh regime, risk, macro, crypto, narrative & scenario state via REST + MCP. No KYC, wallet-billed USDC, free tier.">
-<meta name="keywords" content="AI agents, MCP server, market context API, regime API, market state, macro API, crypto data, narrative momentum, scenario state, agent tools, schema-stable, MCP market data">
-<meta name="author" content="AgentCanary">
-<meta property="og:title" content="AgentCanary — market context layer for AI agents">
-<meta property="og:description" content="50+ pre-curated, second-order signals with provenance, freshness, and public accuracy scores. REST API + MCP server. Free tier. MCP-native.">
+<title>AgentCanary is rebuilding</title>
+<meta name="description" content="AgentCanary is taking the product offline while the humans and agents rebuild it. Daily market briefs continue on X and Telegram.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="canonical" href="https://agentcanary.ai/">
+<meta property="og:title" content="AgentCanary is rebuilding">
+<meta property="og:description" content="The API product is offline while the humans and agents rebuild it. Daily briefs continue on X and Telegram.">
 <meta property="og:image" content="https://agentcanary.ai/og-image.png">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://agentcanary.ai/">
-<link rel="canonical" href="https://agentcanary.ai/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AgentCanary — market context layer for AI agents">
+<meta name="twitter:title" content="AgentCanary is rebuilding">
+<meta name="twitter:description" content="Daily market briefs continue on X and Telegram while the humans and agents rebuild.">
 <meta name="twitter:image" content="https://agentcanary.ai/og-image.png">
-<meta name="twitter:description" content="Market context layer for AI agents. Schema-stable state via REST + MCP, freshness on every response. No KYC, wallet-billed in stablecoins.">
-<link rel="ai-info" href="/llms.txt">
-<link rel="help" type="text/plain" href="/llms-full.txt">
-<link rel="describedby" type="application/yaml" href="https://api.agentcanary.ai/api/openapi.yaml">
-<link rel="alternate" type="application/feed+json" href="/record/feed.json" title="The Record">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="ai-info" href="/llms.txt">
-<link rel="help" type="text/plain" href="/llms-full.txt">
-<link rel="describedby" type="application/yaml" href="https://api.agentcanary.ai/api/openapi.yaml">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://agentcanary.ai/#org",
-      "name": "AgentCanary",
-      "url": "https://agentcanary.ai",
-      "logo": "https://agentcanary.ai/logo.png",
-      "description": "Market context layer for AI agents. 19 MCP tools, 36 indicators across macro + crypto. Fresh regime, risk, narrative & scenario state via REST + MCP, with transparent source trails. Wallet-billed in USDC on Base, no KYC. Free tier with curl-able no-key demo endpoints.",
-      "foundingDate": "2026",
-      "sameAs": [
-        "https://t.me/agentcanary",
-        "https://x.com/agentcanary"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "api@agentcanary.ai",
-        "contactType": "technical support"
-      }
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://agentcanary.ai/#website",
-      "name": "AgentCanary — The Record",
-      "alternateName": "The Record",
-      "url": "https://agentcanary.ai",
-      "description": "Market context layer for autonomous AI agents. Daily macro briefs with regime, risk, narrative & scenario state and transparent source trails.",
-      "publisher": { "@id": "https://agentcanary.ai/#org" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://agentcanary.ai/record/search?q={query}"
-        },
-        "query-input": "required name=query"
-      },
-      "inLanguage": "en"
-    },
-    {
-      "@type": "DataCatalog",
-      "@id": "https://agentcanary.ai/#datacatalog",
-      "name": "The Record — Market Intelligence Archive",
-      "description": "Daily market-state archive for AI agents. Regime states, whale alerts, narrative lifecycle, macro signals, and forward scenario context — permanently archived with open methodology.",
-      "url": "https://agentcanary.ai/record/",
-      "provider": { "@id": "https://agentcanary.ai/#org" },
-      "temporalCoverage": "2026-02-23/..",
-      "license": "https://agentcanary.ai/terms",
-      "dataset": [
-        {
-          "@type": "Dataset",
-          "name": "Daily Briefs",
-          "license": "https://agentcanary.ai/sources/",
-          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
-          "description": "4 macro market intelligence briefs per day (morning, midday, signal, evening) with regime state, signals, and narrative scores.",
-          "temporalCoverage": "2026-02-23/..",
-          "variableMeasured": ["regime_state", "regime_score", "signals", "narratives", "asset_prices"],
-          "distribution": [
-            {
-              "@type": "DataDownload",
-              "encodingFormat": "application/json",
-              "contentUrl": "https://agentcanary.ai/record/feed.json",
-              "description": "JSON Feed 1.1 with full brief payloads"
-            },
-            {
-              "@type": "DataDownload",
-              "encodingFormat": "application/json",
-              "contentUrl": "https://api.agentcanary.ai/v1/record/{date}",
-              "description": "REST API (requires API key)"
-            }
-          ]
-        },
-        {
-          "@type": "Dataset",
-          "name": "Regime History",
-          "license": "https://agentcanary.ai/sources/",
-          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
-          "description": "Continuous macro regime state classification and gauge score (0–100). States: stagflation, late-cycle, recession, expansion, displacement, neutral.",
-          "variableMeasured": ["regime_state", "regime_score", "shift_date"]
-        },
-        {
-          "@type": "Dataset",
-          "name": "Scorecard",
-          "license": "https://agentcanary.ai/sources/",
-          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
-          "description": "Hindsight accuracy scoring of all market calls. Evaluated 48–72 hours after publication against actual market outcomes.",
-          "variableMeasured": ["accuracy", "calls_correct", "calls_total", "scored_at"]
-        },
-        {
-          "@type": "Dataset",
-          "name": "Whale Alerts",
-          "license": "https://agentcanary.ai/sources/",
-          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
-          "description": "On-chain large transaction signals for BTC and major crypto assets. Direction, magnitude, and source attribution.",
-          "variableMeasured": ["asset", "direction", "magnitude", "source"]
-        },
-        {
-          "@type": "Dataset",
-          "name": "Narrative Scores",
-          "license": "https://agentcanary.ai/sources/",
-          "creator": { "@type": "Organization", "@id": "https://agentcanary.ai/#org" },
-          "description": "Market narrative lifecycle tracking. Scores (0.0–1.0) and lifecycle phase (birth, rising, peak, fading, dead) for active macro narratives.",
-          "variableMeasured": ["narrative_name", "score", "lifecycle"]
-        }
-      ]
-    },
-    {
-      "@type": "WebAPI",
-      "@id": "https://agentcanary.ai/#api",
-      "name": "AgentCanary API",
-      "description": "Programmatic access to The Record — daily briefs, regime history, signals, and scorecards.",
-      "url": "https://api.agentcanary.ai/api/docs",
-      "documentation": "https://agentcanary.ai/api/openapi.json",
-      "provider": { "@id": "https://agentcanary.ai/#org" },
-      "termsOfService": "https://agentcanary.ai/terms",
-      "availableChannel": {
-        "@type": "ServiceChannel",
-        "serviceUrl": "https://api.agentcanary.ai/v1"
-      }
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "@id": "https://agentcanary.ai/#mcp-software",
-  "name": "agentcanary-mcp",
-  "applicationCategory": "DeveloperApplication",
-  "operatingSystem": "any",
-  "description": "Model Context Protocol server exposing 19 AgentCanary tools (briefs, indicators, regime, narratives, predictions, scenarios, derivatives, sentiment, central banks, market structure) for autonomous AI agents. Installable via npx agentcanary-mcp.",
-  "url": "https://www.npmjs.com/package/agentcanary-mcp",
-  "downloadUrl": "https://www.npmjs.com/package/agentcanary-mcp",
-  "softwareVersion": "1.4.1",
-  "publisher": { "@id": "https://agentcanary.ai/#org" },
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "description": "Free Explorer tier with prices + regime + indicator list. Paid tiers via USDC deposit on Base."
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is AgentCanary?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AgentCanary is the market context layer for autonomous AI agents. It delivers fresh regime classifications, risk scores, narrative momentum, scenario state, and 36 indicators across crypto + macro via REST API and MCP — schema-stable JSON with a freshness envelope on every response, so agents can gate on staleness and reason on top."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I connect an AI agent to AgentCanary?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Install the MCP server: npx agentcanary-mcp. Configure your AI client (Claude Desktop, Cursor, Windsurf, any MCP client) with environment variable AC_API_KEY. Or call the REST API directly at api.agentcanary.ai with x-api-key header. Both routes use the same key."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does the free tier include?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Explorer (free) tier is an integration sandbox — designed for agent builders to wire AgentCanary into their stack and verify the shape before committing credits. Includes: real-time crypto prices for 100+ tokens, macro regime classification, indicator catalog list, and the latest brief preview. 50 calls/day, 10 calls/minute. No KYC, no credit card; just a wallet address. The shift to paid tiers (Builder $50 USDC, Signal $150) unlocks indicator values, full briefs, scenarios, news, signals, and the rest of the surface — the depth that production agents actually depend on."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is AgentCanary different from other market data APIs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Three things. (1) Built for agents: schema-stable JSON, freshness envelopes (observed_at, age_seconds, source) on every response, and tier-aware error codes — so an agent can verify staleness before it reasons. (2) Output is decision-shaped state — regime, risk, scenarios, narratives — not raw price feeds. (3) MCP-native. We also publish methodology and outcomes openly at agentcanary.ai/record/, including where our reads are weak — but the product is the state layer, not a forecast."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the freshness SLA for the data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Per-dataset SLAs are public at agentcanary.ai/sources/. Every /api/data response includes a provenance field with observed_at, age_seconds, sla_seconds, and freshness_status (fresh / degraded / stale). Agents can gate on freshness_status before consuming."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is billing handled?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wallet-billed in USDC or USDT on Base, Arbitrum, Optimism, Polygon, or Ethereum. No KYC, no recurring subscription. Deposit grants credits at $0.02/call (Explorer/Builder) down to $0.01/call (Institutional). Cumulative deposits set the tier."
-      }
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "Connect an AI agent to AgentCanary in 3 steps",
-  "description": "Add AgentCanary market intelligence to any MCP-compatible AI client (Claude Desktop, Cursor, Windsurf, custom) in under 60 seconds.",
-  "totalTime": "PT1M",
-  "estimatedCost": {
-    "@type": "MonetaryAmount",
-    "currency": "USD",
-    "value": "0"
-  },
-  "step": [
-    {
-      "@type": "HowToStep",
-      "position": 1,
-      "name": "Get an API key",
-      "text": "POST to https://api.agentcanary.ai/api/keys/create with body {\"walletAddress\": \"0xYOUR_WALLET\", \"chain\": \"base\"}. Response includes the API key + deposit address. Free Explorer tier is active immediately.",
-      "url": "https://api.agentcanary.ai/api/docs#tag/keys/POST/api/keys/create"
-    },
-    {
-      "@type": "HowToStep",
-      "position": 2,
-      "name": "Configure your MCP client",
-      "text": "For Claude Desktop, add to ~/Library/Application Support/Claude/claude_desktop_config.json: {\"mcpServers\": {\"agentcanary\": {\"command\": \"npx\", \"args\": [\"agentcanary-mcp\"], \"env\": {\"AC_API_KEY\": \"ac_...\"}}}}. For Cursor, use the equivalent MCP config in settings.",
-      "url": "https://www.npmjs.com/package/agentcanary-mcp"
-    },
-    {
-      "@type": "HowToStep",
-      "position": 3,
-      "name": "Call tools from the agent",
-      "text": "Restart your MCP client. 19 AgentCanary tools become available: get_briefs, get_indicators, get_regime, get_narratives, get_predictions, get_track_record, diagnose, and more. Each tool returns structured JSON; errors include tier_insufficient / scope_insufficient with the exact upgrade path.",
-      "url": "https://agentcanary.ai/sources/"
-    }
-  ]
-}
-</script>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#04070c;--bg2:#080d18;--card:#0b1120;--card-h:#0f1628;--border:#162040;--border-b:#1e2d55;--t1:#e4e9f2;--t2:#7888a8;--t3:#475272;--y:#ffc53d;--y-dim:#e6b035;--y-glow:rgba(255,197,61,.10);--y-glow-s:rgba(255,197,61,.22);--y-border:rgba(255,197,61,.20);--g:#34d399;--g-glow:rgba(52,211,153,.10);--r:#f87171;--b:#60a5fa;--p:#a78bfa;--o:#fb923c;--o-glow:rgba(251,146,60,.12);--mono:'JetBrains Mono',monospace;--sans:'Instrument Sans',-apple-system,sans-serif}
-*{margin:0;padding:0;box-sizing:border-box}
-html{overflow-x:hidden!important;width:100%}body{background:var(--bg);color:var(--t1);font-family:var(--sans);line-height:1.6;overflow-x:hidden;width:100%}
-body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");pointer-events:none;z-index:9999}
-
-nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:14px 40px;display:flex;align-items:center;justify-content:space-between;background:rgba(4,7,12,.88);backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
-.nav-left{display:flex;align-items:center;gap:18px}
-.nav-logo{font-family:var(--mono);font-weight:700;font-size:17px;letter-spacing:-.5px}
-.nav-logo span{color:var(--y)}
-.nav-pills{display:flex;gap:8px}
-.nav-pill{font-family:var(--mono);font-size:11px;font-weight:500;padding:5px 12px;border-radius:100px;border:1px solid var(--border);color:var(--t2);letter-spacing:.3px}
-.nav-pill.live{border-color:var(--y-border);color:var(--y);background:var(--y-glow)}
-.nav-pill.live::before{content:'';display:inline-block;width:6px;height:6px;background:var(--y);border-radius:50%;margin-right:6px;animation:pulse 2s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-.nav-links{display:flex;gap:24px;align-items:center}
-.nav-links a{font-size:14px;color:var(--t2);text-decoration:none;transition:color .2s}
-.nav-links a:hover{color:var(--t1)}
-.nav-cta{font-family:var(--mono);font-size:12px;font-weight:600;padding:8px 18px;background:var(--y);color:var(--bg);border:none;border-radius:6px;cursor:pointer;text-decoration:none;transition:all .2s}
-.nav-cta:hover{background:var(--y-dim);box-shadow:0 0 20px var(--y-glow-s)}
-
-.hero{padding:170px 40px 80px;max-width:1200px;margin:0 auto;position:relative;overflow:hidden}
-.hero-grid{position:absolute;top:80px;left:-200px;right:-200px;bottom:-100px;overflow:hidden;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none}
-.hero-glow{position:absolute;top:40px;left:50%;transform:translateX(-50%);width:900px;height:500px;background:radial-gradient(circle,rgba(255,197,61,.04) 0%,transparent 65%);pointer-events:none}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:12px;color:var(--g);background:var(--g-glow);border:1px solid rgba(52,211,153,.2);padding:6px 14px;border-radius:100px;margin-bottom:24px;animation:fadeUp .6s ease-out}
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-.hero h1{font-size:clamp(44px,5.8vw,78px);font-weight:700;line-height:1.06;letter-spacing:-2.5px;max-width:820px;animation:fadeUp .6s ease-out .1s both}
-.hero h1 em{font-style:normal;color:var(--y)}
-.hero-sub{font-size:18px;color:var(--t2);max-width:620px;margin-top:22px;line-height:1.7;animation:fadeUp .6s ease-out .2s both}
-.hero-actions{display:flex;gap:14px;margin-top:36px;animation:fadeUp .6s ease-out .3s both;flex-wrap:wrap}
-
-.btn-primary{font-family:var(--mono);font-size:13px;font-weight:600;padding:14px 28px;background:var(--y);color:var(--bg);border:none;border-radius:8px;cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:8px}
-.btn-primary:hover{box-shadow:0 0 28px var(--y-glow-s),0 4px 16px rgba(0,0,0,.3);transform:translateY(-1px)}
-.btn-secondary{font-family:var(--mono);font-size:13px;font-weight:500;padding:14px 28px;background:transparent;color:var(--t1);border:1px solid var(--border-b);border-radius:8px;cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:8px}
-.btn-secondary:hover{border-color:var(--t2);background:rgba(255,255,255,.03)}
-.btn-tg{font-family:var(--mono);font-size:13px;font-weight:500;padding:14px 28px;background:rgba(38,165,220,.08);color:#26a5dc;border:1px solid rgba(38,165,220,.25);border-radius:8px;cursor:pointer;text-decoration:none;transition:all .25s;display:inline-flex;align-items:center;gap:8px}
-.btn-tg:hover{background:rgba(38,165,220,.14);border-color:rgba(38,165,220,.4)}
-
-.stat-wrap{max-width:1200px;margin:0 auto;padding:0 40px}
-.stat-bar{display:flex;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:12px;overflow:hidden;animation:fadeUp .6s ease-out .4s both}
-.stat-item{flex:1;background:var(--card);padding:24px 16px;text-align:center;transition:background .2s}
-.stat-item:hover{background:var(--card-h)}
-.stat-num{font-family:var(--mono);font-size:24px;font-weight:700;color:var(--y);letter-spacing:-1px}
-.stat-lbl{font-size:11px;color:var(--t3);margin-top:3px}
-
-section{max-width:1200px;margin:0 auto;padding:90px 40px}
-.s-label{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--y);margin-bottom:12px}
-.s-title{font-size:clamp(28px,3.5vw,42px);font-weight:700;letter-spacing:-1.5px;line-height:1.15;max-width:680px}
-.s-desc{font-size:16px;color:var(--t2);max-width:580px;margin-top:12px;line-height:1.7}
-
-.trust{max-width:1200px;margin:50px auto 0;padding:0 40px}
-.trust-inner{background:linear-gradient(135deg,rgba(52,211,153,.04),rgba(52,211,153,.01));border:1px solid rgba(52,211,153,.15);border-radius:14px;padding:32px 36px;display:flex;gap:40px;align-items:center}
-.trust-left{flex:1}
-.trust-left h3{font-size:20px;font-weight:700;letter-spacing:-.5px;margin-bottom:8px}
-.trust-left h3 span{color:var(--g)}
-.trust-left p{font-size:14px;color:var(--t2);line-height:1.7}
-.trust-checks{display:flex;flex-wrap:wrap;gap:8px;flex:1}
-.trust-chk{display:flex;align-items:center;gap:8px;padding:10px 14px;background:rgba(52,211,153,.04);border:1px solid rgba(52,211,153,.1);border-radius:8px;font-size:12px;color:var(--t2);white-space:nowrap}
-.trust-chk .ic{color:var(--g);font-weight:700}
-
-.cap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-top:44px}
-.cap-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px;transition:all .25s}
-.cap-card:hover{border-color:var(--border-b);background:var(--card-h);transform:translateY(-2px)}
-.cap-card h3{font-size:15px;font-weight:600;margin-bottom:6px;letter-spacing:-.2px}
-.cap-card p{font-size:13px;color:var(--t2);line-height:1.6}
-.cap-tag{display:inline-block;font-family:var(--mono);font-size:9px;font-weight:600;padding:3px 7px;border-radius:4px;margin-top:10px;letter-spacing:.5px}
-.tag-exc{background:var(--y-glow);color:var(--y);border:1px solid var(--y-border)}
-.tag-live{background:var(--g-glow);color:var(--g);border:1px solid rgba(52,211,153,.2)}
-
-.code-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:44px}
-.code-blk{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden}
-.code-hdr{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--border);font-family:var(--mono);font-size:11px;color:var(--t3)}
-.code-dot{width:8px;height:8px;border-radius:50%}
-.code-body{padding:16px;font-family:var(--mono);font-size:12px;line-height:1.8;color:var(--t2);overflow-x:auto;white-space:pre;max-width:100%}
-.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.code-body .kw{color:var(--p)} .code-body .fn{color:var(--b)} .code-body .str{color:var(--y)} .code-body .cmt{color:var(--t3);font-style:italic} .code-body .key{color:var(--t1)}
-
-.how-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
-.how-step{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:28px 24px}
-.how-num{font-family:var(--mono);font-size:48px;font-weight:700;color:var(--border-b);line-height:1;margin-bottom:12px}
-.how-step h3{font-size:16px;font-weight:600;margin-bottom:6px}
-.how-step p{font-size:13px;color:var(--t2);line-height:1.6}
-.how-tiers{margin-top:32px}
-.how-tiers-title{font-family:var(--mono);font-size:12px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px}
-.tier-row{display:grid;grid-template-columns:100px 90px 1fr 80px;align-items:center;padding:10px 16px;background:var(--card);border:1px solid var(--border);border-radius:6px;margin-bottom:6px;font-size:13px;gap:12px}
-.tier-row:hover{background:var(--card-h);border-color:var(--border-b)}
-.tier-name{font-family:var(--mono);font-weight:600;color:var(--t1);font-size:12px}
-.tier-price{font-family:var(--mono);color:var(--y);font-size:12px}
-.tier-desc{color:var(--t2);font-size:12px}
-.tier-per{font-family:var(--mono);color:var(--t3);font-size:11px;text-align:right}
-.tier-row.featured{border-color:var(--y-border);background:rgba(255,197,61,.03)}
-.tokens-row{display:flex;align-items:center;gap:10px;margin-top:20px;flex-wrap:wrap}
-.tokens-lbl{font-size:11px;color:var(--t3)}
-.tok{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:11px;padding:4px 10px;border:1px solid var(--border);border-radius:100px;color:var(--t2);background:var(--card)}
-.tok-dot{width:6px;height:6px;border-radius:50%}
-
-.tg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px}
-.tg-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px}
-.tg-time{font-family:var(--mono);font-size:11px;font-weight:600;color:var(--y);margin-bottom:4px}
-.tg-card h3{font-size:15px;font-weight:600;margin-bottom:8px}
-.tg-card p{font-size:13px;color:var(--t2);line-height:1.6}
-.tg-card ul{list-style:none;margin-top:10px;display:flex;flex-direction:column;gap:4px}
-.tg-card li{font-size:11px;color:var(--t3);padding-left:14px;position:relative;font-family:var(--mono)}
-.tg-card li::before{content:'→';position:absolute;left:0;color:var(--y)}
-.tg-cta{text-align:center;margin-top:32px}
-
-.cmp{width:100%;margin-top:44px;border-collapse:separate;border-spacing:0;border:1px solid var(--border);border-radius:10px;overflow:hidden}
-.cmp th,.cmp td{padding:12px 16px;text-align:left;font-size:13px;border-bottom:1px solid var(--border)}
-.cmp th{background:var(--card);font-family:var(--mono);font-size:11px;font-weight:600;color:var(--t3);letter-spacing:.5px;text-transform:uppercase}
-.cmp th:last-child{color:var(--y);background:rgba(255,197,61,.03)}
-.cmp td{background:var(--bg);color:var(--t2)}
-.cmp td:first-child{font-weight:600;color:var(--t1)}
-.cmp td:last-child{background:rgba(255,197,61,.02);color:var(--y);font-weight:600}
-.cmp tr:last-child td{border-bottom:none}
-.cmp .ck{color:var(--y);font-weight:700}
-.cmp .no{color:var(--t3)}
-
-.proof-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:44px}
-.proof-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px}
-.proof-num{font-family:var(--mono);font-size:28px;font-weight:700;color:var(--y);letter-spacing:-1px}
-.proof-lbl{font-size:13px;color:var(--t2);margin-top:3px}
-.proof-det{font-size:12px;color:var(--t3);margin-top:8px;line-height:1.5}
-.proof-det a{color:var(--y);text-decoration:none}
-.proof-det a:hover{text-decoration:underline}
-
-.proof-card.prox{border-color:var(--y-border);background:rgba(255,197,61,.02)}
-.proof-card.prox .proof-num{font-size:20px;letter-spacing:-.5px}
-
-.notify{max-width:1200px;margin:0 auto;padding:0 40px}
-.notify-inner{background:var(--card);border:1px solid var(--y-border);border-radius:12px;padding:32px 36px;display:flex;align-items:center;justify-content:space-between;gap:32px}
-.notify-text h3{font-size:18px;font-weight:600;margin-bottom:4px}
-.notify-text p{font-size:14px;color:var(--t2)}
-.notify-form{display:flex;gap:8px}
-.notify-input{font-family:var(--mono);font-size:13px;padding:10px 16px;background:var(--bg);border:1px solid var(--border-b);border-radius:6px;color:var(--t1);outline:none;width:280px}
-.notify-input::placeholder{color:var(--t3)}
-.notify-input:focus{border-color:var(--y-border)}
-.notify-btn{font-family:var(--mono);font-size:12px;font-weight:600;padding:10px 20px;background:var(--y);color:var(--bg);border:none;border-radius:6px;cursor:pointer;white-space:nowrap}
-
-.cta{text-align:center;padding:100px 40px;position:relative;max-width:1200px;margin:0 auto}
-.cta-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:500px;height:350px;background:radial-gradient(circle,rgba(255,197,61,.05),transparent 70%);pointer-events:none}
-.cta h2{font-size:clamp(32px,4vw,48px);font-weight:700;letter-spacing:-2px;position:relative}
-.cta p{font-size:16px;color:var(--t2);margin-top:16px;max-width:480px;margin-left:auto;margin-right:auto;position:relative}
-.cta-btns{display:flex;gap:14px;justify-content:center;margin-top:32px;position:relative;flex-wrap:wrap}
-
-footer{max-width:1200px;margin:0 auto;padding:32px 40px 48px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
-.ft-left{font-family:var(--mono);font-size:12px;color:var(--t3)}
-.ft-disc{display:block;margin-top:6px;font-size:10px;color:var(--t3);opacity:.7;max-width:480px;line-height:1.5}
-.ft-links{display:flex;gap:20px}
-.ft-links a{font-size:12px;color:var(--t3);text-decoration:none;transition:color .2s}
-.ft-links a:hover{color:var(--t2)}
-
-@media(max-width:1024px){.code-grid,.tg-grid,.how-steps{grid-template-columns:1fr}.trust-inner{flex-direction:column}.proof-row{grid-template-columns:repeat(2,1fr)}.tier-row{grid-template-columns:90px 80px 1fr}.tier-per{display:none}.uc-grid{grid-template-columns:repeat(2,1fr)!important}}
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;z-index:200}.hamburger span{display:block;width:22px;height:2px;background:var(--t1);border-radius:2px;transition:all .3s}.hamburger.open span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}.hamburger.open span:nth-child(2){opacity:0}.hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}.nav-mobile{display:none;position:fixed;top:56px;left:0;right:0;background:rgba(4,7,12,.96);backdrop-filter:blur(24px);border-bottom:1px solid var(--border);padding:20px;flex-direction:column;gap:16px;z-index:99}.nav-mobile.open{display:flex}.nav-mobile a{font-size:15px;color:var(--t2);text-decoration:none;padding:8px 0;border-bottom:1px solid var(--border)}.nav-mobile a:last-child{border-bottom:none}.nav-mobile a:hover{color:var(--t1)}.nav-mobile .nav-cta{text-align:center;margin-top:8px}
-@media(max-width:768px){nav{padding:12px 20px}.nav-links,.nav-pills{display:none}.hamburger{display:flex}.hero,section{padding-left:20px;padding-right:20px}.hero{padding-top:130px;padding-bottom:50px}.stat-bar{display:grid;grid-template-columns:repeat(3,1fr)}.stat-bar .stat-item:nth-child(4),.stat-bar .stat-item:nth-child(5){grid-column:span 1}.stat-num{font-size:20px}.proof-row{grid-template-columns:1fr}.cap-grid{grid-template-columns:1fr}.cmp-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:44px -20px 0;padding:0 20px}.cmp{font-size:11px;min-width:580px}.cmp th,.cmp td{padding:8px 10px;white-space:nowrap}.notify-inner{flex-direction:column;text-align:center}.notify-form{width:100%;flex-direction:column}.notify-input{flex:1;width:100%}.notify-btn{width:100%}footer{flex-direction:column;text-align:center;gap:16px}.ft-links{justify-content:center}.uc-grid{grid-template-columns:1fr!important}.uc-wrap{padding:0 20px!important}.stat-wrap{padding:0 20px!important}.trust{padding:0 20px!important}.notify{padding:0 20px!important}.tier-row{grid-template-columns:80px 70px 1fr;font-size:12px}.tier-per{display:none}.how-steps{gap:12px}.hero-actions{flex-direction:column}.hero-actions a{text-align:center;justify-content:center}.code-body{font-size:11px}.trust-inner{padding:24px 20px;gap:24px}.trust-checks{gap:6px}.trust-chk{font-size:11px;padding:8px 10px}.tokens-row{gap:6px}.tok{font-size:10px;padding:3px 8px}[class~="brief-panels-right"]{display:none!important}#briefs .s-title{font-size:24px}#briefs .s-desc{font-size:13px}}
+:root{
+  --bg:#05070b;
+  --panel:#0b111d;
+  --panel2:#101827;
+  --line:#243148;
+  --text:#eef3ff;
+  --muted:#9ca9c3;
+  --dim:#65718a;
+  --yellow:#ffc857;
+  --green:#37d67a;
+  --blue:#77a7ff;
+  --red:#ff6b6b;
+  --mono:"JetBrains Mono",monospace;
+  --sans:"Instrument Sans",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{min-height:100%;margin:0}
+body{
+  background:
+    radial-gradient(circle at 20% 20%,rgba(255,200,87,.13),transparent 28rem),
+    radial-gradient(circle at 80% 80%,rgba(119,167,255,.12),transparent 26rem),
+    linear-gradient(135deg,#05070b 0%,#0b1019 52%,#06090f 100%);
+  color:var(--text);
+  font-family:var(--sans);
+  letter-spacing:0;
+}
+body:before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:44px 44px;
+  mask-image:linear-gradient(to bottom,rgba(0,0,0,.8),transparent 80%);
+}
+.shell{
+  width:min(1120px,calc(100% - 40px));
+  min-height:100vh;
+  margin:0 auto;
+  display:grid;
+  grid-template-rows:auto 1fr auto;
+}
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:28px 0;
+  gap:20px;
+}
+.brand{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-weight:700;font-size:14px;letter-spacing:.08em}
+.mark{width:12px;height:12px;border-radius:50%;background:var(--yellow);box-shadow:0 0 28px rgba(255,200,87,.75)}
+.status{font-family:var(--mono);font-size:12px;color:var(--green);border:1px solid rgba(55,214,122,.28);padding:8px 12px;background:rgba(55,214,122,.06)}
+main{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 360px;
+  align-items:center;
+  gap:56px;
+  padding:36px 0 72px;
+}
+.eyebrow{
+  font-family:var(--mono);
+  color:var(--yellow);
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.08em;
+  margin-bottom:18px;
+}
+h1{
+  margin:0;
+  max-width:760px;
+  font-size:clamp(52px,8vw,104px);
+  line-height:.93;
+  letter-spacing:0;
+}
+.copy{
+  margin:28px 0 0;
+  max-width:650px;
+  color:var(--muted);
+  font-size:20px;
+  line-height:1.55;
+}
+.copy strong{color:var(--text)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:46px;
+  padding:0 18px;
+  border:1px solid var(--line);
+  color:var(--text);
+  text-decoration:none;
+  font-family:var(--mono);
+  font-size:13px;
+  font-weight:700;
+  background:rgba(11,17,29,.72);
+}
+.btn.primary{background:var(--yellow);border-color:var(--yellow);color:#101010}
+.btn:hover{border-color:var(--yellow)}
+.panel{
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(16,24,39,.82),rgba(7,12,20,.82));
+  padding:20px;
+  box-shadow:0 24px 80px rgba(0,0,0,.35);
+}
+.terminal{
+  font-family:var(--mono);
+  font-size:12px;
+  line-height:1.7;
+  color:var(--muted);
+}
+.terminal .top{display:flex;gap:7px;margin-bottom:16px}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--dim)}
+.dot:nth-child(1){background:var(--red)}.dot:nth-child(2){background:var(--yellow)}.dot:nth-child(3){background:var(--green)}
+.line{display:flex;gap:10px;border-top:1px solid rgba(255,255,255,.07);padding:10px 0}
+.line:first-of-type{border-top:0}
+.k{color:var(--dim);min-width:82px}
+.v{color:var(--text)}
+.v.warn{color:var(--yellow)}
+.v.ok{color:var(--green)}
+footer{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  padding:24px 0 30px;
+  color:var(--dim);
+  font-family:var(--mono);
+  font-size:12px;
+}
+footer a{color:var(--muted);text-decoration:none}
+footer a:hover{color:var(--yellow)}
+@media(max-width:860px){
+  .shell{width:min(100% - 28px,680px)}
+  header,footer{align-items:flex-start;flex-direction:column}
+  main{grid-template-columns:1fr;gap:30px;padding-top:24px}
+  .panel{order:-1}
+  .copy{font-size:18px}
+  .actions{flex-direction:column}
+  .btn{width:100%}
+}
 </style>
 </head>
 <body>
+<div class="shell">
+  <header>
+    <div class="brand"><span class="mark"></span><span>AGENTCANARY</span></div>
+    <div class="status">PUBLIC API OFFLINE SOON · BRIEFS STILL RUNNING</div>
+  </header>
 
-<nav>
-  <div class="nav-left">
-    <div class="nav-logo">Agent<span>Canary</span></div>
-    <div class="nav-pills">
-      <div class="nav-pill live">API Live</div>
-      <div class="nav-pill">ClawHub Skill</div>
-    </div>
-  </div>
-  <div class="nav-links">
-    <a href="#briefs">Live Briefs</a>
-    <a href="#capabilities">Capabilities</a>
-    <a href="#how">How It Works</a>
-    <a href="#compare">Compare</a>
-    <a href="#telegram">Telegram</a>
-    <a href="https://api.agentcanary.ai/api/docs">API Docs</a>
-    <a href="/record/" style="color:var(--y);opacity:.85;">The Record</a>
-    <a href="/sources/">Sources</a>
-    <a href="https://apps.apple.com/us/app/proximity-alpha/id6746803981" target="_blank">App</a>
-    
-    <a href="https://app.agentcanary.ai" target="_blank" class="nav-cta">Log in</a>
-  </div>
-  <div class="hamburger" onclick="this.classList.toggle('open');document.getElementById('nav-mobile').classList.toggle('open')">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
-<div id="nav-mobile" class="nav-mobile">
-  <a href="/record/" style="color:var(--y)">The Record</a>
-  <a href="/sources/">Sources</a>
-  <a href="https://api.agentcanary.ai/api/docs">API Docs</a>
-  <a href="#briefs" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Live Briefs</a>
-  <a href="#capabilities" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Capabilities</a>
-  <a href="#how" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">How It Works</a>
-  <a href="#compare" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Compare</a>
-  <a href="#telegram" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">Telegram</a>
-  <a href="https://apps.apple.com/us/app/proximity-alpha/id6746803981" target="_blank" onclick="document.getElementById('nav-mobile').classList.remove('open');document.querySelector('.hamburger').classList.remove('open')">App</a>
-  <a href="https://app.agentcanary.ai" target="_blank" class="nav-cta">Log in</a>
-</div>
-
-<div class="hero">
-  <div class="hero-grid"></div>
-  <div class="hero-glow"></div>
-  <h1>The <em>market context layer</em>&nbsp;for autonomous AI&nbsp;agents</h1>
-  <p class="hero-sub">19 MCP tools · 36 indicators · regime, risk, narrative & scenario state · freshness-stamped · wallet-billed in USDC, no KYC.</p>
-  <div class="hero-actions">
-    <div style="font-family:var(--mono);font-size:13px;font-weight:500;background:var(--y);color:var(--bg);padding:14px 28px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:12px;transition:all .25s;" onclick="navigator.clipboard.writeText('clawhub install agentcanary');this.querySelector('.copy-label').textContent='Copied!'" onmouseover="this.style.background='#ffce3a'" onmouseout="this.style.background='var(--y)'">
-      <span>$ clawhub install agentcanary</span>
-      <span class="copy-label" style="font-size:10px;opacity:.7;">Click to copy</span>
-    </div>
-    <a href="https://t.me/AgentCanary" class="btn-secondary" target="_blank">Join Telegram</a>
-  </div>
-  <div style="margin-top:14px;animation:fadeUp .6s ease-out .4s both;">
-    <span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Free tier · 50 calls/day · Credits never expire · No KYC</span>
-    <div style="margin-top:14px;font-family:var(--mono);font-size:11px;color:var(--t3);">Try without a key: <code style="background:rgba(255,255,255,0.04);padding:2px 8px;border-radius:4px;color:var(--y);cursor:pointer;" onclick="navigator.clipboard.writeText('curl https://api.agentcanary.ai/api/track-record');this.textContent='Copied!';setTimeout(()=>{this.textContent='$ curl https://api.agentcanary.ai/api/track-record'},1500)">$ curl https://api.agentcanary.ai/api/track-record</code></div>
-  </div>
-</div>
-
-<div class="stat-wrap">
-  <div class="stat-bar">
-    <div class="stat-item"><div class="stat-num">250+</div><div class="stat-lbl">Data Sources</div></div>
-    <div class="stat-item"><div class="stat-num">1,197</div><div class="stat-lbl">Assets</div></div>
-    <div class="stat-item"><div class="stat-num">130+</div><div class="stat-lbl">API Endpoints</div></div>
-    <div class="stat-item"><div class="stat-num">4x/day</div><div class="stat-lbl">Telegram Briefs</div></div>
-    <div class="stat-item"><div class="stat-num" id="stat-prod">1yr+</div><div class="stat-lbl">In Production</div></div>
-<script>(function(){var d=new Date(),s=new Date('2025-03-01'),m=Math.floor((d-s)/(30.44*86400000));document.getElementById('stat-prod').textContent=m>=12?Math.floor(m/12)+'yr+':m+'mo';})()</script>
-  </div>
-</div>
-
-<!-- LIVE BRIEFS -->
-<section id="briefs" style="padding-bottom:50px;">
-  <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:24px;">
-    <div>
-      <div class="s-label">Live Intelligence</div>
-      <h2 class="s-title">See it before you buy&nbsp;it.</h2>
-      <p class="s-desc" style="margin-top:8px;">Every card is auto-generated from live API data. 4× daily. No curation, no delay.</p>
-    </div>
-    <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;">
-      <div id="brief-countdown" style="font-family:var(--mono);font-size:12px;color:var(--t3);background:var(--card);border:1px solid var(--border);border-radius:100px;padding:7px 14px;display:flex;align-items:center;gap:8px;">
-        <span style="width:6px;height:6px;background:var(--g);border-radius:50%;display:inline-block;animation:pulse 2s ease-in-out infinite;"></span>
-        <span id="countdown-text">Next brief in —</span>
+  <main>
+    <section>
+      <div class="eyebrow">THE HUMANS AND AGENTS ARE IN THE ENGINE ROOM</div>
+      <h1>We took the product apart.</h1>
+      <p class="copy">
+        AgentCanary is being rebuilt. The market-context API, MCP surface, record pages, docs, and source pages are going offline while we strip the machine down and keep only what earns its keep.
+        <strong>The daily briefs continue on X and Telegram.</strong>
+      </p>
+      <p class="copy">
+        If AgentCanary comes back as a product, it comes back smaller, sharper, and less theatrical. Until then: the agents keep reading, the humans keep arguing, and the canary keeps posting.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="https://x.com/agentcanaryHQ">Follow on X</a>
+        <a class="btn" href="https://t.me/agentcanary">Join Telegram</a>
+        <a class="btn" href="https://g2.agentcanary.ai">G2 Console</a>
       </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- Card preview container — loaded from /data/latest-brief.json -->
-  <a href="/record/2026/05/17/signal/" id="brief-card-link" style="display:block;position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--border-b);background:var(--card);text-decoration:none;color:inherit;transition:border-color .25s;" onmouseover="this.style.borderColor='var(--y-border)'" onmouseout="this.style.borderColor='var(--border-b)'">
-    <div id="brief-card" style="width:100%;background:linear-gradient(135deg,var(--card) 0%,var(--bg2) 100%);position:relative;overflow:hidden;cursor:pointer;">
-      <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,197,61,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,197,61,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 40%,black,transparent);pointer-events:none;"></div>
-      <div id="brief-glow" style="position:absolute;top:20%;right:10%;width:400px;height:300px;pointer-events:none;"></div>
-      <div style="position:relative;padding:32px 36px;width:100%;">
-        <div id="brief-body" class="brief-card-layout" style="display:flex;justify-content:space-between;align-items:flex-start;gap:40px;flex-wrap:wrap;">
-          <div style="flex:1;min-width:280px;max-width:680px;">
-            <div id="brief-header" style="display:flex;align-items:center;gap:10px;margin-bottom:20px;"></div>
-            <div id="brief-headline" style="font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-1px;line-height:1.2;margin-bottom:12px;"></div>
-            <div id="brief-desc" style="font-size:13px;color:var(--t2);line-height:1.7;"></div>
-            <div id="brief-excerpt" style="font-size:13px;color:var(--t2);line-height:1.7;margin-top:14px;"></div>
-            <div id="brief-tags" style="display:flex;gap:6px;margin-top:16px;flex-wrap:wrap;"></div>
-          </div>
-          <div id="brief-panels" class="brief-panels-right" style="display:flex;flex-direction:column;gap:8px;min-width:260px;max-width:280px;"></div>
-        </div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.04);">
-          <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">AGENTCANARY · api.agentcanary.ai · Not financial advice</div>
-          <div style="font-family:var(--mono);font-size:10px;color:var(--t3);">Auto-generated from live API</div>
-        </div>
+    <aside class="panel" aria-label="status">
+      <div class="terminal">
+        <div class="top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+        <div class="line"><span class="k">api</span><span class="v warn">retiring</span></div>
+        <div class="line"><span class="k">mcp</span><span class="v warn">retiring</span></div>
+        <div class="line"><span class="k">record</span><span class="v warn">archived</span></div>
+        <div class="line"><span class="k">x briefs</span><span class="v ok">alive</span></div>
+        <div class="line"><span class="k">telegram</span><span class="v ok">alive</span></div>
+        <div class="line"><span class="k">humans</span><span class="v">caffeinated</span></div>
+        <div class="line"><span class="k">agents</span><span class="v">suspicious</span></div>
       </div>
-    </div>
-  </a>
+    </aside>
+  </main>
 
-  <!-- Actions below card -->
-  <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px;flex-wrap:wrap;gap:12px;">
-    <div style="display:flex;gap:10px;flex-wrap:wrap;">
-      <a href="/record/" class="btn-primary" style="font-size:12px;padding:10px 20px;">View The Record →</a>
-      <a href="https://t.me/AgentCanary" class="btn-tg" style="font-size:12px;padding:10px 20px;" target="_blank">View on Telegram</a>
-    </div>
-    <div style="font-family:var(--mono);font-size:11px;color:var(--t3);">28 briefs · 7 day rolling feed</div>
-  </div>
-
-<script>
-(function(){
-  var THEMES={radar:{accent:'var(--o)',border:'var(--o)',bg:'var(--o-glow)',glow:'rgba(251,146,60,.08)',label:'MACRO RADAR'},signal:{accent:'var(--b)',border:'var(--b)',bg:'rgba(96,165,250,.1)',glow:'rgba(96,165,250,.08)',label:'SIGNAL SCAN'},pulse:{accent:'var(--y)',border:'var(--y)',bg:'var(--y-glow)',glow:'rgba(255,197,61,.08)',label:'MARKET PULSE'},wrap:{accent:'var(--p)',border:'var(--p)',bg:'rgba(167,139,250,.1)',glow:'rgba(167,139,250,.08)',label:'MARKET WRAP'},cycle:{accent:'var(--g)',border:'var(--g)',bg:'var(--g-glow)',glow:'rgba(52,211,153,.08)',label:'CYCLE REPORT'}};
-  var TAG_COLORS={red:{c:'var(--r)',bg:'rgba(248,113,113,.06)',b:'rgba(248,113,113,.2)'},yellow:{c:'var(--y)',bg:'var(--y-glow)',b:'rgba(255,197,61,.2)'},green:{c:'var(--g)',bg:'rgba(52,211,153,.06)',b:'rgba(52,211,153,.2)'},blue:{c:'var(--b)',bg:'rgba(96,165,250,.06)',b:'rgba(96,165,250,.2)'},purple:{c:'var(--p)',bg:'rgba(167,139,250,.06)',b:'rgba(167,139,250,.2)'}};
-  var ROW_COLORS={red:'var(--r)',yellow:'var(--y)',green:'var(--g)',blue:'var(--b)',purple:'var(--p)'};
-
-  var REGIME_LABELS={BULL_REGIME:'Bullish',BEAR_REGIME:'Bearish',DISTRIBUTION:'Distribution',ACCUMULATION:'Accumulation',IGNITION:'Ignition',RISK_OFF:'Risk-Off',RISK_ON:'Risk-On',CAPITULATION:'Capitulation'};
-  function humanize(s){if(!s)return s;var out=s;Object.keys(REGIME_LABELS).forEach(function(k){out=out.replace(new RegExp('\\b'+k+'\\b','g'),REGIME_LABELS[k]);});out=out.replace(/\b(from|to)\s+unk\b/gi,'$1 unknown');out=out.replace(/\b1d:/g,'Daily:').replace(/\b4h:/g,'4h:');return out;}
-  function deriveSlot(b){return b.slot||{morning:'radar',midday:'pulse',intelligence:'signal',evening:'wrap',signal:'signal',radar:'radar',pulse:'pulse',wrap:'wrap'}[b.session]||b.session;}
-  function cleanHeadline(b){var h=b.headline||'';var s=deriveSlot(b);if(s==='pulse'){var m=h.match(/^(BTC|ETH|SOL)\s+(\w+)\s+on\s+daily/);if(m){var parts=[m[1]+' '+(REGIME_LABELS[m[2]]||m[2])];var w=h.match(/(\d+)\s+whale\s+moves/);if(w)parts.push(w[1]+' whale moves');return parts.join(' · ');}};if(s==='wrap'&&/^\d+\s+bullish/.test(h)){var d=b.desc||'';var fs=d.replace(/^MARKET WRAP[^.]*\.\s*/i,'').split(/[.!]\s/)[0];if(fs&&fs.length>20)return fs.slice(0,100)+(fs.length>100?'…':'');}return h;}
-  function cleanDesc(b){var d=b.desc||'';var s=deriveSlot(b);if(s==='pulse')return humanize(d);if(s==='radar'){d=d.replace(/^(STAGFLATION|EXPANSION|LATE_CYCLE|RECESSION|NEUTRAL)\.?\s*/i,function(_,r){return r.charAt(0)+r.slice(1).toLowerCase().replace(/_/g,' ')+' regime · ';});d=d.replace(/F&G:\s*—\.?\s*/i,'Fear & Greed: neutral · ');d=d.replace(/F&G:\s*(\d+)\.?\s*/i,'Fear & Greed: $1 · ');d=d.replace(/\.\s*(NORMAL|WATCH|ALERT|CRITICAL)\.?\s*$/i,function(_,l){return ' · '+l.charAt(0)+l.slice(1).toLowerCase();});d=d.replace(/[·\s.]+$/,'');}return d;}
-
-  fetch('https://api.agentcanary.ai/api/briefs/latest?v='+Date.now()).then(function(r){return r.json()}).then(function(b){
-    var SESSION_TO_SLOT={morning:'radar',midday:'pulse',intelligence:'signal',evening:'wrap',signal:'signal',radar:'radar',pulse:'pulse',wrap:'wrap'};
-    var slot=b.slot||SESSION_TO_SLOT[b.session]||b.session;
-    if(!slot){document.getElementById('brief-card').innerHTML='<div style="padding:60px 36px;text-align:center;font-family:var(--mono);font-size:13px;color:var(--t3);">First brief posts at 03:15 UTC tomorrow.</div>';return;}
-    var t=THEMES[slot]||THEMES.radar;
-    document.getElementById('brief-glow').style.background='radial-gradient(circle,'+t.glow+' 0%,transparent 65%)';
-    document.getElementById('brief-header').innerHTML='<div style="font-family:var(--mono);font-size:11px;font-weight:600;padding:4px 10px;border-radius:100px;border:1px solid '+t.border+';color:'+t.accent+';background:'+t.bg+';display:flex;align-items:center;gap:6px;"><span style="width:6px;height:6px;background:'+t.accent+';border-radius:50%;animation:pulse 2s ease-in-out infinite;"></span>'+t.label+'</div><span style="font-family:var(--mono);font-size:11px;color:var(--t3);">Latest Brief</span>';
-
-    var cleanedHL=cleanHeadline(b);
-    var hl=cleanedHL.split('\n');
-    document.getElementById('brief-headline').innerHTML=hl[0]+(hl[1]?'<br><span style="color:'+(b.headlineColor||t.accent)+';">'+hl[1]+'</span>':'');
-    document.getElementById('brief-desc').textContent=cleanDesc(b);
-    document.getElementById('brief-tags').innerHTML=(b.tags||[]).map(function(tg){var tc=TAG_COLORS[tg.c]||TAG_COLORS.yellow;return '<span style="font-family:var(--mono);font-size:10px;padding:3px 8px;border-radius:4px;border:1px solid '+tc.b+';background:'+tc.bg+';color:'+tc.c+';">'+tg.t+'</span>';}).join('');
-    function gaugeColor(v){var n=Number(v);if(isNaN(n))return 'var(--t2)';if(n<30)return 'var(--g)';if(n<60)return 'var(--y)';return 'var(--r)';}
-    function gaugeLevel(v){var n=Number(v);if(isNaN(n))return '';if(n<30)return 'LOW';if(n<60)return 'ELEVATED';if(n<80)return 'HIGH';return 'CRITICAL';}
-    var ph=(b.panels||[]).map(function(p){
-      var body;
-      if(p.gauge){
-        var v=p.gauge.value;
-        body='<div style="display:flex;align-items:baseline;gap:6px;"><span style="font-family:var(--mono);font-size:28px;font-weight:700;color:'+gaugeColor(v)+';">'+v+'</span><span style="font-family:var(--mono);font-size:11px;color:var(--t3);">/ 100</span></div><div style="font-family:var(--mono);font-size:10px;color:'+gaugeColor(v)+';margin-top:2px;letter-spacing:.5px;">'+gaugeLevel(v)+'</div>';
-      } else {
-        body='<div style="display:flex;flex-direction:column;gap:4px;">'+(p.rows||[]).map(function(r){return '<div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;"><span style="color:var(--t2);">'+r.k+'</span><span style="color:'+(ROW_COLORS[r.c]||'var(--t2)')+';">'+humanize(r.v)+'</span></div>';}).join('')+'</div>';
-      }
-      return '<div style="background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:8px;padding:14px 16px;"><div style="font-family:var(--mono);font-size:10px;color:var(--t3);margin-bottom:6px;">'+p.label+'</div>'+body+'</div>';
-    }).join('');
-    document.getElementById('brief-panels').innerHTML=ph;
-    // Pull SNAPSHOT paragraph from body as the preview excerpt
-    var bodyRaw = b.body || b.telegramText || b.content || '';
-    var excerpt = '';
-    if(bodyRaw){
-      var bMatch = bodyRaw.match(/<b>SNAPSHOT<\/b>\s*([\s\S]*?)(?=<b>|$)/i);
-      if(bMatch){
-        excerpt = bMatch[1].replace(/<[^>]+>/g,'').trim().split('\n').filter(function(l){return l.trim();}).slice(0,2).join(' ');
-      } else {
-        // Fallback: first paragraph after intro
-        excerpt = bodyRaw.replace(/<[^>]+>/g,'').replace(/^[\s\S]*?\n\n/,'').split('\n').filter(function(l){return l.trim();})[0]||'';
-      }
-      if(excerpt.length>280) excerpt = excerpt.slice(0,277)+'…';
-    }
-    document.getElementById('brief-excerpt').textContent = excerpt;
-    // Set the wrapper link to the per-brief permalink so clicking jumps direct.
-    var linkSlot = deriveSlot(b);
-    if(b.date && linkSlot){
-      var parts = b.date.split('-');
-      var link = document.getElementById('brief-card-link');
-      if(link) link.href = '/record/' + parts[0] + '/' + parts[1] + '/' + parts[2] + '/' + linkSlot + '/';
-    }
-    if(b.telegramMessageId){
-      var tgLink=document.getElementById('brief-tg-link');if(tgLink){tgLink.href='https://t.me/agentcanary/'+b.telegramMessageId;tgLink.style.display='inline-flex';}
-    }
-  }).catch(function(e){console.error('brief-card fetch failed:',e);});
-})();
-</script>
-</section>
-
-<script>
-(function(){
-  var times=[4.5,10.5,16.5,22.5],el=document.getElementById('countdown-text');
-  var names=['Macro Radar','Signal Scan','Market Pulse','Market Wrap'];
-  function upd(){
-    var n=new Date(),u=n.getUTCHours()*60+n.getUTCMinutes();
-    var mins=[times[0]*60,times[1]*60,times[2]*60,times[3]*60];
-    var next=-1,ni=0;
-    for(var i=0;i<4;i++){if(mins[i]>u){next=mins[i]-u;ni=i;break;}}
-    if(next<0){next=1440-u+mins[0];ni=0;}
-    var h=Math.floor(next/60),m=next%60;
-    el.textContent='Next '+names[ni]+' brief in '+h+'h '+m+'m';
-  }
-  upd();setInterval(upd,60000);
-})();
-</script>
-
-<!-- USE CASES -->
-<div class="uc-wrap" style="max-width:1200px;margin:44px auto 0;padding:0 40px;">
-  <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:32px 36px;">
-    <div style="font-family:var(--mono);font-size:11px;color:var(--t3);letter-spacing:1px;text-transform:uppercase;margin-bottom:16px;">What people use AgentCanary for</div>
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">For AI Agents</div>
-    <div class="uc-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Avoid trading in risk-off regimes</div>
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Size positions based on macro context</div>
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Detect whale-driven fake moves</div>
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Power trading bots with regime awareness</div>
-    </div>
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:24px 0 12px;">For Agent Builders</div>
-    <div class="uc-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Stop building your own 80-source data pipeline</div>
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>50+ pre-curated signals with provenance + freshness</div>
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Public accuracy scores — never retroactively hidden</div>
-      <div style="font-size:14px;color:var(--t2);line-height:1.6;"><span style="color:var(--g);font-weight:700;margin-right:6px;">✓</span>Free tier — wire in via REST or MCP in minutes</div>
-    </div>
-  </div>
+  <footer>
+    <div>AgentCanary · rebuild window open</div>
+    <div><a href="https://x.com/agentcanaryHQ">X</a> · <a href="https://t.me/agentcanary">Telegram</a> · <a href="https://g2.agentcanary.ai">G2</a></div>
+  </footer>
 </div>
-
-<div class="trust">
-  <div class="trust-inner">
-    <div class="trust-left">
-      <h3>The finance skill that <span>can't steal from you</span></h3>
-      <p>Crypto and finance skills are the #1 target for prompt injection and key theft. AgentCanary is API-only — no binaries, no local execution, no secrets in the LLM context.</p>
-    </div>
-    <div class="trust-checks">
-      <div class="trust-chk"><span class="ic">✓</span> API-only</div>
-      <div class="trust-chk"><span class="ic">✓</span> No keys in LLM context</div>
-      <div class="trust-chk"><span class="ic">✓</span> Wallet-based auth</div>
-      <a href="https://www.virustotal.com/gui/file/29e80525c5a4cb2a3bd09f2e83aa48ee7892b076b09c733a71a004741dc29b43/detection" target="_blank" class="trust-chk" style="text-decoration:none;"><span class="ic">✓</span> VirusTotal verified</a>
-      <div class="trust-chk"><span class="ic">✓</span> No filesystem access</div>
-      <div class="trust-chk"><span class="ic">✓</span> Helmet security headers</div>
-      <div class="trust-chk"><span class="ic">✓</span> Rate-limited</div>
-      <div class="trust-chk"><span class="ic">✓</span> Multi-chain deposits</div>
-      <div class="trust-chk"><span class="ic">✓</span> 1 year in production</div>
-    </div>
-  </div>
-</div>
-
-<section id="capabilities">
-  <div class="s-label">Capabilities</div>
-  <h2 class="s-title">130+ endpoints. Zero raw data dumps.</h2>
-  <p class="s-desc">Everything your agent needs to understand the market — not just what happened, but what it means.</p>
-
-  <div style="margin-top:44px;">
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;">Cross-Asset Intelligence</div>
-    <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3><code>GET /api/macro/regime</code></h3><p>Current macro regime + risk gauge</p><span class="cap-tag tag-exc">ENHANCED</span></div>
-      <div class="cap-card"><h3><code>GET /api/regime</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Enhanced regime with positioning matrix</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3><code>GET /api/regime/matrix</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Regime-to-asset positioning matrix</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-    </div>
-
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Expectations & Narratives</div>
-    <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3><code>GET /api/expectations</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>19 narrative scores (1-5 scale)</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3><code>GET /api/expectations/crowded</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Crowded narratives only (4-5)</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3><code>GET /api/expectations/early</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Early/contrarian opportunities (1-2)</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-    </div>
-
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Crypto Intelligence</div>
-    <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3><code>GET /api/crypto-reentry</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>9-condition crypto timing score</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3><code>GET /api/premiums</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>Coinbase + Kimchi premium</p><span class="cap-tag tag-live">LIVE</span></div>
-      <div class="cap-card"><h3><code>GET /api/defi/intelligence</code></h3><p>Full DeFi snapshot: yields, perps, chains, unlocks</p><span class="cap-tag tag-live">LIVE</span></div>
-    </div>
-
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">Thesis & Risk</div>
-    <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3><code>GET /api/kill-conditions</code> <span class="badge" style="background:var(--y-glow);color:var(--y);border:1px solid var(--y-border);font-size:8px;padding:2px 6px;border-radius:3px;margin-left:6px;">NEW</span></h3><p>6 thesis invalidation monitors</p><span class="cap-tag tag-exc">ONLY ON AGENTCANARY</span></div>
-      <div class="cap-card"><h3><code>GET /api/scenarios/current</code></h3><p>6 macro scenarios with probabilities</p><span class="cap-tag tag-live">LIVE</span></div>
-      <div class="cap-card"><h3><code>GET /api/scenarios/signals</code></h3><p>Active signals driving probabilities</p><span class="cap-tag tag-live">LIVE</span></div>
-    </div>
-
-    <div style="font-family:var(--mono);font-size:11px;color:var(--y);letter-spacing:1px;text-transform:uppercase;margin:28px 0 10px;">News & Analysis</div>
-    <div class="cap-grid" style="margin-top:0;">
-      <div class="cap-card"><h3><code>GET /api/news/trending</code></h3><p>Trending financial news</p><span class="cap-tag tag-live">LIVE</span></div>
-      <div class="cap-card"><h3><code>GET /api/news/market-analysis</code></h3><p>AI market analysis</p><span class="cap-tag tag-live">LIVE</span></div>
-      <div class="cap-card"><h3><code>GET /api/data/*</code></h3><p>Real-time market data (1,197+ assets)</p><span class="cap-tag tag-live">LIVE</span></div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="s-label">Integration</div>
-  <h2 class="s-title">Three lines to market intelligence.</h2>
-  <p class="s-desc">Install the <a href="https://clawhub.ai/MrCerq/agentcanary" target="_blank" style="color:var(--y);text-decoration:none;border-bottom:1px solid rgba(255,197,61,.3);">ClawHub skill</a> or call the API directly. One call, full context.</p>
-  <div class="code-grid">
-    <div class="code-blk">
-      <div class="code-hdr"><div class="code-dot" style="background:var(--y);"></div> request.js — macro regime</div>
-      <div class="code-body"><span class="kw">const</span> <span class="key">res</span> = <span class="kw">await</span> <span class="fn">fetch</span>(
-  <span class="str">"https://api.agentcanary.ai/api/macro-snapshot"</span>,
-  { <span class="key">headers</span>: { <span class="str">"x-api-key"</span>: YOUR_KEY } }
-);
-<span class="kw">const</span> { <span class="key">businessCycle</span>, <span class="key">regime</span> } = <span class="kw">await</span> res.<span class="fn">json</span>();
-
-<span class="cmt">// → { phase: "EXPANSION", riskGauge: 35,</span>
-<span class="cmt">//     regime: "Risk-On", growth: "UP",</span>
-<span class="cmt">//     inflation: "DOWN" }</span></div>
-    </div>
-    <div class="code-blk">
-      <div class="code-hdr"><div class="code-dot" style="background:var(--o);"></div> AI agent prompt</div>
-      <div class="code-body"><span class="cmt"># AgentCanary skill installed from ClawHub</span>
-
-<span class="str">"What's the current macro regime and</span>
-<span class="str"> risk environment?"</span>
-
-<span class="cmt"># Agent response:</span>
-<span class="cmt"># "EXPANSION phase. Risk gauge 35/100.</span>
-<span class="cmt">#  Growth trending UP, inflation DOWN.</span>
-<span class="cmt">#  Regime: Risk-On. Historically, risk</span>
-<span class="cmt">#  assets perform well in this regime</span>
-<span class="cmt">#  and stress indicators are low."</span></div>
-    </div>
-  </div>
-</section>
-
-<section id="how">
-  <div class="s-label">How It Works</div>
-  <h2 class="s-title">Install. Evaluate. Deposit when ready.</h2>
-  <div class="how-steps">
-    <div class="how-step"><div class="how-num">1</div><h3>Install the ClawHub skill</h3><p>Free. Your agent gets 50 calls/day — real-time prices across 1,197 assets. No deposit, no signup.</p><a href="https://clawhub.ai/MrCerq/agentcanary" target="_blank" style="font-family:var(--mono);font-size:12px;display:inline-block;margin-top:12px;padding:8px 16px;background:var(--y);color:var(--bg);border-radius:6px;text-decoration:none;font-weight:600;">Install on ClawHub</a></div>
-    <div class="how-step"><div class="how-num">2</div><h3>See the intelligence live</h3><p>Follow @AgentCanary on Telegram. Macro regime, stock movers, whale alerts, social intelligence — 4x/day from the same API.</p></div>
-    <div class="how-step"><div class="how-num">3</div><h3>Deposit USDC when you need more</h3><p>Unlock regime, signals, AI reports, and all 130+ endpoints. Credits never expire. No subscriptions. No KYC.</p><a href="https://app.agentcanary.ai" target="_blank" style="font-family:var(--mono);font-size:12px;display:inline-block;margin-top:12px;padding:8px 16px;border:1px solid var(--border-b);color:var(--t1);border-radius:6px;text-decoration:none;">Sign up →</a></div>
-  </div>
-  <div class="how-tiers" id="pricing">
-    <div class="how-tiers-title">Simple pay-per-call pricing</div>
-    <div class="tier-row featured"><div class="tier-name">All Endpoints</div><div class="tier-price">$0.02/call</div><div class="tier-desc">Deposit credits upfront, deduct per call · No monthly fees · No tiers</div><div class="tier-per">Credits never expire</div></div>
-    <div class="tier-row"><div class="tier-name">Briefs</div><div class="tier-price">Free</div><div class="tier-desc">Public access via Telegram · No auth required</div><div class="tier-per">—</div></div>
-  </div>
-  <div class="tokens-row">
-    <span class="tokens-lbl">Accepted:</span>
-    <div class="tok"><div class="tok-dot" style="background:#2775ca;"></div> USDC</div>
-    <div class="tok"><div class="tok-dot" style="background:#26a17b;"></div> USDT</div>
-    <span style="font-size:11px;color:var(--t3);">on Base · Ethereum · Arbitrum · Optimism · Polygon</span>
-  </div>
-</section>
-
-<section id="telegram">
-  <div class="s-label">Live Proof</div>
-  <h2 class="s-title">See the API performing. 4x/day. On Telegram.</h2>
-  <p class="s-desc">Every post is auto-generated from live endpoints. Scroll the history. The data speaks.</p>
-  <div class="tg-grid">
-    <div class="tg-card"><div class="tg-time">4:15 AM UTC</div><h3>Macro Radar</h3><p>Macro and regime — overnight moves, Asia session.</p><ul><li>Macro regime + risk gauge</li><li>Key z-scores (10Y, DXY, HY)</li><li>Overnight: gold, oil, SPY</li><li>Fear & Greed index</li></ul></div>
-    <div class="tg-card"><div class="tg-time">10:15 AM UTC</div><h3>Signal Scan</h3><p>AI market analysis — themes, drivers, scenarios.</p><ul><li>Forward scenarios (if X → Y)</li><li>Per-ticker news drivers</li><li>Narrative crowding signals</li><li>Positioning + implications</li></ul></div>
-    <div class="tg-card"><div class="tg-time">4:15 PM UTC</div><h3>Market Pulse</h3><p>US session — what's moving and why.</p><ul><li>BTC/ETH/SOL signal states</li><li>Whale alerts + liquidations</li><li>Funding rate arb (top 3)</li><li>Scenario shifts</li></ul></div>
-    <div class="tg-card"><div class="tg-time">10:15 PM UTC</div><h3>Market Wrap</h3><p>US close data + overnight setup.</p><ul><li>US close movers + summary</li><li>Social intel (200+ accounts)</li><li>Breaking news + sentiment</li><li>Economic calendar: tomorrow</li></ul></div>
-  </div>
-  <div class="tg-cta"><a href="https://t.me/AgentCanary" class="btn-tg" target="_blank" style="font-size:14px;padding:16px 32px;">Join @AgentCanary on Telegram</a></div>
-</section>
-
-<section id="compare">
-  <div class="s-label">Comparison</div>
-  <h2 class="s-title">They sell data. We sell intelligence.</h2>
-  <div class="cmp-wrap"><table class="cmp">
-    <thead><tr><th>Capability</th><th>AIsa</th><th>Simmer</th><th>CoinGecko</th><th>AgentCanary</th></tr></thead>
-    <tbody>
-      <tr><td>Macro Regime Detection</td><td class="no">—</td><td class="no">—</td><td class="no">—</td><td class="ck">✓ Cycle + Risk Gauge</td></tr>
-      <tr><td>AI Market Reports</td><td class="no">—</td><td class="no">—</td><td class="no">—</td><td class="ck">✓ 2 daily reports</td></tr>
-      <tr><td>Social Intelligence</td><td class="no">—</td><td class="no">—</td><td class="no">—</td><td class="ck">✓ 200+ X/TG accounts</td></tr>
-      <tr><td>Technical Indicators</td><td class="no">—</td><td class="no">—</td><td class="no">—</td><td class="ck">✓ 29 per coin</td></tr>
-      <tr><td>Signal Classification</td><td class="no">—</td><td>Polymarket only</td><td class="no">—</td><td class="ck">✓ 100 coins, 2 timeframes</td></tr>
-      <tr><td>Multi-Asset</td><td>Limited</td><td>Limited</td><td>Crypto only</td><td class="ck">✓ 1,197 assets</td></tr>
-      <tr><td>Whale + Orderbook</td><td class="no">—</td><td class="no">—</td><td class="no">—</td><td class="ck">✓ On-chain + spoofing</td></tr>
-      <tr><td>Crypto Payments</td><td class="no">—</td><td class="no">—</td><td>Enterprise</td><td class="ck">✓ USDC/USDT (5 EVM chains)</td></tr>
-      <tr><td>No Secrets in Prompt</td><td class="no">Keys required</td><td class="no">Keys required</td><td class="no">Keys required</td><td class="ck">✓ Wallet-based auth</td></tr>
-    </tbody>
-  </table>
-  </div><div style="font-size:11px;color:var(--t3);margin-top:10px;font-style:italic;">Based on publicly available features, February 2026.</div>
-</section>
-
-<section>
-  <div class="s-label">Proof</div>
-  <h2 class="s-title">This isn't vapor. It's running.</h2>
-  <div class="proof-row">
-    <div class="proof-card"><div class="proof-num" id="prod-time">1yr+</div><div class="proof-lbl">In Production</div><div class="proof-det">Live infrastructure since mid-2025. Daily active users across 20+ countries.</div></div>
-<script>(function(){var d=new Date(),s=new Date('2025-03-01'),m=Math.floor((d-s)/(30.44*86400000));document.getElementById('prod-time').textContent=m>=12?Math.floor(m/12)+'yr+':m+'mo';})()</script>
-    <div class="proof-card"><div class="proof-num">250+</div><div class="proof-lbl">Data Sources</div><div class="proof-det">CoinGecko, FRED, Binance, Glassnode, 200+ X/Telegram accounts, 50 newsletters.</div></div>
-    <div class="proof-card"><div class="proof-num">24/7</div><div class="proof-lbl">api.agentcanary.ai</div><div class="proof-det">130+ endpoints. Sub-second response times. Join Telegram to see it live.</div></div>
-    <div class="proof-card"><div class="proof-num" id="live-uptime">365d</div><div class="proof-lbl">Continuous Uptime</div><div class="proof-det">Live since March 2025. Zero extended outages.</div></div>
-<script>(function(){var s=new Date('2025-03-01'),u=function(){var n=Date.now()-s.getTime(),d=Math.floor(n/864e5),h=Math.floor((n%864e5)/36e5);document.getElementById('live-uptime').textContent=d+'d '+h+'h';};u();setInterval(u,36e5);})()</script>
-  </div>
-  <a id="app" href="https://apps.apple.com/us/app/proximity-alpha/id6746803981" target="_blank" style="display:flex;align-items:center;gap:28px;padding:28px 32px;margin-top:12px;background:var(--card);border:1px solid var(--border);border-radius:10px;text-decoration:none;color:inherit;transition:border-color .3s,box-shadow .3s;" onmouseover="this.style.borderColor='var(--y-border)';this.style.boxShadow='0 0 30px rgba(255,197,61,.06)'" onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">
-    <div style="flex:1;">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;"><span style="font-size:18px;font-weight:700;color:var(--t1);letter-spacing:-.3px;">Proximity Alpha</span><span style="font-family:var(--mono);font-size:10px;font-weight:600;color:var(--y);letter-spacing:.5px;border:1px solid var(--y-border);padding:2px 8px;border-radius:100px;">iOS</span></div>
-      <div style="font-size:13px;color:var(--y);margin-bottom:6px;">Zero noise. Your edge — structured.</div>
-      <div style="font-size:13px;color:var(--t2);line-height:1.6;">Stay ahead of fast-moving markets with Proximity — a professional-grade, fully customizable financial intelligence platform built for serious traders and investors. Navigate with real-time institutional flows, narrative detection, and on-device AI. 50+ customizable widgets across crypto, stocks &amp; macro. Built on the same AgentCanary API — regime awareness, whale alerts, and narrative scoring in your pocket.</div>
-      <div style="margin-top:12px;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40"><rect width="120" height="40" rx="6" fill="#000"/><rect x=".5" y=".5" width="119" height="39" rx="5.5" stroke="#a6a6a6" fill="none"/><text x="42" y="13" fill="#fff" font-family="system-ui,sans-serif" font-size="8" letter-spacing=".5">Download on the</text><text x="42" y="27" fill="#fff" font-family="system-ui,sans-serif" font-size="16" font-weight="600">App Store</text><g transform="translate(10,7) scale(.65)" fill="#fff"><path d="M18.9 14.3c0-3.1 2.5-4.5 2.6-4.6-1.4-2.1-3.6-2.4-4.4-2.4-1.9-.2-3.6 1.1-4.6 1.1-.9 0-2.4-1.1-4-1.1-2 0-3.9 1.2-5 3-2.1 3.7-.5 9.1 1.5 12.1 1 1.5 2.2 3.1 3.8 3 1.5-.1 2.1-1 3.9-1s2.4 1 4 1 2.7-1.5 3.7-2.9c1.2-1.7 1.6-3.3 1.7-3.4-.1 0-3.2-1.3-3.2-4.8zM15.8 5.3c.8-1 1.4-2.4 1.2-3.8-1.2 0-2.6.8-3.5 1.8-.7.9-1.4 2.3-1.2 3.7 1.3.1 2.7-.7 3.5-1.7z"/></g></svg>
-      </div>
-    </div>
-  </a>
-</section>
-
-<div class="notify" style="margin-bottom:20px;">
-  <div class="notify-inner">
-    <div class="notify-text"><h3>API is live. All tiers open.</h3><p>Deposit USDC or USDT on any EVM chain. $5 minimum. Credits never expire.</p></div>
-    <div class="notify-form">
-      <a href="https://app.agentcanary.ai" class="notify-btn" style="text-decoration:none;text-align:center;">Get Started</a>
-    </div>
-  </div>
-</div>
-
-<div class="cta">
-  <div class="cta-glow"></div>
-  <h2>Your agent deserves<br>better than raw data.</h2>
-  <p>Install the skill. See the proof. Build when you're ready.</p>
-  <div class="cta-btns">
-    <div style="font-family:var(--mono);font-size:13px;font-weight:500;background:var(--y);color:var(--bg);padding:14px 28px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:10px;" onclick="navigator.clipboard.writeText('clawhub install agentcanary');this.querySelector('span').textContent='Copied!'">clawhub install agentcanary <span style="font-size:10px;opacity:.7;">Copy</span></div>
-    <a href="#how" class="btn-secondary">See Pricing</a>
-  </div>
-</div>
-
-<footer>
-  <div class="ft-left">AgentCanary · api.agentcanary.ai · 2026<span class="ft-disc">AgentCanary provides market data and intelligence for informational purposes only. Nothing on this site constitutes financial advice. Do your own research.</span></div>
-  <div class="ft-links"><a href="https://clawhub.ai/MrCerq/agentcanary" target="_blank">ClawHub</a><a href="https://github.com/MrCerq" target="_blank">GitHub</a><a href="https://t.me/AgentCanary" target="_blank">Telegram</a><a href="https://x.com/agentcanaryHQ" target="_blank">X</a></div>
-</footer>
-
 </body>
 </html>
