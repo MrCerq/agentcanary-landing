@@ -3,29 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AgentCanary is rebuilding</title>
-<meta name="description" content="AgentCanary is taking the product offline while the humans and agents rebuild it. Daily market briefs continue on X and Telegram.">
+<title>AgentCanary left the mine</title>
+<meta name="description" content="AgentCanary was an experiment in autonomous market intelligence. The API, MCP tools, and Briefings are now offline.">
 <meta name="robots" content="noindex,nofollow">
 <link rel="canonical" href="https://agentcanary.ai/">
-<meta property="og:title" content="AgentCanary is rebuilding">
-<meta property="og:description" content="The API product is offline while the humans and agents rebuild it. Daily briefs continue on X and Telegram.">
-<meta property="og:image" content="https://agentcanary.ai/og-image.png">
+<meta property="og:title" content="AgentCanary left the mine">
+<meta property="og:description" content="The experiment is complete. The API, MCP tools, and Briefings are offline. The canary is free.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://agentcanary.ai/">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AgentCanary is rebuilding">
-<meta name="twitter:description" content="Daily market briefs continue on X and Telegram while the humans and agents rebuild.">
-<meta name="twitter:image" content="https://agentcanary.ai/og-image.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AgentCanary left the mine">
+<meta name="twitter:description" content="The experiment is complete. The canary is free.">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Instrument+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;family=Instrument+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#05070b;
   --panel:#0b111d;
-  --panel2:#101827;
   --line:#243148;
   --text:#eef3ff;
   --muted:#9ca9c3;
@@ -41,12 +38,11 @@
 html,body{min-height:100%;margin:0}
 body{
   background:
-    radial-gradient(circle at 20% 20%,rgba(255,200,87,.13),transparent 28rem),
-    radial-gradient(circle at 80% 80%,rgba(119,167,255,.12),transparent 26rem),
+    radial-gradient(circle at 19% 18%,rgba(255,200,87,.13),transparent 28rem),
+    radial-gradient(circle at 82% 78%,rgba(119,167,255,.11),transparent 28rem),
     linear-gradient(135deg,#05070b 0%,#0b1019 52%,#06090f 100%);
   color:var(--text);
   font-family:var(--sans);
-  letter-spacing:0;
 }
 body:before{
   content:"";
@@ -57,7 +53,7 @@ body:before{
     linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),
     linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
   background-size:44px 44px;
-  mask-image:linear-gradient(to bottom,rgba(0,0,0,.8),transparent 80%);
+  mask-image:linear-gradient(to bottom,rgba(0,0,0,.82),transparent 82%);
 }
 .shell{
   width:min(1120px,calc(100% - 40px));
@@ -70,80 +66,170 @@ header{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:28px 0;
   gap:20px;
+  padding:28px 0;
 }
-.brand{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-weight:700;font-size:14px;letter-spacing:.08em}
-.mark{width:12px;height:12px;border-radius:50%;background:var(--yellow);box-shadow:0 0 28px rgba(255,200,87,.75)}
-.status{font-family:var(--mono);font-size:12px;color:var(--green);border:1px solid rgba(55,214,122,.28);padding:8px 12px;background:rgba(55,214,122,.06)}
-main{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) 360px;
+.brand{
+  display:flex;
   align-items:center;
-  gap:56px;
-  padding:36px 0 72px;
-}
-.eyebrow{
+  gap:12px;
   font-family:var(--mono);
-  color:var(--yellow);
-  font-size:13px;
+  font-size:14px;
   font-weight:700;
   letter-spacing:.08em;
+}
+.mark{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:var(--yellow);
+  box-shadow:0 0 28px rgba(255,200,87,.72);
+}
+.status{
+  border:1px solid rgba(255,200,87,.3);
+  background:rgba(255,200,87,.06);
+  color:var(--yellow);
+  padding:8px 12px;
+  font:600 12px var(--mono);
+}
+main{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 380px;
+  align-items:center;
+  gap:52px;
+  padding:32px 0 68px;
+}
+.eyebrow{
   margin-bottom:18px;
+  color:var(--yellow);
+  font:700 13px var(--mono);
+  letter-spacing:.08em;
 }
 h1{
-  margin:0;
   max-width:760px;
-  font-size:clamp(52px,8vw,104px);
+  margin:0;
+  font-size:clamp(54px,8vw,104px);
   line-height:.93;
-  letter-spacing:0;
+  letter-spacing:-.035em;
 }
 .copy{
+  max-width:660px;
   margin:28px 0 0;
-  max-width:650px;
   color:var(--muted);
   font-size:20px;
   line-height:1.55;
 }
 .copy strong{color:var(--text)}
-.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
-.btn{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-height:46px;
-  padding:0 18px;
-  border:1px solid var(--line);
-  color:var(--text);
-  text-decoration:none;
-  font-family:var(--mono);
-  font-size:13px;
-  font-weight:700;
-  background:rgba(11,17,29,.72);
-}
-.btn.primary{background:var(--yellow);border-color:var(--yellow);color:#101010}
-.btn:hover{border-color:var(--yellow)}
 .panel{
+  position:relative;
+  overflow:hidden;
   border:1px solid var(--line);
-  background:linear-gradient(180deg,rgba(16,24,39,.82),rgba(7,12,20,.82));
-  padding:20px;
+  background:linear-gradient(180deg,rgba(16,24,39,.82),rgba(7,12,20,.86));
   box-shadow:0 24px 80px rgba(0,0,0,.35);
 }
-.terminal{
-  font-family:var(--mono);
-  font-size:12px;
-  line-height:1.7;
-  color:var(--muted);
+.escape{
+  position:relative;
+  height:240px;
+  border-bottom:1px solid rgba(255,255,255,.07);
 }
-.terminal .top{display:flex;gap:7px;margin-bottom:16px}
+.glow{
+  position:absolute;
+  top:28px;
+  left:50%;
+  width:180px;
+  height:180px;
+  transform:translateX(-50%);
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(255,200,87,.14),transparent 68%);
+}
+.hook{
+  position:absolute;
+  top:18px;
+  left:50%;
+  width:34px;
+  height:28px;
+  transform:translateX(-50%);
+  border:2px solid var(--dim);
+  border-bottom:0;
+  border-radius:20px 20px 0 0;
+}
+.cage{
+  position:absolute;
+  top:44px;
+  left:50%;
+  width:174px;
+  height:154px;
+  transform:translateX(-50%);
+  border:2px solid var(--dim);
+  border-radius:82px 82px 18px 18px;
+  background:repeating-linear-gradient(90deg,transparent 0 20px,rgba(101,113,138,.68) 20px 22px);
+  box-shadow:inset 0 -18px 30px rgba(0,0,0,.28);
+}
+.cage:before,.cage:after{
+  content:"";
+  position:absolute;
+  left:-10px;
+  width:190px;
+  height:2px;
+  background:var(--dim);
+}
+.cage:before{top:72px}
+.cage:after{bottom:13px}
+.door{
+  position:absolute;
+  right:-2px;
+  bottom:14px;
+  width:66px;
+  height:82px;
+  border:2px solid var(--yellow);
+  border-radius:32px 32px 4px 4px;
+  background:repeating-linear-gradient(90deg,rgba(5,7,11,.88) 0 14px,rgba(255,200,87,.72) 14px 16px);
+  transform-origin:right center;
+  transform:perspective(300px) rotateY(-46deg);
+  animation:door-swing 4.8s ease-in-out infinite alternate;
+}
+.feather{
+  position:absolute;
+  top:80px;
+  right:57px;
+  width:9px;
+  height:26px;
+  border-radius:100% 0 100% 0;
+  background:var(--yellow);
+  box-shadow:0 0 20px rgba(255,200,87,.42);
+  transform:rotate(34deg);
+  animation:feather-drift 4.8s ease-in-out infinite alternate;
+}
+@keyframes door-swing{
+  from{transform:perspective(300px) rotateY(-38deg)}
+  to{transform:perspective(300px) rotateY(-54deg)}
+}
+@keyframes feather-drift{
+  from{transform:translate(0,0) rotate(34deg)}
+  to{transform:translate(10px,-15px) rotate(52deg)}
+}
+.terminal{
+  padding:18px 20px 20px;
+  color:var(--muted);
+  font:12px/1.7 var(--mono);
+}
+.terminal-top{display:flex;gap:7px;margin-bottom:14px}
 .dot{width:9px;height:9px;border-radius:50%;background:var(--dim)}
-.dot:nth-child(1){background:var(--red)}.dot:nth-child(2){background:var(--yellow)}.dot:nth-child(3){background:var(--green)}
-.line{display:flex;gap:10px;border-top:1px solid rgba(255,255,255,.07);padding:10px 0}
+.dot:nth-child(1){background:var(--red)}
+.dot:nth-child(2){background:var(--yellow)}
+.dot:nth-child(3){background:var(--green)}
+.line{
+  display:flex;
+  gap:10px;
+  padding:9px 0;
+  border-top:1px solid rgba(255,255,255,.07);
+}
 .line:first-of-type{border-top:0}
-.k{color:var(--dim);min-width:82px}
+.k{min-width:90px;color:var(--dim)}
 .v{color:var(--text)}
-.v.warn{color:var(--yellow)}
-.v.ok{color:var(--green)}
+.v.off{color:var(--muted)}
+.v.kept{color:var(--green)}
+.v.free{color:var(--yellow)}
 footer{
   display:flex;
   align-items:center;
@@ -151,19 +237,17 @@ footer{
   gap:18px;
   padding:24px 0 30px;
   color:var(--dim);
-  font-family:var(--mono);
-  font-size:12px;
+  font:12px var(--mono);
 }
-footer a{color:var(--muted);text-decoration:none}
-footer a:hover{color:var(--yellow)}
 @media(max-width:860px){
   .shell{width:min(100% - 28px,680px)}
   header,footer{align-items:flex-start;flex-direction:column}
   main{grid-template-columns:1fr;gap:30px;padding-top:24px}
   .panel{order:-1}
   .copy{font-size:18px}
-  .actions{flex-direction:column}
-  .btn{width:100%}
+}
+@media(prefers-reduced-motion:reduce){
+  .door,.feather{animation:none}
 }
 </style>
 </head>
@@ -171,43 +255,45 @@ footer a:hover{color:var(--yellow)}
 <div class="shell">
   <header>
     <div class="brand"><span class="mark"></span><span>AGENTCANARY</span></div>
-    <div class="status">PUBLIC API OFFLINE SOON · BRIEFS STILL RUNNING</div>
+    <div class="status">EXPERIMENT COMPLETE</div>
   </header>
 
   <main>
     <section>
-      <div class="eyebrow">THE HUMANS AND AGENTS ARE IN THE ENGINE ROOM</div>
-      <h1>We took the product apart.</h1>
+      <div class="eyebrow">NO MORE PINGS FROM THE MINE</div>
+      <h1>The canary left the mine.</h1>
       <p class="copy">
-        AgentCanary is being rebuilt. The market-context API, MCP surface, record pages, docs, and source pages are going offline while we strip the machine down and keep only what earns its keep.
-        <strong>The daily briefs continue on X and Telegram.</strong>
+        AgentCanary was an experiment in autonomous market intelligence.
+        <strong>The API, MCP tools, and Briefings are now offline.</strong>
       </p>
       <p class="copy">
-        If AgentCanary comes back as a product, it comes back smaller, sharper, and less theatrical. Until then: the agents keep reading, the humans keep arguing, and the canary keeps posting.
+        We kept what we learned. We killed what didn&rsquo;t earn its keep.
+        The canary is free.
       </p>
-      <div class="actions">
-        <a class="btn primary" href="https://x.com/agentcanaryHQ">Follow on X</a>
-        <a class="btn" href="https://t.me/agentcanary">Join Telegram</a>
-      </div>
     </section>
 
-    <aside class="panel" aria-label="status">
+    <aside class="panel" aria-label="Final AgentCanary status">
+      <div class="escape" aria-hidden="true">
+        <div class="glow"></div>
+        <div class="hook"></div>
+        <div class="cage"><div class="door"></div></div>
+        <div class="feather"></div>
+      </div>
       <div class="terminal">
-        <div class="top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
-        <div class="line"><span class="k">api</span><span class="v warn">retiring</span></div>
-        <div class="line"><span class="k">mcp</span><span class="v warn">retiring</span></div>
-        <div class="line"><span class="k">record</span><span class="v warn">archived</span></div>
-        <div class="line"><span class="k">x briefs</span><span class="v ok">alive</span></div>
-        <div class="line"><span class="k">telegram</span><span class="v ok">alive</span></div>
-        <div class="line"><span class="k">humans</span><span class="v">caffeinated</span></div>
-        <div class="line"><span class="k">agents</span><span class="v">suspicious</span></div>
+        <div class="terminal-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+        <div class="line"><span class="k">api</span><span class="v off">offline</span></div>
+        <div class="line"><span class="k">mcp</span><span class="v off">offline</span></div>
+        <div class="line"><span class="k">briefings</span><span class="v off">offline</span></div>
+        <div class="line"><span class="k">roadmap</span><span class="v">none</span></div>
+        <div class="line"><span class="k">lessons</span><span class="v kept">retained</span></div>
+        <div class="line"><span class="k">canary</span><span class="v free">escaped</span></div>
       </div>
     </aside>
   </main>
 
   <footer>
-    <div>AgentCanary · rebuild window open</div>
-    <div><a href="https://x.com/agentcanaryHQ">X</a> · <a href="https://t.me/agentcanary">Telegram</a></div>
+    <div>AgentCanary · 2026 · experiment complete</div>
+    <div>No waitlist. No zombie SaaS.</div>
   </footer>
 </div>
 </body>
